@@ -1,0 +1,75 @@
+{
+  "id": 1002418542,
+  "name": "MAPLE LEAF OR SCHNEIDERS BACON, 100/375 g",
+  "sale_story": "SAVE 33%",
+  "sku": "20772671_EA",
+  "description": "Selected varieties\n\nbacon",
+  "disclaimer_text": null,
+  "valid_from_timestamp": "2026-03-26T00:00:00-04:00",
+  "valid_to_timestamp": "2026-04-01T23:59:59-04:00",
+  "image_url": "https://f.wishabi.net/page_pdf_images/22970301/f07aa2d4-2483-11f1-9e87-c666802ef010/x_large",
+  "custom_id_field_1": "20772671_EA",
+  "custom_id_field_2": null,
+  "custom_id_field_3": null,
+  "custom_id_field_4": null,
+  "custom_id_field_5": null,
+  "custom_id_field_6": null,
+  "valid_from": "2026-03-26",
+  "valid_to": "2026-04-01",
+  "categories": [
+    "Meat"
+  ],
+  "pre_price_text": "",
+  "price_text": "4.00",
+  "post_price_text": "",
+  "hosted_coupon_image": null,
+  "hide_brand_in_pop": false,
+  "left": 827.54,
+  "bottom": -1336.31,
+  "right": 1800.07,
+  "top": -875.99,
+  "page": 2,
+  "item_categories": {
+    "l1": {
+      "confidence": null,
+      "category_name": "Food, Beverages & Tobacco",
+      "google_category_id": 319
+    },
+    "l2": {
+      "confidence": null,
+      "category_name": "Food Items",
+      "google_category_id": 342
+    },
+    "l3": {
+      "confidence": null,
+      "category_name": "Meat, Seafood & Eggs",
+      "google_category_id": 353
+    },
+    "l4": {
+      "confidence": null,
+      "category_name": "Meat",
+      "google_category_id": 2917
+    },
+    "l5": null,
+    "l6": null,
+    "l7": null
+  },
+  "flyer_id": 7855364,
+  "in_store_only": false,
+  "item_type": 1,
+  "average_rating": null,
+  "web_commission_url": "https://www.nofrills.ca/p/20772671_EA",
+  "item_web_url": "https://www.nofrills.ca/p/20772671_EA",
+  "brand": "MAPLE LEAF | SCHNEIDERS",
+  "images": [
+    "https://f.wishabi.net/page_pdf_images/22970301/f07aa2d4-2483-11f1-9e87-c666802ef010/x_large"
+  ],
+  "original_price": null,
+  "hide_flyer_item_ttm_links_outside_validity": false,
+  "sub_items": [],
+  "review_count": 0,
+  "rich_media": [],
+  "reviews": [],
+  "specs": [],
+  "features": []
+}
