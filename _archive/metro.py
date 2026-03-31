@@ -1,11 +1,13 @@
 import json
 import requests
 
-API_URL  = "https://metrodigital-apim.azure-api.net/api"
-API_KEY  = "021027e7c41548bcba5d2315a155816b"
+from datetime import date
+
+API_URL   = "https://metrodigital-apim.azure-api.net/api"
+API_KEY   = "021027e7c41548bcba5d2315a155816b"
 BANNER_ID = "62e3eddbffe0e6f10778a56d"  # Metro Ontario
-DATE     = "2026-03-31"
-LOCALE   = "en"
+DATE      = date.today().isoformat()
+LOCALE    = "en"
 
 HEADERS = {
     "Ocp-Apim-Subscription-Key": API_KEY,
