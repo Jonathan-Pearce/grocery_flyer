@@ -1,0 +1,15 @@
+=== Freshco Flyer Fetch — 2026-04-02 ===
+Run started : 2026-04-02 23:51:19 UTC
+
+Stores loaded: 164
+New publication entries added to store_flyers.json: 284
+Unique new publications to download: 9
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 9
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-04-02 23:51:41 UTC
+Elapsed      : 0m 22s
+

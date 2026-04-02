@@ -1,0 +1,91 @@
+=== Longos Flyer Fetch — 2026-04-02 ===
+Run started : 2026-04-02 23:52:14 UTC
+
+Loaded 43 stores from data/longos/stores.json
+
+Stores loaded: 43
+Phase 1: fetching publications per store…
+
+  [2] Oakville → ['7861952', '7852765']
+  [3] Fairview → ['7861952', '7852765']
+  [4] Markham → ['7861952', '7852765']
+  [5] Bayview → ['7861954', '7852767']
+  [6] Weston → ['7861952', '7852765']
+  [7] Brampton → ['7861952', '7852765']
+  [8] Glen Erin → ['7861952', '7852765']
+  [9] Walkers (N. Burlington) → ['7861952', '7852765']
+  [10] York Mills → ['7861954', '7852767']
+  [11] Rutherford → ['7861952', '7852765']
+  [12] Maple → ['7861952', '7852765']
+  [13] Winston Churchill → ['7861952', '7852765']
+  [14] Ponytrail → ['7861952', '7852765']
+  [15] Brookfield → no new flyers
+  [16] Burloak → ['7861952', '7852765']
+  [17] Boxgrove → ['7861952', '7852765']
+  [18] Elizabeth → no new flyers
+  [19] Aurora → ['7861952', '7852765']
+  [20] Bathurst → ['7861954', '7852767']
+  [21] The Market by Longo's Hudson Bay Centre → no new flyers
+  [22] Richmond Hill → ['7861954', '7852767']
+  [23] The Market by Longo's First Canadian Place → no new flyers
+  [24] Maple Leaf Square → ['7861952', '7852765']
+  [25] Milton → ['7861952', '7852765']
+  [26] Leaside → ['7861954', '7852767']
+  [27] Southeast Oakville → ['7861952', '7852765']
+  [28] Applewood Plaza → ['7861952', '7852765']
+  [29] Imperial Plaza → no new flyers
+  [30] Longo's Mount Pleasant → ['7861952', '7852765']
+  [31] Ancaster → ['7861952', '7852765']
+  [32] Longo's Guelph → ['7861952', '7852765']
+  [33] Ajax → ['7861952', '7852765']
+  [34] Stouffville → ['7861952', '7852765']
+  [35] Yonge Sheppard → ['7861954', '7852767']
+  [36] Green Lane → ['7861952', '7852765']
+  [37] Liberty Village → ['7861952', '7852765']
+  [38] Brooklin → ['7861954', '7852767']
+  [40] Kitchener → ['7861952', '7852765']
+  [41] Meadowvale → ['7861952', '7852765']
+  [42] Kleinburg → ['7861952', '7852765']
+  [43] Longo’s Queensway → ['7861952', '7852765']
+  [44] Colossus → ['7861952', '7852765']
+  [50] Garden Foods → ['7861953', '7852766']
+
+  76 new publication entries across 43 stores
+  6 unique new publication(s) to download
+  Saved → data/longos/store_flyers.json  (86,102 bytes)
+New publication entries added to store_flyers.json: 76
+Unique new publications to download: 6
+
+Phase 2: fetching products for each new publication…
+
+  [7861952] Weekly Flyer  (2026-04-02T00:00:00-04:00 → 2026-04-04T23:59:59-04:00)
+    255 products
+  Saved → data/longos/flyers/7861952.json  (532,933 bytes)
+  [7852765] Weekly Flyer  (2026-03-26T00:00:00-04:00 → 2026-04-04T23:59:59-04:00)
+    252 products
+  Saved → data/longos/flyers/7852765.json  (526,347 bytes)
+  [7861954] Weekly Flyer  (2026-04-02T00:00:00-04:00 → 2026-04-04T23:59:59-04:00)
+    275 products
+  Saved → data/longos/flyers/7861954.json  (576,278 bytes)
+  [7852767] Weekly Flyer  (2026-03-26T00:00:00-04:00 → 2026-04-04T23:59:59-04:00)
+    273 products
+  Saved → data/longos/flyers/7852767.json  (570,364 bytes)
+  [7861953] Weekly Flyer  (2026-04-02T00:00:00-04:00 → 2026-04-04T23:59:59-04:00)
+    257 products
+  Saved → data/longos/flyers/7861953.json  (536,529 bytes)
+  [7852766] Weekly Flyer  (2026-03-26T00:00:00-04:00 → 2026-04-04T23:59:59-04:00)
+    256 products
+  Saved → data/longos/flyers/7852766.json  (534,886 bytes)
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 6
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-04-02 23:52:20 UTC
+Elapsed      : 0m 6s
+
+
+Done.  Verbose log → logs/longos/2026-04-02_verbose.log
+       Summary log → logs/longos/2026-04-02_summary.log
+

@@ -1,0 +1,3704 @@
+{
+  "fetched_on": "2026-04-02",
+  "publication_id": "7834556",
+  "publication_meta": {
+    "id": 7834556,
+    "flyer_run_id": 1195252,
+    "valid_from": "2026-03-19T00:00:00-04:00",
+    "valid_to": "2026-04-29T23:59:59-04:00",
+    "available_from": "2026-03-18T00:00:00-04:00",
+    "available_to": "2026-04-29T23:59:59-04:00",
+    "locale": "en",
+    "pdf_url": "https://f.wishabi.net/flyers/16531448/6871e9c13a9f1924.pdf",
+    "postal_code": "M8X2X9",
+    "merchant_name": "Sobeys",
+    "merchant_logo_url": "https://images.wishabi.net/merchants/2072/1447788867/large",
+    "deep_link": "https://www.sobeys.com/en/flyer?flyer_run_id=1195252&flyer_type_name=naturalandwellnessbookletontario&locale=en&postal_code=M8X2X9&store_code=4743",
+    "flyer_type_id": 11659,
+    "sfml_url": "https://cdn-gateflipp.flippback.com/storefront-payload/1195252/7834556/d91ba5fd355e62881c05bc7e4c4506fa28c8ac30347668f9ecd28449fbada786?merchant_id=2072",
+    "name": "Natural and Wellness Booklet - Ontario",
+    "flyer_type": "naturalandwellnessbookletontario",
+    "external_display_name": "Wellness eflyer 03/19 - 04/29",
+    "first_page_thumbnail_400h_url": "https://f.wishabi.net/flyers/7834556/stock_premium/1773267687.jpg",
+    "storefront_images": {
+      "carousel_organic": "https://f.wishabi.net/flyers/7834556/storefront_carousel_organic/1773267687.jpg"
+    },
+    "correction_notices": []
+  },
+  "products_url": "https://dam.flippenterprise.net/flyerkit/publication/7834556/products?display_type=all&locale=en&access_token=afbc75b4e335236182ac2fba092a0d4a",
+  "products": [
+    {
+      "id": 999611909,
+      "name": "YOGGU! Plant Based Yogurt",
+      "sale_story": null,
+      "sku": null,
+      "description": "450 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-29T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22885041/04004126-1d98-11f1-b4a7-f6fc4ccb1946/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-29",
+      "categories": [
+        "Dairy"
+      ],
+      "pre_price_text": "",
+      "price_text": "7.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 2896.94,
+      "bottom": -2420.67,
+      "right": 3356.07,
+      "top": -1975.53,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Dairy Products",
+          "google_category_id": 347
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Yogurt",
+          "google_category_id": 2756
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7834556,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Yoggu",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22885041/04004126-1d98-11f1-b4a7-f6fc4ccb1946/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 999611944,
+      "name": "QUEST Protein Bars",
+      "sale_story": null,
+      "sku": null,
+      "description": "42-60 g or Chips 32 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-29T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22885042/06eb70fe-1d98-11f1-a8d6-f252959088a4/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-29",
+      "categories": [],
+      "pre_price_text": "2/",
+      "price_text": "9.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 3458.26,
+      "bottom": -2425.78,
+      "right": 3835.73,
+      "top": -1800.37,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Health & Beauty",
+          "google_category_id": 709
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Health Care",
+          "google_category_id": 710
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fitness & Nutrition",
+          "google_category_id": 717
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Nutrition Bars",
+          "google_category_id": 3375
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7834556,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Quest",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22885042/06eb70fe-1d98-11f1-a8d6-f252959088a4/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 999612090,
+      "name": "EVERYONE HAND SOAP, BODY WASH OR BODY LOTION",
+      "sale_story": "15% off",
+      "sku": null,
+      "description": "60-946 ML SELECTED",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-29T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22885044/00d3db8e-1d98-11f1-a086-c2c11a84b801/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-29",
+      "categories": [
+        "Health & Beauty"
+      ],
+      "pre_price_text": "",
+      "price_text": "",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 6899.86,
+      "bottom": -2407.27,
+      "right": 7462.36,
+      "top": -1863.28,
+      "page": 5,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Health & Beauty",
+          "google_category_id": 709
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Personal Care",
+          "google_category_id": 727
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Cosmetics",
+          "google_category_id": 729
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Bath & Body",
+          "google_category_id": 3423
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Body Wash",
+          "google_category_id": 3429
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7834556,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Everyone",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22885044/00d3db8e-1d98-11f1-a086-c2c11a84b801/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 999611839,
+      "name": "COMPLIMENTS Protein + Greens",
+      "sale_story": null,
+      "sku": null,
+      "description": "520 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-29T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22885040/021d4b1a-1d98-11f1-856e-1efaf1d63463/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-29",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "23.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1032.46,
+      "bottom": -1852.33,
+      "right": 1666.38,
+      "top": -1136.83,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Vegetables",
+          "google_category_id": 2833
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Greens",
+          "google_category_id": 2859
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7834556,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Compliments",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22885040/021d4b1a-1d98-11f1-856e-1efaf1d63463/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 999611899,
+      "name": "NUTS FOR CHEESE Dairy Free Cream Cheese",
+      "sale_story": null,
+      "sku": null,
+      "description": "210 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-29T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22885041/06075bf8-1d98-11f1-b4a7-f6fc4ccb1946/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-29",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "7.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1981.01,
+      "bottom": -2087.4,
+      "right": 2572.98,
+      "top": -1861.33,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Dips & Spreads",
+          "google_category_id": 348
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Cream Cheese",
+          "google_category_id": 2759
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7834556,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Nuts for Cheese",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22885041/06075bf8-1d98-11f1-b4a7-f6fc4ccb1946/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 999611908,
+      "name": "FLOURISH Pancake Mix",
+      "sale_story": null,
+      "sku": null,
+      "description": "430 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-29T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22885041/04c7b54e-1d98-11f1-b4a7-f6fc4ccb1946/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-29",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "8.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 2386.54,
+      "bottom": -1872.98,
+      "right": 2913.25,
+      "top": -1406.86,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Cooking & Baking Ingredients",
+          "google_category_id": 346
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Waffle & Pancake Mixes",
+          "google_category_id": 2747
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7834556,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "FLOURISH",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22885041/04c7b54e-1d98-11f1-b4a7-f6fc4ccb1946/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 999611982,
+      "name": "MADE WITH LOCAL Bars",
+      "sale_story": "100 Scene+ PTS when you buy 3",
+      "sku": null,
+      "description": "53-68 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-29T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22885042/0512d524-1d98-11f1-a8d6-f252959088a4/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-29",
+      "categories": [
+        "Grocery",
+        "Scene+"
+      ],
+      "pre_price_text": "",
+      "price_text": "2.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 4298.31,
+      "bottom": -2077.92,
+      "right": 5079.14,
+      "top": -1667.14,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Health & Beauty",
+          "google_category_id": 709
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Health Care",
+          "google_category_id": 710
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fitness & Nutrition",
+          "google_category_id": 717
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Nutrition Bars",
+          "google_category_id": 3375
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7834556,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "MADE WITH LOCAL",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22885042/0512d524-1d98-11f1-a8d6-f252959088a4/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 999611992,
+      "name": "KAIZEN Whey or Plant Protein Powders",
+      "sale_story": "300 Scene+ PTS when you buy 1",
+      "sku": null,
+      "description": "840 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-29T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22885043/0465c938-1d98-11f1-86a5-5a39006d04ee/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-29",
+      "categories": [
+        "Health & Beauty",
+        "Scene+"
+      ],
+      "pre_price_text": "",
+      "price_text": "43.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 5164.61,
+      "bottom": -882.8,
+      "right": 5612.09,
+      "top": -328.11,
+      "page": 4,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Health & Beauty",
+          "google_category_id": 709
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Health Care",
+          "google_category_id": 710
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fitness & Nutrition",
+          "google_category_id": 717
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Vitamins & Supplements",
+          "google_category_id": 3380
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7834556,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Kaizen",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22885043/0465c938-1d98-11f1-86a5-5a39006d04ee/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 999612024,
+      "name": "NATURE CLEAN Laundry DetergenT",
+      "sale_story": null,
+      "sku": null,
+      "description": "3 L",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-29T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22885043/0bec5186-1d98-11f1-86a5-5a39006d04ee/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-29",
+      "categories": [
+        "Home"
+      ],
+      "pre_price_text": "",
+      "price_text": "14.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 5164.61,
+      "bottom": -2432.65,
+      "right": 5565.48,
+      "top": -1791.73,
+      "page": 4,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Home & Garden",
+          "google_category_id": 745
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Household Supplies",
+          "google_category_id": 892
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Laundry Supplies",
+          "google_category_id": 899
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Laundry Detergent",
+          "google_category_id": 3832
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7834556,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Nature Clean",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22885043/0bec5186-1d98-11f1-86a5-5a39006d04ee/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 999612003,
+      "name": "CELLUCOR Sport or Pre-Workout Protein Powder",
+      "sale_story": null,
+      "sku": null,
+      "description": "220-285 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-29T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22885043/0512e2e4-1d98-11f1-86a5-5a39006d04ee/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-29",
+      "categories": [
+        "Pharmacy"
+      ],
+      "pre_price_text": "",
+      "price_text": "25.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 5649.38,
+      "bottom": -1295.31,
+      "right": 6096.85,
+      "top": -808.22,
+      "page": 4,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Health & Beauty",
+          "google_category_id": 709
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Health Care",
+          "google_category_id": 710
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fitness & Nutrition",
+          "google_category_id": 717
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Vitamins & Supplements",
+          "google_category_id": 3380
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7834556,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Cellucor",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22885043/0512e2e4-1d98-11f1-86a5-5a39006d04ee/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 999612018,
+      "name": "DR. SQUATCH Soap, Body Wash or Deodorants",
+      "sale_story": "15% OFF",
+      "sku": null,
+      "description": "75 g - 141 or 414 mL",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-29T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22885043/088f4304-1d98-11f1-86a5-5a39006d04ee/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-29",
+      "categories": [
+        "Health & Beauty"
+      ],
+      "pre_price_text": "",
+      "price_text": "",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 6129.48,
+      "bottom": -1726.48,
+      "right": 6751.75,
+      "top": -1367.56,
+      "page": 4,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Health & Beauty",
+          "google_category_id": 709
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Personal Care",
+          "google_category_id": 727
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Cosmetics",
+          "google_category_id": 729
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Bath & Body",
+          "google_category_id": 3423
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Body Wash",
+          "google_category_id": 3429
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7834556,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Dr. Squatch",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22885043/088f4304-1d98-11f1-86a5-5a39006d04ee/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 999612013,
+      "name": "TOM'S Toothpaste",
+      "sale_story": "100 Scene+ PTS when you buy 2",
+      "sku": null,
+      "description": "- 90",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-29T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22885043/0261ee32-1d98-11f1-86a5-5a39006d04ee/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-29",
+      "categories": [
+        "Pharmacy",
+        "Scene+"
+      ],
+      "pre_price_text": "",
+      "price_text": "5.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 6129.48,
+      "bottom": -1367.56,
+      "right": 6751.75,
+      "top": -976.02,
+      "page": 4,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Health & Beauty",
+          "google_category_id": 709
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Personal Care",
+          "google_category_id": 727
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Oral Care",
+          "google_category_id": 739
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Toothpaste",
+          "google_category_id": 3598
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7834556,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Tom s",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22885043/0261ee32-1d98-11f1-86a5-5a39006d04ee/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 999612058,
+      "name": "GENUINE HEALTH FERMENTED PROTEIN POWDERS",
+      "sale_story": "600 Scene+ PTS when you buy 1",
+      "sku": null,
+      "description": "600 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-29T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22885044/02c3c2e2-1d98-11f1-a086-c2c11a84b801/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-29",
+      "categories": [
+        "Pharmacy",
+        "Scene+"
+      ],
+      "pre_price_text": "",
+      "price_text": "46.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 7929.88,
+      "bottom": -1347.04,
+      "right": 8446.74,
+      "top": -795.64,
+      "page": 5,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Health & Beauty",
+          "google_category_id": 709
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Health Care",
+          "google_category_id": 710
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fitness & Nutrition",
+          "google_category_id": 717
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Vitamins & Supplements",
+          "google_category_id": 3380
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7834556,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "GENUINE HEALTH",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22885044/02c3c2e2-1d98-11f1-a086-c2c11a84b801/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 999612077,
+      "name": "HERBATINT NATURAL HAIR COLOUR",
+      "sale_story": null,
+      "sku": null,
+      "description": "120-135 ML SELECTED",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-29T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22885044/03cea7ec-1d98-11f1-a086-c2c11a84b801/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-29",
+      "categories": [
+        "Health & Beauty"
+      ],
+      "pre_price_text": "",
+      "price_text": "16.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 7961.95,
+      "bottom": -2410.97,
+      "right": 8457.84,
+      "top": -1863.28,
+      "page": 5,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Health & Beauty",
+          "google_category_id": 709
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Personal Care",
+          "google_category_id": 727
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Hair Care",
+          "google_category_id": 737
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Hair Color",
+          "google_category_id": 3549
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7834556,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "HERBATINT",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22885044/03cea7ec-1d98-11f1-a086-c2c11a84b801/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 999612060,
+      "name": "NATURE'S WAY NUTRASEA OR NUTRAVEGE LIQUIDS",
+      "sale_story": "15% off",
+      "sku": null,
+      "description": "200-500 ML",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-29T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22885044/017a1404-1d98-11f1-a086-c2c11a84b801/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-29",
+      "categories": [
+        "Pharmacy"
+      ],
+      "pre_price_text": "",
+      "price_text": "",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 7547.48,
+      "bottom": -1863.28,
+      "right": 7954.55,
+      "top": -1348.89,
+      "page": 5,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Health & Beauty",
+          "google_category_id": 709
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Health Care",
+          "google_category_id": 710
+        },
+        "l3": null,
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7834556,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Nature's Way",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22885044/017a1404-1d98-11f1-a086-c2c11a84b801/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 999611963,
+      "name": "SIMPLY Protein Bars",
+      "sale_story": null,
+      "sku": null,
+      "description": "40 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-29T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22885042/037acbb8-1d98-11f1-a8d6-f252959088a4/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-29",
+      "categories": [
+        "Grocery"
+      ],
+      "pre_price_text": "2/",
+      "price_text": "5.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 4302.01,
+      "bottom": -1382.19,
+      "right": 5071.74,
+      "top": -1075.04,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Health & Beauty",
+          "google_category_id": 709
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Health Care",
+          "google_category_id": 710
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fitness & Nutrition",
+          "google_category_id": 717
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Nutrition Bars",
+          "google_category_id": 3375
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7834556,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Simply",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22885042/037acbb8-1d98-11f1-a8d6-f252959088a4/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 999611937,
+      "name": "VALLEY POP Popcorn",
+      "sale_story": null,
+      "sku": null,
+      "description": "440 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-29T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22885042/0747a40a-1d98-11f1-a8d6-f252959088a4/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-29",
+      "categories": [
+        "Grocery"
+      ],
+      "pre_price_text": "",
+      "price_text": "7.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 3939.34,
+      "bottom": -1804.07,
+      "right": 4257.6,
+      "top": -1063.94,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Snack Foods",
+          "google_category_id": 358
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Popcorn",
+          "google_category_id": 2938
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7834556,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "valley pop",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22885042/0747a40a-1d98-11f1-a8d6-f252959088a4/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 999611876,
+      "name": "ELMHURST Milk or Barista",
+      "sale_story": null,
+      "sku": null,
+      "description": "946 mL 473 mL or Creamers",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-29T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22885041/00e70e2a-1d98-11f1-b4a7-f6fc4ccb1946/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-29",
+      "categories": [
+        "Grocery"
+      ],
+      "pre_price_text": "starting at",
+      "price_text": "7.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 2447.98,
+      "bottom": -782.69,
+      "right": 2818.05,
+      "top": -64.76,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Beverages",
+          "google_category_id": 320
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Milk",
+          "google_category_id": 333
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7834556,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Elmhurst Milked",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22885041/00e70e2a-1d98-11f1-b4a7-f6fc4ccb1946/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 999611880,
+      "name": "XO BAKING CO. Gluten Free Baking Mixes",
+      "sale_story": null,
+      "sku": null,
+      "description": "210-538 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-29T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22885041/016b63dc-1d98-11f1-b4a7-f6fc4ccb1946/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-29",
+      "categories": [
+        "Grocery"
+      ],
+      "pre_price_text": "starting at",
+      "price_text": "6.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 2029.81,
+      "bottom": -1152.75,
+      "right": 2444.28,
+      "top": -538.45,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Cooking & Baking Ingredients",
+          "google_category_id": 346
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Baking Mixes",
+          "google_category_id": 2714
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7834556,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "XO Baking Co.",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22885041/016b63dc-1d98-11f1-b4a7-f6fc4ccb1946/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 999611936,
+      "name": "THREE FARMERS Roasted Fava Beans or Chickpeas",
+      "sale_story": null,
+      "sku": null,
+      "description": "170 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-29T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22885042/01faebf6-1d98-11f1-a8d6-f252959088a4/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-29",
+      "categories": [
+        "Grocery"
+      ],
+      "pre_price_text": "",
+      "price_text": "7.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 3976.35,
+      "bottom": -764.18,
+      "right": 4257.6,
+      "top": -42.56,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Canned & Prepared Beans",
+          "google_category_id": 2772
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7834556,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Three Farmers",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22885042/01faebf6-1d98-11f1-a8d6-f252959088a4/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 999612052,
+      "name": "HERBALAND VITAMIN GUMMIES",
+      "sale_story": "15% off",
+      "sku": null,
+      "description": "60 PK OR 40-240 G",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-29T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22885044/ff9180be-1d97-11f1-a086-c2c11a84b801/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-29",
+      "categories": [
+        "Pharmacy"
+      ],
+      "pre_price_text": "",
+      "price_text": "",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 6896.16,
+      "bottom": -1347.04,
+      "right": 7398.22,
+      "top": -795.64,
+      "page": 5,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Health & Beauty",
+          "google_category_id": 709
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Health Care",
+          "google_category_id": 710
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fitness & Nutrition",
+          "google_category_id": 717
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Vitamins & Supplements",
+          "google_category_id": 3380
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7834556,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Herbaland",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22885044/ff9180be-1d97-11f1-a086-c2c11a84b801/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 999611962,
+      "name": "BAREBELLS Protein Bars",
+      "sale_story": "100 Scene+ PTS when you buy 4",
+      "sku": null,
+      "description": "55 g 100",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-29T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22885042/0257de4c-1d98-11f1-a8d6-f252959088a4/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-29",
+      "categories": [
+        "Health & Beauty",
+        "Scene+"
+      ],
+      "pre_price_text": "",
+      "price_text": "3.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 4283.5,
+      "bottom": -690.17,
+      "right": 5079.14,
+      "top": -242.39,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Health & Beauty",
+          "google_category_id": 709
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Health Care",
+          "google_category_id": 710
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fitness & Nutrition",
+          "google_category_id": 717
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Nutrition Bars",
+          "google_category_id": 3375
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7834556,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Barebells",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22885042/0257de4c-1d98-11f1-a8d6-f252959088a4/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 999611843,
+      "name": "PURE PROTEIN Bars",
+      "sale_story": "200 Scene+ PTS when you buy 2",
+      "sku": null,
+      "description": "6 pk",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-29T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22885040/02ccf812-1d98-11f1-856e-1efaf1d63463/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-29",
+      "categories": [
+        "Grocery",
+        "Scene+"
+      ],
+      "pre_price_text": "",
+      "price_text": "12.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 51.27,
+      "bottom": -2439.64,
+      "right": 757.45,
+      "top": -2036.45,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Health & Beauty",
+          "google_category_id": 709
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Health Care",
+          "google_category_id": 710
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fitness & Nutrition",
+          "google_category_id": 717
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Nutrition Bars",
+          "google_category_id": 3375
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7834556,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Pure Protein",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22885040/02ccf812-1d98-11f1-856e-1efaf1d63463/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 999611895,
+      "name": "ZEVIA Soda",
+      "sale_story": "100 Scene+ PTS when you buy 2",
+      "sku": null,
+      "description": "6x355 mL",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-29T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22885041/03439a80-1d98-11f1-b4a7-f6fc4ccb1946/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-29",
+      "categories": [
+        "Grocery",
+        "Scene+"
+      ],
+      "pre_price_text": "",
+      "price_text": "7.49",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 2873.56,
+      "bottom": -1363.69,
+      "right": 3380.54,
+      "top": -860.4,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Beverages",
+          "google_category_id": 320
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Soda",
+          "google_category_id": 336
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7834556,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Zevia",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22885041/03439a80-1d98-11f1-b4a7-f6fc4ccb1946/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 999611840,
+      "name": "VIOLIFE Cheese Blocks or Slices",
+      "sale_story": null,
+      "sku": null,
+      "description": "200 g or Cream Cheese 227 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-29T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22885040/05650862-1d98-11f1-856e-1efaf1d63463/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-29",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "4.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 526.72,
+      "bottom": -1393.2,
+      "right": 990.51,
+      "top": -850.17,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Dairy Products",
+          "google_category_id": 347
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Cheese",
+          "google_category_id": 2750
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7834556,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Violife",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22885040/05650862-1d98-11f1-856e-1efaf1d63463/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 999611834,
+      "name": "SILK Select Beverages",
+      "sale_story": null,
+      "sku": null,
+      "description": "1.75-1.89 L 6.99 ea",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-29T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22885040/05454af4-1d98-11f1-856e-1efaf1d63463/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-29",
+      "categories": [
+        "Dairy"
+      ],
+      "pre_price_text": "",
+      "price_text": "4.50",
+      "post_price_text": "ea when you buy 2 or more",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 44.28,
+      "bottom": -1850.0,
+      "right": 505.74,
+      "top": -1097.21,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Beverages",
+          "google_category_id": 320
+        },
+        "l3": null,
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7834556,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Silk",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22885040/05454af4-1d98-11f1-856e-1efaf1d63463/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 999611835,
+      "name": "COVE Soda",
+      "sale_story": null,
+      "sku": null,
+      "description": "355 mL",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-29T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22885040/0400e4fa-1d98-11f1-856e-1efaf1d63463/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-29",
+      "categories": [
+        "Grocery"
+      ],
+      "pre_price_text": "2/",
+      "price_text": "5.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 757.45,
+      "bottom": -2439.64,
+      "right": 1232.89,
+      "top": -1894.28,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Beverages",
+          "google_category_id": 320
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Soda",
+          "google_category_id": 336
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7834556,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Cove",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22885040/0400e4fa-1d98-11f1-856e-1efaf1d63463/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 999611939,
+      "name": "PANDA Licorice",
+      "sale_story": "50 Scene+ PTS when you buy 2",
+      "sku": null,
+      "description": "170 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-29T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22885042/0632349a-1d98-11f1-a8d6-f252959088a4/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-29",
+      "categories": [
+        "Grocery",
+        "Scene+"
+      ],
+      "pre_price_text": "",
+      "price_text": "3.49",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 3450.86,
+      "bottom": -1804.07,
+      "right": 3939.34,
+      "top": -1241.57,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Candy & Chocolate",
+          "google_category_id": 2682
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7834556,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Panda",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22885042/0632349a-1d98-11f1-a8d6-f252959088a4/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 999611985,
+      "name": "CLIF Bars",
+      "sale_story": "200 Scene+ PTS when you buy 2",
+      "sku": null,
+      "description": "5 pk 200",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-29T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22885042/05cdadb8-1d98-11f1-a8d6-f252959088a4/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-29",
+      "categories": [
+        "Grocery",
+        "Scene+"
+      ],
+      "pre_price_text": "",
+      "price_text": "9.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 4287.2,
+      "bottom": -2425.78,
+      "right": 5079.14,
+      "top": -2077.92,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Health & Beauty",
+          "google_category_id": 709
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Health Care",
+          "google_category_id": 710
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fitness & Nutrition",
+          "google_category_id": 717
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Nutrition Bars",
+          "google_category_id": 3375
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7834556,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Clif Bar",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22885042/05cdadb8-1d98-11f1-a8d6-f252959088a4/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 999611831,
+      "name": "SILK High Protein Soy Milk",
+      "sale_story": null,
+      "sku": null,
+      "description": "1.42 L",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-29T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22885040/062bce48-1d98-11f1-856e-1efaf1d63463/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-29",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "7.49",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 41.95,
+      "bottom": -1071.58,
+      "right": 526.72,
+      "top": -265.19,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Beverages",
+          "google_category_id": 320
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Milk",
+          "google_category_id": 333
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7834556,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Silk",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22885040/062bce48-1d98-11f1-856e-1efaf1d63463/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 999611841,
+      "name": "SILK Creamers",
+      "sale_story": null,
+      "sku": null,
+      "description": "450-473 mL",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-29T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22885040/020f30b6-1d98-11f1-856e-1efaf1d63463/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-29",
+      "categories": [
+        "Dairy"
+      ],
+      "pre_price_text": "",
+      "price_text": "3.49",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 505.74,
+      "bottom": -1850.0,
+      "right": 990.51,
+      "top": -1393.2,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Dairy Products",
+          "google_category_id": 347
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Coffee Creamer",
+          "google_category_id": 2751
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7834556,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Silk",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22885040/020f30b6-1d98-11f1-856e-1efaf1d63463/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 999611874,
+      "name": "MANITOBA HARVEST Hemp Hearts",
+      "sale_story": null,
+      "sku": null,
+      "description": "227 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-29T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22885041/01c51184-1d98-11f1-b4a7-f6fc4ccb1946/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-29",
+      "categories": [
+        "Grocery"
+      ],
+      "pre_price_text": "",
+      "price_text": "6.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 2444.28,
+      "bottom": -1363.69,
+      "right": 2818.05,
+      "top": -782.69,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": null,
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7834556,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Manitoba Harvest",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22885041/01c51184-1d98-11f1-b4a7-f6fc4ccb1946/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 999611875,
+      "name": "RISE Botanicals Beverage or Organic Kombucha",
+      "sale_story": null,
+      "sku": null,
+      "description": "414 mL",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-29T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22885041/027bb434-1d98-11f1-b4a7-f6fc4ccb1946/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-29",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "3.69",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 2873.56,
+      "bottom": -860.4,
+      "right": 3380.54,
+      "top": -234.99,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Beverages",
+          "google_category_id": 320
+        },
+        "l3": null,
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7834556,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Rise",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22885041/027bb434-1d98-11f1-b4a7-f6fc4ccb1946/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 999611907,
+      "name": "LITTLE NORTHERN BAKEHOUSE Gluten Free Breads, Buns or Bagels",
+      "sale_story": null,
+      "sku": null,
+      "description": "260-567g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-29T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22885041/05ab13e8-1d98-11f1-b4a7-f6fc4ccb1946/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-29",
+      "categories": [
+        "Bakery"
+      ],
+      "pre_price_text": "starting at",
+      "price_text": "7.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 2915.58,
+      "bottom": -1975.53,
+      "right": 3356.07,
+      "top": -1411.52,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Bakery",
+          "google_category_id": 343
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Breads & Buns",
+          "google_category_id": 2668
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7834556,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "LITTLE NORTHERN BAKEHOUSE",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22885041/05ab13e8-1d98-11f1-b4a7-f6fc4ccb1946/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 999611845,
+      "name": "MADE GOOD Bars, Minis or Rice Crisps",
+      "sale_story": null,
+      "sku": null,
+      "description": "120-150 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-29T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22885040/04996fea-1d98-11f1-856e-1efaf1d63463/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-29",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "3.49",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1232.89,
+      "bottom": -2439.64,
+      "right": 1652.4,
+      "top": -1894.28,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Snack Foods",
+          "google_category_id": 358
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7834556,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Made Good",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22885040/04996fea-1d98-11f1-856e-1efaf1d63463/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 999611969,
+      "name": "KIND Fruit & Nut Bars",
+      "sale_story": null,
+      "sku": null,
+      "description": "40 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-29T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22885042/0477fb6c-1d98-11f1-a8d6-f252959088a4/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-29",
+      "categories": [
+        "Grocery"
+      ],
+      "pre_price_text": "",
+      "price_text": "2.29",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 4298.31,
+      "bottom": -1667.14,
+      "right": 5071.74,
+      "top": -1382.19,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Health & Beauty",
+          "google_category_id": 709
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Health Care",
+          "google_category_id": 710
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fitness & Nutrition",
+          "google_category_id": 717
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Nutrition Bars",
+          "google_category_id": 3375
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7834556,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Kind",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22885042/0477fb6c-1d98-11f1-a8d6-f252959088a4/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 999612033,
+      "name": "GREEN WORKS Wipes",
+      "sale_story": "100 Scene+ PTS when you buy 2",
+      "sku": null,
+      "description": "75 pk selected",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-29T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22885043/0c62ef8a-1d98-11f1-86a5-5a39006d04ee/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-29",
+      "categories": [
+        "Home",
+        "Scene+"
+      ],
+      "pre_price_text": "",
+      "price_text": "6.49",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 6376.52,
+      "bottom": -2430.32,
+      "right": 6786.71,
+      "top": -1756.77,
+      "page": 4,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Baby & Toddler",
+          "google_category_id": 123
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Diapering",
+          "google_category_id": 163
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Baby Wipes",
+          "google_category_id": 165
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7834556,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Green Works",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22885043/0c62ef8a-1d98-11f1-86a5-5a39006d04ee/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 999611912,
+      "name": "JORDANS Cereal",
+      "sale_story": null,
+      "sku": null,
+      "description": "375-400 g or Granola 325-375 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-29T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22885041/054edd62-1d98-11f1-b4a7-f6fc4ccb1946/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-29",
+      "categories": [
+        "Grocery"
+      ],
+      "pre_price_text": "",
+      "price_text": "5.49",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 2384.21,
+      "bottom": -2420.67,
+      "right": 2896.94,
+      "top": -2087.4,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Grains, Rice & Cereal",
+          "google_category_id": 352
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Cereal & Granola",
+          "google_category_id": 2908
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7834556,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Jordans",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22885041/054edd62-1d98-11f1-b4a7-f6fc4ccb1946/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 999611924,
+      "name": "ALMOND BREEZE Milk",
+      "sale_story": null,
+      "sku": null,
+      "description": "1.89 mL",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-29T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22885041/03bc54c0-1d98-11f1-b4a7-f6fc4ccb1946/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-29",
+      "categories": [
+        "Grocery"
+      ],
+      "pre_price_text": "",
+      "price_text": "3.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1745.62,
+      "bottom": -2429.99,
+      "right": 1981.01,
+      "top": -1868.32,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Beverages",
+          "google_category_id": 320
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Milk",
+          "google_category_id": 333
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7834556,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Almond Breeze",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22885041/03bc54c0-1d98-11f1-b4a7-f6fc4ccb1946/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 999611932,
+      "name": "NONNA PIA'S Pasta Sauce",
+      "sale_story": null,
+      "sku": null,
+      "description": "660 mL",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-29T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22885042/ffedc3d8-1d97-11f1-a8d6-f252959088a4/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-29",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "6.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 3739.51,
+      "bottom": -616.16,
+      "right": 3980.05,
+      "top": -49.96,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Condiments & Sauces",
+          "google_category_id": 345
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Pasta Sauce",
+          "google_category_id": 2698
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7834556,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "NONNA PIA'S",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22885042/ffedc3d8-1d97-11f1-a8d6-f252959088a4/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 999612029,
+      "name": "ECO MAX Laundry or Fabric Softener",
+      "sale_story": null,
+      "sku": null,
+      "description": "3 L",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-29T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22885043/0b720d86-1d98-11f1-86a5-5a39006d04ee/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-29",
+      "categories": [
+        "Home"
+      ],
+      "pre_price_text": "",
+      "price_text": "12.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 5565.48,
+      "bottom": -2432.65,
+      "right": 5952.35,
+      "top": -1992.16,
+      "page": 4,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Home & Garden",
+          "google_category_id": 745
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Household Supplies",
+          "google_category_id": 892
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Laundry Supplies",
+          "google_category_id": 899
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fabric Softeners & Dryer Sheets",
+          "google_category_id": 3822
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7834556,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Eco Max",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22885043/0b720d86-1d98-11f1-86a5-5a39006d04ee/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 999612079,
+      "name": "THE UNSCENTED COMPANY HAIR CARE, SKIN CARE, CLEANING OR LAUNDRY PRODUCTS",
+      "sale_story": "20% off",
+      "sku": null,
+      "description": "30 PK, 65-120 G OR 500 ML - 2 L",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-29T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22885044/033547c8-1d98-11f1-a086-c2c11a84b801/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-29",
+      "categories": [
+        "Air Miles Insert"
+      ],
+      "pre_price_text": "",
+      "price_text": "",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 7462.36,
+      "bottom": -2410.97,
+      "right": 7961.95,
+      "top": -1859.58,
+      "page": 5,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Health & Beauty",
+          "google_category_id": 709
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Personal Care",
+          "google_category_id": 727
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Cosmetics",
+          "google_category_id": 729
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Skin Care",
+          "google_category_id": 3510
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7834556,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "THE UNSCENTED COMPANY",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22885044/033547c8-1d98-11f1-a086-c2c11a84b801/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 999612001,
+      "name": "WEBBER NATURALS Magnesium, Collagen or Multivitamin Supplements",
+      "sale_story": "20% OFF, 400 Scene+ PTS when you buy 2",
+      "sku": null,
+      "description": "selected varieties and sizes",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-29T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22885043/07a39468-1d98-11f1-86a5-5a39006d04ee/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-29",
+      "categories": [
+        "Health & Beauty",
+        "Scene+"
+      ],
+      "pre_price_text": "",
+      "price_text": "",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 5159.95,
+      "bottom": -1295.31,
+      "right": 5649.38,
+      "top": -885.13,
+      "page": 4,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Health & Beauty",
+          "google_category_id": 709
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Health Care",
+          "google_category_id": 710
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fitness & Nutrition",
+          "google_category_id": 717
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Vitamins & Supplements",
+          "google_category_id": 3380
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7834556,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "WEBBER",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22885043/07a39468-1d98-11f1-86a5-5a39006d04ee/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 999612017,
+      "name": "WAKE WATER Electrolyte Powders",
+      "sale_story": null,
+      "sku": null,
+      "description": "8 pk",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-29T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22885043/05f4b818-1d98-11f1-86a5-5a39006d04ee/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-29",
+      "categories": [
+        "Health & Beauty"
+      ],
+      "pre_price_text": "",
+      "price_text": "16.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 5689.0,
+      "bottom": -1726.48,
+      "right": 6129.48,
+      "top": -1297.64,
+      "page": 4,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Health & Beauty",
+          "google_category_id": 709
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Health Care",
+          "google_category_id": 710
+        },
+        "l3": null,
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7834556,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "WAKEWATER",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22885043/05f4b818-1d98-11f1-86a5-5a39006d04ee/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 999612057,
+      "name": "NOW VITAMINS OR SUPPLEMENTS",
+      "sale_story": "15% off",
+      "sku": null,
+      "description": "SELECTED VARIETIES AND SIZES",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-29T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22885044/02a5b55e-1d98-11f1-a086-c2c11a84b801/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-29",
+      "categories": [
+        "Pharmacy"
+      ],
+      "pre_price_text": "",
+      "price_text": "",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 7398.22,
+      "bottom": -1347.04,
+      "right": 7929.88,
+      "top": -795.64,
+      "page": 5,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Health & Beauty",
+          "google_category_id": 709
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Health Care",
+          "google_category_id": 710
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fitness & Nutrition",
+          "google_category_id": 717
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Vitamins & Supplements",
+          "google_category_id": 3380
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7834556,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "NOW",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22885044/02a5b55e-1d98-11f1-a086-c2c11a84b801/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 999612076,
+      "name": "A. VOGEL ECHINAFORCE",
+      "sale_story": "15% off",
+      "sku": null,
+      "description": "30-100 ML OR 30-90 PK SELECTED",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-29T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22885044/0212968e-1d98-11f1-a086-c2c11a84b801/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-29",
+      "categories": [
+        "Health & Beauty"
+      ],
+      "pre_price_text": "",
+      "price_text": "",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 7954.55,
+      "bottom": -1863.28,
+      "right": 8457.84,
+      "top": -1348.89,
+      "page": 5,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Health & Beauty",
+          "google_category_id": 709
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Health Care",
+          "google_category_id": 710
+        },
+        "l3": null,
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7834556,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "A. VOGEL",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22885044/0212968e-1d98-11f1-a086-c2c11a84b801/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 999612059,
+      "name": "ANCIENT NUTRITION BONE BROTH OR COLLAGEN",
+      "sale_story": "600 Scene+ PTS when you buy 1",
+      "sku": null,
+      "description": "242-357 G",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-29T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22885044/0036e4dc-1d98-11f1-a086-c2c11a84b801/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-29",
+      "categories": [
+        "Health & Beauty",
+        "Scene+"
+      ],
+      "pre_price_text": "",
+      "price_text": "39.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 6892.46,
+      "bottom": -1863.28,
+      "right": 7547.48,
+      "top": -1345.19,
+      "page": 5,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Soups & Broths",
+          "google_category_id": 359
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7834556,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Ancient Nutrition",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22885044/0036e4dc-1d98-11f1-a086-c2c11a84b801/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 999611964,
+      "name": "GRENADE Bars",
+      "sale_story": "100 Scene+ PTS when you buy 2",
+      "sku": null,
+      "description": "60 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-29T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22885042/03c60f42-1d98-11f1-a8d6-f252959088a4/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-29",
+      "categories": [
+        "Grocery",
+        "Scene+"
+      ],
+      "pre_price_text": "2/",
+      "price_text": "7.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 4302.01,
+      "bottom": -1075.04,
+      "right": 5079.14,
+      "top": -690.17,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": null,
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7834556,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "GRENADE",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22885042/03c60f42-1d98-11f1-a8d6-f252959088a4/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 999611997,
+      "name": "VEGA Protein Made",
+      "sale_story": null,
+      "sku": null,
+      "description": "259-271 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-29T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22885043/0633a852-1d98-11f1-86a5-5a39006d04ee/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-29",
+      "categories": [
+        "Health & Beauty"
+      ],
+      "pre_price_text": "",
+      "price_text": "17.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 5612.09,
+      "bottom": -808.22,
+      "right": 6213.38,
+      "top": -330.45,
+      "page": 4,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Health & Beauty",
+          "google_category_id": 709
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Health Care",
+          "google_category_id": 710
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fitness & Nutrition",
+          "google_category_id": 717
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Vitamins & Supplements",
+          "google_category_id": 3380
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7834556,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Vega",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22885043/0633a852-1d98-11f1-86a5-5a39006d04ee/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 999611872,
+      "name": "ENJOY LIFE Chocolate Chips",
+      "sale_story": null,
+      "sku": null,
+      "description": "255-283 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-29T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22885041/016b63dc-1d98-11f1-b4a7-f6fc4ccb1946/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-29",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "8.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1767.06,
+      "bottom": -534.74,
+      "right": 2318.46,
+      "top": -116.57,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Snack Foods",
+          "google_category_id": 358
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Chips",
+          "google_category_id": 2933
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7834556,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Enjoy Life Foods",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22885041/016b63dc-1d98-11f1-b4a7-f6fc4ccb1946/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 999611957,
+      "name": "BUILT Bars",
+      "sale_story": null,
+      "sku": null,
+      "description": "or SINFIT Protein Chips 40-54 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-29T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22885042/080fd286-1d98-11f1-a8d6-f252959088a4/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-29",
+      "categories": [
+        "Grocery"
+      ],
+      "pre_price_text": "2/",
+      "price_text": "8.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 3835.73,
+      "bottom": -2425.78,
+      "right": 4279.8,
+      "top": -1804.07,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Snack Foods",
+          "google_category_id": 358
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Cereal & Granola Bars",
+          "google_category_id": 2931
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7834556,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "BUILT | SINFIT",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22885042/080fd286-1d98-11f1-a8d6-f252959088a4/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 999612030,
+      "name": "MRS. MEYER'S Dish Soap, Cleaners or Hand Soap",
+      "sale_story": "300 Scene+ PTS when you buy 2",
+      "sku": null,
+      "description": "370-473 mL selected",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-29T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22885043/09660380-1d98-11f1-86a5-5a39006d04ee/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-29",
+      "categories": [
+        "Health & Beauty",
+        "Scene+"
+      ],
+      "pre_price_text": "",
+      "price_text": "6.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 5945.36,
+      "bottom": -2430.32,
+      "right": 6376.52,
+      "top": -1831.35,
+      "page": 4,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Health & Beauty",
+          "google_category_id": 709
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Personal Care",
+          "google_category_id": 727
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Cosmetics",
+          "google_category_id": 729
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Bath & Body",
+          "google_category_id": 3423
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Liquid Hand Soap",
+          "google_category_id": 3431
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7834556,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Mrs. Meyer's",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22885043/09660380-1d98-11f1-86a5-5a39006d04ee/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 999612012,
+      "name": "ORGANIKA Electrolytes",
+      "sale_story": "15% OFF",
+      "sku": null,
+      "description": "210-360 g or 20-21 pk",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-29T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22885043/07ddd36c-1d98-11f1-86a5-5a39006d04ee/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-29",
+      "categories": [
+        "Health & Beauty"
+      ],
+      "pre_price_text": "",
+      "price_text": "",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 5176.27,
+      "bottom": -1726.48,
+      "right": 5689.0,
+      "top": -1299.98,
+      "page": 4,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Health & Beauty",
+          "google_category_id": 709
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Health Care",
+          "google_category_id": 710
+        },
+        "l3": null,
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7834556,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Organika",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22885043/07ddd36c-1d98-11f1-86a5-5a39006d04ee/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    }
+  ]
+}
