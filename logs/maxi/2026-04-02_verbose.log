@@ -326,3 +326,244 @@ Elapsed      : 0m 36s
 Done.  Verbose log → logs/maxi/2026-04-02_verbose.log
        Summary log → logs/maxi/2026-04-02_summary.log
 
+=== Maxi Flyer Fetch — 2026-04-02 ===
+Run started : 2026-04-02 22:47:39 UTC
+
+Loaded 208 stores from data/maxi/stores.json
+
+Stores loaded: 208
+Loaded existing store_flyers.json (402 publication entries)
+
+Phase 1: fetching publications per store…
+
+  [21] TEST STORE → no new flyers
+  [3736] Caraquet St-Pierre → no new flyers
+  [4540] Trois-Rivières → no new flyers
+  [4541] SHERBROOKE → no new flyers
+  [4544] L’Ormiere → no new flyers
+  [4552] Laval Rene Laennec → no new flyers
+  [4554] Vaudreuil → no new flyers
+  [4558] Jean Talon → no new flyers
+  [4559] Granby → no new flyers
+  [4561] St.Hyacinthe → no new flyers
+  [4564] Val D'Or → no new flyers
+  [4565] Varennes → no new flyers
+  [4669] Marieville 282 Rue Ouellette → no new flyers
+  [5401] St-Raymond → no new flyers
+  [5402] Charlesbourg → no new flyers
+  [5403] Mistassini → no new flyers
+  [5404] St-Lambert → no new flyers
+  [5405] Baie Comeau → no new flyers
+  [7079] George-Muir → no new flyers
+  [7140] Beauharnois → no new flyers
+  [7153] Port-Cariter → no new flyers
+  [7157] Varennes → no new flyers
+  [7209] La Malbaie → no new flyers
+  [7210] Evain → no new flyers
+  [7211] Lorraine → no new flyers
+  [7212] Gatineau Mont Bleu → no new flyers
+  [7213] Chicoutimi → no new flyers
+  [7214] Baie D’Urfé → no new flyers
+  [7215] St-Michel-des-Saints → no new flyers
+  [7216] Maloney Est → no new flyers
+  [7218] Sainte-Anne-des-Plaines → no new flyers
+  [7219] Beauport Seigneurial → no new flyers
+  [7220] Gaspé → no new flyers
+  [7221] St-Lin-Laurentides → no new flyers
+  [7222] Ste-Foy → no new flyers
+  [7223] Ste-Foy → no new flyers
+  [7224] Coteau du Lac → no new flyers
+  [7225] Lévis → no new flyers
+  [7226] Riviere-du-Loup → no new flyers
+  [7231] Blainville → no new flyers
+  [7232] Valleyfield → no new flyers
+  [7233] Maxi St-Pascal → no new flyers
+  [7234] St-Urbain → no new flyers
+  [7495] Cavendish → no new flyers
+  [7538] Huntington → no new flyers
+  [7547] Maxi Montreal → no new flyers
+  [7548] LIEGE → no new flyers
+  [7549] Maxi Beaubien E → no new flyers
+  [7550] Laurendeau → no new flyers
+  [7551] LEBEL SUR QUEVILLON → no new flyers
+  [7552] SILLERY Rene-Levesque → no new flyers
+  [7553] Quebec City → no new flyers
+  [7554] Repentigny → no new flyers
+  [7555] Granby Leclerc → no new flyers
+  [7556] Levis → no new flyers
+  [7557] LaSalle → no new flyers
+  [7558] Pierrefonds → no new flyers
+  [7559] Forestville → no new flyers
+  [7560] Windsor → no new flyers
+  [7561] LENNOXVILLE → no new flyers
+  [7562] St-Jacques-de-Montcalm → no new flyers
+  [7563] Maxi Montréal Henri-Bourassa → no new flyers
+  [7564] Québec City → no new flyers
+  [7565] Sorel-Tracy → no new flyers
+  [7566] Hull → no new flyers
+  [7567] Sherbrooke → no new flyers
+  [7568] Ville Marie → no new flyers
+  [7569] Pointe-à-la-Croix → no new flyers
+  [7570] Sherbrooke → no new flyers
+  [7571] Maxi @ 1005 Bd Laure, Sept-Îles → no new flyers
+  [7572] Maxi @ 22 Rue des Flandres → no new flyers
+  [7573] MTL - Sherbrooke E (Versailles) → no new flyers
+  [7574] Saguenay → no new flyers
+  [7575] Sainte Julie → no new flyers
+  [7577] Maxi Acton Vale → no new flyers
+  [7657] Contrecoeur → no new flyers
+  [7945] Windsor → no new flyers
+  [7946] HOCHELAGA → no new flyers
+  [7957] Maxi St-Nicolas → no new flyers
+  [7958] Boisbriand → no new flyers
+  [7959] MAXI LA POCATIERE → no new flyers
+  [7960] 7960 STE ADELE → no new flyers
+  [7969] 7969 → no new flyers
+  [7972] HENRI-BOURASSA (CHARLESBOURG) → no new flyers
+  [7976] Maxi Pintendre → no new flyers
+  [8049] Maxi Les Saules → no new flyers
+  [8384] Maxi @ 3500, Boul. St-Martin Ouest → no new flyers
+  [8386] Maxi @ 7605, Maurice Duplessis → no new flyers
+  [8388] Maxi @ 800, Boul. Maloney Ouest → no new flyers
+  [8389] Maxi @ 130, Chemin Lepine → no new flyers
+  [8493] Maxi Sainte-Julie → no new flyers
+  [8602] Maxi @ 801, route principale, route 117 → no new flyers
+  [8609] Maxi @ 14 875, boul. Pierrefonds → no new flyers
+  [8612] Maxi @ 940, chemin Du Sault → no new flyers
+  [8616] Maxi @ 33, boul. St-Benoit → no new flyers
+  [8618] Maxi @ 2840, boul. Des Promenades → no new flyers
+  [8619] Maxi @ 2100, rue Bagot → no new flyers
+  [8621] Maxi @ 472, 4 ieme Rue Est → no new flyers
+  [8622] Maxi @ 390, Montee des Pionniers → no new flyers
+  [8624] Maxi @ 170, Principale sud → no new flyers
+  [8625] Maxi @ 150, avenue Saint-Alphonse → no new flyers
+  [8626] Maxi @ 500, Boul. Des Laurentides → no new flyers
+  [8629] Maxi @ 44, rue Craig → no new flyers
+  [8630] Maxi @ 3500, rue Laval → no new flyers
+  [8632] Maxi @ 2535, rue Masson → no new flyers
+  [8634] Maxi @ 8475, Rue Chartrand → no new flyers
+  [8635] Maxi @ 355, rue Principale → no new flyers
+  [8636] Maxi @ 50, Boul. Taschereau → no new flyers
+  [8641] Maxi @ 124, route 132 ouest → no new flyers
+  [8643] Maxi @ 114, Boul. St-Jean Baptiste → no new flyers
+  [8645] Maxi @ 1877, rue Bilodeau → no new flyers
+  [8648] Maxi @ 7201, rue Laurier → no new flyers
+  [8649] Maxi @ 350, rue Bouvier → no new flyers
+  [8652] Maxi @ 1055, Avenue du Pont-Sud → no new flyers
+  [8653] Maxi @ 595, du Phare Est → no new flyers
+  [8654] Maxi @ 1005, boul. Laure → no new flyers
+  [8655] Maxi @ 681, Sainte-Geneviève → no new flyers
+  [8660] Maxi @ 370, rue St-Jacques → no new flyers
+  [8661] Maxi @ 6825, Côte-des-Neiges Rd → no new flyers
+  [8662] Maxi @ 3000, rue Wellington → no new flyers
+  [8663] Maxi @ 120, boul. Arthabaska Ouest → no new flyers
+  [8664] Maxi @ 30, rue Racine → no new flyers
+  [8666] Maxi @ 2650, Avenue de Grand-Mère → no new flyers
+  [8667] Maxi @ 25, Rue De La Savane → no new flyers
+  [8668] Maxi @ 199, 25e Avenue → no new flyers
+  [8673] Maxi @ 6750, Jean-Talon Est → no new flyers
+  [8675] Maxi @ 8305 rue Papineau → no new flyers
+  [8676] Maxi @ 552, boul. Wilfrid-Hamel → no new flyers
+  [8677] Maxi @ 175, Sir Wilfrid Laurier → no new flyers
+  [8678] Maxi @ 200, Omer-Marcil → no new flyers
+  [8679] Maxi @ 86 boul. Brien → no new flyers
+  [8687] Maxi @ 909, Boul Firestone → no new flyers
+  [8688] Maxi @ 419. boul. Jessop → no new flyers
+  [8690] Maxi @ 215, boul. de l'Hôtel de Ville → no new flyers
+  [8691] Maxi @ 150, des Grandes Fourches → no new flyers
+  [8693] Maxi @ 1601, Boulevard de Périgny → no new flyers
+  [8694] Maxi @ 1065, boul. Pie XI → no new flyers
+  [8696] Maxi @ 1201, boul. Duplessis → no new flyers
+  [8702] Maxi @ 300, Boul St Joseph → no new flyers
+  [8703] Maxi @ 3025, Portland → no new flyers
+  [8704] Maxi @ 10200, boul. Pie Ix → no new flyers
+  [8705] Maxi @ 8200, boul. Lacroix → no new flyers
+  [8706] Maxi @ 1100, Montée Masson → no new flyers
+  [8711] Maxi @ 545 chemin Vanier → no new flyers
+  [8772] Maxi @ 1870, boul. St-Joseph → no new flyers
+  [8777] Maxi @ 1035 boul du Quartier → no new flyers
+  [8795] Maxi @ 400, Route 132, suite 100 → no new flyers
+  [8797] Maxi @ 2925, rue Sherbrooke Est → no new flyers
+  [8834] Maxi @ 550, boul. St-Laurent Est → no new flyers
+  [8853] Maxi @ 1083, Curé-Labelle → no new flyers
+  [8856] ST-HILAIRE → no new flyers
+  [8891] Maxi @ 130, Route Racette → no new flyers
+  [8900] Maxi @ 2101, rue Dollard, B15 → no new flyers
+  [8901] Maxi @ 1699, Estimauville → no new flyers
+  [8904] Maxi @ 101, Taché Ouest → no new flyers
+  [8906] Maxi @ 1757, Boul Marcel-Laurin → no new flyers
+  [8907] Maxi @ 92, Cardinal Leger → no new flyers
+  [8910] Maxi @ 7455, rue Sherbrooke Est → no new flyers
+  [8911] Maxi @ 3398, boul Taschereau → no new flyers
+  [8913] Maxi @ 1345, boul. Moody → no new flyers
+  [8914] Maxi @ 310, Avenue Dorval → no new flyers
+  [8917] Maxi @ 3150, Remembrance → no new flyers
+  [8922] Maxi @ 2655, chemin Chambly → no new flyers
+  [8923] Maxi @ 699, rue Clémenceau → no new flyers
+  [8924] Maxi @ 900, Boul Grignon → no new flyers
+  [8926] Maxi @ 1030, boul. Vachon Nord → no new flyers
+  [8929] Maxi @ 444, boul. Curé-Labelle → no new flyers
+  [8934] Maxi @ 7900, boul. Cousineau → no new flyers
+  [8935] Maxi @ 205, 1re Avenue → no new flyers
+  [8937] Maxi @ 7200, boul. Taschereau → no new flyers
+  [8939] Maxi @ 50, route Président-Kennedy, St 190 → no new flyers
+  [8942] Maxi @ 2260, Chemin Gascon → no new flyers
+  [8944] Maxi @ 255, 3 ieme Rue Est → no new flyers
+  [8946] Maxi @ 1200, boul. Ducharme → no new flyers
+  [8947] Maxi @ 2501, boul. du Millénaire → no new flyers
+  [8950] Maxi @ 520, Fort St-Louis → no new flyers
+  [8955] Maxi @ 482, route 138 → no new flyers
+  [8956] Maxi @ 4325, Jean-Talon Est → no new flyers
+  [8958] Maxi @ 339, Boul Labelle → no new flyers
+  [8961] Maxi @ 885, 3 rue, Route 167 → no new flyers
+  [8963] Maxi @ 180, boul. Barrette → no new flyers
+  [8967] Maxi @ 3399, rue Queen → no new flyers
+  [8968] Maxi @ 450, boul. Poliquin → no new flyers
+  [8969] Maxi @ 390 route 117 → no new flyers
+  [8971] Maxi @ 1000 Suite 6, boul. du Séminaire → no new flyers
+  [8973] Maxi @ 3880, Boul. Harvey → no new flyers
+  [8974] Maxi @ 805, boul. Frontenac Est → no new flyers
+  [8975] Maxi @ 15 000, rue St-Louis → no new flyers
+  [8976] Maxi @ 2090 Boulevard des Laurentides → no new flyers
+  [8981] Maxi @ 1220 boul Louis-XIV → no new flyers
+  [8983] Maxi @ 70, rue Dufferin → no new flyers
+  [8984] Drummondville → no new flyers
+  [8985] Maxi @ 570, boul. Laflèche → no new flyers
+  [8987] Maxi @ 12 780, rue Sherbrooke Est → no new flyers
+  [8988] Maxi @ 1643, boul. D'Youville → no new flyers
+  [8989] Maxi @ 845, Avenue Du Pont-Nord → no new flyers
+  [8993] Maxi @ 320, rue Barkoff → no new flyers
+  [8994] Maxi @ 7081, Newman → no new flyers
+  [8995] Maxi @ 6381, Route Transcanadienne → no new flyers
+  [8996] Maxi @ 5875, boul. Jean XXIII → no new flyers
+  [9491] Maxi Bernard → no new flyers
+  [9492] Bois-des-filions → no new flyers
+  [9528] Sainte-Catherine → no new flyers
+  [9569] Mont-Laurier → no new flyers
+  [9596] RENE LEVESQUE ONLINE → no new flyers
+  [9597] 9597 BOUCHERVILLE → no new flyers
+  [9777] Maxi Bécancour → no new flyers
+  [9778] 1100-800 rue Ottawa (Robert Bourassa) → no new flyers
+
+  0 new publication entries across 208 stores
+  0 unique new publication(s) to download
+  Saved → data/maxi/store_flyers.json  (530,039 bytes)
+New publication entries added to store_flyers.json: 0
+Unique new publications to download: 0
+
+Phase 2: fetching products for each new publication…
+
+  Nothing new to download.
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 0
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-04-02 22:48:05 UTC
+Elapsed      : 0m 25s
+
+
+Done.  Verbose log → logs/maxi/2026-04-02_verbose.log
+       Summary log → logs/maxi/2026-04-02_summary.log
+

@@ -37,11 +37,13 @@ LOBLAWS_PORTFOLIO: list[Brand] = [
     # Slugs below need confirmation before the store scanner or flyer fetcher can run
     Brand("Real Canadian Superstore", "realcanadiansuperstore", "real_canadian_superstore", "a6e07e290f469d032d54a252f7582de2", range(1, 12001)),
     Brand("Maxi",                     "maxi",     "maxi",                     "75a33b973cc2e856dd0f2cd629d80a19", range(1, 12001)),
-    Brand("Zehrs",                    None,       "zehrs",                    "fef2a837ffeee9e5e5d02f31db81f209", range(1, 12001)),
-    Brand("Fortinos",                 None,       "fortinos",                 "ff3274ff57f481a8fcfac9c6c968fe67", range(1, 12001)),
-    Brand("Atlantic Superstore",      None,       "atlantic_superstore",      "4d9c0561f7abbf53ad6eca20dad201c7", range(1, 12001)),
-    Brand("Dominion",                 None,       "dominion",                 "23d83ed8a192329f29749c3b86c707fc", range(1, 12001)),
-    Brand("Independent Grocer",       None,       "independent_grocer",       "fa31161a375478b68b2ec0f8f8edd65a", range(1, 12001)),
+    Brand("Zehrs",                    "zehrs",    "zehrs",                    "fef2a837ffeee9e5e5d02f31db81f209", range(1, 12001)),
+    Brand("Fortinos",                 "fortinos", "fortinos",                 "ff3274ff57f481a8fcfac9c6c968fe67", range(1, 12001)),
+    Brand("Atlantic Superstore",      "atlanticsuperstore", "atlantic_superstore", "4d9c0561f7abbf53ad6eca20dad201c7", range(1, 12001)),
+    Brand("Dominion",                 "dominion", "dominion",                 "23d83ed8a192329f29749c3b86c707fc", range(1, 12001)),
+    Brand("Independent Grocer",       "yourindependentgrocer", "independent_grocer", "fa31161a375478b68b2ec0f8f8edd65a", range(1, 12001)),
+    Brand("Independent City Market",  "independentcitymarket", "independent_city_market", "a30dee18036c0131c522b0fd12632b7d", range(1, 12001)),
+    Brand("Freshmart",                 "freshmart",             "freshmart",               "32520249c4e20e14b33e5d45d084cb53", range(1, 12001)),
 ]
 
 # Placeholder portfolios — fill in when those scripts are built

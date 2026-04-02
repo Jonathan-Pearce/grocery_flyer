@@ -531,3 +531,160 @@ Elapsed      : 0m 17s
 Done.  Verbose log → logs/real_canadian_superstore/2026-04-02_verbose.log
        Summary log → logs/real_canadian_superstore/2026-04-02_summary.log
 
+=== Real Canadian Superstore Flyer Fetch — 2026-04-02 ===
+Run started : 2026-04-02 22:47:23 UTC
+
+Loaded 124 stores from data/real_canadian_superstore/stores.json
+
+Stores loaded: 124
+Loaded existing store_flyers.json (480 publication entries)
+
+Phase 1: fetching publications per store…
+
+  [1] Vancouver-Marine → no new flyers
+  [24] Testing Store → no new flyers
+  [512] Wasaga Beach Superstore → no new flyers
+  [551] St Thomas Superstore → no new flyers
+  [562] Chatham Superstore → no new flyers
+  [566] Leamington Superstore → no new flyers
+  [567] Walker Road Superstore → no new flyers
+  [569] Midland Superstore → no new flyers
+  [577] St. Catherine's Superstore → no new flyers
+  [1009] Westboro Superstore → no new flyers
+  [1012] Ajax Superstore → no new flyers
+  [1017] Brockville Superstore → no new flyers
+  [1018] NEWMARKET → no new flyers
+  [1024] OAKVILLE → no new flyers
+  [1030] AURORA → no new flyers
+  [1033] TORONTO → no new flyers
+  [1043] Oshawa Superstore → no new flyers
+  [1058] Whitby Superstore → no new flyers
+  [1071] South Orleans Superstore → no new flyers
+  [1077] TORONTO → no new flyers
+  [1080] MISSISSAUGA → no new flyers
+  [1091] Oxford & Gammage Superstore → no new flyers
+  [1502] EDMONTON → no new flyers
+  [1503] RCSS Click & Collect → no new flyers
+  [1504] RCSS Click & Collect → no new flyers
+  [1505] WINNIPEG → no new flyers
+  [1506] WINNIPEG → no new flyers
+  [1508] WINNIPEG → no new flyers
+  [1509] WINNIPEG → no new flyers
+  [1510] WINKLER → no new flyers
+  [1511] WINNIPEG → no new flyers
+  [1512] WINNIPEG → no new flyers
+  [1514] WINNIPEG → no new flyers
+  [1515] BRANDON → no new flyers
+  [1516] WINNIPEG → no new flyers
+  [1517] VANCOUVER → no new flyers
+  [1518] BURNABY → no new flyers
+  [1519] COQUITLAM → no new flyers
+  [1520] VANCOUVER → no new flyers
+  [1521] NORTH SURREY/NORTH DELTA → no new flyers
+  [1522] KAMLOOPS → no new flyers
+  [1523] CHILLIWACK → no new flyers
+  [1524] CAMPBELL RIVER → no new flyers
+  [1525] NANAIMO → no new flyers
+  [1526] COQUITLAM → no new flyers
+  [1527] VICTORIA → no new flyers
+  [1528] RCSS Click & Collect → no new flyers
+  [1530] RCSS Click & Collect → no new flyers
+  [1531] RCSS Click & Collect → no new flyers
+  [1532] RCSS Click & Collect → no new flyers
+  [1533] Regina-Albert → no new flyers
+  [1535] SASKATOON → no new flyers
+  [1536] SASKATOON → no new flyers
+  [1537] Edmonton Heritage Superstore → no new flyers
+  [1538] EDMONTON → no new flyers
+  [1539] CALGARY → no new flyers
+  [1540] RCSS Click & Collect → no new flyers
+  [1541] RCSS Click & Collect → no new flyers
+  [1542] RCSS Click & Collect → no new flyers
+  [1543] RCSS Click & Collect → no new flyers
+  [1544] RCSS Click & Collect → no new flyers
+  [1545] CALGARY → no new flyers
+  [1546] CALGARY → no new flyers
+  [1547] RCSS Click & Collect → no new flyers
+  [1548] FORT MCMURRAY → no new flyers
+  [1549] EDMONTON → no new flyers
+  [1550] RCSS Click & Collect → no new flyers
+  [1551] White Rock → no new flyers
+  [1552] RCSS Click & Collect → no new flyers
+  [1553] RCSS Click & Collect → no new flyers
+  [1554] RCSS Click & Collect → no new flyers
+  [1555] RCSS Click & Collect → no new flyers
+  [1556] RCSS Click & Collect → no new flyers
+  [1557] RICHMOND → no new flyers
+  [1558] RCSS Click & Collect → no new flyers
+  [1559] RCSS Click & Collect → no new flyers
+  [1560] RCSS Click & Collect → no new flyers
+  [1561] LANGLEY → no new flyers
+  [1562] PRINCE GEORGE → no new flyers
+  [1563] RCSS Click & Collect → no new flyers
+  [1564] KELOWNA → no new flyers
+  [1565] RCSS Click & Collect → no new flyers
+  [1566] EDMONTON → no new flyers
+  [1567] RCSS Click & Collect → no new flyers
+  [1568] RCSS Click & Collect → no new flyers
+  [1569] EDMONTON → no new flyers
+  [1570] EDMONTON → no new flyers
+  [1571] RCSS Click & Collect → no new flyers
+  [1572] EDMONTON → no new flyers
+  [1573] EDMONTON → no new flyers
+  [1574] CALGARY → no new flyers
+  [1575] CALGARY → no new flyers
+  [1576] CALGARY → no new flyers
+  [1577] CALGARY → no new flyers
+  [1578] CALGARY → no new flyers
+  [1579] RCSS Click & Collect → no new flyers
+  [1581] RCSS Click & Collect → no new flyers
+  [1582] RCSS Click & Collect → no new flyers
+  [1583] RCSS Click & Collect → no new flyers
+  [1584] RCSS Click & Collect → no new flyers
+  [1585] RCSS Click & Collect → no new flyers
+  [1586] RCSS Seaton Way → no new flyers
+  [1590] Calgary East Village → no new flyers
+  [2555] Edmonton Superstore → no new flyers
+  [2800] TORONTO → no new flyers
+  [2801] BRAMPTON → no new flyers
+  [2803] Sudbury Superstore → no new flyers
+  [2806] Grimsby Superstore → no new flyers
+  [2809] TORONTO → no new flyers
+  [2810] MILTON → no new flyers
+  [2811] Georgetown Superstore → no new flyers
+  [2812] Oakridge Mall Superstore → no new flyers
+  [2813] South Kanata Superstore → no new flyers
+  [2818] Simcoe Superstore → no new flyers
+  [2822] Highland Hills Superstore → no new flyers
+  [2823] Strathroy Superstore → no new flyers
+  [2826] Sarnia Superstore → no new flyers
+  [2827] Dougall Superstore → no new flyers
+  [2831] Peterborough Superstore → no new flyers
+  [2841] Mavis Superstore → no new flyers
+  [2842] Oshawa Gibb Superstore → no new flyers
+  [3730] Calgary → no new flyers
+  [4401] Weston Rd. Learning Centre Superstore → no new flyers
+  [6885] MFC Dundas & Bloor → no new flyers
+
+  0 new publication entries across 124 stores
+  0 unique new publication(s) to download
+  Saved → data/real_canadian_superstore/store_flyers.json  (651,807 bytes)
+New publication entries added to store_flyers.json: 0
+Unique new publications to download: 0
+
+Phase 2: fetching products for each new publication…
+
+  Nothing new to download.
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 0
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-04-02 22:47:39 UTC
+Elapsed      : 0m 15s
+
+
+Done.  Verbose log → logs/real_canadian_superstore/2026-04-02_verbose.log
+       Summary log → logs/real_canadian_superstore/2026-04-02_summary.log
+

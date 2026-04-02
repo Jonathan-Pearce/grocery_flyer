@@ -34,7 +34,8 @@ jobs:
           git add data/loblaws/ data/nofrills/ data/provigo/ \
                   data/real_canadian_superstore/ data/maxi/ data/zehrs/ \
                   data/fortinos/ data/atlantic_superstore/ data/dominion/ \
-                  data/independent_grocer/ \
+                  data/independent_grocer/ data/independent_city_market/ \
+                  data/freshmart/ \
                   logs/
           git diff --cached --quiet \
             || git commit -m "chore: weekly Loblaws portfolio flyer fetch $(date -u +%Y-%m-%d)"

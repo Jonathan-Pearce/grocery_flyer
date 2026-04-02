@@ -28,3 +28,18 @@ Unique new publications to download: 0
 Run completed: 2026-04-02 03:45:10 UTC
 Elapsed      : 0m 17s
 
+=== Real Canadian Superstore Flyer Fetch — 2026-04-02 ===
+Run started : 2026-04-02 22:47:23 UTC
+
+Stores loaded: 124
+New publication entries added to store_flyers.json: 0
+Unique new publications to download: 0
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 0
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-04-02 22:47:39 UTC
+Elapsed      : 0m 15s
+

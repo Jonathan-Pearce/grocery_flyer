@@ -1,0 +1,15 @@
+=== Zehrs Flyer Fetch — 2026-04-02 ===
+Run started : 2026-04-02 22:48:05 UTC
+
+Stores loaded: 44
+New publication entries added to store_flyers.json: 42
+Unique new publications to download: 10
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 10
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-04-02 22:48:12 UTC
+Elapsed      : 0m 7s
+
