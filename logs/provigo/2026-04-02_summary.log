@@ -13,3 +13,33 @@ Unique new publications to download: 2
 Run completed: 2026-04-02 02:41:13 UTC
 Elapsed      : 0m 9s
 
+=== Provigo Flyer Fetch — 2026-04-02 ===
+Run started : 2026-04-02 03:19:01 UTC
+
+Stores loaded: 76
+New publication entries added to store_flyers.json: 0
+Unique new publications to download: 0
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 0
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-04-02 03:19:10 UTC
+Elapsed      : 0m 8s
+
+=== Provigo Flyer Fetch — 2026-04-02 ===
+Run started : 2026-04-02 03:44:43 UTC
+
+Stores loaded: 76
+New publication entries added to store_flyers.json: 0
+Unique new publications to download: 0
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 0
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-04-02 03:44:52 UTC
+Elapsed      : 0m 8s
+

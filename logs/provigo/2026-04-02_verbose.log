@@ -109,3 +109,221 @@ Elapsed      : 0m 9s
 
 Done.  Verbose log → logs/provigo/2026-04-02_verbose.log
        Summary log → logs/provigo/2026-04-02_summary.log
+=== Provigo Flyer Fetch — 2026-04-02 ===
+Run started : 2026-04-02 03:19:01 UTC
+
+Loaded 76 stores from data/provigo/stores.json
+
+Stores loaded: 76
+Loaded existing store_flyers.json (34 publication entries)
+
+Phase 1: fetching publications per store…
+
+  [3741] Provigo St-Michel des Saints → no new flyers
+  [3752] Provigo Mtl, Laurendeau → no new flyers
+  [4772] Provigo Mtl, Cavendish → no new flyers
+  [5290] Décarie → no new flyers
+  [7039] Provigo Quebec, 1ière Avenue → no new flyers
+  [7042] Provigo Mtl, St-Laurent Prieur → no new flyers
+  [7043] Provigo Mtl, Beaubien → no new flyers
+  [7073] Provigo Sillery → no new flyers
+  [7115] Provigo Le Marché Boucherville → no new flyers
+  [7116] Provigo Marieville → no new flyers
+  [7120] Provigo Gatineau Maloney → no new flyers
+  [7149] Liège → no new flyers
+  [7157] Provigo Varennes → no new flyers
+  [7163] Provigo Mtl, Henri-Bourassa → no new flyers
+  [7165] Gatineau St-Joseph → no new flyers
+  [7195] Provigo Le Marché Ville Mont-Royal → no new flyers
+  [7196] Provigo le Marché Pierrefonds → no new flyers
+  [7198] Provigo le Marché Longueuil → no new flyers
+  [7199] Provigo Hull → no new flyers
+  [7287] Provigo Le Marché Charlesbourg → no new flyers
+  [7288] Provigo Montreal Rachel → no new flyers
+  [7293] Provigo Le Marché St-Bruno → no new flyers
+  [7295] Provigo Le Marché Sherbrooke, Cité du Parc → no new flyers
+  [7297] PLM Lefebvre Montreal Canadien → no new flyers
+  [7454] Provigo Sherbrooke, Galt → no new flyers
+  [7599] Provigo Le Marché Magog → no new flyers
+  [7606] Provigo Le Marché Kirkland → no new flyers
+  [7907] Provigo Mtl, Ave du Parc → no new flyers
+  [7908] Provigo Le Marché Aylmer → no new flyers
+  [7910] Provigo Le Marché St-Sauveur → no new flyers
+  [8013] Provigo Ville-Marie → no new flyers
+  [8028] Provigo Ste-Anne des Plaines → no new flyers
+  [8037] Provigo St-Jacques Montcalm → no new flyers
+  [8038] Provigo Beauport Seigneurial → no new flyers
+  [8040] Provigo Gaspé → no new flyers
+  [8068] Provigo Ville Des Laurentides → no new flyers
+  [8075] Provigo Laval, René Laennec → no new flyers
+  [8123] Provigo St-Foy, St-Louis → no new flyers
+  [8143] Provigo Ste-Foy, Quatre-bourgeois → no new flyers
+  [8382] Provigo Lennoxville → no new flyers
+  [8441] Provigo Baie D`Urfé → no new flyers
+  [8445] Provigo Le Marché Chicoutimi → no new flyers
+  [8452] Provigo le Marché Pierrefonds → no new flyers
+  [8457] Provigo Ste-Foy, Myrand → no new flyers
+  [8460] Provigo LaSalle → no new flyers
+  [8463] Provigo Granby, Leclerc → no new flyers
+  [8489] Provigo St-Raymond → no new flyers
+  [8490] Provigo Windsor → no new flyers
+  [8537] Provigo Baie Comeau, Lasalle → no new flyers
+  [8543] Provigo La Malbaie → no new flyers
+  [8549] Provigo Le Gardeur → no new flyers
+  [8593] Provigo Côteau-du-Lac → no new flyers
+  [8595] Provigo Lévis St-Georges → no new flyers
+  [8596] Provigo Sorel Victoria → no new flyers
+  [8623] Provigo Lebel sur Quévillon → no new flyers
+  [8658] Provigo Lorraine → no new flyers
+  [8670] Provigo Ste-Julie → no new flyers
+  [8791] Provigo Gatineau → no new flyers
+  [8792] Provigo Chicoutimi-Nord, Roussel → no new flyers
+  [8793] Provigo Pointe-à-la-Croix → no new flyers
+  [8799] Provigo Mistassini → no new flyers
+  [8805] St-Pascal de Kamouraska → no new flyers
+  [8807] Provigo Verdun Commerce → no new flyers
+  [8808] Provigo Montréal St-Jacques → no new flyers
+  [8812] Provigo Val d'Or → no new flyers
+  [8845] Provigo Sherbrooke, 13ième → no new flyers
+  [8846] Provigo Cherstey → no new flyers
+  [8861] Provigo Sept-Iles, Laure → no new flyers
+  [8878] Provigo Lévis Rive Sud → no new flyers
+  [8882] Provigo St-Lambert → no new flyers
+  [8887] Provigo Port Cartier → no new flyers
+  [8893] Provigo Mtl, Mt-Royal, St-Urbain → no new flyers
+  [8896] Provigo Versailles → no new flyers
+  [8941] Provigo Rivière-du-Loup → no new flyers
+  [8978] Provigo Mtl Monkland → no new flyers
+  [9045] PGO Boily Rouyn-Noranda Rideau → no new flyers
+
+  0 new publication entries across 76 stores
+  0 unique new publication(s) to download
+  Saved → data/provigo/store_flyers.json  (45,749 bytes)
+New publication entries added to store_flyers.json: 0
+Unique new publications to download: 0
+
+Phase 2: fetching products for each new publication…
+
+  Nothing new to download.
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 0
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-04-02 03:19:10 UTC
+Elapsed      : 0m 8s
+
+
+Done.  Verbose log → logs/provigo/2026-04-02_verbose.log
+       Summary log → logs/provigo/2026-04-02_summary.log
+
+=== Provigo Flyer Fetch — 2026-04-02 ===
+Run started : 2026-04-02 03:44:43 UTC
+
+Loaded 76 stores from data/provigo/stores.json
+
+Stores loaded: 76
+Loaded existing store_flyers.json (34 publication entries)
+
+Phase 1: fetching publications per store…
+
+  [3741] Provigo St-Michel des Saints → no new flyers
+  [3752] Provigo Mtl, Laurendeau → no new flyers
+  [4772] Provigo Mtl, Cavendish → no new flyers
+  [5290] Décarie → no new flyers
+  [7039] Provigo Quebec, 1ière Avenue → no new flyers
+  [7042] Provigo Mtl, St-Laurent Prieur → no new flyers
+  [7043] Provigo Mtl, Beaubien → no new flyers
+  [7073] Provigo Sillery → no new flyers
+  [7115] Provigo Le Marché Boucherville → no new flyers
+  [7116] Provigo Marieville → no new flyers
+  [7120] Provigo Gatineau Maloney → no new flyers
+  [7149] Liège → no new flyers
+  [7157] Provigo Varennes → no new flyers
+  [7163] Provigo Mtl, Henri-Bourassa → no new flyers
+  [7165] Gatineau St-Joseph → no new flyers
+  [7195] Provigo Le Marché Ville Mont-Royal → no new flyers
+  [7196] Provigo le Marché Pierrefonds → no new flyers
+  [7198] Provigo le Marché Longueuil → no new flyers
+  [7199] Provigo Hull → no new flyers
+  [7287] Provigo Le Marché Charlesbourg → no new flyers
+  [7288] Provigo Montreal Rachel → no new flyers
+  [7293] Provigo Le Marché St-Bruno → no new flyers
+  [7295] Provigo Le Marché Sherbrooke, Cité du Parc → no new flyers
+  [7297] PLM Lefebvre Montreal Canadien → no new flyers
+  [7454] Provigo Sherbrooke, Galt → no new flyers
+  [7599] Provigo Le Marché Magog → no new flyers
+  [7606] Provigo Le Marché Kirkland → no new flyers
+  [7907] Provigo Mtl, Ave du Parc → no new flyers
+  [7908] Provigo Le Marché Aylmer → no new flyers
+  [7910] Provigo Le Marché St-Sauveur → no new flyers
+  [8013] Provigo Ville-Marie → no new flyers
+  [8028] Provigo Ste-Anne des Plaines → no new flyers
+  [8037] Provigo St-Jacques Montcalm → no new flyers
+  [8038] Provigo Beauport Seigneurial → no new flyers
+  [8040] Provigo Gaspé → no new flyers
+  [8068] Provigo Ville Des Laurentides → no new flyers
+  [8075] Provigo Laval, René Laennec → no new flyers
+  [8123] Provigo St-Foy, St-Louis → no new flyers
+  [8143] Provigo Ste-Foy, Quatre-bourgeois → no new flyers
+  [8382] Provigo Lennoxville → no new flyers
+  [8441] Provigo Baie D`Urfé → no new flyers
+  [8445] Provigo Le Marché Chicoutimi → no new flyers
+  [8452] Provigo le Marché Pierrefonds → no new flyers
+  [8457] Provigo Ste-Foy, Myrand → no new flyers
+  [8460] Provigo LaSalle → no new flyers
+  [8463] Provigo Granby, Leclerc → no new flyers
+  [8489] Provigo St-Raymond → no new flyers
+  [8490] Provigo Windsor → no new flyers
+  [8537] Provigo Baie Comeau, Lasalle → no new flyers
+  [8543] Provigo La Malbaie → no new flyers
+  [8549] Provigo Le Gardeur → no new flyers
+  [8593] Provigo Côteau-du-Lac → no new flyers
+  [8595] Provigo Lévis St-Georges → no new flyers
+  [8596] Provigo Sorel Victoria → no new flyers
+  [8623] Provigo Lebel sur Quévillon → no new flyers
+  [8658] Provigo Lorraine → no new flyers
+  [8670] Provigo Ste-Julie → no new flyers
+  [8791] Provigo Gatineau → no new flyers
+  [8792] Provigo Chicoutimi-Nord, Roussel → no new flyers
+  [8793] Provigo Pointe-à-la-Croix → no new flyers
+  [8799] Provigo Mistassini → no new flyers
+  [8805] St-Pascal de Kamouraska → no new flyers
+  [8807] Provigo Verdun Commerce → no new flyers
+  [8808] Provigo Montréal St-Jacques → no new flyers
+  [8812] Provigo Val d'Or → no new flyers
+  [8845] Provigo Sherbrooke, 13ième → no new flyers
+  [8846] Provigo Cherstey → no new flyers
+  [8861] Provigo Sept-Iles, Laure → no new flyers
+  [8878] Provigo Lévis Rive Sud → no new flyers
+  [8882] Provigo St-Lambert → no new flyers
+  [8887] Provigo Port Cartier → no new flyers
+  [8893] Provigo Mtl, Mt-Royal, St-Urbain → no new flyers
+  [8896] Provigo Versailles → no new flyers
+  [8941] Provigo Rivière-du-Loup → no new flyers
+  [8978] Provigo Mtl Monkland → no new flyers
+  [9045] PGO Boily Rouyn-Noranda Rideau → no new flyers
+
+  0 new publication entries across 76 stores
+  0 unique new publication(s) to download
+  Saved → data/provigo/store_flyers.json  (45,749 bytes)
+New publication entries added to store_flyers.json: 0
+Unique new publications to download: 0
+
+Phase 2: fetching products for each new publication…
+
+  Nothing new to download.
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 0
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-04-02 03:44:52 UTC
+Elapsed      : 0m 8s
+
+
+Done.  Verbose log → logs/provigo/2026-04-02_verbose.log
+       Summary log → logs/provigo/2026-04-02_summary.log
+
