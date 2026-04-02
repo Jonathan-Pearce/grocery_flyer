@@ -760,3 +760,815 @@ Elapsed      : 1m 4s
 
 Done.  Verbose log → logs/nofrills/2026-04-02_verbose.log
        Summary log → logs/nofrills/2026-04-02_summary.log
+=== No Frills Flyer Fetch — 2026-04-02 ===
+Run started : 2026-04-02 03:18:15 UTC
+
+Loaded 373 stores from data/nofrills/stores.json
+
+Stores loaded: 373
+Loaded existing store_flyers.json (677 publication entries)
+
+Phase 1: fetching publications per store…
+
+  [51] Test Store → no new flyers
+  [262] Agostino/Nancy nofrills - Bloor E. → no new flyers
+  [266] Masse's nofrills- London → no new flyers
+  [291] David's nofrills - Division St. → no new flyers
+  [293] Grant's nofrills - Kingston → no new flyers
+  [703] Jeff & Tanis' nofrills → no new flyers
+  [704] Jason's NF Severn → no new flyers
+  [705] Carlo's nofrills → no new flyers
+  [718] Rocky's nofrills #718 → no new flyers
+  [723] Tony's  nofrills - Upper James Av → no new flyers
+  [753] Jim's nofrills #753 → no new flyers
+  [758] Marc's nofrills - Rathburn Rd → no new flyers
+  [763] Mike's nofrills - Port Dover → no new flyers
+  [793] Domenic's nofrills - Harvard Rd → no new flyers
+  [1302] Gary's nofrills- Baseline Rd East → no new flyers
+  [1306] Jeff/Rose/Herb's nofrills Lakeshore → no new flyers
+  [1312] Daniel's nofrills Principale St → no new flyers
+  [1323] 1323 @Hanna → no new flyers
+  [1326] Jesse/Kelly nofrills - Thompson Rd → no new flyers
+  [1335] Ryan's nofrills, Aylmer → no new flyers
+  [1341] Mackay's nofrills - New Hamburg → no new flyers
+  [1346] Rod & Joe's nofrills - Kingston Rd. → no new flyers
+  [1356] Daniel's nofrills - Eglinton Av W → no new flyers
+  [1371] Mario & Selina's nofrills-Royal York → no new flyers
+  [1386] Jim & Lee-Anne's nofrills C Line → no new flyers
+  [1394] Baldree's nofrills - King Street E → no new flyers
+  [1399] Nick's nofrills Sheppard Ave. → no new flyers
+  [1448] Cardston - Cardston, AB → no new flyers
+  [1468] No Frills - Marcel & Narisha's → no new flyers
+  [1469] Correy/Rita's nofrills - Tillsonburg → no new flyers
+  [2702] Colbourne's nofrills - Sydney → no new flyers
+  [2706] Sam's nofrills - Bridgewater → no new flyers
+  [2707] No Frills → no new flyers
+  [2712] Gouthro's nofrills - Wyse Road → no new flyers
+  [2713] No Frills → no new flyers
+  [3041] Chris' nofrills - Fort Sk. → no new flyers
+  [3049] No Frills John's - Newmarket → no new flyers
+  [3112] Dykeman's nofrills - Kincardine → no new flyers
+  [3117] Darryll & Tracy’s nofrills - Highbury Ave., London → no new flyers
+  [3125] Alan's nofrills - Timmins → no new flyers
+  [3131] Derek's nofrills Vaughan → no new flyers
+  [3132] Francois’ No Frills → no new flyers
+  [3133] Ron's nofrills Main St. → no new flyers
+  [3134] Jim's nofrills #261 → no new flyers
+  [3135] Walkers's  nofrills - Brantford → no new flyers
+  [3138] Eric's nofrills - Lincoln St. → no new flyers
+  [3139] Leo's nofrills - Markham → no new flyers
+  [3140] Vince's nofrills - York Gate Blvd → no new flyers
+  [3142] Dieter/Darcy's nofrills - George St → no new flyers
+  [3143] Rob's nofrills - Guelph Line → no new flyers
+  [3145] Greg's nofrills → no new flyers
+  [3150] Oleg's nofrills - Oakville → no new flyers
+  [3151] Conroy's nofrills → no new flyers
+  [3152] 3152 → no new flyers
+  [3153] Matt's No Frills → no new flyers
+  [3155] Kevin's NF Calgary → no new flyers
+  [3156] Rob's nofrills - Toronto → no new flyers
+  [3240] Terry's nofrills - Surrey → no new flyers
+  [3348] Ashley's nofrills → no new flyers
+  [3349] Scott & Laurie's No Frills → no new flyers
+  [3350] Dylan's nofrills - Halifax → no new flyers
+  [3351] Kyle's nofrills - Exmouth St → no new flyers
+  [3352] Paul's Nofrills - Ponoka → no new flyers
+  [3353] Dennis' nofrills → no new flyers
+  [3354] Arkee's NOFRILLS Vancouver → no new flyers
+  [3355] No Frills → no new flyers
+  [3402] Dave's nofrills - Dawson Creek → no new flyers
+  [3403] Joti's nofrills - Vancouver → no new flyers
+  [3408] Blair's nofrills - Calgary → no new flyers
+  [3410] Dean's nofrills - Vancouver → no new flyers
+  [3413] Clifton's nofrills - Estevan, SK → no new flyers
+  [3414] Steve's nofrills - Castlegar → no new flyers
+  [3417] Tyler's nofrills - Port Alberni → no new flyers
+  [3419] Deepu's nofrills - Surrey → no new flyers
+  [3422] Matt & Ashley's nofrills - Edmonton → no new flyers
+  [3430] Amanda's nofrills - Fort St. John → no new flyers
+  [3433] Sewak's nofrills - Port Coquitlam → no new flyers
+  [3437] Jason's nofrills - Jericho Mall → no new flyers
+  [3438] Kyle's nofrills - Kitimat → no new flyers
+  [3439] Glenn’s nofrills - Surrey → no new flyers
+  [3441] Coverdale’s No Frills → no new flyers
+  [3442] Hellard's nofrills - Main St. Winnipeg → no new flyers
+  [3445] Terashita's nofrills - Brooks   Opened Feb. 28, 2016 → no new flyers
+  [3448] Troy's nofrills - Lethbridge → no new flyers
+  [3449] Ken's No Frills → no new flyers
+  [3450] Shawn's nofrills - Thunder Bay → no new flyers
+  [3451] Andrew & Emily's nofrills - Loyalist Pkwy → no new flyers
+  [3456] Steve's nofrills - Dalton Rd → no new flyers
+  [3457] John's nofrills - Milton → no new flyers
+  [3462] John's nofrills - Nobleton → no new flyers
+  [3463] Scott's nofrills - Woodstock → no new flyers
+  [3465] Lyle's nofrills → no new flyers
+  [3467] Justin & Stacey's nofrills → no new flyers
+  [3472] Fisher's nofrills - Canrobert St → no new flyers
+  [3473] Jamie & Jaclyn's - Centre Street → no new flyers
+  [3474] Rusty's nofrills - Brantford → no new flyers
+  [3476] Palmieri's nofrills - Newcastle → no new flyers
+  [3478] Craig & Jess' nofrills - Stratford, ON → no new flyers
+  [3480] Emiliano & Ana's nofrills → no new flyers
+  [3490] Mike's nofrills → no new flyers
+  [3493] Jones' nofrills - Silvercrk Pk N → no new flyers
+  [3494] Leonetti's nofrills → no new flyers
+  [3603] Jordan's's nofrills - Wetaskwin → no new flyers
+  [3604] Shipley's NF Maple Ridge → no new flyers
+  [3608] Terry's - Humboldt → no new flyers
+  [3610] Aaron's no frills → no new flyers
+  [3616] Steve & Peggy's nofrills Kingston Rd → no new flyers
+  [3621] Steve & Adele's nofrills → no new flyers
+  [3625] Brandon & Megan's NF Stittsville, ON → no new flyers
+  [3628] Steve's nofrills → no new flyers
+  [3631] Richard's nofrills → no new flyers
+  [3633] Kris's nofrills - Peace River → no new flyers
+  [3636] Dickie's nofrills - Eglinton Av. E → no new flyers
+  [3639] Brandon's nofrills → no new flyers
+  [3640] Luciano's nofrills - Alberta Av → no new flyers
+  [3641] Brandon & Joanny's NO FRILLS Vancouver → no new flyers
+  [3642] Malloch's nofrills - Burnhamthorpe Rd → no new flyers
+  [3643] Luciano's nofrills - Front St → no new flyers
+  [3646] XXXX nofrills   Markham Rd → no new flyers
+  [3647] Tom's nofrills - Roblin Blvd Winnipeg → no new flyers
+  [3648] Kurtis' nofrills - Trail → no new flyers
+  [3649] Chris' nofrills - Edmonton → no new flyers
+  [3650] Patryck's nofrills → no new flyers
+  [3654] Mark's nofrills Winners Circ → no new flyers
+  [3655] XXXX nofrills - Vegreville → no new flyers
+  [3659] Rob's No Frills #3900 → no new flyers
+  [3660] Durante's nofrills - Centre St → no new flyers
+  [3661] Robert's nofrills - Blake St → no new flyers
+  [3663] Ross' nofrills - Photography Drive → no new flyers
+  [3664] Mark's nofrills - Fanshawe Park Road → no new flyers
+  [3665] Gord & Kim's nofrills - Coverdale Dr → no new flyers
+  [3666] Frank's nofrills - Queenston Rd. Hamilton → no new flyers
+  [3667] Steve & Liz's nofrills - Stouffville → no new flyers
+  [3668] Franco's nofrills - Hamilton → no new flyers
+  [3669] Cory & Megan's NOFRILLS High River → no new flyers
+  [3670] Pepin's nofrills - Hastings St → no new flyers
+  [3671] Jason's nofrills - Jericho Mall → no new flyers
+  [3672] Mark and Sarah's nofrills - Wallaceburg → no new flyers
+  [3673] Farzin's nofrills - Main St → no new flyers
+  [3676] Chris & Beth's nofrills - Simcoe St → no new flyers
+  [3677] Tony & Jill's nofrills → no new flyers
+  [3678] Simon's nofrills - Lethbridge → no new flyers
+  [3679] Brent & Jennie's nofrills - Hamilton Road → no new flyers
+  [3680] Vi's nofrills - King Street W. → no new flyers
+  [3681] Tim and Heather's NF Shelburne → no new flyers
+  [3683] Carol’s No Frills → no new flyers
+  [3684] Peter's Nofrills → no new flyers
+  [3685] Prakash's NF Edmonton → no new flyers
+  [3688] Steve & Amanda's nofrills - Bayly St W → no new flyers
+  [3690] Guthro's nofrills - Acton → no new flyers
+  [3691] Clements' NF Slave Lake → no new flyers
+  [3695] Mike's  NF - Toronto, ON → no new flyers
+  [3697] Mike & Lori 's nofrills - Elizabeth St → no new flyers
+  [3698] Mike and Lori nofrills Port Union → no new flyers
+  [3699] Tom's nofrills - Victoria Park Ave → no new flyers
+  [3714] Christine's nofrills - Okotoks → no new flyers
+  [3715] Rob & Tina’s NF → no new flyers
+  [3716] Dilip's No Frills → no new flyers
+  [3717] John & Danielle's NF North York, ON → no new flyers
+  [3728] Rob & Rachael's nofrills → no new flyers
+  [3732] Aureo's No Frills - Saskatoon → no new flyers
+  [3733] Brody’s No Frills → no new flyers
+  [3740] Mills' nofrills - Glencoe → no new flyers
+  [3753] Ryan's nofrills - Welland Ave → no new flyers
+  [3770] Sam’s No Frills → no new flyers
+  [3771] Jim's No Frills → no new flyers
+  [3776] Ian's nofrills - Edmonton → no new flyers
+  [3779] Adrian's → no new flyers
+  [3786] Joe & Val's nofrills  - Yonge St → no new flyers
+  [3787] Chris & Tanya’s No Frills → no new flyers
+  [3789] Chris's nofrills → no new flyers
+  [3801] Mike & Andreea’s - Stratford, PEI → no new flyers
+  [3807] Alfie's nofrills - West 4th Ave. → no new flyers
+  [3811] Brook’s No Frills → no new flyers
+  [3814] Shaun & Felicia's - Shediac → no new flyers
+  [3907] Tom & Michelle's nofrills - Creditview → no new flyers
+  [3915] John's nofrills #3915 → no new flyers
+  [3916] Nadim's nofrills - Oshawa → no new flyers
+  [3922] Joe & Barb's - Oshawa → no new flyers
+  [3924] Dave's nofrills - Cedarbrae → no new flyers
+  [3925] Carlo's nofrills - Yonge St. → no new flyers
+  [3931] Rocca’s No Frills → no new flyers
+  [3933] James & Jenn's nofrills - Cornwall → no new flyers
+  [3942] Tina's nofrills - Strathmore → no new flyers
+  [3946] Rob's nofrills - Airdrie → no new flyers
+  [3947] Craig's nofrills - Leduc → no new flyers
+  [3948] Lionel's nofrills - Lacombe → no new flyers
+  [3968] Dennis' nofrills - Coquitlam → no new flyers
+  [3969] Darcy's nofrills - Thunder Bay → no new flyers
+  [3970] Kevin and Amanda's nofrills - Calgary → no new flyers
+  [3976] Joe's nofrills - Invermere → no new flyers
+  [3978] Crawford's nofrills → no new flyers
+  [3979] Brad's nofrills - Salmon Arm → no new flyers
+  [3982] Mark's nofrills - Cochrane → no new flyers
+  [3983] Sean's nofrills - Stettler → no new flyers
+  [3985] Michael's NOFRILLS Langley → no new flyers
+  [3989] Chris & Tracey's nofrills - Morinville → no new flyers
+  [3992] Kevin's nofrills - Olivier → no new flyers
+  [3993] Jerry's → no new flyers
+  [3995] Jeb's nofrills - Beaumont → no new flyers
+  [4012] Phil's nofrills - Argyle Mall → no new flyers
+  [4036] Allen's NF Midland Jones Rd → no new flyers
+  [4112] No Frills Topsail → no new flyers
+  [4164] Jordan & Corrina's → no new flyers
+  [4224] Scott's nofrills - Balmoral Drive → no new flyers
+  [4404] Rounddhouse Centre → no new flyers
+  [4436] Merv's nofrills - Calgary → no new flyers
+  [4489] Mike & Rebecca’s nofrills - Whitecourt → no new flyers
+  [4493] Spataro's nofrills - Chinguacousy Rd., Brampton → no new flyers
+  [5135] Joseph's nofrills → no new flyers
+  [5139] Esplanade → no new flyers
+  [5156] Andrew & Emily's nofrills - Loyalist Pkwy → no new flyers
+  [5174] Karl & Kelly's - Saint John, NB → no new flyers
+  [5238] Anthony & Nadege’s-Belleville → no new flyers
+  [5456] Trevor's No Frills → no new flyers
+  [5457] Ian's nofrills - Edmonton → no new flyers
+  [5458] Sean's nofrills - Stettler → no new flyers
+  [5459] Gord & Kim's nofrills - Coverdale Dr → no new flyers
+  [5549] Romeo's No Frills → no new flyers
+  [5794] Ashley's nofrills - McLaughlin → no new flyers
+  [6791] Felice's nofrills - Shuter St. → no new flyers
+  [6792] Hunterhorn No Frills → no new flyers
+  [6793] Pincher Creek - Pincher Creek, AB → no new flyers
+  [6797] Vi & Yu Ling's' - Scarborough, ON → no new flyers
+  [6798] Joe's nofrills - Cambridge → no new flyers
+  [6930] David & Mandie's No Frills → no new flyers
+  [6933] MICHAEL'S NOFRILLS SCARBOROUGH → no new flyers
+  [6936] Sudbury → no new flyers
+  [6945] Jesse's - Toronto, ON → no new flyers
+  [6961] AMY & BRENDAN’S → no new flyers
+  [6962] Joe & Lily's NF Ottawa → no new flyers
+  [6964] Jinky's → no new flyers
+  [6966] No Frills - Travis & Sierra's → no new flyers
+  [6969] Cynthia's No Frills - Calgary → no new flyers
+  [6970] Megan's nofrills- Hyde Park → no new flyers
+  [6971] Ray's nofrills → no new flyers
+  [7012] Alfredo's NF Burlington Brant → no new flyers
+  [7026] Nick's and Mira's nofrills-Vic Prk Lawrence → no new flyers
+  [7031] Lorraine's nofrills - Cold Lake → no new flyers
+  [7032] Nadim's nofrills - Whitby → no new flyers
+  [7047] Cosimo's nofrills → no new flyers
+  [7063] Dino's nofrills - Silver Creek Blvd. → no new flyers
+  [7074] EF Winnipeg St Anne's → no new flyers
+  [7076] John's nofrills Warden Ave. → no new flyers
+  [7087] Gino's nofrills → no new flyers
+  [7134] Jace’s No Frills → no new flyers
+  [7138] Rob's nofrills → no new flyers
+  [7141] Topher's nofrills - Notre Dame Ave., Winnipeg → no new flyers
+  [7146] John & Irish’s NF → no new flyers
+  [7147] Real & Carolyn’s No Frills → no new flyers
+  [7159] Marc's nofrills # 3901 → no new flyers
+  [7166] Justin's nofrills - Whitby → no new flyers
+  [7167] Harry's nofrills → no new flyers
+  [7175] Tyler's nofrills - Geraldton → no new flyers
+  [7177] Evan and Ila's NF Sydney → no new flyers
+  [7181] Paul & Mallory's NO FRILLS → no new flyers
+  [7182] Dylan's No Frills - Oshawa → no new flyers
+  [7188] Bergen's nofrills → no new flyers
+  [7189] Paul & Nancy's nofrills Hwy 17 → no new flyers
+  [7191] Mike & Lori's nofrills - Mckeown Av → no new flyers
+  [7192] Joe's nofrills → no new flyers
+  [7227] Chris' nofrills - Renforth Dr. → no new flyers
+  [7228] Dean's nofrills King St. E → no new flyers
+  [7229] Nick's nofrills - Paris → no new flyers
+  [7235] John's No Frills → no new flyers
+  [7236] Frank’s No Frills, Hamilton → no new flyers
+  [7392] Dennis' nofrills - Tilbury → no new flyers
+  [7395] Sheriff's nofrills → no new flyers
+  [7397] Josh's nofrills - Essex → no new flyers
+  [7411] Andrew & Shelley's NF Toronto → no new flyers
+  [7415] Daniel's nofrills → no new flyers
+  [7432] Dean & Barb nofrills - Queen St. → no new flyers
+  [7444] Dino's - Vaughan, ON → no new flyers
+  [7487] Paul's nofrills - Innisfail → no new flyers
+  [7488] Simran's nofrills → no new flyers
+  [7496] Blake's - St. Catharines, ON → no new flyers
+  [7498] John's nofrills - Nobleton → no new flyers
+  [7499] DYLAN & GALEN’S → no new flyers
+  [7502] Dilip's No Frills → no new flyers
+  [7503] Jones' nofrills - Silvercrk Pk N → no new flyers
+  [7504] Spataro's nofrills - Chinguacousy Rd., Brampton → no new flyers
+  [7505] DaCosta's nofrills - Markham Plaza/Hwy 7 → no new flyers
+  [7507] Stephen’s No Frills → no new flyers
+  [7508] Mario & Selina's nofrills-Royal York → no new flyers
+  [7509] Carlo's nofrills → no new flyers
+  [7512] Tom's nofrills - Victoria Park Ave → no new flyers
+  [7514] Grant's nofrills - Kingston → no new flyers
+  [7515] Simon's nofrills - Lethbridge → no new flyers
+  [7518] BRAMPTON → no new flyers
+  [7527] Malloch's nofrills - Burnhamthorpe Rd → no new flyers
+  [7530] Walsh's No Frills → no new flyers
+  [7531] Scott's nofrills - Balmoral Drive → no new flyers
+  [7532] Joe & Barb's - Oshawa → no new flyers
+  [7540] Tim and Heather's NF Shelburne → no new flyers
+  [7542] Brian's Nofrills → no new flyers
+  [7578] Dino's nofrills - Silver Creek Blvd. → no new flyers
+  [7579] Evan & Ila's No Frills → no new flyers
+  [7580] Alan's nofrills - Timmins → no new flyers
+  [7648] Cliff's No Frills → no new flyers
+  [7649] Tyler's nofrills-Dorchester Road → no new flyers
+  [7651] Tejus & Raman's - Edmonton, AB → no new flyers
+  [7655] Kevin and Amanda's nofrills - Calgary → no new flyers
+  [7763] Connor & Kennedy’s → no new flyers
+  [7909] Paul & Nancy's nofrills Hwy 17 → no new flyers
+  [7911] Rob's nofrills - Toronto → no new flyers
+  [7919] Tony & Sam's No Frills → no new flyers
+  [7921] Tim & Sue's nofrills - Pacific Ave → no new flyers
+  [7922] Tobi's - Quesnel, BC → no new flyers
+  [7928] Lenora's - St Paul, AB → no new flyers
+  [7930] Nicholas & Megan's - Drumheller, AB → no new flyers
+  [7934] Sarangan's NOFRILLS Brampton → no new flyers
+  [7935] Ted's nofrills - Kenora → no new flyers
+  [7936] Dino's nofrills - Avenue Rd → no new flyers
+  [7937] George's NF Toronto Broadview → no new flyers
+  [7938] NF Gambo - Gambo, NFLD → no new flyers
+  [7940] Brian & Ricki's - Midland, ON → no new flyers
+  [7941] JORDAN'S → no new flyers
+  [7942] Chris & Samia's - Nepean, ON → no new flyers
+  [7944] Eric's nofrills - Chestermere → no new flyers
+  [7947] Dani & Matt's → no new flyers
+  [7949] Joe's nofrills - Korah Rd → no new flyers
+  [7951] Alessandro's → no new flyers
+  [7952] Bo's → no new flyers
+  [7953] Ray's - Kelowna, BC → no new flyers
+  [7954] Vito's nofrills - Keele St → no new flyers
+  [7955] Mitch & Alana's - London, ON → no new flyers
+  [7956] Ross & Lindsay's nofrills → no new flyers
+  [7961] Raman's No Frills → no new flyers
+  [7963] Roy's nofrills - Dartmouth → no new flyers
+  [7965] Stephen's nofrills -Eglinton Ave. → no new flyers
+  [7966] Darwin's nofrills - Wainwright → no new flyers
+  [7967] Chris' nofrills - Goulet St. Winnipeg → no new flyers
+  [7994] Ken's nofrills - Langley → no new flyers
+  [7995] Aaron & Katrina's - Grand Prairie → no new flyers
+  [7996] Ted’s No Frills Winnipeg → no new flyers
+  [8000] Eric's nofrills - Waterdown → no new flyers
+  [8008] Ivan & Karen's → no new flyers
+  [8178] Taylor's NF → no new flyers
+  [8192] Jim’s-St. Catherine’s → no new flyers
+  [8998] Joe & Cassy’s → no new flyers
+  [8999] Johnny’s-Ottawa → no new flyers
+  [9474] Walsh's nofrills - Edmonton → no new flyers
+  [9478] Cliff's No Frills → no new flyers
+  [9479] Paolo's nofrills - Brampton → no new flyers
+  [9482] Justin’s NF → no new flyers
+  [9532] Gordon's nofrills - East Hastings → no new flyers
+  [9535] Francesco's - Fredericton → no new flyers
+  [9536] Ian's nofrills- McAllister Saint John → no new flyers
+  [9537] Ken's No Frills - Summerside → no new flyers
+  [9547] Peter’s NF Burlington Plains → no new flyers
+  [9555] Mike & Grace's nofrills → no new flyers
+  [9566] Tony & Kathy's → no new flyers
+  [9572] Edwards No Frills Kelowna → no new flyers
+  [9573] No Frills → no new flyers
+  [9577] Chemalnus → no new flyers
+  [9578] Andy's → no new flyers
+  [9580] Bathurst - NB → no new flyers
+  [9584] PJ's nofrills - College St W → no new flyers
+  [9585] Chad & Maegan's → no new flyers
+  [9586] Jordan's → no new flyers
+  [9689] Michael's nofrills - Silver Star Bvd → no new flyers
+  [9694] Muhammad's No Frills → no new flyers
+  [9775] Paul & Adele's nofrills - Upper Paradise Rd. → no new flyers
+  [9776] Summerhill nofrills - Ajax → no new flyers
+  [9779] Dennis' No Frills → no new flyers
+  [9781] NF Gambo - Gambo, NFLD → no new flyers
+  [9782] Andy & Nick’s No Frills → no new flyers
+  [9785] Chris and Karen nofrills - Yonge St → no new flyers
+  [9786] Andrew and Jessica’s nofrills - High River → no new flyers
+  [9796] Scott's No Frills → no new flyers
+  [9797] Daniel & Alexandra’s nofrills → no new flyers
+  [9799] Jeff & Holly's - Stittsville, ON → no new flyers
+  [9999] Ross & Lindsay's NOFRILLS Cambridge → no new flyers
+
+  0 new publication entries across 373 stores
+  0 unique new publication(s) to download
+  Saved → data/nofrills/store_flyers.json  (901,402 bytes)
+New publication entries added to store_flyers.json: 0
+Unique new publications to download: 0
+
+Phase 2: fetching products for each new publication…
+
+  Nothing new to download.
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 0
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-04-02 03:19:01 UTC
+Elapsed      : 0m 46s
+
+
+Done.  Verbose log → logs/nofrills/2026-04-02_verbose.log
+       Summary log → logs/nofrills/2026-04-02_summary.log
+
+=== No Frills Flyer Fetch — 2026-04-02 ===
+Run started : 2026-04-02 03:43:57 UTC
+
+Loaded 373 stores from data/nofrills/stores.json
+
+Stores loaded: 373
+Loaded existing store_flyers.json (677 publication entries)
+
+Phase 1: fetching publications per store…
+
+  [51] Test Store → no new flyers
+  [262] Agostino/Nancy nofrills - Bloor E. → no new flyers
+  [266] Masse's nofrills- London → no new flyers
+  [291] David's nofrills - Division St. → no new flyers
+  [293] Grant's nofrills - Kingston → no new flyers
+  [703] Jeff & Tanis' nofrills → no new flyers
+  [704] Jason's NF Severn → no new flyers
+  [705] Carlo's nofrills → no new flyers
+  [718] Rocky's nofrills #718 → no new flyers
+  [723] Tony's  nofrills - Upper James Av → no new flyers
+  [753] Jim's nofrills #753 → no new flyers
+  [758] Marc's nofrills - Rathburn Rd → no new flyers
+  [763] Mike's nofrills - Port Dover → no new flyers
+  [793] Domenic's nofrills - Harvard Rd → no new flyers
+  [1302] Gary's nofrills- Baseline Rd East → no new flyers
+  [1306] Jeff/Rose/Herb's nofrills Lakeshore → no new flyers
+  [1312] Daniel's nofrills Principale St → no new flyers
+  [1323] 1323 @Hanna → no new flyers
+  [1326] Jesse/Kelly nofrills - Thompson Rd → no new flyers
+  [1335] Ryan's nofrills, Aylmer → no new flyers
+  [1341] Mackay's nofrills - New Hamburg → no new flyers
+  [1346] Rod & Joe's nofrills - Kingston Rd. → no new flyers
+  [1356] Daniel's nofrills - Eglinton Av W → no new flyers
+  [1371] Mario & Selina's nofrills-Royal York → no new flyers
+  [1386] Jim & Lee-Anne's nofrills C Line → no new flyers
+  [1394] Baldree's nofrills - King Street E → no new flyers
+  [1399] Nick's nofrills Sheppard Ave. → no new flyers
+  [1448] Cardston - Cardston, AB → no new flyers
+  [1468] No Frills - Marcel & Narisha's → no new flyers
+  [1469] Correy/Rita's nofrills - Tillsonburg → no new flyers
+  [2702] Colbourne's nofrills - Sydney → no new flyers
+  [2706] Sam's nofrills - Bridgewater → no new flyers
+  [2707] No Frills → no new flyers
+  [2712] Gouthro's nofrills - Wyse Road → no new flyers
+  [2713] No Frills → no new flyers
+  [3041] Chris' nofrills - Fort Sk. → no new flyers
+  [3049] No Frills John's - Newmarket → no new flyers
+  [3112] Dykeman's nofrills - Kincardine → no new flyers
+  [3117] Darryll & Tracy’s nofrills - Highbury Ave., London → no new flyers
+  [3125] Alan's nofrills - Timmins → no new flyers
+  [3131] Derek's nofrills Vaughan → no new flyers
+  [3132] Francois’ No Frills → no new flyers
+  [3133] Ron's nofrills Main St. → no new flyers
+  [3134] Jim's nofrills #261 → no new flyers
+  [3135] Walkers's  nofrills - Brantford → no new flyers
+  [3138] Eric's nofrills - Lincoln St. → no new flyers
+  [3139] Leo's nofrills - Markham → no new flyers
+  [3140] Vince's nofrills - York Gate Blvd → no new flyers
+  [3142] Dieter/Darcy's nofrills - George St → no new flyers
+  [3143] Rob's nofrills - Guelph Line → no new flyers
+  [3145] Greg's nofrills → no new flyers
+  [3150] Oleg's nofrills - Oakville → no new flyers
+  [3151] Conroy's nofrills → no new flyers
+  [3152] 3152 → no new flyers
+  [3153] Matt's No Frills → no new flyers
+  [3155] Kevin's NF Calgary → no new flyers
+  [3156] Rob's nofrills - Toronto → no new flyers
+  [3240] Terry's nofrills - Surrey → no new flyers
+  [3348] Ashley's nofrills → no new flyers
+  [3349] Scott & Laurie's No Frills → no new flyers
+  [3350] Dylan's nofrills - Halifax → no new flyers
+  [3351] Kyle's nofrills - Exmouth St → no new flyers
+  [3352] Paul's Nofrills - Ponoka → no new flyers
+  [3353] Dennis' nofrills → no new flyers
+  [3354] Arkee's NOFRILLS Vancouver → no new flyers
+  [3355] No Frills → no new flyers
+  [3402] Dave's nofrills - Dawson Creek → no new flyers
+  [3403] Joti's nofrills - Vancouver → no new flyers
+  [3408] Blair's nofrills - Calgary → no new flyers
+  [3410] Dean's nofrills - Vancouver → no new flyers
+  [3413] Clifton's nofrills - Estevan, SK → no new flyers
+  [3414] Steve's nofrills - Castlegar → no new flyers
+  [3417] Tyler's nofrills - Port Alberni → no new flyers
+  [3419] Deepu's nofrills - Surrey → no new flyers
+  [3422] Matt & Ashley's nofrills - Edmonton → no new flyers
+  [3430] Amanda's nofrills - Fort St. John → no new flyers
+  [3433] Sewak's nofrills - Port Coquitlam → no new flyers
+  [3437] Jason's nofrills - Jericho Mall → no new flyers
+  [3438] Kyle's nofrills - Kitimat → no new flyers
+  [3439] Glenn’s nofrills - Surrey → no new flyers
+  [3441] Coverdale’s No Frills → no new flyers
+  [3442] Hellard's nofrills - Main St. Winnipeg → no new flyers
+  [3445] Terashita's nofrills - Brooks   Opened Feb. 28, 2016 → no new flyers
+  [3448] Troy's nofrills - Lethbridge → no new flyers
+  [3449] Ken's No Frills → no new flyers
+  [3450] Shawn's nofrills - Thunder Bay → no new flyers
+  [3451] Andrew & Emily's nofrills - Loyalist Pkwy → no new flyers
+  [3456] Steve's nofrills - Dalton Rd → no new flyers
+  [3457] John's nofrills - Milton → no new flyers
+  [3462] John's nofrills - Nobleton → no new flyers
+  [3463] Scott's nofrills - Woodstock → no new flyers
+  [3465] Lyle's nofrills → no new flyers
+  [3467] Justin & Stacey's nofrills → no new flyers
+  [3472] Fisher's nofrills - Canrobert St → no new flyers
+  [3473] Jamie & Jaclyn's - Centre Street → no new flyers
+  [3474] Rusty's nofrills - Brantford → no new flyers
+  [3476] Palmieri's nofrills - Newcastle → no new flyers
+  [3478] Craig & Jess' nofrills - Stratford, ON → no new flyers
+  [3480] Emiliano & Ana's nofrills → no new flyers
+  [3490] Mike's nofrills → no new flyers
+  [3493] Jones' nofrills - Silvercrk Pk N → no new flyers
+  [3494] Leonetti's nofrills → no new flyers
+  [3603] Jordan's's nofrills - Wetaskwin → no new flyers
+  [3604] Shipley's NF Maple Ridge → no new flyers
+  [3608] Terry's - Humboldt → no new flyers
+  [3610] Aaron's no frills → no new flyers
+  [3616] Steve & Peggy's nofrills Kingston Rd → no new flyers
+  [3621] Steve & Adele's nofrills → no new flyers
+  [3625] Brandon & Megan's NF Stittsville, ON → no new flyers
+  [3628] Steve's nofrills → no new flyers
+  [3631] Richard's nofrills → no new flyers
+  [3633] Kris's nofrills - Peace River → no new flyers
+  [3636] Dickie's nofrills - Eglinton Av. E → no new flyers
+  [3639] Brandon's nofrills → no new flyers
+  [3640] Luciano's nofrills - Alberta Av → no new flyers
+  [3641] Brandon & Joanny's NO FRILLS Vancouver → no new flyers
+  [3642] Malloch's nofrills - Burnhamthorpe Rd → no new flyers
+  [3643] Luciano's nofrills - Front St → no new flyers
+  [3646] XXXX nofrills   Markham Rd → no new flyers
+  [3647] Tom's nofrills - Roblin Blvd Winnipeg → no new flyers
+  [3648] Kurtis' nofrills - Trail → no new flyers
+  [3649] Chris' nofrills - Edmonton → no new flyers
+  [3650] Patryck's nofrills → no new flyers
+  [3654] Mark's nofrills Winners Circ → no new flyers
+  [3655] XXXX nofrills - Vegreville → no new flyers
+  [3659] Rob's No Frills #3900 → no new flyers
+  [3660] Durante's nofrills - Centre St → no new flyers
+  [3661] Robert's nofrills - Blake St → no new flyers
+  [3663] Ross' nofrills - Photography Drive → no new flyers
+  [3664] Mark's nofrills - Fanshawe Park Road → no new flyers
+  [3665] Gord & Kim's nofrills - Coverdale Dr → no new flyers
+  [3666] Frank's nofrills - Queenston Rd. Hamilton → no new flyers
+  [3667] Steve & Liz's nofrills - Stouffville → no new flyers
+  [3668] Franco's nofrills - Hamilton → no new flyers
+  [3669] Cory & Megan's NOFRILLS High River → no new flyers
+  [3670] Pepin's nofrills - Hastings St → no new flyers
+  [3671] Jason's nofrills - Jericho Mall → no new flyers
+  [3672] Mark and Sarah's nofrills - Wallaceburg → no new flyers
+  [3673] Farzin's nofrills - Main St → no new flyers
+  [3676] Chris & Beth's nofrills - Simcoe St → no new flyers
+  [3677] Tony & Jill's nofrills → no new flyers
+  [3678] Simon's nofrills - Lethbridge → no new flyers
+  [3679] Brent & Jennie's nofrills - Hamilton Road → no new flyers
+  [3680] Vi's nofrills - King Street W. → no new flyers
+  [3681] Tim and Heather's NF Shelburne → no new flyers
+  [3683] Carol’s No Frills → no new flyers
+  [3684] Peter's Nofrills → no new flyers
+  [3685] Prakash's NF Edmonton → no new flyers
+  [3688] Steve & Amanda's nofrills - Bayly St W → no new flyers
+  [3690] Guthro's nofrills - Acton → no new flyers
+  [3691] Clements' NF Slave Lake → no new flyers
+  [3695] Mike's  NF - Toronto, ON → no new flyers
+  [3697] Mike & Lori 's nofrills - Elizabeth St → no new flyers
+  [3698] Mike and Lori nofrills Port Union → no new flyers
+  [3699] Tom's nofrills - Victoria Park Ave → no new flyers
+  [3714] Christine's nofrills - Okotoks → no new flyers
+  [3715] Rob & Tina’s NF → no new flyers
+  [3716] Dilip's No Frills → no new flyers
+  [3717] John & Danielle's NF North York, ON → no new flyers
+  [3728] Rob & Rachael's nofrills → no new flyers
+  [3732] Aureo's No Frills - Saskatoon → no new flyers
+  [3733] Brody’s No Frills → no new flyers
+  [3740] Mills' nofrills - Glencoe → no new flyers
+  [3753] Ryan's nofrills - Welland Ave → no new flyers
+  [3770] Sam’s No Frills → no new flyers
+  [3771] Jim's No Frills → no new flyers
+  [3776] Ian's nofrills - Edmonton → no new flyers
+  [3779] Adrian's → no new flyers
+  [3786] Joe & Val's nofrills  - Yonge St → no new flyers
+  [3787] Chris & Tanya’s No Frills → no new flyers
+  [3789] Chris's nofrills → no new flyers
+  [3801] Mike & Andreea’s - Stratford, PEI → no new flyers
+  [3807] Alfie's nofrills - West 4th Ave. → no new flyers
+  [3811] Brook’s No Frills → no new flyers
+  [3814] Shaun & Felicia's - Shediac → no new flyers
+  [3907] Tom & Michelle's nofrills - Creditview → no new flyers
+  [3915] John's nofrills #3915 → no new flyers
+  [3916] Nadim's nofrills - Oshawa → no new flyers
+  [3922] Joe & Barb's - Oshawa → no new flyers
+  [3924] Dave's nofrills - Cedarbrae → no new flyers
+  [3925] Carlo's nofrills - Yonge St. → no new flyers
+  [3931] Rocca’s No Frills → no new flyers
+  [3933] James & Jenn's nofrills - Cornwall → no new flyers
+  [3942] Tina's nofrills - Strathmore → no new flyers
+  [3946] Rob's nofrills - Airdrie → no new flyers
+  [3947] Craig's nofrills - Leduc → no new flyers
+  [3948] Lionel's nofrills - Lacombe → no new flyers
+  [3968] Dennis' nofrills - Coquitlam → no new flyers
+  [3969] Darcy's nofrills - Thunder Bay → no new flyers
+  [3970] Kevin and Amanda's nofrills - Calgary → no new flyers
+  [3976] Joe's nofrills - Invermere → no new flyers
+  [3978] Crawford's nofrills → no new flyers
+  [3979] Brad's nofrills - Salmon Arm → no new flyers
+  [3982] Mark's nofrills - Cochrane → no new flyers
+  [3983] Sean's nofrills - Stettler → no new flyers
+  [3985] Michael's NOFRILLS Langley → no new flyers
+  [3989] Chris & Tracey's nofrills - Morinville → no new flyers
+  [3992] Kevin's nofrills - Olivier → no new flyers
+  [3993] Jerry's → no new flyers
+  [3995] Jeb's nofrills - Beaumont → no new flyers
+  [4012] Phil's nofrills - Argyle Mall → no new flyers
+  [4036] Allen's NF Midland Jones Rd → no new flyers
+  [4112] No Frills Topsail → no new flyers
+  [4164] Jordan & Corrina's → no new flyers
+  [4224] Scott's nofrills - Balmoral Drive → no new flyers
+  [4404] Rounddhouse Centre → no new flyers
+  [4436] Merv's nofrills - Calgary → no new flyers
+  [4489] Mike & Rebecca’s nofrills - Whitecourt → no new flyers
+  [4493] Spataro's nofrills - Chinguacousy Rd., Brampton → no new flyers
+  [5135] Joseph's nofrills → no new flyers
+  [5139] Esplanade → no new flyers
+  [5156] Andrew & Emily's nofrills - Loyalist Pkwy → no new flyers
+  [5174] Karl & Kelly's - Saint John, NB → no new flyers
+  [5238] Anthony & Nadege’s-Belleville → no new flyers
+  [5456] Trevor's No Frills → no new flyers
+  [5457] Ian's nofrills - Edmonton → no new flyers
+  [5458] Sean's nofrills - Stettler → no new flyers
+  [5459] Gord & Kim's nofrills - Coverdale Dr → no new flyers
+  [5549] Romeo's No Frills → no new flyers
+  [5794] Ashley's nofrills - McLaughlin → no new flyers
+  [6791] Felice's nofrills - Shuter St. → no new flyers
+  [6792] Hunterhorn No Frills → no new flyers
+  [6793] Pincher Creek - Pincher Creek, AB → no new flyers
+  [6797] Vi & Yu Ling's' - Scarborough, ON → no new flyers
+  [6798] Joe's nofrills - Cambridge → no new flyers
+  [6930] David & Mandie's No Frills → no new flyers
+  [6933] MICHAEL'S NOFRILLS SCARBOROUGH → no new flyers
+  [6936] Sudbury → no new flyers
+  [6945] Jesse's - Toronto, ON → no new flyers
+  [6961] AMY & BRENDAN’S → no new flyers
+  [6962] Joe & Lily's NF Ottawa → no new flyers
+  [6964] Jinky's → no new flyers
+  [6966] No Frills - Travis & Sierra's → no new flyers
+  [6969] Cynthia's No Frills - Calgary → no new flyers
+  [6970] Megan's nofrills- Hyde Park → no new flyers
+  [6971] Ray's nofrills → no new flyers
+  [7012] Alfredo's NF Burlington Brant → no new flyers
+  [7026] Nick's and Mira's nofrills-Vic Prk Lawrence → no new flyers
+  [7031] Lorraine's nofrills - Cold Lake → no new flyers
+  [7032] Nadim's nofrills - Whitby → no new flyers
+  [7047] Cosimo's nofrills → no new flyers
+  [7063] Dino's nofrills - Silver Creek Blvd. → no new flyers
+  [7074] EF Winnipeg St Anne's → no new flyers
+  [7076] John's nofrills Warden Ave. → no new flyers
+  [7087] Gino's nofrills → no new flyers
+  [7134] Jace’s No Frills → no new flyers
+  [7138] Rob's nofrills → no new flyers
+  [7141] Topher's nofrills - Notre Dame Ave., Winnipeg → no new flyers
+  [7146] John & Irish’s NF → no new flyers
+  [7147] Real & Carolyn’s No Frills → no new flyers
+  [7159] Marc's nofrills # 3901 → no new flyers
+  [7166] Justin's nofrills - Whitby → no new flyers
+  [7167] Harry's nofrills → no new flyers
+  [7175] Tyler's nofrills - Geraldton → no new flyers
+  [7177] Evan and Ila's NF Sydney → no new flyers
+  [7181] Paul & Mallory's NO FRILLS → no new flyers
+  [7182] Dylan's No Frills - Oshawa → no new flyers
+  [7188] Bergen's nofrills → no new flyers
+  [7189] Paul & Nancy's nofrills Hwy 17 → no new flyers
+  [7191] Mike & Lori's nofrills - Mckeown Av → no new flyers
+  [7192] Joe's nofrills → no new flyers
+  [7227] Chris' nofrills - Renforth Dr. → no new flyers
+  [7228] Dean's nofrills King St. E → no new flyers
+  [7229] Nick's nofrills - Paris → no new flyers
+  [7235] John's No Frills → no new flyers
+  [7236] Frank’s No Frills, Hamilton → no new flyers
+  [7392] Dennis' nofrills - Tilbury → no new flyers
+  [7395] Sheriff's nofrills → no new flyers
+  [7397] Josh's nofrills - Essex → no new flyers
+  [7411] Andrew & Shelley's NF Toronto → no new flyers
+  [7415] Daniel's nofrills → no new flyers
+  [7432] Dean & Barb nofrills - Queen St. → no new flyers
+  [7444] Dino's - Vaughan, ON → no new flyers
+  [7487] Paul's nofrills - Innisfail → no new flyers
+  [7488] Simran's nofrills → no new flyers
+  [7496] Blake's - St. Catharines, ON → no new flyers
+  [7498] John's nofrills - Nobleton → no new flyers
+  [7499] DYLAN & GALEN’S → no new flyers
+  [7502] Dilip's No Frills → no new flyers
+  [7503] Jones' nofrills - Silvercrk Pk N → no new flyers
+  [7504] Spataro's nofrills - Chinguacousy Rd., Brampton → no new flyers
+  [7505] DaCosta's nofrills - Markham Plaza/Hwy 7 → no new flyers
+  [7507] Stephen’s No Frills → no new flyers
+  [7508] Mario & Selina's nofrills-Royal York → no new flyers
+  [7509] Carlo's nofrills → no new flyers
+  [7512] Tom's nofrills - Victoria Park Ave → no new flyers
+  [7514] Grant's nofrills - Kingston → no new flyers
+  [7515] Simon's nofrills - Lethbridge → no new flyers
+  [7518] BRAMPTON → no new flyers
+  [7527] Malloch's nofrills - Burnhamthorpe Rd → no new flyers
+  [7530] Walsh's No Frills → no new flyers
+  [7531] Scott's nofrills - Balmoral Drive → no new flyers
+  [7532] Joe & Barb's - Oshawa → no new flyers
+  [7540] Tim and Heather's NF Shelburne → no new flyers
+  [7542] Brian's Nofrills → no new flyers
+  [7578] Dino's nofrills - Silver Creek Blvd. → no new flyers
+  [7579] Evan & Ila's No Frills → no new flyers
+  [7580] Alan's nofrills - Timmins → no new flyers
+  [7648] Cliff's No Frills → no new flyers
+  [7649] Tyler's nofrills-Dorchester Road → no new flyers
+  [7651] Tejus & Raman's - Edmonton, AB → no new flyers
+  [7655] Kevin and Amanda's nofrills - Calgary → no new flyers
+  [7763] Connor & Kennedy’s → no new flyers
+  [7909] Paul & Nancy's nofrills Hwy 17 → no new flyers
+  [7911] Rob's nofrills - Toronto → no new flyers
+  [7919] Tony & Sam's No Frills → no new flyers
+  [7921] Tim & Sue's nofrills - Pacific Ave → no new flyers
+  [7922] Tobi's - Quesnel, BC → no new flyers
+  [7928] Lenora's - St Paul, AB → no new flyers
+  [7930] Nicholas & Megan's - Drumheller, AB → no new flyers
+  [7934] Sarangan's NOFRILLS Brampton → no new flyers
+  [7935] Ted's nofrills - Kenora → no new flyers
+  [7936] Dino's nofrills - Avenue Rd → no new flyers
+  [7937] George's NF Toronto Broadview → no new flyers
+  [7938] NF Gambo - Gambo, NFLD → no new flyers
+  [7940] Brian & Ricki's - Midland, ON → no new flyers
+  [7941] JORDAN'S → no new flyers
+  [7942] Chris & Samia's - Nepean, ON → no new flyers
+  [7944] Eric's nofrills - Chestermere → no new flyers
+  [7947] Dani & Matt's → no new flyers
+  [7949] Joe's nofrills - Korah Rd → no new flyers
+  [7951] Alessandro's → no new flyers
+  [7952] Bo's → no new flyers
+  [7953] Ray's - Kelowna, BC → no new flyers
+  [7954] Vito's nofrills - Keele St → no new flyers
+  [7955] Mitch & Alana's - London, ON → no new flyers
+  [7956] Ross & Lindsay's nofrills → no new flyers
+  [7961] Raman's No Frills → no new flyers
+  [7963] Roy's nofrills - Dartmouth → no new flyers
+  [7965] Stephen's nofrills -Eglinton Ave. → no new flyers
+  [7966] Darwin's nofrills - Wainwright → no new flyers
+  [7967] Chris' nofrills - Goulet St. Winnipeg → no new flyers
+  [7994] Ken's nofrills - Langley → no new flyers
+  [7995] Aaron & Katrina's - Grand Prairie → no new flyers
+  [7996] Ted’s No Frills Winnipeg → no new flyers
+  [8000] Eric's nofrills - Waterdown → no new flyers
+  [8008] Ivan & Karen's → no new flyers
+  [8178] Taylor's NF → no new flyers
+  [8192] Jim’s-St. Catherine’s → no new flyers
+  [8998] Joe & Cassy’s → no new flyers
+  [8999] Johnny’s-Ottawa → no new flyers
+  [9474] Walsh's nofrills - Edmonton → no new flyers
+  [9478] Cliff's No Frills → no new flyers
+  [9479] Paolo's nofrills - Brampton → no new flyers
+  [9482] Justin’s NF → no new flyers
+  [9532] Gordon's nofrills - East Hastings → no new flyers
+  [9535] Francesco's - Fredericton → no new flyers
+  [9536] Ian's nofrills- McAllister Saint John → no new flyers
+  [9537] Ken's No Frills - Summerside → no new flyers
+  [9547] Peter’s NF Burlington Plains → no new flyers
+  [9555] Mike & Grace's nofrills → no new flyers
+  [9566] Tony & Kathy's → no new flyers
+  [9572] Edwards No Frills Kelowna → no new flyers
+  [9573] No Frills → no new flyers
+  [9577] Chemalnus → no new flyers
+  [9578] Andy's → no new flyers
+  [9580] Bathurst - NB → no new flyers
+  [9584] PJ's nofrills - College St W → no new flyers
+  [9585] Chad & Maegan's → no new flyers
+  [9586] Jordan's → no new flyers
+  [9689] Michael's nofrills - Silver Star Bvd → no new flyers
+  [9694] Muhammad's No Frills → no new flyers
+  [9775] Paul & Adele's nofrills - Upper Paradise Rd. → no new flyers
+  [9776] Summerhill nofrills - Ajax → no new flyers
+  [9779] Dennis' No Frills → no new flyers
+  [9781] NF Gambo - Gambo, NFLD → no new flyers
+  [9782] Andy & Nick’s No Frills → no new flyers
+  [9785] Chris and Karen nofrills - Yonge St → no new flyers
+  [9786] Andrew and Jessica’s nofrills - High River → no new flyers
+  [9796] Scott's No Frills → no new flyers
+  [9797] Daniel & Alexandra’s nofrills → no new flyers
+  [9799] Jeff & Holly's - Stittsville, ON → no new flyers
+  [9999] Ross & Lindsay's NOFRILLS Cambridge → no new flyers
+
+  0 new publication entries across 373 stores
+  0 unique new publication(s) to download
+  Saved → data/nofrills/store_flyers.json  (901,402 bytes)
+New publication entries added to store_flyers.json: 0
+Unique new publications to download: 0
+
+Phase 2: fetching products for each new publication…
+
+  Nothing new to download.
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 0
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-04-02 03:44:43 UTC
+Elapsed      : 0m 46s
+
+
+Done.  Verbose log → logs/nofrills/2026-04-02_verbose.log
+       Summary log → logs/nofrills/2026-04-02_summary.log
+

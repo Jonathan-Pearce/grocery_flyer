@@ -35,8 +35,8 @@ LOBLAWS_PORTFOLIO: list[Brand] = [
     Brand("No Frills",                "nofrills", "nofrills",                 "1063f92aaf17b3dfa830cd70a685a52b", range(1, 10001)),
     Brand("Provigo",                  "provigo",  "provigo",                  "31c52dc6a419dc10959261a5a210fccf", range(1, 12001)),
     # Slugs below need confirmation before the store scanner or flyer fetcher can run
-    Brand("Real Canadian Superstore", None,       "real_canadian_superstore", "a6e07e290f469d032d54a252f7582de2", range(1, 12001)),
-    Brand("Maxi",                     None,       "maxi",                     "75a33b973cc2e856dd0f2cd629d80a19", range(1, 12001)),
+    Brand("Real Canadian Superstore", "realcanadiansuperstore", "real_canadian_superstore", "a6e07e290f469d032d54a252f7582de2", range(1, 12001)),
+    Brand("Maxi",                     "maxi",     "maxi",                     "75a33b973cc2e856dd0f2cd629d80a19", range(1, 12001)),
     Brand("Zehrs",                    None,       "zehrs",                    "fef2a837ffeee9e5e5d02f31db81f209", range(1, 12001)),
     Brand("Fortinos",                 None,       "fortinos",                 "ff3274ff57f481a8fcfac9c6c968fe67", range(1, 12001)),
     Brand("Atlantic Superstore",      None,       "atlantic_superstore",      "4d9c0561f7abbf53ad6eca20dad201c7", range(1, 12001)),
