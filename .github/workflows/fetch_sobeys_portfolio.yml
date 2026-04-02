@@ -1,0 +1,39 @@
+name: Fetch Sobeys Portfolio Flyers
+
+on:
+  schedule:
+    - cron: '30 13 * * 4'  # Every Thursday at 13:30 UTC (9:30 AM ET)
+  workflow_dispatch:         # Allow manual runs from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch Sobeys portfolio flyers
+        run: python fetch_sobeys_portfolio_flyers.py
+
+      - name: Commit and push results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/sobeys/ data/safeway/ data/iga/ data/foodland/ data/freshco/ data/longos/ \
+                  data/farm_boy/ \
+                  logs/
+          git diff --cached --quiet \
+            || git commit -m "chore: weekly Sobeys portfolio flyer fetch $(date -u +%Y-%m-%d)"
+          git push

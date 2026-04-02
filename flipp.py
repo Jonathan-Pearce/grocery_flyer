@@ -46,8 +46,18 @@ LOBLAWS_PORTFOLIO: list[Brand] = [
     Brand("Freshmart",                 "freshmart",             "freshmart",               "32520249c4e20e14b33e5d45d084cb53", range(1, 12001)),
 ]
 
-# Placeholder portfolios — fill in when those scripts are built
-SOBEYS_PORTFOLIO: list[Brand] = []
+# Slugs confirmed via live URL test; None = slug unknown, brand skipped until confirmed.
+SOBEYS_PORTFOLIO: list[Brand] = [
+    Brand("Sobeys",   "sobeys",   "sobeys",   "afbc75b4e335236182ac2fba092a0d4a", range(1, 12001)),
+    Brand("Safeway",  "safewaycanada", "safeway",  "41073822c1e3a003da36de785443fa0f", range(1, 12001)),
+    Brand("IGA",      "igaquebec", "iga",      "692be3f8ba9e9247dc13d064cb89e7f9", range(1, 12001)),
+    Brand("Freshco",  "freshco",   "freshco",  "881f0b9feea3693a704952a69b2a037a", range(1, 12001)),
+    Brand("Foodland", "foodland",  "foodland", "07ca28af93a0585f05575bf41ce92a6d", range(1, 12001)),
+    Brand("Longos",   "longos",    "longos",   "5b4ad9bb0148449f25dbb0b76b976c1b", range(1, 12001)),
+    Brand("Farm Boy", "farmboy",   "farm_boy", "633f9e9fe2eae3e7b4a811dd9690ac4b", range(1, 12001)),
+]
+
+# Placeholder portfolio — fill in when Metro script is built
 METRO_PORTFOLIO: list[Brand] = []
 
 
