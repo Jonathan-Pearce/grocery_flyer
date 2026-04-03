@@ -139,7 +139,7 @@ class FlyerItem(BaseModel):
     multi_buy_total: float | None = None
     """Total price for the multi-buy deal, e.g. ``5.00`` in "2/$5"."""
 
-    currency: str = "CAD"
+    currency: Literal["CAD"] = "CAD"
     """ISO 4217 currency code; always ``"CAD"`` for Canadian flyers."""
 
     purchase_limit: int | None = None
@@ -190,10 +190,10 @@ class FlyerItem(BaseModel):
     """``True`` when the package size is expressed as a range."""
 
     weight_min: float | None = None
-    """Lower bound of the weight range (when ``weight_is_range`` is ``True``)."""
+    """Lower bound of the weight range (populated when ``weight_is_range`` is ``True``)."""
 
     weight_max: float | None = None
-    """Upper bound of the weight range (when ``weight_is_range`` is ``True``)."""
+    """Upper bound of the weight range (populated when ``weight_is_range`` is ``True``)."""
 
     pack_count: int | None = None
     """Number of individual units in a multipack, e.g. ``6`` from "6×355 mL"."""
