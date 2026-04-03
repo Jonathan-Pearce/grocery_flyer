@@ -164,3 +164,169 @@ Elapsed       : 0m 23s
 Done.  Verbose log → logs/metro/2026-04-03_verbose.log
        Summary log → logs/metro/2026-04-03_summary.log
 
+=== Metro Ontario Flyer Fetch — 2026-04-03 ===
+Run started : 2026-04-03 02:50:07 UTC
+
+Loaded 133 stores from data/metro/stores.json
+
+Stores loaded: 133
+Loaded existing store_flyers.json (133 flyer entries)
+
+Phase 1: fetching flyer listings per store…
+
+  [2] #767 Metro Henderson → no new flyers
+  [7] #314 Arnprior (Daniel) → no new flyers
+  [8] #135 Barrie (Bayfield) → no new flyers
+  [10] #453 Bowmanville (King) → no new flyers
+  [13] #425 Brampton (Main S) → no new flyers
+  [14] #360 Brampton (Heartlake Town Centre) → no new flyers
+  [21] #905 Cobourg (Elgin) → no new flyers
+  [25] #401 North York (Sheppard/Bathurst) → no new flyers
+  [26] #102 Dundas (Dundas Valley) → no new flyers
+  [28] #748 Etobicoke (Royal York) → no new flyers
+  [31] #704 Etobicoke (Lloyd Manor) → no new flyers
+  [32] #702 Etobicoke (Cloverdale) → no new flyers
+  [34] #159 Gananoque (King) → no new flyers
+  [41] #235 Hamilton (Centre Mall on Barton) → no new flyers
+  [43] #229 Hamilton (King Rose Place) → no new flyers
+  [49] #208 Hamilton (Fennell) → no new flyers
+  [52] #193 Huntsville (King William) → no new flyers
+  [55] #152 Kingston (Barrie) → no new flyers
+  [57] #170 Kingston (Gardiners) → no new flyers
+  [63] #199 London (Clarke Side Rd) → no new flyers
+  [64] #247 Metro Cherryhill → no new flyers
+  [69] #332 Milton (Louis St Laurent) → no new flyers
+  [71] #461 Mississauga (Mississauga Valley/Hurontario) → no new flyers
+  [74] #073 Mississauga (Lakeshore) → no new flyers
+  [76] #728 Mississauga (Meadowvale Town Centre) → no new flyers
+  [78] #161 Napanee (Alkenbrack) → no new flyers
+  [80] #771 Newmarket (Yonge/Mulock) → no new flyers
+  [82] #493 North York (Wilson/Keele) → no new flyers
+  [84] #780 North York (York Mills Centre) → no new flyers
+  [85] #052 North York (Bathurst) → no new flyers
+  [87] #786 North York (Shops at Don Mills) → no new flyers
+  [88] #334 Metro Rebecca Street → no new flyers
+  [89] #214 Oakville (Oakville Town Centre) → no new flyers
+  [91] #331 Orangeville (First) → no new flyers
+  [95] #109 Oshawa (Taunton) → no new flyers
+  [98] #245 Ottawa (Hunt Club Centre) → no new flyers
+  [99] #179 Owen Sound (Second) → no new flyers
+  [103] #204 Peterborough (Chemong Rd) → no new flyers
+  [104] #853 Metro Amberlea → no new flyers
+  [105] #153 Picton (Main) → no new flyers
+  [109] #364 Sarnia (Exmouth) → no new flyers
+  [110] #181 Sault Ste Marie (Market Mall) → no new flyers
+  [111] #038 Scarborough (Port Union) → no new flyers
+  [112] #804 Scarborough (Bridlewood Mall) → no new flyers
+  [113] #800 Scarborough (Eglinton Square) → no new flyers
+  [121] #197 St Catharines (Lakeshore) → no new flyers
+  [123] #137 St Thomas (Wellington) → no new flyers
+  [127] #424 Thunder Bay (Arthur/Hwy 61) → no new flyers
+  [128] #422 Thunder Bay (Arthur/James) → no new flyers
+  [129] #124 Tillsonburg (Broadway) → no new flyers
+  [130] #201 Timmins (Algonquin) → no new flyers
+  [134] #750 Metro Keele & Lawrence → no new flyers
+  [135] #752 Toronto (Yonge Eglinton Centre) → no new flyers
+  [137] #079 Toronto (Yonge/Lawrence) → no new flyers
+  [138] #742 Toronto (Bloor/Spadina) → no new flyers
+  [139] #063 Toronto (College Park) → no new flyers
+  [140] #758 Toronto (Bayview/Eglinton) → no new flyers
+  [141] #442 Toronto (College/Shaw) → no new flyers
+  [144] #759 Toronto (Gould) → no new flyers
+  [151] #141 Metro Central → no new flyers
+  [152] #147 Metro Riverside → no new flyers
+  [153] #720 Toronto (Liberty Village) → no new flyers
+  [157] #490 Metro Upper Middle → no new flyers
+  [159] #118 London (Adelaide Centre) → no new flyers
+  [165] #404 Belleville (N Front) → no new flyers
+  [167] #798 Metro Davis Drive → no new flyers
+  [171] #139 Metro Banwell → no new flyers
+  [179] #119 Metro Byron Village → no new flyers
+  [183] #240 Sarnia (Sarnia Centre) → no new flyers
+  [187] #475 Scarborough (Ellesmere/Victoria Park) → no new flyers
+  [190] #395 Sault Ste Marie (Churchill Plaza) → no new flyers
+  [193] #035 Scarborough (Kennedy Commons) → no new flyers
+  [198] #712 North York (Church/Finch) → no new flyers
+  [199] #083 Brampton (Trinity Commons) → no new flyers
+  [201] #084 Burlington (Appleby) → no new flyers
+  [206] #719 Toronto (Stockyards) → no new flyers
+  [210] #717 Mississauga (Sheridan Mall) → no new flyers
+  [214] #202 Sault Ste Marie (Northern) → no new flyers
+  [215] #495 Brampton (Bramalea City Centre.) → no new flyers
+  [229] #037 Toronto (Danforth) → no new flyers
+  [234] #854 Mississauga (Derry/10th Line) → no new flyers
+  [236] #808 Scarborough (Eglinton/Markham) → no new flyers
+  [241] #325 Brantford (St Paul) → no new flyers
+  [245] #399 North Bay (Lakeshore) → no new flyers
+  [247] #150 London (Wellington) → no new flyers
+  [249] #125 Whitby (Thickson/Taunton) → no new flyers
+  [257] #055 Metro Stone Road → no new flyers
+  [261] #132 Trenton (Quinte) → no new flyers
+  [263] #026 Stouffville (Main) → no new flyers
+  [265] #178 Collingwood (First) → no new flyers
+  [267] #421 Thunder Bay (River) → no new flyers
+  [273] #479 Orillia (Front St. Mall) → no new flyers
+  [275] #106 Whitby (Thickson/Hwy 2) → no new flyers
+  [281] #062 Metro Front Street → no new flyers
+  [286] #046 Mississauga (Southdown) → no new flyers
+  [327] #140 Georgetown (Mountainview) → no new flyers
+  [340] #205 Whitby (Whitby Shores Plaza) → no new flyers
+  [492] #249 Kanata (March Rd) → no new flyers
+  [494] #251 Nepean (Greenbank Square) → no new flyers
+  [495] #252 Metro Southgate → no new flyers
+  [496] #253 Gloucester (Ogilvie Square) → no new flyers
+  [497] #243 Ottawa (Lincoln Heights) → no new flyers
+  [498] #255 Metro Island Park → no new flyers
+  [499] #256 Metro Chapman Mills → no new flyers
+  [501] #258 Sudbury (Lasalle Blvd) → no new flyers
+  [502] #259 Sturgeon Falls (Front) → no new flyers
+  [503] #260 Orleans (Convent Glen Market) → no new flyers
+  [504] #261 Metro Beechwood → no new flyers
+  [506] #263 Metro Elmvale → no new flyers
+  [507] #264 Gloucester (Blackburn) → no new flyers
+  [508] #265 Metro Cumberland → no new flyers
+  [509] #266 Kingston (Bayridge) → no new flyers
+  [510] #267 Nepean (Stafford) → no new flyers
+  [511] #269 Brockville (King) → no new flyers
+  [514] #272 Ottawa (Merivale/Viewmount) → no new flyers
+  [515] #273 Casselman (Richer Circle) → no new flyers
+  [516] #275 Metro Fallingbrook → no new flyers
+  [517] GLEBE 428 → no new flyers
+  [518] VAL CARON 430 → no new flyers
+  [519] BARRY'S BAY → no new flyers
+  [520] PERTH 990 → no new flyers
+  [521] RENFREW MARKET 898 → no new flyers
+  [529] #703 Ajax (Salem) → no new flyers
+  [774] #065 Metro Humber Bay Park → no new flyers
+  [806] PEMBROKE 426 → no new flyers
+  [825] #772 Metro West Queen West → no new flyers
+  [827] #136 Metro Devonshire Mall → no new flyers
+  [835] #215 Winona (Winona Crossing) → no new flyers
+  [848] #21 Bathurst & Steeles → no new flyers
+  [851] #246 Kanata (Cope Dr.) → no new flyers
+  [893] #32 Niagara Falls → no new flyers
+  [903] #244 Rideau → no new flyers
+  [913] #145 South Barrie → no new flyers
+
+  0 new flyer entries across 133 stores
+  0 unique new job(s) to download
+  Saved → data/metro/store_flyers.json  (418,156 bytes)
+New flyer entries added to store_flyers.json : 0
+Unique new jobs to download                  : 0
+
+Phase 2: fetching products for each new job…
+
+  Nothing new to download.
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 0
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-04-03 02:50:34 UTC
+Elapsed      : 0m 27s
+
+
+Done.  Verbose log → logs/metro/2026-04-03_verbose.log
+       Summary log → logs/metro/2026-04-03_summary.log
+

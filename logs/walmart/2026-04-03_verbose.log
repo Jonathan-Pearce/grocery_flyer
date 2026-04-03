@@ -506,3 +506,457 @@ Elapsed      : 1m 1s
 Done.  Verbose log → logs/walmart/2026-04-03_verbose.log
        Summary log → logs/walmart/2026-04-03_summary.log
 
+=== Walmart Flyer Fetch — 2026-04-03 ===
+Run started : 2026-04-03 02:49:12 UTC
+
+Loaded 421 stores from data/walmart/stores.json
+
+Stores loaded: 421
+Loaded existing store_flyers.json (415 publication entries)
+
+Phase 1: fetching publications per store…
+
+  [1000] Milton → no new flyers
+  [1001] Bowmanville → no new flyers
+  [1003] Bridgewater → no new flyers
+  [1004] Toronto → no new flyers
+  [1007] Kitchener West → no new flyers
+  [1008] Drayton Valley → no new flyers
+  [1009] Whitecourt → no new flyers
+  [1011] Trail → no new flyers
+  [1012] Keswick → no new flyers
+  [1013] Grand Falls → no new flyers
+  [1014] Antigonish → no new flyers
+  [1015] Squamish → no new flyers
+  [1016] Yarmouth → no new flyers
+  [1017] Digby → no new flyers
+  [1018] Port Alberni → no new flyers
+  [1019] Lac-Mégantic → no new flyers
+  [1020] Sainte-Agathe-des-Monts → no new flyers
+  [1022] Winkler → no new flyers
+  [1023] Parry Sound → no new flyers
+  [1025] Matane → no new flyers
+  [1026] Marystown → no new flyers
+  [1027] Selkirk → no new flyers
+  [1028] Drumheller → no new flyers
+  [1029] Stouffville → no new flyers
+  [1030] Slave Lake → no new flyers
+  [1031] Ottawa Supercentre → no new flyers
+  [1032] Laval Est → no new flyers
+  [1033] Edmundston → no new flyers
+  [1034] Stettler → no new flyers
+  [1035] Labrador City → no new flyers
+  [1036] Merritt → no new flyers
+  [1038] Strathroy → no new flyers
+  [1039] Collingwood → no new flyers
+  [1040] Saint-Georges-de-Beauce → no new flyers
+  [1041] Napanee → no new flyers
+  [1042] Hamilton → no new flyers
+  [1043] Woodstock → no new flyers
+  [1045] Saint-Romuald → no new flyers
+  [1046] Taber → no new flyers
+  [1047] Kemptville → no new flyers
+  [1048] Edson → no new flyers
+  [1049] Strathmore → no new flyers
+  [1050] Airdrie → no new flyers
+  [1052] Sussex → no new flyers
+  [1054] Bracebridge → no new flyers
+  [1056] Oshawa → no new flyers
+  [1057] Vaudreuil-Dorion → no new flyers
+  [1059] Port Elgin → no new flyers
+  [1060] Rockland → no new flyers
+  [1061] SSC → no new flyers
+  [1062] Wainwright (Supercentre) → no new flyers
+  [1064] Wallaceburg → no new flyers
+  [1065] Kindersley → no new flyers
+  [1067] Fredericton → no new flyers
+  [1068] Peace River → no new flyers
+  [1069] Port Perry → no new flyers
+  [1070] Pincher Creek → no new flyers
+  [1071] Vegreville → no new flyers
+  [1072] Amherstburg → no new flyers
+  [1075] Carleton Place → no new flyers
+  [1076] Magog → no new flyers
+  [1077] Campbell River → no new flyers
+  [1078] Lethbridge → no new flyers
+  [1079] Brampton - West (Supercentre) → no new flyers
+  [1080] Scarborough → no new flyers
+  [1081] Woodbridge → no new flyers
+  [1083] Alliston → no new flyers
+  [1084] Olds → no new flyers
+  [1085] Lachenaie → no new flyers
+  [1086] Gatineau → no new flyers
+  [1087] Wasaga Beach → no new flyers
+  [1089] Calgary → no new flyers
+  [1093] Westbank → no new flyers
+  [1094] Edmonton SW → no new flyers
+  [1095] Vaughan → no new flyers
+  [1097] Calgary(Sage Hill) → no new flyers
+  [1100] Salmon Arm → no new flyers
+  [1101] Bradford → no new flyers
+  [1102] Sylvan Lake → no new flyers
+  [1104] West Broadway → no new flyers
+  [1105] Sudbury South → no new flyers
+  [1106] Williams Lake (Supercentre) → no new flyers
+  [1107] Waterdown → no new flyers
+  [1109] Markham → no new flyers
+  [1110] Ottawa-SW (Supercentre) → no new flyers
+  [1111] Kitchener (Waterloo) → no new flyers
+  [1112] Port Coquitlam → no new flyers
+  [1113] Abbotsford West → no new flyers
+  [1115] Maple (Vaughan) → no new flyers
+  [1116] Richmond Hill → no new flyers
+  [1117] Scarborough → no new flyers
+  [1118] Kanata → no new flyers
+  [1119] LOUGHEED HWY. & WREN STRET → no new flyers
+  [1120] Brampton Northeast → no new flyers
+  [1121] Hamilton → no new flyers
+  [1122] Edmonton → no new flyers
+  [1123] Sherwood Park → no new flyers
+  [1125] Stratford → no new flyers
+  [1126] Penguin PickUp - Mississauga East → no new flyers
+  [1127] Port Credit → no new flyers
+  [1130] Fergus → no new flyers
+  [1132] Chateauguay → no new flyers
+  [1135] Cochrane → no new flyers
+  [1136] Calgary (East Hills) → no new flyers
+  [1138] Tamarack Southeast → no new flyers
+  [1139] Toronto Downsview → no new flyers
+  [1140] Montreal (Dorval) → no new flyers
+  [1141] Steinbach → no new flyers
+  [1143] Prince Rupert → no new flyers
+  [1145] Edmonton (South Park) → no new flyers
+  [1146] Edmonton (Northgate) → no new flyers
+  [1149] Edmonton (Meadowlark) → no new flyers
+  [1150] Toronto (Gerrard Square) → no new flyers
+  [1151] Toronto (Sheridan) → no new flyers
+  [1156] Waterloo (C) → no new flyers
+  [1157] London (Northland) → no new flyers
+  [1158] Ottawa (Gloucester) → no new flyers
+  [1159] Hawkesbury → no new flyers
+  [1160] Listowel → no new flyers
+  [1161] Newmarket → no new flyers
+  [1162] Peterborough (S) → no new flyers
+  [1164] St Catharines (Centre) → no new flyers
+  [1165] Thunder Bay (S) → no new flyers
+  [1166] Thunder Bay (N) → no new flyers
+  [1167] Longueuil (S) → no new flyers
+  [1168] Montreal (Hochelaga) → no new flyers
+  [1169] Pointe-aux-Trembles → no new flyers
+  [1170] Montreal (Cote Des Neiges) → no new flyers
+  [1172] Sherbrooke (E) (Fleurimont) → no new flyers
+  [1173] La Pocatiere → no new flyers
+  [1174] Sorel-Tracy → no new flyers
+  [1175] Saint John (W) → no new flyers
+  [1176] Dartmouth → no new flyers
+  [1177] Greenwood → no new flyers
+  [1178] North Sydney → no new flyers
+  [1181] Tsawwassen → no new flyers
+  [1182] Kingsway Mall Supercentre → no new flyers
+  [1183] Place Viau → no new flyers
+  [1185] Blainville → no new flyers
+  [1186] Winnipeg (Grant Park) → no new flyers
+  [1187] Edmonton (Ellerslie) → no new flyers
+  [1188] Brampton South → no new flyers
+  [1189] Ville Saint-Laurent → no new flyers
+  [1190] Hull (Supercentre) → no new flyers
+  [1192] New Westminster → no new flyers
+  [1199] Guelph (South) → no new flyers
+  [1200] Ottawa Central Supercentre → no new flyers
+  [1201] Québec City → no new flyers
+  [1202] Pointe Claire → no new flyers
+  [1203] Candiac → no new flyers
+  [1204] Southdale Centre → no new flyers
+  [1205] Surrey → no new flyers
+  [1206] Maple Ridge → no new flyers
+  [1207] Delta → no new flyers
+  [1208] Coquitlam → no new flyers
+  [1211] Erin Mills Town Centre → no new flyers
+  [1212] Laurier → no new flyers
+  [1213] Metrotown, BC → no new flyers
+  [1214] Victoria Hillside Mall → no new flyers
+  [1400] TC Signing Warehouse → no new flyers
+  [3000] Agincourt → no new flyers
+  [3001] Ajax → no new flyers
+  [3002] Baie-Comeau → no new flyers
+  [3003] Bathurst → no new flyers
+  [3004] Brandon → no new flyers
+  [3005] Brantford → no new flyers
+  [3006] Brockville → no new flyers
+  [3007] Brossard → no new flyers
+  [3008] Burnaby (Lougheed Mall) → no new flyers
+  [3009] Calgary → no new flyers
+  [3010] Calgary → no new flyers
+  [3011] Calgary → no new flyers
+  [3012] Calgary → no new flyers
+  [3013] Calgary → no new flyers
+  [3014] Cap-de-la-Madeleine → no new flyers
+  [3015] Carbonear → no new flyers
+  [3016] Chatham → no new flyers
+  [3017] Chicoutimi → no new flyers
+  [3018] Clarenville → no new flyers
+  [3019] Abbotsford → no new flyers
+  [3020] Cornwall → no new flyers
+  [3021] Dartmouth → no new flyers
+  [3022] Dauphin → no new flyers
+  [3023] Drummondville → no new flyers
+  [3024] Dryden Highway → no new flyers
+  [3025] Duncan → no new flyers
+  [3026] Edmonton (Supercentre) → no new flyers
+  [3027] Edmonton West → no new flyers
+  [3028] Edmonton → no new flyers
+  [3029] Edmonton (S.Common) → no new flyers
+  [3030] Estevan Supercentre → no new flyers
+  [3031] Etobicoke → no new flyers
+  [3032] Fredericton → no new flyers
+  [3033] Gander → no new flyers
+  [3034] Georgetown → no new flyers
+  [3035] Granby → no new flyers
+  [3036] Grand Falls (Windsor) → no new flyers
+  [3037] Hamilton → no new flyers
+  [3038] Hinton → no new flyers
+  [3039] Joliette (Supercentre) → no new flyers
+  [3040] Kamloops → no new flyers
+  [3041] Kapuskasing → no new flyers
+  [3042] Kelowna → no new flyers
+  [3043] Kingston → no new flyers
+  [3044] Kirkland → no new flyers
+  [3045] Kitchener → no new flyers
+  [3046] LaSalle → no new flyers
+  [3047] Laval → no new flyers
+  [3048] Lethbridge South → no new flyers
+  [3049] London → no new flyers
+  [3050] London North → no new flyers
+  [3051] Whiteoaks (London) → no new flyers
+  [3052] Longueuil → no new flyers
+  [3053] Markham → no new flyers
+  [3054] Mississauga (Meadowvale) → no new flyers
+  [3055] Mississauga (Square One) → no new flyers
+  [3056] Dieppe → no new flyers
+  [3057] North Vancouver → no new flyers
+  [3058] North Battleford → no new flyers
+  [3059] Nanaimo → no new flyers
+  [3060] Nelson → no new flyers
+  [3061] New Glasgow → no new flyers
+  [3062] Newmarket → no new flyers
+  [3063] North Bay → no new flyers
+  [3064] Oakville → no new flyers
+  [3065] Orleans → no new flyers
+  [3066] Ottawa West (Supercentre) → no new flyers
+  [3067] Owen Sound → no new flyers
+  [3068] Port Hawkesbury → no new flyers
+  [3069] Portage La Prairie → no new flyers
+  [3070] Penticton → no new flyers
+  [3071] Peterborough (Supercentre) → no new flyers
+  [3072] Powell River → no new flyers
+  [3073] Prince Albert → no new flyers
+  [3074] Québec → no new flyers
+  [3075] Red Deer → no new flyers
+  [3076] Regina (North) → no new flyers
+  [3077] Regina South → no new flyers
+  [3078] Renfrew → no new flyers
+  [3079] Repentigny → no new flyers
+  [3080] Rosemère → no new flyers
+  [3081] Bedford-Sackville → no new flyers
+  [3082] Sarnia → no new flyers
+  [3083] Saskatoon West → no new flyers
+  [3084] Saskatoon North Supercentre → no new flyers
+  [3085] Sept-Îles → no new flyers
+  [3086] Sherbrooke → no new flyers
+  [3087] St. Albert → no new flyers
+  [3088] St. Catharines → no new flyers
+  [3089] Saint-Eustache → no new flyers
+  [3090] Saint-Jean-sur-Richelieu → no new flyers
+  [3091] Saint John → no new flyers
+  [3092] St. John's → no new flyers
+  [3093] Mount Pearl → no new flyers
+  [3094] Saint-Léonard → no new flyers
+  [3095] Stephenville → no new flyers
+  [3096] Stoney Creek → no new flyers
+  [3097] Sudbury → no new flyers
+  [3098] Surrey → no new flyers
+  [3099] Swift Current → no new flyers
+  [3100] Sydney → no new flyers
+  [3101] Sydney → no new flyers
+  [3102] Thompson → no new flyers
+  [3103] Tillsonburg → no new flyers
+  [3104] Timmins → no new flyers
+  [3105] North York → no new flyers
+  [3106] Toronto → no new flyers
+  [3107] Winnipeg (Transcona) → no new flyers
+  [3108] Trois-Rivières → no new flyers
+  [3109] Victoria → no new flyers
+  [3110] Welland → no new flyers
+  [3111] Scarborough East → no new flyers
+  [3112] Wetaskiwin → no new flyers
+  [3113] Whitby → no new flyers
+  [3114] Windsor → no new flyers
+  [3115] Windsor East → no new flyers
+  [3116] Winnipeg → no new flyers
+  [3117] Winnipeg (W) → no new flyers
+  [3118] Winnipeg → no new flyers
+  [3119] Winnipeg → no new flyers
+  [3120] Woodstock → no new flyers
+  [3121] Yellowknife → no new flyers
+  [3122] Belleville Suprecentre → no new flyers
+  [3123] Barrie → no new flyers
+  [3124] Thunder Bay → no new flyers
+  [3125] Gatineau → no new flyers
+  [3126] Goderich R. R. → no new flyers
+  [3127] Ancaster → no new flyers
+  [3128] New Liskeard → no new flyers
+  [3129] Hanover → no new flyers
+  [3130] Brampton North → no new flyers
+  [3131] Ottawa → no new flyers
+  [3132] Lachute → no new flyers
+  [3133] Cobourg → no new flyers
+  [3134] Kanata → no new flyers
+  [3135] Brampton East → no new flyers
+  [3136] Rouyn-Noranda → no new flyers
+  [3137] Saint-Hyacinthe → no new flyers
+  [3138] Bayer's Lake → no new flyers
+  [3139] Val-d'Or → no new flyers
+  [3140] Saint-Bruno-de-Montarville → no new flyers
+  [3141] Burlington → no new flyers
+  [3142] Orangeville → no new flyers
+  [3143] Hull → no new flyers
+  [3144] Guelph → no new flyers
+  [3146] Sainte-Foy → no new flyers
+  [3147] Grande Prairie → no new flyers
+  [3148] Lévis → no new flyers
+  [3149] Mascouche → no new flyers
+  [3150] Medicine Hat → no new flyers
+  [3151] Shawnessy → no new flyers
+  [3152] Cambridge → no new flyers
+  [3153] Orillia → no new flyers
+  [3154] Sherwood Park → no new flyers
+  [3155] Sault Ste Marie → no new flyers
+  [3156] Waterloo → no new flyers
+  [3157] Fort McMurray → no new flyers
+  [3158] Langley → no new flyers
+  [3159] Cabbagetown → no new flyers
+  [3160] Niagara Falls → no new flyers
+  [3161] Oshawa → no new flyers
+  [3162] Charlottetown → no new flyers
+  [3163] Courtenay → no new flyers
+  [3164] Leamington → no new flyers
+  [3165] Mont Royal → no new flyers
+  [3166] Barrie → no new flyers
+  [3167] Chilliwack → no new flyers
+  [3168] Lloydminster → no new flyers
+  [3169] Vernon → no new flyers
+  [3170] Burlington → no new flyers
+  [3171] Pembroke → no new flyers
+  [3172] St. Catharines → no new flyers
+  [3173] Moose Jaw → no new flyers
+  [3174] Vaughan → no new flyers
+  [3176] Yorkton → no new flyers
+  [3177] Winnipeg (SW) → no new flyers
+  [3178] Trenton → no new flyers
+  [3179] Regina East Supercentre → no new flyers
+  [3180] Montreal Marche Central → no new flyers
+  [3181] Camrose → no new flyers
+  [3183] Cranbrook → no new flyers
+  [3184] Truro → no new flyers
+  [3185] Corner Brook → no new flyers
+  [3186] Pickering → no new flyers
+  [3188] Langford → no new flyers
+  [3189] Laval Ste-Dorothée → no new flyers
+  [3190] Saint-Jérôme → no new flyers
+  [3191] Whitehorse → no new flyers
+  [3194] Red Deer → no new flyers
+  [3195] Richmond Hill → no new flyers
+  [3196] St. John's → no new flyers
+  [3197] St. Thomas → no new flyers
+  [3198] Rimouski → no new flyers
+  [3199] Quesnel → no new flyers
+  [3200] Oakville → no new flyers
+  [3635] Scarborough → no new flyers
+  [3636] Halifax → no new flyers
+  [3637] Spruce Grove → no new flyers
+  [3638] Barrhaven → no new flyers
+  [3639] Salaberry-de-Valleyfield → no new flyers
+  [3640] Cold Lake → no new flyers
+  [3642] Saint-Constant → no new flyers
+  [3644] Summerside → no new flyers
+  [3645] Midland → no new flyers
+  [3646] Beauport → no new flyers
+  [3647] Shawinigan → no new flyers
+  [3649] Fort Erie → no new flyers
+  [3650] Calgary → no new flyers
+  [3651] Prince George → no new flyers
+  [3652] Richmond → no new flyers
+  [3653] Uxbridge → no new flyers
+  [3654] Mississauga → no new flyers
+  [3655] Rivière-du-Loup → no new flyers
+  [3656] Montréal-Nord → no new flyers
+  [3657] Leduc → no new flyers
+  [3658] Brooks → no new flyers
+  [3659] Moncton → no new flyers
+  [3660] Flin Flon → no new flyers
+  [3661] Fort St John → no new flyers
+  [3737] Atholville → no new flyers
+  [3738] New Minas → no new flyers
+  [3739] Victoriaville → no new flyers
+  [3740] Rexdale → no new flyers
+  [4002] Penguin PickUp - Eastern Ave → no new flyers
+  [4006] Penguin PickUp - Cabbagetown → no new flyers
+  [4007] Penguin PickUp - Queens Quay → no new flyers
+  [4008] Penguin PickUp - Eglinton East → no new flyers
+  [4011] Penguin PickUp - Queen West → no new flyers
+  [4012] Penguin PickUp - Fashion District → no new flyers
+  [4013] Penguin PickUp - Church & Wellesley → no new flyers
+  [4014] Penguin PickUp - Peter St → no new flyers
+  [4016] Penguin PickUp - Mont Royal → no new flyers
+  [4017] Penguin PickUp - Peter St → no new flyers
+  [4018] Penguin PickUp - Queen St & University Ave → no new flyers
+  [4022] Penguin PickUp - West Broadway → no new flyers
+  [4107] Penguin PickUp - Crossroads → no new flyers
+  [5708] Okotoks → no new flyers
+  [5726] Calgary → no new flyers
+  [5742] Bolton → no new flyers
+  [5743] Huntsville → no new flyers
+  [5752] Simcoe → no new flyers
+  [5753] Fort Saskatchewan → no new flyers
+  [5776] Dawson Creek → no new flyers
+  [5777] New Westminster → no new flyers
+  [5778] Aurora → no new flyers
+  [5789] Amherst → no new flyers
+  [5790] Weyburn → no new flyers
+  [5795] Alma → no new flyers
+  [5806] Fort Frances → no new flyers
+  [5811] Smiths Falls → no new flyers
+  [5831] Thornhill (Supercentre) → no new flyers
+  [5832] Thetford Mines → no new flyers
+  [5833] Miramichi → no new flyers
+  [5834] Terrace → no new flyers
+  [5838] Surrey → no new flyers
+  [5839] Cowansville → no new flyers
+  [5853] Surrey → no new flyers
+  [5854] Kenora → no new flyers
+  [5878] Saskatoon South → no new flyers
+  [8123] Penguin PickUp - SSC → no new flyers
+  [9051] Wal-Mart Innovation Centre #9051 → no new flyers
+
+  0 new publication entries across 421 stores
+  0 unique new publication(s) to download
+  Saved → data/walmart/store_flyers.json  (502,567 bytes)
+New publication entries added to store_flyers.json: 0
+Unique new publications to download: 0
+
+Phase 2: fetching products for each new publication…
+
+  Nothing new to download.
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 0
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-04-03 02:50:07 UTC
+Elapsed      : 0m 55s
+
+
+Done.  Verbose log → logs/walmart/2026-04-03_verbose.log
+       Summary log → logs/walmart/2026-04-03_summary.log
+

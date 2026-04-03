@@ -13,3 +13,18 @@ Unique new publications to download: 19
 Run completed: 2026-04-03 01:42:06 UTC
 Elapsed      : 1m 1s
 
+=== Walmart Flyer Fetch — 2026-04-03 ===
+Run started : 2026-04-03 02:49:12 UTC
+
+Stores loaded: 421
+New publication entries added to store_flyers.json: 0
+Unique new publications to download: 0
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 0
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-04-03 02:50:07 UTC
+Elapsed      : 0m 55s
+

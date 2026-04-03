@@ -1,0 +1,274 @@
+=== Foodland Flyer Fetch — 2026-04-03 ===
+Run started : 2026-04-03 02:48:23 UTC
+
+Loaded 241 stores from data/foodland/stores.json
+
+Stores loaded: 241
+Loaded existing store_flyers.json (208 publication entries)
+
+Phase 1: fetching publications per store…
+
+  [1906] Foodland Port Aux Choix → no new flyers
+  [3237] Havelock → no new flyers
+  [3238] Elmvale → no new flyers
+  [3239] Wiarton → no new flyers
+  [3245] Walkerton → no new flyers
+  [3247] Buckhorn → no new flyers
+  [3248] Millbrook → no new flyers
+  [3249] Foodland Markdale → no new flyers
+  [3250] Foodland Komoka → no new flyers
+  [3252] Vodden → no new flyers
+  [3255] Omemee → no new flyers
+  [3257] Little Britain → no new flyers
+  [3260] Stayner → no new flyers
+  [3263] Wingham → no new flyers
+  [3270] Creemore → no new flyers
+  [3273] Hagersville → no new flyers
+  [3279] Mount Albert → no new flyers
+  [3284] Port Carling → no new flyers
+  [3287] Victoria Harbour → no new flyers
+  [3290] Picton → no new flyers
+  [3294] Toronto &#8211; 107 Parkway Forest  Dr → no new flyers
+  [3297] St. Marys Stonetown → no new flyers
+  [3299] Capreol → no new flyers
+  [3302] Coldwater → no new flyers
+  [3303] Caledon East → no new flyers
+  [3304] Craighurst → no new flyers
+  [3307] Cobourg → no new flyers
+  [3309] Lucan → no new flyers
+  [3320] Callander → no new flyers
+  [3322] Cookstown → no new flyers
+  [3324] Brights Grove → no new flyers
+  [3326] Essex → no new flyers
+  [3328] Elliot Lake → no new flyers
+  [3329] Parkway Forest → no new flyers
+  [3332] Rockwood → no new flyers
+  [3340] Tobermory → no new flyers
+  [3342] Shelburne → no new flyers
+  [3343] Glencoe → no new flyers
+  [3344] Ayr → no new flyers
+  [3345] Exeter → no new flyers
+  [3346] Colborne → no new flyers
+  [3347] Little Brittain → no new flyers
+  [3348] Bobcaygeon → no new flyers
+  [3349] Madoc → no new flyers
+  [3354] Niagara on the Lake Foodland → no new flyers
+  [3356] Amherstview → no new flyers
+  [3357] Osgoode → no new flyers
+  [3360] Cayuga → no new flyers
+  [3361] Corunna → no new flyers
+  [3362] Coboconk → no new flyers
+  [3363] Hanover → no new flyers
+  [3366] Brussels → no new flyers
+  [3367] St. Thomas → no new flyers
+  [3368] Ingersoll → no new flyers
+  [3369] Watford → no new flyers
+  [3370] Arthur → no new flyers
+  [3384] Verona → no new flyers
+  [3386] Palmerston → no new flyers
+  [3387] Seaforth → no new flyers
+  [3391] Vankleek Hill → no new flyers
+  [3392] Thornbury → no new flyers
+  [3393] Stirling → no new flyers
+  [3395] Brechin → no new flyers
+  [3396] Ennismore → no new flyers
+  [3397] Iroquois → no new flyers
+  [3398] Parkhill → no new flyers
+  [3407] Hanover → no new flyers
+  [3414] Mindemoya → no new flyers
+  [3415] Wasaga Beach → no new flyers
+  [3418] Iroquois → no new flyers
+  [3420] Foodland Dutton → no new flyers
+  [3421] Waterford → no new flyers
+  [3427] Elmira → no new flyers
+  [3428] Southampton → no new flyers
+  [3431] Hanover → no new flyers
+  [3432] Foodland Mount Forest → no new flyers
+  [3433] Foodland Stroud → no new flyers
+  [3435] Osgoode → no new flyers
+  [3437] Belle River → no new flyers
+  [3441] West Lorne → no new flyers
+  [3442] Shelburne → no new flyers
+  [3443] Beeton → no new flyers
+  [3444] Greely → no new flyers
+  [3445] Arthur → no new flyers
+  [3446] Brampton → no new flyers
+  [3448] Timmins → no new flyers
+  [3449] Foodland Springdale → no new flyers
+  [3450] Foodland Schomberg → no new flyers
+  [3453] Foodland Charlottetown → no new flyers
+  [3455] Foodland Kentville → no new flyers
+  [3456] Foodland Chester → no new flyers
+  [3457] Foodland Stewiacke → no new flyers
+  [3458] Grand Bay → no new flyers
+  [3461] Foodland Botwood → no new flyers
+  [3462] Co-Op Lewisporte → no new flyers
+  [3463] Foodland Sydney Mines → no new flyers
+  [3464] Foodland Westville → no new flyers
+  [3465] Foodland Weymouth → no new flyers
+  [3466] Foodland Bloomfield → no new flyers
+  [3467] Foodland St. Peters → no new flyers
+  [3663] Stayner → no new flyers
+  [3665] Creemore → no new flyers
+  [3667] Mattawa → no new flyers
+  [3668] Dorchester → no new flyers
+  [3672] Foodland Port Stanley → no new flyers
+  [3673] Stonetown → no new flyers
+  [3674] Woodstock → no new flyers
+  [4040] Sobeys Three Sisters Liquor → no new flyers
+  [4352] Sobeys Edgemont Liquor → no new flyers
+  [4819] Sobeys Liquor Glenridding → no new flyers
+  [6266] Foxboro → no new flyers
+  [6274] Coldwater → no new flyers
+  [6277] Wellington → no new flyers
+  [6283] Thorold → no new flyers
+  [6304] Sydenham &#8211; Trousdales → no new flyers
+  [6340] Waterford → no new flyers
+  [6341] Wyoming → no new flyers
+  [6363] Little Current → no new flyers
+  [6364] West Lorne → no new flyers
+  [6393] Iroquois Falls → no new flyers
+  [6396] Midland → no new flyers
+  [6413] Minden → no new flyers
+  [6419] Forest → no new flyers
+  [6421] Ridgetown → no new flyers
+  [6422] Lakefield → no new flyers
+  [6424] Toronto &#8211; 1500 Islington Ave → no new flyers
+  [6425] Toronto &#8211; 2040 Queen St E. → no new flyers
+  [6429] Eganville → no new flyers
+  [6436] Shelburne → no new flyers
+  [6445] Stratford → no new flyers
+  [6447] Haliburton → no new flyers
+  [6448] Cannington → no new flyers
+  [6731] Norwood → no new flyers
+  [6740] Northbrook → no new flyers
+  [6742] Bayfield → no new flyers
+  [6756] Toronto &#8211; 623 Danforth Ave → no new flyers
+  [6764] Hamilton → no new flyers
+  [6766] Smithville → no new flyers
+  [6767] Tottenham → no new flyers
+  [6780] Mactier → no new flyers
+  [6781] Frankford → no new flyers
+  [6782] Beeton → no new flyers
+  [6783] Bancroft → no new flyers
+  [6785] Chippawa → no new flyers
+  [6791] Harriston → no new flyers
+  [6817] Penetang → no new flyers
+  [6819] Sundridge → no new flyers
+  [6827] Russell → no new flyers
+  [6828] Winchester → no new flyers
+  [6834] Owen Sound → no new flyers
+  [6837] Newcastle → no new flyers
+  [6838] Port Perry → no new flyers
+  [6839] Kirkland Lake → no new flyers
+  [6841] Orillia → no new flyers
+  [6844] Durham → no new flyers
+  [6846] Hillsburgh → no new flyers
+  [6847] Stroud → no new flyers
+  [6856] Clinton → no new flyers
+  [6863] Garson → no new flyers
+  [6864] Vineland → no new flyers
+  [7025] Burford → no new flyers
+  [7084] Norwich → no new flyers
+  [7086] Bothwell → no new flyers
+  [7099] Port Rowan → no new flyers
+  [7102] Lambeth → no new flyers
+  [7119] Tilbury → no new flyers
+  [7129] Dresden → no new flyers
+  [7181] Ingleside → no new flyers
+  [7193] Lions Head → no new flyers
+  [7254] Dundalk → no new flyers
+  [7256] Wilberforce → no new flyers
+  [7284] Peterborough &#8211; 760 Sherbrooke St. W. → no new flyers
+  [7285] Peterborough &#8211; 142 Hunter St. E. → no new flyers
+  [9080] Foodland Carters Cove (Farr&#8217;s) → no new flyers
+  [9083] Foodland Old Perlican → no new flyers
+  [9085] Foodland Blackville → no new flyers
+  [9089] Foodland Berwick → no new flyers
+  [9090] Foodland Torbay → no new flyers
+  [9099] Foodland Arnolds Cove → no new flyers
+  [9147] Foodland Burgeo → no new flyers
+  [9156] Foodland Joe Batts Arm → no new flyers
+  [9159] Foodland Saulnierville → no new flyers
+  [9187] Foodland Coldbrook → no new flyers
+  [9214] Foodland Whitbourne → no new flyers
+  [9215] Foodland Bonavista → no new flyers
+  [9221] Foodland Pasadena → no new flyers
+  [9223] Foodland Harbour Breton → no new flyers
+  [9226] Foodland Minto -TEMPORARY LOCATION → no new flyers
+  [9229] Foodland Jeddore → no new flyers
+  [9232] Foodland Eskasoni → no new flyers
+  [9253] Foodland Carbonear → no new flyers
+  [9256] Foodland Twillingate → no new flyers
+  [9257] Foodland Middleton → no new flyers
+  [9258] Foodland Sackville → no new flyers
+  [9261] Foodland Annapolis Royal . → no new flyers
+  [9263] Foodland Grand Falls → no new flyers
+  [9266] Foodland Gander → no new flyers
+  [9270] Foodland Ferryland → no new flyers
+  [9272] Foodland Grand Bank → no new flyers
+  [9274] Foodland Bay Roberts → no new flyers
+  [9275] Shean Co-operative Ltd. → no new flyers
+  [9276] La Cooperative de Cheticamp → no new flyers
+  [9277] La Coop Charles Forest → no new flyers
+  [9278] Margaree Co-operative Soc. → no new flyers
+  [9279] Whycocomagh Co-operative Ltd → no new flyers
+  [9280] Port Hood Co-operative Ltd. → no new flyers
+  [9281] Neils Harbour Co-operative → no new flyers
+  [9282] Baie Verte D.C. Co-op Soc. → no new flyers
+  [9283] Carleton Co-operative Ltd. → no new flyers
+  [9284] Souris Co-operative Ltd. → no new flyers
+  [9285] OLeary Farmers Co-op Assn. → no new flyers
+  [9286] Tignish Co-operative Assn. → no new flyers
+  [9287] Cross Roads Co-operative Ltd → no new flyers
+  [9288] Pugwash Co-operative Ltd. → no new flyers
+  [9289] Canso Co-operative Ltd. → no new flyers
+  [9290] De La Tour Co-op Society Ltd → no new flyers
+  [9291] Beaubear Co-operative Ltd. → no new flyers
+  [9293] Victoria Farmers Co-op → no new flyers
+  [9294] Wellington Co-operative Assn → no new flyers
+  [9295] Morell Consumers Co-op → no new flyers
+  [9299] Foodland Jeddore → no new flyers
+  [9315] Foodland Summerside → no new flyers
+  [9369] Foodland Bible Hill → no new flyers
+  [9371] Co-Op Stephenville → no new flyers
+  [9372] Greely → no new flyers
+  [9373] Foodland Dalhousie → no new flyers
+  [9374] Foodland Bay Bulls → no new flyers
+  [9375] Foodland Quispamsis → no new flyers
+  [9377] Foodland St. Anthony → no new flyers
+  [9379] Petitcodiac Foodland → no new flyers
+  [9381] Foodland Springhill → no new flyers
+  [9382] Foodland Milford → no new flyers
+  [9383] Foodland Glace Bay → no new flyers
+  [9388] Foodland Lunenburg → no new flyers
+  [9436] Foodland Placentia → no new flyers
+  [9439] Foodland Sheet Harbour → no new flyers
+  [9442] Foodland Port Aux Basques → no new flyers
+  [9443] Foodland Deer Lake → no new flyers
+  [9445] Foodland Glovertown → no new flyers
+  [9446] Foodland Tatamagouche → no new flyers
+  [9449] Foodland Rexton → no new flyers
+
+  0 new publication entries across 241 stores
+  0 unique new publication(s) to download
+  Saved → data/foodland/store_flyers.json  (271,355 bytes)
+New publication entries added to store_flyers.json: 0
+Unique new publications to download: 0
+
+Phase 2: fetching products for each new publication…
+
+  Nothing new to download.
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 0
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-04-03 02:49:00 UTC
+Elapsed      : 0m 36s
+
+
+Done.  Verbose log → logs/foodland/2026-04-03_verbose.log
+       Summary log → logs/foodland/2026-04-03_summary.log
+

@@ -1,0 +1,58 @@
+=== Fortinos Flyer Fetch — 2026-04-03 ===
+Run started : 2026-04-03 02:45:43 UTC
+
+Loaded 25 stores from data/fortinos/stores.json
+
+Stores loaded: 25
+Loaded existing store_flyers.json (24 publication entries)
+
+Phase 1: fetching publications per store…
+
+  [31] Test Store → no new flyers
+  [39] Fortinos Mountainash → no new flyers
+  [46] Fortinos Hwy 20 & 53 → no new flyers
+  [55] Fortinos Langstaff → no new flyers
+  [65] Fortinos Upper James 2004 → no new flyers
+  [67] Fortinos Main Street → no new flyers
+  [78] Fortinos Plains Road → no new flyers
+  [86] Fortinos Ancaster → no new flyers
+  [96] Fortinos Highway #7 & Ansley → no new flyers
+  [199] Fortinos Neyagawa → no new flyers
+  [300] Fortinos Eastgate → no new flyers
+  [526] Fortinos Upper Middle → no new flyers
+  [1434] Fortinos Waterdown → no new flyers
+  [1436] Fortinos Lawrence & Allen → no new flyers
+  [1495] Fortinos Appleby → no new flyers
+  [2265] Fortinos Dundurn → no new flyers
+  [2268] Fortinos New Street → no new flyers
+  [4014] Fortinos Mall Road → no new flyers
+  [5547] Fortinos Major Mackenzie → no new flyers
+  [5548] Bovaird & HWY 10 → no new flyers
+  [7136] Fortinos (South Oakville) Ltd → no new flyers
+  [7346] Fortinos Fiesta Mall → no new flyers
+  [7513] BOLTON → no new flyers
+  [7529] Fortinos Highway 7 & Brisdale → no new flyers
+  [7920] Fortinos Queens Plate → no new flyers
+
+  0 new publication entries across 25 stores
+  0 unique new publication(s) to download
+  Saved → data/fortinos/store_flyers.json  (29,767 bytes)
+New publication entries added to store_flyers.json: 0
+Unique new publications to download: 0
+
+Phase 2: fetching products for each new publication…
+
+  Nothing new to download.
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 0
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-04-03 02:45:46 UTC
+Elapsed      : 0m 3s
+
+
+Done.  Verbose log → logs/fortinos/2026-04-03_verbose.log
+       Summary log → logs/fortinos/2026-04-03_summary.log
+

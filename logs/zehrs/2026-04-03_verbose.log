@@ -1,0 +1,77 @@
+=== Zehrs Flyer Fetch — 2026-04-03 ===
+Run started : 2026-04-03 02:45:37 UTC
+
+Loaded 44 stores from data/zehrs/stores.json
+
+Stores loaded: 44
+Loaded existing store_flyers.json (42 publication entries)
+
+Phase 1: fetching publications per store…
+
+  [26] TEST STORE → no new flyers
+  [500] Zehrs Clairfiled → no new flyers
+  [505] Zehrs Bradford → no new flyers
+  [507] Zehrs Essa Road → no new flyers
+  [509] Zehrs Alliston → no new flyers
+  [514] Zehrs Duckworth → no new flyers
+  [515] Zehrs Hiway Centre → no new flyers
+  [519] Zehrs Caledonia → no new flyers
+  [520] Zehrs Keswick → no new flyers
+  [521] Zehrs Malden Road → no new flyers
+  [522] Zehrs Pen Centre → no new flyers
+  [523] Zehrs Stanley Park → no new flyers
+  [524] Zehrs Beechwood → no new flyers
+  [525] Zehrs Glenridge → no new flyers
+  [528] Zehrs Conestoga → no new flyers
+  [529] Zehrs Parkway Mall → no new flyers
+  [530] Zehrs Pioneer Park → no new flyers
+  [531] Zehrs Hartsland → no new flyers
+  [532] Zehrs Goderich → no new flyers
+  [533] Zehrs Cambridge Cntr → no new flyers
+  [535] Zehrs Listowel → no new flyers
+  [536] Zehrs Geneva Street → no new flyers
+  [537] Zehrs Niagara → no new flyers
+  [538] Zehrs Eramosa → no new flyers
+  [539] Zehrs Fergus → no new flyers
+  [540] Zehrs Fairview → no new flyers
+  [543] Zehrs King George → no new flyers
+  [545] Zehrs Hespeler → no new flyers
+  [550] Zehrs Welland → no new flyers
+  [552] Zehrs Uxbridge → no new flyers
+  [554] Zehrs Orangeville → no new flyers
+  [557] Zehrs Stratford → no new flyers
+  [558] Zehrs Bolton → no new flyers
+  [559] Zehrs Imperial → no new flyers
+  [560] Zehrs Laurentian → no new flyers
+  [563] Zehrs Owen Sound → no new flyers
+  [565] Zehrs Big Bay Point → no new flyers
+  [570] Zehrs Tillsonburg → no new flyers
+  [572] Zehrs Kingsville → no new flyers
+  [573] Zehrs St Clair Beach → no new flyers
+  [576] Zehrs South Cambridge → no new flyers
+  [579] Zehrs Woodstock → no new flyers
+  [580] Zehrs Orillia → no new flyers
+  [6583] Zehrs Bayfield → no new flyers
+
+  0 new publication entries across 44 stores
+  0 unique new publication(s) to download
+  Saved → data/zehrs/store_flyers.json  (55,780 bytes)
+New publication entries added to store_flyers.json: 0
+Unique new publications to download: 0
+
+Phase 2: fetching products for each new publication…
+
+  Nothing new to download.
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 0
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-04-03 02:45:43 UTC
+Elapsed      : 0m 5s
+
+
+Done.  Verbose log → logs/zehrs/2026-04-03_verbose.log
+       Summary log → logs/zehrs/2026-04-03_summary.log
+

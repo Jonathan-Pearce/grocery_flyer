@@ -184,3 +184,189 @@ Elapsed       : 0m 26s
 Done.  Verbose log → logs/food_basics/2026-04-03_verbose.log
        Summary log → logs/food_basics/2026-04-03_summary.log
 
+=== Food Basics Flyer Fetch — 2026-04-03 ===
+Run started : 2026-04-03 02:50:34 UTC
+
+Loaded 153 stores from data/food_basics/stores.json
+
+Stores loaded: 153
+Loaded existing store_flyers.json (153 flyer entries)
+
+Phase 1: fetching flyer listings per store…
+
+  [320] TORONTO 672 → no new flyers
+  [601] WINDSOR 601 → no new flyers
+  [606] SCARBOROUGH 606 → no new flyers
+  [607] HANMER 607 → no new flyers
+  [609] NORTH BAY 609 → no new flyers
+  [610] SUDBURY 610 → no new flyers
+  [611] STRATFORD 611 → no new flyers
+  [612] LONDON 612 → no new flyers
+  [616] GRIMSBY 616 → no new flyers
+  [620] BURLINGTON 620 → no new flyers
+  [621] HAMILTON 621 → no new flyers
+  [623] STRATHROY 623 → no new flyers
+  [627] MISSISSAUGA 627 → no new flyers
+  [628] SCARBOROUGH 628 → no new flyers
+  [629] TORONTO 629 → no new flyers
+  [630] MISSISSAUGA 630 → no new flyers
+  [631] TORONTO 631 → no new flyers
+  [632] GODERICH 632 → no new flyers
+  [633] CAMBRIDGE  633 → no new flyers
+  [634] OTTAWA 634 → no new flyers
+  [635] OAKVILLE 635 → no new flyers
+  [636] OSHAWA 636 → no new flyers
+  [638] SUDBURY 638 → no new flyers
+  [640] KINGSTON 640 → no new flyers
+  [641] ROCKLAND 641 → no new flyers
+  [642] TIMMINS 642 → no new flyers
+  [643] NEW LISKEARD 643 → no new flyers
+  [646] Porcupine (Timmins) 646 → no new flyers
+  [648] TORONTO (Emerald) → no new flyers
+  [650] MIDLAND 650 → no new flyers
+  [651] FONTHILL 651 → no new flyers
+  [652] Port Hope 652 → no new flyers
+  [653] SCARBOROUGH 653 → no new flyers
+  [654] WATERLOO 654 → no new flyers
+  [655] MISSISSAUGA 655 → no new flyers
+  [656] BURLINGTON 656 → no new flyers
+  [657] BURLINGTON 657 → no new flyers
+  [658] WELLAND 658 → no new flyers
+  [659] SAULT STE. MARIE 659 → no new flyers
+  [660] BRAMPTON 660 → no new flyers
+  [661] MARKHAM 661 → no new flyers
+  [662] STITTSVILLE 662 → no new flyers
+  [663] ORLEANS 663 → no new flyers
+  [666] OAKVILLE 666 → no new flyers
+  [668] CORNWALL 668 → no new flyers
+  [669] MISSISSAUGA 669 → no new flyers
+  [670] LONDON 670 → no new flyers
+  [673] THORNHILL 673 → no new flyers
+  [674] NIAGARA FALLS 674 → no new flyers
+  [675] LONDON 675 → no new flyers
+  [676] BRANTFORD 676 → no new flyers
+  [677] WOODSTOCK 677 → no new flyers
+  [678] GUELPH 678 → no new flyers
+  [679] THORNHILL 679 → no new flyers
+  [681] LONDON 681 → no new flyers
+  [682] BRANTFORD 682 → no new flyers
+  [684] PORT PERRY 684 → no new flyers
+  [685] GEORGETOWN 685 → no new flyers
+  [687] HAMILTON 687 → no new flyers
+  [689] ETOBICOKE 689 → no new flyers
+  [690] KITCHENER 690 → no new flyers
+  [691] GUELPH 691 → no new flyers
+  [692] NORTH YORK 692 → no new flyers
+  [693] CHATHAM 693 → no new flyers
+  [694] CAMBRIDGE 694 → no new flyers
+  [695] HAMILTON 695 → no new flyers
+  [696] HANOVER 696 → no new flyers
+  [697] SUDBURY 697 → no new flyers
+  [811] PORT ELGIN 811 → no new flyers
+  [812] KINGSTON 812 → no new flyers
+  [813] London Fanshawe → no new flyers
+  [815] Mississauga Parkside 815 → no new flyers
+  [816] EMBRUN 816 → no new flyers
+  [818] INGERSOLL 818 → no new flyers
+  [819] Nepean 819 → no new flyers
+  [821] LASALLE 821 → no new flyers
+  [823] Brampton 823 → no new flyers
+  [830] KINGSTON 830 → no new flyers
+  [831] WOODBRIDGE 831 → no new flyers
+  [832] WINDSOR 832 → no new flyers
+  [833] BOLTON → no new flyers
+  [834] COURTICE 834 → no new flyers
+  [835] St Thomas 835 → no new flyers
+  [836] HAMILTON 836 → no new flyers
+  [837] BRACEBRIDGE → no new flyers
+  [839] CALEDONIA 839 → no new flyers
+  [840] Chelmsford → no new flyers
+  [841] OAKVILLE 841 → no new flyers
+  [842] NEWMARKET 842 → no new flyers
+  [843] RICHMOND HILL 843 → no new flyers
+  [844] LEAMINGTON 844 → no new flyers
+  [845] HAMILTON 845 → no new flyers
+  [846] LANSDOWNE 846 → no new flyers
+  [847] KITCHENER 847 (New Store) → no new flyers
+  [848] St Clair Beach (Tecumseh) → no new flyers
+  [855] Bradford 855 → no new flyers
+  [856] RICHMOND HILL 856 → no new flyers
+  [857] LONDON 857 → no new flyers
+  [858] NIAGARA FALLS 858 → no new flyers
+  [859] PETAWAWA 859 → no new flyers
+  [860] WINDSOR 860 → no new flyers
+  [861] PORT COLBORNE  861 → no new flyers
+  [862] GUELPH 862 → no new flyers
+  [863] SCARBOROUGH 863 → no new flyers
+  [867] NORTH YORK 867 → no new flyers
+  [868] SARNIA 868 → no new flyers
+  [869] KANATA 869 → no new flyers
+  [870] OTTAWA 870 → no new flyers
+  [871] MISSISSAUGA 871 → no new flyers
+  [872] KESWICK 872 → no new flyers
+  [874] SCARBOROUGH 874 → no new flyers
+  [875] TORONTO 875 → no new flyers
+  [876] THORNHILL 876 → no new flyers
+  [877] KITCHENER 877 → no new flyers
+  [880] TORONTO 880 → no new flyers
+  [882] MILTON 882 → no new flyers
+  [883] LISTOWEL 883 → no new flyers
+  [885] Pickering 885 → no new flyers
+  [886] ORILLIA  886 → no new flyers
+  [887] KEMPTVILLE 887 → no new flyers
+  [888] SIMCOE 888 → no new flyers
+  [890] SMITH FALLS 890 → no new flyers
+  [891] PEMBROKE 891 → no new flyers
+  [892] LINDSAY 892 → no new flyers
+  [893] DUNNVILLE 893 → no new flyers
+  [894] CORNWALL 894 → no new flyers
+  [895] BRAMPTON 895 → no new flyers
+  [896] OTTAWA 896 → no new flyers
+  [897] BARRIE 897 → no new flyers
+  [900] OTTAWA 900 → no new flyers
+  [902] BELLEVILLE 902 → no new flyers
+  [904] BRAMPTON 904 → no new flyers
+  [906] HAMILTON 906 → no new flyers
+  [907] OTTAWA 907 → no new flyers
+  [908] MISSISSAUGA 908 → no new flyers
+  [910] ELMIRA 910 → no new flyers
+  [912] BLENHEIM 912 → no new flyers
+  [917] Ottawa 917 → no new flyers
+  [918] Hawkesbury 918 → no new flyers
+  [921] BROCKVILLE 921 → no new flyers
+  [927] AJAX 927 → no new flyers
+  [928] ETOBICOKE 928 → no new flyers
+  [929] AJAX 929 → no new flyers
+  [930] TORONTO 930 → no new flyers
+  [932] ST. CATHARINES 932 → no new flyers
+  [937] HAMILTON 937 → no new flyers
+  [939] OWEN SOUND 939 → no new flyers
+  [947] SAULT STE. MARIE 947 → no new flyers
+  [949] KINGSTON 949 → no new flyers
+  [959] KITCHENER 959 → no new flyers
+  [960] KITCHENER 960 → no new flyers
+  [976] ANCASTER 976 → no new flyers
+  [989] ST. CATHARINES  989 → no new flyers
+
+  0 new flyer entries across 153 stores
+  0 unique new job(s) to download
+  Saved → data/food_basics/store_flyers.json  (473,483 bytes)
+New flyer entries added to store_flyers.json : 0
+Unique new jobs to download                  : 0
+
+Phase 2: fetching products for each new job…
+
+  Nothing new to download.
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 0
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-04-03 02:51:06 UTC
+Elapsed      : 0m 31s
+
+
+Done.  Verbose log → logs/food_basics/2026-04-03_verbose.log
+       Summary log → logs/food_basics/2026-04-03_summary.log
+
