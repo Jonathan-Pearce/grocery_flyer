@@ -1,0 +1,30 @@
+=== Maxi Flyer Fetch — 2026-04-02 ===
+Run started : 2026-04-02 03:45:10 UTC
+
+Stores loaded: 208
+New publication entries added to store_flyers.json: 402
+Unique new publications to download: 30
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 30
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-04-02 03:45:46 UTC
+Elapsed      : 0m 36s
+
+=== Maxi Flyer Fetch — 2026-04-02 ===
+Run started : 2026-04-02 22:47:39 UTC
+
+Stores loaded: 208
+New publication entries added to store_flyers.json: 0
+Unique new publications to download: 0
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 0
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-04-02 22:48:05 UTC
+Elapsed      : 0m 25s
+

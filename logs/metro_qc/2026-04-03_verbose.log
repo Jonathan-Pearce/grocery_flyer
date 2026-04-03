@@ -1,0 +1,430 @@
+=== Metro Quebec Flyer Fetch — 2026-04-03 ===
+Run started : 2026-04-03 01:16:45 UTC
+
+Loaded 182 stores from data/metro_qc/stores.json
+
+Stores loaded: 182
+Phase 1: fetching flyer listings per store…
+
+  [161] Metro Plus Thibeault Ste-Sophie → ['82975']
+  [342] Metro Plus Ste-Foy, Québec → ['82975']
+  [343] Metro Plus St-Nicolas, Lévis → ['82975']
+  [346] Metro Plus St-David, Québec → ['82975']
+  [349] Metro Plus Mail St-Roch, Québec → ['82975']
+  [351] Metro Innovation, Québec → ['82975']
+  [353] Marché Saint-Augustin L'Hêtrière Inc. → ['82975']
+  [354] Alimentation Carl Auger Inc., Boul. Pie-Xi Nord → ['82975']
+  [355] Metro Richelieu Inc. / St-Raymond → ['82975']
+  [356] Metro Donnacona → ['82975']
+  [358] Metro La Malbaie → ['82975']
+  [360] Metro Black-Lake, Thetford Mines → ['82975']
+  [361] Metro Plus Lévis → ['82975']
+  [362] Metro Charny, Lévis → ['82975']
+  [365] Metro Plus des Forges, Trois-Rivières → ['82975']
+  [366] Metro Plus Jean XXIII, Trois-Rivières → ['82975']
+  [369] Alimentation Sylvain Daigle Inc. → ['82975']
+  [371] Alimentation Merouane Amour Inc., Montréal → ['82975']
+  [372] Alimentation Fabrice Koné Inc. → ['82975']
+  [373] Metro Plus Domaine, Montréal → ['82975']
+  [374] Metro Pie IX, Rue Jean-Talon Est, Montréal → ['82975']
+  [375] Metro Morgan, Rue Ste-Catherine Est, Montréal → ['82975']
+  [376] Metro Ontario, Montréal → ['82975']
+  [377] Metro Plus Fleury, Montréal → ['82975']
+  [378] Metro Plus Dorion Ste-Catherine, Montréal → ['82975']
+  [380] Metro Avenue du Parc, Montréal → ['82975']
+  [381] Metro Plus Wilderton → ['82975']
+  [382] Metro Côte-des-Neiges, Montréal → ['82975']
+  [383] Metro Queen Mary, Montréal → ['82975']
+  [384] Metro Westmount → ['82975']
+  [386] 9477-0690 Québec Inc. → ['82975']
+  [387] Metro Plus Concorde Duvernay, Laval → ['82975']
+  [390] Metro Plus Dollard, Montréal → ['82975']
+  [393] Metro Plus Kirkland → ['82975']
+  [395] Metro Plus Pointe-Claire → ['82975']
+  [396] Metro Plus Beaconsfield → ['82975']
+  [401] Metro Plus de Drummondville, boul Lemire → ['82975']
+  [402] Metro Plus Promenades Drummondville → ['82975']
+  [404] Metro Plus Sorel-Tracy → ['82975']
+  [405] Marché Pilon, Boul. De La Cité Des Jeunes, Gatineau → ['82975']
+  [407] Metro Plus St-Constant → ['82975']
+  [408] Metro Plus Bellemare, Brossard → ['82975']
+  [409] Metro Candiac → ['82975']
+  [410] Metro Plus Châteauguay → ['82975']
+  [411] Metro Plus Valleyfield → ['82975']
+  [412] Metro Plus Collin Chambly → ['82975']
+  [413] Metro Plus Terrebonne → ['82975']
+  [420] Metro Plus Buckingham, Gatineau → ['82975']
+  [485] Metro Plus De la Montagne, Montréal → ['82975']
+  [487] Metro Plus Victoriaville → ['82975']
+  [532] Supermarché Claka Inc., Québec → ['82975']
+  [533] Metro Plus De  La Rousselière, Montréal → ['82975']
+  [534] Metro Ville Mont-Royal → ['82975']
+  [535] Metro Ste-Anne-de-La Pérade → ['82975']
+  [537] Metro Lebel Mont-Royal, Montréal → ['82975']
+  [538] Metro Bigras, Montréal → ['82975']
+  [540] Metro Plus Boucher St-Félix-de-Valois → ['82975']
+  [541] Metro Boucher St-Jean-de-Matha → ['82975']
+  [542] Metro Plus Fournier Cap-de-la-Madeleine, Trois-Rivières → ['82975']
+  [543] Metro Masson, Trois-Rivières → ['82975']
+  [545] Metro Saint-Tite, St-Tite-De-Champlain → ['82975']
+  [546] Metro Plus Thibeault Blainville, Boul. Curé-Labelle → ['82975']
+  [548] Metro Plus Thibeault St-Antoine, St-Jérôme → ['82975']
+  [549] Metro Plus Thibeault St-Jérôme → ['82975']
+  [551] Metro E. Bourdon & Fils, rue Jean Talon Est → ['82975']
+  [552] Metro Plus Perrier & Martel, Boul. Arthur-Sauvé → ['82975']
+  [553] Metro Oka → ['82975']
+  [554] Metro Plus Beaulieu Ste-Julienne → ['82975']
+  [555] Metro Plus Boucher Rawdon → ['82975']
+  [556] Metro Plus Bélair Joliette, Rue Beaudry Nord → ['82975']
+  [557] Metro St-Marc-des-Carrières → ['82975']
+  [559] Metro Ferland Centre-Ville, Québec → ['82975']
+  [560] Metro Beaubien, Montréal → ['82975']
+  [563] Metro Val-David → ['82975']
+  [564] Metro Marché Laval Veilleux, St-Georges Sud → ['82975']
+  [565] Marché Alain Valiquette, Lac-Mégantic → ['82975']
+  [566] Metro Plus Plouffe Magog → ['82975']
+  [569] Metro Rouillard & Frères, Pierreville → ['82975']
+  [570] Metro Plus Émery Louiseville → ['82975']
+  [572] Metro Plus Ile-Perrot, Notre-Dame-De-L'ile-Perrot → ['82975']
+  [575] Marché Daoust (1985) Valleyfield → ['82975']
+  [579] Metro du Témis Dégelis → ['82975']
+  [580] Metro St-André Avellin → ['82975']
+  [581] Metro Plus Leblanc, boul. Maloney → ['82975']
+  [584] Metro Plus Jonquière, Saguenay → ['82975']
+  [585] Metro Sagamie Jonquière, Saguenay → ['82975']
+  [586] Metro Boutin St-Félicien → ['82975']
+  [587] Metro Gracefield → ['82975']
+  [588] Metro Chénéville → ['82975']
+  [589] Metro Thurso, Rue Victoria → ['82975']
+  [591] Metro Lapointe Maniwaki → ['82975']
+  [592] Metro Tanguay Papineauville → ['82975']
+  [596] Metro Plouffe Bedford → ['82975']
+  [597] Metro Plus Plouffe Farnham → ['82975']
+  [599] Metro Plus St-Grégoire, Bécancour → ['82975']
+  [601] Metro Iberville Repentigny → ['82975']
+  [603] Metro Plus Marquis Repentigny → ['82975']
+  [604] Metro Plus Fogarty Charlemagne → ['82975']
+  [606] 9486-7041 Québec Inc. → ['82975']
+  [608] Metro Plus Cardinal Ste-Catherine → ['82975']
+  [609] Metro Plus Bellemare Lapinière, Brossard → ['82975']
+  [611] Metro Plus Raymond Drouin, Longueuil → ['82975']
+  [612] Supermarché Riendeau, Ste-Julie → ['82975']
+  [613] Metro Richelieu Inc./Verchères → ['82975']
+  [615] Metro Viens Carleton → ['82975']
+  [617] Métro Plus Gaétan Riendeau, St-Hyacinthe → ['82975']
+  [618] Metro Plus Riendeau Beloeil → ['82975']
+  [620] Metro Plus Riendeau St-Hilaire → ['82975']
+  [623] Metro Plus Riendeau St-Hubert, Longueuil → ['82975']
+  [624] Metro Bellemare St-Hubert, Longueuil → ['82975']
+  [626] Metro Laroche Laurier-Station → ['82975']
+  [627] Metro Plus Laroche St-Etienne, Lévis → ['82975']
+  [628] Metro Marquis Québec (Cartier) → ['82975']
+  [629] Metro Plus Plouffe King Est, Sherbrooke → ['82975']
+  [630] Metro Plus Plouffe Bourque, Sherbrooke → ['82975']
+  [632] Metro Plus Coop D'Asbestos → ['82975']
+  [634] Metro Blanchard St-Alphonse, Route 343 → ['82975']
+  [636] Metro Beaulieu Laurier, Montréal → ['82975']
+  [641] Metro Emery St-Damien → ['82975']
+  [643] Metro Plus Depatie, Boul. De L'avenir, Laval → ['82975']
+  [644] Metro Marieville → ['82975']
+  [654] Metro Plus St-Gabriel → ['82975']
+  [655] Metro Plus Plouffe Bromont → ['82975']
+  [656] Metro Plouffe Granby → ['82975']
+  [657] Metro Richelieu Inc., Waterloo → ['82975']
+  [658] Metro Plus Marché Central C.J.C., Longueuil → ['82975']
+  [659] Metro Plus André-Grasset, Montréal → ['82975']
+  [660] Metro Messier Fort-St-Louis, Boucherville → ['82975']
+  [661] Metro de la Concorde, Laval → ['82975']
+  [662] Metro Plus Mascouche, Rue Montée Masson → ['82975']
+  [664] Metro Rosemère, Chemin Grande-Côte → ['82975']
+  [665] Metro Plus Messier Auteuil, Laval → ['82975']
+  [666] Metro Plus St-Joseph, Montréal → ['82975']
+  [667] Marché R. Dubé Ltée, Avenue Begin → ['82975']
+  [669] Metro Plus Fordham, St-Zotique → ['82975']
+  [671] Metro Corriveau et Fille, Napierville → ['82975']
+  [672] Metro Dubuc Deschaillons → ['82975']
+  [673] Metro Denigil Ste-Dorothée, Laval → ['82975']
+  [674] Metro Sabrevois Boucherville → ['82975']
+  [675] Metro Plus Lebel La Pocatière → ['82975']
+  [677] Metro Bellemare Verdun, Montréal → ['82975']
+  [679] Metro Plus Boucher Berthierville → ['82975']
+  [680] Metro Plus  Kelly Aylmer Inc., Gatineau → ['82975']
+  [681] Metro Doré Mont-Laurier → ['82975']
+  [682] Metro Plus Lafrance Anjou, Montréal → ['82975']
+  [683] Metro Marcanio, Montréal → ['82975']
+  [684] Metro Plus Ancienne-Lorette → ['82975']
+  [686] Metro Plus Charlesbourg, Québec → ['82975']
+  [687] Metro Courville → ['82975']
+  [688] Alimentation Bernard Sylvestre, Québec → ['82975']
+  [689] Metro Plus GP Notre-Dame-des-Laurentides, Québec → ['82975']
+  [690] Metro Plus St-Augustin, Rte 138 → ['82975']
+  [691] Metro Plus GP St-Émile, De La Faune, Québec → ['82975']
+  [693] Metro Lac Etchemin → ['82975']
+  [694] Marché Dubé Délisle, Alma → ['82975']
+  [696] Metro Plus Boutin Dolbeau-Mistassini → ['82975']
+  [697] Metro Plus Côte Vertu, Montréal → ['82975']
+  [698] 9477-0716 Québec Inc. → ['82975']
+  [701] Metro Plus Rimouski → ['82975']
+  [702] Metro Ste-Anne des Monts → ['82975']
+  [703] Metro Trois-Pistoles → ['82975']
+  [711] Metro Valcartier, Courcelette Shannon → ['82975']
+  [712] Marché Chicoutimi Inc. (Talbot) → ['82975']
+  [717] Marché Ste-Agathe Inc. → ['82975']
+  [718] Metro Plus Ste-Adèle → ['82975']
+  [723] Metro Plus St-Laurent (St-Eustache) → ['82975']
+  [724] Metro Plus Ste-Marthe → ['82975']
+  [725] Metro Plus Arthur-Sauvé → ['82975']
+  [726] Metro Plus Ste-Rose, Boul. Curé-Labelle, Laval → ['82975']
+  [734] Metro Mont-Tremblant → ['82975']
+  [736] Metro Plus L'Épiphanie → ['82975']
+  [741] Metro Mansfield → ['82975']
+  [757] Alimentation Francine Roy, Vaudreuil-Dorion → ['82975']
+  [766] Metro Marquis Plus, L'Assomption → ['82975']
+  [775] Alimentation Régent Cossette - Montée Paiement → ['82975']
+  [776] 9477-0674 Québec Inc. → ['82975']
+  [853] Metro Plus Lachine → ['82975']
+  [859] Metro Plus Prévost → ['82975']
+  [861] Metro épicerie en ligne inc. → ['82975']
+  [862] Marché Chicoutimi Inc. (Saguenay) → ['82975']
+  [892] Metro Plus Thibeault Mirabel → ['82975']
+  [936] Metro Beaulieu Mont-Royal Fabre → ['82975']
+
+  182 new flyer entries across 182 stores
+  1 unique new job(s) to download
+  Saved → data/metro_qc/store_flyers.json  (563,364 bytes)
+New flyer entries added to store_flyers.json : 182
+Unique new jobs to download                  : 1
+
+Phase 2: fetching products for each new job…
+
+  [82975] store 161  (https://metrodigital-apim.azure-api.net/api/Pages/82975/161/en/search)
+    534 products
+  Saved → data/metro_qc/flyers/82975.json  (2,196,181 bytes)
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 1
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed : 2026-04-03 01:17:22 UTC
+Elapsed       : 0m 36s
+
+
+Done.  Verbose log → logs/metro_qc/2026-04-03_verbose.log
+       Summary log → logs/metro_qc/2026-04-03_summary.log
+
+=== Metro Quebec Flyer Fetch — 2026-04-03 ===
+Run started : 2026-04-03 02:51:33 UTC
+
+Loaded 182 stores from data/metro_qc/stores.json
+
+Stores loaded: 182
+Loaded existing store_flyers.json (182 flyer entries)
+
+Phase 1: fetching flyer listings per store…
+
+  [161] Metro Plus Thibeault Ste-Sophie → no new flyers
+  [342] Metro Plus Ste-Foy, Québec → no new flyers
+  [343] Metro Plus St-Nicolas, Lévis → no new flyers
+  [346] Metro Plus St-David, Québec → no new flyers
+  [349] Metro Plus Mail St-Roch, Québec → no new flyers
+  [351] Metro Innovation, Québec → no new flyers
+  [353] Marché Saint-Augustin L'Hêtrière Inc. → no new flyers
+  [354] Alimentation Carl Auger Inc., Boul. Pie-Xi Nord → no new flyers
+  [355] Metro Richelieu Inc. / St-Raymond → no new flyers
+  [356] Metro Donnacona → no new flyers
+  [358] Metro La Malbaie → no new flyers
+  [360] Metro Black-Lake, Thetford Mines → no new flyers
+  [361] Metro Plus Lévis → no new flyers
+  [362] Metro Charny, Lévis → no new flyers
+  [365] Metro Plus des Forges, Trois-Rivières → no new flyers
+  [366] Metro Plus Jean XXIII, Trois-Rivières → no new flyers
+  [369] Alimentation Sylvain Daigle Inc. → no new flyers
+  [371] Alimentation Merouane Amour Inc., Montréal → no new flyers
+  [372] Alimentation Fabrice Koné Inc. → no new flyers
+  [373] Metro Plus Domaine, Montréal → no new flyers
+  [374] Metro Pie IX, Rue Jean-Talon Est, Montréal → no new flyers
+  [375] Metro Morgan, Rue Ste-Catherine Est, Montréal → no new flyers
+  [376] Metro Ontario, Montréal → no new flyers
+  [377] Metro Plus Fleury, Montréal → no new flyers
+  [378] Metro Plus Dorion Ste-Catherine, Montréal → no new flyers
+  [380] Metro Avenue du Parc, Montréal → no new flyers
+  [381] Metro Plus Wilderton → no new flyers
+  [382] Metro Côte-des-Neiges, Montréal → no new flyers
+  [383] Metro Queen Mary, Montréal → no new flyers
+  [384] Metro Westmount → no new flyers
+  [386] 9477-0690 Québec Inc. → no new flyers
+  [387] Metro Plus Concorde Duvernay, Laval → no new flyers
+  [390] Metro Plus Dollard, Montréal → no new flyers
+  [393] Metro Plus Kirkland → no new flyers
+  [395] Metro Plus Pointe-Claire → no new flyers
+  [396] Metro Plus Beaconsfield → no new flyers
+  [401] Metro Plus de Drummondville, boul Lemire → no new flyers
+  [402] Metro Plus Promenades Drummondville → no new flyers
+  [404] Metro Plus Sorel-Tracy → no new flyers
+  [405] Marché Pilon, Boul. De La Cité Des Jeunes, Gatineau → no new flyers
+  [407] Metro Plus St-Constant → no new flyers
+  [408] Metro Plus Bellemare, Brossard → no new flyers
+  [409] Metro Candiac → no new flyers
+  [410] Metro Plus Châteauguay → no new flyers
+  [411] Metro Plus Valleyfield → no new flyers
+  [412] Metro Plus Collin Chambly → no new flyers
+  [413] Metro Plus Terrebonne → no new flyers
+  [420] Metro Plus Buckingham, Gatineau → no new flyers
+  [485] Metro Plus De la Montagne, Montréal → no new flyers
+  [487] Metro Plus Victoriaville → no new flyers
+  [532] Supermarché Claka Inc., Québec → no new flyers
+  [533] Metro Plus De  La Rousselière, Montréal → no new flyers
+  [534] Metro Ville Mont-Royal → no new flyers
+  [535] Metro Ste-Anne-de-La Pérade → no new flyers
+  [537] Metro Lebel Mont-Royal, Montréal → no new flyers
+  [538] Metro Bigras, Montréal → no new flyers
+  [540] Metro Plus Boucher St-Félix-de-Valois → no new flyers
+  [541] Metro Boucher St-Jean-de-Matha → no new flyers
+  [542] Metro Plus Fournier Cap-de-la-Madeleine, Trois-Rivières → no new flyers
+  [543] Metro Masson, Trois-Rivières → no new flyers
+  [545] Metro Saint-Tite, St-Tite-De-Champlain → no new flyers
+  [546] Metro Plus Thibeault Blainville, Boul. Curé-Labelle → no new flyers
+  [548] Metro Plus Thibeault St-Antoine, St-Jérôme → no new flyers
+  [549] Metro Plus Thibeault St-Jérôme → no new flyers
+  [551] Metro E. Bourdon & Fils, rue Jean Talon Est → no new flyers
+  [552] Metro Plus Perrier & Martel, Boul. Arthur-Sauvé → no new flyers
+  [553] Metro Oka → no new flyers
+  [554] Metro Plus Beaulieu Ste-Julienne → no new flyers
+  [555] Metro Plus Boucher Rawdon → no new flyers
+  [556] Metro Plus Bélair Joliette, Rue Beaudry Nord → no new flyers
+  [557] Metro St-Marc-des-Carrières → no new flyers
+  [559] Metro Ferland Centre-Ville, Québec → no new flyers
+  [560] Metro Beaubien, Montréal → no new flyers
+  [563] Metro Val-David → no new flyers
+  [564] Metro Marché Laval Veilleux, St-Georges Sud → no new flyers
+  [565] Marché Alain Valiquette, Lac-Mégantic → no new flyers
+  [566] Metro Plus Plouffe Magog → no new flyers
+  [569] Metro Rouillard & Frères, Pierreville → no new flyers
+  [570] Metro Plus Émery Louiseville → no new flyers
+  [572] Metro Plus Ile-Perrot, Notre-Dame-De-L'ile-Perrot → no new flyers
+  [575] Marché Daoust (1985) Valleyfield → no new flyers
+  [579] Metro du Témis Dégelis → no new flyers
+  [580] Metro St-André Avellin → no new flyers
+  [581] Metro Plus Leblanc, boul. Maloney → no new flyers
+  [584] Metro Plus Jonquière, Saguenay → no new flyers
+  [585] Metro Sagamie Jonquière, Saguenay → no new flyers
+  [586] Metro Boutin St-Félicien → no new flyers
+  [587] Metro Gracefield → no new flyers
+  [588] Metro Chénéville → no new flyers
+  [589] Metro Thurso, Rue Victoria → no new flyers
+  [591] Metro Lapointe Maniwaki → no new flyers
+  [592] Metro Tanguay Papineauville → no new flyers
+  [596] Metro Plouffe Bedford → no new flyers
+  [597] Metro Plus Plouffe Farnham → no new flyers
+  [599] Metro Plus St-Grégoire, Bécancour → no new flyers
+  [601] Metro Iberville Repentigny → no new flyers
+  [603] Metro Plus Marquis Repentigny → no new flyers
+  [604] Metro Plus Fogarty Charlemagne → no new flyers
+  [606] 9486-7041 Québec Inc. → no new flyers
+  [608] Metro Plus Cardinal Ste-Catherine → no new flyers
+  [609] Metro Plus Bellemare Lapinière, Brossard → no new flyers
+  [611] Metro Plus Raymond Drouin, Longueuil → no new flyers
+  [612] Supermarché Riendeau, Ste-Julie → no new flyers
+  [613] Metro Richelieu Inc./Verchères → no new flyers
+  [615] Metro Viens Carleton → no new flyers
+  [617] Métro Plus Gaétan Riendeau, St-Hyacinthe → no new flyers
+  [618] Metro Plus Riendeau Beloeil → no new flyers
+  [620] Metro Plus Riendeau St-Hilaire → no new flyers
+  [623] Metro Plus Riendeau St-Hubert, Longueuil → no new flyers
+  [624] Metro Bellemare St-Hubert, Longueuil → no new flyers
+  [626] Metro Laroche Laurier-Station → no new flyers
+  [627] Metro Plus Laroche St-Etienne, Lévis → no new flyers
+  [628] Metro Marquis Québec (Cartier) → no new flyers
+  [629] Metro Plus Plouffe King Est, Sherbrooke → no new flyers
+  [630] Metro Plus Plouffe Bourque, Sherbrooke → no new flyers
+  [632] Metro Plus Coop D'Asbestos → no new flyers
+  [634] Metro Blanchard St-Alphonse, Route 343 → no new flyers
+  [636] Metro Beaulieu Laurier, Montréal → no new flyers
+  [641] Metro Emery St-Damien → no new flyers
+  [643] Metro Plus Depatie, Boul. De L'avenir, Laval → no new flyers
+  [644] Metro Marieville → no new flyers
+  [654] Metro Plus St-Gabriel → no new flyers
+  [655] Metro Plus Plouffe Bromont → no new flyers
+  [656] Metro Plouffe Granby → no new flyers
+  [657] Metro Richelieu Inc., Waterloo → no new flyers
+  [658] Metro Plus Marché Central C.J.C., Longueuil → no new flyers
+  [659] Metro Plus André-Grasset, Montréal → no new flyers
+  [660] Metro Messier Fort-St-Louis, Boucherville → no new flyers
+  [661] Metro de la Concorde, Laval → no new flyers
+  [662] Metro Plus Mascouche, Rue Montée Masson → no new flyers
+  [664] Metro Rosemère, Chemin Grande-Côte → no new flyers
+  [665] Metro Plus Messier Auteuil, Laval → no new flyers
+  [666] Metro Plus St-Joseph, Montréal → no new flyers
+  [667] Marché R. Dubé Ltée, Avenue Begin → no new flyers
+  [669] Metro Plus Fordham, St-Zotique → no new flyers
+  [671] Metro Corriveau et Fille, Napierville → no new flyers
+  [672] Metro Dubuc Deschaillons → no new flyers
+  [673] Metro Denigil Ste-Dorothée, Laval → no new flyers
+  [674] Metro Sabrevois Boucherville → no new flyers
+  [675] Metro Plus Lebel La Pocatière → no new flyers
+  [677] Metro Bellemare Verdun, Montréal → no new flyers
+  [679] Metro Plus Boucher Berthierville → no new flyers
+  [680] Metro Plus  Kelly Aylmer Inc., Gatineau → no new flyers
+  [681] Metro Doré Mont-Laurier → no new flyers
+  [682] Metro Plus Lafrance Anjou, Montréal → no new flyers
+  [683] Metro Marcanio, Montréal → no new flyers
+  [684] Metro Plus Ancienne-Lorette → no new flyers
+  [686] Metro Plus Charlesbourg, Québec → no new flyers
+  [687] Metro Courville → no new flyers
+  [688] Alimentation Bernard Sylvestre, Québec → no new flyers
+  [689] Metro Plus GP Notre-Dame-des-Laurentides, Québec → no new flyers
+  [690] Metro Plus St-Augustin, Rte 138 → no new flyers
+  [691] Metro Plus GP St-Émile, De La Faune, Québec → no new flyers
+  [693] Metro Lac Etchemin → no new flyers
+  [694] Marché Dubé Délisle, Alma → no new flyers
+  [696] Metro Plus Boutin Dolbeau-Mistassini → no new flyers
+  [697] Metro Plus Côte Vertu, Montréal → no new flyers
+  [698] 9477-0716 Québec Inc. → no new flyers
+  [701] Metro Plus Rimouski → no new flyers
+  [702] Metro Ste-Anne des Monts → no new flyers
+  [703] Metro Trois-Pistoles → no new flyers
+  [711] Metro Valcartier, Courcelette Shannon → no new flyers
+  [712] Marché Chicoutimi Inc. (Talbot) → no new flyers
+  [717] Marché Ste-Agathe Inc. → no new flyers
+  [718] Metro Plus Ste-Adèle → no new flyers
+  [723] Metro Plus St-Laurent (St-Eustache) → no new flyers
+  [724] Metro Plus Ste-Marthe → no new flyers
+  [725] Metro Plus Arthur-Sauvé → no new flyers
+  [726] Metro Plus Ste-Rose, Boul. Curé-Labelle, Laval → no new flyers
+  [734] Metro Mont-Tremblant → no new flyers
+  [736] Metro Plus L'Épiphanie → no new flyers
+  [741] Metro Mansfield → no new flyers
+  [757] Alimentation Francine Roy, Vaudreuil-Dorion → no new flyers
+  [766] Metro Marquis Plus, L'Assomption → no new flyers
+  [775] Alimentation Régent Cossette - Montée Paiement → no new flyers
+  [776] 9477-0674 Québec Inc. → no new flyers
+  [853] Metro Plus Lachine → no new flyers
+  [859] Metro Plus Prévost → no new flyers
+  [861] Metro épicerie en ligne inc. → no new flyers
+  [862] Marché Chicoutimi Inc. (Saguenay) → no new flyers
+  [892] Metro Plus Thibeault Mirabel → no new flyers
+  [936] Metro Beaulieu Mont-Royal Fabre → no new flyers
+
+  0 new flyer entries across 182 stores
+  0 unique new job(s) to download
+  Saved → data/metro_qc/store_flyers.json  (563,364 bytes)
+New flyer entries added to store_flyers.json : 0
+Unique new jobs to download                  : 0
+
+Phase 2: fetching products for each new job…
+
+  Nothing new to download.
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 0
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-04-03 02:52:12 UTC
+Elapsed      : 0m 38s
+
+
+Done.  Verbose log → logs/metro_qc/2026-04-03_verbose.log
+       Summary log → logs/metro_qc/2026-04-03_summary.log
+

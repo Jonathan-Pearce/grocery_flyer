@@ -1,0 +1,197 @@
+=== Freshco Flyer Fetch — 2026-04-03 ===
+Run started : 2026-04-03 02:48:02 UTC
+
+Loaded 164 stores from data/freshco/stores.json
+
+Stores loaded: 164
+Loaded existing store_flyers.json (284 publication entries)
+
+Phase 1: fetching publications per store…
+
+  [2908] Carleton Place Lansdowne → no new flyers
+  [2910] Hwy 2 &#038; Kendalwood → no new flyers
+  [2912] Trafalgar & Highbury → no new flyers
+  [2916] Brant & Upper Middle → no new flyers
+  [2917] Queen & Gladstone → no new flyers
+  [3313] Bathurst & Rutherford → no new flyers
+  [3315] Sherbourne & Isabella → no new flyers
+  [3811] Kalar & Lundy&#8217;s Lane → no new flyers
+  [3815] Rymal &#038; Upper Gage → no new flyers
+  [3816] Airport & Countryside → no new flyers
+  [3817] Winchester & Simcoe → no new flyers
+  [3820] Bathurst & Nassau → no new flyers
+  [3821] Brock &#038; George → no new flyers
+  [3822] Broadway &#038; Dawson → no new flyers
+  [3823] Jane & Denison GO → no new flyers
+  [3834] Hwy 56 &#038; Maggie Johnson → no new flyers
+  [3837] Cottrelle & Hwy 50 Chalo! FreshCo → no new flyers
+  [3838] Dundas & Runnymede → no new flyers
+  [3839] Bank & Findlay Creek → no new flyers
+  [3844] Guelph & Sinclair → no new flyers
+  [3846] Major Mackenzie & Weston → no new flyers
+  [3847] Speedvale &#038; Stevenson → no new flyers
+  [3849] Don Mills & Helen Lu → no new flyers
+  [3850] Leslie & Lake Shore → no new flyers
+  [3853] Market & Icomm → no new flyers
+  [3856] Dufferin & Dupont → no new flyers
+  [3857] Bovaird & Conestoga → no new flyers
+  [3859] Dixie & Dundas → no new flyers
+  [3860] Chalo Mississauga & Financial Drive → no new flyers
+  [3861] Hwy 12 &#038; 7 → no new flyers
+  [3865] Kingston Road &#038; Whites → no new flyers
+  [3867] McArthur & Lafontaine → no new flyers
+  [3875] McCowan & Bur Oak → no new flyers
+  [3876] McCowan &#038; Ellesmere → no new flyers
+  [3879] Sherbourne and Isabella → no new flyers
+  [3881] Barton & Strathearne → no new flyers
+  [3883] Brock & Gilbert → no new flyers
+  [3886] FreshCo Orleans → no new flyers
+  [3887] Bramalea & Sandalwood Chalo! FreshCo → no new flyers
+  [3889] Queen & McLaughlin → no new flyers
+  [3892] Longworth & Scugog → no new flyers
+  [3894] Milton → no new flyers
+  [3902] St. David & Gordon Freshco → no new flyers
+  [4013] FreshCo Huntsville Paisley → no new flyers
+  [4014] Owen Sound → no new flyers
+  [4015] Taunton → no new flyers
+  [4354] FreshCo Evanston → no new flyers
+  [4647] 9541-FreshCo Red Deer → no new flyers
+  [4648] Ogden → no new flyers
+  [8926] 5275 48 Avenue → no new flyers
+  [8929] FreshCo Heritage → no new flyers
+  [8932] Broadmoor Fresh Co WEST → no new flyers
+  [8933] Newton Chalo Fresh Co WEST → no new flyers
+  [8934] Lougheed Hwy WEST → no new flyers
+  [8936] Kildonan Crossing → no new flyers
+  [8937] Jefferson McPhilips WEST → no new flyers
+  [8938] Aldergrove → no new flyers
+  [8939] Yale Road → no new flyers
+  [8940] 20201 Lougheed Hwy → no new flyers
+  [8942] Tretheway & S Fraser Way Chalo FreshCo → no new flyers
+  [8943] Cariboo Hwy & 5 St. FreshCo → no new flyers
+  [8945] Kamloops → no new flyers
+  [8946] Kelowna → no new flyers
+  [8947] Vernon → no new flyers
+  [8948] Powell River → no new flyers
+  [8949] Regina → no new flyers
+  [8950] Confederation → no new flyers
+  [8952] Freshco Market Mall → no new flyers
+  [8954] Niakwa FreshCo → no new flyers
+  [8955] Pembina FreshCo → no new flyers
+  [8956] Henderson FreshCo → no new flyers
+  [8958] Chalo Tamarack → no new flyers
+  [8962] Brentwood → no new flyers
+  [8963] Millbourne - Edmonton → no new flyers
+  [8964] Chalo Saddletowne → no new flyers
+  [8965] Thunder Bay Fresh Co WEST → no new flyers
+  [8966] Chalo FreshCo Cornerstone → no new flyers
+  [8968] FRESHCO Coliseum → no new flyers
+  [8971] Jasper Gates → no new flyers
+  [8973] Edgemount → no new flyers
+  [8974] Medicine Hat FreshCo → no new flyers
+  [8975] Blundell & No 2 FreshCo WEST → no new flyers
+  [9543] University & Bridge → no new flyers
+  [9544] Eglinton & Gabian Way → no new flyers
+  [9547] Weber & Franklin → no new flyers
+  [9548] Barton & Gage → no new flyers
+  [9550] Steeles & Bathurst → no new flyers
+  [9553] Spence & Blvd Cartier → no new flyers
+  [9554] FreshCo Manning Village → no new flyers
+  [9557] Okotoks FreshCo → no new flyers
+  [9559] FreshCo Chestermere → no new flyers
+  [9560] Queensway & Glenwoods → no new flyers
+  [9561] Centre &#038; McCulloch → no new flyers
+  [9562] Talbot & First → no new flyers
+  [9563] Upper Middle & Walker&#8217;s Line → no new flyers
+  [9564] Hespeler & Dundas → no new flyers
+  [9571] Merivale & Meadowlands → no new flyers
+  [9572] Dundas & Erindale Station → no new flyers
+  [9575] Bramalea City Centre Mall → no new flyers
+  [9576] King &#038; Townline → no new flyers
+  [9577] Lansdowne &#038; The Parkway → no new flyers
+  [9578] Young & Industrial Pkwy → no new flyers
+  [9579] Queenston &#038; Nash → no new flyers
+  [9581] FreshCo Cambridge → no new flyers
+  [9582] FreshCo Sargent → no new flyers
+  [9586] Gateway Village - St. Albert → no new flyers
+  [9587] King & Wilson → no new flyers
+  [9588] FreshCo Glenridding Wst → no new flyers
+  [9590] Cobblestone - Grande Prairie → no new flyers
+  [9594] Bayfield &#038; Livingstone → no new flyers
+  [9611] Thomas & 10th Chalo Freshco → no new flyers
+  [9612] Chalo Chinguacousy test → no new flyers
+  [9615] Cann &#038; Chaffey → no new flyers
+  [9616] Williams Lake → no new flyers
+  [9617] Parliament & Dundas → no new flyers
+  [9619] Albert Street → no new flyers
+  [9620] Robertson & Moodie → no new flyers
+  [9622] Strawberry Hill CHALO Fresh Co WEST → no new flyers
+  [9623] Frontier → no new flyers
+  [9627] Mayfair → no new flyers
+  [9628] FreshCo Waterdown → no new flyers
+  [9632] Hurontario & Dundas → no new flyers
+  [9633] Erie Street → no new flyers
+  [9635] Pallisades - Edmonton → no new flyers
+  [9636] 9636-FreshCo FT MACMURRAY → no new flyers
+  [9637] Calgary Whitehorn → no new flyers
+  [9640] Wentworth & Cedar → no new flyers
+  [9643] Don Mills & Helen Lu → no new flyers
+  [9644] Queensway & Glenwoods → no new flyers
+  [9645] FreshCo Mapleview Drive Barrie → no new flyers
+  [9653] FreshCo Homer Watson → no new flyers
+  [9654] Tecumseh & McDougall → no new flyers
+  [9658] Bloor & Dundas → no new flyers
+  [9662] Lawrence & Midland → no new flyers
+  [9665] Ninth & Marlborough → no new flyers
+  [9674] Main & Jasperson → no new flyers
+  [9677] North Front & Tracey → no new flyers
+  [9679] Gerrard & Victoria Park → no new flyers
+  [9689] Strandherd & Cresthaven → no new flyers
+  [9690] Upper Gage &#038; Fennell → no new flyers
+  [9693] Chalo Goreway & Derry → no new flyers
+  [9694] Lewis Estates → no new flyers
+  [9698] Tecumseh & Rivard → no new flyers
+  [9705] Glen Erin &#038; Britannia → no new flyers
+  [9712] Third Line &#038; Dundas → no new flyers
+  [9718] Ontario &#038; Southworth → no new flyers
+  [9731] Ontario & Carlton → no new flyers
+  [9732] Malden &#038; Delmar → no new flyers
+  [9736] Westmount & Ottawa → no new flyers
+  [9745] Bunting & Welland → no new flyers
+  [9748] Major Mackenzie & Leslie → no new flyers
+  [9755] Adelaide & Huron → no new flyers
+  [9760] Wonderland &#038; Pine Valley → no new flyers
+  [9762] Trout Lake & Connaught → no new flyers
+  [9766] Ontario &#038; Dundas → no new flyers
+  [9772] Princess & Andersen → no new flyers
+  [9778] Jane & Finch → no new flyers
+  [9822] Huron Church & Tecumseh → no new flyers
+  [9862] Wyandotte & Frank → no new flyers
+  [9863] Commissioners &#038; Wellington → no new flyers
+  [9876] Dundas & Main → no new flyers
+  [9884] Bramalea City Centre → no new flyers
+  [9887] Mountain &#038; First → no new flyers
+  [9888] Chinguacousy & Sandalwood → no new flyers
+
+  0 new publication entries across 164 stores
+  0 unique new publication(s) to download
+  Saved → data/freshco/store_flyers.json  (339,506 bytes)
+New publication entries added to store_flyers.json: 0
+Unique new publications to download: 0
+
+Phase 2: fetching products for each new publication…
+
+  Nothing new to download.
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 0
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-04-03 02:48:23 UTC
+Elapsed      : 0m 21s
+
+
+Done.  Verbose log → logs/freshco/2026-04-03_verbose.log
+       Summary log → logs/freshco/2026-04-03_summary.log
+

@@ -1,0 +1,300 @@
+=== Sobeys Flyer Fetch — 2026-04-03 ===
+Run started : 2026-04-03 02:46:25 UTC
+
+Loaded 267 stores from data/sobeys/stores.json
+
+Stores loaded: 267
+Loaded existing store_flyers.json (458 publication entries)
+
+Phase 1: fetching publications per store…
+
+  [100] Sobeys Stellarton → no new flyers
+  [175] Sobeys Wholesale Cash & Carry Saint John → no new flyers
+  [176] Sobeys Wholesale Cash & Carry Truro → no new flyers
+  [194] Sobeys Wholesale Cash & Carry Stellarton → no new flyers
+  [227] Sobeys Wholesale Cash & Carry Sydney → no new flyers
+  [232] Sobeys Pictou → no new flyers
+  [233] Sobeys Lansdowne → no new flyers
+  [235] Sobeys Wholesale Cash & Carry Corner Brook → no new flyers
+  [292] Sobeys Newcastle → no new flyers
+  [320] Sobeys Torbay Road → no new flyers
+  [321] Sobeys Spryfield → no new flyers
+  [322] Sobeys Bridgewater → no new flyers
+  [323] Sobeys Barrington Passage → no new flyers
+  [328] Sobeys Glace Bay Reserve St → no new flyers
+  [329] Sobeys Timberlea → no new flyers
+  [340] Sobeys Topsail Road → no new flyers
+  [348] Sobeys Mountain Road → no new flyers
+  [349] Sobeys Brookside Mall → no new flyers
+  [370] Sobeys Aberdeen Mall → no new flyers
+  [375] Sobeys Uptown Centre → no new flyers
+  [470] Sobeys New Waterford → no new flyers
+  [495] Sobeys Rothesay → no new flyers
+  [510] Sobeys North Sydney → no new flyers
+  [515] Sobeys Dieppe Regis Street → no new flyers
+  [520] Sobeys Shelburne → no new flyers
+  [548] Sobeys East Point → no new flyers
+  [551] Sobeys Paradise → no new flyers
+  [552] Sobeys Clarenville → no new flyers
+  [554] Sobeys Windsor Street → no new flyers
+  [574] Sobeys Queen Street → no new flyers
+  [580] Sobeys Bedford → no new flyers
+  [586] Sobeys Cole Harbour → no new flyers
+  [588] Sobeys Liverpool → no new flyers
+  [590] Sobeys Long Pond → no new flyers
+  [594] Sobeys Truro → no new flyers
+  [596] Sobeys Antigonish → no new flyers
+  [602] Sobeys Dieppe Paul Street → no new flyers
+  [604] Sobeys Ropewalk Lane → no new flyers
+  [612] Sobeys Yarmouth → no new flyers
+  [621] Sobeys Stratford → no new flyers
+  [622] Sobeys Panavista Drive → no new flyers
+  [628] Sobeys Babineau Drive → no new flyers
+  [630] Sobeys Sydney River → no new flyers
+  [637] Sobeys Maple Grove → no new flyers
+  [639] Sobeys Acton → no new flyers
+  [640] Sobeys Woodstock → no new flyers
+  [641] Sobeys Highland → no new flyers
+  [642] Sobeys Grimsby → no new flyers
+  [644] Sobeys Clayton Park → no new flyers
+  [649] Sobeys Bridgeport → no new flyers
+  [652] Sobeys West Side Plaza → no new flyers
+  [657] Sobeys Ajax → no new flyers
+  [658] Sobeys Grand Falls → no new flyers
+  [659] Sobeys Clark and Hilda → no new flyers
+  [660] Sobeys Elmsdale → no new flyers
+  [664] Sobeys Simcoe → no new flyers
+  [667] Sobeys South Ajax → no new flyers
+  [670] Sobeys Lower Sackville → no new flyers
+  [672] Sobeys Windsor → no new flyers
+  [678] Sobeys Cambridge → no new flyers
+  [680] Sobeys Douglastown → no new flyers
+  [681] Sobeys Kenmount Road → no new flyers
+  [684] Sobeys Tantallon → no new flyers
+  [685] Sobeys Ira Needles → no new flyers
+  [694] Sobeys Extra Ancaster → no new flyers
+  [695] Sobeys Urban Fresh Rosebury Square → no new flyers
+  [704] Sobeys Port Hawkesbury → no new flyers
+  [707] Sobeys North Park → no new flyers
+  [709] Sobeys Shellard Lane → no new flyers
+  [712] Sobeys Barrie → no new flyers
+  [719] Sobeys Digby → no new flyers
+  [721] Sobeys Montague → no new flyers
+  [725] Sobeys Bedford South → no new flyers
+  [728] Sobeys Prince Street Sydney → no new flyers
+  [729] Sobeys Amherst → no new flyers
+  [736] Sobeys Riverview → no new flyers
+  [738] Sobeys Shediac → no new flyers
+  [739] Sobeys Fall River → no new flyers
+  [742] Sobeys Extra Burlington → no new flyers
+  [743] Sobeys Extra Aurora → no new flyers
+  [744] Sobeys St John’s Howley Estates → no new flyers
+  [746] Sobeys Greenwood → no new flyers
+  [747] Sobeys New Minas → no new flyers
+  [752] Sobeys Sussex → no new flyers
+  [754] Sobeys Campbellton → no new flyers
+  [756] Sobeys Vaughn Harvey → no new flyers
+  [758] Sobeys Russell Lake → no new flyers
+  [772] Sobeys Tacoma Drive → no new flyers
+  [776] Sobeys Penhorn → no new flyers
+  [777] Sobeys Glen Abbey → no new flyers
+  [778] Sobeys Saint John West → no new flyers
+  [783] Sobeys Elmwood Drive → no new flyers
+  [788] Sobeys First Lake → no new flyers
+  [792] Sobeys Marystown → no new flyers
+  [794] Sobeys Vaughan → no new flyers
+  [806] Sobeys Wyse Road → no new flyers
+  [819] Sobeys Urban Fresh High Park → no new flyers
+  [832] Sobeys Brighton → no new flyers
+  [846] Sobeys Woodstock → no new flyers
+  [849] Sobeys Regent Street → no new flyers
+  [851] Sobeys Whitby → no new flyers
+  [852] Sobeys FischerHallman → no new flyers
+  [855] Sobeys Mount Pearl → no new flyers
+  [857] Sobeys St. John’s → no new flyers
+  [859] Sobeys Beamsville → no new flyers
+  [860] Sobeys Miramichi Road → no new flyers
+  [861] Sobeys Cornerbrook → no new flyers
+  [863] Sobeys North London → no new flyers
+  [865] Sobeys Mayfield → no new flyers
+  [868] Sobeys Granville Street → no new flyers
+  [870] Sobeys University Avenue → no new flyers
+  [871] Sobeys Truro Prince Street → no new flyers
+  [873] Sobeys St. Clair Beach → no new flyers
+  [878] Sobeys Columbia → no new flyers
+  [881] Sobeys Mumford Road → no new flyers
+  [892] Sobeys Bathurst → no new flyers
+  [915] Sobeys Niagara Falls → no new flyers
+  [916] Sobeys Scott and Niagara → no new flyers
+  [925] Sobeys Oshawa → no new flyers
+  [928] Sobeys Jefferson Square → no new flyers
+  [930] Sobeys Urban Fresh – Bathurst & Bloor → no new flyers
+  [933] Sobeys Urban Fresh Yonge and Ballio → no new flyers
+  [934] Sobeys Urban Fresh Spadina → no new flyers
+  [938] Sobeys Danforth → no new flyers
+  [939] Sobeys Dupont → no new flyers
+  [1066] Sobeys Thickwood → no new flyers
+  [1072] Sobeys Beaumaris → no new flyers
+  [1130] Sobeys Okotoks → no new flyers
+  [1135] Medicine Hat → no new flyers
+  [1141] Sobeys McKenzie Towne → no new flyers
+  [1514] Sherwood Park → no new flyers
+  [3012] Sobeys Millwoods → no new flyers
+  [3013] Sobeys Meadowbrook → no new flyers
+  [3024] Sobeys College Plaza (Edm) → no new flyers
+  [3038] Sobeys Invermere → no new flyers
+  [3081] Sobeys Upland → no new flyers
+  [3095] Sobeys Thickwood → no new flyers
+  [3096] Sobeys Clearwater → no new flyers
+  [3112] Sobeys Cold Lake → no new flyers
+  [3149] Sobeys Rocky Mtn House → no new flyers
+  [3158] Sobeys Bonnyville → no new flyers
+  [3189] Sobeys Newcastle → no new flyers
+  [3219] Sobeys Birds Hill → no new flyers
+  [3221] Sobeys College Park → no new flyers
+  [3226] Sobeys St. Vital → no new flyers
+  [3232] Sobeys Rivergrove → no new flyers
+  [3699] Fort McMurray → no new flyers
+  [3701] Sherwood Park → no new flyers
+  [4016] Sobeys March Road → no new flyers
+  [4017] Sobeys Parry Sound → no new flyers
+  [4018] Sobeys Amherstburg → no new flyers
+  [4020] Sobeys Reenders → no new flyers
+  [4021] Sobeys Kenaston → no new flyers
+  [4025] Sobeys Silverado → no new flyers
+  [4027] Sobeys Forest Lawn → no new flyers
+  [4028] Sobeys Sylvan Lake → no new flyers
+  [4029] Sobeys Portage La Prairie → no new flyers
+  [4030] Sobeys Unicity → no new flyers
+  [4031] Sobeys Lacombe → no new flyers
+  [4032] Sobeys Airdrie → no new flyers
+  [4033] Sobeys Namao → no new flyers
+  [4045] Sobeys Cornerstone → no new flyers
+  [4048] Sobeys St. Anne’s → no new flyers
+  [4049] Sobeys Clearwater → no new flyers
+  [4053] Sobeys Bridlewood → no new flyers
+  [4054] Sobeys Grant Park → no new flyers
+  [4055] Sobeys Spruce Grove → no new flyers
+  [4056] Sobeys Gaetz South → no new flyers
+  [4058] Sobeys University Park → no new flyers
+  [4059] Sobeys Southbrook → no new flyers
+  [4060] Sobeys Royal Oak → no new flyers
+  [4061] Sobeys Stettler → no new flyers
+  [4062] Sobeys Paris → no new flyers
+  [4064] Sobeys Glendale and Merritt → no new flyers
+  [4065] Sobeys Stonebridge → no new flyers
+  [4066] Sobeys West District → no new flyers
+  [4072] Sobeys Village Mall → no new flyers
+  [4105] Sobeys Gravenhurst → no new flyers
+  [4110] Sobeys Stratford → no new flyers
+  [4116] Sobeys Chatham → no new flyers
+  [4152] Trim & Innes → no new flyers
+  [4154] Sobeys Trim and Innes → no new flyers
+  [4155] Sobeys Extra Oxford and Wonderland → no new flyers
+  [4160] Sobeys Algonquin → no new flyers
+  [4163] Sobeys Blenheim → no new flyers
+  [4164] Sobeys Angus → no new flyers
+  [4167] Sobeys Orleans → no new flyers
+  [4174] Sobeys New Hamburg → no new flyers
+  [4175] Sobeys Kincardine → no new flyers
+  [4176] Sobeys Bradford → no new flyers
+  [4179] Sobeys Fenelon Falls → no new flyers
+  [4575] Fredericton → no new flyers
+  [4712] Sobeys Tillsonburg → no new flyers
+  [4719] Sobeys Extra Milton → no new flyers
+  [4723] Sobeys Urban Fresh Café → no new flyers
+  [4726] Sobeys Laird and Wicksteed → no new flyers
+  [4728] Sobeys Todmorden → no new flyers
+  [4729] Sobeys Northfield → no new flyers
+  [4735] Sobeys Port Colborne → no new flyers
+  [4737] Sobeys – Stone Church → no new flyers
+  [4739] Sobeys Grand Bend → no new flyers
+  [4740] Sobeys Dunnville → no new flyers
+  [4743] Sobeys Urban Fresh Bloor & Islington → no new flyers
+  [4747] Sobeys Fort Erie → no new flyers
+  [4761] Sobeys Sutton → no new flyers
+  [4875] Sobeys Sage Creek → no new flyers
+  [4876] Sobeys Thickwood → no new flyers
+  [4978] Sobeys Newcastle → no new flyers
+  [4984] Sobeys Legacy → no new flyers
+  [5006] Fort McMurray → no new flyers
+  [5037] Sobeys Pembina → no new flyers
+  [5040] Sherwood Park → no new flyers
+  [5064] Sobeys Millrise → no new flyers
+  [5068] Sobeys Morinville → no new flyers
+  [5070] Sobeys Hollick Kenyon → no new flyers
+  [5074] Sobeys Cranston → no new flyers
+  [5076] Sobeys Beaumont → no new flyers
+  [5077] Sobeys Lloydminster → no new flyers
+  [5081] Sobeys Estevan → no new flyers
+  [5085] Sobeys Tuscany → no new flyers
+  [5088] Sobeys - Unicity → no new flyers
+  [5089] Sobeys Reenders → no new flyers
+  [5093] Sobeys Preston → no new flyers
+  [5098] Sobeys Steinbach → no new flyers
+  [5109] Sobeys West End → no new flyers
+  [5167] Sobeys Northdale → no new flyers
+  [5170] Sobeys Varsity Common → no new flyers
+  [5176] Sobeys Gimli → no new flyers
+  [5189] Sobeys High River → no new flyers
+  [5190] Sobeys Walker → no new flyers
+  [5191] Sobeys Nolan Hill → no new flyers
+  [5199] Medicine Hat → no new flyers
+  [5382] Sobeys Kildonan → no new flyers
+  [5386] Sobeys Mahogany → no new flyers
+  [5387] Sobeys Riverbend → no new flyers
+  [5395] Sobeys Humboldt → no new flyers
+  [5436] Sobeys Olds → no new flyers
+  [5460] Kelowna → no new flyers
+  [5462] Sobeys Strathcona Square → no new flyers
+  [5463] Sobeys Albert Street → no new flyers
+  [5469] Sobeys Brandon South → no new flyers
+  [5472] Sobeys Rochdale → no new flyers
+  [5473] Sobeys St. Albert → no new flyers
+  [5478] Sobeys Westlock → no new flyers
+  [5479] Sobeys Strathmore → no new flyers
+  [5489] Sobeys Country Hills → no new flyers
+  [5493] Sobeys Slave Lake → no new flyers
+  [5495] Sobeys St. Paul → no new flyers
+  [5499] Sobeys - Sage Creek → no new flyers
+  [5557] Sobeys Wholesale Cash & Carry Winnipeg → no new flyers
+  [6712] Sobeys Towerhill → no new flyers
+  [6713] Sobeys Peterborough → no new flyers
+  [6715] Sobeys Fonthill → no new flyers
+  [6729] Sobeys South Pelham → no new flyers
+  [7368] Sobeys Alcona Beach → no new flyers
+  [7383] Sobeys Queensway → no new flyers
+  [7466] Sobeys Orangeville → no new flyers
+  [8812] Safeway Calgary → no new flyers
+  [8823] #20, 1818 Centre Street NE → no new flyers
+  [9503] Sobeys Gaetz South → no new flyers
+  [9506] Sobeys Lakeland Ridge → no new flyers
+  [9507] Sobeys Nottingham → no new flyers
+  [9510] Sobeys Belmont → no new flyers
+  [9517] Sobeys North Battleford → no new flyers
+  [9518] Sobeys Brandon South → no new flyers
+  [9522] Sobeys Edson → no new flyers
+  [9529] Sobeys Belmont → no new flyers
+
+  0 new publication entries across 267 stores
+  0 unique new publication(s) to download
+  Saved → data/sobeys/store_flyers.json  (608,776 bytes)
+New publication entries added to store_flyers.json: 0
+Unique new publications to download: 0
+
+Phase 2: fetching products for each new publication…
+
+  Nothing new to download.
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 0
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-04-03 02:47:05 UTC
+Elapsed      : 0m 39s
+
+
+Done.  Verbose log → logs/sobeys/2026-04-03_verbose.log
+       Summary log → logs/sobeys/2026-04-03_summary.log
+

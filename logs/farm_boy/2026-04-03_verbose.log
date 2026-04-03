@@ -1,0 +1,85 @@
+=== Farm Boy Flyer Fetch — 2026-04-03 ===
+Run started : 2026-04-03 02:49:05 UTC
+
+Loaded 52 stores from data/farm_boy/stores.json
+
+Stores loaded: 52
+Loaded existing store_flyers.json (52 publication entries)
+
+Phase 1: fetching publications per store…
+
+  [1] Cornwall → no new flyers
+  [4] Nepean → no new flyers
+  [5] Hillside → no new flyers
+  [6] Terry Fox → no new flyers
+  [7] Blossom Park → no new flyers
+  [8] Orléans → no new flyers
+  [9] Barrhaven → no new flyers
+  [10] Blue Heron → no new flyers
+  [11] Kanata Signature Centre → no new flyers
+  [14] Britannia → no new flyers
+  [16] Place d'Orléans → no new flyers
+  [17] Kingston → no new flyers
+  [18] Train Yards → no new flyers
+  [19] London → no new flyers
+  [20] London - Fanshawe → no new flyers
+  [21] Beaverbrook → no new flyers
+  [22] Whitby → no new flyers
+  [23] Fairway Plaza → no new flyers
+  [24] Brantford → no new flyers
+  [25] Farm Boy McRae Avenue → no new flyers
+  [26] Cambridge → no new flyers
+  [27] Pickering → no new flyers
+  [28] Etobicoke → no new flyers
+  [29] Ottawa Rideau → no new flyers
+  [30] Hamilton → no new flyers
+  [31] Oakwoods Centre → no new flyers
+  [32] Lakeshore Blvd E → no new flyers
+  [33] Burlington → no new flyers
+  [34] St.Catharines → no new flyers
+  [35] Metcalfe - Ottawa → no new flyers
+  [36] Newmarket → no new flyers
+  [37] Toronto - Bay & College → no new flyers
+  [38] Toronto – Yonge & Soudan → no new flyers
+  [39] Waterloo → no new flyers
+  [40] Toronto Front & Bathurst → no new flyers
+  [41] Richmond Hill → no new flyers
+  [42] Farm Boy Harbourfront → no new flyers
+  [43] Greenbank → no new flyers
+  [44] Oakville - Bronte → no new flyers
+  [45] Farm Boy Aukland → no new flyers
+  [46] Dupont & Christie → no new flyers
+  [47] Stone Road Guelph → no new flyers
+  [48] Barrie → no new flyers
+  [49] St. Clair → no new flyers
+  [50] Aurora → no new flyers
+  [51] Toronto - Sugar Wharf → no new flyers
+  [52] Oshawa → no new flyers
+  [54] Port Credit → no new flyers
+  [55] Burlington South → no new flyers
+  [56] Laird Drive → no new flyers
+  [57] Hazeldean → no new flyers
+  [58] Collingwood → no new flyers
+
+  0 new publication entries across 52 stores
+  0 unique new publication(s) to download
+  Saved → data/farm_boy/store_flyers.json  (59,691 bytes)
+New publication entries added to store_flyers.json: 0
+Unique new publications to download: 0
+
+Phase 2: fetching products for each new publication…
+
+  Nothing new to download.
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 0
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-04-03 02:49:12 UTC
+Elapsed      : 0m 6s
+
+
+Done.  Verbose log → logs/farm_boy/2026-04-03_verbose.log
+       Summary log → logs/farm_boy/2026-04-03_summary.log
+

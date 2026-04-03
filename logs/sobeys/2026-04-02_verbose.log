@@ -1,0 +1,405 @@
+=== Sobeys Flyer Fetch — 2026-04-02 ===
+Run started : 2026-04-02 23:49:36 UTC
+
+Loaded 267 stores from data/sobeys/stores.json
+
+Stores loaded: 267
+Phase 1: fetching publications per store…
+
+  [100] Sobeys Stellarton → ['7864646', '7834535']
+  [175] Sobeys Wholesale Cash & Carry Saint John → no new flyers
+  [176] Sobeys Wholesale Cash & Carry Truro → no new flyers
+  [194] Sobeys Wholesale Cash & Carry Stellarton → no new flyers
+  [227] Sobeys Wholesale Cash & Carry Sydney → no new flyers
+  [232] Sobeys Pictou → ['7864646', '7834535']
+  [233] Sobeys Lansdowne → ['7864647', '7834536']
+  [235] Sobeys Wholesale Cash & Carry Corner Brook → no new flyers
+  [292] Sobeys Newcastle → ['7864647', '7834536']
+  [320] Sobeys Torbay Road → ['7864651', '7834540']
+  [321] Sobeys Spryfield → ['7864646', '7834535']
+  [322] Sobeys Bridgewater → ['7864646', '7834535']
+  [323] Sobeys Barrington Passage → ['7864646', '7834535']
+  [328] Sobeys Glace Bay Reserve St → ['7864646', '7834535']
+  [329] Sobeys Timberlea → ['7864646', '7834535']
+  [340] Sobeys Topsail Road → ['7864651', '7834540']
+  [348] Sobeys Mountain Road → ['7864650', '7834539']
+  [349] Sobeys Brookside Mall → ['7864647', '7834536']
+  [370] Sobeys Aberdeen Mall → ['7864646', '7834535']
+  [375] Sobeys Uptown Centre → ['7864647', '7834536']
+  [470] Sobeys New Waterford → ['7864646', '7834535']
+  [495] Sobeys Rothesay → ['7864647', '7834536']
+  [510] Sobeys North Sydney → ['7864646', '7834535']
+  [515] Sobeys Dieppe Regis Street → ['7864650', '7834539']
+  [520] Sobeys Shelburne → ['7864646', '7834535']
+  [548] Sobeys East Point → ['7864647', '7834536']
+  [551] Sobeys Paradise → ['7864651', '7834540']
+  [552] Sobeys Clarenville → ['7864651', '7834540']
+  [554] Sobeys Windsor Street → ['7864646', '7834535']
+  [574] Sobeys Queen Street → ['7864646', '7834535']
+  [580] Sobeys Bedford → ['7864646', '7834535']
+  [586] Sobeys Cole Harbour → ['7864646', '7834535']
+  [588] Sobeys Liverpool → ['7864646', '7834535']
+  [590] Sobeys Long Pond → ['7864651', '7834540']
+  [594] Sobeys Truro → ['7864646', '7834535']
+  [596] Sobeys Antigonish → ['7864646', '7834535']
+  [602] Sobeys Dieppe Paul Street → ['7864650', '7834539']
+  [604] Sobeys Ropewalk Lane → ['7864651', '7834540']
+  [612] Sobeys Yarmouth → ['7864646', '7834535']
+  [621] Sobeys Stratford → ['7864648', '7834537']
+  [622] Sobeys Panavista Drive → ['7864646', '7834535']
+  [628] Sobeys Babineau Drive → ['7864648', '7834537']
+  [630] Sobeys Sydney River → ['7864646', '7834535']
+  [637] Sobeys Maple Grove → ['7868227', '7834559']
+  [639] Sobeys Acton → ['7868226', '7834558']
+  [640] Sobeys Woodstock → ['7864640', '7834555']
+  [641] Sobeys Highland → ['7868225', '7834555']
+  [642] Sobeys Grimsby → ['7868225', '7834555']
+  [644] Sobeys Clayton Park → ['7864646', '7834535']
+  [649] Sobeys Bridgeport → ['7868227', '7834559']
+  [652] Sobeys West Side Plaza → ['7864646', '7834535']
+  [657] Sobeys Ajax → ['7868225', '7834555']
+  [658] Sobeys Grand Falls → ['7864651', '7834540']
+  [659] Sobeys Clark and Hilda → ['7862824']
+  [660] Sobeys Elmsdale → ['7864646', '7834535']
+  [664] Sobeys Simcoe → ['7864644', '7834559']
+  [667] Sobeys South Ajax → ['7868227', '7834559']
+  [670] Sobeys Lower Sackville → ['7864646', '7834535']
+  [672] Sobeys Windsor → ['7864646', '7834535']
+  [678] Sobeys Cambridge → ['7868225', '7834555']
+  [680] Sobeys Douglastown → ['7864647', '7834536']
+  [681] Sobeys Kenmount Road → ['7864651', '7834540']
+  [684] Sobeys Tantallon → ['7864646', '7834535']
+  [685] Sobeys Ira Needles → ['7868227', '7834559']
+  [694] Sobeys Extra Ancaster → ['7864640', '7834555']
+  [695] Sobeys Urban Fresh Rosebury Square → ['7861494']
+  [704] Sobeys Port Hawkesbury → ['7864646', '7834535']
+  [707] Sobeys North Park → ['7868227', '7834559']
+  [709] Sobeys Shellard Lane → ['7868227', '7834559']
+  [712] Sobeys Barrie → ['7868226', '7834558']
+  [719] Sobeys Digby → ['7864649', '7834538']
+  [721] Sobeys Montague → ['7864648', '7834537']
+  [725] Sobeys Bedford South → ['7864646', '7834535']
+  [728] Sobeys Prince Street Sydney → ['7864646', '7834535']
+  [729] Sobeys Amherst → ['7864646', '7834535']
+  [736] Sobeys Riverview → ['7864650', '7834539']
+  [738] Sobeys Shediac → ['7864650', '7834539']
+  [739] Sobeys Fall River → ['7864646', '7834535']
+  [742] Sobeys Extra Burlington → ['7864644', '7834559']
+  [743] Sobeys Extra Aurora → ['7864643', '7834558']
+  [744] Sobeys St John’s Howley Estates → ['7864651', '7834540']
+  [746] Sobeys Greenwood → ['7864646', '7834535']
+  [747] Sobeys New Minas → ['7864646', '7834535']
+  [752] Sobeys Sussex → ['7864647', '7834536']
+  [754] Sobeys Campbellton → no new flyers
+  [756] Sobeys Vaughn Harvey → ['7864650', '7834539']
+  [758] Sobeys Russell Lake → ['7864646', '7834535']
+  [772] Sobeys Tacoma Drive → ['7864646', '7834535']
+  [776] Sobeys Penhorn → ['7864646', '7834535']
+  [777] Sobeys Glen Abbey → ['7868227', '7834559']
+  [778] Sobeys Saint John West → ['7864647', '7834536']
+  [783] Sobeys Elmwood Drive → ['7864650', '7834539']
+  [788] Sobeys First Lake → ['7864646', '7834535']
+  [792] Sobeys Marystown → ['7864651', '7834540']
+  [794] Sobeys Vaughan → no new flyers
+  [806] Sobeys Wyse Road → ['7864646', '7834535']
+  [819] Sobeys Urban Fresh High Park → ['7861494']
+  [832] Sobeys Brighton → ['7864644', '7834559']
+  [846] Sobeys Woodstock → ['7864647', '7834536']
+  [849] Sobeys Regent Street → ['7864647', '7834536']
+  [851] Sobeys Whitby → ['7868225', '7834555']
+  [852] Sobeys FischerHallman → ['7868227', '7834559']
+  [855] Sobeys Mount Pearl → ['7864651', '7834540']
+  [857] Sobeys St. John’s → ['7864651', '7834540']
+  [859] Sobeys Beamsville → ['7864643', '7834558']
+  [860] Sobeys Miramichi Road → ['7864647', '7834536']
+  [861] Sobeys Cornerbrook → ['7864651', '7834540']
+  [863] Sobeys North London → ['7864640', '7834555']
+  [865] Sobeys Mayfield → ['7868227', '7834559']
+  [868] Sobeys Granville Street → ['7864648', '7834537']
+  [870] Sobeys University Avenue → ['7864648', '7834537']
+  [871] Sobeys Truro Prince Street → ['7864646', '7834535']
+  [873] Sobeys St. Clair Beach → ['7864643', '7834558']
+  [878] Sobeys Columbia → ['7868227', '7834559']
+  [881] Sobeys Mumford Road → ['7864646', '7834535']
+  [892] Sobeys Bathurst → ['7864650', '7834539']
+  [915] Sobeys Niagara Falls → ['7868227', '7834559']
+  [916] Sobeys Scott and Niagara → ['7868226', '7834558']
+  [925] Sobeys Oshawa → ['7868226', '7834558']
+  [928] Sobeys Jefferson Square → ['7868226', '7834558']
+  [930] Sobeys Urban Fresh – Bathurst & Bloor → no new flyers
+  [933] Sobeys Urban Fresh Yonge and Ballio → ['7861494']
+  [934] Sobeys Urban Fresh Spadina → ['7861494']
+  [938] Sobeys Danforth → ['7868225', '7834555']
+  [939] Sobeys Dupont → no new flyers
+  [1066] Sobeys Thickwood → no new flyers
+  [1072] Sobeys Beaumaris → ['7861556', '7834671']
+  [1130] Sobeys Okotoks → ['7861556', '7834671']
+  [1135] Medicine Hat → no new flyers
+  [1141] Sobeys McKenzie Towne → ['7861556', '7834671']
+  [1514] Sherwood Park → no new flyers
+  [3012] Sobeys Millwoods → ['7861556', '7834671']
+  [3013] Sobeys Meadowbrook → ['7861556', '7834671']
+  [3024] Sobeys College Plaza (Edm) → no new flyers
+  [3038] Sobeys Invermere → ['7861555', '7834671']
+  [3081] Sobeys Upland → ['7861556', '7834671']
+  [3095] Sobeys Thickwood → no new flyers
+  [3096] Sobeys Clearwater → no new flyers
+  [3112] Sobeys Cold Lake → ['7861555', '7834671']
+  [3149] Sobeys Rocky Mtn House → ['7861556', '7834671']
+  [3158] Sobeys Bonnyville → ['7861555', '7834671']
+  [3189] Sobeys Newcastle → no new flyers
+  [3219] Sobeys Birds Hill → ['7861558', '7834672']
+  [3221] Sobeys College Park → ['7861559', '7834673']
+  [3226] Sobeys St. Vital → ['7861558', '7834672']
+  [3232] Sobeys Rivergrove → ['7861558', '7834672']
+  [3699] Fort McMurray → no new flyers
+  [3701] Sherwood Park → no new flyers
+  [4016] Sobeys March Road → ['7868227', '7834559']
+  [4017] Sobeys Parry Sound → ['7864643', '7834558']
+  [4018] Sobeys Amherstburg → ['7864643', '7834558']
+  [4020] Sobeys Reenders → ['7861558', '7834672']
+  [4021] Sobeys Kenaston → ['7861558', '7834672']
+  [4025] Sobeys Silverado → ['7861556', '7834671']
+  [4027] Sobeys Forest Lawn → ['7861556', '7834671']
+  [4028] Sobeys Sylvan Lake → ['7861556', '7834671']
+  [4029] Sobeys Portage La Prairie → ['7861558', '7834672']
+  [4030] Sobeys Unicity → ['7861558', '7834672']
+  [4031] Sobeys Lacombe → ['7861556', '7834671']
+  [4032] Sobeys Airdrie → ['7861556', '7834671']
+  [4033] Sobeys Namao → ['7861556', '7834671']
+  [4045] Sobeys Cornerstone → ['7861556', '7834671']
+  [4048] Sobeys St. Anne’s → ['7861558', '7834672']
+  [4049] Sobeys Clearwater → ['7861556', '7834671']
+  [4053] Sobeys Bridlewood → ['7861556', '7834671']
+  [4054] Sobeys Grant Park → ['7861558', '7834672']
+  [4055] Sobeys Spruce Grove → ['7861556', '7834671']
+  [4056] Sobeys Gaetz South → ['7861556', '7834671']
+  [4058] Sobeys University Park → ['7861559', '7834674']
+  [4059] Sobeys Southbrook → ['7861556', '7834671']
+  [4060] Sobeys Royal Oak → ['7861556', '7834671']
+  [4061] Sobeys Stettler → ['7861556', '7834671']
+  [4062] Sobeys Paris → ['7868227', '7834559']
+  [4064] Sobeys Glendale and Merritt → ['7868226', '7834558']
+  [4065] Sobeys Stonebridge → ['7861559', '7834673']
+  [4066] Sobeys West District → ['7861556', '7834671']
+  [4072] Sobeys Village Mall → ['7861556', '7834671']
+  [4105] Sobeys Gravenhurst → ['7864644', '7834559']
+  [4110] Sobeys Stratford → ['7868227', '7834559']
+  [4116] Sobeys Chatham → ['7864644', '7834559']
+  [4152] Trim & Innes → no new flyers
+  [4154] Sobeys Trim and Innes → ['7864642', '7834557']
+  [4155] Sobeys Extra Oxford and Wonderland → ['7864643', '7834558']
+  [4160] Sobeys Algonquin → ['7864643', '7834558']
+  [4163] Sobeys Blenheim → ['7864640', '7834555']
+  [4164] Sobeys Angus → ['7868227', '7834559']
+  [4167] Sobeys Orleans → ['7864642', '7834557']
+  [4174] Sobeys New Hamburg → ['7868225', '7834555']
+  [4175] Sobeys Kincardine → ['7864643', '7834558']
+  [4176] Sobeys Bradford → ['7868227', '7834559']
+  [4179] Sobeys Fenelon Falls → ['7864643', '7834558']
+  [4575] Fredericton → no new flyers
+  [4712] Sobeys Tillsonburg → ['7864643', '7834558']
+  [4719] Sobeys Extra Milton → ['7864643', '7834558']
+  [4723] Sobeys Urban Fresh Café → no new flyers
+  [4726] Sobeys Laird and Wicksteed → no new flyers
+  [4728] Sobeys Todmorden → ['7868225', '7834555']
+  [4729] Sobeys Northfield → ['7868227', '7834559']
+  [4735] Sobeys Port Colborne → ['7868225', '7834555']
+  [4737] Sobeys – Stone Church → ['7868227', '7834559']
+  [4739] Sobeys Grand Bend → ['7864640', '7834555']
+  [4740] Sobeys Dunnville → ['7864640', '7834555']
+  [4743] Sobeys Urban Fresh Bloor & Islington → ['7864641', '7861494', '7834556']
+  [4747] Sobeys Fort Erie → ['7868226', '7834558']
+  [4761] Sobeys Sutton → ['7868225', '7834555']
+  [4875] Sobeys Sage Creek → ['7861558', '7834672']
+  [4876] Sobeys Thickwood → ['7861556', '7834671']
+  [4978] Sobeys Newcastle → ['7861556', '7834671']
+  [4984] Sobeys Legacy → ['7861556', '7834671']
+  [5006] Fort McMurray → no new flyers
+  [5037] Sobeys Pembina → ['7867188', '7834672']
+  [5040] Sherwood Park → no new flyers
+  [5064] Sobeys Millrise → ['7861556', '7834671']
+  [5068] Sobeys Morinville → ['7861556', '7834671']
+  [5070] Sobeys Hollick Kenyon → ['7861556', '7834671']
+  [5074] Sobeys Cranston → ['7861556', '7834671']
+  [5076] Sobeys Beaumont → ['7861555', '7834671']
+  [5077] Sobeys Lloydminster → ['7861555', '7834671']
+  [5081] Sobeys Estevan → ['7861559', '7834673']
+  [5085] Sobeys Tuscany → ['7861556', '7834671']
+  [5088] Sobeys - Unicity → no new flyers
+  [5089] Sobeys Reenders → no new flyers
+  [5093] Sobeys Preston → ['7861559', '7834673']
+  [5098] Sobeys Steinbach → ['7861558', '7834672']
+  [5109] Sobeys West End → ['7861558', '7834672']
+  [5167] Sobeys Northdale → ['7867188', '7834672']
+  [5170] Sobeys Varsity Common → ['7861559', '7834673']
+  [5176] Sobeys Gimli → ['7861558', '7834672']
+  [5189] Sobeys High River → ['7861556', '7834671']
+  [5190] Sobeys Walker → ['7861556', '7834671']
+  [5191] Sobeys Nolan Hill → ['7861556', '7834671']
+  [5199] Medicine Hat → no new flyers
+  [5382] Sobeys Kildonan → ['7867188', '7834672']
+  [5386] Sobeys Mahogany → ['7861556', '7834671']
+  [5387] Sobeys Riverbend → ['7861556', '7834671']
+  [5395] Sobeys Humboldt → ['7861559', '7834673']
+  [5436] Sobeys Olds → ['7861556', '7834671']
+  [5460] Kelowna → no new flyers
+  [5462] Sobeys Strathcona Square → ['7861556', '7834671']
+  [5463] Sobeys Albert Street → no new flyers
+  [5469] Sobeys Brandon South → no new flyers
+  [5472] Sobeys Rochdale → ['7861559', '7834673']
+  [5473] Sobeys St. Albert → ['7861556', '7834671']
+  [5478] Sobeys Westlock → ['7861555', '7834671']
+  [5479] Sobeys Strathmore → ['7861556', '7834671']
+  [5489] Sobeys Country Hills → ['7861556', '7834671']
+  [5493] Sobeys Slave Lake → ['7861555', '7834671']
+  [5495] Sobeys St. Paul → ['7861555', '7834671']
+  [5499] Sobeys - Sage Creek → no new flyers
+  [5557] Sobeys Wholesale Cash & Carry Winnipeg → no new flyers
+  [6712] Sobeys Towerhill → ['7864643', '7834558']
+  [6713] Sobeys Peterborough → ['7864644', '7834559']
+  [6715] Sobeys Fonthill → ['7868225', '7834555']
+  [6729] Sobeys South Pelham → ['7868225', '7834555']
+  [7368] Sobeys Alcona Beach → ['7868226', '7834558']
+  [7383] Sobeys Queensway → ['7868227', '7834559']
+  [7466] Sobeys Orangeville → ['7868227', '7834559']
+  [8812] Safeway Calgary → no new flyers
+  [8823] #20, 1818 Centre Street NE → no new flyers
+  [9503] Sobeys Gaetz South → no new flyers
+  [9506] Sobeys Lakeland Ridge → ['7861556', '7834671']
+  [9507] Sobeys Nottingham → ['7861556', '7834671']
+  [9510] Sobeys Belmont → no new flyers
+  [9517] Sobeys North Battleford → ['7861559', '7834673']
+  [9518] Sobeys Brandon South → ['7861558', '7834672']
+  [9522] Sobeys Edson → ['7861555', '7834671']
+  [9529] Sobeys Belmont → ['7861556', '7834671']
+
+  458 new publication entries across 267 stores
+  36 unique new publication(s) to download
+  Saved → data/sobeys/store_flyers.json  (608,776 bytes)
+New publication entries added to store_flyers.json: 458
+Unique new publications to download: 36
+
+Phase 2: fetching products for each new publication…
+
+  [7864646] Weekly Flyer- Atlantic  (2026-04-02T00:00:00-04:00 → 2026-04-08T22:59:59-04:00)
+    326 products
+  Saved → data/sobeys/flyers/7864646.json  (699,132 bytes)
+  [7834535] Natural and Wellness Booklet - Atlantic  (2026-03-19T00:00:00-04:00 → 2026-04-29T22:59:59-04:00)
+    53 products
+  Saved → data/sobeys/flyers/7834535.json  (112,143 bytes)
+  [7864647] Weekly Flyer- Atlantic  (2026-04-02T00:00:00-04:00 → 2026-04-08T22:59:59-04:00)
+    338 products
+  Saved → data/sobeys/flyers/7864647.json  (724,106 bytes)
+  [7834536] Natural and Wellness Booklet - Atlantic  (2026-03-19T00:00:00-04:00 → 2026-04-29T22:59:59-04:00)
+    53 products
+  Saved → data/sobeys/flyers/7834536.json  (112,143 bytes)
+  [7864651] Weekly Flyer- Atlantic  (2026-04-02T00:00:00-04:00 → 2026-04-08T22:59:59-04:00)
+    328 products
+  Saved → data/sobeys/flyers/7864651.json  (701,899 bytes)
+  [7834540] Natural and Wellness Booklet - Atlantic  (2026-03-19T00:00:00-04:00 → 2026-04-29T22:59:59-04:00)
+    53 products
+  Saved → data/sobeys/flyers/7834540.json  (112,143 bytes)
+  [7864650] Weekly Flyer- Atlantic  (2026-04-02T00:00:00-04:00 → 2026-04-08T22:59:59-04:00)
+    331 products
+  Saved → data/sobeys/flyers/7864650.json  (727,089 bytes)
+  [7834539] Natural and Wellness Booklet - Atlantic  (2026-03-19T00:00:00-04:00 → 2026-04-29T22:59:59-04:00)
+    53 products
+  Saved → data/sobeys/flyers/7834539.json  (112,143 bytes)
+  [7864648] Weekly Flyer- Atlantic  (2026-04-02T00:00:00-04:00 → 2026-04-08T22:59:59-04:00)
+    326 products
+  Saved → data/sobeys/flyers/7864648.json  (698,935 bytes)
+  [7834537] Natural and Wellness Booklet - Atlantic  (2026-03-19T00:00:00-04:00 → 2026-04-29T22:59:59-04:00)
+    53 products
+  Saved → data/sobeys/flyers/7834537.json  (112,143 bytes)
+  [7868227] Weekly Flyer - Ontario  (2026-04-02T00:00:00-04:00 → 2026-04-08T23:59:59-04:00)
+    337 products
+  Saved → data/sobeys/flyers/7868227.json  (719,636 bytes)
+  [7834559] Natural and Wellness Booklet - Ontario  (2026-03-19T00:00:00-04:00 → 2026-04-29T23:59:59-04:00)
+    53 products
+  Saved → data/sobeys/flyers/7834559.json  (112,377 bytes)
+  [7868226] Weekly Flyer - Ontario  (2026-04-02T00:00:00-04:00 → 2026-04-08T23:59:59-04:00)
+    337 products
+  Saved → data/sobeys/flyers/7868226.json  (719,548 bytes)
+  [7834558] Natural and Wellness Booklet - Ontario  (2026-03-19T00:00:00-04:00 → 2026-04-29T23:59:59-04:00)
+    53 products
+  Saved → data/sobeys/flyers/7834558.json  (112,377 bytes)
+  [7864640] Weekly Flyer - Ontario  (2026-04-02T00:00:00-04:00 → 2026-04-08T23:59:59-04:00)
+    330 products
+  Saved → data/sobeys/flyers/7864640.json  (705,747 bytes)
+  [7834555] Natural and Wellness Booklet - Ontario  (2026-03-19T00:00:00-04:00 → 2026-04-29T23:59:59-04:00)
+    53 products
+  Saved → data/sobeys/flyers/7834555.json  (112,377 bytes)
+  [7868225] Weekly Flyer - Ontario  (2026-04-02T00:00:00-04:00 → 2026-04-08T23:59:59-04:00)
+    331 products
+  Saved → data/sobeys/flyers/7868225.json  (707,490 bytes)
+  [7862824] Weekly Flyer - Kosher  (2026-04-02T00:00:00-04:00 → 2026-04-08T23:59:59-04:00)
+    58 products
+  Saved → data/sobeys/flyers/7862824.json  (125,408 bytes)
+  [7864644] Weekly Flyer - Ontario  (2026-04-02T00:00:00-04:00 → 2026-04-08T23:59:59-04:00)
+    336 products
+  Saved → data/sobeys/flyers/7864644.json  (717,893 bytes)
+  [7861494] Weekly Flyer - Urban Fresh  (2026-04-02T00:00:00-04:00 → 2026-04-08T23:59:59-04:00)
+    51 products
+  Saved → data/sobeys/flyers/7861494.json  (110,375 bytes)
+  [7864649] Weekly Flyer- Atlantic  (2026-04-02T00:00:00-04:00 → 2026-04-08T22:59:59-04:00)
+    327 products
+  Saved → data/sobeys/flyers/7864649.json  (718,661 bytes)
+  [7834538] Natural and Wellness Booklet - Atlantic  (2026-03-19T00:00:00-04:00 → 2026-04-29T22:59:59-04:00)
+    53 products
+  Saved → data/sobeys/flyers/7834538.json  (112,143 bytes)
+  [7864643] Weekly Flyer - Ontario  (2026-04-02T00:00:00-04:00 → 2026-04-08T23:59:59-04:00)
+    336 products
+  Saved → data/sobeys/flyers/7864643.json  (717,805 bytes)
+  [7861556] Weekly Flyer - West  (2026-04-02T03:00:00-04:00 → 2026-04-08T23:59:59-04:00)
+    309 products
+  Saved → data/sobeys/flyers/7861556.json  (663,593 bytes)
+  [7834671] Natural and Wellness Booklet - West  (2026-03-19T03:00:00-04:00 → 2026-04-29T23:59:59-04:00)
+    53 products
+  Saved → data/sobeys/flyers/7834671.json  (112,264 bytes)
+  [7861555] Weekly Flyer - West  (2026-04-02T03:00:00-04:00 → 2026-04-08T23:59:59-04:00)
+    309 products
+  Saved → data/sobeys/flyers/7861555.json  (663,609 bytes)
+  [7861558] Weekly Flyer - West  (2026-04-02T03:00:00-04:00 → 2026-04-08T23:59:59-04:00)
+    307 products
+  Saved → data/sobeys/flyers/7861558.json  (659,334 bytes)
+  [7834672] Natural and Wellness Booklet - West  (2026-03-19T03:00:00-04:00 → 2026-04-29T23:59:59-04:00)
+    53 products
+  Saved → data/sobeys/flyers/7834672.json  (112,264 bytes)
+  [7861559] Weekly Flyer - West  (2026-04-02T03:00:00-04:00 → 2026-04-08T23:59:59-04:00)
+    307 products
+  Saved → data/sobeys/flyers/7861559.json  (659,334 bytes)
+  [7834673] Natural and Wellness Booklet - West  (2026-03-19T03:00:00-04:00 → 2026-04-29T23:59:59-04:00)
+    53 products
+  Saved → data/sobeys/flyers/7834673.json  (112,264 bytes)
+  [7834674] Natural and Wellness Booklet - West  (2026-03-19T03:00:00-04:00 → 2026-04-29T23:59:59-04:00)
+    53 products
+  Saved → data/sobeys/flyers/7834674.json  (112,264 bytes)
+  [7864642] Weekly Flyer - Ontario  (2026-04-02T00:00:00-04:00 → 2026-04-08T23:59:59-04:00)
+    331 products
+  Saved → data/sobeys/flyers/7864642.json  (711,656 bytes)
+  [7834557] Natural and Wellness Booklet - Ontario  (2026-03-19T00:00:00-04:00 → 2026-04-29T23:59:59-04:00)
+    53 products
+  Saved → data/sobeys/flyers/7834557.json  (112,378 bytes)
+  [7864641] Weekly Flyer - Ontario  (2026-04-02T00:00:00-04:00 → 2026-04-08T23:59:59-04:00)
+    330 products
+  Saved → data/sobeys/flyers/7864641.json  (705,723 bytes)
+  [7834556] Natural and Wellness Booklet - Ontario  (2026-03-19T00:00:00-04:00 → 2026-04-29T23:59:59-04:00)
+    53 products
+  Saved → data/sobeys/flyers/7834556.json  (112,378 bytes)
+  [7867188] Weekly Flyer - West  (2026-04-02T03:00:00-04:00 → 2026-04-08T23:59:59-04:00)
+    308 products
+  Saved → data/sobeys/flyers/7867188.json  (660,978 bytes)
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 36
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-04-02 23:50:17 UTC
+Elapsed      : 0m 40s
+
+
+Done.  Verbose log → logs/sobeys/2026-04-02_verbose.log
+       Summary log → logs/sobeys/2026-04-02_summary.log
+

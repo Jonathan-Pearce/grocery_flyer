@@ -1,0 +1,614 @@
+{
+  "320": {
+    "store_name": "TORONTO 672",
+    "banner": "Food Basics"
+  },
+  "601": {
+    "store_name": "WINDSOR 601",
+    "banner": "Food Basics"
+  },
+  "606": {
+    "store_name": "SCARBOROUGH 606",
+    "banner": "Food Basics"
+  },
+  "607": {
+    "store_name": "HANMER 607",
+    "banner": "Food Basics"
+  },
+  "609": {
+    "store_name": "NORTH BAY 609",
+    "banner": "Food Basics"
+  },
+  "610": {
+    "store_name": "SUDBURY 610",
+    "banner": "Food Basics"
+  },
+  "611": {
+    "store_name": "STRATFORD 611",
+    "banner": "Food Basics"
+  },
+  "612": {
+    "store_name": "LONDON 612",
+    "banner": "Food Basics"
+  },
+  "616": {
+    "store_name": "GRIMSBY 616",
+    "banner": "Food Basics"
+  },
+  "620": {
+    "store_name": "BURLINGTON 620",
+    "banner": "Food Basics"
+  },
+  "621": {
+    "store_name": "HAMILTON 621",
+    "banner": "Food Basics"
+  },
+  "623": {
+    "store_name": "STRATHROY 623",
+    "banner": "Food Basics"
+  },
+  "627": {
+    "store_name": "MISSISSAUGA 627",
+    "banner": "Food Basics"
+  },
+  "628": {
+    "store_name": "SCARBOROUGH 628",
+    "banner": "Food Basics"
+  },
+  "629": {
+    "store_name": "TORONTO 629",
+    "banner": "Food Basics"
+  },
+  "630": {
+    "store_name": "MISSISSAUGA 630",
+    "banner": "Food Basics"
+  },
+  "631": {
+    "store_name": "TORONTO 631",
+    "banner": "Food Basics"
+  },
+  "632": {
+    "store_name": "GODERICH 632",
+    "banner": "Food Basics"
+  },
+  "633": {
+    "store_name": "CAMBRIDGE  633",
+    "banner": "Food Basics"
+  },
+  "634": {
+    "store_name": "OTTAWA 634",
+    "banner": "Food Basics"
+  },
+  "635": {
+    "store_name": "OAKVILLE 635",
+    "banner": "Food Basics"
+  },
+  "636": {
+    "store_name": "OSHAWA 636",
+    "banner": "Food Basics"
+  },
+  "638": {
+    "store_name": "SUDBURY 638",
+    "banner": "Food Basics"
+  },
+  "640": {
+    "store_name": "KINGSTON 640",
+    "banner": "Food Basics"
+  },
+  "641": {
+    "store_name": "ROCKLAND 641",
+    "banner": "Food Basics"
+  },
+  "642": {
+    "store_name": "TIMMINS 642",
+    "banner": "Food Basics"
+  },
+  "643": {
+    "store_name": "NEW LISKEARD 643",
+    "banner": "Food Basics"
+  },
+  "646": {
+    "store_name": "Porcupine (Timmins) 646",
+    "banner": "Food Basics"
+  },
+  "648": {
+    "store_name": "TORONTO (Emerald)",
+    "banner": "Food Basics"
+  },
+  "650": {
+    "store_name": "MIDLAND 650",
+    "banner": "Food Basics"
+  },
+  "651": {
+    "store_name": "FONTHILL 651",
+    "banner": "Food Basics"
+  },
+  "652": {
+    "store_name": "Port Hope 652",
+    "banner": "Food Basics"
+  },
+  "653": {
+    "store_name": "SCARBOROUGH 653",
+    "banner": "Food Basics"
+  },
+  "654": {
+    "store_name": "WATERLOO 654",
+    "banner": "Food Basics"
+  },
+  "655": {
+    "store_name": "MISSISSAUGA 655",
+    "banner": "Food Basics"
+  },
+  "656": {
+    "store_name": "BURLINGTON 656",
+    "banner": "Food Basics"
+  },
+  "657": {
+    "store_name": "BURLINGTON 657",
+    "banner": "Food Basics"
+  },
+  "658": {
+    "store_name": "WELLAND 658",
+    "banner": "Food Basics"
+  },
+  "659": {
+    "store_name": "SAULT STE. MARIE 659",
+    "banner": "Food Basics"
+  },
+  "660": {
+    "store_name": "BRAMPTON 660",
+    "banner": "Food Basics"
+  },
+  "661": {
+    "store_name": "MARKHAM 661",
+    "banner": "Food Basics"
+  },
+  "662": {
+    "store_name": "STITTSVILLE 662",
+    "banner": "Food Basics"
+  },
+  "663": {
+    "store_name": "ORLEANS 663",
+    "banner": "Food Basics"
+  },
+  "666": {
+    "store_name": "OAKVILLE 666",
+    "banner": "Food Basics"
+  },
+  "668": {
+    "store_name": "CORNWALL 668",
+    "banner": "Food Basics"
+  },
+  "669": {
+    "store_name": "MISSISSAUGA 669",
+    "banner": "Food Basics"
+  },
+  "670": {
+    "store_name": "LONDON 670",
+    "banner": "Food Basics"
+  },
+  "673": {
+    "store_name": "THORNHILL 673",
+    "banner": "Food Basics"
+  },
+  "674": {
+    "store_name": "NIAGARA FALLS 674",
+    "banner": "Food Basics"
+  },
+  "675": {
+    "store_name": "LONDON 675",
+    "banner": "Food Basics"
+  },
+  "676": {
+    "store_name": "BRANTFORD 676",
+    "banner": "Food Basics"
+  },
+  "677": {
+    "store_name": "WOODSTOCK 677",
+    "banner": "Food Basics"
+  },
+  "678": {
+    "store_name": "GUELPH 678",
+    "banner": "Food Basics"
+  },
+  "679": {
+    "store_name": "THORNHILL 679",
+    "banner": "Food Basics"
+  },
+  "681": {
+    "store_name": "LONDON 681",
+    "banner": "Food Basics"
+  },
+  "682": {
+    "store_name": "BRANTFORD 682",
+    "banner": "Food Basics"
+  },
+  "684": {
+    "store_name": "PORT PERRY 684",
+    "banner": "Food Basics"
+  },
+  "685": {
+    "store_name": "GEORGETOWN 685",
+    "banner": "Food Basics"
+  },
+  "687": {
+    "store_name": "HAMILTON 687",
+    "banner": "Food Basics"
+  },
+  "689": {
+    "store_name": "ETOBICOKE 689",
+    "banner": "Food Basics"
+  },
+  "690": {
+    "store_name": "KITCHENER 690",
+    "banner": "Food Basics"
+  },
+  "691": {
+    "store_name": "GUELPH 691",
+    "banner": "Food Basics"
+  },
+  "692": {
+    "store_name": "NORTH YORK 692",
+    "banner": "Food Basics"
+  },
+  "693": {
+    "store_name": "CHATHAM 693",
+    "banner": "Food Basics"
+  },
+  "694": {
+    "store_name": "CAMBRIDGE 694",
+    "banner": "Food Basics"
+  },
+  "695": {
+    "store_name": "HAMILTON 695",
+    "banner": "Food Basics"
+  },
+  "696": {
+    "store_name": "HANOVER 696",
+    "banner": "Food Basics"
+  },
+  "697": {
+    "store_name": "SUDBURY 697",
+    "banner": "Food Basics"
+  },
+  "811": {
+    "store_name": "PORT ELGIN 811",
+    "banner": "Food Basics"
+  },
+  "812": {
+    "store_name": "KINGSTON 812",
+    "banner": "Food Basics"
+  },
+  "813": {
+    "store_name": "London Fanshawe",
+    "banner": "Food Basics"
+  },
+  "815": {
+    "store_name": "Mississauga Parkside 815",
+    "banner": "Food Basics"
+  },
+  "816": {
+    "store_name": "EMBRUN 816",
+    "banner": "Food Basics"
+  },
+  "818": {
+    "store_name": "INGERSOLL 818",
+    "banner": "Food Basics"
+  },
+  "819": {
+    "store_name": "Nepean 819",
+    "banner": "Food Basics"
+  },
+  "821": {
+    "store_name": "LASALLE 821",
+    "banner": "Food Basics"
+  },
+  "823": {
+    "store_name": "Brampton 823",
+    "banner": "Food Basics"
+  },
+  "830": {
+    "store_name": "KINGSTON 830",
+    "banner": "Food Basics"
+  },
+  "831": {
+    "store_name": "WOODBRIDGE 831",
+    "banner": "Food Basics"
+  },
+  "832": {
+    "store_name": "WINDSOR 832",
+    "banner": "Food Basics"
+  },
+  "833": {
+    "store_name": "BOLTON",
+    "banner": "Food Basics"
+  },
+  "834": {
+    "store_name": "COURTICE 834",
+    "banner": "Food Basics"
+  },
+  "835": {
+    "store_name": "St Thomas 835",
+    "banner": "Food Basics"
+  },
+  "836": {
+    "store_name": "HAMILTON 836",
+    "banner": "Food Basics"
+  },
+  "837": {
+    "store_name": "BRACEBRIDGE",
+    "banner": "Food Basics"
+  },
+  "839": {
+    "store_name": "CALEDONIA 839",
+    "banner": "Food Basics"
+  },
+  "840": {
+    "store_name": "Chelmsford",
+    "banner": "Food Basics"
+  },
+  "841": {
+    "store_name": "OAKVILLE 841",
+    "banner": "Food Basics"
+  },
+  "842": {
+    "store_name": "NEWMARKET 842",
+    "banner": "Food Basics"
+  },
+  "843": {
+    "store_name": "RICHMOND HILL 843",
+    "banner": "Food Basics"
+  },
+  "844": {
+    "store_name": "LEAMINGTON 844",
+    "banner": "Food Basics"
+  },
+  "845": {
+    "store_name": "HAMILTON 845",
+    "banner": "Food Basics"
+  },
+  "846": {
+    "store_name": "LANSDOWNE 846",
+    "banner": "Food Basics"
+  },
+  "847": {
+    "store_name": "KITCHENER 847 (New Store)",
+    "banner": "Food Basics"
+  },
+  "848": {
+    "store_name": "St Clair Beach (Tecumseh)",
+    "banner": "Food Basics"
+  },
+  "855": {
+    "store_name": "Bradford 855",
+    "banner": "Food Basics"
+  },
+  "856": {
+    "store_name": "RICHMOND HILL 856",
+    "banner": "Food Basics"
+  },
+  "857": {
+    "store_name": "LONDON 857",
+    "banner": "Food Basics"
+  },
+  "858": {
+    "store_name": "NIAGARA FALLS 858",
+    "banner": "Food Basics"
+  },
+  "859": {
+    "store_name": "PETAWAWA 859",
+    "banner": "Food Basics"
+  },
+  "860": {
+    "store_name": "WINDSOR 860",
+    "banner": "Food Basics"
+  },
+  "861": {
+    "store_name": "PORT COLBORNE  861",
+    "banner": "Food Basics"
+  },
+  "862": {
+    "store_name": "GUELPH 862",
+    "banner": "Food Basics"
+  },
+  "863": {
+    "store_name": "SCARBOROUGH 863",
+    "banner": "Food Basics"
+  },
+  "867": {
+    "store_name": "NORTH YORK 867",
+    "banner": "Food Basics"
+  },
+  "868": {
+    "store_name": "SARNIA 868",
+    "banner": "Food Basics"
+  },
+  "869": {
+    "store_name": "KANATA 869",
+    "banner": "Food Basics"
+  },
+  "870": {
+    "store_name": "OTTAWA 870",
+    "banner": "Food Basics"
+  },
+  "871": {
+    "store_name": "MISSISSAUGA 871",
+    "banner": "Food Basics"
+  },
+  "872": {
+    "store_name": "KESWICK 872",
+    "banner": "Food Basics"
+  },
+  "874": {
+    "store_name": "SCARBOROUGH 874",
+    "banner": "Food Basics"
+  },
+  "875": {
+    "store_name": "TORONTO 875",
+    "banner": "Food Basics"
+  },
+  "876": {
+    "store_name": "THORNHILL 876",
+    "banner": "Food Basics"
+  },
+  "877": {
+    "store_name": "KITCHENER 877",
+    "banner": "Food Basics"
+  },
+  "880": {
+    "store_name": "TORONTO 880",
+    "banner": "Food Basics"
+  },
+  "882": {
+    "store_name": "MILTON 882",
+    "banner": "Food Basics"
+  },
+  "883": {
+    "store_name": "LISTOWEL 883",
+    "banner": "Food Basics"
+  },
+  "885": {
+    "store_name": "Pickering 885",
+    "banner": "Food Basics"
+  },
+  "886": {
+    "store_name": "ORILLIA  886",
+    "banner": "Food Basics"
+  },
+  "887": {
+    "store_name": "KEMPTVILLE 887",
+    "banner": "Food Basics"
+  },
+  "888": {
+    "store_name": "SIMCOE 888",
+    "banner": "Food Basics"
+  },
+  "890": {
+    "store_name": "SMITH FALLS 890",
+    "banner": "Food Basics"
+  },
+  "891": {
+    "store_name": "PEMBROKE 891",
+    "banner": "Food Basics"
+  },
+  "892": {
+    "store_name": "LINDSAY 892",
+    "banner": "Food Basics"
+  },
+  "893": {
+    "store_name": "DUNNVILLE 893",
+    "banner": "Food Basics"
+  },
+  "894": {
+    "store_name": "CORNWALL 894",
+    "banner": "Food Basics"
+  },
+  "895": {
+    "store_name": "BRAMPTON 895",
+    "banner": "Food Basics"
+  },
+  "896": {
+    "store_name": "OTTAWA 896",
+    "banner": "Food Basics"
+  },
+  "897": {
+    "store_name": "BARRIE 897",
+    "banner": "Food Basics"
+  },
+  "900": {
+    "store_name": "OTTAWA 900",
+    "banner": "Food Basics"
+  },
+  "902": {
+    "store_name": "BELLEVILLE 902",
+    "banner": "Food Basics"
+  },
+  "904": {
+    "store_name": "BRAMPTON 904",
+    "banner": "Food Basics"
+  },
+  "906": {
+    "store_name": "HAMILTON 906",
+    "banner": "Food Basics"
+  },
+  "907": {
+    "store_name": "OTTAWA 907",
+    "banner": "Food Basics"
+  },
+  "908": {
+    "store_name": "MISSISSAUGA 908",
+    "banner": "Food Basics"
+  },
+  "910": {
+    "store_name": "ELMIRA 910",
+    "banner": "Food Basics"
+  },
+  "912": {
+    "store_name": "BLENHEIM 912",
+    "banner": "Food Basics"
+  },
+  "917": {
+    "store_name": "Ottawa 917",
+    "banner": "Food Basics"
+  },
+  "918": {
+    "store_name": "Hawkesbury 918",
+    "banner": "Food Basics"
+  },
+  "921": {
+    "store_name": "BROCKVILLE 921",
+    "banner": "Food Basics"
+  },
+  "927": {
+    "store_name": "AJAX 927",
+    "banner": "Food Basics"
+  },
+  "928": {
+    "store_name": "ETOBICOKE 928",
+    "banner": "Food Basics"
+  },
+  "929": {
+    "store_name": "AJAX 929",
+    "banner": "Food Basics"
+  },
+  "930": {
+    "store_name": "TORONTO 930",
+    "banner": "Food Basics"
+  },
+  "932": {
+    "store_name": "ST. CATHARINES 932",
+    "banner": "Food Basics"
+  },
+  "937": {
+    "store_name": "HAMILTON 937",
+    "banner": "Food Basics"
+  },
+  "939": {
+    "store_name": "OWEN SOUND 939",
+    "banner": "Food Basics"
+  },
+  "947": {
+    "store_name": "SAULT STE. MARIE 947",
+    "banner": "Food Basics"
+  },
+  "949": {
+    "store_name": "KINGSTON 949",
+    "banner": "Food Basics"
+  },
+  "959": {
+    "store_name": "KITCHENER 959",
+    "banner": "Food Basics"
+  },
+  "960": {
+    "store_name": "KITCHENER 960",
+    "banner": "Food Basics"
+  },
+  "976": {
+    "store_name": "ANCASTER 976",
+    "banner": "Food Basics"
+  },
+  "989": {
+    "store_name": "ST. CATHARINES  989",
+    "banner": "Food Basics"
+  }
+}

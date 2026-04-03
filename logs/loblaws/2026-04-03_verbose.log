@@ -1,0 +1,83 @@
+=== Loblaws Flyer Fetch — 2026-04-03 ===
+Run started : 2026-04-03 02:43:52 UTC
+
+Loaded 50 stores from data/loblaws/stores.json
+
+Stores loaded: 50
+Loaded existing store_flyers.json (84 publication entries)
+
+Phase 1: fetching publications per store…
+
+  [99] Fake Store For Testing → no new flyers
+  [1000] Loblaws - Queen Street West → no new flyers
+  [1001] Loblaws - Liverpool Rd. → no new flyers
+  [1003] Loblaws - Mclaughlin Road → no new flyers
+  [1004] Loblaws - Leslie Street → no new flyers
+  [1005] Loblaws - Bayfield Street → no new flyers
+  [1007] Loblaws - Carlton Street → no new flyers
+  [1010] Loblaws - Yonge Street → no new flyers
+  [1011] Loblaws - Glen Erin Drive → no new flyers
+  [1014] Loblaws - McArthur Road → no new flyers
+  [1016] Loblaws - Wonderland Road South → no new flyers
+  [1019] Loblaws - Bayview Village → no new flyers
+  [1020] Loblaws - Eglinton Ave. E → no new flyers
+  [1021] Loblaws - Musgrave Street → no new flyers
+  [1022] Loblaws - Kent Street West → no new flyers
+  [1023] Loblaws - Robertson Road → no new flyers
+  [1027] Loblaws - Richmond Street North → no new flyers
+  [1028] Loblaws - High Tech Road → no new flyers
+  [1029] Loblaws - Dupont Street → no new flyers
+  [1032] Loblaws - Bullock Drive → no new flyers
+  [1035] Loblaws - Greenbank Road → no new flyers
+  [1040] Loblaws - Princess Street → no new flyers
+  [1050] Loblaws - Baseline Road → no new flyers
+  [1051] Loblaws - Ogilvie Road → no new flyers
+  [1064] Loblaws - Highway #2 → no new flyers
+  [1066] Loblaws - The East Mall → no new flyers
+  [1079] Loblaws - Lower Jarvis Street → no new flyers
+  [1082] Loblaws - 1460 Merivale Road → no new flyers
+  [1083] Loblaws - Midland Ave → no new flyers
+  [1090] Loblaws - Lakeshore Road West → no new flyers
+  [1092] Loblaws - Redway Road → no new flyers
+  [1095] Loblaws - Isabella Street → no new flyers
+  [1099] Loblaws - Dundas Street West → no new flyers
+  [1114] Loblaws - Earl Grey Drive → no new flyers
+  [1127] Loblaws - Hurontario Street → no new flyers
+  [1132] Loblaws - Carling Avenue → no new flyers
+  [1142] Loblaws City Market- St. Clair Avenue East → no new flyers
+  [1154] Loblaws - Dundas Street West → no new flyers
+  [1155] Loblaws - Moore Avenue → no new flyers
+  [1170] Loblaws - Rideau Street → no new flyers
+  [1174] Loblaws - 270 The Kingsway → no new flyers
+  [1179] Loblaws - Broadview Ave → no new flyers
+  [1188] Loblaws - Bank Street → no new flyers
+  [1194] Loblaws - Yonge Street → no new flyers
+  [1212] Loblaws - St. Clair Ave West → no new flyers
+  [1424] Loblaws- Lakeshore/Bathurst → no new flyers
+  [1789] Squamish YIG (W) → no new flyers
+  [1790] Loblaws City Market → no new flyers
+  [1822] Loblaws City Market - Sage Hill → no new flyers
+  [1872] Lonsdale City Market → no new flyers
+
+  0 new publication entries across 50 stores
+  0 unique new publication(s) to download
+  Saved → data/loblaws/store_flyers.json  (110,579 bytes)
+New publication entries added to store_flyers.json: 0
+Unique new publications to download: 0
+
+Phase 2: fetching products for each new publication…
+
+  Nothing new to download.
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 0
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-04-03 02:43:59 UTC
+Elapsed      : 0m 7s
+
+
+Done.  Verbose log → logs/loblaws/2026-04-03_verbose.log
+       Summary log → logs/loblaws/2026-04-03_summary.log
+

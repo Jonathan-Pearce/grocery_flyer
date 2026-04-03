@@ -1,0 +1,15 @@
+=== Freshmart Flyer Fetch — 2026-04-02 ===
+Run started : 2026-04-02 22:49:01 UTC
+
+Stores loaded: 24
+New publication entries added to store_flyers.json: 20
+Unique new publications to download: 3
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 3
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-04-02 22:49:04 UTC
+Elapsed      : 0m 3s
+

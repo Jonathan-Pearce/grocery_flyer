@@ -1,0 +1,53 @@
+=== Dominion Flyer Fetch — 2026-04-02 ===
+Run started : 2026-04-02 22:48:29 UTC
+
+Loaded 11 stores from data/dominion/stores.json
+
+Stores loaded: 11
+Phase 1: fetching publications per store…
+
+  [906] Bay Roberts Dominion → ['7864592']
+  [913] Carbonear Dominion → ['7864592']
+  [922] Pearlgate Dominion → ['7864593']
+  [923] Longpond Dominion → ['7864593']
+  [924] Cabot Square Dominion → ['7864634']
+  [925] Stephenville Dominion → ['7864593']
+  [926] Corner Brook Dominion → ['7864593']
+  [927] Gander Dominion → ['7864593']
+  [928] Grand Falls Dominion → ['7864593']
+  [934] Memorial Stadium Dominion → ['7864593']
+  [935] Blackmarsh Road Dominion → ['7864632']
+
+  11 new publication entries across 11 stores
+  4 unique new publication(s) to download
+  Saved → data/dominion/store_flyers.json  (15,204 bytes)
+New publication entries added to store_flyers.json: 11
+Unique new publications to download: 4
+
+Phase 2: fetching products for each new publication…
+
+  [7864592] Weekly Flyer  (2026-04-02T00:00:00-04:00 → 2026-04-08T23:59:59-04:00)
+    346 products
+  Saved → data/dominion/flyers/7864592.json  (777,050 bytes)
+  [7864593] Weekly Flyer  (2026-04-02T00:00:00-04:00 → 2026-04-08T23:59:59-04:00)
+    367 products
+  Saved → data/dominion/flyers/7864593.json  (822,309 bytes)
+  [7864634] Weekly Flyer  (2026-04-02T00:00:00-04:00 → 2026-04-08T23:59:59-04:00)
+    411 products
+  Saved → data/dominion/flyers/7864634.json  (918,611 bytes)
+  [7864632] Weekly Flyer  (2026-04-02T00:00:00-04:00 → 2026-04-08T23:59:59-04:00)
+    405 products
+  Saved → data/dominion/flyers/7864632.json  (905,712 bytes)
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 4
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-04-02 22:48:31 UTC
+Elapsed      : 0m 2s
+
+
+Done.  Verbose log → logs/dominion/2026-04-02_verbose.log
+       Summary log → logs/dominion/2026-04-02_summary.log
+
