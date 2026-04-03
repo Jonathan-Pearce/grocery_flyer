@@ -1,482 +1,730 @@
 {
-  "304": {
-    "store_name": "VANIER",
-    "banner": "Super C"
-  },
-  "312": {
-    "store_name": "ST-REMI",
-    "banner": "Super C"
-  },
-  "423": {
-    "store_name": "BEAUPORT",
-    "banner": "Super C"
-  },
-  "425": {
-    "store_name": "NEUFCHATEL",
-    "banner": "Super C"
-  },
-  "426": {
-    "store_name": "STE-FOY",
-    "banner": "Super C"
-  },
-  "427": {
-    "store_name": "RIMOUSKI",
-    "banner": "Super C"
-  },
-  "428": {
-    "store_name": "THETFORD MINES",
-    "banner": "Super C"
-  },
-  "429": {
-    "store_name": "VICTORIAVILLE",
-    "banner": "Super C"
-  },
-  "430": {
-    "store_name": "LEVIS",
-    "banner": "Super C"
-  },
-  "431": {
-    "store_name": "ST-JEAN-CHRYSOSTOME",
-    "banner": "Super C"
-  },
-  "432": {
-    "store_name": "CHICOUTIMI",
-    "banner": "Super C"
-  },
-  "433": {
-    "store_name": "JONQUIERE",
-    "banner": "Super C"
-  },
-  "434": {
-    "store_name": "CAP-DE-LA-MADELEINE",
-    "banner": "Super C"
-  },
-  "435": {
-    "store_name": "TROIS-RIVIERES",
-    "banner": "Super C"
-  },
-  "436": {
-    "store_name": "TROIS-RIVIERES OUEST",
-    "banner": "Super C"
-  },
-  "437": {
-    "store_name": "SHAWINIGAN",
-    "banner": "Super C"
-  },
-  "438": {
-    "store_name": "POINTE-AUX-TREMBLES",
-    "banner": "Super C"
-  },
-  "439": {
-    "store_name": "HENRI-BOURASSA",
-    "banner": "Super C"
-  },
-  "440": {
-    "store_name": "ST-LEONARD",
-    "banner": "Super C"
-  },
-  "441": {
-    "store_name": "MONTREAL PIE-IX - ONTARIO",
-    "banner": "Super C"
-  },
-  "442": {
-    "store_name": "MONTREAL PIE-IX ET JARRY",
-    "banner": "Super C"
-  },
-  "443": {
-    "store_name": "ATWATER",
-    "banner": "Super C"
-  },
-  "444": {
-    "store_name": "N.D.G. - ST-JACQUES",
-    "banner": "Super C"
-  },
-  "445": {
-    "store_name": "BELOEIL",
-    "banner": "Super C"
-  },
-  "446": {
-    "store_name": "LAVAL CONDORDE",
-    "banner": "Super C"
-  },
-  "447": {
-    "store_name": "LAVAL DES LAURENTIDES",
-    "banner": "Super C"
-  },
-  "448": {
-    "store_name": "FABREVILLE LAVAL",
-    "banner": "Super C"
-  },
-  "450": {
-    "store_name": "STE-DOROTHEE",
-    "banner": "Super C"
-  },
-  "451": {
-    "store_name": "LASALLE BL NEWMAN",
-    "banner": "Super C"
-  },
-  "452": {
-    "store_name": "PIERREFONDS",
-    "banner": "Super C"
-  },
-  "454": {
-    "store_name": "FLEURIMONT",
-    "banner": "Super C"
-  },
-  "455": {
-    "store_name": "SHERBROOKE BELVEDERE",
-    "banner": "Super C"
-  },
-  "456": {
-    "store_name": "SHERBROOKE-PORTLAND",
-    "banner": "Super C"
-  },
-  "457": {
-    "store_name": "DRUMMONDVILLE",
-    "banner": "Super C"
-  },
-  "458": {
-    "store_name": "GRANBY",
-    "banner": "Super C"
-  },
-  "459": {
-    "store_name": "COWANSVILLE",
-    "banner": "Super C"
-  },
-  "460": {
-    "store_name": "SAINT-HYACINTHE",
-    "banner": "Super C"
-  },
-  "461": {
-    "store_name": "SAINT-JEAN",
-    "banner": "Super C"
-  },
-  "462": {
-    "store_name": "SOREL",
-    "banner": "Super C"
-  },
-  "463": {
-    "store_name": "VARENNES",
-    "banner": "Super C"
-  },
-  "464": {
-    "store_name": "BOUCHERVILLE",
-    "banner": "Super C"
-  },
-  "465": {
-    "store_name": "STE-THERESE",
-    "banner": "Super C"
-  },
-  "466": {
-    "store_name": "LONGUEUIL DESORMEAUX",
-    "banner": "Super C"
-  },
-  "467": {
-    "store_name": "LONGUEUIL ROLAND-THERRIEN",
-    "banner": "Super C"
-  },
-  "468": {
-    "store_name": "GREENFIELD PARK",
-    "banner": "Super C"
-  },
-  "469": {
-    "store_name": "BROSSARD",
-    "banner": "Super C"
-  },
-  "470": {
-    "store_name": "ST-CONSTANT",
-    "banner": "Super C"
-  },
-  "471": {
-    "store_name": "REPENTIGNY",
-    "banner": "Super C"
-  },
-  "472": {
-    "store_name": "JOLIETTE",
-    "banner": "Super C"
-  },
-  "473": {
-    "store_name": "CHATEAUGUAY",
-    "banner": "Super C"
-  },
-  "474": {
-    "store_name": "VALLEYFIELD",
-    "banner": "Super C"
-  },
-  "475": {
-    "store_name": "TERREBONNE",
-    "banner": "Super C"
-  },
-  "476": {
-    "store_name": "BLAINVILLE",
-    "banner": "Super C"
-  },
-  "477": {
-    "store_name": "ST-EUSTACHE",
-    "banner": "Super C"
-  },
-  "478": {
-    "store_name": "VAUDREUIL",
-    "banner": "Super C"
-  },
-  "479": {
-    "store_name": "ST-JOVITE",
-    "banner": "Super C"
-  },
-  "480": {
-    "store_name": "GATINEAU",
-    "banner": "Super C"
-  },
-  "481": {
-    "store_name": "HULL",
-    "banner": "Super C"
-  },
-  "482": {
-    "store_name": "HULL DU PLATEAU",
-    "banner": "Super C"
-  },
-  "483": {
-    "store_name": "AYLMER",
-    "banner": "Super C"
-  },
-  "484": {
-    "store_name": "CHAMPFLEURY",
-    "banner": "Super C"
-  },
-  "488": {
-    "store_name": "ST-HUBERT COUSINEAU",
-    "banner": "Super C"
-  },
-  "489": {
-    "store_name": "ST-CHARLES-DE-BORROM\u00c9E",
-    "banner": "Super C"
-  },
-  "525": {
-    "store_name": "ST-LIN",
-    "banner": "Super C"
-  },
-  "526": {
-    "store_name": "STE-MARIE-DE-BEAUCE",
-    "banner": "Super C"
-  },
-  "646": {
-    "store_name": "NICOLET",
-    "banner": "Super C"
-  },
-  "647": {
-    "store_name": "SEPT-ILES",
-    "banner": "Super C"
-  },
-  "648": {
-    "store_name": "CHARLESBOURG",
-    "banner": "Super C"
-  },
-  "649": {
-    "store_name": "TERREBONNE OUEST",
-    "banner": "Super C"
-  },
-  "695": {
-    "store_name": "RIVI\u00c8RE-DES-PRAIRIES",
-    "banner": "Super C"
-  },
-  "704": {
-    "store_name": "VAL D'OR",
-    "banner": "Super C"
-  },
-  "705": {
-    "store_name": "LASALLE BL CHAMPLAIN",
-    "banner": "Super C"
-  },
-  "706": {
-    "store_name": "BOISBRIAND",
-    "banner": "Super C"
-  },
-  "713": {
-    "store_name": "ST-C\u00c9SAIRE",
-    "banner": "Super C"
-  },
-  "714": {
-    "store_name": "KIRKLAND",
-    "banner": "Super C"
-  },
-  "715": {
-    "store_name": "STE-ANNE",
-    "banner": "Super C"
-  },
-  "722": {
-    "store_name": "RIVI\u00c8RE DU LOUP",
-    "banner": "Super C"
-  },
-  "727": {
-    "store_name": "ORMSTOWN",
-    "banner": "Super C"
-  },
-  "728": {
-    "store_name": "CHANDLER",
-    "banner": "Super C"
-  },
-  "729": {
-    "store_name": "ST-LAURENT",
-    "banner": "Super C"
-  },
-  "732": {
-    "store_name": "ST-JEAN SUR LE RICHELIEU",
-    "banner": "Super C"
-  },
-  "737": {
-    "store_name": "STE-MARTHE",
-    "banner": "Super C"
-  },
-  "747": {
-    "store_name": "GASP\u00c9",
-    "banner": "Super C"
-  },
-  "755": {
-    "store_name": "LAPLAINE",
-    "banner": "Super C"
-  },
-  "756": {
-    "store_name": "LACHUTE",
-    "banner": "Super C"
-  },
-  "768": {
-    "store_name": "St-CANUT",
-    "banner": "Super C"
-  },
-  "771": {
-    "store_name": "STE-CATHERINE-DE-LA-JACQUES-CARTIER",
-    "banner": "Super C"
-  },
-  "772": {
-    "store_name": "LAPRAIRIE",
-    "banner": "Super C"
-  },
-  "780": {
-    "store_name": "ROUYN-NORANDA",
-    "banner": "Super C"
-  },
-  "786": {
-    "store_name": "ST-GEORGES-DE-BEAUCE",
-    "banner": "Super C"
-  },
-  "787": {
-    "store_name": "STE-ANNE-DES-PRAIRIES",
-    "banner": "Super C"
-  },
-  "810": {
-    "store_name": "LAVALTRIE",
-    "banner": "Super C"
-  },
-  "812": {
-    "store_name": "MATANE",
-    "banner": "Super C"
-  },
-  "813": {
-    "store_name": "ST-ROMUALD",
-    "banner": "Super C"
-  },
-  "815": {
-    "store_name": "BAIE St-PAUL",
-    "banner": "Super C"
-  },
-  "816": {
-    "store_name": "ST-SAUVEUR",
-    "banner": "Super C"
-  },
-  "826": {
-    "store_name": "LAVAL - ST-ELZ\u00c9AR",
-    "banner": "Super C"
-  },
-  "847": {
-    "store_name": "ST-JACQUES",
-    "banner": "Super C"
-  },
-  "882": {
-    "store_name": "MONT-JOLI",
-    "banner": "Super C"
-  },
-  "884": {
-    "store_name": "ST-J\u00c9ROME",
-    "banner": "Super C"
-  },
-  "885": {
-    "store_name": "BEAUHARNOIS",
-    "banner": "Super C"
-  },
-  "886": {
-    "store_name": "COATICOOK",
-    "banner": "Super C"
-  },
-  "887": {
-    "store_name": "STE-CLAIRE",
-    "banner": "Super C"
-  },
-  "888": {
-    "store_name": "PONT-ROUGE",
-    "banner": "Super C"
-  },
-  "890": {
-    "store_name": "LIMBOUR",
-    "banner": "Super C"
-  },
-  "895": {
-    "store_name": "ST-APOLLINAIRE",
-    "banner": "Super C"
-  },
-  "896": {
-    "store_name": "BUCKINGHAM",
-    "banner": "Super C"
-  },
-  "897": {
-    "store_name": "ST-NICOLAS",
-    "banner": "Super C"
-  },
-  "900": {
-    "store_name": "ST-DONAT",
-    "banner": "Super C"
-  },
-  "904": {
-    "store_name": "ST-HUBERT/BOUCHER",
-    "banner": "Super C"
-  },
-  "905": {
-    "store_name": "MONTR\u00c9AL (DE LORIMIER)",
-    "banner": "Super C"
-  },
-  "906": {
-    "store_name": "RIMOUSKI-OUEST",
-    "banner": "Super C"
-  },
-  "907": {
-    "store_name": "RIGAUD",
-    "banner": "Super C"
-  },
-  "908": {
-    "store_name": "SHERBROOKE - ASCOT",
-    "banner": "Super C"
-  },
-  "910": {
-    "store_name": "GREBER",
-    "banner": "Super C"
-  },
-  "911": {
-    "store_name": "DUPLESSIS",
-    "banner": "Super C"
-  },
-  "919": {
-    "store_name": "PINCOURT",
-    "banner": "Super C"
-  },
-  "923": {
-    "store_name": "ROCK FOREST",
-    "banner": "Super C"
-  },
-  "930": {
-    "store_name": "BERTHIERVILLE",
-    "banner": "Super C"
-  },
-  "931": {
-    "store_name": "T\u00c9MISCOUATA-SUR-LE-LAC",
-    "banner": "Super C"
+  "161": {
+    "store_name": "Metro Plus Thibeault Ste-Sophie",
+    "banner": "Metro Quebec"
+  },
+  "342": {
+    "store_name": "Metro Plus Ste-Foy, Qu\u00e9bec",
+    "banner": "Metro Quebec"
+  },
+  "343": {
+    "store_name": "Metro Plus St-Nicolas, L\u00e9vis",
+    "banner": "Metro Quebec"
+  },
+  "346": {
+    "store_name": "Metro Plus St-David, Qu\u00e9bec",
+    "banner": "Metro Quebec"
+  },
+  "349": {
+    "store_name": "Metro Plus Mail St-Roch, Qu\u00e9bec",
+    "banner": "Metro Quebec"
+  },
+  "351": {
+    "store_name": "Metro Innovation, Qu\u00e9bec",
+    "banner": "Metro Quebec"
+  },
+  "353": {
+    "store_name": "March\u00e9 Saint-Augustin L'H\u00eatri\u00e8re Inc.",
+    "banner": "Metro Quebec"
+  },
+  "354": {
+    "store_name": "Alimentation Carl Auger Inc., Boul. Pie-Xi Nord",
+    "banner": "Metro Quebec"
+  },
+  "355": {
+    "store_name": "Metro Richelieu Inc. / St-Raymond",
+    "banner": "Metro Quebec"
+  },
+  "356": {
+    "store_name": "Metro Donnacona",
+    "banner": "Metro Quebec"
+  },
+  "358": {
+    "store_name": "Metro La Malbaie",
+    "banner": "Metro Quebec"
+  },
+  "360": {
+    "store_name": "Metro Black-Lake, Thetford Mines",
+    "banner": "Metro Quebec"
+  },
+  "361": {
+    "store_name": "Metro Plus L\u00e9vis",
+    "banner": "Metro Quebec"
+  },
+  "362": {
+    "store_name": "Metro Charny, L\u00e9vis",
+    "banner": "Metro Quebec"
+  },
+  "365": {
+    "store_name": "Metro Plus des Forges, Trois-Rivi\u00e8res",
+    "banner": "Metro Quebec"
+  },
+  "366": {
+    "store_name": "Metro Plus Jean XXIII, Trois-Rivi\u00e8res",
+    "banner": "Metro Quebec"
+  },
+  "369": {
+    "store_name": "Alimentation Sylvain Daigle Inc.",
+    "banner": "Metro Quebec"
+  },
+  "371": {
+    "store_name": "Alimentation Merouane Amour Inc., Montr\u00e9al",
+    "banner": "Metro Quebec"
+  },
+  "372": {
+    "store_name": "Alimentation Fabrice Kon\u00e9 Inc.",
+    "banner": "Metro Quebec"
+  },
+  "373": {
+    "store_name": "Metro Plus Domaine, Montr\u00e9al",
+    "banner": "Metro Quebec"
+  },
+  "374": {
+    "store_name": "Metro Pie IX, Rue Jean-Talon Est, Montr\u00e9al",
+    "banner": "Metro Quebec"
+  },
+  "375": {
+    "store_name": "Metro Morgan, Rue Ste-Catherine Est, Montr\u00e9al",
+    "banner": "Metro Quebec"
+  },
+  "376": {
+    "store_name": "Metro Ontario, Montr\u00e9al",
+    "banner": "Metro Quebec"
+  },
+  "377": {
+    "store_name": "Metro Plus Fleury, Montr\u00e9al",
+    "banner": "Metro Quebec"
+  },
+  "378": {
+    "store_name": "Metro Plus Dorion Ste-Catherine, Montr\u00e9al",
+    "banner": "Metro Quebec"
+  },
+  "380": {
+    "store_name": "Metro Avenue du Parc, Montr\u00e9al",
+    "banner": "Metro Quebec"
+  },
+  "381": {
+    "store_name": "Metro Plus Wilderton",
+    "banner": "Metro Quebec"
+  },
+  "382": {
+    "store_name": "Metro C\u00f4te-des-Neiges, Montr\u00e9al",
+    "banner": "Metro Quebec"
+  },
+  "383": {
+    "store_name": "Metro Queen Mary, Montr\u00e9al",
+    "banner": "Metro Quebec"
+  },
+  "384": {
+    "store_name": "Metro Westmount",
+    "banner": "Metro Quebec"
+  },
+  "386": {
+    "store_name": "9477-0690 Qu\u00e9bec Inc.",
+    "banner": "Metro Quebec"
+  },
+  "387": {
+    "store_name": "Metro Plus Concorde Duvernay, Laval",
+    "banner": "Metro Quebec"
+  },
+  "390": {
+    "store_name": "Metro Plus Dollard, Montr\u00e9al",
+    "banner": "Metro Quebec"
+  },
+  "393": {
+    "store_name": "Metro Plus Kirkland",
+    "banner": "Metro Quebec"
+  },
+  "395": {
+    "store_name": "Metro Plus Pointe-Claire",
+    "banner": "Metro Quebec"
+  },
+  "396": {
+    "store_name": "Metro Plus Beaconsfield",
+    "banner": "Metro Quebec"
+  },
+  "401": {
+    "store_name": "Metro Plus de Drummondville, boul Lemire",
+    "banner": "Metro Quebec"
+  },
+  "402": {
+    "store_name": "Metro Plus Promenades Drummondville",
+    "banner": "Metro Quebec"
+  },
+  "404": {
+    "store_name": "Metro Plus Sorel-Tracy",
+    "banner": "Metro Quebec"
+  },
+  "405": {
+    "store_name": "March\u00e9 Pilon, Boul. De La Cit\u00e9 Des Jeunes, Gatineau",
+    "banner": "Metro Quebec"
+  },
+  "407": {
+    "store_name": "Metro Plus St-Constant",
+    "banner": "Metro Quebec"
+  },
+  "408": {
+    "store_name": "Metro Plus Bellemare, Brossard",
+    "banner": "Metro Quebec"
+  },
+  "409": {
+    "store_name": "Metro Candiac",
+    "banner": "Metro Quebec"
+  },
+  "410": {
+    "store_name": "Metro Plus Ch\u00e2teauguay",
+    "banner": "Metro Quebec"
+  },
+  "411": {
+    "store_name": "Metro Plus Valleyfield",
+    "banner": "Metro Quebec"
+  },
+  "412": {
+    "store_name": "Metro Plus Collin Chambly",
+    "banner": "Metro Quebec"
+  },
+  "413": {
+    "store_name": "Metro Plus Terrebonne",
+    "banner": "Metro Quebec"
+  },
+  "420": {
+    "store_name": "Metro Plus Buckingham, Gatineau",
+    "banner": "Metro Quebec"
+  },
+  "485": {
+    "store_name": "Metro Plus De la Montagne, Montr\u00e9al",
+    "banner": "Metro Quebec"
+  },
+  "487": {
+    "store_name": "Metro Plus Victoriaville",
+    "banner": "Metro Quebec"
+  },
+  "532": {
+    "store_name": "Supermarch\u00e9 Claka Inc., Qu\u00e9bec",
+    "banner": "Metro Quebec"
+  },
+  "533": {
+    "store_name": "Metro Plus De  La Rousseli\u00e8re, Montr\u00e9al",
+    "banner": "Metro Quebec"
+  },
+  "534": {
+    "store_name": "Metro Ville Mont-Royal",
+    "banner": "Metro Quebec"
+  },
+  "535": {
+    "store_name": "Metro Ste-Anne-de-La P\u00e9rade",
+    "banner": "Metro Quebec"
+  },
+  "537": {
+    "store_name": "Metro Lebel Mont-Royal, Montr\u00e9al",
+    "banner": "Metro Quebec"
+  },
+  "538": {
+    "store_name": "Metro Bigras, Montr\u00e9al",
+    "banner": "Metro Quebec"
+  },
+  "540": {
+    "store_name": "Metro Plus Boucher St-F\u00e9lix-de-Valois",
+    "banner": "Metro Quebec"
+  },
+  "541": {
+    "store_name": "Metro Boucher St-Jean-de-Matha",
+    "banner": "Metro Quebec"
+  },
+  "542": {
+    "store_name": "Metro Plus Fournier Cap-de-la-Madeleine, Trois-Rivi\u00e8res",
+    "banner": "Metro Quebec"
+  },
+  "543": {
+    "store_name": "Metro Masson, Trois-Rivi\u00e8res",
+    "banner": "Metro Quebec"
+  },
+  "545": {
+    "store_name": "Metro Saint-Tite, St-Tite-De-Champlain",
+    "banner": "Metro Quebec"
+  },
+  "546": {
+    "store_name": "Metro Plus Thibeault Blainville, Boul. Cur\u00e9-Labelle",
+    "banner": "Metro Quebec"
+  },
+  "548": {
+    "store_name": "Metro Plus Thibeault St-Antoine, St-J\u00e9r\u00f4me",
+    "banner": "Metro Quebec"
+  },
+  "549": {
+    "store_name": "Metro Plus Thibeault St-J\u00e9r\u00f4me",
+    "banner": "Metro Quebec"
+  },
+  "551": {
+    "store_name": "Metro E. Bourdon & Fils, rue Jean Talon Est",
+    "banner": "Metro Quebec"
+  },
+  "552": {
+    "store_name": "Metro Plus Perrier & Martel, Boul. Arthur-Sauv\u00e9",
+    "banner": "Metro Quebec"
+  },
+  "553": {
+    "store_name": "Metro Oka",
+    "banner": "Metro Quebec"
+  },
+  "554": {
+    "store_name": "Metro Plus Beaulieu Ste-Julienne",
+    "banner": "Metro Quebec"
+  },
+  "555": {
+    "store_name": "Metro Plus Boucher Rawdon",
+    "banner": "Metro Quebec"
+  },
+  "556": {
+    "store_name": "Metro Plus B\u00e9lair Joliette, Rue Beaudry Nord",
+    "banner": "Metro Quebec"
+  },
+  "557": {
+    "store_name": "Metro St-Marc-des-Carri\u00e8res",
+    "banner": "Metro Quebec"
+  },
+  "559": {
+    "store_name": "Metro Ferland Centre-Ville, Qu\u00e9bec",
+    "banner": "Metro Quebec"
+  },
+  "560": {
+    "store_name": "Metro Beaubien, Montr\u00e9al",
+    "banner": "Metro Quebec"
+  },
+  "563": {
+    "store_name": "Metro Val-David",
+    "banner": "Metro Quebec"
+  },
+  "564": {
+    "store_name": "Metro March\u00e9 Laval Veilleux, St-Georges Sud",
+    "banner": "Metro Quebec"
+  },
+  "565": {
+    "store_name": "March\u00e9 Alain Valiquette, Lac-M\u00e9gantic",
+    "banner": "Metro Quebec"
+  },
+  "566": {
+    "store_name": "Metro Plus Plouffe Magog",
+    "banner": "Metro Quebec"
+  },
+  "569": {
+    "store_name": "Metro Rouillard & Fr\u00e8res, Pierreville",
+    "banner": "Metro Quebec"
+  },
+  "570": {
+    "store_name": "Metro Plus \u00c9mery Louiseville",
+    "banner": "Metro Quebec"
+  },
+  "572": {
+    "store_name": "Metro Plus Ile-Perrot, Notre-Dame-De-L'ile-Perrot",
+    "banner": "Metro Quebec"
+  },
+  "575": {
+    "store_name": "March\u00e9 Daoust (1985) Valleyfield",
+    "banner": "Metro Quebec"
+  },
+  "579": {
+    "store_name": "Metro du T\u00e9mis D\u00e9gelis",
+    "banner": "Metro Quebec"
+  },
+  "580": {
+    "store_name": "Metro St-Andr\u00e9 Avellin",
+    "banner": "Metro Quebec"
+  },
+  "581": {
+    "store_name": "Metro Plus Leblanc, boul. Maloney",
+    "banner": "Metro Quebec"
+  },
+  "584": {
+    "store_name": "Metro Plus Jonqui\u00e8re, Saguenay",
+    "banner": "Metro Quebec"
+  },
+  "585": {
+    "store_name": "Metro Sagamie Jonqui\u00e8re, Saguenay",
+    "banner": "Metro Quebec"
+  },
+  "586": {
+    "store_name": "Metro Boutin St-F\u00e9licien",
+    "banner": "Metro Quebec"
+  },
+  "587": {
+    "store_name": "Metro Gracefield",
+    "banner": "Metro Quebec"
+  },
+  "588": {
+    "store_name": "Metro Ch\u00e9n\u00e9ville",
+    "banner": "Metro Quebec"
+  },
+  "589": {
+    "store_name": "Metro Thurso, Rue Victoria",
+    "banner": "Metro Quebec"
+  },
+  "591": {
+    "store_name": "Metro Lapointe Maniwaki",
+    "banner": "Metro Quebec"
+  },
+  "592": {
+    "store_name": "Metro Tanguay Papineauville",
+    "banner": "Metro Quebec"
+  },
+  "596": {
+    "store_name": "Metro Plouffe Bedford",
+    "banner": "Metro Quebec"
+  },
+  "597": {
+    "store_name": "Metro Plus Plouffe Farnham",
+    "banner": "Metro Quebec"
+  },
+  "599": {
+    "store_name": "Metro Plus St-Gr\u00e9goire, B\u00e9cancour",
+    "banner": "Metro Quebec"
+  },
+  "601": {
+    "store_name": "Metro Iberville Repentigny",
+    "banner": "Metro Quebec"
+  },
+  "603": {
+    "store_name": "Metro Plus Marquis Repentigny",
+    "banner": "Metro Quebec"
+  },
+  "604": {
+    "store_name": "Metro Plus Fogarty Charlemagne",
+    "banner": "Metro Quebec"
+  },
+  "606": {
+    "store_name": "9486-7041 Qu\u00e9bec Inc.",
+    "banner": "Metro Quebec"
+  },
+  "608": {
+    "store_name": "Metro Plus Cardinal Ste-Catherine",
+    "banner": "Metro Quebec"
+  },
+  "609": {
+    "store_name": "Metro Plus Bellemare Lapini\u00e8re, Brossard",
+    "banner": "Metro Quebec"
+  },
+  "611": {
+    "store_name": "Metro Plus Raymond Drouin, Longueuil",
+    "banner": "Metro Quebec"
+  },
+  "612": {
+    "store_name": "Supermarch\u00e9 Riendeau, Ste-Julie",
+    "banner": "Metro Quebec"
+  },
+  "613": {
+    "store_name": "Metro Richelieu Inc./Verch\u00e8res",
+    "banner": "Metro Quebec"
+  },
+  "615": {
+    "store_name": "Metro Viens Carleton",
+    "banner": "Metro Quebec"
+  },
+  "617": {
+    "store_name": "M\u00e9tro Plus Ga\u00e9tan Riendeau, St-Hyacinthe",
+    "banner": "Metro Quebec"
+  },
+  "618": {
+    "store_name": "Metro Plus Riendeau Beloeil",
+    "banner": "Metro Quebec"
+  },
+  "620": {
+    "store_name": "Metro Plus Riendeau St-Hilaire",
+    "banner": "Metro Quebec"
+  },
+  "623": {
+    "store_name": "Metro Plus Riendeau St-Hubert, Longueuil",
+    "banner": "Metro Quebec"
+  },
+  "624": {
+    "store_name": "Metro Bellemare St-Hubert, Longueuil",
+    "banner": "Metro Quebec"
+  },
+  "626": {
+    "store_name": "Metro Laroche Laurier-Station",
+    "banner": "Metro Quebec"
+  },
+  "627": {
+    "store_name": "Metro Plus Laroche St-Etienne, L\u00e9vis",
+    "banner": "Metro Quebec"
+  },
+  "628": {
+    "store_name": "Metro Marquis Qu\u00e9bec (Cartier)",
+    "banner": "Metro Quebec"
+  },
+  "629": {
+    "store_name": "Metro Plus Plouffe King Est, Sherbrooke",
+    "banner": "Metro Quebec"
+  },
+  "630": {
+    "store_name": "Metro Plus Plouffe Bourque, Sherbrooke",
+    "banner": "Metro Quebec"
+  },
+  "632": {
+    "store_name": "Metro Plus Coop D'Asbestos",
+    "banner": "Metro Quebec"
+  },
+  "634": {
+    "store_name": "Metro Blanchard St-Alphonse, Route 343",
+    "banner": "Metro Quebec"
+  },
+  "636": {
+    "store_name": "Metro Beaulieu Laurier, Montr\u00e9al",
+    "banner": "Metro Quebec"
+  },
+  "641": {
+    "store_name": "Metro Emery St-Damien",
+    "banner": "Metro Quebec"
+  },
+  "643": {
+    "store_name": "Metro Plus Depatie, Boul. De L'avenir, Laval",
+    "banner": "Metro Quebec"
+  },
+  "644": {
+    "store_name": "Metro Marieville",
+    "banner": "Metro Quebec"
+  },
+  "654": {
+    "store_name": "Metro Plus St-Gabriel",
+    "banner": "Metro Quebec"
+  },
+  "655": {
+    "store_name": "Metro Plus Plouffe Bromont",
+    "banner": "Metro Quebec"
+  },
+  "656": {
+    "store_name": "Metro Plouffe Granby",
+    "banner": "Metro Quebec"
+  },
+  "657": {
+    "store_name": "Metro Richelieu Inc., Waterloo",
+    "banner": "Metro Quebec"
+  },
+  "658": {
+    "store_name": "Metro Plus March\u00e9 Central C.J.C., Longueuil",
+    "banner": "Metro Quebec"
+  },
+  "659": {
+    "store_name": "Metro Plus Andr\u00e9-Grasset, Montr\u00e9al",
+    "banner": "Metro Quebec"
+  },
+  "660": {
+    "store_name": "Metro Messier Fort-St-Louis, Boucherville",
+    "banner": "Metro Quebec"
+  },
+  "661": {
+    "store_name": "Metro de la Concorde, Laval",
+    "banner": "Metro Quebec"
+  },
+  "662": {
+    "store_name": "Metro Plus Mascouche, Rue Mont\u00e9e Masson",
+    "banner": "Metro Quebec"
+  },
+  "664": {
+    "store_name": "Metro Rosem\u00e8re, Chemin Grande-C\u00f4te",
+    "banner": "Metro Quebec"
+  },
+  "665": {
+    "store_name": "Metro Plus Messier Auteuil, Laval",
+    "banner": "Metro Quebec"
+  },
+  "666": {
+    "store_name": "Metro Plus St-Joseph, Montr\u00e9al",
+    "banner": "Metro Quebec"
+  },
+  "667": {
+    "store_name": "March\u00e9 R. Dub\u00e9 Lt\u00e9e, Avenue Begin",
+    "banner": "Metro Quebec"
+  },
+  "669": {
+    "store_name": "Metro Plus Fordham, St-Zotique",
+    "banner": "Metro Quebec"
+  },
+  "671": {
+    "store_name": "Metro Corriveau et Fille, Napierville",
+    "banner": "Metro Quebec"
+  },
+  "672": {
+    "store_name": "Metro Dubuc Deschaillons",
+    "banner": "Metro Quebec"
+  },
+  "673": {
+    "store_name": "Metro Denigil Ste-Doroth\u00e9e, Laval",
+    "banner": "Metro Quebec"
+  },
+  "674": {
+    "store_name": "Metro Sabrevois Boucherville",
+    "banner": "Metro Quebec"
+  },
+  "675": {
+    "store_name": "Metro Plus Lebel La Pocati\u00e8re",
+    "banner": "Metro Quebec"
+  },
+  "677": {
+    "store_name": "Metro Bellemare Verdun, Montr\u00e9al",
+    "banner": "Metro Quebec"
+  },
+  "679": {
+    "store_name": "Metro Plus Boucher Berthierville",
+    "banner": "Metro Quebec"
+  },
+  "680": {
+    "store_name": "Metro Plus  Kelly Aylmer Inc., Gatineau",
+    "banner": "Metro Quebec"
+  },
+  "681": {
+    "store_name": "Metro Dor\u00e9 Mont-Laurier",
+    "banner": "Metro Quebec"
+  },
+  "682": {
+    "store_name": "Metro Plus Lafrance Anjou, Montr\u00e9al",
+    "banner": "Metro Quebec"
+  },
+  "683": {
+    "store_name": "Metro Marcanio, Montr\u00e9al",
+    "banner": "Metro Quebec"
+  },
+  "684": {
+    "store_name": "Metro Plus Ancienne-Lorette",
+    "banner": "Metro Quebec"
+  },
+  "686": {
+    "store_name": "Metro Plus Charlesbourg, Qu\u00e9bec",
+    "banner": "Metro Quebec"
+  },
+  "687": {
+    "store_name": "Metro Courville",
+    "banner": "Metro Quebec"
+  },
+  "688": {
+    "store_name": "Alimentation Bernard Sylvestre, Qu\u00e9bec",
+    "banner": "Metro Quebec"
+  },
+  "689": {
+    "store_name": "Metro Plus GP Notre-Dame-des-Laurentides, Qu\u00e9bec",
+    "banner": "Metro Quebec"
+  },
+  "690": {
+    "store_name": "Metro Plus St-Augustin, Rte 138",
+    "banner": "Metro Quebec"
+  },
+  "691": {
+    "store_name": "Metro Plus GP St-\u00c9mile, De La Faune, Qu\u00e9bec",
+    "banner": "Metro Quebec"
+  },
+  "693": {
+    "store_name": "Metro Lac Etchemin",
+    "banner": "Metro Quebec"
+  },
+  "694": {
+    "store_name": "March\u00e9 Dub\u00e9 D\u00e9lisle, Alma",
+    "banner": "Metro Quebec"
+  },
+  "696": {
+    "store_name": "Metro Plus Boutin Dolbeau-Mistassini",
+    "banner": "Metro Quebec"
+  },
+  "697": {
+    "store_name": "Metro Plus C\u00f4te Vertu, Montr\u00e9al",
+    "banner": "Metro Quebec"
+  },
+  "698": {
+    "store_name": "9477-0716 Qu\u00e9bec Inc.",
+    "banner": "Metro Quebec"
+  },
+  "701": {
+    "store_name": "Metro Plus Rimouski",
+    "banner": "Metro Quebec"
+  },
+  "702": {
+    "store_name": "Metro Ste-Anne des Monts",
+    "banner": "Metro Quebec"
+  },
+  "703": {
+    "store_name": "Metro Trois-Pistoles",
+    "banner": "Metro Quebec"
+  },
+  "711": {
+    "store_name": "Metro Valcartier, Courcelette Shannon",
+    "banner": "Metro Quebec"
+  },
+  "712": {
+    "store_name": "March\u00e9 Chicoutimi Inc. (Talbot)",
+    "banner": "Metro Quebec"
+  },
+  "717": {
+    "store_name": "March\u00e9 Ste-Agathe Inc.",
+    "banner": "Metro Quebec"
+  },
+  "718": {
+    "store_name": "Metro Plus Ste-Ad\u00e8le",
+    "banner": "Metro Quebec"
+  },
+  "723": {
+    "store_name": "Metro Plus St-Laurent (St-Eustache)",
+    "banner": "Metro Quebec"
+  },
+  "724": {
+    "store_name": "Metro Plus Ste-Marthe",
+    "banner": "Metro Quebec"
+  },
+  "725": {
+    "store_name": "Metro Plus Arthur-Sauv\u00e9",
+    "banner": "Metro Quebec"
+  },
+  "726": {
+    "store_name": "Metro Plus Ste-Rose, Boul. Cur\u00e9-Labelle, Laval",
+    "banner": "Metro Quebec"
+  },
+  "734": {
+    "store_name": "Metro Mont-Tremblant",
+    "banner": "Metro Quebec"
+  },
+  "736": {
+    "store_name": "Metro Plus L'\u00c9piphanie",
+    "banner": "Metro Quebec"
+  },
+  "741": {
+    "store_name": "Metro Mansfield",
+    "banner": "Metro Quebec"
+  },
+  "757": {
+    "store_name": "Alimentation Francine Roy, Vaudreuil-Dorion",
+    "banner": "Metro Quebec"
+  },
+  "766": {
+    "store_name": "Metro Marquis Plus, L'Assomption",
+    "banner": "Metro Quebec"
+  },
+  "775": {
+    "store_name": "Alimentation R\u00e9gent Cossette - Mont\u00e9e Paiement",
+    "banner": "Metro Quebec"
+  },
+  "776": {
+    "store_name": "9477-0674 Qu\u00e9bec Inc.",
+    "banner": "Metro Quebec"
+  },
+  "853": {
+    "store_name": "Metro Plus Lachine",
+    "banner": "Metro Quebec"
+  },
+  "859": {
+    "store_name": "Metro Plus Pr\u00e9vost",
+    "banner": "Metro Quebec"
+  },
+  "861": {
+    "store_name": "Metro \u00e9picerie en ligne inc.",
+    "banner": "Metro Quebec"
+  },
+  "862": {
+    "store_name": "March\u00e9 Chicoutimi Inc. (Saguenay)",
+    "banner": "Metro Quebec"
+  },
+  "892": {
+    "store_name": "Metro Plus Thibeault Mirabel",
+    "banner": "Metro Quebec"
+  },
+  "936": {
+    "store_name": "Metro Beaulieu Mont-Royal Fabre",
+    "banner": "Metro Quebec"
   }
 }
