@@ -115,6 +115,9 @@ def _strip_brand_prefix(name: str, brand: str | None) -> str:
     if not brand_clean:
         return name
     if name.lower().startswith(brand_clean.lower()):
+        # Strip common word-separating characters that may appear between the
+        # brand token and the rest of the product name: space, comma, slash,
+        # and hyphen (e.g. "Danone - Yogurt" or "PC/President's Choice Milk").
         remainder = name[len(brand_clean):].lstrip(" ,/-")
         return remainder if remainder else name
     return name

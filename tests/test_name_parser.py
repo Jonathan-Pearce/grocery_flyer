@@ -49,6 +49,10 @@ class TestCaseNormalisation:
         r = parse_name("BBQ CHICKEN")
         assert r["name_en"] == "BBQ Chicken"
 
+    def test_abbreviation_usa_preserved(self):
+        r = parse_name("USA GRADE CHICKEN")
+        assert r["name_en"] == "USA Grade Chicken"
+
     def test_no_caps_conversion_mixed(self):
         """A string that is not ALL CAPS is left as-is."""
         r = parse_name("Maple Leaf BACON")
@@ -230,10 +234,10 @@ class TestBilingualSplit:
         assert r["name_fr"] == "Jus de pomme"
 
     def test_split_only_first_double_newline(self):
-        """Only the first \\n\\n is used as the split point."""
+        """Only the first \\n\\n is used as the split point; remaining text stays in name_fr."""
         r = parse_name("Apple Juice\n\nJus de pomme\n\nExtra")
         assert r["name_en"] == "Apple Juice"
-        assert "Jus de pomme" in r["name_fr"]
+        assert r["name_fr"] == "Jus de pomme\n\nExtra"
 
 
 # ── Edge cases and no-exception guarantee ────────────────────────────────────
