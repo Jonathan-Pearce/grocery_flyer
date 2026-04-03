@@ -8,14 +8,14 @@ import os
 
 import pytest
 
-from normalize_flipp import (
+from pipeline.normalize_flipp import (
     _category_name,
     _iso_date,
     _parse_price,
     normalize_flipp_file,
     normalize_flipp_product,
 )
-from schema import FlyerItem
+from pipeline.schema import FlyerItem
 
 
 # ── Fixture helpers ───────────────────────────────────────────────────────────

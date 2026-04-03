@@ -18,9 +18,9 @@ Logs: logs/<folder>/<date>_verbose.log  /  logs/<folder>/<date>_summary.log
 Safe to re-run: existing data is never overwritten.
 
 Usage:
-  python fetch_flyers.py                                # all portfolios
-  python fetch_flyers.py --portfolio loblaws
-  python fetch_flyers.py --portfolio metro --brand food_basics
+  python -m scripts.fetch_flyers                                # all portfolios
+  python -m scripts.fetch_flyers --portfolio loblaws
+  python -m scripts.fetch_flyers --portfolio metro --brand food_basics
 """
 
 import argparse
@@ -29,14 +29,14 @@ import os
 import time
 from datetime import date
 
-from azure import (
+from fetchers.azure import (
     METRO_PORTFOLIO,
     MetroBrand,
     metro_fetch_products,
     metro_fetch_store_flyers,
     metro_load_credentials,
 )
-from flipp import (
+from fetchers.flipp import (
     DELAY,
     LOBLAWS_PORTFOLIO,
     SOBEYS_PORTFOLIO,

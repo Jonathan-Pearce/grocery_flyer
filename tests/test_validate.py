@@ -4,8 +4,8 @@ from __future__ import annotations
 
 import json
 
-from schema import FlyerItem
-from validate import (
+from pipeline.schema import FlyerItem
+from pipeline.validate import (
     _load_records,
     _section1,
     _section2,

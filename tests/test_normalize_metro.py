@@ -7,14 +7,14 @@ import os
 
 import pytest
 
-from normalize_metro import (
+from pipeline.normalize_metro import (
     _iso_date,
     _map_category,
     _parse_price,
     normalize_metro_file,
     normalize_metro_product,
 )
-from schema import FlyerItem
+from pipeline.schema import FlyerItem
 
 
 # ── Fixture helpers ───────────────────────────────────────────────────────────

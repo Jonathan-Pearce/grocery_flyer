@@ -11,7 +11,7 @@ The public API is two functions:
 Usage::
 
     import json
-    from normalize_metro import normalize_metro_file
+    from pipeline.normalize_metro import normalize_metro_file
 
     with open("data/food_basics/flyers/82596.json") as f:
         flyer_data = json.load(f)
@@ -28,7 +28,7 @@ from __future__ import annotations
 
 from typing import Any
 
-from schema import FlyerItem
+from pipeline.schema import FlyerItem
 
 
 # ── Private helpers ───────────────────────────────────────────────────────────
