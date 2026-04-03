@@ -535,7 +535,6 @@ class TestBuildDimensions:
 
     def test_overwrite_on_rerun(self, tmp_path):
         pytest.importorskip("pyarrow")
-        import pyarrow.parquet as pq
 
         data = str(tmp_path / "data")
         db = str(tmp_path / "db")
