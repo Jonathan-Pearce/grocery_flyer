@@ -1,0 +1,534 @@
+{
+  "2": {
+    "store_name": "#767 Metro Henderson",
+    "banner": "Metro Ontario"
+  },
+  "7": {
+    "store_name": "#314 Arnprior (Daniel)",
+    "banner": "Metro Ontario"
+  },
+  "8": {
+    "store_name": "#135 Barrie (Bayfield)",
+    "banner": "Metro Ontario"
+  },
+  "10": {
+    "store_name": "#453 Bowmanville (King)",
+    "banner": "Metro Ontario"
+  },
+  "13": {
+    "store_name": "#425 Brampton (Main S)",
+    "banner": "Metro Ontario"
+  },
+  "14": {
+    "store_name": "#360 Brampton (Heartlake Town Centre)",
+    "banner": "Metro Ontario"
+  },
+  "21": {
+    "store_name": "#905 Cobourg (Elgin)",
+    "banner": "Metro Ontario"
+  },
+  "25": {
+    "store_name": "#401 North York (Sheppard/Bathurst)",
+    "banner": "Metro Ontario"
+  },
+  "26": {
+    "store_name": "#102 Dundas (Dundas Valley)",
+    "banner": "Metro Ontario"
+  },
+  "28": {
+    "store_name": "#748 Etobicoke (Royal York)",
+    "banner": "Metro Ontario"
+  },
+  "31": {
+    "store_name": "#704 Etobicoke (Lloyd Manor)",
+    "banner": "Metro Ontario"
+  },
+  "32": {
+    "store_name": "#702 Etobicoke (Cloverdale)",
+    "banner": "Metro Ontario"
+  },
+  "34": {
+    "store_name": "#159 Gananoque (King)",
+    "banner": "Metro Ontario"
+  },
+  "41": {
+    "store_name": "#235 Hamilton (Centre Mall on Barton)",
+    "banner": "Metro Ontario"
+  },
+  "43": {
+    "store_name": "#229 Hamilton (King Rose Place)",
+    "banner": "Metro Ontario"
+  },
+  "49": {
+    "store_name": "#208 Hamilton (Fennell)",
+    "banner": "Metro Ontario"
+  },
+  "52": {
+    "store_name": "#193 Huntsville (King William)",
+    "banner": "Metro Ontario"
+  },
+  "55": {
+    "store_name": "#152 Kingston (Barrie)",
+    "banner": "Metro Ontario"
+  },
+  "57": {
+    "store_name": "#170 Kingston (Gardiners)",
+    "banner": "Metro Ontario"
+  },
+  "63": {
+    "store_name": "#199 London (Clarke Side Rd)",
+    "banner": "Metro Ontario"
+  },
+  "64": {
+    "store_name": "#247 Metro Cherryhill",
+    "banner": "Metro Ontario"
+  },
+  "69": {
+    "store_name": "#332 Milton (Louis St Laurent)",
+    "banner": "Metro Ontario"
+  },
+  "71": {
+    "store_name": "#461 Mississauga (Mississauga Valley/Hurontario)",
+    "banner": "Metro Ontario"
+  },
+  "74": {
+    "store_name": "#073 Mississauga (Lakeshore)",
+    "banner": "Metro Ontario"
+  },
+  "76": {
+    "store_name": "#728 Mississauga (Meadowvale Town Centre)",
+    "banner": "Metro Ontario"
+  },
+  "78": {
+    "store_name": "#161 Napanee (Alkenbrack)",
+    "banner": "Metro Ontario"
+  },
+  "80": {
+    "store_name": "#771 Newmarket (Yonge/Mulock)",
+    "banner": "Metro Ontario"
+  },
+  "82": {
+    "store_name": "#493 North York (Wilson/Keele)",
+    "banner": "Metro Ontario"
+  },
+  "84": {
+    "store_name": "#780 North York (York Mills Centre)",
+    "banner": "Metro Ontario"
+  },
+  "85": {
+    "store_name": "#052 North York (Bathurst)",
+    "banner": "Metro Ontario"
+  },
+  "87": {
+    "store_name": "#786 North York (Shops at Don Mills)",
+    "banner": "Metro Ontario"
+  },
+  "88": {
+    "store_name": "#334 Metro Rebecca Street",
+    "banner": "Metro Ontario"
+  },
+  "89": {
+    "store_name": "#214 Oakville (Oakville Town Centre)",
+    "banner": "Metro Ontario"
+  },
+  "91": {
+    "store_name": "#331 Orangeville (First)",
+    "banner": "Metro Ontario"
+  },
+  "95": {
+    "store_name": "#109 Oshawa (Taunton)",
+    "banner": "Metro Ontario"
+  },
+  "98": {
+    "store_name": "#245 Ottawa (Hunt Club Centre)",
+    "banner": "Metro Ontario"
+  },
+  "99": {
+    "store_name": "#179 Owen Sound (Second)",
+    "banner": "Metro Ontario"
+  },
+  "103": {
+    "store_name": "#204 Peterborough (Chemong Rd)",
+    "banner": "Metro Ontario"
+  },
+  "104": {
+    "store_name": "#853 Metro Amberlea",
+    "banner": "Metro Ontario"
+  },
+  "105": {
+    "store_name": "#153 Picton (Main)",
+    "banner": "Metro Ontario"
+  },
+  "109": {
+    "store_name": "#364 Sarnia (Exmouth)",
+    "banner": "Metro Ontario"
+  },
+  "110": {
+    "store_name": "#181 Sault Ste Marie (Market Mall)",
+    "banner": "Metro Ontario"
+  },
+  "111": {
+    "store_name": "#038 Scarborough (Port Union)",
+    "banner": "Metro Ontario"
+  },
+  "112": {
+    "store_name": "#804 Scarborough (Bridlewood Mall)",
+    "banner": "Metro Ontario"
+  },
+  "113": {
+    "store_name": "#800 Scarborough (Eglinton Square)",
+    "banner": "Metro Ontario"
+  },
+  "121": {
+    "store_name": "#197 St Catharines (Lakeshore)",
+    "banner": "Metro Ontario"
+  },
+  "123": {
+    "store_name": "#137 St Thomas (Wellington)",
+    "banner": "Metro Ontario"
+  },
+  "127": {
+    "store_name": "#424 Thunder Bay (Arthur/Hwy 61)",
+    "banner": "Metro Ontario"
+  },
+  "128": {
+    "store_name": "#422 Thunder Bay (Arthur/James)",
+    "banner": "Metro Ontario"
+  },
+  "129": {
+    "store_name": "#124 Tillsonburg (Broadway)",
+    "banner": "Metro Ontario"
+  },
+  "130": {
+    "store_name": "#201 Timmins (Algonquin)",
+    "banner": "Metro Ontario"
+  },
+  "134": {
+    "store_name": "#750 Metro Keele & Lawrence",
+    "banner": "Metro Ontario"
+  },
+  "135": {
+    "store_name": "#752 Toronto (Yonge Eglinton Centre)",
+    "banner": "Metro Ontario"
+  },
+  "137": {
+    "store_name": "#079 Toronto (Yonge/Lawrence)",
+    "banner": "Metro Ontario"
+  },
+  "138": {
+    "store_name": "#742 Toronto (Bloor/Spadina)",
+    "banner": "Metro Ontario"
+  },
+  "139": {
+    "store_name": "#063 Toronto (College Park)",
+    "banner": "Metro Ontario"
+  },
+  "140": {
+    "store_name": "#758 Toronto (Bayview/Eglinton)",
+    "banner": "Metro Ontario"
+  },
+  "141": {
+    "store_name": "#442 Toronto (College/Shaw)",
+    "banner": "Metro Ontario"
+  },
+  "144": {
+    "store_name": "#759 Toronto (Gould)",
+    "banner": "Metro Ontario"
+  },
+  "151": {
+    "store_name": "#141 Metro Central",
+    "banner": "Metro Ontario"
+  },
+  "152": {
+    "store_name": "#147 Metro Riverside",
+    "banner": "Metro Ontario"
+  },
+  "153": {
+    "store_name": "#720 Toronto (Liberty Village)",
+    "banner": "Metro Ontario"
+  },
+  "157": {
+    "store_name": "#490 Metro Upper Middle",
+    "banner": "Metro Ontario"
+  },
+  "159": {
+    "store_name": "#118 London (Adelaide Centre)",
+    "banner": "Metro Ontario"
+  },
+  "165": {
+    "store_name": "#404 Belleville (N Front)",
+    "banner": "Metro Ontario"
+  },
+  "167": {
+    "store_name": "#798 Metro Davis Drive",
+    "banner": "Metro Ontario"
+  },
+  "171": {
+    "store_name": "#139 Metro Banwell",
+    "banner": "Metro Ontario"
+  },
+  "179": {
+    "store_name": "#119 Metro Byron Village",
+    "banner": "Metro Ontario"
+  },
+  "183": {
+    "store_name": "#240 Sarnia (Sarnia Centre)",
+    "banner": "Metro Ontario"
+  },
+  "187": {
+    "store_name": "#475 Scarborough (Ellesmere/Victoria Park)",
+    "banner": "Metro Ontario"
+  },
+  "190": {
+    "store_name": "#395 Sault Ste Marie (Churchill Plaza)",
+    "banner": "Metro Ontario"
+  },
+  "193": {
+    "store_name": "#035 Scarborough (Kennedy Commons)",
+    "banner": "Metro Ontario"
+  },
+  "198": {
+    "store_name": "#712 North York (Church/Finch)",
+    "banner": "Metro Ontario"
+  },
+  "199": {
+    "store_name": "#083 Brampton (Trinity Commons)",
+    "banner": "Metro Ontario"
+  },
+  "201": {
+    "store_name": "#084 Burlington (Appleby)",
+    "banner": "Metro Ontario"
+  },
+  "206": {
+    "store_name": "#719 Toronto (Stockyards)",
+    "banner": "Metro Ontario"
+  },
+  "210": {
+    "store_name": "#717 Mississauga (Sheridan Mall)",
+    "banner": "Metro Ontario"
+  },
+  "214": {
+    "store_name": "#202 Sault Ste Marie (Northern)",
+    "banner": "Metro Ontario"
+  },
+  "215": {
+    "store_name": "#495 Brampton (Bramalea City Centre.)",
+    "banner": "Metro Ontario"
+  },
+  "229": {
+    "store_name": "#037 Toronto (Danforth)",
+    "banner": "Metro Ontario"
+  },
+  "234": {
+    "store_name": "#854 Mississauga (Derry/10th Line)",
+    "banner": "Metro Ontario"
+  },
+  "236": {
+    "store_name": "#808 Scarborough (Eglinton/Markham)",
+    "banner": "Metro Ontario"
+  },
+  "241": {
+    "store_name": "#325 Brantford (St Paul)",
+    "banner": "Metro Ontario"
+  },
+  "245": {
+    "store_name": "#399 North Bay (Lakeshore)",
+    "banner": "Metro Ontario"
+  },
+  "247": {
+    "store_name": "#150 London (Wellington)",
+    "banner": "Metro Ontario"
+  },
+  "249": {
+    "store_name": "#125 Whitby (Thickson/Taunton)",
+    "banner": "Metro Ontario"
+  },
+  "257": {
+    "store_name": "#055 Metro Stone Road",
+    "banner": "Metro Ontario"
+  },
+  "261": {
+    "store_name": "#132 Trenton (Quinte)",
+    "banner": "Metro Ontario"
+  },
+  "263": {
+    "store_name": "#026 Stouffville (Main)",
+    "banner": "Metro Ontario"
+  },
+  "265": {
+    "store_name": "#178 Collingwood (First)",
+    "banner": "Metro Ontario"
+  },
+  "267": {
+    "store_name": "#421 Thunder Bay (River)",
+    "banner": "Metro Ontario"
+  },
+  "273": {
+    "store_name": "#479 Orillia (Front St. Mall)",
+    "banner": "Metro Ontario"
+  },
+  "275": {
+    "store_name": "#106 Whitby (Thickson/Hwy 2)",
+    "banner": "Metro Ontario"
+  },
+  "281": {
+    "store_name": "#062 Metro Front Street",
+    "banner": "Metro Ontario"
+  },
+  "286": {
+    "store_name": "#046 Mississauga (Southdown)",
+    "banner": "Metro Ontario"
+  },
+  "327": {
+    "store_name": "#140 Georgetown (Mountainview)",
+    "banner": "Metro Ontario"
+  },
+  "340": {
+    "store_name": "#205 Whitby (Whitby Shores Plaza)",
+    "banner": "Metro Ontario"
+  },
+  "492": {
+    "store_name": "#249 Kanata (March Rd)",
+    "banner": "Metro Ontario"
+  },
+  "494": {
+    "store_name": "#251 Nepean (Greenbank Square)",
+    "banner": "Metro Ontario"
+  },
+  "495": {
+    "store_name": "#252 Metro Southgate",
+    "banner": "Metro Ontario"
+  },
+  "496": {
+    "store_name": "#253 Gloucester (Ogilvie Square)",
+    "banner": "Metro Ontario"
+  },
+  "497": {
+    "store_name": "#243 Ottawa (Lincoln Heights)",
+    "banner": "Metro Ontario"
+  },
+  "498": {
+    "store_name": "#255 Metro Island Park",
+    "banner": "Metro Ontario"
+  },
+  "499": {
+    "store_name": "#256 Metro Chapman Mills",
+    "banner": "Metro Ontario"
+  },
+  "501": {
+    "store_name": "#258 Sudbury (Lasalle Blvd)",
+    "banner": "Metro Ontario"
+  },
+  "502": {
+    "store_name": "#259 Sturgeon Falls (Front)",
+    "banner": "Metro Ontario"
+  },
+  "503": {
+    "store_name": "#260 Orleans (Convent Glen Market)",
+    "banner": "Metro Ontario"
+  },
+  "504": {
+    "store_name": "#261 Metro Beechwood",
+    "banner": "Metro Ontario"
+  },
+  "506": {
+    "store_name": "#263 Metro Elmvale",
+    "banner": "Metro Ontario"
+  },
+  "507": {
+    "store_name": "#264 Gloucester (Blackburn)",
+    "banner": "Metro Ontario"
+  },
+  "508": {
+    "store_name": "#265 Metro Cumberland",
+    "banner": "Metro Ontario"
+  },
+  "509": {
+    "store_name": "#266 Kingston (Bayridge)",
+    "banner": "Metro Ontario"
+  },
+  "510": {
+    "store_name": "#267 Nepean (Stafford)",
+    "banner": "Metro Ontario"
+  },
+  "511": {
+    "store_name": "#269 Brockville (King)",
+    "banner": "Metro Ontario"
+  },
+  "514": {
+    "store_name": "#272 Ottawa (Merivale/Viewmount)",
+    "banner": "Metro Ontario"
+  },
+  "515": {
+    "store_name": "#273 Casselman (Richer Circle)",
+    "banner": "Metro Ontario"
+  },
+  "516": {
+    "store_name": "#275 Metro Fallingbrook",
+    "banner": "Metro Ontario"
+  },
+  "517": {
+    "store_name": "GLEBE 428",
+    "banner": "Metro Ontario"
+  },
+  "518": {
+    "store_name": "VAL CARON 430",
+    "banner": "Metro Ontario"
+  },
+  "519": {
+    "store_name": "BARRY'S BAY",
+    "banner": "Metro Ontario"
+  },
+  "520": {
+    "store_name": "PERTH 990",
+    "banner": "Metro Ontario"
+  },
+  "521": {
+    "store_name": "RENFREW MARKET 898",
+    "banner": "Metro Ontario"
+  },
+  "529": {
+    "store_name": "#703 Ajax (Salem)",
+    "banner": "Metro Ontario"
+  },
+  "774": {
+    "store_name": "#065 Metro Humber Bay Park",
+    "banner": "Metro Ontario"
+  },
+  "806": {
+    "store_name": "PEMBROKE 426",
+    "banner": "Metro Ontario"
+  },
+  "825": {
+    "store_name": "#772 Metro West Queen West",
+    "banner": "Metro Ontario"
+  },
+  "827": {
+    "store_name": "#136 Metro Devonshire Mall",
+    "banner": "Metro Ontario"
+  },
+  "835": {
+    "store_name": "#215 Winona (Winona Crossing)",
+    "banner": "Metro Ontario"
+  },
+  "848": {
+    "store_name": "#21 Bathurst & Steeles",
+    "banner": "Metro Ontario"
+  },
+  "851": {
+    "store_name": "#246 Kanata (Cope Dr.)",
+    "banner": "Metro Ontario"
+  },
+  "893": {
+    "store_name": "#32 Niagara Falls",
+    "banner": "Metro Ontario"
+  },
+  "903": {
+    "store_name": "#244 Rideau",
+    "banner": "Metro Ontario"
+  },
+  "913": {
+    "store_name": "#145 South Barrie",
+    "banner": "Metro Ontario"
+  }
+}
