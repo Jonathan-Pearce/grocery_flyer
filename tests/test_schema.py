@@ -2,7 +2,7 @@
 
 import pytest
 
-from schema import FlyerItem
+from pipeline.schema import FlyerItem
 
 
 # ── Instantiation ─────────────────────────────────────────────────────────────

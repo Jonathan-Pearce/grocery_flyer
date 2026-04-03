@@ -5,7 +5,7 @@ from __future__ import annotations
 import pytest
 
 from parsers.multi_product_parser import detect_variants, split_multi_product
-from schema import FlyerItem
+from pipeline.schema import FlyerItem
 
 
 # ── Helpers ───────────────────────────────────────────────────────────────────

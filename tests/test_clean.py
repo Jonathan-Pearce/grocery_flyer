@@ -7,8 +7,8 @@ import os
 
 import pytest
 
-from clean import _apply_pipeline, _is_up_to_date, _write_flyer_json, _write_parquet, main
-from schema import FlyerItem
+from pipeline.clean import _apply_pipeline, _is_up_to_date, _write_flyer_json, _write_parquet, main
+from pipeline.schema import FlyerItem
 
 
 # ── Fixture helpers ───────────────────────────────────────────────────────────
@@ -381,8 +381,8 @@ class TestEndToEnd:
         )
         out_dir = str(tmp_path / "cleaned")
 
-        from clean import _apply_pipeline
-        from load_raw import iter_flyers
+        from pipeline.clean import _apply_pipeline
+        from pipeline.load_raw import iter_flyers
 
         # Run through the full pipeline manually
         for store_chain, flyer_id, fetched_on, items in iter_flyers(
@@ -392,7 +392,7 @@ class TestEndToEnd:
             for item in items:
                 processed.extend(_apply_pipeline(item))
             out_path = os.path.join(out_dir, store_chain, f"{flyer_id}.json")
-            from clean import _write_flyer_json
+            from pipeline.clean import _write_flyer_json
             _write_flyer_json(out_path, flyer_id, store_chain, fetched_on, processed)
 
         out_path = os.path.join(out_dir, "loblaws", "1001.json")
@@ -412,7 +412,7 @@ class TestEndToEnd:
         )
         out_dir = str(tmp_path / "cleaned")
 
-        from load_raw import iter_flyers
+        from pipeline.load_raw import iter_flyers
 
         for store_chain, flyer_id, fetched_on, items in iter_flyers(
             data_dir=data_dir, store="food_basics"
@@ -421,7 +421,7 @@ class TestEndToEnd:
             for item in items:
                 processed.extend(_apply_pipeline(item))
             out_path = os.path.join(out_dir, store_chain, f"{flyer_id}.json")
-            from clean import _write_flyer_json
+            from pipeline.clean import _write_flyer_json
             _write_flyer_json(out_path, flyer_id, store_chain, fetched_on, processed)
 
         out_path = os.path.join(out_dir, "food_basics", "82000.json")
@@ -441,7 +441,7 @@ class TestEndToEnd:
         )
         out_dir = str(tmp_path / "cleaned")
 
-        from load_raw import iter_flyers
+        from pipeline.load_raw import iter_flyers
 
         write_count = [0]
 
@@ -453,7 +453,7 @@ class TestEndToEnd:
                 for item in items:
                     processed.extend(_apply_pipeline(item))
                 out_path = os.path.join(out_dir, store_chain, f"{flyer_id}.json")
-                from clean import _is_up_to_date, _write_flyer_json
+                from pipeline.clean import _is_up_to_date, _write_flyer_json
                 if not _is_up_to_date(out_path, fetched_on):
                     _write_flyer_json(out_path, flyer_id, store_chain, fetched_on, processed)
                     write_count[0] += 1
@@ -474,7 +474,7 @@ class TestEndToEnd:
         )
         out_dir = str(tmp_path / "cleaned")
 
-        from load_raw import iter_flyers
+        from pipeline.load_raw import iter_flyers
 
         all_records = []
         for store_chain, flyer_id, fetched_on, items in iter_flyers(data_dir=data_dir):

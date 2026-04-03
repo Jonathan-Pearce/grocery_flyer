@@ -25,9 +25,9 @@ import os
 from collections.abc import Iterator
 from typing import Any
 
-from normalize_flipp import normalize_flipp_file
-from normalize_metro import normalize_metro_file
-from schema import FlyerItem
+from pipeline.normalize_flipp import normalize_flipp_file
+from pipeline.normalize_metro import normalize_metro_file
+from pipeline.schema import FlyerItem
 
 
 # ── Internal helpers ──────────────────────────────────────────────────────────
