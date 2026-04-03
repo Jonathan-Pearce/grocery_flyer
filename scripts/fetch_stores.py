@@ -9,10 +9,10 @@ Portfolios:
   metro     — Azure API integer-ID sweep
 
 Usage:
-  python fetch_stores.py                                          # all portfolios
-  python fetch_stores.py --portfolio loblaws                      # all Loblaws brands
-  python fetch_stores.py --portfolio loblaws --brand nofrills
-  python fetch_stores.py --portfolio metro --brand food_basics --start 1 --end 500
+  python -m scripts.fetch_stores                                          # all portfolios
+  python -m scripts.fetch_stores --portfolio loblaws                      # all Loblaws brands
+  python -m scripts.fetch_stores --portfolio loblaws --brand nofrills
+  python -m scripts.fetch_stores --portfolio metro --brand food_basics --start 1 --end 500
 """
 
 import argparse
@@ -21,8 +21,8 @@ import os
 import time
 from datetime import date
 
-from azure import METRO_PORTFOLIO, MetroBrand, metro_fetch_store, metro_load_credentials
-from flipp import DELAY, LOBLAWS_PORTFOLIO, SOBEYS_PORTFOLIO, WALMART_PORTFOLIO, Brand, fetch_store, save_json
+from fetchers.azure import METRO_PORTFOLIO, MetroBrand, metro_fetch_store, metro_load_credentials
+from fetchers.flipp import DELAY, LOBLAWS_PORTFOLIO, SOBEYS_PORTFOLIO, WALMART_PORTFOLIO, Brand, fetch_store, save_json
 
 
 # ── Flipp store scanner ───────────────────────────────────────────────────────
@@ -139,7 +139,7 @@ def run_metro_portfolio(
             continue
 
         print(f"  banner_id : {brand.banner_id}")
-        print(f"  api_key   : {brand.api_key[:8]}…")
+        print(f"  api_key   : (loaded)")
 
         id_range = brand.id_range
         if start is not None or end is not None:

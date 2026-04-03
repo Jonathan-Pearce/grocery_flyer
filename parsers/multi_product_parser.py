@@ -8,7 +8,7 @@ parent.
 Usage::
 
     from parsers.multi_product_parser import split_multi_product
-    from schema import FlyerItem
+    from pipeline.schema import FlyerItem
 
     record = FlyerItem(
         price_observation_key="loblaws:1234:sku:2024-01-01",
@@ -26,7 +26,7 @@ import re
 
 from parsers.name_parser import parse_name
 from parsers.weight_parser import parse_weight
-from schema import FlyerItem
+from pipeline.schema import FlyerItem
 
 # ── Separator patterns ────────────────────────────────────────────────────────
 # Separators must be surrounded by whitespace so that price-unit strings such

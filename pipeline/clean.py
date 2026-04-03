@@ -3,7 +3,7 @@ Pipeline orchestrator — CLI entry point.
 
 Usage::
 
-    python clean.py [--store <name>] [--dry-run] [--output-dir <path>] [--force]
+    python -m pipeline.clean [--store <name>] [--dry-run] [--output-dir <path>] [--force]
 
 Options
 -------
@@ -40,13 +40,13 @@ import os
 import sys
 
 from categories.category_map import get_food_flags, map_google_taxonomy, map_metro_category
-from load_raw import iter_flyers
+from pipeline.load_raw import iter_flyers
 from parsers.multi_product_parser import split_multi_product
 from parsers.name_parser import parse_name
 from parsers.price_parser import parse_price
 from parsers.promo_parser import parse_promo
 from parsers.weight_parser import parse_weight
-from schema import FlyerItem
+from pipeline.schema import FlyerItem
 
 
 # ── Pipeline helpers ──────────────────────────────────────────────────────────
@@ -205,7 +205,7 @@ def _write_parquet(out_path: str, all_records: list[FlyerItem]) -> None:
 
 def _build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
-        prog="clean.py",
+        prog="python -m pipeline.clean",
         description="Walk raw flyer files, normalise records, and write output.",
     )
     parser.add_argument(
