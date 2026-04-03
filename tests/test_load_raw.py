@@ -8,8 +8,8 @@ import tempfile
 
 import pytest
 
-from load_raw import _flipp_store_id, _store_province, iter_records
-from schema import FlyerItem
+from pipeline.load_raw import _flipp_store_id, _store_province, iter_records
+from pipeline.schema import FlyerItem
 
 
 # ── Fixture helpers ───────────────────────────────────────────────────────────

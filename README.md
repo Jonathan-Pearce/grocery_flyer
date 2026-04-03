@@ -51,25 +51,25 @@ Fetches and archives weekly grocery flyers from 25 Canadian supermarket chains, 
 pip install -r requirements.txt
 
 # Fetch flyers for all stores
-python fetch_flyers.py
+python -m scripts.fetch_flyers
 
 # Fetch flyers for a single portfolio
-python fetch_flyers.py --portfolio loblaws
-python fetch_flyers.py --portfolio sobeys
-python fetch_flyers.py --portfolio metro
+python -m scripts.fetch_flyers --portfolio loblaws
+python -m scripts.fetch_flyers --portfolio sobeys
+python -m scripts.fetch_flyers --portfolio metro
 
 # Fetch flyers for a single brand within a portfolio
-python fetch_flyers.py --portfolio metro --brand food_basics
-python fetch_flyers.py --portfolio loblaws --brand nofrills
+python -m scripts.fetch_flyers --portfolio metro --brand food_basics
+python -m scripts.fetch_flyers --portfolio loblaws --brand nofrills
 ```
 
-Run `fetch_stores.py` first for any new brand to populate `data/<folder>/stores.json` before fetching flyers.
+Run `scripts/fetch_stores.py` first for any new brand to populate `data/<folder>/stores.json` before fetching flyers.
 
 ```bash
-python fetch_stores.py                                         # all portfolios
-python fetch_stores.py --portfolio loblaws                     # all Loblaws brands
-python fetch_stores.py --portfolio loblaws --brand nofrills
-python fetch_stores.py --portfolio metro --brand food_basics --start 1 --end 500
+python -m scripts.fetch_stores                                         # all portfolios
+python -m scripts.fetch_stores --portfolio loblaws                     # all Loblaws brands
+python -m scripts.fetch_stores --portfolio loblaws --brand nofrills
+python -m scripts.fetch_stores --portfolio metro --brand food_basics --start 1 --end 500
 ```
 
 ## Output structure
@@ -111,10 +111,18 @@ Each run writes two log files under `logs/<folder>/`:
 
 | File | Description |
 |---|---|
-| `fetch_flyers.py` | Main entry point — fetches all stores and saves flyer products |
-| `fetch_stores.py` | Store scanner — sweeps store code/ID ranges to build `stores.json` |
-| `flipp.py` | Flipp API helpers: `Brand` dataclass, portfolio configs, HTTP utils, logger |
-| `azure.py` | Metro Azure API helpers: `MetroBrand` dataclass, portfolio config, HTTP utils |
+| `scripts/fetch_flyers.py` | Main entry point — fetches all stores and saves flyer products |
+| `scripts/fetch_stores.py` | Store scanner — sweeps store code/ID ranges to build `stores.json` |
+| `fetchers/flipp.py` | Flipp API helpers: `Brand` dataclass, portfolio configs, HTTP utils, logger |
+| `fetchers/azure.py` | Metro Azure API helpers: `MetroBrand` dataclass, portfolio config, HTTP utils |
+| `pipeline/schema.py` | Unified `FlyerItem` output schema (Pydantic model) |
+| `pipeline/normalize_flipp.py` | Maps raw Flipp product records to `FlyerItem` |
+| `pipeline/normalize_metro.py` | Maps raw Metro product records to `FlyerItem` |
+| `pipeline/load_raw.py` | Walks `data/` and yields normalised `FlyerItem` records |
+| `pipeline/clean.py` | Pipeline orchestrator — normalise, parse, and write cleaned output |
+| `pipeline/validate.py` | QA validation report for cleaned output |
+| `parsers/` | Price, name, weight, promo, and multi-product parsers |
+| `categories/` | Category harmonisation mapping (Google taxonomy + Metro) |
 | `requirements.txt` | Python dependencies (`requests`) |
 | `documentation/METRO_API.md` | Metro Digital API reference (endpoints, auth, response shapes) |
 | `documentation/Stores.md` | Raw API credential reference per brand |
@@ -137,7 +145,7 @@ Each brand has its own `access_token`. Walmart uses `flyer_type_filter="groceryf
 
 Base URL: `https://metrodigital-apim.azure-api.net/api`
 
-Every request requires two headers: `Ocp-Apim-Subscription-Key` (the brand's `api_key`) and `Banner` (the brand's `banner_id`). Credentials are hardcoded per brand in `azure.py` or fetched at runtime from each brand's `app.json` config URL.
+Every request requires two headers: `Ocp-Apim-Subscription-Key` (the brand's `api_key`) and `Banner` (the brand's `banner_id`). Credentials are hardcoded per brand in `fetchers/azure.py` or fetched at runtime from each brand's `app.json` config URL.
 
 | Endpoint | Description |
 |---|---|

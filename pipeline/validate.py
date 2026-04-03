@@ -8,7 +8,7 @@ coverage, and multi-product statistics.
 
 Usage::
 
-    python validate.py [--input-dir cleaned/] [--json]
+    python -m pipeline.validate [--input-dir cleaned/] [--json]
 
 Options
 -------
@@ -29,7 +29,7 @@ from collections import Counter
 from typing import Any
 
 from parsers.weight_parser import parse_weight
-from schema import FlyerItem
+from pipeline.schema import FlyerItem
 
 #: Pounds-to-kilograms conversion factor.
 _LB_TO_KG: float = 2.20462
@@ -392,7 +392,7 @@ def _fmt_table(report: dict[str, Any]) -> str:
 
 def _build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
-        prog="validate.py",
+        prog="python -m pipeline.validate",
         description="Generate a QA report from cleaned grocery flyer output.",
     )
     parser.add_argument(
