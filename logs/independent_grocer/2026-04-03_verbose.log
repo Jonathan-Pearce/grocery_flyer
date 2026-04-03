@@ -1,0 +1,238 @@
+=== Independent Grocer Flyer Fetch — 2026-04-03 ===
+Run started : 2026-04-03 02:45:56 UTC
+
+Loaded 205 stores from data/independent_grocer/stores.json
+
+Stores loaded: 205
+Loaded existing store_flyers.json (172 publication entries)
+
+Phase 1: fetching publications per store…
+
+  [405] Browns' YIG Stittsville → no new flyers
+  [408] Baxtrom's YIG Cornwall → no new flyers
+  [421] Barnabe's YIG Perth → no new flyers
+  [450] Wilson's YIG Ottawa → no new flyers
+  [467] Dessureault YIG Gloucester → no new flyers
+  [476] Grants YIG Hanover → no new flyers
+  [600] Hantsport Cook's → no new flyers
+  [620] McAdam YIG → no new flyers
+  [634] Carl's YIG Wolfville → no new flyers
+  [636] Mike's YIG Kensington → no new flyers
+  [648] Plaster Rock Save Easy → no new flyers
+  [649] Robert's YIG Chipman → no new flyers
+  [651] Gilles YIG Saint-Antoine → no new flyers
+  [658] Scott's YIG → no new flyers
+  [663] St. Andrew's Save Easy → no new flyers
+  [673] Mahone Bay YIG → no new flyers
+  [685] Francis' YIG Lunenburg → no new flyers
+  [806] Jonssons' YIG Kemptville → no new flyers
+  [810] Davis' YIG Port Hope → no new flyers
+  [816] Robinsons YIG Huntsville → no new flyers
+  [817] Todd's YIG Haliburton → no new flyers
+  [827] Embrun YIG → no new flyers
+  [835] Vos' YIG Port Perry → no new flyers
+  [839] Fisher's YIG Beaverton → no new flyers
+  [866] King's YIG Richmond → no new flyers
+  [878] Morello's YIG Peterborough → no new flyers
+  [881] Bissonnette's YIG Ottawa → no new flyers
+  [895] Hansen's YIG Exeter → no new flyers
+  [896] Dumas' YIG Sudbury → no new flyers
+  [1402] Nick's YIG → no new flyers
+  [1406] Macphee's Market Save Easy → no new flyers
+  [1410] Gambo → no new flyers
+  [1414] Millerâ€™s YIG Annapolis → no new flyers
+  [1417] Darrell's YIG Twillingate → no new flyers
+  [1419] Grand Manan YIG → no new flyers
+  [1423] Mifflin's YIG → no new flyers
+  [1618] Robinson's YIG Manotick → no new flyers
+  [1619] Riley's YIG Ottawa → no new flyers
+  [1622] Gerald's YIG Middleton → no new flyers
+  [1623] Doug's YIG Berwick → no new flyers
+  [1624] Tanners YIG Espanola → no new flyers
+  [1627] Laurin YIG Hawkesbury → no new flyers
+  [1634] Scott's YIG Perth Andover-NB → no new flyers
+  [1636] Don's YIG Cornwall → no new flyers
+  [1652] Sage Hill → no new flyers
+  [1659] Yig Fort Mcmurray → no new flyers
+  [1683] Geraghty's YIG Dalhousie → no new flyers
+  [1684] Balmoral Save Easy → no new flyers
+  [1685] Trevor's YIG Doaktown → no new flyers
+  [1688] Eldho's YIG → no new flyers
+  [1697] Kerr Street YIG → no new flyers
+  [1734] Yig Creston → no new flyers
+  [1789] Squamish YIG → no new flyers
+  [1790] Yig Richmond City Market → no new flyers
+  [1792] YIG Vancouver Davie → no new flyers
+  [1798] YIG Fort Macleod → no new flyers
+  [1806] WYKE'S YIG → no new flyers
+  [1813] YIG Drayton Valley → no new flyers
+  [1816] YIG Kelowna → no new flyers
+  [1822] City Market Sage Hill → no new flyers
+  [1824] Dennis' Yig Saskatoon → no new flyers
+  [1829] Your Independent Grocer Melfort → no new flyers
+  [1830] Cindy's Yig Melfort → no new flyers
+  [1832] Nielsen's Yig Surrey → no new flyers
+  [1833] High Level YIG → no new flyers
+  [1840] Coubroughs YIG Edson → no new flyers
+  [1860] Parisotto's YIG Abbotsford → no new flyers
+  [1870] Sinnott's YIG Red Deer → no new flyers
+  [1872] Loblaws City Market → no new flyers
+  [1874] Golding's YIG Saskatoon → no new flyers
+  [1875] Coquitlam YIG → no new flyers
+  [1877] Hakam's YIG Langley → no new flyers
+  [1887] Sewak's YIG → no new flyers
+  [1889] Yig High Level → no new flyers
+  [1891] Tipton's YIG Athabasca → no new flyers
+  [1892] Lac La Biche YIG → no new flyers
+  [1893] Devon YIG → no new flyers
+  [1948] Dewe's YIG Belleville → no new flyers
+  [2140] McNeil's → no new flyers
+  [2162] Rowland's YIG Port Elgin → no new flyers
+  [2601] Wilkinson's YIG Delhi → no new flyers
+  [2639] Parker's YIG North Bay → no new flyers
+  [2648] Laura's YIG Kanata → no new flyers
+  [2655] Heidi's YIG Petrolia → no new flyers
+  [2656] McDonough's YIG → no new flyers
+  [2670] Bissonnette's YIG Ottawa → no new flyers
+  [2671] Dumas' YIG Sudbury → no new flyers
+  [2682] Tremblett's YIG Ingersoll → no new flyers
+  [2683] Rome's YIG Sault Ste Marie → no new flyers
+  [2690] Petawawa YIG → no new flyers
+  [2691] Massine's YIG Ottawa → no new flyers
+  [2692] Hyska's Petawawa → no new flyers
+  [2719] Robinson's YIG Huntsville → no new flyers
+  [2722] BRAUD'S EDSON YIG → no new flyers
+  [3229] Doug & Karla's YIG Lewisporte → no new flyers
+  [3718] Maurice's valu-mart → no new flyers
+  [3719] Kaufman's → no new flyers
+  [3721] JOHN'S → no new flyers
+  [3722] Miller’s → no new flyers
+  [3723] Bobcaygeon → no new flyers
+  [3726] John's → no new flyers
+  [3803] Belfiore's YIG Kitchener → no new flyers
+  [3804] Marc’s → no new flyers
+  [3806] Lakeshore → no new flyers
+  [3815] Van Wart's → no new flyers
+  [3818] Ken's → no new flyers
+  [4020] Tuft’s YIG → no new flyers
+  [4027] Peter's → no new flyers
+  [4033] Bruno's YIG Don Mills → no new flyers
+  [4034] Trevor's YIG Yellowknife → no new flyers
+  [4035] Mortada's YIG → no new flyers
+  [4428] Laura's YIG → no new flyers
+  [4429] CITY MARKET YIG EDMONTON → no new flyers
+  [4430] Smylie's YIG Trenton → no new flyers
+  [4533] Fogal’s YIG Wingham → no new flyers
+  [5128] YIG Ontario → no new flyers
+  [5129] Yulli's YIG Ontario Barrys Bay → no new flyers
+  [5130] Jan's YIG Ontario Deep River → no new flyers
+  [5131] YIG Englehart Ontario → no new flyers
+  [5132] Unni & Sree's YIG Gore Bay → no new flyers
+  [5133] Mandy and Raj's YIG Ontario Iroquois Falls → no new flyers
+  [5193] Godard's YIG Meaford → no new flyers
+  [5234] Jones' YIG Thessalon → no new flyers
+  [5235] Hutton's YIG Blind River → no new flyers
+  [5252] Walker's YIG Salisbury → no new flyers
+  [5313] MicheAl's YIG Saskatoon → no new flyers
+  [5379] O'Reilly's YIG Prescott → no new flyers
+  [5488] Kamloops YIG → no new flyers
+  [5489] John's YIG Comox → no new flyers
+  [5490] Melville → no new flyers
+  [6748] Dave and Lyne’s YIG Rockland → no new flyers
+  [6749] Christina's YIG Twillingate → no new flyers
+  [6951] XXX → no new flyers
+  [7142] YIG Nackawic → no new flyers
+  [7144] Engel's YIG Westlock → no new flyers
+  [7148] Rose's YIG Sackville → no new flyers
+  [7152] MALVINA'S YIG → no new flyers
+  [7155] CITY MKT YIG VANCOUVER HOMER → no new flyers
+  [7161] Johnson's YIG Timmins → no new flyers
+  [7164] Stevens' YIG Bracebridge → no new flyers
+  [7170] Bill's YIG Alberton → no new flyers
+  [7172] SHIPPAGAN YIG → no new flyers
+  [7178] Jonsson’s YIG Almonte → no new flyers
+  [7179] Moncion's YIG Ottawa → no new flyers
+  [7180] Sam's YIG Tavistock → no new flyers
+  [7183] Jamie's YIG Hampton → no new flyers
+  [7184] Hazel’s Your Independent Grocer Hubbards → no new flyers
+  [7186] Mcdaniel's YIG Nepean → no new flyers
+  [7187] MACNEIL'S YIG SASKATOON HORNER → no new flyers
+  [7207] Mcdonalds YIG St Mary's → no new flyers
+  [7230] YIG Leduc → no new flyers
+  [7309] Yig City Market Edmonton → no new flyers
+  [7316] Sechelt YIG → no new flyers
+  [7329] Drews' YIG Regina → no new flyers
+  [7353] Ridgeway → no new flyers
+  [7355] Ren - Phil's → no new flyers
+  [7362] Ren - Hendriks' → no new flyers
+  [7369] Neil's YIG Hanmer → no new flyers
+  [7377] 7377 McDonough's YIG Nepean → no new flyers
+  [7460] Jason's YIG Kentville → no new flyers
+  [7461] Avery's Your Independent Grocer → no new flyers
+  [7470] Petit Rocher YIG → no new flyers
+  [7491] City Market Arbutus → no new flyers
+  [7492] Niel's YIG Regina → no new flyers
+  [7494] Park Royal City Market → no new flyers
+  [7511] Allan's YIG Pickering → no new flyers
+  [7517] Bissonnette's YIG → no new flyers
+  [7520] Vrab's YIG Sudbury → no new flyers
+  [7524] Andrews → no new flyers
+  [7525] Brennan and Samantha’s YIGO → no new flyers
+  [7533] YIG New Liskeard → no new flyers
+  [7534] LONSDALE CITY MARKET → no new flyers
+  [7535] Beach's YIG → no new flyers
+  [7537] XXX's YIG Balmoral → no new flyers
+  [7541] XXX's YIG Alexandria → no new flyers
+  [7545] XXX YIG GIBBONS → no new flyers
+  [7546] Stinu's YIG Beresford → no new flyers
+  [7598] XX → no new flyers
+  [7906] YIG CARSTAIRS MANDALAY → no new flyers
+  [7914] Rymersons → no new flyers
+  [7915] Andress' YIG Smiths Falls → no new flyers
+  [7916] Mitchell's YIG Carleton Place → no new flyers
+  [7917] Bob's YIGO → no new flyers
+  [7923] Lavish's YIG Little Current → no new flyers
+  [7924] Drews → no new flyers
+  [7925] Terry's YIG Gravenhurst → no new flyers
+  [7926] 56 Victoria St N → no new flyers
+  [7927] Todd's Your Independent Grocer Hastings → no new flyers
+  [7931] McDonald's YIG Mitchell → no new flyers
+  [7932] Potters YIG Mamora → no new flyers
+  [7933] Fretz's YIG → no new flyers
+  [7962] Tremblatt's London Wortley → no new flyers
+  [7968] Cramer's YIG Dowling Ontario → no new flyers
+  [7971] 1619 Orleans Blvd → no new flyers
+  [7973] Moore’s YIG → no new flyers
+  [7974] Palmeri's YIG Gravenhurst → no new flyers
+  [7979] Sirard's Your Independent Grocer → no new flyers
+  [8025] Liam's YIG Hantsport → no new flyers
+  [8034] Drolet's YIG Chelmsford → no new flyers
+  [8189] Jeffery's YIG St George → no new flyers
+  [9686] Tanya's YIG Chester → no new flyers
+  [9693] Kathy & Mark's YIG → no new flyers
+  [9784] Mack's YIG Kapuskasing → no new flyers
+  [9787] Gayathry & Adhavan's YIG Lively → no new flyers
+  [9798] Houcine's YIG Yelliowknife → no new flyers
+
+  0 new publication entries across 205 stores
+  0 unique new publication(s) to download
+  Saved → data/independent_grocer/store_flyers.json  (239,582 bytes)
+New publication entries added to store_flyers.json: 0
+Unique new publications to download: 0
+
+Phase 2: fetching products for each new publication…
+
+  Nothing new to download.
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 0
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-04-03 02:46:21 UTC
+Elapsed      : 0m 25s
+
+
+Done.  Verbose log → logs/independent_grocer/2026-04-03_verbose.log
+       Summary log → logs/independent_grocer/2026-04-03_summary.log
+

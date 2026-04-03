@@ -1,0 +1,44 @@
+=== Dominion Flyer Fetch — 2026-04-03 ===
+Run started : 2026-04-03 02:45:55 UTC
+
+Loaded 11 stores from data/dominion/stores.json
+
+Stores loaded: 11
+Loaded existing store_flyers.json (11 publication entries)
+
+Phase 1: fetching publications per store…
+
+  [906] Bay Roberts Dominion → no new flyers
+  [913] Carbonear Dominion → no new flyers
+  [922] Pearlgate Dominion → no new flyers
+  [923] Longpond Dominion → no new flyers
+  [924] Cabot Square Dominion → no new flyers
+  [925] Stephenville Dominion → no new flyers
+  [926] Corner Brook Dominion → no new flyers
+  [927] Gander Dominion → no new flyers
+  [928] Grand Falls Dominion → no new flyers
+  [934] Memorial Stadium Dominion → no new flyers
+  [935] Blackmarsh Road Dominion → no new flyers
+
+  0 new publication entries across 11 stores
+  0 unique new publication(s) to download
+  Saved → data/dominion/store_flyers.json  (15,204 bytes)
+New publication entries added to store_flyers.json: 0
+Unique new publications to download: 0
+
+Phase 2: fetching products for each new publication…
+
+  Nothing new to download.
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 0
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-04-03 02:45:56 UTC
+Elapsed      : 0m 1s
+
+
+Done.  Verbose log → logs/dominion/2026-04-03_verbose.log
+       Summary log → logs/dominion/2026-04-03_summary.log
+

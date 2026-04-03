@@ -2,14 +2,15 @@ name: Fetch Grocery Flyers
 
 on:
   schedule:
-    - cron: '0 17 * * 1'  # Every Monday at 17:00 UTC (1 PM EST / 12 PM EDT)
-  workflow_dispatch:       # Allow manual runs from the Actions tab
+    - cron: '0 13 * * 4'  # Every Thursday at 13:00 UTC (9 AM ET)
+  workflow_dispatch:        # Allow manual runs from the Actions tab
+
+permissions:
+  contents: write
 
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
 
     steps:
       - name: Checkout repository
@@ -23,13 +24,14 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Fetch flyers
+      - name: Fetch all portfolio flyers
         run: python fetch_flyers.py
 
       - name: Commit and push results
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/
-          git diff --staged --quiet || git commit -m "chore: fetch flyers $(date -u +%Y-%m-%d)"
+          git add data/ logs/
+          git diff --cached --quiet \
+            || git commit -m "chore: weekly flyer fetch $(date -u +%Y-%m-%d)"
           git push

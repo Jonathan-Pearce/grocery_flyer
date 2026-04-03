@@ -1,0 +1,100 @@
+=== Atlantic Superstore Flyer Fetch — 2026-04-03 ===
+Run started : 2026-04-03 02:45:46 UTC
+
+Loaded 67 stores from data/atlantic_superstore/stores.json
+
+Stores loaded: 67
+Loaded existing store_flyers.json (53 publication entries)
+
+Phase 1: fetching publications per store…
+
+  [38] Testing Store → no new flyers
+  [309] Antigonish Superstore → no new flyers
+  [311] Millidgeville Superstore → no new flyers
+  [312] Amherst Superstore → no new flyers
+  [313] Tantallon Superstore → no new flyers
+  [314] Summerside Superstore → no new flyers
+  [315] Oromocto Superstore → no new flyers
+  [316] Tracadie Superstore → no new flyers
+  [317] Port Hawkesbury Superstore → no new flyers
+  [318] Kingston Superstore → no new flyers
+  [321] North Sydney Superstore → no new flyers
+  [325] Edmundston Superstore → no new flyers
+  [326] Trinity  Superstore → no new flyers
+  [329] Nashwaaksis Superstore → no new flyers
+  [331] Liverpool Superstore → no new flyers
+  [332] Miramichi Superstore → no new flyers
+  [336] Truro Superstore → no new flyers
+  [337] Bridgewater Superstore → no new flyers
+  [339] Digby Superstore → no new flyers
+  [341] Fredericton Superstore → no new flyers
+  [344] New Minas Superstore → no new flyers
+  [350] Moncton Superstore → no new flyers
+  [351] Lower Sackville Superstore → no new flyers
+  [352] Dartmouth Superstore → no new flyers
+  [353] Saint John Superstore → no new flyers
+  [354] HaliFax Superstore → no new flyers
+  [357] Bathurst Superstore → no new flyers
+  [358] Bayers Lake Superstore → no new flyers
+  [359] Chatham Superstore → no new flyers
+  [361] Riverview Superstore → no new flyers
+  [362] Atholville Superstore → no new flyers
+  [364] Kennebecasis Valley Market → no new flyers
+  [366] St. Stephen Superstore → no new flyers
+  [367] Porter's Lake Superstore → no new flyers
+  [368] New Glasgow Superstore → no new flyers
+  [369] Barrington St. Superstore → no new flyers
+  [372] Yarmouth Superstore → no new flyers
+  [373] Sydney River Superstore → no new flyers
+  [374] Woodstock Superstore → no new flyers
+  [375] Elmsdale Superstore → no new flyers
+  [376] Charlottetown Superstore → no new flyers
+  [377] Windsor Superstore → no new flyers
+  [378] BedFord Superstore → no new flyers
+  [379] Joseph Howe Superstore → no new flyers
+  [380] Braemar Drive Superstore → no new flyers
+  [383] Quinpool Superstore → no new flyers
+  [384] Cole Harbour Superstore → no new flyers
+  [385] Glace Bay Superstore → no new flyers
+  [386] West Royalty Superstore → no new flyers
+  [388] Montague Superstore → no new flyers
+  [389] Sussex Superstore → no new flyers
+  [396] Grand Falls Superstore → no new flyers
+  [626] Daniel's YIG St George → no new flyers
+  [685] Francis' YIG Lunenburg → no new flyers
+  [906] Bay Roberts Dominion → no new flyers
+  [913] Carbonear Dominion → no new flyers
+  [922] Pearlgate Dominion → no new flyers
+  [923] Longpond Dominion → no new flyers
+  [924] Cabot Square Dominion → no new flyers
+  [925] Stephenville Dominion → no new flyers
+  [926] Corner Brook Dominion → no new flyers
+  [927] Gander Dominion → no new flyers
+  [928] Grand Falls Dominion → no new flyers
+  [934] Memorial Stadium Dominion → no new flyers
+  [935] Blackmarsh Road Dominion → no new flyers
+  [2552] Bedford West → no new flyers
+  [7526] RASS DIEPPE → no new flyers
+
+  0 new publication entries across 67 stores
+  0 unique new publication(s) to download
+  Saved → data/atlantic_superstore/store_flyers.json  (71,291 bytes)
+New publication entries added to store_flyers.json: 0
+Unique new publications to download: 0
+
+Phase 2: fetching products for each new publication…
+
+  Nothing new to download.
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 0
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-04-03 02:45:55 UTC
+Elapsed      : 0m 8s
+
+
+Done.  Verbose log → logs/atlantic_superstore/2026-04-03_verbose.log
+       Summary log → logs/atlantic_superstore/2026-04-03_summary.log
+

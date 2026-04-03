@@ -151,3 +151,156 @@ Elapsed       : 0m 21s
 Done.  Verbose log → logs/super_c/2026-04-03_verbose.log
        Summary log → logs/super_c/2026-04-03_summary.log
 
+=== Super C Flyer Fetch — 2026-04-03 ===
+Run started : 2026-04-03 02:51:09 UTC
+
+Loaded 120 stores from data/super_c/stores.json
+
+Stores loaded: 120
+Loaded existing store_flyers.json (120 flyer entries)
+
+Phase 1: fetching flyer listings per store…
+
+  [304] VANIER → no new flyers
+  [312] ST-REMI → no new flyers
+  [423] BEAUPORT → no new flyers
+  [425] NEUFCHATEL → no new flyers
+  [426] STE-FOY → no new flyers
+  [427] RIMOUSKI → no new flyers
+  [428] THETFORD MINES → no new flyers
+  [429] VICTORIAVILLE → no new flyers
+  [430] LEVIS → no new flyers
+  [431] ST-JEAN-CHRYSOSTOME → no new flyers
+  [432] CHICOUTIMI → no new flyers
+  [433] JONQUIERE → no new flyers
+  [434] CAP-DE-LA-MADELEINE → no new flyers
+  [435] TROIS-RIVIERES → no new flyers
+  [436] TROIS-RIVIERES OUEST → no new flyers
+  [437] SHAWINIGAN → no new flyers
+  [438] POINTE-AUX-TREMBLES → no new flyers
+  [439] HENRI-BOURASSA → no new flyers
+  [440] ST-LEONARD → no new flyers
+  [441] MONTREAL PIE-IX - ONTARIO → no new flyers
+  [442] MONTREAL PIE-IX ET JARRY → no new flyers
+  [443] ATWATER → no new flyers
+  [444] N.D.G. - ST-JACQUES → no new flyers
+  [445] BELOEIL → no new flyers
+  [446] LAVAL CONDORDE → no new flyers
+  [447] LAVAL DES LAURENTIDES → no new flyers
+  [448] FABREVILLE LAVAL → no new flyers
+  [450] STE-DOROTHEE → no new flyers
+  [451] LASALLE BL NEWMAN → no new flyers
+  [452] PIERREFONDS → no new flyers
+  [454] FLEURIMONT → no new flyers
+  [455] SHERBROOKE BELVEDERE → no new flyers
+  [456] SHERBROOKE-PORTLAND → no new flyers
+  [457] DRUMMONDVILLE → no new flyers
+  [458] GRANBY → no new flyers
+  [459] COWANSVILLE → no new flyers
+  [460] SAINT-HYACINTHE → no new flyers
+  [461] SAINT-JEAN → no new flyers
+  [462] SOREL → no new flyers
+  [463] VARENNES → no new flyers
+  [464] BOUCHERVILLE → no new flyers
+  [465] STE-THERESE → no new flyers
+  [466] LONGUEUIL DESORMEAUX → no new flyers
+  [467] LONGUEUIL ROLAND-THERRIEN → no new flyers
+  [468] GREENFIELD PARK → no new flyers
+  [469] BROSSARD → no new flyers
+  [470] ST-CONSTANT → no new flyers
+  [471] REPENTIGNY → no new flyers
+  [472] JOLIETTE → no new flyers
+  [473] CHATEAUGUAY → no new flyers
+  [474] VALLEYFIELD → no new flyers
+  [475] TERREBONNE → no new flyers
+  [476] BLAINVILLE → no new flyers
+  [477] ST-EUSTACHE → no new flyers
+  [478] VAUDREUIL → no new flyers
+  [479] ST-JOVITE → no new flyers
+  [480] GATINEAU → no new flyers
+  [481] HULL → no new flyers
+  [482] HULL DU PLATEAU → no new flyers
+  [483] AYLMER → no new flyers
+  [484] CHAMPFLEURY → no new flyers
+  [488] ST-HUBERT COUSINEAU → no new flyers
+  [489] ST-CHARLES-DE-BORROMÉE → no new flyers
+  [525] ST-LIN → no new flyers
+  [526] STE-MARIE-DE-BEAUCE → no new flyers
+  [646] NICOLET → no new flyers
+  [647] SEPT-ILES → no new flyers
+  [648] CHARLESBOURG → no new flyers
+  [649] TERREBONNE OUEST → no new flyers
+  [695] RIVIÈRE-DES-PRAIRIES → no new flyers
+  [704] VAL D'OR → no new flyers
+  [705] LASALLE BL CHAMPLAIN → no new flyers
+  [706] BOISBRIAND → no new flyers
+  [713] ST-CÉSAIRE → no new flyers
+  [714] KIRKLAND → no new flyers
+  [715] STE-ANNE → no new flyers
+  [722] RIVIÈRE DU LOUP → no new flyers
+  [727] ORMSTOWN → no new flyers
+  [728] CHANDLER → no new flyers
+  [729] ST-LAURENT → no new flyers
+  [732] ST-JEAN SUR LE RICHELIEU → no new flyers
+  [737] STE-MARTHE → no new flyers
+  [747] GASPÉ → no new flyers
+  [755] LAPLAINE → no new flyers
+  [756] LACHUTE → no new flyers
+  [768] St-CANUT → no new flyers
+  [771] STE-CATHERINE-DE-LA-JACQUES-CARTIER → no new flyers
+  [772] LAPRAIRIE → no new flyers
+  [780] ROUYN-NORANDA → no new flyers
+  [786] ST-GEORGES-DE-BEAUCE → no new flyers
+  [787] STE-ANNE-DES-PRAIRIES → no new flyers
+  [810] LAVALTRIE → no new flyers
+  [812] MATANE → no new flyers
+  [813] ST-ROMUALD → no new flyers
+  [815] BAIE St-PAUL → no new flyers
+  [816] ST-SAUVEUR → no new flyers
+  [826] LAVAL - ST-ELZÉAR → no new flyers
+  [847] ST-JACQUES → no new flyers
+  [882] MONT-JOLI → no new flyers
+  [884] ST-JÉROME → no new flyers
+  [885] BEAUHARNOIS → no new flyers
+  [886] COATICOOK → no new flyers
+  [887] STE-CLAIRE → no new flyers
+  [888] PONT-ROUGE → no new flyers
+  [890] LIMBOUR → no new flyers
+  [895] ST-APOLLINAIRE → no new flyers
+  [896] BUCKINGHAM → no new flyers
+  [897] ST-NICOLAS → no new flyers
+  [900] ST-DONAT → no new flyers
+  [904] ST-HUBERT/BOUCHER → no new flyers
+  [905] MONTRÉAL (DE LORIMIER) → no new flyers
+  [906] RIMOUSKI-OUEST → no new flyers
+  [907] RIGAUD → no new flyers
+  [908] SHERBROOKE - ASCOT → no new flyers
+  [910] GREBER → no new flyers
+  [911] DUPLESSIS → no new flyers
+  [919] PINCOURT → no new flyers
+  [923] ROCK FOREST → no new flyers
+  [930] BERTHIERVILLE → no new flyers
+  [931] TÉMISCOUATA-SUR-LE-LAC → no new flyers
+
+  0 new flyer entries across 120 stores
+  0 unique new job(s) to download
+  Saved → data/super_c/store_flyers.json  (424,084 bytes)
+New flyer entries added to store_flyers.json : 0
+Unique new jobs to download                  : 0
+
+Phase 2: fetching products for each new job…
+
+  Nothing new to download.
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 0
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-04-03 02:51:33 UTC
+Elapsed      : 0m 23s
+
+
+Done.  Verbose log → logs/super_c/2026-04-03_verbose.log
+       Summary log → logs/super_c/2026-04-03_summary.log
+
