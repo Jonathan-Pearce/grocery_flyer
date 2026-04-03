@@ -145,7 +145,7 @@ def fetch_flipp_brand(brand: Brand, today: str) -> None:
 
             products = fetch_publication_products(pub_id, brand.access_token)
             if not products:
-                log(f"    [!] no products returned — skipping")
+                log("    [!] no products returned — skipping")
                 errors += 1
                 continue
 
@@ -256,7 +256,7 @@ def fetch_metro_brand(brand: MetroBrand, today: str) -> None:
 
             products = metro_fetch_products(brand, job, store_id)
             if not products:
-                log(f"    [!] no products returned — skipping")
+                log("    [!] no products returned — skipping")
                 errors += 1
                 continue
 
