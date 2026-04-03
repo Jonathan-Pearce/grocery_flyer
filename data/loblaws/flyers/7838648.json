@@ -1,0 +1,2949 @@
+{
+  "fetched_on": "2026-04-02",
+  "publication_id": "7838648",
+  "publication_meta": {
+    "id": 7838648,
+    "flyer_run_id": 1195844,
+    "valid_from": "2026-03-19T00:00:00-04:00",
+    "valid_to": "2026-04-08T23:59:59-04:00",
+    "available_from": "2026-03-18T00:00:00-04:00",
+    "available_to": "2026-04-08T23:59:59-04:00",
+    "locale": "en",
+    "pdf_url": "https://f.wishabi.net/flyers/16538670/43581222fc9e40c2.pdf",
+    "postal_code": "K2C0C6",
+    "merchant_name": "Loblaws",
+    "merchant_logo_url": "https://images.wishabi.net/merchants/2018/1400707103/large",
+    "deep_link": "https://www.loblaws.ca/print-flyer?flyer_run_id=1195844&flyer_type_name=generalmerchandise&locale=en&postal_code=K2C0C6&store_code=1050",
+    "flyer_type_id": 10548,
+    "sfml_url": "https://cdn-gateflipp.flippback.com/storefront-payload/1195844/7838648/4b606224b586938a7f5b1136b82d9ca2e801e6271bc48533b2739c77ec4adfd7?merchant_id=2018",
+    "name": "General Merchandise",
+    "flyer_type": "generalmerchandise",
+    "external_display_name": "Passover",
+    "first_page_thumbnail_400h_url": "https://f.wishabi.net/flyers/7838648/stock_premium/1773776677.jpg",
+    "storefront_images": {
+      "carousel_organic": "https://f.wishabi.net/flyers/7838648/storefront_carousel_organic/1773776677.jpg"
+    },
+    "correction_notices": []
+  },
+  "products_url": "https://dam.flippenterprise.net/flyerkit/publication/7838648/products?display_type=all&locale=en&access_token=fd66ddd31b95e07b9ad2744424e9fd32",
+  "products": [
+    {
+      "id": 1000348876,
+      "name": "STREITS SOUP BASE, 153 G",
+      "sale_story": null,
+      "sku": "20034513001_EA",
+      "description": "SELECTED VARIETIES",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22897032/2078284e-1f20-11f1-9f7f-06149c7e5c73/x_large",
+      "custom_id_field_1": "20034513001_EA",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Pantry"
+      ],
+      "pre_price_text": "",
+      "price_text": "7.50",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1611.0,
+      "bottom": -1329.52,
+      "right": 1922.84,
+      "top": -1072.59,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Soups & Broths",
+          "google_category_id": 359
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7838648,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.loblaws.ca/p/20034513001_EA",
+      "item_web_url": "https://www.loblaws.ca/p/20034513001_EA",
+      "brand": "Streit's",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22897032/2078284e-1f20-11f1-9f7f-06149c7e5c73/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1000348882,
+      "name": "GEFEN ORGANIC ROASTED CHESTNUTS, 85 G OR CROWN SUPREME CORN KERNEL, 340-410 G",
+      "sale_story": null,
+      "sku": "21411460_EA",
+      "description": null,
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22897032/1b39dea4-1f20-11f1-9f7f-06149c7e5c73/x_large",
+      "custom_id_field_1": "21411460_EA",
+      "custom_id_field_2": "20873795_EA",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Pantry"
+      ],
+      "pre_price_text": "",
+      "price_text": "2.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1613.31,
+      "bottom": -802.42,
+      "right": 1922.23,
+      "top": -549.07,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Canned & Jarred Vegetables",
+          "google_category_id": 2771
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7838648,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.loblaws.ca/p/21411460_EA",
+      "item_web_url": "https://www.loblaws.ca/p/21411460_EA",
+      "brand": "GEFEN",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22897032/1b39dea4-1f20-11f1-9f7f-06149c7e5c73/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1000348884,
+      "name": "ARIEL PUFF PASTRY SHEETS, 450 G",
+      "sale_story": null,
+      "sku": "21452851_EA",
+      "description": "SELECTED VARIETIES",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22897032/23b36ca8-1f20-11f1-9f7f-06149c7e5c73/x_large",
+      "custom_id_field_1": "21452851_EA",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Pantry"
+      ],
+      "pre_price_text": "",
+      "price_text": "10.49",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1305.5,
+      "bottom": -2124.87,
+      "right": 1611.03,
+      "top": -1853.83,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Bakery",
+          "google_category_id": 343
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Pastries & Scones",
+          "google_category_id": 2677
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7838648,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.loblaws.ca/p/21452851_EA",
+      "item_web_url": "https://www.loblaws.ca/p/21452851_EA",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22897032/23b36ca8-1f20-11f1-9f7f-06149c7e5c73/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1000348990,
+      "name": "NANUK SMOKED COHO SALMON, 300 G",
+      "sale_story": null,
+      "sku": "20114139_EA",
+      "description": "SELECTED VARIETIES",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22897031/18804b12-1f20-11f1-be2a-fac5e0f1a189/x_large",
+      "custom_id_field_1": "20114139_EA",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Meat & Seafood"
+      ],
+      "pre_price_text": "",
+      "price_text": "22.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 328.83,
+      "bottom": -694.25,
+      "right": 638.56,
+      "top": -412.5,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Meat, Seafood & Eggs",
+          "google_category_id": 353
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Seafood",
+          "google_category_id": 2921
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7838648,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.loblaws.ca/p/20114139_EA",
+      "item_web_url": "https://www.loblaws.ca/p/20114139_EA",
+      "brand": "NANUK",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22897031/18804b12-1f20-11f1-be2a-fac5e0f1a189/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1000348994,
+      "name": "TUSCANINI LEMON OR LIME JUICE",
+      "sale_story": null,
+      "sku": "21450729_EA",
+      "description": "SELECTED VARIETIES\n200 ML",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22897031/2145849c-1f20-11f1-be2a-fac5e0f1a189/x_large",
+      "custom_id_field_1": "21450729_EA",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Drinks"
+      ],
+      "pre_price_text": "",
+      "price_text": "1.79",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 636.25,
+      "bottom": -2147.03,
+      "right": 946.32,
+      "top": -1858.6,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Beverages",
+          "google_category_id": 320
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Juice",
+          "google_category_id": 331
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7838648,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.loblaws.ca/p/21450729_EA",
+      "item_web_url": "https://www.loblaws.ca/p/21450729_EA",
+      "brand": "TUSCANINI",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22897031/2145849c-1f20-11f1-be2a-fac5e0f1a189/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1000349923,
+      "name": "KEDEM GRAPE JUICE CONCORD, 650 ML",
+      "sale_story": null,
+      "sku": "20275822001_EA",
+      "description": "SELECTED VARIETIES",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22897031/1c17596e-1f20-11f1-be2a-fac5e0f1a189/x_large",
+      "custom_id_field_1": "20275822001_EA",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Drinks"
+      ],
+      "pre_price_text": "",
+      "price_text": "3.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 634.75,
+      "bottom": -1261.22,
+      "right": 945.42,
+      "top": -981.44,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Beverages",
+          "google_category_id": 320
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Juice",
+          "google_category_id": 331
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7838648,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.loblaws.ca/p/20275822001_EA",
+      "item_web_url": "https://www.loblaws.ca/p/20275822001_EA",
+      "brand": "Kedem",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22897031/1c17596e-1f20-11f1-be2a-fac5e0f1a189/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1000349921,
+      "name": "GEFEN CUBES CHOPPED ORCRUSHED GARLIC, 70-79 G",
+      "sale_story": null,
+      "sku": "21100337_EA",
+      "description": "SELECTED VARIETIES",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22897032/1e5726e6-1f20-11f1-9f7f-06149c7e5c73/x_large",
+      "custom_id_field_1": "21100337_EA",
+      "custom_id_field_2": "21246958_EA",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Fruits & Vegetables"
+      ],
+      "pre_price_text": "",
+      "price_text": "5.49",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1611.82,
+      "bottom": -1064.44,
+      "right": 1921.78,
+      "top": -804.54,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Vegetables",
+          "google_category_id": 2833
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Garlic",
+          "google_category_id": 2856
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7838648,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.loblaws.ca/p/21100337_EA",
+      "item_web_url": "https://www.loblaws.ca/p/21100337_EA",
+      "brand": "Gefen",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22897032/1e5726e6-1f20-11f1-9f7f-06149c7e5c73/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1000349903,
+      "name": "GEFEN PASTA OR PIZZA SAUCE, 689 G",
+      "sale_story": null,
+      "sku": "20314407002_EA",
+      "description": "SELECTED VARIETIES",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22897032/22aa2c5c-1f20-11f1-9f7f-06149c7e5c73/x_large",
+      "custom_id_field_1": "20314407002_EA",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Pantry"
+      ],
+      "pre_price_text": "",
+      "price_text": "4.50",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1303.85,
+      "bottom": -1851.95,
+      "right": 1609.91,
+      "top": -1595.43,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Condiments & Sauces",
+          "google_category_id": 345
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Pasta Sauce",
+          "google_category_id": 2698
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7838648,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.loblaws.ca/p/20314407002_EA",
+      "item_web_url": "https://www.loblaws.ca/p/20314407002_EA",
+      "brand": "Gefen",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22897032/22aa2c5c-1f20-11f1-9f7f-06149c7e5c73/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1000349951,
+      "name": "GALIL TEA, 40 G OR CORMIT CHOCOLATE BAR, 85 G",
+      "sale_story": null,
+      "sku": "20935482_EA",
+      "description": "SELECTED VARIETIES",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22897031/1f892c76-1f20-11f1-be2a-fac5e0f1a189/x_large",
+      "custom_id_field_1": "20935482_EA",
+      "custom_id_field_2": "21732744_EA",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Pantry"
+      ],
+      "pre_price_text": "",
+      "price_text": "3.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 24.22,
+      "bottom": -2130.35,
+      "right": 334.29,
+      "top": -1848.18,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Candy & Chocolate",
+          "google_category_id": 2682
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7838648,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.loblaws.ca/p/20935482_EA",
+      "item_web_url": "https://www.loblaws.ca/p/20935482_EA",
+      "brand": "GALIL | CORMIT",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22897031/1f892c76-1f20-11f1-be2a-fac5e0f1a189/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1000349953,
+      "name": "MANISCHEWITZ MATZO BALL AND SOUP MIX, 127-141 G OR USHIA SAUCE, 300 ML",
+      "sale_story": null,
+      "sku": "20176971001_EA",
+      "description": "SELECTED VARIETIES",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22897031/1cc42018-1f20-11f1-be2a-fac5e0f1a189/x_large",
+      "custom_id_field_1": "20176971001_EA",
+      "custom_id_field_2": "21057721_EA",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Pantry"
+      ],
+      "pre_price_text": "",
+      "price_text": "3.29",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 24.13,
+      "bottom": -1565.08,
+      "right": 333.75,
+      "top": -1281.34,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Soups & Broths",
+          "google_category_id": 359
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7838648,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.loblaws.ca/p/20176971001_EA",
+      "item_web_url": "https://www.loblaws.ca/p/20176971001_EA",
+      "brand": "MANISCHEWITZ | USHIA",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22897031/1cc42018-1f20-11f1-be2a-fac5e0f1a189/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1000351376,
+      "name": "CLASSICO HEAVY DUTY CLEAR TEASPOONS OR KNIFES, 50'S",
+      "sale_story": null,
+      "sku": "21594072_EA",
+      "description": "SELECTED VARIETIES",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22897032/23cad636-1f20-11f1-9f7f-06149c7e5c73/x_large",
+      "custom_id_field_1": "21594072_EA",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Pantry"
+      ],
+      "pre_price_text": "",
+      "price_text": "3.29",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1614.59,
+      "bottom": -1854.7,
+      "right": 1922.17,
+      "top": -1595.4,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": null,
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7838648,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.loblaws.ca/p/21594072_EA",
+      "item_web_url": "https://www.loblaws.ca/p/21594072_EA",
+      "brand": "Classico",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22897032/23cad636-1f20-11f1-9f7f-06149c7e5c73/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1000351355,
+      "name": "GEFEN MANDARINS ORANGES, 312 OR GALIL RICE, CORN CAKES, 100 G",
+      "sale_story": null,
+      "sku": "20059582001_EA",
+      "description": "SELECTED VARIETIES",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22897032/1a30408e-1f20-11f1-9f7f-06149c7e5c73/x_large",
+      "custom_id_field_1": "20059582001_EA",
+      "custom_id_field_2": "21059192_EA",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Pantry"
+      ],
+      "pre_price_text": "",
+      "price_text": "2.50",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1000.89,
+      "bottom": -798.96,
+      "right": 1309.06,
+      "top": -540.27,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": null,
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7838648,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.loblaws.ca/p/20059582001_EA",
+      "item_web_url": "https://www.loblaws.ca/p/20059582001_EA",
+      "brand": "GEFEN | GALIL",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22897032/1a30408e-1f20-11f1-9f7f-06149c7e5c73/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1000351368,
+      "name": "WHITE ROCK SELTZER, 1 L",
+      "sale_story": null,
+      "sku": "20620205007_EA",
+      "description": "SELECTED VARIETIES",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22897032/218e3566-1f20-11f1-9f7f-06149c7e5c73/x_large",
+      "custom_id_field_1": "20620205007_EA",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Pantry"
+      ],
+      "pre_price_text": "",
+      "price_text": "0.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1304.93,
+      "bottom": -1584.6,
+      "right": 1607.82,
+      "top": -1328.41,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Beverages",
+          "google_category_id": 320
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Water",
+          "google_category_id": 340
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7838648,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.loblaws.ca/p/20620205007_EA",
+      "item_web_url": "https://www.loblaws.ca/p/20620205007_EA",
+      "brand": "White Rock",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22897032/218e3566-1f20-11f1-9f7f-06149c7e5c73/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1000363979,
+      "name": "STREIT'S, 227-284 G OR STREIT'S CAKE MIX, 340-341 G",
+      "sale_story": null,
+      "sku": "20312825003_EA",
+      "description": "SELECTED VARIETIES",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22897031/179c63c0-1f20-11f1-be2a-fac5e0f1a189/x_large",
+      "custom_id_field_1": "20312825003_EA",
+      "custom_id_field_2": "21523788_EA",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Deli & Ready Meals"
+      ],
+      "pre_price_text": "",
+      "price_text": "7.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 336.72,
+      "bottom": -1849.38,
+      "right": 644.28,
+      "top": -1562.95,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Cooking & Baking Ingredients",
+          "google_category_id": 346
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Baking Mixes",
+          "google_category_id": 2714
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7838648,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.loblaws.ca/p/20312825003_EA",
+      "item_web_url": "https://www.loblaws.ca/p/20312825003_EA",
+      "brand": "Streit's",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22897031/179c63c0-1f20-11f1-be2a-fac5e0f1a189/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1000363989,
+      "name": "AMSTELVELDER CHEESE SLICE OR CHUNK, 125-170 G OR PIZZA FRUIT SLICE, 227 G",
+      "sale_story": null,
+      "sku": "21593652_EA",
+      "description": "SELECTED VARIETIES",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22897031/1ea508a2-1f20-11f1-be2a-fac5e0f1a189/x_large",
+      "custom_id_field_1": "21593652_EA",
+      "custom_id_field_2": "21665890_EA",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Dairy & Eggs"
+      ],
+      "pre_price_text": "",
+      "price_text": "7.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 635.93,
+      "bottom": -1839.08,
+      "right": 946.88,
+      "top": -1552.98,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Bakery",
+          "google_category_id": 343
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7838648,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.loblaws.ca/p/21593652_EA",
+      "item_web_url": "https://www.loblaws.ca/p/21593652_EA",
+      "brand": "AMSTELVELDER | PIZZA FRUIT",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22897031/1ea508a2-1f20-11f1-be2a-fac5e0f1a189/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1000363973,
+      "name": "NO NAME\u00ae NATURALLY IMPERFECT RUSSET POTATOES, 5 LB BAG",
+      "sale_story": null,
+      "sku": "20867058001_EA",
+      "description": "PRODUCT OF CANADA,\nCANADA NO.2 GRADE",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22897031/1a5ae956-1f20-11f1-be2a-fac5e0f1a189/x_large",
+      "custom_id_field_1": "20867058001_EA",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Fruits & Vegetables"
+      ],
+      "pre_price_text": "",
+      "price_text": "3.50",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 335.29,
+      "bottom": -990.38,
+      "right": 646.68,
+      "top": -695.11,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Vegetables",
+          "google_category_id": 2833
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Potatoes",
+          "google_category_id": 2885
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7838648,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.loblaws.ca/p/20867058001_EA",
+      "item_web_url": "https://www.loblaws.ca/p/20867058001_EA",
+      "brand": "no name",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22897031/1a5ae956-1f20-11f1-be2a-fac5e0f1a189/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1000364056,
+      "name": "CER\u00c9S JUICE, 1 L",
+      "sale_story": null,
+      "sku": "00000000_EA",
+      "description": "SELECTED VARIETIES",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22897031/22b5ef10-1f20-11f1-be2a-fac5e0f1a189/x_large",
+      "custom_id_field_1": "00000000_EA",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Drinks"
+      ],
+      "pre_price_text": "",
+      "price_text": "3.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 640.02,
+      "bottom": -2438.21,
+      "right": 948.01,
+      "top": -2142.52,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Beverages",
+          "google_category_id": 320
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Juice",
+          "google_category_id": 331
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7838648,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.loblaws.ca/p/00000000_EA",
+      "item_web_url": "https://www.loblaws.ca/p/00000000_EA",
+      "brand": "CERES",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22897031/22b5ef10-1f20-11f1-be2a-fac5e0f1a189/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1000364060,
+      "name": "PIERREBONNE JAM, 250 ML OR TUSCANINI TOMATOES, 400 G",
+      "sale_story": null,
+      "sku": "21451678_EA",
+      "description": "SELECTED VARIETIES",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22897031/205a00e4-1f20-11f1-be2a-fac5e0f1a189/x_large",
+      "custom_id_field_1": "21451678_EA",
+      "custom_id_field_2": "21176102_EA",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Pantry"
+      ],
+      "pre_price_text": "",
+      "price_text": "3.29",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 328.48,
+      "bottom": -2138.67,
+      "right": 639.14,
+      "top": -1861.45,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Dips & Spreads",
+          "google_category_id": 348
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Jams & Jellies",
+          "google_category_id": 2762
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7838648,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.loblaws.ca/p/21451678_EA",
+      "item_web_url": "https://www.loblaws.ca/p/21451678_EA",
+      "brand": "PIERREBONNE | TUSCANINI",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22897031/205a00e4-1f20-11f1-be2a-fac5e0f1a189/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1000364064,
+      "name": "YEHUDA MATZO, 297-300 G",
+      "sale_story": null,
+      "sku": "21247448_EA",
+      "description": "SELECTED VARIETIES",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22897031/1e85c0aa-1f20-11f1-be2a-fac5e0f1a189/x_large",
+      "custom_id_field_1": "21247448_EA",
+      "custom_id_field_2": "21095498_EA",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Pantry"
+      ],
+      "pre_price_text": "",
+      "price_text": "11.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 26.84,
+      "bottom": -2442.49,
+      "right": 335.05,
+      "top": -2135.78,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Snack Foods",
+          "google_category_id": 358
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7838648,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.loblaws.ca/p/21247448_EA",
+      "item_web_url": "https://www.loblaws.ca/p/21247448_EA",
+      "brand": "Yehuda",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22897031/1e85c0aa-1f20-11f1-be2a-fac5e0f1a189/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1000369162,
+      "name": "STREIT'S PANCAKE MIX, 170 G",
+      "sale_story": null,
+      "sku": "20299124001_EA",
+      "description": "SELECTED VARIETIES",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22897032/190c49fa-1f20-11f1-9f7f-06149c7e5c73/x_large",
+      "custom_id_field_1": "20299124001_EA",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Pantry"
+      ],
+      "pre_price_text": "",
+      "price_text": "5.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1000.13,
+      "bottom": -534.33,
+      "right": 1309.48,
+      "top": -264.68,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Cooking & Baking Ingredients",
+          "google_category_id": 346
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Waffle & Pancake Mixes",
+          "google_category_id": 2747
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7838648,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.loblaws.ca/p/20299124001_EA",
+      "item_web_url": "https://www.loblaws.ca/p/20299124001_EA",
+      "brand": "Streit's",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22897032/190c49fa-1f20-11f1-9f7f-06149c7e5c73/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1000369147,
+      "name": "TA'AMBONNE DIPS, 200 G",
+      "sale_story": null,
+      "sku": "21396312_EA",
+      "description": "SELECTED VARIETIES",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22897031/1b300758-1f20-11f1-be2a-fac5e0f1a189/x_large",
+      "custom_id_field_1": "21396312_EA",
+      "custom_id_field_2": "21396343_EA",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Deli & Ready Meals"
+      ],
+      "pre_price_text": "",
+      "price_text": "2.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 329.5,
+      "bottom": -1278.36,
+      "right": 639.12,
+      "top": -985.03,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Dips & Spreads",
+          "google_category_id": 348
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7838648,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.loblaws.ca/p/21396312_EA",
+      "item_web_url": "https://www.loblaws.ca/p/21396312_EA",
+      "brand": "TA'AMBONNE",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22897031/1b300758-1f20-11f1-be2a-fac5e0f1a189/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1000369188,
+      "name": "CROWN SUPREME COTTONSEED OR VEGETABLE OIL, 710 ML",
+      "sale_story": null,
+      "sku": "21385428_EA",
+      "description": "SELECTED VARIETIES",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22897031/1dbeedc2-1f20-11f1-be2a-fac5e0f1a189/x_large",
+      "custom_id_field_1": "21385428_EA",
+      "custom_id_field_2": "21453484_EA",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Pantry"
+      ],
+      "pre_price_text": "",
+      "price_text": "6.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 25.16,
+      "bottom": -1833.95,
+      "right": 336.76,
+      "top": -1558.35,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Cooking & Baking Ingredients",
+          "google_category_id": 346
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Cooking Oils",
+          "google_category_id": 2722
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7838648,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.loblaws.ca/p/21385428_EA",
+      "item_web_url": "https://www.loblaws.ca/p/21385428_EA",
+      "brand": "CROWN SUPREME",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22897031/1dbeedc2-1f20-11f1-be2a-fac5e0f1a189/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1000369203,
+      "name": "KOSHER PICKLED BEEF BRISKET",
+      "sale_story": null,
+      "sku": "20811150_KG",
+      "description": "55.12/KG",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22897031/1874c09e-1f20-11f1-be2a-fac5e0f1a189/x_large",
+      "custom_id_field_1": "20811150_KG",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Meat & Seafood"
+      ],
+      "pre_price_text": "",
+      "price_text": "25.00",
+      "post_price_text": "lb",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 28.29,
+      "bottom": -696.85,
+      "right": 337.12,
+      "top": -420.37,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Meat, Seafood & Eggs",
+          "google_category_id": 353
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Meat",
+          "google_category_id": 2917
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Lunch & Deli Meats",
+          "google_category_id": 2920
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7838648,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.loblaws.ca/p/20811150_KG",
+      "item_web_url": "https://www.loblaws.ca/p/20811150_KG",
+      "brand": "KOSHER",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22897031/1874c09e-1f20-11f1-be2a-fac5e0f1a189/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1000371337,
+      "name": "ZETA EXTRA VIRGIN OLIVE OIL, 750 ML",
+      "sale_story": null,
+      "sku": "21060259_EA",
+      "description": "SELECTED VARIETIES",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/413130714/1773454696/extra_large.jpg",
+      "custom_id_field_1": "21060259_EA",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Pantry"
+      ],
+      "pre_price_text": "",
+      "price_text": "15.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 998.86,
+      "bottom": -1579.36,
+      "right": 1307.93,
+      "top": -1333.61,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Cooking & Baking Ingredients",
+          "google_category_id": 346
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Cooking Oils",
+          "google_category_id": 2722
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7838648,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.loblaws.ca/p/21060259_EA",
+      "item_web_url": "https://www.loblaws.ca/p/21060259_EA",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_items/413130714/1773454696/extra_large.jpg"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1000371321,
+      "name": "SHNEIDER'S POUCH, 360 G OR PEREG MATZO BAG, 255-340 G",
+      "sale_story": null,
+      "sku": "21594077_EA",
+      "description": "SELECTED VARIETIES",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22897031/23c37bca-1f20-11f1-be2a-fac5e0f1a189/x_large",
+      "custom_id_field_1": "21594077_EA",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Pantry"
+      ],
+      "pre_price_text": "",
+      "price_text": "6.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 338.41,
+      "bottom": -1575.78,
+      "right": 642.76,
+      "top": -1287.63,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Snack Foods",
+          "google_category_id": 358
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7838648,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.loblaws.ca/p/21594077_EA",
+      "item_web_url": "https://www.loblaws.ca/p/21594077_EA",
+      "brand": "SCHNEIDERS | PEREG",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22897031/23c37bca-1f20-11f1-be2a-fac5e0f1a189/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1000371369,
+      "name": "CELERY",
+      "sale_story": null,
+      "sku": "20163119001_EA",
+      "description": "PRODUCT OF MEXICO\nOR U.S.A.\nEACH",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22897031/1a5f0356-1f20-11f1-be2a-fac5e0f1a189/x_large",
+      "custom_id_field_1": "20163119001_EA",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Fruits & Vegetables"
+      ],
+      "pre_price_text": "",
+      "price_text": "4.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 637.75,
+      "bottom": -975.9,
+      "right": 944.98,
+      "top": -708.18,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Vegetables",
+          "google_category_id": 2833
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Celery",
+          "google_category_id": 2847
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7838648,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.loblaws.ca/p/20163119001_EA",
+      "item_web_url": "https://www.loblaws.ca/p/20163119001_EA",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22897031/1a5f0356-1f20-11f1-be2a-fac5e0f1a189/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1000371529,
+      "name": "ELITE COFFEE INSTANT CANISTER, 200 G, ABE'S SORBETTO PREMIUM, 1.5 L",
+      "sale_story": null,
+      "sku": "20081513_EA",
+      "description": "SELECTED VARIETIES",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22897031/1ce11c40-1f20-11f1-be2a-fac5e0f1a189/x_large",
+      "custom_id_field_1": "20081513_EA",
+      "custom_id_field_2": "21594348_EA",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Pantry"
+      ],
+      "pre_price_text": "",
+      "price_text": "10.49",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 635.55,
+      "bottom": -1565.24,
+      "right": 947.58,
+      "top": -1276.52,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Beverages",
+          "google_category_id": 320
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Coffee",
+          "google_category_id": 325
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7838648,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.loblaws.ca/p/20081513_EA",
+      "item_web_url": "https://www.loblaws.ca/p/20081513_EA",
+      "brand": "ELITE | ABE'S",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22897031/1ce11c40-1f20-11f1-be2a-fac5e0f1a189/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1000391034,
+      "name": "AISH TAMID CANDLES MEMORIAL TINS",
+      "sale_story": null,
+      "sku": "21060115_EA",
+      "description": "1 DAY",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22897032/2291326a-1f20-11f1-9f7f-06149c7e5c73/x_large",
+      "custom_id_field_1": "21060115_EA",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Household Supplies"
+      ],
+      "pre_price_text": "",
+      "price_text": "0.79",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1003.71,
+      "bottom": -1858.83,
+      "right": 1310.36,
+      "top": -1594.18,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Home & Garden",
+          "google_category_id": 745
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Decor",
+          "google_category_id": 766
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Candles",
+          "google_category_id": 779
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7838648,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.loblaws.ca/p/21060115_EA",
+      "item_web_url": "https://www.loblaws.ca/p/21060115_EA",
+      "brand": "Aish Tamid",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22897032/2291326a-1f20-11f1-9f7f-06149c7e5c73/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1000393138,
+      "name": "TUSCANINI CHOCOLATE BAG, 153 G",
+      "sale_story": null,
+      "sku": "21666057_EA",
+      "description": "SELECTED VARIETIES",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22897032/2061ae20-1f20-11f1-9f7f-06149c7e5c73/x_large",
+      "custom_id_field_1": "21666057_EA",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Pantry"
+      ],
+      "pre_price_text": "",
+      "price_text": "9.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1304.05,
+      "bottom": -1329.37,
+      "right": 1608.69,
+      "top": -1071.23,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Candy & Chocolate",
+          "google_category_id": 2682
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7838648,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.loblaws.ca/p/21666057_EA",
+      "item_web_url": "https://www.loblaws.ca/p/21666057_EA",
+      "brand": "TUSCANINI",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22897032/2061ae20-1f20-11f1-9f7f-06149c7e5c73/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1000392919,
+      "name": "BEETS, 2 LB BAG",
+      "sale_story": null,
+      "sku": "20069522001_EA",
+      "description": "PRODUCT OF CANADA OR U.S.A.",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22897031/196b535a-1f20-11f1-be2a-fac5e0f1a189/x_large",
+      "custom_id_field_1": "20069522001_EA",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Fruits & Vegetables"
+      ],
+      "pre_price_text": "",
+      "price_text": "4.50",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 27.64,
+      "bottom": -982.3,
+      "right": 336.38,
+      "top": -702.21,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Vegetables",
+          "google_category_id": 2833
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Beets",
+          "google_category_id": 2838
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7838648,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.loblaws.ca/p/20069522001_EA",
+      "item_web_url": "https://www.loblaws.ca/p/20069522001_EA",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22897031/196b535a-1f20-11f1-be2a-fac5e0f1a189/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1000395304,
+      "name": "LIOR KOSHER SALT BOX, 1.81 KG",
+      "sale_story": null,
+      "sku": "21408495_EA",
+      "description": null,
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22897032/1d64e5de-1f20-11f1-9f7f-06149c7e5c73/x_large",
+      "custom_id_field_1": "21408495_EA",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Deli & Ready Meals"
+      ],
+      "pre_price_text": "",
+      "price_text": "6.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1305.21,
+      "bottom": -1059.55,
+      "right": 1608.84,
+      "top": -806.01,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Seasonings & Spices",
+          "google_category_id": 357
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Salt",
+          "google_category_id": 2929
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7838648,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.loblaws.ca/p/21408495_EA",
+      "item_web_url": "https://www.loblaws.ca/p/21408495_EA",
+      "brand": "LIOR",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22897032/1d64e5de-1f20-11f1-9f7f-06149c7e5c73/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1000348880,
+      "name": "PRIGAT SUNFLOWER SEEDS, 100 G",
+      "sale_story": null,
+      "sku": "20070700_EA",
+      "description": "SELECTED VARIETIES",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22897032/1f56ceb6-1f20-11f1-9f7f-06149c7e5c73/x_large",
+      "custom_id_field_1": "20070700_EA",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Pantry"
+      ],
+      "pre_price_text": "",
+      "price_text": "4.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1001.31,
+      "bottom": -1053.01,
+      "right": 1310.22,
+      "top": -806.79,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Nuts & Seeds",
+          "google_category_id": 354
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7838648,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.loblaws.ca/p/20070700_EA",
+      "item_web_url": "https://www.loblaws.ca/p/20070700_EA",
+      "brand": "PRIGAT",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22897032/1f56ceb6-1f20-11f1-9f7f-06149c7e5c73/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1000364054,
+      "name": "GEFEN ALMOND MILK UNSWEETENED, 1 L OR HADDAR CHOCOLATE CHIPS, 252 G",
+      "sale_story": null,
+      "sku": "21612942_EA",
+      "description": "SELECTED VARIETIES",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22897031/221b77aa-1f20-11f1-be2a-fac5e0f1a189/x_large",
+      "custom_id_field_1": "21612942_EA",
+      "custom_id_field_2": "21665888_EA",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Pantry"
+      ],
+      "pre_price_text": "",
+      "price_text": "5.29",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 333.4,
+      "bottom": -2434.79,
+      "right": 632.79,
+      "top": -2133.65,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Snack Foods",
+          "google_category_id": 358
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7838648,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.loblaws.ca/p/21612942_EA",
+      "item_web_url": "https://www.loblaws.ca/p/21612942_EA",
+      "brand": "GEFEN | HADDAR",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22897031/221b77aa-1f20-11f1-be2a-fac5e0f1a189/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1000348874,
+      "name": "STREIT'S GRAVY MIX, 119 G OR STREIT'S BAG N' BAKE 787 G",
+      "sale_story": null,
+      "sku": "20112339001_EA",
+      "description": "SELECTED VARIETIES",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22897032/1c453ec4-1f20-11f1-9f7f-06149c7e5c73/x_large",
+      "custom_id_field_1": "20112339001_EA",
+      "custom_id_field_2": "21593611_EA",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Pantry"
+      ],
+      "pre_price_text": "",
+      "price_text": "3.50",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1307.15,
+      "bottom": -809.58,
+      "right": 1608.75,
+      "top": -558.73,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Condiments & Sauces",
+          "google_category_id": 345
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Gravy",
+          "google_category_id": 2689
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7838648,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.loblaws.ca/p/20112339001_EA",
+      "item_web_url": "https://www.loblaws.ca/p/20112339001_EA",
+      "brand": "Streit's",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22897032/1c453ec4-1f20-11f1-9f7f-06149c7e5c73/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1000364042,
+      "name": "GEFEN BEETS VACUUM PACK, 500 G",
+      "sale_story": null,
+      "sku": "21028955_EA",
+      "description": "SELECTED VARIETIES",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22897032/25cea002-1f20-11f1-9f7f-06149c7e5c73/x_large",
+      "custom_id_field_1": "21028955_EA",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Pantry"
+      ],
+      "pre_price_text": "",
+      "price_text": "2.79",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1616.96,
+      "bottom": -2131.09,
+      "right": 1922.32,
+      "top": -1866.6,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Vegetables",
+          "google_category_id": 2833
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Beets",
+          "google_category_id": 2838
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7838648,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.loblaws.ca/p/21028955_EA",
+      "item_web_url": "https://www.loblaws.ca/p/21028955_EA",
+      "brand": "Gefen",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22897032/25cea002-1f20-11f1-9f7f-06149c7e5c73/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1000364048,
+      "name": "MUNCH REAL LAYER CAKE, 397 G",
+      "sale_story": null,
+      "sku": "21523762_EA",
+      "description": "SELECTED VARIETIES",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22897031/1b310432-1f20-11f1-be2a-fac5e0f1a189/x_large",
+      "custom_id_field_1": "21523762_EA",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Pantry"
+      ],
+      "pre_price_text": "",
+      "price_text": "12.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 25.33,
+      "bottom": -1276.61,
+      "right": 336.15,
+      "top": -981.2,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Bakery",
+          "google_category_id": 343
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Cakes & Dessert Bars",
+          "google_category_id": 2669
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7838648,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.loblaws.ca/p/21523762_EA",
+      "item_web_url": "https://www.loblaws.ca/p/21523762_EA",
+      "brand": "Munch real",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22897031/1b310432-1f20-11f1-be2a-fac5e0f1a189/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1000348878,
+      "name": "CROWN SUPREME TUNA CAN, 170 G OR CROWN SUPREME HEARTS OF PALM CUT, 400 ML",
+      "sale_story": null,
+      "sku": "20104490_EA",
+      "description": null,
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22897032/17d62fa6-1f20-11f1-9f7f-06149c7e5c73/x_large",
+      "custom_id_field_1": "20104490_EA",
+      "custom_id_field_2": "20291574_EA",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Pantry"
+      ],
+      "pre_price_text": "",
+      "price_text": "2.50",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1307.63,
+      "bottom": -543.82,
+      "right": 1607.88,
+      "top": -276.09,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": null,
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7838648,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.loblaws.ca/p/20104490_EA",
+      "item_web_url": "https://www.loblaws.ca/p/20104490_EA",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22897032/17d62fa6-1f20-11f1-9f7f-06149c7e5c73/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1000364045,
+      "name": "MOTOLA PICKLES, 670 G",
+      "sale_story": null,
+      "sku": "20214491001_EA",
+      "description": "SELCETED VARIETIES",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22897032/21a0d6ee-1f20-11f1-9f7f-06149c7e5c73/x_large",
+      "custom_id_field_1": "20214491001_EA",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Pantry"
+      ],
+      "pre_price_text": "",
+      "price_text": "3.50",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1612.83,
+      "bottom": -1596.87,
+      "right": 1922.47,
+      "top": -1335.36,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Condiments & Sauces",
+          "google_category_id": 345
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Pickled Fruits & Vegetables",
+          "google_category_id": 2699
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7838648,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.loblaws.ca/p/20214491001_EA",
+      "item_web_url": "https://www.loblaws.ca/p/20214491001_EA",
+      "brand": "MOTOLA",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22897032/21a0d6ee-1f20-11f1-9f7f-06149c7e5c73/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1000364038,
+      "name": "TONNELLI VINEGAR BALSAMIC, 500 ML OR GOLD'S DUCK SAUCE, 1134 G",
+      "sale_story": null,
+      "sku": "20082041001_EA",
+      "description": null,
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22897032/17ddc374-1f20-11f1-9f7f-06149c7e5c73/x_large",
+      "custom_id_field_1": "20082041001_EA",
+      "custom_id_field_2": "20094337_EA",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Pantry"
+      ],
+      "pre_price_text": "",
+      "price_text": "6.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1609.13,
+      "bottom": -540.14,
+      "right": 1922.99,
+      "top": -284.02,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Condiments & Sauces",
+          "google_category_id": 345
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7838648,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.loblaws.ca/p/20082041001_EA",
+      "item_web_url": "https://www.loblaws.ca/p/20082041001_EA",
+      "brand": "TONNELLI | GOLD'S DUCK",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22897032/17ddc374-1f20-11f1-9f7f-06149c7e5c73/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1000349167,
+      "name": "ACHVA TAHINI 340=400 G MANISCHEWITZ CRACKERS TAM 227 G",
+      "sale_story": null,
+      "sku": "20122784001_EA",
+      "description": null,
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22897032/24c40972-1f20-11f1-9f7f-06149c7e5c73/x_large",
+      "custom_id_field_1": "20122784001_EA",
+      "custom_id_field_2": "20303280001_EA",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Dairy & Eggs"
+      ],
+      "pre_price_text": "",
+      "price_text": "5.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1002.08,
+      "bottom": -2131.07,
+      "right": 1311.02,
+      "top": -1872.67,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Snack Foods",
+          "google_category_id": 358
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Crackers",
+          "google_category_id": 2934
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7838648,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.loblaws.ca/p/20122784001_EA",
+      "item_web_url": "https://www.loblaws.ca/p/20122784001_EA",
+      "brand": "ACHVA |MANISCHEWITZ",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22897032/24c40972-1f20-11f1-9f7f-06149c7e5c73/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1000371439,
+      "name": "MARVID CHICKEN BREAST",
+      "sale_story": null,
+      "sku": "21159032_EA",
+      "description": "FROZEN\n19.81/KG",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22897031/1965cb92-1f20-11f1-be2a-fac5e0f1a189/x_large",
+      "custom_id_field_1": "21159032_EA",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Meat & Seafood"
+      ],
+      "pre_price_text": "",
+      "price_text": "8.99",
+      "post_price_text": "lb",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 637.12,
+      "bottom": -702.81,
+      "right": 943.3,
+      "top": -435.67,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Meat, Seafood & Eggs",
+          "google_category_id": 353
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Meat",
+          "google_category_id": 2917
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7838648,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.loblaws.ca/p/21159032_EA",
+      "item_web_url": "https://www.loblaws.ca/p/21159032_EA",
+      "brand": "MARVID",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22897031/1965cb92-1f20-11f1-be2a-fac5e0f1a189/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1000392442,
+      "name": "PARDES FARMS BROCCOLI FLORETS, 680 G OR PEREG BAG QUINOA, 454 G",
+      "sale_story": null,
+      "sku": "21085056_EA",
+      "description": "SELECTED VARIETIES",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-03-19T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/22897032/1f707a78-1f20-11f1-9f7f-06149c7e5c73/x_large",
+      "custom_id_field_1": "21085056_EA",
+      "custom_id_field_2": "21029551_EA",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-03-19",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Fruits & Vegetables"
+      ],
+      "pre_price_text": "",
+      "price_text": "8.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 999.79,
+      "bottom": -1322.62,
+      "right": 1310.46,
+      "top": -1065.74,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Vegetables",
+          "google_category_id": 2833
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Broccoli",
+          "google_category_id": 2840
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7838648,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.loblaws.ca/p/21085056_EA",
+      "item_web_url": "https://www.loblaws.ca/p/21085056_EA",
+      "brand": "Pardes Farms",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/22897032/1f707a78-1f20-11f1-9f7f-06149c7e5c73/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    }
+  ]
+}

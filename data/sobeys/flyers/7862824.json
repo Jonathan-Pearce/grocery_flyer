@@ -1,0 +1,4135 @@
+{
+  "fetched_on": "2026-04-02",
+  "publication_id": "7862824",
+  "publication_meta": {
+    "id": 7862824,
+    "flyer_run_id": 1156224,
+    "valid_from": "2026-04-02T00:00:00-04:00",
+    "valid_to": "2026-04-08T23:59:59-04:00",
+    "available_from": "2026-04-02T00:00:00-04:00",
+    "available_to": "2026-04-08T23:59:59-04:00",
+    "locale": "en",
+    "pdf_url": "https://f.wishabi.net/flyers/16601592/7eb6d076e1ef9023.pdf",
+    "postal_code": "L4J6W7",
+    "merchant_name": "Sobeys",
+    "merchant_logo_url": "https://images.wishabi.net/merchants/2072/1447788867/large",
+    "deep_link": "https://www.sobeys.com/en/flyer?flyer_run_id=1156224&flyer_type_name=kosher&locale=en&postal_code=L4J6W7&store_code=659",
+    "flyer_type_id": 6050,
+    "sfml_url": "https://cdn-gateflipp.flippback.com/storefront-payload/1156224/7862824/1a98135b3cf4f16f341f2c3fe950a526a0ae9fe665d49ad7eb1d307d2ff847c4?merchant_id=2072",
+    "name": "Weekly Flyer - Kosher",
+    "flyer_type": "kosher",
+    "external_display_name": "Weekly eFlyer 04/02 - 04/08",
+    "first_page_thumbnail_400h_url": "https://f.wishabi.net/flyers/7862824/stock_premium/1774914941.jpg",
+    "storefront_images": {
+      "carousel_organic": "https://f.wishabi.net/flyers/7862824/storefront_carousel_organic/1774914941.jpg"
+    },
+    "correction_notices": []
+  },
+  "products_url": "https://dam.flippenterprise.net/flyerkit/publication/7862824/products?display_type=all&locale=en&access_token=afbc75b4e335236182ac2fba092a0d4a",
+  "products": [
+    {
+      "id": 1003282493,
+      "name": "Romaine Hearts",
+      "sale_story": null,
+      "sku": null,
+      "description": "product of Mexico or USA 3 pk",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23004009/85cc946e-2943-11f1-a157-721d7c42fcfc/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "4.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 5980.5,
+      "bottom": -999.66,
+      "right": 6622.74,
+      "top": -543.55,
+      "page": 4,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Vegetables",
+          "google_category_id": 2833
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7862824,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23004009/85cc946e-2943-11f1-a157-721d7c42fcfc/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003282496,
+      "name": "Red, Orange or Yellow Peppers",
+      "sale_story": null,
+      "sku": null,
+      "description": "product of Ontario",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23004009/87eb3962-2943-11f1-a157-721d7c42fcfc/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Produce"
+      ],
+      "pre_price_text": "",
+      "price_text": "3.99",
+      "post_price_text": "/lb",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 6704.24,
+      "bottom": -1316.24,
+      "right": 7134.46,
+      "top": -1020.18,
+      "page": 4,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Vegetables",
+          "google_category_id": 2833
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Peppers",
+          "google_category_id": 2884
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7862824,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23004009/87eb3962-2943-11f1-a157-721d7c42fcfc/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003282006,
+      "name": "Shredded Cheese pizza or mozzarella",
+      "sale_story": null,
+      "sku": null,
+      "description": "2 lb",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23004006/8d79a4cc-2943-11f1-b5fa-860c165f8e51/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Dairy"
+      ],
+      "pre_price_text": "HOT PRICE",
+      "price_text": "24.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 901.73,
+      "bottom": -830.12,
+      "right": 1736.02,
+      "top": -429.76,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Dairy Products",
+          "google_category_id": 347
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Cheese",
+          "google_category_id": 2750
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7862824,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Schtark",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23004006/8d79a4cc-2943-11f1-b5fa-860c165f8e51/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003282021,
+      "name": "AMSTELVELDER Cheese Slices",
+      "sale_story": null,
+      "sku": null,
+      "description": "assorted 125-150 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23004006/88cc01ae-2943-11f1-b5fa-860c165f8e51/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Dairy"
+      ],
+      "pre_price_text": "",
+      "price_text": "6.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1193.53,
+      "bottom": -1566.76,
+      "right": 1706.89,
+      "top": -1222.96,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Dairy Products",
+          "google_category_id": 347
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Cheese",
+          "google_category_id": 2750
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7862824,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "AMSTELVELDER",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23004006/88cc01ae-2943-11f1-b5fa-860c165f8e51/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003282010,
+      "name": "CARMIT Chocolate Bars or WISSOTZKY Tea assorted",
+      "sale_story": null,
+      "sku": null,
+      "description": "30-95 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23004006/86a9c654-2943-11f1-b5fa-860c165f8e51/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Grocery"
+      ],
+      "pre_price_text": "",
+      "price_text": "2.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 86.36,
+      "bottom": -1587.46,
+      "right": 646.09,
+      "top": -1269.33,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Beverages",
+          "google_category_id": 320
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Tea & Infusions",
+          "google_category_id": 338
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7862824,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "CARMIT | WISSOTZKY",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23004006/86a9c654-2943-11f1-b5fa-860c165f8e51/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003282012,
+      "name": "Assorted Macaroons or HADDAR Chocolate Flavoured Chips",
+      "sale_story": null,
+      "sku": null,
+      "description": "226-284 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23004006/89ec77bc-2943-11f1-b5fa-860c165f8e51/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "3.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 649.78,
+      "bottom": -1580.71,
+      "right": 1196.3,
+      "top": -1254.13,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Snack Foods",
+          "google_category_id": 358
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7862824,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Streit's",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23004006/89ec77bc-2943-11f1-b5fa-860c165f8e51/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003282007,
+      "name": "Fresh Atlantic Salmon Fillets",
+      "sale_story": null,
+      "sku": null,
+      "description": "22.02/kg",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23004006/8a882c84-2943-11f1-b5fa-860c165f8e51/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Seafood"
+      ],
+      "pre_price_text": "HOT PRICE",
+      "price_text": "9.99",
+      "post_price_text": "/lb",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 48.3,
+      "bottom": -833.25,
+      "right": 896.92,
+      "top": -422.3,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Meat, Seafood & Eggs",
+          "google_category_id": 353
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Seafood",
+          "google_category_id": 2921
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7862824,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23004006/8a882c84-2943-11f1-b5fa-860c165f8e51/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003282016,
+      "name": "D\u00c9COR Sphere Plates or Bowl Combo",
+      "sale_story": null,
+      "sku": null,
+      "description": "white/gold or white/silver 40 pk",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23004006/8909435c-2943-11f1-b5fa-860c165f8e51/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Home"
+      ],
+      "pre_price_text": "",
+      "price_text": "12.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1197.4,
+      "bottom": -1930.54,
+      "right": 1703.01,
+      "top": -1569.76,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Home & Garden",
+          "google_category_id": 745
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Kitchen & Dining",
+          "google_category_id": 908
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Tableware",
+          "google_category_id": 917
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Dinnerware",
+          "google_category_id": 4224
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Bowls",
+          "google_category_id": 4225
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7862824,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "DECOR",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23004006/8909435c-2943-11f1-b5fa-860c165f8e51/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003282037,
+      "name": "Beef Stew",
+      "sale_story": null,
+      "sku": null,
+      "description": "32.98/kg",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23004007/897af1aa-2943-11f1-8eb8-9ae41cb034b0/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Deli"
+      ],
+      "pre_price_text": "",
+      "price_text": "14.96",
+      "post_price_text": "/lb",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 2967.81,
+      "bottom": -742.19,
+      "right": 3539.82,
+      "top": -343.79,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Meat, Seafood & Eggs",
+          "google_category_id": 353
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Meat",
+          "google_category_id": 2917
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Lunch & Deli Meats",
+          "google_category_id": 2920
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7862824,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "KOSHER",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23004007/897af1aa-2943-11f1-8eb8-9ae41cb034b0/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003282008,
+      "name": "Extra Large Seedless Red or Black Grapes",
+      "sale_story": null,
+      "sku": null,
+      "description": "product of Chile 6.59/kg",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/414930218/1774573862/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Produce"
+      ],
+      "pre_price_text": "HOT PRICE",
+      "price_text": "2.99",
+      "post_price_text": "/lb",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 81.18,
+      "bottom": -1255.53,
+      "right": 945.39,
+      "top": -831.21,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Fruits",
+          "google_category_id": 2776
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Grapes",
+          "google_category_id": 2799
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7862824,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_items/414930218/1774573862/extra_large.jpg"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003282035,
+      "name": "Extra Lean Ground Beef",
+      "sale_story": null,
+      "sku": null,
+      "description": "34.99/kg",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23004007/886a0396-2943-11f1-8eb8-9ae41cb034b0/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Meat"
+      ],
+      "pre_price_text": "",
+      "price_text": "15.87",
+      "post_price_text": "/lb",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 2400.44,
+      "bottom": -742.19,
+      "right": 2967.81,
+      "top": -343.79,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Meat, Seafood & Eggs",
+          "google_category_id": 353
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Meat",
+          "google_category_id": 2917
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Lunch & Deli Meats",
+          "google_category_id": 2920
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7862824,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23004007/886a0396-2943-11f1-8eb8-9ae41cb034b0/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003282038,
+      "name": "UNGAR'S Gefilte Fish Twin Pack",
+      "sale_story": null,
+      "sku": null,
+      "description": "908 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23004007/8308d210-2943-11f1-8eb8-9ae41cb034b0/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Seafood"
+      ],
+      "pre_price_text": "",
+      "price_text": "19.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1882.69,
+      "bottom": -1259.18,
+      "right": 2400.44,
+      "top": -854.59,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Meat, Seafood & Eggs",
+          "google_category_id": 353
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Seafood",
+          "google_category_id": 2921
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7862824,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "UNGAR'S",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23004007/8308d210-2943-11f1-8eb8-9ae41cb034b0/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003282044,
+      "name": "Thaw & Serve Gefilte Fish",
+      "sale_story": null,
+      "sku": null,
+      "description": "453 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23004007/877e59aa-2943-11f1-8eb8-9ae41cb034b0/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Seafood"
+      ],
+      "pre_price_text": "",
+      "price_text": "9.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1888.89,
+      "bottom": -2335.77,
+      "right": 2406.64,
+      "top": -1932.72,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Meat, Seafood & Eggs",
+          "google_category_id": 353
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Seafood",
+          "google_category_id": 2921
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7862824,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "MONTREAL KOSHER",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23004007/877e59aa-2943-11f1-8eb8-9ae41cb034b0/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003282043,
+      "name": "SUPREME Cakes",
+      "sale_story": null,
+      "sku": null,
+      "description": "assorted 450 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23004007/8423a62a-2943-11f1-8eb8-9ae41cb034b0/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "6.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 2398.89,
+      "bottom": -1794.76,
+      "right": 2966.26,
+      "top": -1396.36,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Bakery",
+          "google_category_id": 343
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Cakes & Dessert Bars",
+          "google_category_id": 2669
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7862824,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "CROWN",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23004007/8423a62a-2943-11f1-8eb8-9ae41cb034b0/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003282039,
+      "name": "Beef Shoulder Roast",
+      "sale_story": null,
+      "sku": null,
+      "description": "37.11/kg",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23004007/866aba22-2943-11f1-8eb8-9ae41cb034b0/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Meat"
+      ],
+      "pre_price_text": "",
+      "price_text": "16.83",
+      "post_price_text": "/lb",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1882.69,
+      "bottom": -742.19,
+      "right": 2400.44,
+      "top": -337.59,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Meat, Seafood & Eggs",
+          "google_category_id": 353
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Meat",
+          "google_category_id": 2917
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Lunch & Deli Meats",
+          "google_category_id": 2920
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7862824,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "KOSHER",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23004007/866aba22-2943-11f1-8eb8-9ae41cb034b0/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003282487,
+      "name": "PEREG Quinoa assorted bag or TUSCANINI Pasta",
+      "sale_story": null,
+      "sku": null,
+      "description": null,
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23004008/86504fac-2943-11f1-91fb-6ae7cb2d7fd6/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Grocery"
+      ],
+      "pre_price_text": "",
+      "price_text": "6.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 4906.76,
+      "bottom": -2346.35,
+      "right": 5286.73,
+      "top": -1794.32,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Pasta & Noodles",
+          "google_category_id": 355
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7862824,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "PEREG | TUSCANINI",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23004008/86504fac-2943-11f1-91fb-6ae7cb2d7fd6/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003282489,
+      "name": "Clementines or Mandarins",
+      "sale_story": "500 Scene+ PTS when you buy 2",
+      "sku": null,
+      "description": "product of USA 907 g 2 lb bag",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23004009/84233032-2943-11f1-a157-721d7c42fcfc/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Produce",
+        "Scene+"
+      ],
+      "pre_price_text": "",
+      "price_text": "5.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 6624.74,
+      "bottom": -612.87,
+      "right": 7124.85,
+      "top": -165.75,
+      "page": 4,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Fruits",
+          "google_category_id": 2776
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Citrus Fruits",
+          "google_category_id": 2786
+        },
+        "l6": {
+          "confidence": null,
+          "category_name": "Oranges",
+          "google_category_id": 2792
+        },
+        "l7": null
+      },
+      "flyer_id": 7862824,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Halos",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23004009/84233032-2943-11f1-a157-721d7c42fcfc/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003282503,
+      "name": "Prepared Fresh Daily Roasters or BBQ Grillers",
+      "sale_story": null,
+      "sku": null,
+      "description": "assorted sizes",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23004009/8bc52480-2943-11f1-a157-721d7c42fcfc/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Produce"
+      ],
+      "pre_price_text": "",
+      "price_text": "",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 6278.08,
+      "bottom": -1897.57,
+      "right": 7129.86,
+      "top": -1612.31,
+      "page": 4,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Meat, Seafood & Eggs",
+          "google_category_id": 353
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Meat",
+          "google_category_id": 2917
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Lunch & Deli Meats",
+          "google_category_id": 2920
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7862824,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23004009/8bc52480-2943-11f1-a157-721d7c42fcfc/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003282474,
+      "name": "HOLIDAY, MANISCHWITZ or PIZAZZ Fruit Slices",
+      "sale_story": null,
+      "sku": null,
+      "description": "227 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23004008/881a1fca-2943-11f1-91fb-6ae7cb2d7fd6/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Produce"
+      ],
+      "pre_price_text": "",
+      "price_text": "4.49",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 3624.24,
+      "bottom": -2346.35,
+      "right": 4053.81,
+      "top": -1794.32,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Fruits",
+          "google_category_id": 2776
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7862824,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23004008/881a1fca-2943-11f1-91fb-6ae7cb2d7fd6/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003282477,
+      "name": "PIERRE BONNE Jam",
+      "sale_story": null,
+      "sku": null,
+      "description": "250 mL or STREIT'S Matzo Ball & Soup Mix or Matzo Ball Mix 127 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23004008/84c49d6e-2943-11f1-91fb-6ae7cb2d7fd6/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Deli"
+      ],
+      "pre_price_text": "",
+      "price_text": "2.49",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 4053.81,
+      "bottom": -1268.64,
+      "right": 4478.74,
+      "top": -733.66,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Dips & Spreads",
+          "google_category_id": 348
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Jams & Jellies",
+          "google_category_id": 2762
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7862824,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23004008/84c49d6e-2943-11f1-91fb-6ae7cb2d7fd6/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003282483,
+      "name": "Mini Croutons Soup Mandel Rings",
+      "sale_story": null,
+      "sku": null,
+      "description": "150 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23004008/869f3a36-2943-11f1-91fb-6ae7cb2d7fd6/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Grocery"
+      ],
+      "pre_price_text": "",
+      "price_text": "5.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 4906.76,
+      "bottom": -733.66,
+      "right": 5286.73,
+      "top": -239.56,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": null,
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7862824,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Osem",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23004008/869f3a36-2943-11f1-91fb-6ae7cb2d7fd6/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003282476,
+      "name": "Ice Cream Cake",
+      "sale_story": null,
+      "sku": null,
+      "description": "907 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23004008/8708dee6-2943-11f1-91fb-6ae7cb2d7fd6/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "11.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 4478.74,
+      "bottom": -1268.64,
+      "right": 4906.76,
+      "top": -733.66,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Bakery",
+          "google_category_id": 343
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Cakes & Dessert Bars",
+          "google_category_id": 2669
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7862824,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Sprinkles",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23004008/8708dee6-2943-11f1-91fb-6ae7cb2d7fd6/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003282505,
+      "name": "Plantain",
+      "sale_story": null,
+      "sku": null,
+      "description": "product of Ecuador or Guatemala 3.28/kg",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/414930271/1774573872/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Produce"
+      ],
+      "pre_price_text": "",
+      "price_text": "1.49",
+      "post_price_text": "/lb",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 6270.41,
+      "bottom": -2183.85,
+      "right": 7133.89,
+      "top": -1899.86,
+      "page": 4,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Fruits",
+          "google_category_id": 2776
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Bananas",
+          "google_category_id": 2781
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7862824,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_items/414930271/1774573872/extra_large.jpg"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003282502,
+      "name": "ORGANIC Sliced White or Cremini Mushrooms",
+      "sale_story": "200 Scene+ PTS when you buy 2",
+      "sku": null,
+      "description": "product of Canada 227 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23004009/8b07fa4a-2943-11f1-a157-721d7c42fcfc/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Produce",
+        "Scene+"
+      ],
+      "pre_price_text": "",
+      "price_text": "4.44",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 5405.44,
+      "bottom": -1892.26,
+      "right": 6266.64,
+      "top": -1607.96,
+      "page": 4,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Vegetables",
+          "google_category_id": 2833
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Mushrooms",
+          "google_category_id": 2878
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7862824,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Compliments",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23004009/8b07fa4a-2943-11f1-a157-721d7c42fcfc/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003282482,
+      "name": "Ground Walnuts or Pitted Prunes",
+      "sale_story": null,
+      "sku": null,
+      "description": "170-227g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23004008/85e88c14-2943-11f1-91fb-6ae7cb2d7fd6/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Grocery"
+      ],
+      "pre_price_text": "",
+      "price_text": "6.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 4478.74,
+      "bottom": -2346.35,
+      "right": 4906.76,
+      "top": -1794.32,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Nuts & Seeds",
+          "google_category_id": 354
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7862824,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "KLEIN'S NATURALS",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23004008/85e88c14-2943-11f1-91fb-6ae7cb2d7fd6/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003282491,
+      "name": "Tomatoes on the Vine",
+      "sale_story": null,
+      "sku": null,
+      "description": "product of Ontario 6.59/kg",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23004009/8508f004-2943-11f1-a157-721d7c42fcfc/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Produce"
+      ],
+      "pre_price_text": "",
+      "price_text": "2.99",
+      "post_price_text": "/lb",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 5440.74,
+      "bottom": -1007.21,
+      "right": 5977.71,
+      "top": -660.94,
+      "page": 4,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Vegetables",
+          "google_category_id": 2833
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Tomatoes",
+          "google_category_id": 2896
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7862824,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23004009/8508f004-2943-11f1-a157-721d7c42fcfc/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003282501,
+      "name": "Red Mangoes",
+      "sale_story": null,
+      "sku": null,
+      "description": "product of Mexico",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23004009/889f77b0-2943-11f1-a157-721d7c42fcfc/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Produce"
+      ],
+      "pre_price_text": "2/",
+      "price_text": "5.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 5841.85,
+      "bottom": -1605.62,
+      "right": 6268.29,
+      "top": -1318.44,
+      "page": 4,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Fruits",
+          "google_category_id": 2776
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Stone Fruits",
+          "google_category_id": 2824
+        },
+        "l6": {
+          "confidence": null,
+          "category_name": "Mangoes",
+          "google_category_id": 2827
+        },
+        "l7": null
+      },
+      "flyer_id": 7862824,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23004009/889f77b0-2943-11f1-a157-721d7c42fcfc/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003282040,
+      "name": "Sole Fillets",
+      "sale_story": null,
+      "sku": null,
+      "description": "400 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23004007/85484e5c-2943-11f1-8eb8-9ae41cb034b0/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Seafood"
+      ],
+      "pre_price_text": "",
+      "price_text": "7.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 2968.58,
+      "bottom": -1259.18,
+      "right": 3540.6,
+      "top": -842.19,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Meat, Seafood & Eggs",
+          "google_category_id": 353
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Seafood",
+          "google_category_id": 2921
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7862824,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "FOODFEST",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23004007/85484e5c-2943-11f1-8eb8-9ae41cb034b0/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003282499,
+      "name": "Honeycrisp Apples",
+      "sale_story": null,
+      "sku": null,
+      "description": "product of Ontario Canada extra fancy grade 7.69/kg",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23004009/87f5d3b8-2943-11f1-a157-721d7c42fcfc/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Produce"
+      ],
+      "pre_price_text": "",
+      "price_text": "3.49",
+      "post_price_text": "/lb",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 5409.51,
+      "bottom": -1601.1,
+      "right": 5842.9,
+      "top": -1318.42,
+      "page": 4,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Fruits",
+          "google_category_id": 2776
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Apples",
+          "google_category_id": 2777
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7862824,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23004009/87f5d3b8-2943-11f1-a157-721d7c42fcfc/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003282017,
+      "name": "TUSCANINI or CROWN SUPREME Olive Oil",
+      "sale_story": null,
+      "sku": null,
+      "description": "1 L",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23004006/87cc15a0-2943-11f1-b5fa-860c165f8e51/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "9.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 666.25,
+      "bottom": -1930.52,
+      "right": 1199.61,
+      "top": -1582.48,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Cooking & Baking Ingredients",
+          "google_category_id": 346
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Cooking Oils",
+          "google_category_id": 2722
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7862824,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23004006/87cc15a0-2943-11f1-b5fa-860c165f8e51/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003282036,
+      "name": "FAMOUS Tilapia",
+      "sale_story": null,
+      "sku": null,
+      "description": "frozen 400 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23004007/8313c7d8-2943-11f1-8eb8-9ae41cb034b0/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Seafood"
+      ],
+      "pre_price_text": "",
+      "price_text": "8.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 2400.44,
+      "bottom": -1259.95,
+      "right": 2967.81,
+      "top": -861.55,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Meat, Seafood & Eggs",
+          "google_category_id": 353
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Seafood",
+          "google_category_id": 2921
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7862824,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "A & B",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23004007/8313c7d8-2943-11f1-8eb8-9ae41cb034b0/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003282480,
+      "name": "BELEAVES French Fries assorted or STREIT'S Soup",
+      "sale_story": null,
+      "sku": null,
+      "description": "50-737g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23004008/8558552c-2943-11f1-91fb-6ae7cb2d7fd6/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Grocery"
+      ],
+      "pre_price_text": "",
+      "price_text": "6.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 4053.81,
+      "bottom": -2346.35,
+      "right": 4478.74,
+      "top": -1794.32,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Soups & Broths",
+          "google_category_id": 359
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7862824,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "BELEAVES | STREIT'S",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23004008/8558552c-2943-11f1-91fb-6ae7cb2d7fd6/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003282015,
+      "name": "Sobeys",
+      "sale_story": null,
+      "sku": null,
+      "description": null,
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/414954764/1774573868/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 705.32,
+      "bottom": -418.35,
+      "right": 1719.8,
+      "top": -74.02,
+      "page": 1,
+      "item_categories": {
+        "l1": null,
+        "l2": null,
+        "l3": null,
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7862824,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 5,
+      "average_rating": null,
+      "web_commission_url": "https://www.sobeys.com/",
+      "item_web_url": "https://www.sobeys.com/",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_items/414954764/1774573868/extra_large.jpg"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003282492,
+      "name": "Bulk Avocados",
+      "sale_story": null,
+      "sku": null,
+      "description": "product of Mexico",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23004009/86a3ba20-2943-11f1-a157-721d7c42fcfc/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Produce"
+      ],
+      "pre_price_text": "2/",
+      "price_text": "4.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 5838.88,
+      "bottom": -1317.49,
+      "right": 6270.96,
+      "top": -1015.78,
+      "page": 4,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Fruits",
+          "google_category_id": 2776
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Avocados",
+          "google_category_id": 2779
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7862824,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23004009/86a3ba20-2943-11f1-a157-721d7c42fcfc/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003282041,
+      "name": "MUNCHREAL Baby Fingers",
+      "sale_story": null,
+      "sku": null,
+      "description": "680 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23004007/876a831c-2943-11f1-8eb8-9ae41cb034b0/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Grocery"
+      ],
+      "pre_price_text": "",
+      "price_text": "14.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1881.13,
+      "bottom": -1793.99,
+      "right": 2398.89,
+      "top": -1389.4,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Snack Foods",
+          "google_category_id": 358
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7862824,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Munch real",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23004007/876a831c-2943-11f1-8eb8-9ae41cb034b0/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003282042,
+      "name": "Cookies",
+      "sale_story": null,
+      "sku": null,
+      "description": "assorted 200",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23004007/8651a3de-2943-11f1-8eb8-9ae41cb034b0/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Grocery"
+      ],
+      "pre_price_text": "",
+      "price_text": "6.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 2967.03,
+      "bottom": -1793.99,
+      "right": 3539.04,
+      "top": -1395.6,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Bakery",
+          "google_category_id": 343
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Cookies",
+          "google_category_id": 2671
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7862824,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Ariel",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23004007/8651a3de-2943-11f1-8eb8-9ae41cb034b0/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003282500,
+      "name": "Bartlett or Bosc Pears",
+      "sale_story": null,
+      "sku": null,
+      "description": "product of South Africa or USA extra fancy grade 5.49/kg",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23004009/894aa900-2943-11f1-a157-721d7c42fcfc/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "2.49",
+      "post_price_text": "/lb",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 6701.73,
+      "bottom": -1602.12,
+      "right": 7116.24,
+      "top": -1315.44,
+      "page": 4,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Fruits",
+          "google_category_id": 2776
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Pears",
+          "google_category_id": 2812
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7862824,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23004009/894aa900-2943-11f1-a157-721d7c42fcfc/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003282475,
+      "name": "Chips",
+      "sale_story": null,
+      "sku": null,
+      "description": "assorted 142 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23004008/8443621c-2943-11f1-91fb-6ae7cb2d7fd6/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "2.49",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 4053.81,
+      "bottom": -733.66,
+      "right": 4478.74,
+      "top": -330.44,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Snack Foods",
+          "google_category_id": 358
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Chips",
+          "google_category_id": 2933
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7862824,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "BLOOM'S",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23004008/8443621c-2943-11f1-91fb-6ae7cb2d7fd6/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003282481,
+      "name": "GOLD'S Duck Sauce",
+      "sale_story": null,
+      "sku": null,
+      "description": "1.13 kg or ABSOLUTELY Flatbread\nor Crackers 125-150 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23004008/83e1d240-2943-11f1-91fb-6ae7cb2d7fd6/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Grocery"
+      ],
+      "pre_price_text": "",
+      "price_text": "5.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 4478.74,
+      "bottom": -1794.32,
+      "right": 4906.76,
+      "top": -1268.64,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Condiments & Sauces",
+          "google_category_id": 345
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7862824,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "GOLD'S | ABSOLUTELY",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23004008/83e1d240-2943-11f1-91fb-6ae7cb2d7fd6/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003282488,
+      "name": "Whole or Cored Pineapple",
+      "sale_story": null,
+      "sku": null,
+      "description": "product of Costa Rica",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23004009/83547742-2943-11f1-a157-721d7c42fcfc/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "4.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 5439.99,
+      "bottom": -661.95,
+      "right": 5965.45,
+      "top": -150.06,
+      "page": 4,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Fruits",
+          "google_category_id": 2776
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Pineapples",
+          "google_category_id": 2815
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7862824,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23004009/83547742-2943-11f1-a157-721d7c42fcfc/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003282504,
+      "name": "Papaya",
+      "sale_story": null,
+      "sku": null,
+      "description": "product of Mexico or Guatemala 4.39/kg",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23004009/8a300f22-2943-11f1-a157-721d7c42fcfc/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Produce"
+      ],
+      "pre_price_text": "",
+      "price_text": "1.99",
+      "post_price_text": "/lb",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 5411.53,
+      "bottom": -2183.24,
+      "right": 6271.21,
+      "top": -1894.63,
+      "page": 4,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Fruits",
+          "google_category_id": 2776
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Papayas",
+          "google_category_id": 2810
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7862824,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23004009/8a300f22-2943-11f1-a157-721d7c42fcfc/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003282045,
+      "name": "Soup",
+      "sale_story": null,
+      "sku": null,
+      "description": "1 L",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23004007/88835508-2943-11f1-8eb8-9ae41cb034b0/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Grocery"
+      ],
+      "pre_price_text": "",
+      "price_text": "5.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 2406.64,
+      "bottom": -2335.77,
+      "right": 2966.26,
+      "top": -1924.97,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Soups & Broths",
+          "google_category_id": 359
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7862824,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "PRC",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23004007/88835508-2943-11f1-8eb8-9ae41cb034b0/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003282046,
+      "name": "HERMES Potato Kugel",
+      "sale_story": null,
+      "sku": null,
+      "description": "1 kg",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23004007/89a6d4be-2943-11f1-8eb8-9ae41cb034b0/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Grocery"
+      ],
+      "pre_price_text": "",
+      "price_text": "10.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 2966.26,
+      "bottom": -2335.77,
+      "right": 3530.52,
+      "top": -1924.97,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Vegetables",
+          "google_category_id": 2833
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Potatoes",
+          "google_category_id": 2885
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7862824,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23004007/89a6d4be-2943-11f1-8eb8-9ae41cb034b0/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003282472,
+      "name": "Green Olives pitted or rings",
+      "sale_story": null,
+      "sku": null,
+      "description": "560 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23004008/82c2790a-2943-11f1-91fb-6ae7cb2d7fd6/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "4.49",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 3624.24,
+      "bottom": -733.66,
+      "right": 4053.81,
+      "top": -330.44,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Condiments & Sauces",
+          "google_category_id": 345
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Olives & Capers",
+          "google_category_id": 2697
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7862824,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "BNEI DAROM",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23004008/82c2790a-2943-11f1-91fb-6ae7cb2d7fd6/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003282473,
+      "name": "STREIT'S Macaroons",
+      "sale_story": null,
+      "sku": null,
+      "description": "assorted 284 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23004008/879d27ae-2943-11f1-91fb-6ae7cb2d7fd6/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "2.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 3624.24,
+      "bottom": -1794.32,
+      "right": 4053.81,
+      "top": -1268.64,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Snack Foods",
+          "google_category_id": 358
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7862824,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Streit's",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23004008/879d27ae-2943-11f1-91fb-6ae7cb2d7fd6/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003282478,
+      "name": "Tomato Sauce",
+      "sale_story": null,
+      "sku": null,
+      "description": "tetra 500 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23004008/83313228-2943-11f1-91fb-6ae7cb2d7fd6/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Deli"
+      ],
+      "pre_price_text": "",
+      "price_text": "1.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 3624.24,
+      "bottom": -1268.64,
+      "right": 4053.81,
+      "top": -733.66,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Condiments & Sauces",
+          "google_category_id": 345
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7862824,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "TUSCANINI",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23004008/83313228-2943-11f1-91fb-6ae7cb2d7fd6/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003282486,
+      "name": "Memorial Candle",
+      "sale_story": null,
+      "sku": null,
+      "description": "26 hr",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23004008/87df71cc-2943-11f1-91fb-6ae7cb2d7fd6/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Home"
+      ],
+      "pre_price_text": "3/",
+      "price_text": "1.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 4906.76,
+      "bottom": -1794.32,
+      "right": 5286.73,
+      "top": -1268.64,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Home & Garden",
+          "google_category_id": 745
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Decor",
+          "google_category_id": 766
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Candles",
+          "google_category_id": 779
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7862824,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Aish Tamid",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23004008/87df71cc-2943-11f1-91fb-6ae7cb2d7fd6/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003282484,
+      "name": "LIEBER'S No MSG Soup Mix",
+      "sale_story": null,
+      "sku": null,
+      "description": "assorted",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23004008/8336ab90-2943-11f1-91fb-6ae7cb2d7fd6/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "5.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 4478.74,
+      "bottom": -733.66,
+      "right": 4906.76,
+      "top": -330.44,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Soups & Broths",
+          "google_category_id": 359
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7862824,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Lieber's",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23004008/8336ab90-2943-11f1-91fb-6ae7cb2d7fd6/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003282485,
+      "name": "Real Chocolate Chips",
+      "sale_story": null,
+      "sku": null,
+      "description": "200 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/414954725/1774573870/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Grocery"
+      ],
+      "pre_price_text": "",
+      "price_text": "4.49",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 4906.76,
+      "bottom": -1268.64,
+      "right": 5286.73,
+      "top": -733.66,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Snack Foods",
+          "google_category_id": 358
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Chips",
+          "google_category_id": 2933
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7862824,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Carmit",
+      "images": [
+        "https://f.wishabi.net/page_items/414954725/1774573870/extra_large.jpg"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003282490,
+      "name": "Extra Large Green Seedless Grapes",
+      "sale_story": null,
+      "sku": null,
+      "description": "product of Chile\n8.80/kg",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23004009/85d5f0e0-2943-11f1-a157-721d7c42fcfc/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "3.99",
+      "post_price_text": "/lb",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 5968.97,
+      "bottom": -541.66,
+      "right": 6620.39,
+      "top": -182.65,
+      "page": 4,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Fruits",
+          "google_category_id": 2776
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Grapes",
+          "google_category_id": 2799
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7862824,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23004009/85d5f0e0-2943-11f1-a157-721d7c42fcfc/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003282498,
+      "name": "Red or Black Plums",
+      "sale_story": null,
+      "sku": null,
+      "description": "product of Chile no 1 grade",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23004009/889ce798-2943-11f1-a157-721d7c42fcfc/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "3.49",
+      "post_price_text": "/lb",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 6272.85,
+      "bottom": -1606.61,
+      "right": 6701.43,
+      "top": -1315.55,
+      "page": 4,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Fruits",
+          "google_category_id": 2776
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Stone Fruits",
+          "google_category_id": 2824
+        },
+        "l6": {
+          "confidence": null,
+          "category_name": "Plums",
+          "google_category_id": 2830
+        },
+        "l7": null
+      },
+      "flyer_id": 7862824,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23004009/889ce798-2943-11f1-a157-721d7c42fcfc/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003282013,
+      "name": "YUMMY Cheese Shreds or PARDES FARMS Frozen Vegetables",
+      "sale_story": null,
+      "sku": null,
+      "description": "assorted 227-680 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23004006/85b2604e-2943-11f1-b5fa-860c165f8e51/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Dairy"
+      ],
+      "pre_price_text": "",
+      "price_text": "7.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 81.62,
+      "bottom": -1928.36,
+      "right": 664.27,
+      "top": -1587.27,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Vegetables",
+          "google_category_id": 2833
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7862824,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "YUMMY | PARDES FARMS",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23004006/85b2604e-2943-11f1-b5fa-860c165f8e51/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003282479,
+      "name": "CLASSICO Plastic Knives or CROWN DELUXE Forks, Soup Spoons or Tea Spoons",
+      "sale_story": null,
+      "sku": null,
+      "description": null,
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23004008/852f10b8-2943-11f1-91fb-6ae7cb2d7fd6/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "4.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 4053.81,
+      "bottom": -1794.32,
+      "right": 4478.74,
+      "top": -1268.64,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Home & Garden",
+          "google_category_id": 745
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Kitchen & Dining",
+          "google_category_id": 908
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Tableware",
+          "google_category_id": 917
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Flatware",
+          "google_category_id": 4237
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Spoons",
+          "google_category_id": 4242
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7862824,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Classico",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23004008/852f10b8-2943-11f1-91fb-6ae7cb2d7fd6/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003282494,
+      "name": "COMPLIMENTS Broccolini Tray",
+      "sale_story": null,
+      "sku": null,
+      "description": "product of USA 170 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23004009/8685d0b4-2943-11f1-a157-721d7c42fcfc/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Produce"
+      ],
+      "pre_price_text": "",
+      "price_text": "4.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 5424.98,
+      "bottom": -1316.69,
+      "right": 5836.97,
+      "top": -1021.29,
+      "page": 4,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Vegetables",
+          "google_category_id": 2833
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Broccoli",
+          "google_category_id": 2840
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7862824,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Compliments",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23004009/8685d0b4-2943-11f1-a157-721d7c42fcfc/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003282495,
+      "name": "Carrots",
+      "sale_story": null,
+      "sku": null,
+      "description": "or Onions product of Canada, Canada no 1 grade 3 lb",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23004009/874a2072-2943-11f1-a157-721d7c42fcfc/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "3.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 6271.69,
+      "bottom": -1314.41,
+      "right": 6702.84,
+      "top": -1017.71,
+      "page": 4,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Vegetables",
+          "google_category_id": 2833
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Carrots",
+          "google_category_id": 2845
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7862824,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Compliments",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23004009/874a2072-2943-11f1-a157-721d7c42fcfc/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003282497,
+      "name": "Sweet Potatoes",
+      "sale_story": null,
+      "sku": null,
+      "description": "product of USA 3.90/kg",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/414930259/1774573864/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "1.77",
+      "post_price_text": "/lb",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 6628.11,
+      "bottom": -999.5,
+      "right": 7121.88,
+      "top": -609.5,
+      "page": 4,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Vegetables",
+          "google_category_id": 2833
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Sweet Potatoes",
+          "google_category_id": 2893
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7862824,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_items/414930259/1774573864/extra_large.jpg"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003868417,
+      "name": "Scene+",
+      "sale_story": null,
+      "sku": null,
+      "description": null,
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/415320766/1774914827/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 7168.0,
+      "bottom": -2560.0,
+      "right": 12288.0,
+      "top": 0.0,
+      "page": 5,
+      "item_categories": {
+        "l1": null,
+        "l2": null,
+        "l3": null,
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7862824,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 5,
+      "average_rating": null,
+      "web_commission_url": "https://www.scotiabank.com/ca/en/personal/credit-cards/visa/scene-card.html?cid=SCE_sc_SCE_EMPR-DA_1_LF_001_SCE-25-037_0425_NA&bannerId=ELM&entryId=digital",
+      "item_web_url": "https://www.scotiabank.com/ca/en/personal/credit-cards/visa/scene-card.html?cid=SCE_sc_SCE_EMPR-DA_1_LF_001_SCE-25-037_0425_NA&bannerId=ELM&entryId=digital",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_items/415320766/1774914827/extra_large.jpg"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003282018,
+      "name": "Broccoli Crowns, Brussels Sprouts or Rapini",
+      "sale_story": null,
+      "sku": null,
+      "description": "product of Mexico or USA no 1 grade",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23004006/8e173818-2943-11f1-b5fa-860c165f8e51/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Produce"
+      ],
+      "pre_price_text": "HOT PRICE",
+      "price_text": "1.99",
+      "post_price_text": "/lb, ea",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 948.48,
+      "bottom": -1222.19,
+      "right": 1710.25,
+      "top": -829.11,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Vegetables",
+          "google_category_id": 2833
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7862824,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23004006/8e173818-2943-11f1-b5fa-860c165f8e51/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    }
+  ]
+}

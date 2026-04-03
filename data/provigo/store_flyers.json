@@ -1,0 +1,852 @@
+{
+  "4772": [
+    {
+      "id": 7864398,
+      "flyer_run_id": 1181653,
+      "valid_from": "2026-04-02T00:00:00-04:00",
+      "valid_to": "2026-04-08T23:59:59-04:00",
+      "available_from": "2026-03-31T00:00:00-04:00",
+      "available_to": "2026-04-08T23:59:59-04:00",
+      "locale": "en",
+      "pdf_url": "https://f.wishabi.net/flyers/16601473/84b6255e39d65f70.pdf",
+      "postal_code": "H4B1N3",
+      "merchant_name": "Provigo",
+      "merchant_logo_url": "https://images.wishabi.net/merchants/bz8lMqWHZ9RtVQ==/mini_magick20201014-1-1ej19cg.png",
+      "deep_link": "https://www.provigo.ca/print-flyer?flyer_run_id=1181653&flyer_type_name=flyer&locale=en&postal_code=H4B1N3&store_code=4772",
+      "flyer_type_id": 5592,
+      "sfml_url": "https://cdn-gateflipp.flippback.com/storefront-payload/1181653/7864398/7c17d8cdc58e5aab27fbb9fb6375feab110f077b44acb7319499d28053cc5007?merchant_id=2338",
+      "name": "Weekly Flyer",
+      "flyer_type": "flyer",
+      "external_display_name": "Weekly Flyer - Valid Thursday, April 2 - Wednesday, April 8",
+      "first_page_thumbnail_400h_url": "https://f.wishabi.net/flyers/7864398/stock_premium/1774909253.jpg",
+      "storefront_images": {
+        "carousel_organic": "https://f.wishabi.net/flyers/7864398/storefront_carousel_organic/1774909253.jpg"
+      },
+      "correction_notices": []
+    },
+    {
+      "id": 7855517,
+      "flyer_run_id": 1181652,
+      "valid_from": "2026-03-26T00:00:00-04:00",
+      "valid_to": "2026-04-01T23:59:59-04:00",
+      "available_from": "2026-03-24T00:00:00-04:00",
+      "available_to": "2026-04-01T23:59:59-04:00",
+      "locale": "en",
+      "pdf_url": "https://f.wishabi.net/flyers/16593946/cc0b33ff4e769321.pdf",
+      "postal_code": "H4B1N3",
+      "merchant_name": "Provigo",
+      "merchant_logo_url": "https://images.wishabi.net/merchants/bz8lMqWHZ9RtVQ==/mini_magick20201014-1-1ej19cg.png",
+      "deep_link": "https://www.provigo.ca/print-flyer?flyer_run_id=1181652&flyer_type_name=flyer&locale=en&postal_code=H4B1N3&store_code=4772",
+      "flyer_type_id": 5592,
+      "sfml_url": "https://cdn-gateflipp.flippback.com/storefront-payload/1181652/7855517/5da744c915a0cb790b372d81a1301096a5be9ecdccd013e818c02b2bab779073?merchant_id=2338",
+      "name": "Weekly Flyer",
+      "flyer_type": "flyer",
+      "external_display_name": "Weekly Flyer - Valid Thursday, March 26 - Wednesday, April 1",
+      "first_page_thumbnail_400h_url": "https://f.wishabi.net/flyers/7855517/stock_premium/1774562334.jpg",
+      "storefront_images": {
+        "carousel_organic": "https://f.wishabi.net/flyers/7855517/storefront_carousel_organic/1774562334.jpg"
+      },
+      "correction_notices": []
+    }
+  ],
+  "5290": [
+    {
+      "id": 7864398,
+      "flyer_run_id": 1181653,
+      "valid_from": "2026-04-02T00:00:00-04:00",
+      "valid_to": "2026-04-08T23:59:59-04:00",
+      "available_from": "2026-03-31T00:00:00-04:00",
+      "available_to": "2026-04-08T23:59:59-04:00",
+      "locale": "en",
+      "pdf_url": "https://f.wishabi.net/flyers/16601473/84b6255e39d65f70.pdf",
+      "postal_code": "H4L3M8",
+      "merchant_name": "Provigo",
+      "merchant_logo_url": "https://images.wishabi.net/merchants/bz8lMqWHZ9RtVQ==/mini_magick20201014-1-1ej19cg.png",
+      "deep_link": "https://www.provigo.ca/print-flyer?flyer_run_id=1181653&flyer_type_name=flyer&locale=en&postal_code=H4L3M8&store_code=5290",
+      "flyer_type_id": 5592,
+      "sfml_url": "https://cdn-gateflipp.flippback.com/storefront-payload/1181653/7864398/7c17d8cdc58e5aab27fbb9fb6375feab110f077b44acb7319499d28053cc5007?merchant_id=2338",
+      "name": "Weekly Flyer",
+      "flyer_type": "flyer",
+      "external_display_name": "Weekly Flyer - Valid Thursday, April 2 - Wednesday, April 8",
+      "first_page_thumbnail_400h_url": "https://f.wishabi.net/flyers/7864398/stock_premium/1774909253.jpg",
+      "storefront_images": {
+        "carousel_organic": "https://f.wishabi.net/flyers/7864398/storefront_carousel_organic/1774909253.jpg"
+      },
+      "correction_notices": []
+    },
+    {
+      "id": 7855517,
+      "flyer_run_id": 1181652,
+      "valid_from": "2026-03-26T00:00:00-04:00",
+      "valid_to": "2026-04-01T23:59:59-04:00",
+      "available_from": "2026-03-24T00:00:00-04:00",
+      "available_to": "2026-04-01T23:59:59-04:00",
+      "locale": "en",
+      "pdf_url": "https://f.wishabi.net/flyers/16593946/cc0b33ff4e769321.pdf",
+      "postal_code": "H4L3M8",
+      "merchant_name": "Provigo",
+      "merchant_logo_url": "https://images.wishabi.net/merchants/bz8lMqWHZ9RtVQ==/mini_magick20201014-1-1ej19cg.png",
+      "deep_link": "https://www.provigo.ca/print-flyer?flyer_run_id=1181652&flyer_type_name=flyer&locale=en&postal_code=H4L3M8&store_code=5290",
+      "flyer_type_id": 5592,
+      "sfml_url": "https://cdn-gateflipp.flippback.com/storefront-payload/1181652/7855517/5da744c915a0cb790b372d81a1301096a5be9ecdccd013e818c02b2bab779073?merchant_id=2338",
+      "name": "Weekly Flyer",
+      "flyer_type": "flyer",
+      "external_display_name": "Weekly Flyer - Valid Thursday, March 26 - Wednesday, April 1",
+      "first_page_thumbnail_400h_url": "https://f.wishabi.net/flyers/7855517/stock_premium/1774562334.jpg",
+      "storefront_images": {
+        "carousel_organic": "https://f.wishabi.net/flyers/7855517/storefront_carousel_organic/1774562334.jpg"
+      },
+      "correction_notices": []
+    }
+  ],
+  "7115": [
+    {
+      "id": 7864398,
+      "flyer_run_id": 1181653,
+      "valid_from": "2026-04-02T00:00:00-04:00",
+      "valid_to": "2026-04-08T23:59:59-04:00",
+      "available_from": "2026-03-31T00:00:00-04:00",
+      "available_to": "2026-04-08T23:59:59-04:00",
+      "locale": "en",
+      "pdf_url": "https://f.wishabi.net/flyers/16601473/84b6255e39d65f70.pdf",
+      "postal_code": "J2B1R2",
+      "merchant_name": "Provigo",
+      "merchant_logo_url": "https://images.wishabi.net/merchants/bz8lMqWHZ9RtVQ==/mini_magick20201014-1-1ej19cg.png",
+      "deep_link": "https://www.provigo.ca/print-flyer?flyer_run_id=1181653&flyer_type_name=flyer&locale=en&postal_code=J2B1R2&store_code=7115",
+      "flyer_type_id": 5592,
+      "sfml_url": "https://cdn-gateflipp.flippback.com/storefront-payload/1181653/7864398/7c17d8cdc58e5aab27fbb9fb6375feab110f077b44acb7319499d28053cc5007?merchant_id=2338",
+      "name": "Weekly Flyer",
+      "flyer_type": "flyer",
+      "external_display_name": "Weekly Flyer - Valid Thursday, April 2 - Wednesday, April 8",
+      "first_page_thumbnail_400h_url": "https://f.wishabi.net/flyers/7864398/stock_premium/1774909253.jpg",
+      "storefront_images": {
+        "carousel_organic": "https://f.wishabi.net/flyers/7864398/storefront_carousel_organic/1774909253.jpg"
+      },
+      "correction_notices": []
+    },
+    {
+      "id": 7855517,
+      "flyer_run_id": 1181652,
+      "valid_from": "2026-03-26T00:00:00-04:00",
+      "valid_to": "2026-04-01T23:59:59-04:00",
+      "available_from": "2026-03-24T00:00:00-04:00",
+      "available_to": "2026-04-01T23:59:59-04:00",
+      "locale": "en",
+      "pdf_url": "https://f.wishabi.net/flyers/16593946/cc0b33ff4e769321.pdf",
+      "postal_code": "J2B1R2",
+      "merchant_name": "Provigo",
+      "merchant_logo_url": "https://images.wishabi.net/merchants/bz8lMqWHZ9RtVQ==/mini_magick20201014-1-1ej19cg.png",
+      "deep_link": "https://www.provigo.ca/print-flyer?flyer_run_id=1181652&flyer_type_name=flyer&locale=en&postal_code=J2B1R2&store_code=7115",
+      "flyer_type_id": 5592,
+      "sfml_url": "https://cdn-gateflipp.flippback.com/storefront-payload/1181652/7855517/5da744c915a0cb790b372d81a1301096a5be9ecdccd013e818c02b2bab779073?merchant_id=2338",
+      "name": "Weekly Flyer",
+      "flyer_type": "flyer",
+      "external_display_name": "Weekly Flyer - Valid Thursday, March 26 - Wednesday, April 1",
+      "first_page_thumbnail_400h_url": "https://f.wishabi.net/flyers/7855517/stock_premium/1774562334.jpg",
+      "storefront_images": {
+        "carousel_organic": "https://f.wishabi.net/flyers/7855517/storefront_carousel_organic/1774562334.jpg"
+      },
+      "correction_notices": []
+    }
+  ],
+  "7195": [
+    {
+      "id": 7864398,
+      "flyer_run_id": 1181653,
+      "valid_from": "2026-04-02T00:00:00-04:00",
+      "valid_to": "2026-04-08T23:59:59-04:00",
+      "available_from": "2026-03-31T00:00:00-04:00",
+      "available_to": "2026-04-08T23:59:59-04:00",
+      "locale": "en",
+      "pdf_url": "https://f.wishabi.net/flyers/16601473/84b6255e39d65f70.pdf",
+      "postal_code": "H3R2J8",
+      "merchant_name": "Provigo",
+      "merchant_logo_url": "https://images.wishabi.net/merchants/bz8lMqWHZ9RtVQ==/mini_magick20201014-1-1ej19cg.png",
+      "deep_link": "https://www.provigo.ca/print-flyer?flyer_run_id=1181653&flyer_type_name=flyer&locale=en&postal_code=H3R2J8&store_code=7195",
+      "flyer_type_id": 5592,
+      "sfml_url": "https://cdn-gateflipp.flippback.com/storefront-payload/1181653/7864398/7c17d8cdc58e5aab27fbb9fb6375feab110f077b44acb7319499d28053cc5007?merchant_id=2338",
+      "name": "Weekly Flyer",
+      "flyer_type": "flyer",
+      "external_display_name": "Weekly Flyer - Valid Thursday, April 2 - Wednesday, April 8",
+      "first_page_thumbnail_400h_url": "https://f.wishabi.net/flyers/7864398/stock_premium/1774909253.jpg",
+      "storefront_images": {
+        "carousel_organic": "https://f.wishabi.net/flyers/7864398/storefront_carousel_organic/1774909253.jpg"
+      },
+      "correction_notices": []
+    },
+    {
+      "id": 7855517,
+      "flyer_run_id": 1181652,
+      "valid_from": "2026-03-26T00:00:00-04:00",
+      "valid_to": "2026-04-01T23:59:59-04:00",
+      "available_from": "2026-03-24T00:00:00-04:00",
+      "available_to": "2026-04-01T23:59:59-04:00",
+      "locale": "en",
+      "pdf_url": "https://f.wishabi.net/flyers/16593946/cc0b33ff4e769321.pdf",
+      "postal_code": "H3R2J8",
+      "merchant_name": "Provigo",
+      "merchant_logo_url": "https://images.wishabi.net/merchants/bz8lMqWHZ9RtVQ==/mini_magick20201014-1-1ej19cg.png",
+      "deep_link": "https://www.provigo.ca/print-flyer?flyer_run_id=1181652&flyer_type_name=flyer&locale=en&postal_code=H3R2J8&store_code=7195",
+      "flyer_type_id": 5592,
+      "sfml_url": "https://cdn-gateflipp.flippback.com/storefront-payload/1181652/7855517/5da744c915a0cb790b372d81a1301096a5be9ecdccd013e818c02b2bab779073?merchant_id=2338",
+      "name": "Weekly Flyer",
+      "flyer_type": "flyer",
+      "external_display_name": "Weekly Flyer - Valid Thursday, March 26 - Wednesday, April 1",
+      "first_page_thumbnail_400h_url": "https://f.wishabi.net/flyers/7855517/stock_premium/1774562334.jpg",
+      "storefront_images": {
+        "carousel_organic": "https://f.wishabi.net/flyers/7855517/storefront_carousel_organic/1774562334.jpg"
+      },
+      "correction_notices": []
+    }
+  ],
+  "7198": [
+    {
+      "id": 7864398,
+      "flyer_run_id": 1181653,
+      "valid_from": "2026-04-02T00:00:00-04:00",
+      "valid_to": "2026-04-08T23:59:59-04:00",
+      "available_from": "2026-03-31T00:00:00-04:00",
+      "available_to": "2026-04-08T23:59:59-04:00",
+      "locale": "en",
+      "pdf_url": "https://f.wishabi.net/flyers/16601473/84b6255e39d65f70.pdf",
+      "postal_code": "J4J2W1",
+      "merchant_name": "Provigo",
+      "merchant_logo_url": "https://images.wishabi.net/merchants/bz8lMqWHZ9RtVQ==/mini_magick20201014-1-1ej19cg.png",
+      "deep_link": "https://www.provigo.ca/print-flyer?flyer_run_id=1181653&flyer_type_name=flyer&locale=en&postal_code=J4J2W1&store_code=7198",
+      "flyer_type_id": 5592,
+      "sfml_url": "https://cdn-gateflipp.flippback.com/storefront-payload/1181653/7864398/7c17d8cdc58e5aab27fbb9fb6375feab110f077b44acb7319499d28053cc5007?merchant_id=2338",
+      "name": "Weekly Flyer",
+      "flyer_type": "flyer",
+      "external_display_name": "Weekly Flyer - Valid Thursday, April 2 - Wednesday, April 8",
+      "first_page_thumbnail_400h_url": "https://f.wishabi.net/flyers/7864398/stock_premium/1774909253.jpg",
+      "storefront_images": {
+        "carousel_organic": "https://f.wishabi.net/flyers/7864398/storefront_carousel_organic/1774909253.jpg"
+      },
+      "correction_notices": []
+    },
+    {
+      "id": 7855517,
+      "flyer_run_id": 1181652,
+      "valid_from": "2026-03-26T00:00:00-04:00",
+      "valid_to": "2026-04-01T23:59:59-04:00",
+      "available_from": "2026-03-24T00:00:00-04:00",
+      "available_to": "2026-04-01T23:59:59-04:00",
+      "locale": "en",
+      "pdf_url": "https://f.wishabi.net/flyers/16593946/cc0b33ff4e769321.pdf",
+      "postal_code": "J4J2W1",
+      "merchant_name": "Provigo",
+      "merchant_logo_url": "https://images.wishabi.net/merchants/bz8lMqWHZ9RtVQ==/mini_magick20201014-1-1ej19cg.png",
+      "deep_link": "https://www.provigo.ca/print-flyer?flyer_run_id=1181652&flyer_type_name=flyer&locale=en&postal_code=J4J2W1&store_code=7198",
+      "flyer_type_id": 5592,
+      "sfml_url": "https://cdn-gateflipp.flippback.com/storefront-payload/1181652/7855517/5da744c915a0cb790b372d81a1301096a5be9ecdccd013e818c02b2bab779073?merchant_id=2338",
+      "name": "Weekly Flyer",
+      "flyer_type": "flyer",
+      "external_display_name": "Weekly Flyer - Valid Thursday, March 26 - Wednesday, April 1",
+      "first_page_thumbnail_400h_url": "https://f.wishabi.net/flyers/7855517/stock_premium/1774562334.jpg",
+      "storefront_images": {
+        "carousel_organic": "https://f.wishabi.net/flyers/7855517/storefront_carousel_organic/1774562334.jpg"
+      },
+      "correction_notices": []
+    }
+  ],
+  "7288": [
+    {
+      "id": 7864398,
+      "flyer_run_id": 1181653,
+      "valid_from": "2026-04-02T00:00:00-04:00",
+      "valid_to": "2026-04-08T23:59:59-04:00",
+      "available_from": "2026-03-31T00:00:00-04:00",
+      "available_to": "2026-04-08T23:59:59-04:00",
+      "locale": "en",
+      "pdf_url": "https://f.wishabi.net/flyers/16601473/84b6255e39d65f70.pdf",
+      "postal_code": "H1W3Z8",
+      "merchant_name": "Provigo",
+      "merchant_logo_url": "https://images.wishabi.net/merchants/bz8lMqWHZ9RtVQ==/mini_magick20201014-1-1ej19cg.png",
+      "deep_link": "https://www.provigo.ca/print-flyer?flyer_run_id=1181653&flyer_type_name=flyer&locale=en&postal_code=H1W3Z8&store_code=7288",
+      "flyer_type_id": 5592,
+      "sfml_url": "https://cdn-gateflipp.flippback.com/storefront-payload/1181653/7864398/7c17d8cdc58e5aab27fbb9fb6375feab110f077b44acb7319499d28053cc5007?merchant_id=2338",
+      "name": "Weekly Flyer",
+      "flyer_type": "flyer",
+      "external_display_name": "Weekly Flyer - Valid Thursday, April 2 - Wednesday, April 8",
+      "first_page_thumbnail_400h_url": "https://f.wishabi.net/flyers/7864398/stock_premium/1774909253.jpg",
+      "storefront_images": {
+        "carousel_organic": "https://f.wishabi.net/flyers/7864398/storefront_carousel_organic/1774909253.jpg"
+      },
+      "correction_notices": []
+    },
+    {
+      "id": 7855517,
+      "flyer_run_id": 1181652,
+      "valid_from": "2026-03-26T00:00:00-04:00",
+      "valid_to": "2026-04-01T23:59:59-04:00",
+      "available_from": "2026-03-24T00:00:00-04:00",
+      "available_to": "2026-04-01T23:59:59-04:00",
+      "locale": "en",
+      "pdf_url": "https://f.wishabi.net/flyers/16593946/cc0b33ff4e769321.pdf",
+      "postal_code": "H1W3Z8",
+      "merchant_name": "Provigo",
+      "merchant_logo_url": "https://images.wishabi.net/merchants/bz8lMqWHZ9RtVQ==/mini_magick20201014-1-1ej19cg.png",
+      "deep_link": "https://www.provigo.ca/print-flyer?flyer_run_id=1181652&flyer_type_name=flyer&locale=en&postal_code=H1W3Z8&store_code=7288",
+      "flyer_type_id": 5592,
+      "sfml_url": "https://cdn-gateflipp.flippback.com/storefront-payload/1181652/7855517/5da744c915a0cb790b372d81a1301096a5be9ecdccd013e818c02b2bab779073?merchant_id=2338",
+      "name": "Weekly Flyer",
+      "flyer_type": "flyer",
+      "external_display_name": "Weekly Flyer - Valid Thursday, March 26 - Wednesday, April 1",
+      "first_page_thumbnail_400h_url": "https://f.wishabi.net/flyers/7855517/stock_premium/1774562334.jpg",
+      "storefront_images": {
+        "carousel_organic": "https://f.wishabi.net/flyers/7855517/storefront_carousel_organic/1774562334.jpg"
+      },
+      "correction_notices": []
+    }
+  ],
+  "7293": [
+    {
+      "id": 7864398,
+      "flyer_run_id": 1181653,
+      "valid_from": "2026-04-02T00:00:00-04:00",
+      "valid_to": "2026-04-08T23:59:59-04:00",
+      "available_from": "2026-03-31T00:00:00-04:00",
+      "available_to": "2026-04-08T23:59:59-04:00",
+      "locale": "en",
+      "pdf_url": "https://f.wishabi.net/flyers/16601473/84b6255e39d65f70.pdf",
+      "postal_code": "J3V5J2",
+      "merchant_name": "Provigo",
+      "merchant_logo_url": "https://images.wishabi.net/merchants/bz8lMqWHZ9RtVQ==/mini_magick20201014-1-1ej19cg.png",
+      "deep_link": "https://www.provigo.ca/print-flyer?flyer_run_id=1181653&flyer_type_name=flyer&locale=en&postal_code=J3V5J2&store_code=7293",
+      "flyer_type_id": 5592,
+      "sfml_url": "https://cdn-gateflipp.flippback.com/storefront-payload/1181653/7864398/7c17d8cdc58e5aab27fbb9fb6375feab110f077b44acb7319499d28053cc5007?merchant_id=2338",
+      "name": "Weekly Flyer",
+      "flyer_type": "flyer",
+      "external_display_name": "Weekly Flyer - Valid Thursday, April 2 - Wednesday, April 8",
+      "first_page_thumbnail_400h_url": "https://f.wishabi.net/flyers/7864398/stock_premium/1774909253.jpg",
+      "storefront_images": {
+        "carousel_organic": "https://f.wishabi.net/flyers/7864398/storefront_carousel_organic/1774909253.jpg"
+      },
+      "correction_notices": []
+    },
+    {
+      "id": 7855517,
+      "flyer_run_id": 1181652,
+      "valid_from": "2026-03-26T00:00:00-04:00",
+      "valid_to": "2026-04-01T23:59:59-04:00",
+      "available_from": "2026-03-24T00:00:00-04:00",
+      "available_to": "2026-04-01T23:59:59-04:00",
+      "locale": "en",
+      "pdf_url": "https://f.wishabi.net/flyers/16593946/cc0b33ff4e769321.pdf",
+      "postal_code": "J3V5J2",
+      "merchant_name": "Provigo",
+      "merchant_logo_url": "https://images.wishabi.net/merchants/bz8lMqWHZ9RtVQ==/mini_magick20201014-1-1ej19cg.png",
+      "deep_link": "https://www.provigo.ca/print-flyer?flyer_run_id=1181652&flyer_type_name=flyer&locale=en&postal_code=J3V5J2&store_code=7293",
+      "flyer_type_id": 5592,
+      "sfml_url": "https://cdn-gateflipp.flippback.com/storefront-payload/1181652/7855517/5da744c915a0cb790b372d81a1301096a5be9ecdccd013e818c02b2bab779073?merchant_id=2338",
+      "name": "Weekly Flyer",
+      "flyer_type": "flyer",
+      "external_display_name": "Weekly Flyer - Valid Thursday, March 26 - Wednesday, April 1",
+      "first_page_thumbnail_400h_url": "https://f.wishabi.net/flyers/7855517/stock_premium/1774562334.jpg",
+      "storefront_images": {
+        "carousel_organic": "https://f.wishabi.net/flyers/7855517/storefront_carousel_organic/1774562334.jpg"
+      },
+      "correction_notices": []
+    }
+  ],
+  "7295": [
+    {
+      "id": 7864398,
+      "flyer_run_id": 1181653,
+      "valid_from": "2026-04-02T00:00:00-04:00",
+      "valid_to": "2026-04-08T23:59:59-04:00",
+      "available_from": "2026-03-31T00:00:00-04:00",
+      "available_to": "2026-04-08T23:59:59-04:00",
+      "locale": "en",
+      "pdf_url": "https://f.wishabi.net/flyers/16601473/84b6255e39d65f70.pdf",
+      "postal_code": "J1J0A2",
+      "merchant_name": "Provigo",
+      "merchant_logo_url": "https://images.wishabi.net/merchants/bz8lMqWHZ9RtVQ==/mini_magick20201014-1-1ej19cg.png",
+      "deep_link": "https://www.provigo.ca/print-flyer?flyer_run_id=1181653&flyer_type_name=flyer&locale=en&postal_code=J1J0A2&store_code=7295",
+      "flyer_type_id": 5592,
+      "sfml_url": "https://cdn-gateflipp.flippback.com/storefront-payload/1181653/7864398/7c17d8cdc58e5aab27fbb9fb6375feab110f077b44acb7319499d28053cc5007?merchant_id=2338",
+      "name": "Weekly Flyer",
+      "flyer_type": "flyer",
+      "external_display_name": "Weekly Flyer - Valid Thursday, April 2 - Wednesday, April 8",
+      "first_page_thumbnail_400h_url": "https://f.wishabi.net/flyers/7864398/stock_premium/1774909253.jpg",
+      "storefront_images": {
+        "carousel_organic": "https://f.wishabi.net/flyers/7864398/storefront_carousel_organic/1774909253.jpg"
+      },
+      "correction_notices": []
+    },
+    {
+      "id": 7855517,
+      "flyer_run_id": 1181652,
+      "valid_from": "2026-03-26T00:00:00-04:00",
+      "valid_to": "2026-04-01T23:59:59-04:00",
+      "available_from": "2026-03-24T00:00:00-04:00",
+      "available_to": "2026-04-01T23:59:59-04:00",
+      "locale": "en",
+      "pdf_url": "https://f.wishabi.net/flyers/16593946/cc0b33ff4e769321.pdf",
+      "postal_code": "J1J0A2",
+      "merchant_name": "Provigo",
+      "merchant_logo_url": "https://images.wishabi.net/merchants/bz8lMqWHZ9RtVQ==/mini_magick20201014-1-1ej19cg.png",
+      "deep_link": "https://www.provigo.ca/print-flyer?flyer_run_id=1181652&flyer_type_name=flyer&locale=en&postal_code=J1J0A2&store_code=7295",
+      "flyer_type_id": 5592,
+      "sfml_url": "https://cdn-gateflipp.flippback.com/storefront-payload/1181652/7855517/5da744c915a0cb790b372d81a1301096a5be9ecdccd013e818c02b2bab779073?merchant_id=2338",
+      "name": "Weekly Flyer",
+      "flyer_type": "flyer",
+      "external_display_name": "Weekly Flyer - Valid Thursday, March 26 - Wednesday, April 1",
+      "first_page_thumbnail_400h_url": "https://f.wishabi.net/flyers/7855517/stock_premium/1774562334.jpg",
+      "storefront_images": {
+        "carousel_organic": "https://f.wishabi.net/flyers/7855517/storefront_carousel_organic/1774562334.jpg"
+      },
+      "correction_notices": []
+    }
+  ],
+  "7297": [
+    {
+      "id": 7864398,
+      "flyer_run_id": 1181653,
+      "valid_from": "2026-04-02T00:00:00-04:00",
+      "valid_to": "2026-04-08T23:59:59-04:00",
+      "available_from": "2026-03-31T00:00:00-04:00",
+      "available_to": "2026-04-08T23:59:59-04:00",
+      "locale": "en",
+      "pdf_url": "https://f.wishabi.net/flyers/16601473/84b6255e39d65f70.pdf",
+      "postal_code": "H3B5E8",
+      "merchant_name": "Provigo",
+      "merchant_logo_url": "https://images.wishabi.net/merchants/bz8lMqWHZ9RtVQ==/mini_magick20201014-1-1ej19cg.png",
+      "deep_link": "https://www.provigo.ca/print-flyer?flyer_run_id=1181653&flyer_type_name=flyer&locale=en&postal_code=H3B5E8&store_code=7297",
+      "flyer_type_id": 5592,
+      "sfml_url": "https://cdn-gateflipp.flippback.com/storefront-payload/1181653/7864398/7c17d8cdc58e5aab27fbb9fb6375feab110f077b44acb7319499d28053cc5007?merchant_id=2338",
+      "name": "Weekly Flyer",
+      "flyer_type": "flyer",
+      "external_display_name": "Weekly Flyer - Valid Thursday, April 2 - Wednesday, April 8",
+      "first_page_thumbnail_400h_url": "https://f.wishabi.net/flyers/7864398/stock_premium/1774909253.jpg",
+      "storefront_images": {
+        "carousel_organic": "https://f.wishabi.net/flyers/7864398/storefront_carousel_organic/1774909253.jpg"
+      },
+      "correction_notices": []
+    },
+    {
+      "id": 7855517,
+      "flyer_run_id": 1181652,
+      "valid_from": "2026-03-26T00:00:00-04:00",
+      "valid_to": "2026-04-01T23:59:59-04:00",
+      "available_from": "2026-03-24T00:00:00-04:00",
+      "available_to": "2026-04-01T23:59:59-04:00",
+      "locale": "en",
+      "pdf_url": "https://f.wishabi.net/flyers/16593946/cc0b33ff4e769321.pdf",
+      "postal_code": "H3B5E8",
+      "merchant_name": "Provigo",
+      "merchant_logo_url": "https://images.wishabi.net/merchants/bz8lMqWHZ9RtVQ==/mini_magick20201014-1-1ej19cg.png",
+      "deep_link": "https://www.provigo.ca/print-flyer?flyer_run_id=1181652&flyer_type_name=flyer&locale=en&postal_code=H3B5E8&store_code=7297",
+      "flyer_type_id": 5592,
+      "sfml_url": "https://cdn-gateflipp.flippback.com/storefront-payload/1181652/7855517/5da744c915a0cb790b372d81a1301096a5be9ecdccd013e818c02b2bab779073?merchant_id=2338",
+      "name": "Weekly Flyer",
+      "flyer_type": "flyer",
+      "external_display_name": "Weekly Flyer - Valid Thursday, March 26 - Wednesday, April 1",
+      "first_page_thumbnail_400h_url": "https://f.wishabi.net/flyers/7855517/stock_premium/1774562334.jpg",
+      "storefront_images": {
+        "carousel_organic": "https://f.wishabi.net/flyers/7855517/storefront_carousel_organic/1774562334.jpg"
+      },
+      "correction_notices": []
+    }
+  ],
+  "7599": [
+    {
+      "id": 7864398,
+      "flyer_run_id": 1181653,
+      "valid_from": "2026-04-02T00:00:00-04:00",
+      "valid_to": "2026-04-08T23:59:59-04:00",
+      "available_from": "2026-03-31T00:00:00-04:00",
+      "available_to": "2026-04-08T23:59:59-04:00",
+      "locale": "en",
+      "pdf_url": "https://f.wishabi.net/flyers/16601473/84b6255e39d65f70.pdf",
+      "postal_code": "J1X2T3",
+      "merchant_name": "Provigo",
+      "merchant_logo_url": "https://images.wishabi.net/merchants/bz8lMqWHZ9RtVQ==/mini_magick20201014-1-1ej19cg.png",
+      "deep_link": "https://www.provigo.ca/print-flyer?flyer_run_id=1181653&flyer_type_name=flyer&locale=en&postal_code=J1X2T3&store_code=7599",
+      "flyer_type_id": 5592,
+      "sfml_url": "https://cdn-gateflipp.flippback.com/storefront-payload/1181653/7864398/7c17d8cdc58e5aab27fbb9fb6375feab110f077b44acb7319499d28053cc5007?merchant_id=2338",
+      "name": "Weekly Flyer",
+      "flyer_type": "flyer",
+      "external_display_name": "Weekly Flyer - Valid Thursday, April 2 - Wednesday, April 8",
+      "first_page_thumbnail_400h_url": "https://f.wishabi.net/flyers/7864398/stock_premium/1774909253.jpg",
+      "storefront_images": {
+        "carousel_organic": "https://f.wishabi.net/flyers/7864398/storefront_carousel_organic/1774909253.jpg"
+      },
+      "correction_notices": []
+    },
+    {
+      "id": 7855517,
+      "flyer_run_id": 1181652,
+      "valid_from": "2026-03-26T00:00:00-04:00",
+      "valid_to": "2026-04-01T23:59:59-04:00",
+      "available_from": "2026-03-24T00:00:00-04:00",
+      "available_to": "2026-04-01T23:59:59-04:00",
+      "locale": "en",
+      "pdf_url": "https://f.wishabi.net/flyers/16593946/cc0b33ff4e769321.pdf",
+      "postal_code": "J1X2T3",
+      "merchant_name": "Provigo",
+      "merchant_logo_url": "https://images.wishabi.net/merchants/bz8lMqWHZ9RtVQ==/mini_magick20201014-1-1ej19cg.png",
+      "deep_link": "https://www.provigo.ca/print-flyer?flyer_run_id=1181652&flyer_type_name=flyer&locale=en&postal_code=J1X2T3&store_code=7599",
+      "flyer_type_id": 5592,
+      "sfml_url": "https://cdn-gateflipp.flippback.com/storefront-payload/1181652/7855517/5da744c915a0cb790b372d81a1301096a5be9ecdccd013e818c02b2bab779073?merchant_id=2338",
+      "name": "Weekly Flyer",
+      "flyer_type": "flyer",
+      "external_display_name": "Weekly Flyer - Valid Thursday, March 26 - Wednesday, April 1",
+      "first_page_thumbnail_400h_url": "https://f.wishabi.net/flyers/7855517/stock_premium/1774562334.jpg",
+      "storefront_images": {
+        "carousel_organic": "https://f.wishabi.net/flyers/7855517/storefront_carousel_organic/1774562334.jpg"
+      },
+      "correction_notices": []
+    }
+  ],
+  "7606": [
+    {
+      "id": 7864398,
+      "flyer_run_id": 1181653,
+      "valid_from": "2026-04-02T00:00:00-04:00",
+      "valid_to": "2026-04-08T23:59:59-04:00",
+      "available_from": "2026-03-31T00:00:00-04:00",
+      "available_to": "2026-04-08T23:59:59-04:00",
+      "locale": "en",
+      "pdf_url": "https://f.wishabi.net/flyers/16601473/84b6255e39d65f70.pdf",
+      "postal_code": "H9H4M7",
+      "merchant_name": "Provigo",
+      "merchant_logo_url": "https://images.wishabi.net/merchants/bz8lMqWHZ9RtVQ==/mini_magick20201014-1-1ej19cg.png",
+      "deep_link": "https://www.provigo.ca/print-flyer?flyer_run_id=1181653&flyer_type_name=flyer&locale=en&postal_code=H9H4M7&store_code=7606",
+      "flyer_type_id": 5592,
+      "sfml_url": "https://cdn-gateflipp.flippback.com/storefront-payload/1181653/7864398/7c17d8cdc58e5aab27fbb9fb6375feab110f077b44acb7319499d28053cc5007?merchant_id=2338",
+      "name": "Weekly Flyer",
+      "flyer_type": "flyer",
+      "external_display_name": "Weekly Flyer - Valid Thursday, April 2 - Wednesday, April 8",
+      "first_page_thumbnail_400h_url": "https://f.wishabi.net/flyers/7864398/stock_premium/1774909253.jpg",
+      "storefront_images": {
+        "carousel_organic": "https://f.wishabi.net/flyers/7864398/storefront_carousel_organic/1774909253.jpg"
+      },
+      "correction_notices": []
+    },
+    {
+      "id": 7855517,
+      "flyer_run_id": 1181652,
+      "valid_from": "2026-03-26T00:00:00-04:00",
+      "valid_to": "2026-04-01T23:59:59-04:00",
+      "available_from": "2026-03-24T00:00:00-04:00",
+      "available_to": "2026-04-01T23:59:59-04:00",
+      "locale": "en",
+      "pdf_url": "https://f.wishabi.net/flyers/16593946/cc0b33ff4e769321.pdf",
+      "postal_code": "H9H4M7",
+      "merchant_name": "Provigo",
+      "merchant_logo_url": "https://images.wishabi.net/merchants/bz8lMqWHZ9RtVQ==/mini_magick20201014-1-1ej19cg.png",
+      "deep_link": "https://www.provigo.ca/print-flyer?flyer_run_id=1181652&flyer_type_name=flyer&locale=en&postal_code=H9H4M7&store_code=7606",
+      "flyer_type_id": 5592,
+      "sfml_url": "https://cdn-gateflipp.flippback.com/storefront-payload/1181652/7855517/5da744c915a0cb790b372d81a1301096a5be9ecdccd013e818c02b2bab779073?merchant_id=2338",
+      "name": "Weekly Flyer",
+      "flyer_type": "flyer",
+      "external_display_name": "Weekly Flyer - Valid Thursday, March 26 - Wednesday, April 1",
+      "first_page_thumbnail_400h_url": "https://f.wishabi.net/flyers/7855517/stock_premium/1774562334.jpg",
+      "storefront_images": {
+        "carousel_organic": "https://f.wishabi.net/flyers/7855517/storefront_carousel_organic/1774562334.jpg"
+      },
+      "correction_notices": []
+    }
+  ],
+  "7907": [
+    {
+      "id": 7864398,
+      "flyer_run_id": 1181653,
+      "valid_from": "2026-04-02T00:00:00-04:00",
+      "valid_to": "2026-04-08T23:59:59-04:00",
+      "available_from": "2026-03-31T00:00:00-04:00",
+      "available_to": "2026-04-08T23:59:59-04:00",
+      "locale": "en",
+      "pdf_url": "https://f.wishabi.net/flyers/16601473/84b6255e39d65f70.pdf",
+      "postal_code": "H2X2H6",
+      "merchant_name": "Provigo",
+      "merchant_logo_url": "https://images.wishabi.net/merchants/bz8lMqWHZ9RtVQ==/mini_magick20201014-1-1ej19cg.png",
+      "deep_link": "https://www.provigo.ca/print-flyer?flyer_run_id=1181653&flyer_type_name=flyer&locale=en&postal_code=H2X2H6&store_code=7907",
+      "flyer_type_id": 5592,
+      "sfml_url": "https://cdn-gateflipp.flippback.com/storefront-payload/1181653/7864398/7c17d8cdc58e5aab27fbb9fb6375feab110f077b44acb7319499d28053cc5007?merchant_id=2338",
+      "name": "Weekly Flyer",
+      "flyer_type": "flyer",
+      "external_display_name": "Weekly Flyer - Valid Thursday, April 2 - Wednesday, April 8",
+      "first_page_thumbnail_400h_url": "https://f.wishabi.net/flyers/7864398/stock_premium/1774909253.jpg",
+      "storefront_images": {
+        "carousel_organic": "https://f.wishabi.net/flyers/7864398/storefront_carousel_organic/1774909253.jpg"
+      },
+      "correction_notices": []
+    },
+    {
+      "id": 7855517,
+      "flyer_run_id": 1181652,
+      "valid_from": "2026-03-26T00:00:00-04:00",
+      "valid_to": "2026-04-01T23:59:59-04:00",
+      "available_from": "2026-03-24T00:00:00-04:00",
+      "available_to": "2026-04-01T23:59:59-04:00",
+      "locale": "en",
+      "pdf_url": "https://f.wishabi.net/flyers/16593946/cc0b33ff4e769321.pdf",
+      "postal_code": "H2X2H6",
+      "merchant_name": "Provigo",
+      "merchant_logo_url": "https://images.wishabi.net/merchants/bz8lMqWHZ9RtVQ==/mini_magick20201014-1-1ej19cg.png",
+      "deep_link": "https://www.provigo.ca/print-flyer?flyer_run_id=1181652&flyer_type_name=flyer&locale=en&postal_code=H2X2H6&store_code=7907",
+      "flyer_type_id": 5592,
+      "sfml_url": "https://cdn-gateflipp.flippback.com/storefront-payload/1181652/7855517/5da744c915a0cb790b372d81a1301096a5be9ecdccd013e818c02b2bab779073?merchant_id=2338",
+      "name": "Weekly Flyer",
+      "flyer_type": "flyer",
+      "external_display_name": "Weekly Flyer - Valid Thursday, March 26 - Wednesday, April 1",
+      "first_page_thumbnail_400h_url": "https://f.wishabi.net/flyers/7855517/stock_premium/1774562334.jpg",
+      "storefront_images": {
+        "carousel_organic": "https://f.wishabi.net/flyers/7855517/storefront_carousel_organic/1774562334.jpg"
+      },
+      "correction_notices": []
+    }
+  ],
+  "7908": [
+    {
+      "id": 7864398,
+      "flyer_run_id": 1181653,
+      "valid_from": "2026-04-02T00:00:00-04:00",
+      "valid_to": "2026-04-08T23:59:59-04:00",
+      "available_from": "2026-03-31T00:00:00-04:00",
+      "available_to": "2026-04-08T23:59:59-04:00",
+      "locale": "en",
+      "pdf_url": "https://f.wishabi.net/flyers/16601473/84b6255e39d65f70.pdf",
+      "postal_code": "J9H1A5",
+      "merchant_name": "Provigo",
+      "merchant_logo_url": "https://images.wishabi.net/merchants/bz8lMqWHZ9RtVQ==/mini_magick20201014-1-1ej19cg.png",
+      "deep_link": "https://www.provigo.ca/print-flyer?flyer_run_id=1181653&flyer_type_name=flyer&locale=en&postal_code=J9H1A5&store_code=7908",
+      "flyer_type_id": 5592,
+      "sfml_url": "https://cdn-gateflipp.flippback.com/storefront-payload/1181653/7864398/7c17d8cdc58e5aab27fbb9fb6375feab110f077b44acb7319499d28053cc5007?merchant_id=2338",
+      "name": "Weekly Flyer",
+      "flyer_type": "flyer",
+      "external_display_name": "Weekly Flyer - Valid Thursday, April 2 - Wednesday, April 8",
+      "first_page_thumbnail_400h_url": "https://f.wishabi.net/flyers/7864398/stock_premium/1774909253.jpg",
+      "storefront_images": {
+        "carousel_organic": "https://f.wishabi.net/flyers/7864398/storefront_carousel_organic/1774909253.jpg"
+      },
+      "correction_notices": []
+    },
+    {
+      "id": 7855517,
+      "flyer_run_id": 1181652,
+      "valid_from": "2026-03-26T00:00:00-04:00",
+      "valid_to": "2026-04-01T23:59:59-04:00",
+      "available_from": "2026-03-24T00:00:00-04:00",
+      "available_to": "2026-04-01T23:59:59-04:00",
+      "locale": "en",
+      "pdf_url": "https://f.wishabi.net/flyers/16593946/cc0b33ff4e769321.pdf",
+      "postal_code": "J9H1A5",
+      "merchant_name": "Provigo",
+      "merchant_logo_url": "https://images.wishabi.net/merchants/bz8lMqWHZ9RtVQ==/mini_magick20201014-1-1ej19cg.png",
+      "deep_link": "https://www.provigo.ca/print-flyer?flyer_run_id=1181652&flyer_type_name=flyer&locale=en&postal_code=J9H1A5&store_code=7908",
+      "flyer_type_id": 5592,
+      "sfml_url": "https://cdn-gateflipp.flippback.com/storefront-payload/1181652/7855517/5da744c915a0cb790b372d81a1301096a5be9ecdccd013e818c02b2bab779073?merchant_id=2338",
+      "name": "Weekly Flyer",
+      "flyer_type": "flyer",
+      "external_display_name": "Weekly Flyer - Valid Thursday, March 26 - Wednesday, April 1",
+      "first_page_thumbnail_400h_url": "https://f.wishabi.net/flyers/7855517/stock_premium/1774562334.jpg",
+      "storefront_images": {
+        "carousel_organic": "https://f.wishabi.net/flyers/7855517/storefront_carousel_organic/1774562334.jpg"
+      },
+      "correction_notices": []
+    }
+  ],
+  "7910": [
+    {
+      "id": 7864398,
+      "flyer_run_id": 1181653,
+      "valid_from": "2026-04-02T00:00:00-04:00",
+      "valid_to": "2026-04-08T23:59:59-04:00",
+      "available_from": "2026-03-31T00:00:00-04:00",
+      "available_to": "2026-04-08T23:59:59-04:00",
+      "locale": "en",
+      "pdf_url": "https://f.wishabi.net/flyers/16601473/84b6255e39d65f70.pdf",
+      "postal_code": "J0R1R4",
+      "merchant_name": "Provigo",
+      "merchant_logo_url": "https://images.wishabi.net/merchants/bz8lMqWHZ9RtVQ==/mini_magick20201014-1-1ej19cg.png",
+      "deep_link": "https://www.provigo.ca/print-flyer?flyer_run_id=1181653&flyer_type_name=flyer&locale=en&postal_code=J0R1R4&store_code=7910",
+      "flyer_type_id": 5592,
+      "sfml_url": "https://cdn-gateflipp.flippback.com/storefront-payload/1181653/7864398/7c17d8cdc58e5aab27fbb9fb6375feab110f077b44acb7319499d28053cc5007?merchant_id=2338",
+      "name": "Weekly Flyer",
+      "flyer_type": "flyer",
+      "external_display_name": "Weekly Flyer - Valid Thursday, April 2 - Wednesday, April 8",
+      "first_page_thumbnail_400h_url": "https://f.wishabi.net/flyers/7864398/stock_premium/1774909253.jpg",
+      "storefront_images": {
+        "carousel_organic": "https://f.wishabi.net/flyers/7864398/storefront_carousel_organic/1774909253.jpg"
+      },
+      "correction_notices": []
+    },
+    {
+      "id": 7855517,
+      "flyer_run_id": 1181652,
+      "valid_from": "2026-03-26T00:00:00-04:00",
+      "valid_to": "2026-04-01T23:59:59-04:00",
+      "available_from": "2026-03-24T00:00:00-04:00",
+      "available_to": "2026-04-01T23:59:59-04:00",
+      "locale": "en",
+      "pdf_url": "https://f.wishabi.net/flyers/16593946/cc0b33ff4e769321.pdf",
+      "postal_code": "J0R1R4",
+      "merchant_name": "Provigo",
+      "merchant_logo_url": "https://images.wishabi.net/merchants/bz8lMqWHZ9RtVQ==/mini_magick20201014-1-1ej19cg.png",
+      "deep_link": "https://www.provigo.ca/print-flyer?flyer_run_id=1181652&flyer_type_name=flyer&locale=en&postal_code=J0R1R4&store_code=7910",
+      "flyer_type_id": 5592,
+      "sfml_url": "https://cdn-gateflipp.flippback.com/storefront-payload/1181652/7855517/5da744c915a0cb790b372d81a1301096a5be9ecdccd013e818c02b2bab779073?merchant_id=2338",
+      "name": "Weekly Flyer",
+      "flyer_type": "flyer",
+      "external_display_name": "Weekly Flyer - Valid Thursday, March 26 - Wednesday, April 1",
+      "first_page_thumbnail_400h_url": "https://f.wishabi.net/flyers/7855517/stock_premium/1774562334.jpg",
+      "storefront_images": {
+        "carousel_organic": "https://f.wishabi.net/flyers/7855517/storefront_carousel_organic/1774562334.jpg"
+      },
+      "correction_notices": []
+    }
+  ],
+  "8807": [
+    {
+      "id": 7864398,
+      "flyer_run_id": 1181653,
+      "valid_from": "2026-04-02T00:00:00-04:00",
+      "valid_to": "2026-04-08T23:59:59-04:00",
+      "available_from": "2026-03-31T00:00:00-04:00",
+      "available_to": "2026-04-08T23:59:59-04:00",
+      "locale": "en",
+      "pdf_url": "https://f.wishabi.net/flyers/16601473/84b6255e39d65f70.pdf",
+      "postal_code": "H3E1J5",
+      "merchant_name": "Provigo",
+      "merchant_logo_url": "https://images.wishabi.net/merchants/bz8lMqWHZ9RtVQ==/mini_magick20201014-1-1ej19cg.png",
+      "deep_link": "https://www.provigo.ca/print-flyer?flyer_run_id=1181653&flyer_type_name=flyer&locale=en&postal_code=H3E1J5&store_code=8807",
+      "flyer_type_id": 5592,
+      "sfml_url": "https://cdn-gateflipp.flippback.com/storefront-payload/1181653/7864398/7c17d8cdc58e5aab27fbb9fb6375feab110f077b44acb7319499d28053cc5007?merchant_id=2338",
+      "name": "Weekly Flyer",
+      "flyer_type": "flyer",
+      "external_display_name": "Weekly Flyer - Valid Thursday, April 2 - Wednesday, April 8",
+      "first_page_thumbnail_400h_url": "https://f.wishabi.net/flyers/7864398/stock_premium/1774909253.jpg",
+      "storefront_images": {
+        "carousel_organic": "https://f.wishabi.net/flyers/7864398/storefront_carousel_organic/1774909253.jpg"
+      },
+      "correction_notices": []
+    },
+    {
+      "id": 7855517,
+      "flyer_run_id": 1181652,
+      "valid_from": "2026-03-26T00:00:00-04:00",
+      "valid_to": "2026-04-01T23:59:59-04:00",
+      "available_from": "2026-03-24T00:00:00-04:00",
+      "available_to": "2026-04-01T23:59:59-04:00",
+      "locale": "en",
+      "pdf_url": "https://f.wishabi.net/flyers/16593946/cc0b33ff4e769321.pdf",
+      "postal_code": "H3E1J5",
+      "merchant_name": "Provigo",
+      "merchant_logo_url": "https://images.wishabi.net/merchants/bz8lMqWHZ9RtVQ==/mini_magick20201014-1-1ej19cg.png",
+      "deep_link": "https://www.provigo.ca/print-flyer?flyer_run_id=1181652&flyer_type_name=flyer&locale=en&postal_code=H3E1J5&store_code=8807",
+      "flyer_type_id": 5592,
+      "sfml_url": "https://cdn-gateflipp.flippback.com/storefront-payload/1181652/7855517/5da744c915a0cb790b372d81a1301096a5be9ecdccd013e818c02b2bab779073?merchant_id=2338",
+      "name": "Weekly Flyer",
+      "flyer_type": "flyer",
+      "external_display_name": "Weekly Flyer - Valid Thursday, March 26 - Wednesday, April 1",
+      "first_page_thumbnail_400h_url": "https://f.wishabi.net/flyers/7855517/stock_premium/1774562334.jpg",
+      "storefront_images": {
+        "carousel_organic": "https://f.wishabi.net/flyers/7855517/storefront_carousel_organic/1774562334.jpg"
+      },
+      "correction_notices": []
+    }
+  ],
+  "8846": [
+    {
+      "id": 7864398,
+      "flyer_run_id": 1181653,
+      "valid_from": "2026-04-02T00:00:00-04:00",
+      "valid_to": "2026-04-08T23:59:59-04:00",
+      "available_from": "2026-03-31T00:00:00-04:00",
+      "available_to": "2026-04-08T23:59:59-04:00",
+      "locale": "en",
+      "pdf_url": "https://f.wishabi.net/flyers/16601473/84b6255e39d65f70.pdf",
+      "postal_code": "J0K3K0",
+      "merchant_name": "Provigo",
+      "merchant_logo_url": "https://images.wishabi.net/merchants/bz8lMqWHZ9RtVQ==/mini_magick20201014-1-1ej19cg.png",
+      "deep_link": "https://www.provigo.ca/print-flyer?flyer_run_id=1181653&flyer_type_name=flyer&locale=en&postal_code=J0K3K0&store_code=8846",
+      "flyer_type_id": 5592,
+      "sfml_url": "https://cdn-gateflipp.flippback.com/storefront-payload/1181653/7864398/7c17d8cdc58e5aab27fbb9fb6375feab110f077b44acb7319499d28053cc5007?merchant_id=2338",
+      "name": "Weekly Flyer",
+      "flyer_type": "flyer",
+      "external_display_name": "Weekly Flyer - Valid Thursday, April 2 - Wednesday, April 8",
+      "first_page_thumbnail_400h_url": "https://f.wishabi.net/flyers/7864398/stock_premium/1774909253.jpg",
+      "storefront_images": {
+        "carousel_organic": "https://f.wishabi.net/flyers/7864398/storefront_carousel_organic/1774909253.jpg"
+      },
+      "correction_notices": []
+    },
+    {
+      "id": 7855517,
+      "flyer_run_id": 1181652,
+      "valid_from": "2026-03-26T00:00:00-04:00",
+      "valid_to": "2026-04-01T23:59:59-04:00",
+      "available_from": "2026-03-24T00:00:00-04:00",
+      "available_to": "2026-04-01T23:59:59-04:00",
+      "locale": "en",
+      "pdf_url": "https://f.wishabi.net/flyers/16593946/cc0b33ff4e769321.pdf",
+      "postal_code": "J0K3K0",
+      "merchant_name": "Provigo",
+      "merchant_logo_url": "https://images.wishabi.net/merchants/bz8lMqWHZ9RtVQ==/mini_magick20201014-1-1ej19cg.png",
+      "deep_link": "https://www.provigo.ca/print-flyer?flyer_run_id=1181652&flyer_type_name=flyer&locale=en&postal_code=J0K3K0&store_code=8846",
+      "flyer_type_id": 5592,
+      "sfml_url": "https://cdn-gateflipp.flippback.com/storefront-payload/1181652/7855517/5da744c915a0cb790b372d81a1301096a5be9ecdccd013e818c02b2bab779073?merchant_id=2338",
+      "name": "Weekly Flyer",
+      "flyer_type": "flyer",
+      "external_display_name": "Weekly Flyer - Valid Thursday, March 26 - Wednesday, April 1",
+      "first_page_thumbnail_400h_url": "https://f.wishabi.net/flyers/7855517/stock_premium/1774562334.jpg",
+      "storefront_images": {
+        "carousel_organic": "https://f.wishabi.net/flyers/7855517/storefront_carousel_organic/1774562334.jpg"
+      },
+      "correction_notices": []
+    }
+  ],
+  "8978": [
+    {
+      "id": 7864398,
+      "flyer_run_id": 1181653,
+      "valid_from": "2026-04-02T00:00:00-04:00",
+      "valid_to": "2026-04-08T23:59:59-04:00",
+      "available_from": "2026-03-31T00:00:00-04:00",
+      "available_to": "2026-04-08T23:59:59-04:00",
+      "locale": "en",
+      "pdf_url": "https://f.wishabi.net/flyers/16601473/84b6255e39d65f70.pdf",
+      "postal_code": "H4A1E1",
+      "merchant_name": "Provigo",
+      "merchant_logo_url": "https://images.wishabi.net/merchants/bz8lMqWHZ9RtVQ==/mini_magick20201014-1-1ej19cg.png",
+      "deep_link": "https://www.provigo.ca/print-flyer?flyer_run_id=1181653&flyer_type_name=flyer&locale=en&postal_code=H4A1E1&store_code=8978",
+      "flyer_type_id": 5592,
+      "sfml_url": "https://cdn-gateflipp.flippback.com/storefront-payload/1181653/7864398/7c17d8cdc58e5aab27fbb9fb6375feab110f077b44acb7319499d28053cc5007?merchant_id=2338",
+      "name": "Weekly Flyer",
+      "flyer_type": "flyer",
+      "external_display_name": "Weekly Flyer - Valid Thursday, April 2 - Wednesday, April 8",
+      "first_page_thumbnail_400h_url": "https://f.wishabi.net/flyers/7864398/stock_premium/1774909253.jpg",
+      "storefront_images": {
+        "carousel_organic": "https://f.wishabi.net/flyers/7864398/storefront_carousel_organic/1774909253.jpg"
+      },
+      "correction_notices": []
+    },
+    {
+      "id": 7855517,
+      "flyer_run_id": 1181652,
+      "valid_from": "2026-03-26T00:00:00-04:00",
+      "valid_to": "2026-04-01T23:59:59-04:00",
+      "available_from": "2026-03-24T00:00:00-04:00",
+      "available_to": "2026-04-01T23:59:59-04:00",
+      "locale": "en",
+      "pdf_url": "https://f.wishabi.net/flyers/16593946/cc0b33ff4e769321.pdf",
+      "postal_code": "H4A1E1",
+      "merchant_name": "Provigo",
+      "merchant_logo_url": "https://images.wishabi.net/merchants/bz8lMqWHZ9RtVQ==/mini_magick20201014-1-1ej19cg.png",
+      "deep_link": "https://www.provigo.ca/print-flyer?flyer_run_id=1181652&flyer_type_name=flyer&locale=en&postal_code=H4A1E1&store_code=8978",
+      "flyer_type_id": 5592,
+      "sfml_url": "https://cdn-gateflipp.flippback.com/storefront-payload/1181652/7855517/5da744c915a0cb790b372d81a1301096a5be9ecdccd013e818c02b2bab779073?merchant_id=2338",
+      "name": "Weekly Flyer",
+      "flyer_type": "flyer",
+      "external_display_name": "Weekly Flyer - Valid Thursday, March 26 - Wednesday, April 1",
+      "first_page_thumbnail_400h_url": "https://f.wishabi.net/flyers/7855517/stock_premium/1774562334.jpg",
+      "storefront_images": {
+        "carousel_organic": "https://f.wishabi.net/flyers/7855517/storefront_carousel_organic/1774562334.jpg"
+      },
+      "correction_notices": []
+    }
+  ]
+}

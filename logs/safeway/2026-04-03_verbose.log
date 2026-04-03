@@ -1,0 +1,206 @@
+=== Safeway Flyer Fetch — 2026-04-03 ===
+Run started : 2026-04-03 02:47:05 UTC
+
+Loaded 173 stores from data/safeway/stores.json
+
+Stores loaded: 173
+Loaded existing store_flyers.json (264 publication entries)
+
+Phase 1: fetching publications per store…
+
+  [4030] Sobeys Unicity → no new flyers
+  [4381] Jasper Ave → no new flyers
+  [4382] D'Arcy Crossing → no new flyers
+  [4764] Safeway Aurora → no new flyers
+  [4808] 400 First Avenue South → no new flyers
+  [4809] 417 Scott Street → no new flyers
+  [4810] 75 Whyte Avenue → no new flyers
+  [4811] 115 West Arthur Street → no new flyers
+  [4812] 1015 Dawson Road → no new flyers
+  [4821] 1441 Henderson Hwy. → no new flyers
+  [4822] 1612 Ness Avenue → no new flyers
+  [4824] 594 Mountain At McGregor → no new flyers
+  [4828] 318 Manitoba Avenue → no new flyers
+  [4829] 921 - 18 Street North → no new flyers
+  [4830] 498 Mountain Ave (Box 640) → no new flyers
+  [4832] 300 Mystery Lake Road → no new flyers
+  [4833] 50, 1450 Main Street → no new flyers
+  [4842] 285 Marion At Braemar → no new flyers
+  [4844] 655 Osborne At Kylemore → no new flyers
+  [4847] 2155 Pembina Highway → no new flyers
+  [4848] 850 Keewatin Street → no new flyers
+  [4849] 2025 Corydon At Edgeland → no new flyers
+  [4851] 3393 Portage Avenue → no new flyers
+  [4853] 920 Jefferson Avenue → no new flyers
+  [4854] 3900 Grant Avenue → no new flyers
+  [4855] 500, 1615 Regent Avenue West → no new flyers
+  [4857] 654 Kildare Avenue East → no new flyers
+  [4859] 1625 Kenaston Boulevard → no new flyers
+  [4867] 499 River Avenue → no new flyers
+  [4876] Sobeys Thickwood → no new flyers
+  [4878] Safeway Lawson Heights → no new flyers
+  [4879] Prince Albert → no new flyers
+  [4880] 1860 McOrmond Drive → no new flyers
+  [4887] Southland Mall → no new flyers
+  [4888] 1 Springs Drive → no new flyers
+  [4890] 353 Albert Street North → no new flyers
+  [4891] 2931 - 13 Avenue → no new flyers
+  [4894] Safeway Regent Park → no new flyers
+  [4896] Moose Jaw → no new flyers
+  [4901] 2733 West Broadway → no new flyers
+  [4902] 500, 2339 Hwy 97 North → no new flyers
+  [4903] 6401 - 120 Street → no new flyers
+  [4905] #780, 2601 Westview Drive → no new flyers
+  [4906] 3417 - 30 Avenue → no new flyers
+  [4907] 555 West 12 Avenue → no new flyers
+  [4908] 1766 Robson Street → no new flyers
+  [4909] 5385 Headland Drive → no new flyers
+  [4911] 4440 Hastings Street → no new flyers
+  [4912] 20871 Fraser Highway → no new flyers
+  [4913] 6564 East Hastings Street → no new flyers
+  [4914] 700, 15355 - 24 Avenue → no new flyers
+  [4916] 750 Fortune Drive → no new flyers
+  [4917] 800 McBride Boulevard → no new flyers
+  [4918] 6153 - 200 Street → no new flyers
+  [4919] 4300 - 32 Street → no new flyers
+  [4920] 8860 - 152 Street → no new flyers
+  [4924] 1599 - 2 Avenue → no new flyers
+  [4925] 445 Reid Street → no new flyers
+  [4926] 1 575 A Alder Avenue → no new flyers
+  [4928] 200 - 2 Avenue West → no new flyers
+  [4930] 220, 800 Carnarvon Street . → no new flyers
+  [4931] 3410 Kingsway Street → no new flyers
+  [4932] 100, 32500 S. Fraser Way → no new flyers
+  [4933] 945 West Columbia → no new flyers
+  [4935] 7450 - 120 Street → no new flyers
+  [4936] 1100, 2850 Shaughnessy Street → no new flyers
+  [4938] 45850 Yale Road → no new flyers
+  [4939] 12825 - 16 Avenue → no new flyers
+  [4940] 650 West 41 Avenue → no new flyers
+  [4941] 990 King Edward Avenue West → no new flyers
+  [4944] 9855 Austin Road → no new flyers
+  [4945] 4575 West 10 Avenue → no new flyers
+  [4946] 4655 Lakelse Avenue → no new flyers
+  [4947] 109, 4255 Arbutus Street → no new flyers
+  [4948] 211 Anderson → no new flyers
+  [4949] 6140 Blundell Road → no new flyers
+  [4950] 1170 East 27 Street → no new flyers
+  [4951] 32520 Lougheed Highway → no new flyers
+  [4952] 3664 Highway 16 (Box 459) → no new flyers
+  [4954] 5235 Kingsway → no new flyers
+  [4955] 801, 1301 Main Street → no new flyers
+  [4956] 451 Oliver → no new flyers
+  [4957] 10151 No. 3 Road → no new flyers
+  [4958] 1175 Mt. Seymour Road → no new flyers
+  [4959] 27566 Fraser Highway → no new flyers
+  [4960] 697 Bernard Avenue → no new flyers
+  [4962] 5275 - 48 Avenue → no new flyers
+  [4963] Powell River → no new flyers
+  [4964] 7165 - 138 Street → no new flyers
+  [4966] 1780 East Broadway → no new flyers
+  [4967] 8671 No. 1 Road → no new flyers
+  [4968] 45610 Luckakuck Way → no new flyers
+  [4970] 1721 Columbia Avenue → no new flyers
+  [4971] 300, 20201 Lougheed Hwy → no new flyers
+  [4972] 11200, 11216 - 8 Street → no new flyers
+  [4973] 9123 - 100 Street → no new flyers
+  [4974] Safeway Cranbrook → no new flyers
+  [4976] 8475 Granville Street → no new flyers
+  [4977] Safeway Burquitlam → no new flyers
+  [4979] Safeway Arbutus → no new flyers
+  [4980] Safeway Austin Heights 4980 → no new flyers
+  [4986] Sobeys Stonebridge → no new flyers
+  [4993] Lawson Heights → no new flyers
+  [4998] Safeway Davie → no new flyers
+  [5037] 2860 Pembina Highway → no new flyers
+  [5038] Stonebridge → no new flyers
+  [5170] Sobeys - Varsity Common → no new flyers
+  [5387] Riverbend → no new flyers
+  [5472] Rochdale → no new flyers
+  [8805] 318 Marten Street (BOX 1450) → no new flyers
+  [8809] Westbrook Mall → no new flyers
+  [8812] 813 - 11 Avenue SW → no new flyers
+  [8816] 3625 Shaganappi Trail NW → no new flyers
+  [8820] 524 Elbow Drive SW → no new flyers
+  [8821] 1, 755 Lake Bonavista Dr. SE → no new flyers
+  [8823] #20, 1818 Centre Street NE → no new flyers
+  [8824] 410 - 10 Street NW → no new flyers
+  [8827] 2525 Woodview Drive SW → no new flyers
+  [8830] 505 Main Street → no new flyers
+  [8831] 55 Castleridge Boulevard NE → no new flyers
+  [8833] 99 Crowfoot Crescent NW → no new flyers
+  [8841] 11011 Bonaventure Drive SE → no new flyers
+  [8842] 1600 - 90 Avenue SW → no new flyers
+  [8844] 5005 Dalhousie Drive NW → no new flyers
+  [8846] 9737 Macleod Trail SW → no new flyers
+  [8847] 70 Shawville Boulevard SE → no new flyers
+  [8849] 8120 Beddington Blvd NW → no new flyers
+  [8852] 200 Stewart Green SW → no new flyers
+  [8854] Fairway Plaza → no new flyers
+  [8855] 8720 - 156 Street → no new flyers
+  [8857] Leduc → no new flyers
+  [8858] 576 Riverbend Square NW → no new flyers
+  [8859] 300 - 2 Hebert Road → no new flyers
+  [8863] 395 St. Albert Trail → no new flyers
+  [8867] 11410 - 104 Avenue NW → no new flyers
+  [8871] Northgate → no new flyers
+  [8874] 985 Fir Street → no new flyers
+  [8877] 4407 50th Avenue → no new flyers
+  [8879] 500 Manning Crossing NW → no new flyers
+  [8880] Terra Losa → no new flyers
+  [8883] 200, 6800 - 48 Avenue → no new flyers
+  [8885] 4202 Southpark Drive → no new flyers
+  [8886] 600, 6655 - 178 Street NW → no new flyers
+  [8887] 500, 900 Carmichael Lane → no new flyers
+  [8888] 8100 - 100 Street → no new flyers
+  [8891] 601 111th Ave & Groat Road → no new flyers
+  [8892] 200, 9499 - 137 Avenue NW → no new flyers
+  [8893] 1062, 5004 - 98 Avenue NW → no new flyers
+  [8894] 9450 - 86 Avenue → no new flyers
+  [8895] 10930 - 82 Avenue NW → no new flyers
+  [8896] 550 Cassils Road West → no new flyers
+  [8897] 94 Mcleod Avenue → no new flyers
+  [8898] #185, 8330 - 82 Avenue NW → no new flyers
+  [8899] 3905 - 56 Street → no new flyers
+  [8900] 2534 Guardian Road → no new flyers
+  [8903] 375 Aspen Glen Landing SW → no new flyers
+  [8904] 100A, 5015 - 111 Street NW → no new flyers
+  [8906] 5110 Windermere Boulevard → no new flyers
+  [8910] Thorncliffe → no new flyers
+  [8912] Garrison Woods → no new flyers
+  [8913] #1846,1632 - 14 Avenue NW → no new flyers
+  [8914] Town Square → no new flyers
+  [8915] 615 Division Avenue South → no new flyers
+  [8916] 5048 16 Avenue NW → no new flyers
+  [8919] 1200 Railway Avenue → no new flyers
+  [8920] West Lethbridge → no new flyers
+  [8921] 2310 - 109 Street NW → no new flyers
+  [8922] 5211  44th Street → no new flyers
+  [8924] 2020 Sherwood Drive → no new flyers
+  [8989] #100, 4915 - 130 Avenue SE → no new flyers
+  [8990] Glamorgan → no new flyers
+  [8991] 100, 135 Chestermere Station Way → no new flyers
+  [8992] South Trail Crossing → no new flyers
+
+  0 new publication entries across 173 stores
+  0 unique new publication(s) to download
+  Saved → data/safeway/store_flyers.json  (350,330 bytes)
+New publication entries added to store_flyers.json: 0
+Unique new publications to download: 0
+
+Phase 2: fetching products for each new publication…
+
+  Nothing new to download.
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 0
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-04-03 02:47:27 UTC
+Elapsed      : 0m 21s
+
+
+Done.  Verbose log → logs/safeway/2026-04-03_verbose.log
+       Summary log → logs/safeway/2026-04-03_summary.log
+

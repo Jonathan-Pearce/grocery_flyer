@@ -1,0 +1,88 @@
+=== Farm Boy Flyer Fetch — 2026-04-02 ===
+Run started : 2026-04-02 23:52:20 UTC
+
+Loaded 52 stores from data/farm_boy/stores.json
+
+Stores loaded: 52
+Phase 1: fetching publications per store…
+
+  [1] Cornwall → ['7865167']
+  [4] Nepean → ['7865167']
+  [5] Hillside → ['7865167']
+  [6] Terry Fox → ['7865167']
+  [7] Blossom Park → ['7865167']
+  [8] Orléans → ['7865167']
+  [9] Barrhaven → ['7865167']
+  [10] Blue Heron → ['7865167']
+  [11] Kanata Signature Centre → ['7865167']
+  [14] Britannia → ['7865167']
+  [16] Place d'Orléans → ['7865167']
+  [17] Kingston → ['7865167']
+  [18] Train Yards → ['7865167']
+  [19] London → ['7865167']
+  [20] London - Fanshawe → ['7865167']
+  [21] Beaverbrook → ['7865167']
+  [22] Whitby → ['7865167']
+  [23] Fairway Plaza → ['7865167']
+  [24] Brantford → ['7865167']
+  [25] Farm Boy McRae Avenue → ['7865167']
+  [26] Cambridge → ['7865167']
+  [27] Pickering → ['7865167']
+  [28] Etobicoke → ['7865167']
+  [29] Ottawa Rideau → ['7865167']
+  [30] Hamilton → ['7865167']
+  [31] Oakwoods Centre → ['7865167']
+  [32] Lakeshore Blvd E → ['7865167']
+  [33] Burlington → ['7865167']
+  [34] St.Catharines → ['7865167']
+  [35] Metcalfe - Ottawa → ['7865167']
+  [36] Newmarket → ['7865167']
+  [37] Toronto - Bay & College → ['7865167']
+  [38] Toronto – Yonge & Soudan → ['7865167']
+  [39] Waterloo → ['7865167']
+  [40] Toronto Front & Bathurst → ['7865167']
+  [41] Richmond Hill → ['7865167']
+  [42] Farm Boy Harbourfront → ['7865167']
+  [43] Greenbank → ['7865167']
+  [44] Oakville - Bronte → ['7865167']
+  [45] Farm Boy Aukland → ['7865167']
+  [46] Dupont & Christie → ['7865167']
+  [47] Stone Road Guelph → ['7865167']
+  [48] Barrie → ['7865167']
+  [49] St. Clair → ['7865167']
+  [50] Aurora → ['7865167']
+  [51] Toronto - Sugar Wharf → ['7865167']
+  [52] Oshawa → ['7865167']
+  [54] Port Credit → ['7865167']
+  [55] Burlington South → ['7865167']
+  [56] Laird Drive → ['7865167']
+  [57] Hazeldean → ['7865167']
+  [58] Collingwood → ['7865168']
+
+  52 new publication entries across 52 stores
+  2 unique new publication(s) to download
+  Saved → data/farm_boy/store_flyers.json  (59,691 bytes)
+New publication entries added to store_flyers.json: 52
+Unique new publications to download: 2
+
+Phase 2: fetching products for each new publication…
+
+  [7865167] Weekly  (2026-04-02T00:00:00-04:00 → 2026-04-08T23:59:59-04:00)
+    92 products
+  Saved → data/farm_boy/flyers/7865167.json  (187,239 bytes)
+  [7865168] Weekly  (2026-04-02T00:00:00-04:00 → 2026-04-08T23:59:59-04:00)
+    92 products
+  Saved → data/farm_boy/flyers/7865168.json  (186,867 bytes)
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 2
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-04-02 23:52:27 UTC
+Elapsed      : 0m 6s
+
+
+Done.  Verbose log → logs/farm_boy/2026-04-02_verbose.log
+       Summary log → logs/farm_boy/2026-04-02_summary.log
+

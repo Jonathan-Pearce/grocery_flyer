@@ -1,0 +1,76 @@
+=== Longos Flyer Fetch — 2026-04-03 ===
+Run started : 2026-04-03 02:49:00 UTC
+
+Loaded 43 stores from data/longos/stores.json
+
+Stores loaded: 43
+Loaded existing store_flyers.json (76 publication entries)
+
+Phase 1: fetching publications per store…
+
+  [2] Oakville → no new flyers
+  [3] Fairview → no new flyers
+  [4] Markham → no new flyers
+  [5] Bayview → no new flyers
+  [6] Weston → no new flyers
+  [7] Brampton → no new flyers
+  [8] Glen Erin → no new flyers
+  [9] Walkers (N. Burlington) → no new flyers
+  [10] York Mills → no new flyers
+  [11] Rutherford → no new flyers
+  [12] Maple → no new flyers
+  [13] Winston Churchill → no new flyers
+  [14] Ponytrail → no new flyers
+  [15] Brookfield → no new flyers
+  [16] Burloak → no new flyers
+  [17] Boxgrove → no new flyers
+  [18] Elizabeth → no new flyers
+  [19] Aurora → no new flyers
+  [20] Bathurst → no new flyers
+  [21] The Market by Longo's Hudson Bay Centre → no new flyers
+  [22] Richmond Hill → no new flyers
+  [23] The Market by Longo's First Canadian Place → no new flyers
+  [24] Maple Leaf Square → no new flyers
+  [25] Milton → no new flyers
+  [26] Leaside → no new flyers
+  [27] Southeast Oakville → no new flyers
+  [28] Applewood Plaza → no new flyers
+  [29] Imperial Plaza → no new flyers
+  [30] Longo's Mount Pleasant → no new flyers
+  [31] Ancaster → no new flyers
+  [32] Longo's Guelph → no new flyers
+  [33] Ajax → no new flyers
+  [34] Stouffville → no new flyers
+  [35] Yonge Sheppard → no new flyers
+  [36] Green Lane → no new flyers
+  [37] Liberty Village → no new flyers
+  [38] Brooklin → no new flyers
+  [40] Kitchener → no new flyers
+  [41] Meadowvale → no new flyers
+  [42] Kleinburg → no new flyers
+  [43] Longo’s Queensway → no new flyers
+  [44] Colossus → no new flyers
+  [50] Garden Foods → no new flyers
+
+  0 new publication entries across 43 stores
+  0 unique new publication(s) to download
+  Saved → data/longos/store_flyers.json  (86,102 bytes)
+New publication entries added to store_flyers.json: 0
+Unique new publications to download: 0
+
+Phase 2: fetching products for each new publication…
+
+  Nothing new to download.
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 0
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-04-03 02:49:05 UTC
+Elapsed      : 0m 5s
+
+
+Done.  Verbose log → logs/longos/2026-04-03_verbose.log
+       Summary log → logs/longos/2026-04-03_summary.log
+

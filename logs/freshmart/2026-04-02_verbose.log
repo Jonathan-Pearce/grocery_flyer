@@ -1,0 +1,63 @@
+=== Freshmart Flyer Fetch — 2026-04-02 ===
+Run started : 2026-04-02 22:49:01 UTC
+
+Loaded 24 stores from data/freshmart/stores.json
+
+Stores loaded: 24
+Phase 1: fetching publications per store…
+
+  [2401] Esterhazy Freshmart → ['7867940']
+  [3361] PoCo Freshmart → ['7867940']
+  [4028] Dildo Freshmart → ['7862546']
+  [4030] Warren's Store LTD → ['7862546']
+  [4032] Burton's Grocery Hardware → ['7862546']
+  [4043] Woodfors's LTD → ['7862546']
+  [4048] Yarmouth South Freshmart → ['7862546']
+  [4049] Cabot Trail Food Market R&W → ['7862546']
+  [4051] Cooper's Red & White → ['7862546']
+  [4055] Hartland Freshmart → ['7862546']
+  [4136] Neguac Freshmart → ['7862546']
+  [4148] Macpherson's Grocery R&W → ['7862546']
+  [4152] Comeauville Freshmart → ['7862546']
+  [4158] F J Shea & Sons Red &White → no new flyers
+  [4183] Grocery Cocagne Variety → no new flyers
+  [4192] Ingonish Freshmart → ['7862546']
+  [4216] Bala Freshmart → ['7862551']
+  [4227] Foster's Freshmart → ['7862551']
+  [4359] McClelland's Freshmart → no new flyers
+  [4383] North Central CO-OP → ['7862551']
+  [4693] Lansdowne Freshmart → ['7862551']
+  [4803] Bowers Freshmart → ['7862551']
+  [4804] Gordanier's Freshmart → ['7862551']
+  [4807] A & G Freshmart → no new flyers
+
+  20 new publication entries across 24 stores
+  3 unique new publication(s) to download
+  Saved → data/freshmart/store_flyers.json  (24,242 bytes)
+New publication entries added to store_flyers.json: 20
+Unique new publications to download: 3
+
+Phase 2: fetching products for each new publication…
+
+  [7867940] Weekly Flyer  (2026-04-02T00:00:00-04:00 → 2026-04-08T23:59:59-04:00)
+    115 products
+  Saved → data/freshmart/flyers/7867940.json  (251,410 bytes)
+  [7862546] Weekly Flyer  (2026-04-02T00:00:00-04:00 → 2026-04-08T23:59:59-04:00)
+    115 products
+  Saved → data/freshmart/flyers/7862546.json  (252,953 bytes)
+  [7862551] Weekly Flyer  (2026-04-02T00:00:00-04:00 → 2026-04-08T23:59:59-04:00)
+    115 products
+  Saved → data/freshmart/flyers/7862551.json  (253,226 bytes)
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 3
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-04-02 22:49:04 UTC
+Elapsed      : 0m 3s
+
+
+Done.  Verbose log → logs/freshmart/2026-04-02_verbose.log
+       Summary log → logs/freshmart/2026-04-02_summary.log
+

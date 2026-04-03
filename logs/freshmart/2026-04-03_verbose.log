@@ -1,0 +1,57 @@
+=== Freshmart Flyer Fetch — 2026-04-03 ===
+Run started : 2026-04-03 02:46:22 UTC
+
+Loaded 24 stores from data/freshmart/stores.json
+
+Stores loaded: 24
+Loaded existing store_flyers.json (20 publication entries)
+
+Phase 1: fetching publications per store…
+
+  [2401] Esterhazy Freshmart → no new flyers
+  [3361] PoCo Freshmart → no new flyers
+  [4028] Dildo Freshmart → no new flyers
+  [4030] Warren's Store LTD → no new flyers
+  [4032] Burton's Grocery Hardware → no new flyers
+  [4043] Woodfors's LTD → no new flyers
+  [4048] Yarmouth South Freshmart → no new flyers
+  [4049] Cabot Trail Food Market R&W → no new flyers
+  [4051] Cooper's Red & White → no new flyers
+  [4055] Hartland Freshmart → no new flyers
+  [4136] Neguac Freshmart → no new flyers
+  [4148] Macpherson's Grocery R&W → no new flyers
+  [4152] Comeauville Freshmart → no new flyers
+  [4158] F J Shea & Sons Red &White → no new flyers
+  [4183] Grocery Cocagne Variety → no new flyers
+  [4192] Ingonish Freshmart → no new flyers
+  [4216] Bala Freshmart → no new flyers
+  [4227] Foster's Freshmart → no new flyers
+  [4359] McClelland's Freshmart → no new flyers
+  [4383] North Central CO-OP → no new flyers
+  [4693] Lansdowne Freshmart → no new flyers
+  [4803] Bowers Freshmart → no new flyers
+  [4804] Gordanier's Freshmart → no new flyers
+  [4807] A & G Freshmart → no new flyers
+
+  0 new publication entries across 24 stores
+  0 unique new publication(s) to download
+  Saved → data/freshmart/store_flyers.json  (24,242 bytes)
+New publication entries added to store_flyers.json: 0
+Unique new publications to download: 0
+
+Phase 2: fetching products for each new publication…
+
+  Nothing new to download.
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 0
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-04-03 02:46:25 UTC
+Elapsed      : 0m 3s
+
+
+Done.  Verbose log → logs/freshmart/2026-04-03_verbose.log
+       Summary log → logs/freshmart/2026-04-03_summary.log
+

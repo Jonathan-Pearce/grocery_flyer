@@ -1,0 +1,104 @@
+=== Zehrs Flyer Fetch — 2026-04-02 ===
+Run started : 2026-04-02 22:48:05 UTC
+
+Loaded 44 stores from data/zehrs/stores.json
+
+Stores loaded: 44
+Phase 1: fetching publications per store…
+
+  [26] TEST STORE → no new flyers
+  [500] Zehrs Clairfiled → ['7866220']
+  [505] Zehrs Bradford → ['7866220']
+  [507] Zehrs Essa Road → ['7866223']
+  [509] Zehrs Alliston → ['7866222']
+  [514] Zehrs Duckworth → ['7866222']
+  [515] Zehrs Hiway Centre → ['7866222']
+  [519] Zehrs Caledonia → ['7866222']
+  [520] Zehrs Keswick → ['7866223']
+  [521] Zehrs Malden Road → ['7866228']
+  [522] Zehrs Pen Centre → ['7866222']
+  [523] Zehrs Stanley Park → ['7866227']
+  [524] Zehrs Beechwood → ['7866221']
+  [525] Zehrs Glenridge → ['7866220']
+  [528] Zehrs Conestoga → ['7866222']
+  [529] Zehrs Parkway Mall → ['7866221']
+  [530] Zehrs Pioneer Park → ['7866220']
+  [531] Zehrs Hartsland → ['7866222']
+  [532] Zehrs Goderich → ['7866220']
+  [533] Zehrs Cambridge Cntr → ['7866229']
+  [535] Zehrs Listowel → ['7866222']
+  [536] Zehrs Geneva Street → ['7866222']
+  [537] Zehrs Niagara → ['7866224']
+  [538] Zehrs Eramosa → ['7866222']
+  [539] Zehrs Fergus → ['7866229']
+  [540] Zehrs Fairview → ['7866220']
+  [543] Zehrs King George → ['7866220']
+  [545] Zehrs Hespeler → ['7866222']
+  [550] Zehrs Welland → ['7866220']
+  [552] Zehrs Uxbridge → ['7866229']
+  [554] Zehrs Orangeville → ['7866222']
+  [557] Zehrs Stratford → ['7866226']
+  [558] Zehrs Bolton → no new flyers
+  [559] Zehrs Imperial → ['7866228']
+  [560] Zehrs Laurentian → ['7866228']
+  [563] Zehrs Owen Sound → ['7866227']
+  [565] Zehrs Big Bay Point → ['7866229']
+  [570] Zehrs Tillsonburg → ['7866227']
+  [572] Zehrs Kingsville → ['7866222']
+  [573] Zehrs St Clair Beach → ['7866220']
+  [576] Zehrs South Cambridge → ['7866225']
+  [579] Zehrs Woodstock → ['7866220']
+  [580] Zehrs Orillia → ['7866220']
+  [6583] Zehrs Bayfield → ['7866222']
+
+  42 new publication entries across 44 stores
+  10 unique new publication(s) to download
+  Saved → data/zehrs/store_flyers.json  (55,780 bytes)
+New publication entries added to store_flyers.json: 42
+Unique new publications to download: 10
+
+Phase 2: fetching products for each new publication…
+
+  [7866220] Weekly Flyer  (2026-04-02T00:00:00-04:00 → 2026-04-08T23:59:59-04:00)
+    295 products
+  Saved → data/zehrs/flyers/7866220.json  (653,091 bytes)
+  [7866223] Weekly Flyer  (2026-04-02T00:00:00-04:00 → 2026-04-08T23:59:59-04:00)
+    317 products
+  Saved → data/zehrs/flyers/7866223.json  (701,170 bytes)
+  [7866222] Weekly Flyer  (2026-04-02T00:00:00-04:00 → 2026-04-08T23:59:59-04:00)
+    303 products
+  Saved → data/zehrs/flyers/7866222.json  (669,770 bytes)
+  [7866228] Weekly Flyer  (2026-04-02T00:00:00-04:00 → 2026-04-08T23:59:59-04:00)
+    343 products
+  Saved → data/zehrs/flyers/7866228.json  (757,336 bytes)
+  [7866227] Weekly Flyer  (2026-04-02T00:00:00-04:00 → 2026-04-08T23:59:59-04:00)
+    314 products
+  Saved → data/zehrs/flyers/7866227.json  (694,509 bytes)
+  [7866221] Weekly Flyer  (2026-04-02T00:00:00-04:00 → 2026-04-08T23:59:59-04:00)
+    324 products
+  Saved → data/zehrs/flyers/7866221.json  (715,918 bytes)
+  [7866229] Weekly Flyer  (2026-04-02T00:00:00-04:00 → 2026-04-08T23:59:59-04:00)
+    322 products
+  Saved → data/zehrs/flyers/7866229.json  (711,188 bytes)
+  [7866224] Weekly Flyer  (2026-04-02T00:00:00-04:00 → 2026-04-08T23:59:59-04:00)
+    338 products
+  Saved → data/zehrs/flyers/7866224.json  (747,318 bytes)
+  [7866226] Weekly Flyer  (2026-04-02T00:00:00-04:00 → 2026-04-08T23:59:59-04:00)
+    316 products
+  Saved → data/zehrs/flyers/7866226.json  (699,384 bytes)
+  [7866225] Weekly Flyer  (2026-04-02T00:00:00-04:00 → 2026-04-08T23:59:59-04:00)
+    308 products
+  Saved → data/zehrs/flyers/7866225.json  (682,705 bytes)
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 10
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-04-02 22:48:12 UTC
+Elapsed      : 0m 7s
+
+
+Done.  Verbose log → logs/zehrs/2026-04-02_verbose.log
+       Summary log → logs/zehrs/2026-04-02_summary.log
+

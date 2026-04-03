@@ -1,0 +1,5852 @@
+{
+  "fetched_on": "2026-04-02",
+  "publication_id": "7864369",
+  "publication_meta": {
+    "id": 7864369,
+    "flyer_run_id": 1181705,
+    "valid_from": "2026-04-02T00:00:00-04:00",
+    "valid_to": "2026-04-08T23:59:59-04:00",
+    "available_from": "2026-04-02T00:00:00-04:00",
+    "available_to": "2026-04-08T23:59:59-04:00",
+    "locale": "en",
+    "pdf_url": "https://f.wishabi.net/flyers/16594959/cb0a4490c37c8352.pdf",
+    "postal_code": "M5V2H1",
+    "merchant_name": "Independent City Market",
+    "merchant_logo_url": "https://images.wishabi.net/merchants/4597/1477834380/large",
+    "deep_link": null,
+    "flyer_type_id": 6563,
+    "sfml_url": "https://cdn-gateflipp.flippback.com/storefront-payload/1181705/7864369/4c9c4a03aa686691a4dbb134c3bfcb8907beae094d19f8ae36d219f9b704fd64?merchant_id=4597",
+    "name": "Weekly Flyer",
+    "flyer_type": "weeklyflyer",
+    "external_display_name": "Weekly Flyer - Valid Thursday April 2 - Wednesday April 8",
+    "first_page_thumbnail_400h_url": "https://f.wishabi.net/flyers/7864369/stock_premium/1774896547.jpg",
+    "storefront_images": {
+      "carousel_organic": "https://f.wishabi.net/flyers/7864369/storefront_carousel_organic/1774896547.jpg"
+    },
+    "correction_notices": []
+  },
+  "products_url": "https://dam.flippenterprise.net/flyerkit/publication/7864369/products?display_type=all&locale=en&access_token=a30dee18036c0131c522b0fd12632b7d",
+  "products": [
+    {
+      "id": 1003686800,
+      "name": "CANADIAN COVE FRESH PEI MUSSELS, 907 G",
+      "sale_story": null,
+      "sku": "21556624_EA",
+      "description": "MOULES DE L'\u00ce.-P.-\u00c9 FRA\u00ceCHES CANADIAN COVE",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009709/3940b256-29e3-11f1-979b-e23e6aaf87f5/x_large",
+      "custom_id_field_1": "21556624_EA",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Meat & Seafood"
+      ],
+      "pre_price_text": "",
+      "price_text": "6.50",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 4137.43,
+      "bottom": -1940.69,
+      "right": 4633.34,
+      "top": -1460.68,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Meat, Seafood & Eggs",
+          "google_category_id": 353
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Seafood",
+          "google_category_id": 2921
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/21556624_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/21556624_EA",
+      "brand": "CANADIAN COVE",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009709/3940b256-29e3-11f1-979b-e23e6aaf87f5/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686763,
+      "name": "PC\u00ae ORANGE JUICE, 2.5 L OR LIBERT\u00c9 GREEK TUB, 650/750 G",
+      "sale_story": null,
+      "sku": "20642273_EA",
+      "description": "SELECTED VARIETIES\n\nJUS D'ORANGE PCMD OU YOGOURT GREC LIBERT\u00c9",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009707/354da38e-29e3-11f1-b028-b2a05403f6e2/x_large",
+      "custom_id_field_1": "20642273_EA",
+      "custom_id_field_2": "21531644_EA",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Dairy & Eggs"
+      ],
+      "pre_price_text": "",
+      "price_text": "7.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 45.11,
+      "bottom": -3222.99,
+      "right": 530.4,
+      "top": -2725.98,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Beverages",
+          "google_category_id": 320
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Juice",
+          "google_category_id": 331
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/20642273_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/20642273_EA",
+      "brand": "PC\u00ae | LIBERT\u00c9",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009707/354da38e-29e3-11f1-b028-b2a05403f6e2/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686753,
+      "name": "STRIPLOIN GRILLING STEAK",
+      "sale_story": null,
+      "sku": "21672450_KG",
+      "description": "FAMILY SIZE, CUT FROM AUSTRALIAN GRADE BEEF\n21.78/KG\n\nBIFTECK DE CONTRE-FILET \u00c0 GRILLER",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-05T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009707/3a23c1d6-29e3-11f1-b028-b2a05403f6e2/x_large",
+      "custom_id_field_1": "21672450_KG",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-01",
+      "valid_to": "2026-04-05",
+      "categories": [
+        "Meat & Seafood"
+      ],
+      "pre_price_text": "",
+      "price_text": "9.88",
+      "post_price_text": "lb",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 742.6,
+      "bottom": -743.25,
+      "right": 1525.66,
+      "top": -255.05,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Meat, Seafood & Eggs",
+          "google_category_id": 353
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Meat",
+          "google_category_id": 2917
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/21672450_KG",
+      "item_web_url": "https://www.independentcitymarket.ca/p/21672450_KG",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009707/3a23c1d6-29e3-11f1-b028-b2a05403f6e2/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686756,
+      "name": "STRAWBERRIES, 1 LB",
+      "sale_story": null,
+      "sku": "20049778001_EA",
+      "description": "PRODUCT OF MEXICO OR\nU.S.A.,NO. 1 GRADE\n\nFRAISES",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009707/3d37f7f2-29e3-11f1-b028-b2a05403f6e2/x_large",
+      "custom_id_field_1": "20049778001_EA",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Fruits & Vegetables"
+      ],
+      "pre_price_text": "",
+      "price_text": "2.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 40.04,
+      "bottom": -1293.14,
+      "right": 516.49,
+      "top": -750.63,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Fruits",
+          "google_category_id": 2776
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Berries",
+          "google_category_id": 2782
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/20049778001_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/20049778001_EA",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009707/3d37f7f2-29e3-11f1-b028-b2a05403f6e2/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686765,
+      "name": "GREEN GIANT VEGETABLES, 400-750 G",
+      "sale_story": null,
+      "sku": "21022302_EA",
+      "description": "SELECTED VARIETIES\nFROZEN\n\nL\u00c9GUMES G\u00c9ANT VERT",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009707/363e0df6-29e3-11f1-b028-b2a05403f6e2/x_large",
+      "custom_id_field_1": "21022302_EA",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Pantry"
+      ],
+      "pre_price_text": "",
+      "price_text": "2.50",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 517.85,
+      "bottom": -3246.47,
+      "right": 1015.35,
+      "top": -2743.31,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Vegetables",
+          "google_category_id": 2833
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/21022302_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/21022302_EA",
+      "brand": "Green Giant",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009707/363e0df6-29e3-11f1-b028-b2a05403f6e2/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686787,
+      "name": "NATURE VALLEY BISCUIT OR PROTEIN BARS AND SWEET & SALTY, 6'S 148-210 G OR FIBRE 1 BARS, 125 G",
+      "sale_story": "SAVE $2.25 WHEN YOU BU 3",
+      "sku": "20792751_EA",
+      "description": "SELECTED VARIETIES \nELECTED VARIETIES BISCUITS OU BARRES PROT\u00c9IN\u00c9ES ET SUCR\u00c9ES ET SAL\u00c9ES VAL NATURE OU BARRES FIBRE 1",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009708/4286d1f6-29e3-11f1-8c2c-2e30e966e522/x_large",
+      "custom_id_field_1": "20792751_EA",
+      "custom_id_field_2": "20792751_EA",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Pantry"
+      ],
+      "pre_price_text": "3/",
+      "price_text": "9.00",
+      "post_price_text": "or $3.75 ea.",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 2579.09,
+      "bottom": -2606.35,
+      "right": 3075.66,
+      "top": -2100.57,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Snack Foods",
+          "google_category_id": 358
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Cereal & Granola Bars",
+          "google_category_id": 2931
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/20792751_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/20792751_EA",
+      "brand": "NATURE VALLEY | FIBRE 1",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009708/4286d1f6-29e3-11f1-8c2c-2e30e966e522/x_large"
+      ],
+      "original_price": "11.25",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686826,
+      "name": "IN-STORE PREPARED READY TO COOK SIDE, 545-865 G",
+      "sale_story": null,
+      "sku": "21533955_EA",
+      "description": "SELECTED VARIETIES\n\nPLAT D'ACCOMPAGNEMENT PR\u00caT \u00c0 CUIRE PR\u00c9PAR\u00c9 EN MAGASIN",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009710/40090f7a-29e3-11f1-9abe-5acc05e2e1e6/x_large",
+      "custom_id_field_1": "21533955_EA",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Deli & Ready Meals"
+      ],
+      "pre_price_text": "",
+      "price_text": "9.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 5704.28,
+      "bottom": -3471.25,
+      "right": 6197.85,
+      "top": -3001.73,
+      "page": 4,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Prepared Foods",
+          "google_category_id": 356
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/21533955_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/21533955_EA",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009710/40090f7a-29e3-11f1-9abe-5acc05e2e1e6/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686813,
+      "name": "CANTALOUPE",
+      "sale_story": null,
+      "sku": "20167017001_EA",
+      "description": "PRODUCT OF GUATEMALA, HONDURAS OR BRAZIL \n\nCANTALOUP",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009709/49e3aadc-29e3-11f1-979b-e23e6aaf87f5/x_large",
+      "custom_id_field_1": "20167017001_EA",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Fruits & Vegetables"
+      ],
+      "pre_price_text": "",
+      "price_text": "4.50",
+      "post_price_text": "each",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 4135.46,
+      "bottom": -3988.48,
+      "right": 4632.35,
+      "top": -3495.72,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Fruits",
+          "google_category_id": 2776
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Melons",
+          "google_category_id": 2809
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/20167017001_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/20167017001_EA",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009709/49e3aadc-29e3-11f1-979b-e23e6aaf87f5/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686835,
+      "name": "STICKER BOOK",
+      "sale_story": null,
+      "sku": null,
+      "description": null,
+      "disclaimer_text": "Non-Member Price $5\n\n*At participating Loblaw Companies Ltd. stores April 2-April 8, purchase a sticker book and receive a free single \u00a9 Disney/Pixar Animal Friends + Stitch Collectible\nsticker pack containing 4 stickers. While supplies last.\nOnly where albums are sold.",
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009712/38f71d44-29e3-11f1-a927-ca29129254bd/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Household Supplies"
+      ],
+      "pre_price_text": "Member Price",
+      "price_text": "3.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 6301.44,
+      "bottom": -3985.42,
+      "right": 7748.5,
+      "top": -2403.97,
+      "page": 5,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Media",
+          "google_category_id": 970
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Books",
+          "google_category_id": 971
+        },
+        "l3": null,
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009712/38f71d44-29e3-11f1-a927-ca29129254bd/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686807,
+      "name": "PC\u00ae MARYLAND- STYLE CRAB CAKES, 170 G OR SHRIMP APPETIZERS, 294-454 G",
+      "sale_story": null,
+      "sku": "21334617_EA",
+      "description": "SELECTED VARIETIES\nFROZEN\nGALETTES DE CRABE STYLE MARYLAND OU HORS-D'\u0152UVRE DE CREVETTES PCMD",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009709/3f4c5650-29e3-11f1-979b-e23e6aaf87f5/x_large",
+      "custom_id_field_1": "21334617_EA",
+      "custom_id_field_2": "20135874_EA",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Meat & Seafood"
+      ],
+      "pre_price_text": "",
+      "price_text": "10.50",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 3645.55,
+      "bottom": -2460.57,
+      "right": 4134.25,
+      "top": -1988.69,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Meat, Seafood & Eggs",
+          "google_category_id": 353
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Seafood",
+          "google_category_id": 2921
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/21334617_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/21334617_EA",
+      "brand": "PC",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009709/3f4c5650-29e3-11f1-979b-e23e6aaf87f5/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686754,
+      "name": "FRESH GRADE A TURKEY",
+      "sale_story": null,
+      "sku": "20145891_KG",
+      "description": "ALL AVAILABLE SIZES\n5.49/KG\n\nDINDE FRA\u00ceCHE CAT\u00c9GORIE A",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009707/3281eafc-29e3-11f1-b028-b2a05403f6e2/x_large",
+      "custom_id_field_1": "20145891_KG",
+      "custom_id_field_2": "20153440_KG",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Meat & Seafood"
+      ],
+      "pre_price_text": "",
+      "price_text": "2.49",
+      "post_price_text": "lb",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 42.85,
+      "bottom": -744.93,
+      "right": 753.0,
+      "top": -216.5,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Meat, Seafood & Eggs",
+          "google_category_id": 353
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Meat",
+          "google_category_id": 2917
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Lunch & Deli Meats",
+          "google_category_id": 2920
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/20145891_KG",
+      "item_web_url": "https://www.independentcitymarket.ca/p/20145891_KG",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009707/3281eafc-29e3-11f1-b028-b2a05403f6e2/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686812,
+      "name": "TREMPETTES MARZETTI, 254-340 G",
+      "sale_story": "GET PC Optimum 1,000 pts when you buy 2 $1 back in points",
+      "sku": "20039279_EA",
+      "description": "SELECTED VARIETIES\nPRODUCT OF U.S.A.\n\nMARZETTI DIPS",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009709/46c09770-29e3-11f1-979b-e23e6aaf87f5/x_large",
+      "custom_id_field_1": "20039279_EA",
+      "custom_id_field_2": "20322970_EA",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Dairy & Eggs"
+      ],
+      "pre_price_text": "2/",
+      "price_text": "11.00",
+      "post_price_text": "or $6.00 ea.",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 4140.06,
+      "bottom": -3498.26,
+      "right": 4632.95,
+      "top": -3000.69,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Dips & Spreads",
+          "google_category_id": 348
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/20039279_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/20039279_EA",
+      "brand": "Marzetti",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009709/46c09770-29e3-11f1-979b-e23e6aaf87f5/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686781,
+      "name": "P\u00c2TES BARILLA, 340/410 G",
+      "sale_story": "SAVE 98\u00a2 WHEN YOU BUY 2",
+      "sku": "21404904_EA",
+      "description": "BARILLA PASTA\nSELECTED VARIETIES",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009708/38e1f004-29e3-11f1-8c2c-2e30e966e522/x_large",
+      "custom_id_field_1": "21404904_EA",
+      "custom_id_field_2": "21404912_EA",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Pantry"
+      ],
+      "pre_price_text": "2/",
+      "price_text": "5.00",
+      "post_price_text": "or $2.99 ea.",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1590.84,
+      "bottom": -1061.47,
+      "right": 2090.01,
+      "top": -563.99,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Pasta & Noodles",
+          "google_category_id": 355
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/21404904_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/21404904_EA",
+      "brand": "Barilla",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009708/38e1f004-29e3-11f1-8c2c-2e30e966e522/x_large"
+      ],
+      "original_price": "5.98",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686788,
+      "name": "LAY'S POTATO CHIPS, 177-235 G",
+      "sale_story": null,
+      "sku": "21241032_EA",
+      "description": "SELECTED VARIETIES\n\nCROUSTILLES\nLAY'S",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009708/50577a92-29e3-11f1-8c2c-2e30e966e522/x_large",
+      "custom_id_field_1": "21241032_EA",
+      "custom_id_field_2": "21664493_EA",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Pantry"
+      ],
+      "pre_price_text": "",
+      "price_text": "3.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 2089.67,
+      "bottom": -2590.94,
+      "right": 2576.27,
+      "top": -2077.9,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Snack Foods",
+          "google_category_id": 358
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Chips",
+          "google_category_id": 2933
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/21241032_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/21241032_EA",
+      "brand": "Lay's",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009708/50577a92-29e3-11f1-8c2c-2e30e966e522/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686767,
+      "name": "8 INCH PIES, 635-750 G",
+      "sale_story": "GET PC Optimum 1,000 pts, $1 back in points",
+      "sku": "21297466_EA",
+      "description": "SELECTED VARIETIES\n\nTARTE DE 8 POUCES",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009707/40099b84-29e3-11f1-b028-b2a05403f6e2/x_large",
+      "custom_id_field_1": "21297466_EA",
+      "custom_id_field_2": "21297475_EA",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Bakery"
+      ],
+      "pre_price_text": "",
+      "price_text": "6.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 513.43,
+      "bottom": -2240.04,
+      "right": 1011.87,
+      "top": -1784.67,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Bakery",
+          "google_category_id": 343
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Pies & Tarts",
+          "google_category_id": 2678
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/21297466_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/21297466_EA",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009707/40099b84-29e3-11f1-b028-b2a05403f6e2/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686802,
+      "name": "CHELSEA BONED SALTED COD FILLETS, 454 G",
+      "sale_story": null,
+      "sku": "20866456_EA",
+      "description": "FILETS DE MORUE SAL\u00c9E D\u00c9SAR\u00caT\u00c9E CHELSEA",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009709/396168ca-29e3-11f1-979b-e23e6aaf87f5/x_large",
+      "custom_id_field_1": "20866456_EA",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Pantry"
+      ],
+      "pre_price_text": "",
+      "price_text": "13.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 3150.97,
+      "bottom": -1987.01,
+      "right": 3649.86,
+      "top": -1480.24,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Meat, Seafood & Eggs",
+          "google_category_id": 353
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Seafood",
+          "google_category_id": 2921
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/20866456_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/20866456_EA",
+      "brand": "CHELSEA",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009709/396168ca-29e3-11f1-979b-e23e6aaf87f5/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686818,
+      "name": "TRE STELLE MOZZARELLA BALL, 340 G",
+      "sale_story": "SAVE $1.49",
+      "sku": "20189267_EA",
+      "description": "BOULE DE MOZZARELLA TRE STELLE",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009710/354fbfde-29e3-11f1-9abe-5acc05e2e1e6/x_large",
+      "custom_id_field_1": "20189267_EA",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Pantry"
+      ],
+      "pre_price_text": "",
+      "price_text": "8.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 4714.22,
+      "bottom": -1450.19,
+      "right": 5215.04,
+      "top": -957.1,
+      "page": 4,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Dairy Products",
+          "google_category_id": 347
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Cheese",
+          "google_category_id": 2750
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/20189267_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/20189267_EA",
+      "brand": "TRE STELLE\u00ae",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009710/354fbfde-29e3-11f1-9abe-5acc05e2e1e6/x_large"
+      ],
+      "original_price": "9.49",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686799,
+      "name": "PORK LOIN CENTRE CUT CHOPS OR ROAST",
+      "sale_story": null,
+      "sku": "20827785_KG",
+      "description": "BONELESS, FAMILY SIZE\n11.02/KG\n\nC\u00d4TELETTES OU R\u00d4TI DE LONGE DE PORC, COUPE DU CENTRE",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009709/32f27452-29e3-11f1-979b-e23e6aaf87f5/x_large",
+      "custom_id_field_1": "20827785_KG",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Meat & Seafood"
+      ],
+      "pre_price_text": "",
+      "price_text": "5.00",
+      "post_price_text": "lb",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 3642.14,
+      "bottom": -1464.57,
+      "right": 4127.05,
+      "top": -982.08,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Meat, Seafood & Eggs",
+          "google_category_id": 353
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Meat",
+          "google_category_id": 2917
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/20827785_KG",
+      "item_web_url": "https://www.independentcitymarket.ca/p/20827785_KG",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009709/32f27452-29e3-11f1-979b-e23e6aaf87f5/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686789,
+      "name": "TIDE LAUNDRY DETERGENT, 3.9 L TIDE POWER PODS, 45'S TIDE PODS OR GAIN FLINGS, 57-76'S",
+      "sale_story": "Members save $8",
+      "sku": "21579830_EA",
+      "description": "SELECTED VARIETIES\n\nD\u00c9TERGENT \u00c0 LESSIVE TIDE, TIDE POWER PODS, TIDE PODS OU FLINGS GAIN",
+      "disclaimer_text": "Non-members $28",
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009708/45bfd426-29e3-11f1-8c2c-2e30e966e522/x_large",
+      "custom_id_field_1": "21579830_EA",
+      "custom_id_field_2": "21593670_EA",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Household Supplies"
+      ],
+      "pre_price_text": "Members-Only Price**",
+      "price_text": "20.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 2587.65,
+      "bottom": -3100.6,
+      "right": 3073.39,
+      "top": -2600.85,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Home & Garden",
+          "google_category_id": 745
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Household Supplies",
+          "google_category_id": 892
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Laundry Supplies",
+          "google_category_id": 899
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Laundry Detergent",
+          "google_category_id": 3832
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/21579830_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/21579830_EA",
+      "brand": "TIDE | GAIN",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009708/45bfd426-29e3-11f1-8c2c-2e30e966e522/x_large"
+      ],
+      "original_price": "28.00",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686766,
+      "name": "BREYERS CLASSIC FROZEN DESSERT, 1.41 L",
+      "sale_story": null,
+      "sku": "21651683_EA",
+      "description": "SELECTED VARIETIES, FROZEN\n\nDESSERT GLAC\u00c9 CLASSIQUE BREYERS",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009707/41c19472-29e3-11f1-b028-b2a05403f6e2/x_large",
+      "custom_id_field_1": "21651683_EA",
+      "custom_id_field_2": "21651697_EA",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Dairy & Eggs"
+      ],
+      "pre_price_text": "",
+      "price_text": "3.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1014.52,
+      "bottom": -2253.59,
+      "right": 1513.2,
+      "top": -1777.25,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Frozen Desserts & Novelties",
+          "google_category_id": 350
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/21651683_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/21651683_EA",
+      "brand": "Breyers",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009707/41c19472-29e3-11f1-b028-b2a05403f6e2/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686810,
+      "name": "PC\u00ae EXTRA LARGE GREEN SEEDLESS GRAPES PC\u00ae EXTRA LARGE RED SEEDLESS GRAPES",
+      "sale_story": null,
+      "sku": "20425775001_KG",
+      "description": "PRODUCT OF SOUTH AFRICA, CHILE OR MEXICO, NO. 1 GRADE OR PRODUCT OF SOUTH AFRICA OR CHILE, NO. 1 GRADE 8.80/KG \n\nTR\u00c8S GROS RAISINS VERTS OU ROUGES SANS P\u00c9PINS PC",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009709/4213c422-29e3-11f1-979b-e23e6aaf87f5/x_large",
+      "custom_id_field_1": "20425775001_KG",
+      "custom_id_field_2": "20159199001_KG",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Fruits & Vegetables"
+      ],
+      "pre_price_text": "",
+      "price_text": "3.99",
+      "post_price_text": "lb",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 4116.54,
+      "bottom": -2974.39,
+      "right": 4633.46,
+      "top": -2465.49,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Fruits",
+          "google_category_id": 2776
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Grapes",
+          "google_category_id": 2799
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/20425775001_KG",
+      "item_web_url": "https://www.independentcitymarket.ca/p/20425775001_KG",
+      "brand": "PC",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009709/4213c422-29e3-11f1-979b-e23e6aaf87f5/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686831,
+      "name": "SANDWICH OR WRAP PLATTERS, 1.2-1.7 KG",
+      "sale_story": "GET PC Optimum 5,000 pts, $5 back in points",
+      "sku": "21558135_EA",
+      "description": "PREPARED IN-STORE\n\nPLATEAUX DE SANDWICHS OU ROUL\u00c9S",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009710/3d40a276-29e3-11f1-9abe-5acc05e2e1e6/x_large",
+      "custom_id_field_1": "21558135_EA",
+      "custom_id_field_2": "21558137_EA",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Deli & Ready Meals"
+      ],
+      "pre_price_text": "",
+      "price_text": "20.00",
+      "post_price_text": "- $25.00",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 4708.78,
+      "bottom": -3992.29,
+      "right": 5217.76,
+      "top": -3481.61,
+      "page": 4,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Home & Garden",
+          "google_category_id": 745
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Kitchen & Dining",
+          "google_category_id": 908
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Food Storage",
+          "google_category_id": 912
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Food Wraps",
+          "google_category_id": 3967
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/21558135_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/21558135_EA",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009710/3d40a276-29e3-11f1-9abe-5acc05e2e1e6/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686808,
+      "name": "PC\u00ae FREE FROM\u00ae RACK OF LAMB",
+      "sale_story": null,
+      "sku": "20660950_KG",
+      "description": "55.12/KG\n\nCARR\u00c9 D'AGNEAU PC SIMPLEMENT BON",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009709/3654ee54-29e3-11f1-979b-e23e6aaf87f5/x_large",
+      "custom_id_field_1": "20660950_KG",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Meat & Seafood"
+      ],
+      "pre_price_text": "",
+      "price_text": "25.00",
+      "post_price_text": "lb",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 3155.83,
+      "bottom": -1476.29,
+      "right": 3654.14,
+      "top": -1004.61,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Meat, Seafood & Eggs",
+          "google_category_id": 353
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Meat",
+          "google_category_id": 2917
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/20660950_KG",
+      "item_web_url": "https://www.independentcitymarket.ca/p/20660950_KG",
+      "brand": "PC",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009709/3654ee54-29e3-11f1-979b-e23e6aaf87f5/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686776,
+      "name": "CHRISTIE RITZ OR WHEAT THINS CRACKERS, 180/304 G",
+      "sale_story": null,
+      "sku": "21547034_EA",
+      "description": "SELECTED VARIETIES\n\nCRAQUELINS RITZ OU FINS AU BL\u00c9 CHRISTIE",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009708/3c9a200e-29e3-11f1-8c2c-2e30e966e522/x_large",
+      "custom_id_field_1": "21547034_EA",
+      "custom_id_field_2": "21547047_EA",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Pantry"
+      ],
+      "pre_price_text": "",
+      "price_text": "4.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1601.57,
+      "bottom": -1580.99,
+      "right": 2095.26,
+      "top": -1062.5,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Snack Foods",
+          "google_category_id": 358
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Crackers",
+          "google_category_id": 2934
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/21547034_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/21547034_EA",
+      "brand": "Christie",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009708/3c9a200e-29e3-11f1-8c2c-2e30e966e522/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686819,
+      "name": "BELLA CASARA BURRATA, 250 G",
+      "sale_story": "SAVE $1.99",
+      "sku": "20214087_EA",
+      "description": "BURRATA BELLA CASARA",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009710/35566ee2-29e3-11f1-9abe-5acc05e2e1e6/x_large",
+      "custom_id_field_1": "20214087_EA",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Pantry"
+      ],
+      "pre_price_text": "",
+      "price_text": "15.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 5204.29,
+      "bottom": -1449.3,
+      "right": 5701.06,
+      "top": -947.67,
+      "page": 4,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Dairy Products",
+          "google_category_id": 347
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Cheese",
+          "google_category_id": 2750
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/20214087_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/20214087_EA",
+      "brand": "BELLA CASARA",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009710/35566ee2-29e3-11f1-9abe-5acc05e2e1e6/x_large"
+      ],
+      "original_price": "16.99",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686780,
+      "name": "GREEN GIANT CANNED VEGETABLES, 341/398 ML",
+      "sale_story": null,
+      "sku": "21021222_EA",
+      "description": "SELECTED VARIETIES\n\nL\u00c9GUMES EN CONSERVE G\u00c9ANT VERT",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009708/34a0c4d4-29e3-11f1-8c2c-2e30e966e522/x_large",
+      "custom_id_field_1": "21021222_EA",
+      "custom_id_field_2": "21021485_EA",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Pantry"
+      ],
+      "pre_price_text": "",
+      "price_text": "1.50",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 2088.07,
+      "bottom": -1091.83,
+      "right": 2572.22,
+      "top": -573.46,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Canned & Jarred Vegetables",
+          "google_category_id": 2771
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/21021222_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/21021222_EA",
+      "brand": "Green Giant",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009708/34a0c4d4-29e3-11f1-8c2c-2e30e966e522/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686796,
+      "name": "COOK'S PORTION HAM",
+      "sale_story": null,
+      "sku": "20559641_KG",
+      "description": "6.59/KG\n\nJAMBONNEAU COOK'S",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009709/34924198-29e3-11f1-979b-e23e6aaf87f5/x_large",
+      "custom_id_field_1": "20559641_KG",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Meat & Seafood"
+      ],
+      "pre_price_text": "",
+      "price_text": "2.99",
+      "post_price_text": "lb",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 4116.5,
+      "bottom": -948.41,
+      "right": 4632.79,
+      "top": -448.24,
+      "page": 3,
+      "item_categories": {
+        "l1": null,
+        "l2": null,
+        "l3": null,
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/20559641_KG",
+      "item_web_url": "https://www.independentcitymarket.ca/p/20559641_KG",
+      "brand": "Cook's",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009709/34924198-29e3-11f1-979b-e23e6aaf87f5/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686801,
+      "name": "SEAQUEST\u00ae CRAB OR LOBSTER FLAVOURED POLLOCK FLAKES OR CHUNKS, 227 G",
+      "sale_story": null,
+      "sku": "20699832_EA",
+      "description": "SELECTED VARIETIES\nREADY-TO-EAT\n\nGOBERGE \u00c0 SAVEUR DE CRABE OU HOMARD\nSEAQUEST\u00ae FLOCONS OU MORCEAUX",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009709/37d8e262-29e3-11f1-979b-e23e6aaf87f5/x_large",
+      "custom_id_field_1": "20699832_EA",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Meat & Seafood"
+      ],
+      "pre_price_text": "",
+      "price_text": "3.50",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 3648.12,
+      "bottom": -1978.57,
+      "right": 4129.06,
+      "top": -1477.84,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Meat, Seafood & Eggs",
+          "google_category_id": 353
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Seafood",
+          "google_category_id": 2921
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/20699832_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/20699832_EA",
+      "brand": "SEAQUEST\u00ae",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009709/37d8e262-29e3-11f1-979b-e23e6aaf87f5/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686770,
+      "name": "CAVENDISH FRIES OR SPECIALTY POTATOES, 400-750 G",
+      "sale_story": null,
+      "sku": "20729779_EA",
+      "description": "SELECTED VARIETIES, FROZEN\n\nFRITES OU POMMES DE TERRE DE SP\u00c9CIALIT\u00c9 CAVENDISH",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009707/36af6244-29e3-11f1-b028-b2a05403f6e2/x_large",
+      "custom_id_field_1": "20729779_EA",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Pantry"
+      ],
+      "pre_price_text": "",
+      "price_text": "3.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 54.34,
+      "bottom": -3774.19,
+      "right": 420.31,
+      "top": -3256.39,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Snack Foods",
+          "google_category_id": 358
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/20729779_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/20729779_EA",
+      "brand": "Cavendish Farms",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009707/36af6244-29e3-11f1-b028-b2a05403f6e2/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686806,
+      "name": "PC\u00ae HOT SMOKED CANDIED OR SPICY SALMON STRIPS, 150 G",
+      "sale_story": null,
+      "sku": "20976930_EA",
+      "description": "READY-TO-EAT\n\nLANI\u00c8RES DE SAUMON CONFIT FUM\u00c9 \u00c0 CHAUD OU \u00c9PIC\u00c9ES PC",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009709/3ddf9a48-29e3-11f1-979b-e23e6aaf87f5/x_large",
+      "custom_id_field_1": "20976930_EA",
+      "custom_id_field_2": "20977683_EA",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Pantry"
+      ],
+      "pre_price_text": "",
+      "price_text": "10.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 3152.79,
+      "bottom": -2458.39,
+      "right": 3656.11,
+      "top": -1975.49,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Meat, Seafood & Eggs",
+          "google_category_id": 353
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Seafood",
+          "google_category_id": 2921
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/20976930_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/20976930_EA",
+      "brand": "PC",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009709/3ddf9a48-29e3-11f1-979b-e23e6aaf87f5/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686832,
+      "name": "DINNER ROLLS, 12'S",
+      "sale_story": null,
+      "sku": "21392649_EA",
+      "description": "SELECTED VARIETIES\nPETITS PAINS",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009710/3937238a-29e3-11f1-9abe-5acc05e2e1e6/x_large",
+      "custom_id_field_1": "21392649_EA",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Bakery"
+      ],
+      "pre_price_text": "",
+      "price_text": "4.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 5699.14,
+      "bottom": -2470.99,
+      "right": 6195.56,
+      "top": -1958.11,
+      "page": 4,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Bakery",
+          "google_category_id": 343
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/21392649_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/21392649_EA",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009710/3937238a-29e3-11f1-9abe-5acc05e2e1e6/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686798,
+      "name": "PC\u00ae BUTTER-INFUSED TURKEY CROWN, UP TO 2.75 KG",
+      "sale_story": null,
+      "sku": "21400895_EA",
+      "description": "SELECTED VARIETIES\nFROZEN\n\nCOURONNE DE DINDE INFUS\u00c9E AU BEURRE PC",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009709/3485a816-29e3-11f1-979b-e23e6aaf87f5/x_large",
+      "custom_id_field_1": "21400895_EA",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Deli & Ready Meals"
+      ],
+      "pre_price_text": "",
+      "price_text": "39.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 3640.91,
+      "bottom": -984.64,
+      "right": 4116.18,
+      "top": -396.68,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Beverages",
+          "google_category_id": 320
+        },
+        "l3": null,
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/21400895_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/21400895_EA",
+      "brand": "PC",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009709/3485a816-29e3-11f1-979b-e23e6aaf87f5/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686824,
+      "name": "SIKORSKI DELI SERVICE CASE SAUSAGES",
+      "sale_story": null,
+      "sku": "20996142_KG",
+      "description": "SELECTED VARIETIES\nSAUCISSES SIKORSKI DU COMPTOIR DE\nSERVICE",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009710/3f11ab40-29e3-11f1-9abe-5acc05e2e1e6/x_large",
+      "custom_id_field_1": "20996142_KG",
+      "custom_id_field_2": "20996150_KG",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Deli & Ready Meals"
+      ],
+      "pre_price_text": "",
+      "price_text": "2.50",
+      "post_price_text": "/100 g",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 4717.84,
+      "bottom": -1979.93,
+      "right": 5209.46,
+      "top": -1464.27,
+      "page": 4,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Meat, Seafood & Eggs",
+          "google_category_id": 353
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Meat",
+          "google_category_id": 2917
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Lunch & Deli Meats",
+          "google_category_id": 2920
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/20996142_KG",
+      "item_web_url": "https://www.independentcitymarket.ca/p/20996142_KG",
+      "brand": "Sikorski",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009710/3f11ab40-29e3-11f1-9abe-5acc05e2e1e6/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686817,
+      "name": "PC\u00ae DOUBLE CREAM BRIE, 170-200 G",
+      "sale_story": "SAVE $1.79",
+      "sku": "20787327_EA",
+      "description": "SELECTED VARIETIES\n\nBRIE DOUBLE CR\u00c8ME PC",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009710/3451bc7c-29e3-11f1-9abe-5acc05e2e1e6/x_large",
+      "custom_id_field_1": "20787327_EA",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Dairy & Eggs"
+      ],
+      "pre_price_text": "",
+      "price_text": "7.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 5455.21,
+      "bottom": -937.4,
+      "right": 6196.85,
+      "top": -425.49,
+      "page": 4,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Dairy Products",
+          "google_category_id": 347
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Cream",
+          "google_category_id": 2753
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/20787327_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/20787327_EA",
+      "brand": "PC",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009710/3451bc7c-29e3-11f1-9abe-5acc05e2e1e6/x_large"
+      ],
+      "original_price": "8.79",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686834,
+      "name": "SAMOSA PLATTER WITH TAMARIND, 1.37 KG",
+      "sale_story": null,
+      "sku": "21558737_EA",
+      "description": "PLATEAU DE SAMOSAS AVEC SAUCE AU TAMARIN",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009710/3e3162b0-29e3-11f1-9abe-5acc05e2e1e6/x_large",
+      "custom_id_field_1": "21558737_EA",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Bakery"
+      ],
+      "pre_price_text": "",
+      "price_text": "10.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 5701.18,
+      "bottom": -3991.97,
+      "right": 6191.72,
+      "top": -3484.45,
+      "page": 4,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Prepared Foods",
+          "google_category_id": 356
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/21558737_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/21558737_EA",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009710/3e3162b0-29e3-11f1-9abe-5acc05e2e1e6/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686830,
+      "name": "SMALL RESER'S SALADS, 425/454 G",
+      "sale_story": null,
+      "sku": "20962394_EA",
+      "description": "SELECTED VARIETIES\n\nPETITES SALADES RESER'S",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009710/32415d0c-29e3-11f1-9abe-5acc05e2e1e6/x_large",
+      "custom_id_field_1": "20962394_EA",
+      "custom_id_field_2": "20962398_EA",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Pantry"
+      ],
+      "pre_price_text": "",
+      "price_text": "5.79",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 5210.42,
+      "bottom": -3999.43,
+      "right": 5699.28,
+      "top": -3488.23,
+      "page": 4,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Vegetables",
+          "google_category_id": 2833
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Greens",
+          "google_category_id": 2859
+        },
+        "l6": {
+          "confidence": null,
+          "category_name": "Salad Mixes",
+          "google_category_id": 2869
+        },
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/20962394_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/20962394_EA",
+      "brand": "Reser's",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009710/32415d0c-29e3-11f1-9abe-5acc05e2e1e6/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686793,
+      "name": "PC\u00ae OR BLUE MENU\u00ae SPARKLING WATER, 12X355 ML",
+      "sale_story": null,
+      "sku": "21747415_C12",
+      "description": "SELECTED VARIETIES\n\nEAU P\u00c9TILLANTE PC OU MENU BLEU",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009708/4a3b12fe-29e3-11f1-8c2c-2e30e966e522/x_large",
+      "custom_id_field_1": "21747415_C12",
+      "custom_id_field_2": "21747572_C12",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Drinks"
+      ],
+      "pre_price_text": "2/",
+      "price_text": "11.50",
+      "post_price_text": "or $6.79 ea.",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1597.98,
+      "bottom": -3110.11,
+      "right": 2094.2,
+      "top": -2598.04,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Beverages",
+          "google_category_id": 320
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Water",
+          "google_category_id": 340
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/21747415_C12",
+      "item_web_url": "https://www.independentcitymarket.ca/p/21747415_C12",
+      "brand": "PC",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009708/4a3b12fe-29e3-11f1-8c2c-2e30e966e522/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686822,
+      "name": "12\" TAKE AND BAKE PIZZA, 510-739 G",
+      "sale_story": "SAVE UP TO $3",
+      "sku": "21456415_EA",
+      "description": "SELECTED VARIETIES\n\nPIZZA 12 PO CUIRE \u00c0 LA MAISON",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009710/324920a0-29e3-11f1-9abe-5acc05e2e1e6/x_large",
+      "custom_id_field_1": "21456415_EA",
+      "custom_id_field_2": "21456401_EA",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Pantry"
+      ],
+      "pre_price_text": "",
+      "price_text": "7.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 4709.92,
+      "bottom": -3460.36,
+      "right": 5208.63,
+      "top": -2958.91,
+      "page": 4,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Bakery",
+          "google_category_id": 343
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/21456415_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/21456415_EA",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009710/324920a0-29e3-11f1-9abe-5acc05e2e1e6/x_large"
+      ],
+      "original_price": "10.00",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686827,
+      "name": "PUMPERNICKEL SOURDOUGH BOULE OR EGG, 383/574 G",
+      "sale_story": null,
+      "sku": "20155226_EA",
+      "description": "SELECTED VARIETIES\n\nBOULE AU PUMPERNICKEL, AU LEVAIN OU\nPAIN AUX \u0152UFS",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009710/3a17c426-29e3-11f1-9abe-5acc05e2e1e6/x_large",
+      "custom_id_field_1": "20155226_EA",
+      "custom_id_field_2": "20653517_EA",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Bakery"
+      ],
+      "pre_price_text": "",
+      "price_text": "4.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 4715.06,
+      "bottom": -2456.23,
+      "right": 5214.02,
+      "top": -1963.82,
+      "page": 4,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Bakery",
+          "google_category_id": 343
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/20155226_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/20155226_EA",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009710/3a17c426-29e3-11f1-9abe-5acc05e2e1e6/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686811,
+      "name": "FARMER'S MARKET\u2122 RUSSET POTATOES, 10 LB BAG",
+      "sale_story": null,
+      "sku": "20601020001_EA",
+      "description": "PRODUCT OF CANADA,\nCANADA NO. 1 GRADE\n\nPOMMES DE TERRE\nRUSSET D\u00c9LICES DU MARCH\u00c9",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009709/483f2e18-29e3-11f1-979b-e23e6aaf87f5/x_large",
+      "custom_id_field_1": "20601020001_EA",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Fruits & Vegetables"
+      ],
+      "pre_price_text": "",
+      "price_text": "6.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 3153.07,
+      "bottom": -3991.41,
+      "right": 3654.27,
+      "top": -3451.28,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Vegetables",
+          "google_category_id": 2833
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Potatoes",
+          "google_category_id": 2885
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/20601020001_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/20601020001_EA",
+      "brand": "FARMER'S MARKET\u2122",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009709/483f2e18-29e3-11f1-979b-e23e6aaf87f5/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686805,
+      "name": "BLACKBERRIES OR RASPBERRIES, HALF PINT",
+      "sale_story": null,
+      "sku": "20051015001_EA",
+      "description": "PRODUCT OF MEXICO OR U.S.A.\n\nM\u00dbRES OU FRAMBOISES",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009709/4b47a16c-29e3-11f1-979b-e23e6aaf87f5/x_large",
+      "custom_id_field_1": "20051015001_EA",
+      "custom_id_field_2": "20128938001_EA",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Fruits & Vegetables"
+      ],
+      "pre_price_text": "",
+      "price_text": "4.50",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 3646.57,
+      "bottom": -2949.72,
+      "right": 4117.5,
+      "top": -2458.36,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Fruits",
+          "google_category_id": 2776
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Berries",
+          "google_category_id": 2782
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/20051015001_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/20051015001_EA",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009709/4b47a16c-29e3-11f1-979b-e23e6aaf87f5/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686816,
+      "name": "PARMIGIANO REGGIANO CHEESE",
+      "sale_story": "SAVE $1.09/100 G",
+      "sku": "20377023_KG",
+      "description": "PRODUCT OF ITALY, DELI CUT\n\nFROMAGE PARMIGIANO REGGIANO",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009710/344b49a0-29e3-11f1-9abe-5acc05e2e1e6/x_large",
+      "custom_id_field_1": "20377023_KG",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Dairy & Eggs"
+      ],
+      "pre_price_text": "",
+      "price_text": "4.40",
+      "post_price_text": "/100 g",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 4723.2,
+      "bottom": -947.36,
+      "right": 5451.95,
+      "top": -410.37,
+      "page": 4,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Dairy Products",
+          "google_category_id": 347
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Cheese",
+          "google_category_id": 2750
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/20377023_KG",
+      "item_web_url": "https://www.independentcitymarket.ca/p/20377023_KG",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009710/344b49a0-29e3-11f1-9abe-5acc05e2e1e6/x_large"
+      ],
+      "original_price": "5.49",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686809,
+      "name": "ROMAINE HEARTS, 3'S",
+      "sale_story": null,
+      "sku": "20067389001_EA",
+      "description": "PRODUCT OF U.S.A\n\nC\u0152URS DE ROMAINE",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009709/43c1dbd8-29e3-11f1-979b-e23e6aaf87f5/x_large",
+      "custom_id_field_1": "20067389001_EA",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Fruits & Vegetables"
+      ],
+      "pre_price_text": "",
+      "price_text": "5.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 3155.24,
+      "bottom": -3443.17,
+      "right": 3655.42,
+      "top": -2977.81,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Vegetables",
+          "google_category_id": 2833
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/20067389001_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/20067389001_EA",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009709/43c1dbd8-29e3-11f1-979b-e23e6aaf87f5/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686803,
+      "name": "ENGLISH CUCUMBERS",
+      "sale_story": null,
+      "sku": "20070132001_EA",
+      "description": "PRODUCT OF CANADA\nEACH\n\nCONCOMBRES ANGLAIS",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009709/439e7652-29e3-11f1-979b-e23e6aaf87f5/x_large",
+      "custom_id_field_1": "20070132001_EA",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Fruits & Vegetables"
+      ],
+      "pre_price_text": "",
+      "price_text": "2.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 3155.1,
+      "bottom": -2960.27,
+      "right": 3658.58,
+      "top": -2458.95,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Vegetables",
+          "google_category_id": 2833
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Cucumbers",
+          "google_category_id": 2850
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/20070132001_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/20070132001_EA",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009709/439e7652-29e3-11f1-979b-e23e6aaf87f5/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686795,
+      "name": "EXTRA LEAN GROUND BEEF, 450 G",
+      "sale_story": null,
+      "sku": "21675592_EA",
+      "description": "GRASS FED\n\nB\u0152UF HACH\u00c9 EXTRA-MAIGRE",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009709/32f9f93e-29e3-11f1-979b-e23e6aaf87f5/x_large",
+      "custom_id_field_1": "21675592_EA",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Meat & Seafood"
+      ],
+      "pre_price_text": "",
+      "price_text": "8.50",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 3157.12,
+      "bottom": -1000.47,
+      "right": 3650.57,
+      "top": -388.85,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Meat, Seafood & Eggs",
+          "google_category_id": 353
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Meat",
+          "google_category_id": 2917
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Lunch & Deli Meats",
+          "google_category_id": 2920
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/21675592_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/21675592_EA",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009709/32f9f93e-29e3-11f1-979b-e23e6aaf87f5/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686815,
+      "name": "GUACAMOLE, 270 G OR PICO DE GALLO SALSA, 170 G",
+      "sale_story": null,
+      "sku": "21657916_EA",
+      "description": "PREPARED IN-STORE\n\nGUACAMOLE OU SALSA PICO DE GALLO",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009709/4862ac26-29e3-11f1-979b-e23e6aaf87f5/x_large",
+      "custom_id_field_1": "21657916_EA",
+      "custom_id_field_2": "21552223_EA",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Deli & Ready Meals"
+      ],
+      "pre_price_text": "",
+      "price_text": "6.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 3646.32,
+      "bottom": -3986.42,
+      "right": 4134.22,
+      "top": -3488.06,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Dips & Spreads",
+          "google_category_id": 348
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Salsa",
+          "google_category_id": 2764
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/21657916_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/21657916_EA",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009709/4862ac26-29e3-11f1-979b-e23e6aaf87f5/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686794,
+      "name": "BOOST READY TO DRINK SHAKES",
+      "sale_story": "SAVE UP TO 20%",
+      "sku": "20986361_C06",
+      "description": "SELECTED VARIETIES AND SIZES\nBOISSONS FRAPP\u00c9ES PR\u00caTES \u00c0 BOIRE BOOST",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009708/439cd860-29e3-11f1-8c2c-2e30e966e522/x_large",
+      "custom_id_field_1": "20986361_C06",
+      "custom_id_field_2": "20990880_C06",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Pantry"
+      ],
+      "pre_price_text": "",
+      "price_text": "",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 2087.09,
+      "bottom": -3094.59,
+      "right": 2579.8,
+      "top": -2602.13,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Health & Beauty",
+          "google_category_id": 709
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Health Care",
+          "google_category_id": 710
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fitness & Nutrition",
+          "google_category_id": 717
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Nutrition Drinks & Shakes",
+          "google_category_id": 3376
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/20986361_C06",
+      "item_web_url": "https://www.independentcitymarket.ca/p/20986361_C06",
+      "brand": "Boost",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009708/439cd860-29e3-11f1-8c2c-2e30e966e522/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686775,
+      "name": "ACE BAGUETTE, 325-400 G",
+      "sale_story": null,
+      "sku": "20171171_EA",
+      "description": "SELECTED VARIETIES\nBAGUETTE ACE",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009708/485aa6fc-29e3-11f1-8c2c-2e30e966e522/x_large",
+      "custom_id_field_1": "20171171_EA",
+      "custom_id_field_2": "21314348_EA",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Bakery"
+      ],
+      "pre_price_text": "",
+      "price_text": "3.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1586.22,
+      "bottom": -545.17,
+      "right": 2096.56,
+      "top": -59.23,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Bakery",
+          "google_category_id": 343
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Breads & Buns",
+          "google_category_id": 2668
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/20171171_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/20171171_EA",
+      "brand": "ACE Bakery",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009708/485aa6fc-29e3-11f1-8c2c-2e30e966e522/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686784,
+      "name": "LAURA SECORD CHOCOLATE CHIPS, 250 G",
+      "sale_story": "SAVE 99\u00a2",
+      "sku": "21526650_EA",
+      "description": "SELECTED VARIETIES\n\nBRISURES DE CHOCOLAT LAURA SECORD",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009708/4e5fb1be-29e3-11f1-8c2c-2e30e966e522/x_large",
+      "custom_id_field_1": "21526650_EA",
+      "custom_id_field_2": "21526652_EA",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Pantry"
+      ],
+      "pre_price_text": "",
+      "price_text": "5.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 2088.49,
+      "bottom": -2092.05,
+      "right": 2577.54,
+      "top": -1593.64,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Candy & Chocolate",
+          "google_category_id": 2682
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/21526650_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/21526650_EA",
+      "brand": "Laura Secord",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009708/4e5fb1be-29e3-11f1-8c2c-2e30e966e522/x_large"
+      ],
+      "original_price": "5.99",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686825,
+      "name": "BENTO KAZOKU PLATTER, 53 PIECES, 1.2 KG",
+      "sale_story": "Members save $5",
+      "sku": "21637774_EA",
+      "description": "PLATEAU KAZODU BENTO",
+      "disclaimer_text": "Non-members $35",
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009710/3b243660-29e3-11f1-9abe-5acc05e2e1e6/x_large",
+      "custom_id_field_1": "21637774_EA",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Deli & Ready Meals"
+      ],
+      "pre_price_text": "PC Optimum Members-Only Price**",
+      "price_text": "30.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 5445.5,
+      "bottom": -2970.84,
+      "right": 6191.69,
+      "top": -2496.39,
+      "page": 4,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Prepared Foods",
+          "google_category_id": 356
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/21637774_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/21637774_EA",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009710/3b243660-29e3-11f1-9abe-5acc05e2e1e6/x_large"
+      ],
+      "original_price": "35.00",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686773,
+      "name": "PC\u00ae FISH, 500-550 G OR JANES FISH, 450/545 G",
+      "sale_story": "Members save $4",
+      "sku": "21637091_EA",
+      "description": "SELECTED VARIETIES\nFROZEN\n\nPOISSON PC OU POISSON JANES",
+      "disclaimer_text": "Non-members $14",
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009707/382a9dfa-29e3-11f1-b028-b2a05403f6e2/x_large",
+      "custom_id_field_1": "21637091_EA",
+      "custom_id_field_2": "21703969_EA",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Meat & Seafood"
+      ],
+      "pre_price_text": "PC Optimum Members-Only Price**",
+      "price_text": "10.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1015.86,
+      "bottom": -3248.68,
+      "right": 1510.04,
+      "top": -2732.47,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Meat, Seafood & Eggs",
+          "google_category_id": 353
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Seafood",
+          "google_category_id": 2921
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/21637091_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/21637091_EA",
+      "brand": "PC\u00ae \u2502 JANES",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009707/382a9dfa-29e3-11f1-b028-b2a05403f6e2/x_large"
+      ],
+      "original_price": "14.00",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686792,
+      "name": "PLANTERS CASHEWS, 200 G",
+      "sale_story": null,
+      "sku": "21021617_EA",
+      "description": "SELECTED VARIETIES\nNOIX DE CAJOU PLANTERS",
+      "disclaimer_text": "LIMIT 6 AFTER LIMIT $5.00 EA.",
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009708/357f4a6a-29e3-11f1-8c2c-2e30e966e522/x_large",
+      "custom_id_field_1": "21021617_EA",
+      "custom_id_field_2": "21021618_EA",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-01",
+      "valid_to": "2026-04-30",
+      "categories": [
+        "Pantry"
+      ],
+      "pre_price_text": "",
+      "price_text": "4.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 2102.94,
+      "bottom": -3618.54,
+      "right": 2597.22,
+      "top": -3190.61,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Nuts & Seeds",
+          "google_category_id": 354
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/21021617_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/21021617_EA",
+      "brand": "Planters",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009708/357f4a6a-29e3-11f1-8c2c-2e30e966e522/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686814,
+      "name": "CELERY STALKS, EACH OR FARMER'S MEXICO MARKET\u2122 GRAPE TOMATOES, 283 G",
+      "sale_story": null,
+      "sku": "20163119001_EA",
+      "description": "PRODUCT OF U.S.A.\nPRODUCT OF MEXICO\nC\u00c9LERI OU TOMATES RAISINS D\u00c9LICES DU MARCH\u00c9MC",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009709/45511086-29e3-11f1-979b-e23e6aaf87f5/x_large",
+      "custom_id_field_1": "20163119001_EA",
+      "custom_id_field_2": "21367888001_EA",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Fruits & Vegetables"
+      ],
+      "pre_price_text": "",
+      "price_text": "4.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 3649.91,
+      "bottom": -3444.73,
+      "right": 4129.08,
+      "top": -2962.66,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Vegetables",
+          "google_category_id": 2833
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Tomatoes",
+          "google_category_id": 2896
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/20163119001_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/20163119001_EA",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009709/45511086-29e3-11f1-979b-e23e6aaf87f5/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686760,
+      "name": "LARGE VEGETABLE OR FRUIT PLATTER, 1.34-1.87 KG",
+      "sale_story": null,
+      "sku": "20081718_EA",
+      "description": "PREPARED IN-STORE\nGROS PLATEAU DE L\u00c9GUMES OU FRUITS",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-05T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009707/3c3e61d8-29e3-11f1-b028-b2a05403f6e2/x_large",
+      "custom_id_field_1": "20081718_EA",
+      "custom_id_field_2": "20121599_EA",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-01",
+      "valid_to": "2026-04-05",
+      "categories": [
+        "Fruits & Vegetables"
+      ],
+      "pre_price_text": "",
+      "price_text": "20.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1006.77,
+      "bottom": -1759.45,
+      "right": 1517.2,
+      "top": -1257.35,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/20081718_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/20081718_EA",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009707/3c3e61d8-29e3-11f1-b028-b2a05403f6e2/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686757,
+      "name": "CHEDDAR BALDERSON, 250/280 G OU KOLBASSA PILLER'S, 250 G-375 G",
+      "sale_story": "SAVE UP TO 35%",
+      "sku": "20308469_EA",
+      "description": "SELECTED VARIETIES\n\nBALDERSON OU KOLBASSA PILLER'S",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009707/3a6f1820-29e3-11f1-b028-b2a05403f6e2/x_large",
+      "custom_id_field_1": "20308469_EA",
+      "custom_id_field_2": "21495455_EA",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Deli & Ready Meals"
+      ],
+      "pre_price_text": "",
+      "price_text": "7.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 516.55,
+      "bottom": -1758.09,
+      "right": 1010.15,
+      "top": -1267.45,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Meat, Seafood & Eggs",
+          "google_category_id": 353
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Meat",
+          "google_category_id": 2917
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Lunch & Deli Meats",
+          "google_category_id": 2920
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/20308469_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/20308469_EA",
+      "brand": "BALDERSON | PILLER'S",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009707/3a6f1820-29e3-11f1-b028-b2a05403f6e2/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686782,
+      "name": "MOTT'S CLAMATO, 1.89 L",
+      "sale_story": null,
+      "sku": "20318955002_EA",
+      "description": "SELECTED VARIETIES\nCLAMATO MOTT'S",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009708/40ac5f90-29e3-11f1-8c2c-2e30e966e522/x_large",
+      "custom_id_field_1": "20318955002_EA",
+      "custom_id_field_2": "21575320_EA",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Pantry"
+      ],
+      "pre_price_text": "",
+      "price_text": "3.50",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1595.23,
+      "bottom": -2578.46,
+      "right": 2095.93,
+      "top": -2078.03,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Beverages",
+          "google_category_id": 320
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Juice",
+          "google_category_id": 331
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/20318955002_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/20318955002_EA",
+      "brand": "Mott's",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009708/40ac5f90-29e3-11f1-8c2c-2e30e966e522/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686759,
+      "name": "PC\u00ae BLACK TIGER SHRIMP RING WITH MILD COCKTAIL SAUCE, 568 G",
+      "sale_story": "GET PC Optimum 8,000 pts $8 back in points",
+      "sku": "20979150_EA",
+      "description": "FROZEN\nCOURONNE DE CREVETTES TIGR\u00c9ES NOIRES AVEC SAUCE COCKTAIL DOUCE PCMD",
+      "disclaimer_text": "*Open your PC Optimum\u2122 app or visit pcoptimum.ca to get the offer",
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009707/3e10f336-29e3-11f1-b028-b2a05403f6e2/x_large",
+      "custom_id_field_1": "20979150_EA",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Meat & Seafood"
+      ],
+      "pre_price_text": "",
+      "price_text": "28.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 46.7,
+      "bottom": -1767.97,
+      "right": 529.01,
+      "top": -1296.69,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Meat, Seafood & Eggs",
+          "google_category_id": 353
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Seafood",
+          "google_category_id": 2921
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/20979150_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/20979150_EA",
+      "brand": "PC",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009707/3e10f336-29e3-11f1-b028-b2a05403f6e2/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686790,
+      "name": "LECLERC GO PURE BARS, 5'S, 140-175 G",
+      "sale_story": null,
+      "sku": "21221451_EA",
+      "description": "SELECTED VARIETIES\n\nBARRES GO PURE LECLERC",
+      "disclaimer_text": "LIMIT 6\nAFTER LIMIT 3.00 EA.",
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009708/4cd75be4-29e3-11f1-8c2c-2e30e966e522/x_large",
+      "custom_id_field_1": "21221451_EA",
+      "custom_id_field_2": "21507858_EA",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-01",
+      "valid_to": "2026-04-30",
+      "categories": [
+        "Pantry"
+      ],
+      "pre_price_text": "",
+      "price_text": "1.88",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1604.9,
+      "bottom": -3597.29,
+      "right": 2099.6,
+      "top": -3146.04,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Snack Foods",
+          "google_category_id": 358
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/21221451_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/21221451_EA",
+      "brand": "Leclerc",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009708/4cd75be4-29e3-11f1-8c2c-2e30e966e522/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686755,
+      "name": "PC\u00ae BLACK TIGER SHRIMP RAW ZIPPERBACK\u00ae, 16-20 PER LB OR PACIFIC JUMBO WHITE SHRIMP, 21-30 PER LB 400 G",
+      "sale_story": "SAVE UP TO 37%",
+      "sku": "20801192_EA",
+      "description": "COOKED PEELED\nFROZEN\n\nCREVETTES TIGR\u00c9ES NOIRES OU CREVETTES BLANCHES G\u00c9ANTES DU\nPACIFIQUE PC",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009707/3c3e8fdc-29e3-11f1-b028-b2a05403f6e2/x_large",
+      "custom_id_field_1": "20801192_EA",
+      "custom_id_field_2": "20896957_EA",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Meat & Seafood"
+      ],
+      "pre_price_text": "",
+      "price_text": "10.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 516.15,
+      "bottom": -1248.74,
+      "right": 993.53,
+      "top": -764.31,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Meat, Seafood & Eggs",
+          "google_category_id": 353
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Seafood",
+          "google_category_id": 2921
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/20801192_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/20801192_EA",
+      "brand": "PC",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009707/3c3e8fdc-29e3-11f1-b028-b2a05403f6e2/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686771,
+      "name": "COCA-COLA, CANADA DRY OR PEPSI SOFT DRINKS, 12X355 ML",
+      "sale_story": "SAVE 98\u00a2 WHEN YOU BUY 2",
+      "sku": "20318694002_C12",
+      "description": "SELECTED VARIETIES\n\nBOISSONS GAZEUSES COCA-COLA,\nCANADA DRY OU PEPSI",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009707/371e800c-29e3-11f1-b028-b2a05403f6e2/x_large",
+      "custom_id_field_1": "20318694002_C12",
+      "custom_id_field_2": "20322361002_C12",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Drinks"
+      ],
+      "pre_price_text": "2/",
+      "price_text": "17.00",
+      "post_price_text": "or $8.99 ea.",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 777.75,
+      "bottom": -3748.21,
+      "right": 1152.65,
+      "top": -3253.36,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Beverages",
+          "google_category_id": 320
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Soda",
+          "google_category_id": 336
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/20318694002_C12",
+      "item_web_url": "https://www.independentcitymarket.ca/p/20318694002_C12",
+      "brand": "COCA-COLA | CANADA DRY | PEPSI",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009707/371e800c-29e3-11f1-b028-b2a05403f6e2/x_large"
+      ],
+      "original_price": "17.98",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686772,
+      "name": "PC\u00ae SHREDDED CHEESE, 250-320 G OR OR BLACK DIAMOND CHEESE BARS, 400 G OR SHREDDED CHEESE, 320 G",
+      "sale_story": "SAVE $1.61",
+      "sku": "21060183_EA",
+      "description": "SELECTED VARIETIES",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009707/34d581c4-29e3-11f1-b028-b2a05403f6e2/x_large",
+      "custom_id_field_1": "21060183_EA",
+      "custom_id_field_2": "21279221_EA",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Dairy & Eggs"
+      ],
+      "pre_price_text": "",
+      "price_text": "4.88",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1008.2,
+      "bottom": -2720.14,
+      "right": 1514.91,
+      "top": -2241.74,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Dairy Products",
+          "google_category_id": 347
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Cheese",
+          "google_category_id": 2750
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/21060183_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/21060183_EA",
+      "brand": "PC\u00ae | BLACK DIAMOND",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009707/34d581c4-29e3-11f1-b028-b2a05403f6e2/x_large"
+      ],
+      "original_price": "6.49",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686779,
+      "name": "DR OETKER GIUSEPPE STUFFED CRUST PIZZA, 685-724 G OR SUPREMA PIZZA, 487-520 G",
+      "sale_story": "GET PC Optimum 1000 pts, $1 back in points",
+      "sku": "21555844_EA",
+      "description": "SELECTED VARIETIES\nFROZEN\n\nPIZZA \u00c0 CRO\u00dbTE FARCIE OU SUPREMA GIUSEPPE DR. OETKER",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009708/3c19f690-29e3-11f1-8c2c-2e30e966e522/x_large",
+      "custom_id_field_1": "21555844_EA",
+      "custom_id_field_2": "21649640_EA",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Pantry"
+      ],
+      "pre_price_text": "",
+      "price_text": "7.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 2089.2,
+      "bottom": -1589.44,
+      "right": 2576.9,
+      "top": -1067.12,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Bakery",
+          "google_category_id": 343
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/21555844_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/21555844_EA",
+      "brand": "DR OETKER | SUPREMA",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009708/3c19f690-29e3-11f1-8c2c-2e30e966e522/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686764,
+      "name": "PC\u00ae 100% PURE MAPLE SYRUP, 500 ML",
+      "sale_story": "GET PC Optimum 1,000 pts $1 back in points",
+      "sku": "20049221_EA",
+      "description": "SIROP D'\u00c9RABLE 100 % PUR PC",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009707/3f257102-29e3-11f1-b028-b2a05403f6e2/x_large",
+      "custom_id_field_1": "20049221_EA",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Pantry"
+      ],
+      "pre_price_text": "",
+      "price_text": "10.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 46.13,
+      "bottom": -2723.08,
+      "right": 530.5,
+      "top": -2243.75,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Condiments & Sauces",
+          "google_category_id": 345
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Syrup",
+          "google_category_id": 2706
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/20049221_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/20049221_EA",
+      "brand": "PC",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009707/3f257102-29e3-11f1-b028-b2a05403f6e2/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686791,
+      "name": "HARVEST CREEK HALAL CHICKEN WIENERS OR BUTCHER'S SELECTION STAMPEDE HOTDOG ORIGINAL, 900 G",
+      "sale_story": null,
+      "sku": "21307061_EA",
+      "description": "SELECTED VARIETIES\n\nSAUCISSES FUM\u00c9ES AU POULET HALAL HARVEST CREEK OU SAUCISSES\nFUM\u00c9ES ORIGINALES STAMPEDE LA S\u00c9LECTION DU BOUCHER",
+      "disclaimer_text": "LIMIT 6 AFTER LIMIT $4.50 EA.",
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009708/473ec2d0-29e3-11f1-8c2c-2e30e966e522/x_large",
+      "custom_id_field_1": "21307061_EA",
+      "custom_id_field_2": "21309103_EA",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-01",
+      "valid_to": "2026-04-30",
+      "categories": [
+        "Pantry"
+      ],
+      "pre_price_text": "",
+      "price_text": "3.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 2599.03,
+      "bottom": -3607.32,
+      "right": 3070.92,
+      "top": -3164.11,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Meat, Seafood & Eggs",
+          "google_category_id": 353
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Meat",
+          "google_category_id": 2917
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/21307061_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/21307061_EA",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009708/473ec2d0-29e3-11f1-8c2c-2e30e966e522/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686768,
+      "name": "PC\u00ae SUPER SOFT BATHROOM TISSUE, CLUB SIZE 30=100 ROLLS",
+      "sale_story": "Members save $6",
+      "sku": "21450846_EA",
+      "description": "PAPIER HYGI\u00c9NIQUE SUPER DOUX PCMD",
+      "disclaimer_text": "Non-members\n$21.99",
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009707/398625ca-29e3-11f1-b028-b2a05403f6e2/x_large",
+      "custom_id_field_1": "21450846_EA",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Household Supplies"
+      ],
+      "pre_price_text": "PC Optimum Members-Only Price**",
+      "price_text": "15.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1152.32,
+      "bottom": -3726.06,
+      "right": 1499.1,
+      "top": -3246.54,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Arts & Entertainment",
+          "google_category_id": 122
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Party & Celebration",
+          "google_category_id": 1970
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Gift Giving",
+          "google_category_id": 1971
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Gift Wrapping",
+          "google_category_id": 1976
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Tissue Paper",
+          "google_category_id": 1980
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/21450846_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/21450846_EA",
+      "brand": "PC",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009707/398625ca-29e3-11f1-b028-b2a05403f6e2/x_large"
+      ],
+      "original_price": "21.99",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686769,
+      "name": "PC\u00ae ROAST AND GROUND COFFEE, 800-930 G",
+      "sale_story": "GET PC Optimum 3,000 pts, $3 back in points",
+      "sku": "21393374_EA",
+      "description": "SELECTED VARIETIES\n\nCAF\u00c9 TORR\u00c9FI\u00c9 ET MOULU PCMDMD",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009707/42ba892e-29e3-11f1-b028-b2a05403f6e2/x_large",
+      "custom_id_field_1": "21393374_EA",
+      "custom_id_field_2": "21393573_EA",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Pantry"
+      ],
+      "pre_price_text": "",
+      "price_text": "20.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 409.2,
+      "bottom": -3765.98,
+      "right": 776.18,
+      "top": -3252.99,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Beverages",
+          "google_category_id": 320
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Coffee",
+          "google_category_id": 325
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/21393374_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/21393374_EA",
+      "brand": "PC",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009707/42ba892e-29e3-11f1-b028-b2a05403f6e2/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686762,
+      "name": "KRAFT PEANUT BUTTER, 750 G/1 KG",
+      "sale_story": "PC Optimum GET 1000 pts $1 back in points",
+      "sku": "20039581001_EA",
+      "description": "SELECTED VARIETIES\nBEURRE D'ARACHIDE KRAFT",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009707/345b51d8-29e3-11f1-b028-b2a05403f6e2/x_large",
+      "custom_id_field_1": "20039581001_EA",
+      "custom_id_field_2": "20311582003_EA",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Pantry"
+      ],
+      "pre_price_text": "",
+      "price_text": "6.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 515.79,
+      "bottom": -2735.38,
+      "right": 1020.52,
+      "top": -2262.15,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Dips & Spreads",
+          "google_category_id": 348
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Nut Butters",
+          "google_category_id": 2763
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/20039581001_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/20039581001_EA",
+      "brand": "Kraft",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009707/345b51d8-29e3-11f1-b028-b2a05403f6e2/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686797,
+      "name": "PC\u00ae HORS D'OEUVRE COLLECTION, 225-500 G",
+      "sale_story": null,
+      "sku": "21116020_EA",
+      "description": "SELECTED VARIETIES\nFROZEN\n\nCOLLECTION DE HORS-D'\u0152UVRE PC",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009709/362fa450-29e3-11f1-979b-e23e6aaf87f5/x_large",
+      "custom_id_field_1": "21116020_EA",
+      "custom_id_field_2": "21538572_EA",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Pantry"
+      ],
+      "pre_price_text": "",
+      "price_text": "9.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 4132.28,
+      "bottom": -1454.59,
+      "right": 4634.05,
+      "top": -971.21,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": null,
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/21116020_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/21116020_EA",
+      "brand": "PC",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009709/362fa450-29e3-11f1-979b-e23e6aaf87f5/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686833,
+      "name": "BUTTER CROISSANTS, 6'S",
+      "sale_story": null,
+      "sku": "21682999_EA",
+      "description": "CROISSANTS AU BEURRE",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009710/38402e40-29e3-11f1-9abe-5acc05e2e1e6/x_large",
+      "custom_id_field_1": "21682999_EA",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Bakery"
+      ],
+      "pre_price_text": "",
+      "price_text": "4.50",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 5206.35,
+      "bottom": -2472.31,
+      "right": 5699.98,
+      "top": -1973.44,
+      "page": 4,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Bakery",
+          "google_category_id": 343
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/21682999_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/21682999_EA",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009710/38402e40-29e3-11f1-9abe-5acc05e2e1e6/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686758,
+      "name": "FRESH ATLANTIC SALMON FILLETS",
+      "sale_story": null,
+      "sku": "20720065_KG",
+      "description": "SKIN-ON, FAMILY SIZE 24.25/KG\n\nFILETS DE SAUMON DE L'ATLANTIQUE FRAIS",
+      "disclaimer_text": "FRESH SEAFOOD ITEMS SUBJECT TO AVAILABILITY",
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-05T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009707/33e01752-29e3-11f1-b028-b2a05403f6e2/x_large",
+      "custom_id_field_1": "20720065_KG",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-01",
+      "valid_to": "2026-04-05",
+      "categories": [
+        "Meat & Seafood"
+      ],
+      "pre_price_text": "",
+      "price_text": "11.00",
+      "post_price_text": "lb",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 994.9,
+      "bottom": -1255.16,
+      "right": 1519.9,
+      "top": -765.68,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Meat, Seafood & Eggs",
+          "google_category_id": 353
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Seafood",
+          "google_category_id": 2921
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/20720065_KG",
+      "item_web_url": "https://www.independentcitymarket.ca/p/20720065_KG",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009707/33e01752-29e3-11f1-b028-b2a05403f6e2/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686778,
+      "name": "H\u00c4AGEN-DAZS, 414-450 ML OR BARS, 3/4'S OR NESTL\u00c9 DRUMSTICK, 4'S",
+      "sale_story": null,
+      "sku": "20322380001_EA",
+      "description": "SELECTED VARIETIES\nFROZEN\n\nDESSERT GLAC\u00c9 OU BARRES H\u00c4AGEN-DAZS OU DRUMSTICK NESTL\u00c9",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009708/3adadbdc-29e3-11f1-8c2c-2e30e966e522/x_large",
+      "custom_id_field_1": "20322380001_EA",
+      "custom_id_field_2": "21513578_EA",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Pantry"
+      ],
+      "pre_price_text": "",
+      "price_text": "5.50",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 2577.45,
+      "bottom": -1579.45,
+      "right": 3080.52,
+      "top": -1054.93,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Frozen Desserts & Novelties",
+          "google_category_id": 350
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Ice Cream & Frozen Yogurt",
+          "google_category_id": 2767
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/20322380001_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/20322380001_EA",
+      "brand": "H\u00c4AGEN-DAZS | NESTL\u00c9",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009708/3adadbdc-29e3-11f1-8c2c-2e30e966e522/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686785,
+      "name": "PC\u00ae BUNNY, 100 G",
+      "sale_story": null,
+      "sku": "21609314_EA",
+      "description": "LAPIN PCMD",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009708/4d42ef30-29e3-11f1-8c2c-2e30e966e522/x_large",
+      "custom_id_field_1": "21609314_EA",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Pantry"
+      ],
+      "pre_price_text": "",
+      "price_text": "4.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 2581.76,
+      "bottom": -2087.69,
+      "right": 3080.72,
+      "top": -1588.47,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Candy & Chocolate",
+          "google_category_id": 2682
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/21609314_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/21609314_EA",
+      "brand": "PC",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009708/4d42ef30-29e3-11f1-8c2c-2e30e966e522/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686786,
+      "name": "LACTANTIA BUTTER, 454 G",
+      "sale_story": null,
+      "sku": "20296112005_EA",
+      "description": "SELECTED VARIETIES\n\nBEURRE LACTANTIA",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009708/375d17d6-29e3-11f1-8c2c-2e30e966e522/x_large",
+      "custom_id_field_1": "20296112005_EA",
+      "custom_id_field_2": "20639926_EA",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Dairy & Eggs"
+      ],
+      "pre_price_text": "",
+      "price_text": "6.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 2094.68,
+      "bottom": -560.27,
+      "right": 2540.37,
+      "top": -53.32,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Dairy Products",
+          "google_category_id": 347
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Butter & Margarine",
+          "google_category_id": 2749
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/20296112005_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/20296112005_EA",
+      "brand": "Lactantia",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009708/375d17d6-29e3-11f1-8c2c-2e30e966e522/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686821,
+      "name": "PC\u00ae GUACAMOLE, 425 G",
+      "sale_story": "Members save $1",
+      "sku": "21448106_EA",
+      "description": "SELECTED VARIETIES\n\nGUACAMOLE PC",
+      "disclaimer_text": "Non-members $8",
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009710/372eef3c-29e3-11f1-9abe-5acc05e2e1e6/x_large",
+      "custom_id_field_1": "21448106_EA",
+      "custom_id_field_2": "21448102_EA",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Pantry"
+      ],
+      "pre_price_text": "Members-Only Price**",
+      "price_text": "7.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 5700.45,
+      "bottom": -1986.25,
+      "right": 6190.28,
+      "top": -1471.05,
+      "page": 4,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Dips & Spreads",
+          "google_category_id": 348
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Guacamole",
+          "google_category_id": 2760
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/21448106_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/21448106_EA",
+      "brand": "PC",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009710/372eef3c-29e3-11f1-9abe-5acc05e2e1e6/x_large"
+      ],
+      "original_price": "8.00",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686783,
+      "name": "NO NAME\u00ae FLOUR, 2.5 KG",
+      "sale_story": "SAVE 33%",
+      "sku": "20013256_EA",
+      "description": "SELECTED VARIETIES\nFARINE SANS NOM\u00ae",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009708/3f2f9934-29e3-11f1-8c2c-2e30e966e522/x_large",
+      "custom_id_field_1": "20013256_EA",
+      "custom_id_field_2": "21030802_EA",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Pantry"
+      ],
+      "pre_price_text": "",
+      "price_text": "3.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1595.31,
+      "bottom": -2072.35,
+      "right": 2095.9,
+      "top": -1569.97,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Cooking & Baking Ingredients",
+          "google_category_id": 346
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Flour",
+          "google_category_id": 2732
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/20013256_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/20013256_EA",
+      "brand": "no name",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009708/3f2f9934-29e3-11f1-8c2c-2e30e966e522/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686820,
+      "name": "MARCANGELO ITALIAN SLICED MEAT, 200 G",
+      "sale_story": null,
+      "sku": "21206369_EA",
+      "description": "CHARCUTERIES ITALIENNES TRANCH\u00c9ES MARCANGELO",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009710/363f434c-29e3-11f1-9abe-5acc05e2e1e6/x_large",
+      "custom_id_field_1": "21206369_EA",
+      "custom_id_field_2": "21692121_EA",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Meat & Seafood"
+      ],
+      "pre_price_text": "",
+      "price_text": "14.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 5698.71,
+      "bottom": -1461.57,
+      "right": 6198.04,
+      "top": -959.32,
+      "page": 4,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Meat, Seafood & Eggs",
+          "google_category_id": 353
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Meat",
+          "google_category_id": 2917
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/21206369_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/21206369_EA",
+      "brand": "Marcangelo Chicken",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009710/363f434c-29e3-11f1-9abe-5acc05e2e1e6/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686823,
+      "name": "LESLEY STOWE RAINCOAST CRISPS, 150 G OR WILDLY DELICIOUS JELLY, 185 ML",
+      "sale_story": "Members save $1",
+      "sku": "21025538_EA",
+      "description": "SELECTED VARIETIES \n\nCRAQUELINS RAINCOAST CRISPS LESLEY STOWE OU GEL\u00c9E WILDLY DELICIOUS",
+      "disclaimer_text": "Non-members $8",
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009710/372dcd5a-29e3-11f1-9abe-5acc05e2e1e6/x_large",
+      "custom_id_field_1": "21025538_EA",
+      "custom_id_field_2": "21030996_EA",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Pantry"
+      ],
+      "pre_price_text": "Members-Only Price**",
+      "price_text": "7.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 5205.33,
+      "bottom": -1977.77,
+      "right": 5700.61,
+      "top": -1466.45,
+      "page": 4,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": null,
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/21025538_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/21025538_EA",
+      "brand": "LESLEY STOWE | WILDLY DELICIOUS",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009710/372dcd5a-29e3-11f1-9abe-5acc05e2e1e6/x_large"
+      ],
+      "original_price": "8.00",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686828,
+      "name": "14 PIECE WINGS, 861-933 G",
+      "sale_story": null,
+      "sku": "21680795_EA",
+      "description": "HOT OR CHILLED, SAUCED TO ORDER.\n\n14 MORCEAUX D'AILES",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009710/3b0f3b16-29e3-11f1-9abe-5acc05e2e1e6/x_large",
+      "custom_id_field_1": "21680795_EA",
+      "custom_id_field_2": "21680659_EA",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Deli & Ready Meals"
+      ],
+      "pre_price_text": "",
+      "price_text": "16.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 4708.86,
+      "bottom": -2936.42,
+      "right": 5455.05,
+      "top": -2472.71,
+      "page": 4,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Meat, Seafood & Eggs",
+          "google_category_id": 353
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Meat",
+          "google_category_id": 2917
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Lunch & Deli Meats",
+          "google_category_id": 2920
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/21680795_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/21680795_EA",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009710/3b0f3b16-29e3-11f1-9abe-5acc05e2e1e6/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686829,
+      "name": "IN-STORE PREPARED ONE PAN FAMILY MEALS, 750 G-1.3 KG",
+      "sale_story": null,
+      "sku": "21595416_EA",
+      "description": "SELECTED VARIETIES\n\nREPAS FAMILIAUX EN UN PLAT PR\u00c9PAR\u00c9 EN MAGASIN",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009710/3c219e04-29e3-11f1-9abe-5acc05e2e1e6/x_large",
+      "custom_id_field_1": "21595416_EA",
+      "custom_id_field_2": "21665982_EA",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Bakery"
+      ],
+      "pre_price_text": "16/",
+      "price_text": "20.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 5212.95,
+      "bottom": -3475.09,
+      "right": 5695.41,
+      "top": -3006.1,
+      "page": 4,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Prepared Foods",
+          "google_category_id": 356
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Prepared Meals & Entr\ufffdes",
+          "google_category_id": 2925
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/21595416_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/21595416_EA",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009710/3c219e04-29e3-11f1-9abe-5acc05e2e1e6/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686761,
+      "name": "FARMER'S MARKET\u2122 MUFFINS, 6'S",
+      "sale_story": null,
+      "sku": "21283356_EA",
+      "description": "SELECTED VARIETIES\n\nMUFFINS D\u00c9LICES DU MARCH\u00c9",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009707/3ff4c3bc-29e3-11f1-b028-b2a05403f6e2/x_large",
+      "custom_id_field_1": "21283356_EA",
+      "custom_id_field_2": "21283357_EA",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Bakery"
+      ],
+      "pre_price_text": "",
+      "price_text": "6.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 42.45,
+      "bottom": -2260.18,
+      "right": 523.04,
+      "top": -1777.56,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Bakery",
+          "google_category_id": 343
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Muffins",
+          "google_category_id": 2676
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/21283356_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/21283356_EA",
+      "brand": "Farmer's Market",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009707/3ff4c3bc-29e3-11f1-b028-b2a05403f6e2/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686774,
+      "name": "CLOVER LEAF WHITE TUNA, 170 G",
+      "sale_story": null,
+      "sku": "20167571_EA",
+      "description": "SELECTED VARIETIES\nTHON BLANC CLOVER LEAF",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009708/48bcf550-29e3-11f1-8c2c-2e30e966e522/x_large",
+      "custom_id_field_1": "20167571_EA",
+      "custom_id_field_2": "20326358001_EA",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Pantry"
+      ],
+      "pre_price_text": "",
+      "price_text": "3.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 2574.12,
+      "bottom": -1079.99,
+      "right": 3079.51,
+      "top": -585.99,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Meat, Seafood & Eggs",
+          "google_category_id": 353
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Seafood",
+          "google_category_id": 2921
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Canned Seafood",
+          "google_category_id": 2922
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/20167571_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/20167571_EA",
+      "brand": "Clover Leaf",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009708/48bcf550-29e3-11f1-8c2c-2e30e966e522/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686777,
+      "name": "PC\u00ae RECTANGLE ACACIA SERVING BOARD",
+      "sale_story": null,
+      "sku": "21714814_EA",
+      "description": null,
+      "disclaimer_text": "limit 3, after limit $24 ea.\nwhile supplies last",
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009708/5172565e-29e3-11f1-8c2c-2e30e966e522/x_large",
+      "custom_id_field_1": "21714814_EA",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Household Supplies"
+      ],
+      "pre_price_text": "",
+      "price_text": "12.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 2534.77,
+      "bottom": -567.79,
+      "right": 3079.97,
+      "top": -53.72,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Home & Garden",
+          "google_category_id": 745
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Kitchen & Dining",
+          "google_category_id": 908
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Kitchen Tools & Utensils",
+          "google_category_id": 916
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Cutting Boards",
+          "google_category_id": 4137
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/21714814_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/21714814_EA",
+      "brand": "PC",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009708/5172565e-29e3-11f1-8c2c-2e30e966e522/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1003686804,
+      "name": "LOBSTER TAILS, 2-3 OZ 4'S OR PC\u00ae SALMON WELLINGTON, 725 G",
+      "sale_story": null,
+      "sku": "21240991_EA",
+      "description": "FROZEN \nPREVIOUSLY FROZEN\nQUEUES DE HOMARD OU SAUMON WELLINGTON PCMD",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-02T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-08T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23009709/40ae8248-29e3-11f1-979b-e23e6aaf87f5/x_large",
+      "custom_id_field_1": "21240991_EA",
+      "custom_id_field_2": "21552109_EA",
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-02",
+      "valid_to": "2026-04-08",
+      "categories": [
+        "Meat & Seafood"
+      ],
+      "pre_price_text": "",
+      "price_text": "23.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 4136.03,
+      "bottom": -2450.74,
+      "right": 4636.17,
+      "top": -1951.09,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Meat, Seafood & Eggs",
+          "google_category_id": 353
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Seafood",
+          "google_category_id": 2921
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7864369,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.independentcitymarket.ca/p/21240991_EA",
+      "item_web_url": "https://www.independentcitymarket.ca/p/21240991_EA",
+      "brand": "PC",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23009709/40ae8248-29e3-11f1-979b-e23e6aaf87f5/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    }
+  ]
+}

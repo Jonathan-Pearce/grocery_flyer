@@ -1,0 +1,307 @@
+=== Independent Grocer Flyer Fetch — 2026-04-02 ===
+Run started : 2026-04-02 22:48:31 UTC
+
+Loaded 205 stores from data/independent_grocer/stores.json
+
+Stores loaded: 205
+Phase 1: fetching publications per store…
+
+  [405] Browns' YIG Stittsville → ['7864730']
+  [408] Baxtrom's YIG Cornwall → ['7864723']
+  [421] Barnabe's YIG Perth → ['7864723']
+  [450] Wilson's YIG Ottawa → no new flyers
+  [467] Dessureault YIG Gloucester → no new flyers
+  [476] Grants YIG Hanover → ['7864723']
+  [600] Hantsport Cook's → no new flyers
+  [620] McAdam YIG → ['7864454']
+  [634] Carl's YIG Wolfville → ['7864454']
+  [636] Mike's YIG Kensington → ['7864454']
+  [648] Plaster Rock Save Easy → ['7864454']
+  [649] Robert's YIG Chipman → no new flyers
+  [651] Gilles YIG Saint-Antoine → ['7864454']
+  [658] Scott's YIG → ['7864454']
+  [663] St. Andrew's Save Easy → ['7864454']
+  [673] Mahone Bay YIG → no new flyers
+  [685] Francis' YIG Lunenburg → ['7864454']
+  [806] Jonssons' YIG Kemptville → ['7864727']
+  [810] Davis' YIG Port Hope → ['7864726']
+  [816] Robinsons YIG Huntsville → no new flyers
+  [817] Todd's YIG Haliburton → ['7864723']
+  [827] Embrun YIG → ['7864732']
+  [835] Vos' YIG Port Perry → ['7864727']
+  [839] Fisher's YIG Beaverton → ['7864728']
+  [866] King's YIG Richmond → ['7864723']
+  [878] Morello's YIG Peterborough → ['7864723']
+  [881] Bissonnette's YIG Ottawa → no new flyers
+  [895] Hansen's YIG Exeter → ['7864727']
+  [896] Dumas' YIG Sudbury → no new flyers
+  [1402] Nick's YIG → ['7864454']
+  [1406] Macphee's Market Save Easy → ['7864454']
+  [1410] Gambo → no new flyers
+  [1414] Millerâ€™s YIG Annapolis → ['7864454']
+  [1417] Darrell's YIG Twillingate → no new flyers
+  [1419] Grand Manan YIG → ['7864454']
+  [1423] Mifflin's YIG → ['7864456']
+  [1618] Robinson's YIG Manotick → ['7864723']
+  [1619] Riley's YIG Ottawa → ['7864723']
+  [1622] Gerald's YIG Middleton → ['7864454']
+  [1623] Doug's YIG Berwick → ['7864454']
+  [1624] Tanners YIG Espanola → ['7864723']
+  [1627] Laurin YIG Hawkesbury → ['7864731']
+  [1634] Scott's YIG Perth Andover-NB → ['7864454']
+  [1636] Don's YIG Cornwall → ['7864454']
+  [1652] Sage Hill → no new flyers
+  [1659] Yig Fort Mcmurray → ['7864464']
+  [1683] Geraghty's YIG Dalhousie → ['7864454']
+  [1684] Balmoral Save Easy → no new flyers
+  [1685] Trevor's YIG Doaktown → ['7864454']
+  [1688] Eldho's YIG → ['7864463']
+  [1697] Kerr Street YIG → ['7864463']
+  [1734] Yig Creston → ['7864461']
+  [1789] Squamish YIG → ['7864461']
+  [1790] Yig Richmond City Market → no new flyers
+  [1792] YIG Vancouver Davie → ['7864461']
+  [1798] YIG Fort Macleod → ['7864462']
+  [1806] WYKE'S YIG → ['7864467']
+  [1813] YIG Drayton Valley → ['7864462']
+  [1816] YIG Kelowna → ['7864466']
+  [1822] City Market Sage Hill → no new flyers
+  [1824] Dennis' Yig Saskatoon → ['7864461']
+  [1829] Your Independent Grocer Melfort → no new flyers
+  [1830] Cindy's Yig Melfort → ['7864463']
+  [1832] Nielsen's Yig Surrey → ['7864463']
+  [1833] High Level YIG → no new flyers
+  [1840] Coubroughs YIG Edson → no new flyers
+  [1860] Parisotto's YIG Abbotsford → no new flyers
+  [1870] Sinnott's YIG Red Deer → ['7864464']
+  [1872] Loblaws City Market → no new flyers
+  [1874] Golding's YIG Saskatoon → no new flyers
+  [1875] Coquitlam YIG → no new flyers
+  [1877] Hakam's YIG Langley → ['7864461']
+  [1887] Sewak's YIG → ['7864461']
+  [1889] Yig High Level → ['7864462']
+  [1891] Tipton's YIG Athabasca → ['7864462']
+  [1892] Lac La Biche YIG → ['7864462']
+  [1893] Devon YIG → ['7864462']
+  [1948] Dewe's YIG Belleville → ['7864723']
+  [2140] McNeil's → ['7864735']
+  [2162] Rowland's YIG Port Elgin → ['7864727']
+  [2601] Wilkinson's YIG Delhi → ['7864735']
+  [2639] Parker's YIG North Bay → ['7864727']
+  [2648] Laura's YIG Kanata → no new flyers
+  [2655] Heidi's YIG Petrolia → ['7864723']
+  [2656] McDonough's YIG → no new flyers
+  [2670] Bissonnette's YIG Ottawa → ['7864735']
+  [2671] Dumas' YIG Sudbury → ['7864723']
+  [2682] Tremblett's YIG Ingersoll → ['7864727']
+  [2683] Rome's YIG Sault Ste Marie → ['7864733']
+  [2690] Petawawa YIG → no new flyers
+  [2691] Massine's YIG Ottawa → ['7864723']
+  [2692] Hyska's Petawawa → ['7864723']
+  [2719] Robinson's YIG Huntsville → ['7864729']
+  [2722] BRAUD'S EDSON YIG → ['7864464']
+  [3229] Doug & Karla's YIG Lewisporte → ['7864456']
+  [3718] Maurice's valu-mart → no new flyers
+  [3719] Kaufman's → ['7864735']
+  [3721] JOHN'S → ['7864735']
+  [3722] Miller’s → ['7864735']
+  [3723] Bobcaygeon → ['7864735']
+  [3726] John's → ['7864735']
+  [3803] Belfiore's YIG Kitchener → ['7864735']
+  [3804] Marc’s → ['7864735']
+  [3806] Lakeshore → ['7864735']
+  [3815] Van Wart's → ['7864735']
+  [3818] Ken's → ['7864735']
+  [4020] Tuft’s YIG → ['7864736']
+  [4027] Peter's → ['7864735']
+  [4033] Bruno's YIG Don Mills → ['7864735']
+  [4034] Trevor's YIG Yellowknife → ['7864469']
+  [4035] Mortada's YIG → ['7864464']
+  [4428] Laura's YIG → ['7864726']
+  [4429] CITY MARKET YIG EDMONTON → no new flyers
+  [4430] Smylie's YIG Trenton → ['7864723']
+  [4533] Fogal’s YIG Wingham → ['7864735']
+  [5128] YIG Ontario → ['7864735']
+  [5129] Yulli's YIG Ontario Barrys Bay → ['7864735']
+  [5130] Jan's YIG Ontario Deep River → ['7864735']
+  [5131] YIG Englehart Ontario → ['7864735']
+  [5132] Unni & Sree's YIG Gore Bay → ['7864735']
+  [5133] Mandy and Raj's YIG Ontario Iroquois Falls → ['7864735']
+  [5193] Godard's YIG Meaford → ['7864735']
+  [5234] Jones' YIG Thessalon → ['7864735']
+  [5235] Hutton's YIG Blind River → ['7864735']
+  [5252] Walker's YIG Salisbury → no new flyers
+  [5313] MicheAl's YIG Saskatoon → ['7864463']
+  [5379] O'Reilly's YIG Prescott → ['7864723']
+  [5488] Kamloops YIG → ['7864461']
+  [5489] John's YIG Comox → ['7864461']
+  [5490] Melville → ['7864461']
+  [6748] Dave and Lyne’s YIG Rockland → ['7864723']
+  [6749] Christina's YIG Twillingate → ['7864456']
+  [6951] XXX → ['7864461']
+  [7142] YIG Nackawic → ['7864454']
+  [7144] Engel's YIG Westlock → ['7864462']
+  [7148] Rose's YIG Sackville → ['7864454']
+  [7152] MALVINA'S YIG → ['7864461']
+  [7155] CITY MKT YIG VANCOUVER HOMER → no new flyers
+  [7161] Johnson's YIG Timmins → ['7864727']
+  [7164] Stevens' YIG Bracebridge → ['7864723']
+  [7170] Bill's YIG Alberton → ['7864454']
+  [7172] SHIPPAGAN YIG → ['7864454']
+  [7178] Jonsson’s YIG Almonte → ['7864723']
+  [7179] Moncion's YIG Ottawa → ['7864734']
+  [7180] Sam's YIG Tavistock → ['7864735']
+  [7183] Jamie's YIG Hampton → ['7864454']
+  [7184] Hazel’s Your Independent Grocer Hubbards → ['7864454']
+  [7186] Mcdaniel's YIG Nepean → no new flyers
+  [7187] MACNEIL'S YIG SASKATOON HORNER → ['7864463']
+  [7207] Mcdonalds YIG St Mary's → ['7864723']
+  [7230] YIG Leduc → ['7864464']
+  [7309] Yig City Market Edmonton → no new flyers
+  [7316] Sechelt YIG → ['7864463']
+  [7329] Drews' YIG Regina → ['7864461']
+  [7353] Ridgeway → ['7864735']
+  [7355] Ren - Phil's → ['7864735']
+  [7362] Ren - Hendriks' → ['7864735']
+  [7369] Neil's YIG Hanmer → ['7864727']
+  [7377] 7377 McDonough's YIG Nepean → ['7864723']
+  [7460] Jason's YIG Kentville → ['7864454']
+  [7461] Avery's Your Independent Grocer → ['7864454']
+  [7470] Petit Rocher YIG → ['7864454']
+  [7491] City Market Arbutus → no new flyers
+  [7492] Niel's YIG Regina → ['7864463']
+  [7494] Park Royal City Market → no new flyers
+  [7511] Allan's YIG Pickering → ['7864727']
+  [7517] Bissonnette's YIG → ['7864735']
+  [7520] Vrab's YIG Sudbury → ['7864725']
+  [7524] Andrews → ['7864735']
+  [7525] Brennan and Samantha’s YIGO → ['7864735']
+  [7533] YIG New Liskeard → ['7864727']
+  [7534] LONSDALE CITY MARKET → no new flyers
+  [7535] Beach's YIG → ['7864735']
+  [7537] XXX's YIG Balmoral → ['7864454']
+  [7541] XXX's YIG Alexandria → ['7864723']
+  [7545] XXX YIG GIBBONS → ['7864464']
+  [7546] Stinu's YIG Beresford → ['7864454']
+  [7598] XX → ['7864727']
+  [7906] YIG CARSTAIRS MANDALAY → ['7864464']
+  [7914] Rymersons → ['7864735']
+  [7915] Andress' YIG Smiths Falls → ['7864723']
+  [7916] Mitchell's YIG Carleton Place → ['7864733']
+  [7917] Bob's YIGO → ['7864723']
+  [7923] Lavish's YIG Little Current → ['7864735']
+  [7924] Drews → ['7864735']
+  [7925] Terry's YIG Gravenhurst → ['7864735']
+  [7926] 56 Victoria St N → ['7864735']
+  [7927] Todd's Your Independent Grocer Hastings → ['7864735']
+  [7931] McDonald's YIG Mitchell → ['7864735']
+  [7932] Potters YIG Mamora → ['7864735']
+  [7933] Fretz's YIG → ['7864735']
+  [7962] Tremblatt's London Wortley → ['7864735']
+  [7968] Cramer's YIG Dowling Ontario → ['7864735']
+  [7971] 1619 Orleans Blvd → ['7864723']
+  [7973] Moore’s YIG → ['7864735']
+  [7974] Palmeri's YIG Gravenhurst → ['7864724']
+  [7979] Sirard's Your Independent Grocer → ['7864723']
+  [8025] Liam's YIG Hantsport → ['7864454']
+  [8034] Drolet's YIG Chelmsford → ['7864727']
+  [8189] Jeffery's YIG St George → ['7864454']
+  [9686] Tanya's YIG Chester → ['7864454']
+  [9693] Kathy & Mark's YIG → ['7864727']
+  [9784] Mack's YIG Kapuskasing → ['7864727']
+  [9787] Gayathry & Adhavan's YIG Lively → ['7864723']
+  [9798] Houcine's YIG Yelliowknife → ['7864468']
+
+  172 new publication entries across 205 stores
+  24 unique new publication(s) to download
+  Saved → data/independent_grocer/store_flyers.json  (239,582 bytes)
+New publication entries added to store_flyers.json: 172
+Unique new publications to download: 24
+
+Phase 2: fetching products for each new publication…
+
+  [7864730] Weekly Flyer  (2026-04-02T00:00:00-04:00 → 2026-04-08T23:59:59-04:00)
+    283 products
+  Saved → data/independent_grocer/flyers/7864730.json  (640,275 bytes)
+  [7864723] Weekly Flyer  (2026-04-02T00:00:00-04:00 → 2026-04-08T23:59:59-04:00)
+    262 products
+  Saved → data/independent_grocer/flyers/7864723.json  (593,233 bytes)
+  [7864454] Weekly Flyer  (2026-04-02T00:00:00-04:00 → 2026-04-08T23:59:59-04:00)
+    84 products
+  Saved → data/independent_grocer/flyers/7864454.json  (197,888 bytes)
+  [7864727] Weekly Flyer  (2026-04-02T00:00:00-04:00 → 2026-04-08T23:59:59-04:00)
+    270 products
+  Saved → data/independent_grocer/flyers/7864727.json  (610,160 bytes)
+  [7864726] Weekly Flyer  (2026-04-02T00:00:00-04:00 → 2026-04-08T23:59:59-04:00)
+    278 products
+  Saved → data/independent_grocer/flyers/7864726.json  (628,442 bytes)
+  [7864732] Weekly Flyer  (2026-04-02T00:00:00-04:00 → 2026-04-08T23:59:59-04:00)
+    296 products
+  Saved → data/independent_grocer/flyers/7864732.json  (668,520 bytes)
+  [7864728] Weekly Flyer  (2026-04-02T00:00:00-04:00 → 2026-04-08T23:59:59-04:00)
+    275 products
+  Saved → data/independent_grocer/flyers/7864728.json  (623,348 bytes)
+  [7864456] Weekly Flyer  (2026-04-02T00:00:00-04:00 → 2026-04-08T23:59:59-04:00)
+    84 products
+  Saved → data/independent_grocer/flyers/7864456.json  (197,474 bytes)
+  [7864731] Weekly Flyer  (2026-04-02T00:00:00-04:00 → 2026-04-08T23:59:59-04:00)
+    280 products
+  Saved → data/independent_grocer/flyers/7864731.json  (633,312 bytes)
+  [7864464] Weekly Flyer  (2026-04-02T03:00:00-04:00 → 2026-04-08T23:59:59-04:00)
+    273 products
+  Saved → data/independent_grocer/flyers/7864464.json  (603,773 bytes)
+  [7864463] Weekly Flyer  (2026-04-02T03:00:00-04:00 → 2026-04-08T23:59:59-04:00)
+    273 products
+  Saved → data/independent_grocer/flyers/7864463.json  (603,911 bytes)
+  [7864461] Weekly Flyer  (2026-04-02T03:00:00-04:00 → 2026-04-08T23:59:59-04:00)
+    257 products
+  Saved → data/independent_grocer/flyers/7864461.json  (569,275 bytes)
+  [7864462] Weekly Flyer  (2026-04-02T03:00:00-04:00 → 2026-04-08T23:59:59-04:00)
+    257 products
+  Saved → data/independent_grocer/flyers/7864462.json  (569,137 bytes)
+  [7864467] Weekly Flyer  (2026-04-02T03:00:00-04:00 → 2026-04-08T23:59:59-04:00)
+    272 products
+  Saved → data/independent_grocer/flyers/7864467.json  (601,744 bytes)
+  [7864466] Weekly Flyer  (2026-04-02T03:00:00-04:00 → 2026-04-08T23:59:59-04:00)
+    294 products
+  Saved → data/independent_grocer/flyers/7864466.json  (649,781 bytes)
+  [7864735] Weekly Flyer  (2026-04-02T00:00:00-04:00 → 2026-04-08T23:59:59-04:00)
+    91 products
+  Saved → data/independent_grocer/flyers/7864735.json  (212,584 bytes)
+  [7864733] Weekly Flyer  (2026-04-02T00:00:00-04:00 → 2026-04-08T23:59:59-04:00)
+    288 products
+  Saved → data/independent_grocer/flyers/7864733.json  (650,239 bytes)
+  [7864729] Weekly Flyer  (2026-04-02T00:00:00-04:00 → 2026-04-08T23:59:59-04:00)
+    304 products
+  Saved → data/independent_grocer/flyers/7864729.json  (686,955 bytes)
+  [7864736] Weekly Flyer  (2026-04-02T00:00:00-04:00 → 2026-04-08T23:59:59-04:00)
+    112 products
+  Saved → data/independent_grocer/flyers/7864736.json  (259,239 bytes)
+  [7864469] Weekly Flyer  (2026-04-02T03:00:00-04:00 → 2026-04-08T23:59:59-04:00)
+    258 products
+  Saved → data/independent_grocer/flyers/7864469.json  (569,971 bytes)
+  [7864734] Weekly Flyer  (2026-04-02T00:00:00-04:00 → 2026-04-08T23:59:59-04:00)
+    301 products
+  Saved → data/independent_grocer/flyers/7864734.json  (680,354 bytes)
+  [7864725] Weekly Flyer  (2026-04-02T00:00:00-04:00 → 2026-04-08T23:59:59-04:00)
+    286 products
+  Saved → data/independent_grocer/flyers/7864725.json  (645,370 bytes)
+  [7864724] Weekly Flyer  (2026-04-02T00:00:00-04:00 → 2026-04-08T23:59:59-04:00)
+    283 products
+  Saved → data/independent_grocer/flyers/7864724.json  (639,913 bytes)
+  [7864468] Weekly Flyer  (2026-04-02T03:00:00-04:00 → 2026-04-08T23:59:59-04:00)
+    242 products
+  Saved → data/independent_grocer/flyers/7864468.json  (535,335 bytes)
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 24
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-04-02 22:49:00 UTC
+Elapsed      : 0m 29s
+
+
+Done.  Verbose log → logs/independent_grocer/2026-04-02_verbose.log
+       Summary log → logs/independent_grocer/2026-04-02_summary.log
+
