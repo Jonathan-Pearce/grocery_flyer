@@ -48,7 +48,7 @@ LOBLAWS_PORTFOLIO: list[Brand] = [
 ]
 
 WALMART_PORTFOLIO: list[Brand] = [
-    Brand("Walmart", "walmartcanada", "walmart", "92bcff5f7d07c3aaa4b33e2c048d7728", range(1, 5001),
+    Brand("Walmart", "walmartcanada", "walmart", "92bcff5f7d07c3aaa4b33e2c048d7728", range(1, 10001),
           flyer_type_filter="groceryflyer"),
 ]
 
