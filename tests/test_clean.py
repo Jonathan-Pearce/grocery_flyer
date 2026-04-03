@@ -4,7 +4,6 @@ from __future__ import annotations
 
 import json
 import os
-import tempfile
 
 import pytest
 
@@ -195,7 +194,6 @@ class TestIsUpToDate:
         assert _is_up_to_date(path, "2026-04-03") is False
 
     def test_returns_false_on_invalid_json(self, tmp_path):
-        path = str(tmp_path / "broken.json")
         path_obj = tmp_path / "broken.json"
         path_obj.write_text("not json")
         assert _is_up_to_date(str(path_obj), "2026-04-03") is False
