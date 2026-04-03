@@ -27,6 +27,7 @@ class Brand:
     folder: str         # Subdirectory name under data/ and logs/
     access_token: str
     code_range: range   # Store-code sweep range used by the store-scanner
+    flyer_type_filter: str | None = None  # If set, only publications with this flyer_type are kept
 
 
 # Slugs confirmed via live URL test; None = slug unknown, brand skipped until confirmed.
@@ -44,6 +45,11 @@ LOBLAWS_PORTFOLIO: list[Brand] = [
     Brand("Independent Grocer",       "yourindependentgrocer", "independent_grocer", "fa31161a375478b68b2ec0f8f8edd65a", range(1, 12001)),
     Brand("Independent City Market",  "independentcitymarket", "independent_city_market", "a30dee18036c0131c522b0fd12632b7d", range(1, 12001)),
     Brand("Freshmart",                 "freshmart",             "freshmart",               "32520249c4e20e14b33e5d45d084cb53", range(1, 12001)),
+]
+
+WALMART_PORTFOLIO: list[Brand] = [
+    Brand("Walmart", "walmartcanada", "walmart", "92bcff5f7d07c3aaa4b33e2c048d7728", range(1, 5001),
+          flyer_type_filter="groceryflyer"),
 ]
 
 # Slugs confirmed via live URL test; None = slug unknown, brand skipped until confirmed.
@@ -70,6 +76,8 @@ class MetroBrand:
     banner_id: str | None  # None = fetched from app_config_url at runtime
     api_key: str | None    # None = fetched from app_config_url at runtime
     id_range: range        # Integer store-ID sweep range
+    expected_banner: str | None = None  # If set, only stores whose API banner matches are kept
+    locale: str = "en"    # API locale: "en" for ON brands, "fr" for QC brands
 
 
 # banner_id/api_key for Metro Ontario are hardcoded (known from app.3a018fde.js).
@@ -98,6 +106,7 @@ METRO_PORTFOLIO: list[MetroBrand] = [
         banner_id="63fe18ec3e7cd81e86393c61",
         api_key="0a112db32b2f42588b54063b05dfbc90",
         id_range=range(1, 30000),
+        locale="fr",
     ),
     MetroBrand(
         name="Super C",
@@ -106,13 +115,16 @@ METRO_PORTFOLIO: list[MetroBrand] = [
         banner_id="6141fa7157f8c212fc19dddc",
         api_key="021027e7c41548bcba5d2315a155816b",
         id_range=range(1, 1000),
+        locale="fr",
     ),
+    # Metro Quebec runs on circulaire.metro.ca (separate from depliant.metro.ca which is Super C).
+    # banner_id/api_key confirmed from circulaire.metro.ca/config/app.json.
     MetroBrand(
         name="Metro Quebec",
         folder="metro_qc",
-        app_config_url="https://depliant.metro.ca/config/app.json",
-        banner_id=None,
-        api_key=None,
+        app_config_url="https://circulaire.metro.ca/config/app.json",
+        banner_id="62e3ee07ffe0e6f10778a56e",
+        api_key="0a112db32b2f42588b54063b05dfbc90",
         id_range=range(1, 1000),
     ),
 ]
@@ -195,7 +207,11 @@ def fetch_store(brand: Brand, code: int) -> dict | None:
 
 
 def fetch_store_publications(brand: Brand, store_code: str) -> list:
-    """Return list of active publication objects for a store."""
+    """Return list of active publication objects for a store.
+
+    If brand.flyer_type_filter is set, only publications whose flyer_type
+    matches that value are returned.
+    """
     data = get(
         f"{FLIPP_BASE}/publications/{brand.slug}",
         params={
@@ -209,7 +225,11 @@ def fetch_store_publications(brand: Brand, store_code: str) -> list:
         return []
     if isinstance(data, dict):
         data = data.get("flyers", data.get("publications", []))
-    return data if isinstance(data, list) else []
+    if not isinstance(data, list):
+        return []
+    if brand.flyer_type_filter:
+        data = [p for p in data if p.get("flyer_type") == brand.flyer_type_filter]
+    return data
 
 
 def fetch_publication_products(pub_id: int | str, access_token: str) -> list:
@@ -258,14 +278,14 @@ def metro_headers(brand: "MetroBrand") -> dict:
 
 
 def metro_fetch_store(brand: "MetroBrand", store_id: int, date: str) -> dict | None:
-    """GET /api/flyers/{store_id}/en?date=... — returns store info dict or None.
+    """GET /api/flyers/{store_id}/{locale}?date=... — returns store info dict or None.
 
     A valid store ID with at least one active flyer returns storeName inside
     the first flyer object.  An unknown ID or empty-flyer response returns None.
     """
     try:
         r = requests.get(
-            f"{METRO_API_BASE}/flyers/{store_id}/en",
+            f"{METRO_API_BASE}/flyers/{store_id}/{brand.locale}",
             headers=metro_headers(brand),
             params={"date": date},
             timeout=10,
@@ -282,9 +302,12 @@ def metro_fetch_store(brand: "MetroBrand", store_id: int, date: str) -> dict | N
     flyers = data.get("flyers", [])
     if not flyers:
         return None
+    api_banner = data.get("banner", "")
+    if brand.expected_banner and api_banner != brand.expected_banner:
+        return None
     return {
         "store_name": flyers[0].get("storeName", ""),
-        "banner":     data.get("banner", ""),
+        "banner":     api_banner,
     }
 
 
@@ -292,7 +315,7 @@ def metro_fetch_store_flyers(brand: "MetroBrand", store_id: int, date: str) -> l
     """Return flyer list for a store on a given date."""
     try:
         r = requests.get(
-            f"{METRO_API_BASE}/flyers/{store_id}/en",
+            f"{METRO_API_BASE}/flyers/{store_id}/{brand.locale}",
             headers=metro_headers(brand),
             params={"date": date},
             timeout=10,
@@ -308,9 +331,13 @@ def metro_fetch_store_flyers(brand: "MetroBrand", store_id: int, date: str) -> l
 
 
 def metro_fetch_products(
-    brand: "MetroBrand", job: str, store_id: int, locale: str = "en"
+    brand: "MetroBrand", job: str, store_id: int, locale: str | None = None
 ) -> list:
-    """POST /api/Pages/{job}/{store_id}/{locale}/search. Returns flat product list."""
+    """POST /api/Pages/{job}/{store_id}/{locale}/search. Returns flat product list.
+
+    Uses brand.locale by default; pass locale to override.
+    """
+    locale = locale or brand.locale
     try:
         r = requests.post(
             f"{METRO_API_BASE}/Pages/{job}/{store_id}/{locale}/search",
