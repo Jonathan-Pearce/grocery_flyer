@@ -1,7 +1,5 @@
 """Tests for schema.py — FlyerItem Pydantic model."""
 
-import json
-
 import pytest
 
 from schema import FlyerItem
