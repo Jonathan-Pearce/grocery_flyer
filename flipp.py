@@ -7,7 +7,6 @@ HTTP helper functions so fetch_stores.py and fetch_flyers.py stay thin.
 
 import json
 import os
-import time
 from dataclasses import dataclass
 from datetime import datetime, timezone
 
