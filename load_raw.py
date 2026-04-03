@@ -107,6 +107,79 @@ def _iter_flyer_files(data_dir: str, store: str | None) -> Iterator[tuple[str, s
 # ── Public API ────────────────────────────────────────────────────────────────
 
 
+def iter_flyers(
+    data_dir: str = "data",
+    store: str | None = None,
+) -> Iterator[tuple[str, str | None, str | None, list[FlyerItem]]]:
+    """Yield ``(store_chain, flyer_id, fetched_on, items)`` for each raw flyer file.
+
+    Unlike :func:`iter_records`, this generator groups all records from a
+    single flyer file together so that callers can write one output file per
+    flyer, check idempotency at the file level, and access the raw
+    ``fetched_on`` date without iterating all records first.
+
+    Parameters
+    ----------
+    data_dir:
+        Root data directory (default: ``"data"``).
+    store:
+        When provided, only the named store sub-folder is processed.
+
+    Yields
+    ------
+    tuple[str, str | None, str | None, list[FlyerItem]]
+        ``(store_chain, flyer_id, fetched_on, items)`` where *items* contains
+        all normalised :class:`~schema.FlyerItem` records from the file.
+
+    Raises
+    ------
+    ValueError
+        If a flyer file contains neither ``"publication_id"`` nor ``"job"``.
+    """
+    for store_chain, flyer_path in _iter_flyer_files(data_dir, store):
+        store_dir = os.path.join(data_dir, store_chain)
+        stores: dict = _load_json(os.path.join(store_dir, "stores.json"))
+        store_flyers: dict = _load_json(os.path.join(store_dir, "store_flyers.json"))
+
+        with open(flyer_path, encoding="utf-8") as fh:
+            flyer_data: dict = json.load(fh)
+
+        fetched_on: str | None = flyer_data.get("fetched_on") or None
+
+        if "publication_id" in flyer_data:
+            publication_id = str(flyer_data["publication_id"])
+            store_id = _flipp_store_id(store_flyers, publication_id)
+            province = _store_province(stores, store_id)
+            items = normalize_flipp_file(
+                flyer_data,
+                store_chain=store_chain,
+                store_id=store_id,
+                province=province,
+            )
+            flyer_id: str | None = publication_id
+
+        elif "job" in flyer_data:
+            file_store_id = flyer_data.get("store_id")
+            store_id = str(file_store_id) if file_store_id is not None else None
+            province = _store_province(stores, store_id)
+            items = normalize_metro_file(
+                flyer_data,
+                store_chain=store_chain,
+                store_id=store_id,
+                province=province,
+            )
+            flyer_id = str(flyer_data["job"]) or None
+
+        else:
+            raise ValueError(
+                f"Cannot determine API source for '{flyer_path}': "
+                "file contains neither 'publication_id' (Flipp) nor 'job' (Metro). "
+                "Expected one of these top-level keys to be present."
+            )
+
+        yield store_chain, flyer_id, fetched_on, items
+
+
 def iter_records(
     data_dir: str = "data",
     store: str | None = None,
