@@ -25,7 +25,7 @@ jobs:
           pip install -r requirements-dev.txt
 
       - name: Syntax check
-        run: python -m py_compile flipp.py azure.py fetch_flyers.py fetch_stores.py
+        run: python -m py_compile fetchers/flipp.py fetchers/azure.py scripts/fetch_flyers.py scripts/fetch_stores.py
 
       - name: Lint with ruff
         run: ruff check --ignore E501 .
