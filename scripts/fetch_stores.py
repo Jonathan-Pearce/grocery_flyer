@@ -139,7 +139,7 @@ def run_metro_portfolio(
             continue
 
         print(f"  banner_id : {brand.banner_id}")
-        print(f"  api_key   : (loaded)")
+        print("  api_key   : (loaded)")
 
         id_range = brand.id_range
         if start is not None or end is not None:
