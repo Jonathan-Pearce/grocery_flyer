@@ -72,6 +72,42 @@ python -m scripts.fetch_stores --portfolio loblaws --brand nofrills
 python -m scripts.fetch_stores --portfolio metro --brand food_basics --start 1 --end 500
 ```
 
+## Weekly workflow
+
+```bash
+# 1. Scrape new flyers from source APIs → data/
+python scripts/fetch_flyers.py
+
+# 2. Normalise and clean raw data → cleaned/
+python -m pipeline.clean
+
+# 3. Ingest into queryable Parquet database → db/
+python -m pipeline.build_db
+```
+
+Steps 2 and 3 are idempotent — safe to re-run. Step 3 skips any flyer
+already present in `db/` unless `--force` is passed.
+
+## Querying
+
+No server required. Query across all brands with [DuckDB](https://duckdb.org/):
+
+```python
+import duckdb
+
+con = duckdb.connect()
+con.sql("""
+    SELECT store_chain, name_en, sale_price, flyer_valid_from
+    FROM read_parquet('db/observations/**/*.parquet', hive_partitioning=true)
+    WHERE name_en ILIKE '%chicken breast%'
+      AND year = 2026
+    ORDER BY sale_price
+""").show()
+```
+
+The `hive_partitioning=true` flag lets DuckDB skip entire brand/week folders
+that don't match the filter — queries stay fast even as data grows.
+
 ## Output structure
 
 Each brand folder under `data/` contains:
