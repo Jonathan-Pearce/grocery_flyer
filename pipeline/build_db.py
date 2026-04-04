@@ -406,10 +406,9 @@ def _build_parser():
 def main(argv: list[str] | None = None) -> int:
     args = _build_parser().parse_args(argv)
     try:
-        written = 0
-        skipped = 0
         if args.dimensions_only:
             build_dimensions(db_dir=args.db_dir, data_dir=args.data_dir)
+            print("Done. Dimensions rebuilt.")
         else:
             written, skipped = build_observations(
                 db_dir=args.db_dir,
@@ -418,9 +417,9 @@ def main(argv: list[str] | None = None) -> int:
                 force=args.force,
             )
             build_dimensions(db_dir=args.db_dir, data_dir=args.data_dir)
-        print(f"Done. {written} flyers written, {skipped} skipped. Dimensions rebuilt.")
+            print(f"Done. {written} flyers written, {skipped} skipped. Dimensions rebuilt.")
     except Exception as exc:  # noqa: BLE001
-        print(f"Error: {exc}", file=sys.stderr)
+        print(f"Error: {type(exc).__name__}: {exc}", file=sys.stderr)
         return 1
     return 0
 
