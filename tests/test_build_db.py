@@ -7,7 +7,7 @@ import os
 
 import pytest
 
-from pipeline.build_db import _partition_dir, build_dimensions, build_observations
+from pipeline.build_db import _partition_dir, build_dimensions, build_observations, main
 
 
 # ── _partition_dir ────────────────────────────────────────────────────────────
@@ -583,3 +583,180 @@ class TestBuildDimensions:
 
         flyers_table = pq.read_table(os.path.join(db, "dimensions", "flyers.parquet"))
         assert flyers_table.num_rows == 0
+
+
+# ── main (CLI) ────────────────────────────────────────────────────────────────
+
+
+class TestMain:
+    def test_returns_zero_on_success(self, tmp_path):
+        pytest.importorskip("pyarrow")
+        db = str(tmp_path / "db")
+        cleaned = str(tmp_path / "cleaned")
+        data = str(tmp_path / "data")
+
+        _write_json(
+            os.path.join(cleaned, "loblaws", "1001.json"),
+            _make_envelope("1001", "loblaws"),
+        )
+        _write_stores_json(data, "loblaws", _FLIPP_STORES)
+        _write_store_flyers_json(data, "loblaws", _FLIPP_STORE_FLYERS)
+
+        rc = main([
+            "--db-dir", db,
+            "--cleaned-dir", cleaned,
+            "--data-dir", data,
+        ])
+        assert rc == 0
+
+    def test_creates_observations_and_dimensions(self, tmp_path):
+        pytest.importorskip("pyarrow")
+        db = str(tmp_path / "db")
+        cleaned = str(tmp_path / "cleaned")
+        data = str(tmp_path / "data")
+
+        _write_json(
+            os.path.join(cleaned, "loblaws", "1001.json"),
+            _make_envelope("1001", "loblaws"),
+        )
+        _write_stores_json(data, "loblaws", _FLIPP_STORES)
+        _write_store_flyers_json(data, "loblaws", _FLIPP_STORE_FLYERS)
+
+        main(["--db-dir", db, "--cleaned-dir", cleaned, "--data-dir", data])
+
+        assert os.path.isdir(os.path.join(db, "observations"))
+        assert os.path.isdir(os.path.join(db, "dimensions"))
+        assert os.path.exists(os.path.join(db, "dimensions", "stores.parquet"))
+        assert os.path.exists(os.path.join(db, "dimensions", "flyers.parquet"))
+
+    def test_dimensions_only_skips_observations(self, tmp_path, capsys):
+        pytest.importorskip("pyarrow")
+        db = str(tmp_path / "db")
+        cleaned = str(tmp_path / "cleaned")
+        data = str(tmp_path / "data")
+
+        _write_json(
+            os.path.join(cleaned, "loblaws", "1001.json"),
+            _make_envelope("1001", "loblaws"),
+        )
+        _write_stores_json(data, "loblaws", _FLIPP_STORES)
+        _write_store_flyers_json(data, "loblaws", _FLIPP_STORE_FLYERS)
+
+        rc = main([
+            "--db-dir", db,
+            "--cleaned-dir", cleaned,
+            "--data-dir", data,
+            "--dimensions-only",
+        ])
+        assert rc == 0
+        # Dimension tables must exist
+        assert os.path.exists(os.path.join(db, "dimensions", "stores.parquet"))
+        # Observations directory must NOT have been created
+        assert not os.path.isdir(os.path.join(db, "observations"))
+
+    def test_summary_line_printed(self, tmp_path, capsys):
+        pytest.importorskip("pyarrow")
+        db = str(tmp_path / "db")
+        cleaned = str(tmp_path / "cleaned")
+        data = str(tmp_path / "data")
+
+        _write_json(
+            os.path.join(cleaned, "loblaws", "1001.json"),
+            _make_envelope("1001", "loblaws"),
+        )
+        _write_stores_json(data, "loblaws", _FLIPP_STORES)
+        _write_store_flyers_json(data, "loblaws", _FLIPP_STORE_FLYERS)
+
+        main(["--db-dir", db, "--cleaned-dir", cleaned, "--data-dir", data])
+        out = capsys.readouterr().out
+        assert "Done." in out
+        assert "flyers written" in out
+        assert "Dimensions rebuilt." in out
+
+    def test_dimensions_only_summary_line(self, tmp_path, capsys):
+        pytest.importorskip("pyarrow")
+        db = str(tmp_path / "db")
+        cleaned = str(tmp_path / "cleaned")
+        data = str(tmp_path / "data")
+
+        _write_stores_json(data, "loblaws", _FLIPP_STORES)
+        _write_store_flyers_json(data, "loblaws", _FLIPP_STORE_FLYERS)
+
+        main(["--db-dir", db, "--cleaned-dir", cleaned, "--data-dir", data, "--dimensions-only"])
+        out = capsys.readouterr().out
+        assert out.strip() == "Done. Dimensions rebuilt."
+
+    def test_idempotent_second_run_zero_written(self, tmp_path, capsys):
+        pytest.importorskip("pyarrow")
+        db = str(tmp_path / "db")
+        cleaned = str(tmp_path / "cleaned")
+        data = str(tmp_path / "data")
+
+        _write_json(
+            os.path.join(cleaned, "loblaws", "1001.json"),
+            _make_envelope("1001", "loblaws"),
+        )
+        _write_stores_json(data, "loblaws", _FLIPP_STORES)
+        _write_store_flyers_json(data, "loblaws", _FLIPP_STORE_FLYERS)
+
+        main(["--db-dir", db, "--cleaned-dir", cleaned, "--data-dir", data])
+        capsys.readouterr()
+
+        main(["--db-dir", db, "--cleaned-dir", cleaned, "--data-dir", data])
+        out = capsys.readouterr().out
+        assert "Done. 0 flyers written" in out
+
+    def test_store_flag_filters_brand(self, tmp_path, capsys):
+        pytest.importorskip("pyarrow")
+        db = str(tmp_path / "db")
+        cleaned = str(tmp_path / "cleaned")
+        data = str(tmp_path / "data")
+
+        _write_json(
+            os.path.join(cleaned, "loblaws", "1001.json"),
+            _make_envelope("1001", "loblaws"),
+        )
+        _write_json(
+            os.path.join(cleaned, "food_basics", "2001.json"),
+            _make_envelope("2001", "food_basics"),
+        )
+        _write_stores_json(data, "loblaws", _FLIPP_STORES)
+        _write_store_flyers_json(data, "loblaws", _FLIPP_STORE_FLYERS)
+
+        main([
+            "--db-dir", db,
+            "--cleaned-dir", cleaned,
+            "--data-dir", data,
+            "--store", "loblaws",
+        ])
+        out = capsys.readouterr().out
+        assert "loblaws" in out
+        assert "food_basics" not in out
+
+    def test_returns_one_on_error(self, tmp_path, monkeypatch, capsys):
+        pytest.importorskip("pyarrow")
+        db = str(tmp_path / "db")
+        cleaned = str(tmp_path / "cleaned")
+        data = str(tmp_path / "data")
+
+        def _raise(*args, **kwargs):
+            raise RuntimeError("simulated failure")
+
+        monkeypatch.setattr("pipeline.build_db.build_observations", _raise)
+
+        rc = main(["--db-dir", db, "--cleaned-dir", cleaned, "--data-dir", data])
+        assert rc == 1
+        err = capsys.readouterr().err
+        assert "RuntimeError" in err
+
+    def test_help_exits_zero(self):
+        import subprocess
+        result = subprocess.run(
+            ["python", "-m", "pipeline.build_db", "--help"],
+            capture_output=True,
+            text=True,
+        )
+        assert result.returncode == 0
+        assert "--dimensions-only" in result.stdout
+        assert "--data-dir" in result.stdout
+        assert "--store" in result.stdout
