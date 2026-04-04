@@ -180,17 +180,17 @@ class TestIsUpToDate:
 
     def test_returns_false_when_fetched_on_none(self, tmp_path):
         path = str(tmp_path / "f.json")
-        _write_json(path, {"generated_at": "2026-04-03T12:00:00+00:00"})
+        _write_json(path, {"fetched_on": "2026-04-03"})
         assert _is_up_to_date(path, None) is False
 
     def test_returns_true_when_dates_match(self, tmp_path):
         path = str(tmp_path / "f.json")
-        _write_json(path, {"generated_at": "2026-04-03T12:00:00+00:00"})
+        _write_json(path, {"fetched_on": "2026-04-03"})
         assert _is_up_to_date(path, "2026-04-03") is True
 
     def test_returns_false_when_dates_differ(self, tmp_path):
         path = str(tmp_path / "f.json")
-        _write_json(path, {"generated_at": "2026-04-02T12:00:00+00:00"})
+        _write_json(path, {"fetched_on": "2026-04-02"})
         assert _is_up_to_date(path, "2026-04-03") is False
 
     def test_returns_false_on_invalid_json(self, tmp_path):
@@ -198,7 +198,7 @@ class TestIsUpToDate:
         path_obj.write_text("not json")
         assert _is_up_to_date(str(path_obj), "2026-04-03") is False
 
-    def test_returns_false_when_generated_at_missing(self, tmp_path):
+    def test_returns_false_when_fetched_on_missing(self, tmp_path):
         path = str(tmp_path / "f.json")
         _write_json(path, {"record_count": 5})
         assert _is_up_to_date(path, "2026-04-03") is False
@@ -218,6 +218,7 @@ class TestWriteFlyerJson:
 
         assert data["flyer_id"] == "82596"
         assert data["store_chain"] == "food_basics"
+        assert data["fetched_on"] == "2026-04-03"
         assert "generated_at" in data
         assert data["record_count"] == 1
         assert len(data["records"]) == 1
