@@ -196,6 +196,154 @@ def build_observations(
         print(f"{store_chain}: {written} written, {skipped} skipped")
 
 
+# ── Dimension tables ──────────────────────────────────────────────────────────
+
+
+def build_dimensions(db_dir: str, data_dir: str) -> None:
+    """Build dimension tables for stores and flyers.
+
+    Parameters
+    ----------
+    db_dir:
+        Root directory for the Parquet database output.
+    data_dir:
+        Root directory of the raw data, containing one sub-directory per
+        brand (e.g. ``data/loblaws``, ``data/adonis``).
+
+    Side-effects
+    ------------
+    *   Writes ``<db_dir>/dimensions/stores.parquet`` — one row per store,
+        across all brands.
+    *   Writes ``<db_dir>/dimensions/flyers.parquet`` — one row per unique
+        flyer/job, deduplicated across stores that share the same flyer.
+    *   Both files are fully overwritten on every run.
+    """
+    import pyarrow as pa
+    import pyarrow.parquet as pq
+
+    dim_dir = os.path.join(db_dir, "dimensions")
+    os.makedirs(dim_dir, exist_ok=True)
+
+    # Determine chain directories
+    try:
+        chain_dirs = sorted(
+            entry
+            for entry in os.listdir(data_dir)
+            if os.path.isdir(os.path.join(data_dir, entry))
+        )
+    except FileNotFoundError:
+        chain_dirs = []
+
+    # ── stores.parquet ────────────────────────────────────────────────────────
+
+    store_rows: list[dict] = []
+
+    for chain in chain_dirs:
+        stores_path = os.path.join(data_dir, chain, "stores.json")
+        if not os.path.isfile(stores_path):
+            continue
+        try:
+            with open(stores_path, encoding="utf-8") as fh:
+                stores: dict = json.load(fh)
+        except Exception:
+            continue
+        for store_id, store_data in stores.items():
+            store_rows.append(
+                {
+                    "store_chain": chain,
+                    "store_id": str(store_id),
+                    # Metro uses "store_name"; Flipp uses "name"
+                    "store_name": (
+                        store_data.get("store_name")
+                        if store_data.get("store_name") is not None
+                        else store_data.get("name")
+                    ),
+                    "banner": store_data.get("banner"),
+                    "province": store_data.get("province"),
+                    "city": store_data.get("city"),
+                    "postal_code": store_data.get("postal_code"),
+                }
+            )
+
+    stores_schema = pa.schema(
+        [
+            ("store_chain", pa.string()),
+            ("store_id", pa.string()),
+            ("store_name", pa.string()),
+            ("banner", pa.string()),
+            ("province", pa.string()),
+            ("city", pa.string()),
+            ("postal_code", pa.string()),
+        ]
+    )
+    stores_table = pa.Table.from_pylist(store_rows, schema=stores_schema)
+    pq.write_table(stores_table, os.path.join(dim_dir, "stores.parquet"))
+
+    # ── flyers.parquet ────────────────────────────────────────────────────────
+
+    flyer_rows: list[dict] = []
+    seen_flyer_ids: set[str] = set()
+
+    for chain in chain_dirs:
+        flyers_path = os.path.join(data_dir, chain, "store_flyers.json")
+        if not os.path.isfile(flyers_path):
+            continue
+        try:
+            with open(flyers_path, encoding="utf-8") as fh:
+                store_flyers: dict = json.load(fh)
+        except Exception:
+            continue
+        for store_id, flyers in store_flyers.items():
+            for flyer in flyers or []:
+                # Metro uses "title" (job number); Flipp uses "id"
+                raw_id = flyer.get("title") or flyer.get("id")
+                if raw_id is None:
+                    continue
+                flyer_id = str(raw_id)
+                if flyer_id in seen_flyer_ids:
+                    continue
+                seen_flyer_ids.add(flyer_id)
+                flyer_rows.append(
+                    {
+                        "flyer_id": flyer_id,
+                        "store_chain": chain,
+                        "store_id": str(store_id),
+                        # Metro uses "startDate"/"endDate"; Flipp uses "valid_from"/"valid_to"
+                        "valid_from": (
+                            flyer.get("startDate")
+                            if flyer.get("startDate") is not None
+                            else flyer.get("valid_from")
+                        ),
+                        "valid_to": (
+                            flyer.get("endDate")
+                            if flyer.get("endDate") is not None
+                            else flyer.get("valid_to")
+                        ),
+                        # Flipp uses "locale" instead of "language"
+                        "language": (
+                            flyer.get("language")
+                            if flyer.get("language") is not None
+                            else flyer.get("locale")
+                        ),
+                        "province": flyer.get("province"),
+                    }
+                )
+
+    flyers_schema = pa.schema(
+        [
+            ("flyer_id", pa.string()),
+            ("store_chain", pa.string()),
+            ("store_id", pa.string()),
+            ("valid_from", pa.string()),
+            ("valid_to", pa.string()),
+            ("language", pa.string()),
+            ("province", pa.string()),
+        ]
+    )
+    flyers_table = pa.Table.from_pylist(flyer_rows, schema=flyers_schema)
+    pq.write_table(flyers_table, os.path.join(dim_dir, "flyers.parquet"))
+
+
 # ── CLI ───────────────────────────────────────────────────────────────────────
 
 
