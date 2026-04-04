@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 import os
+import time
 
 import pytest
 
@@ -849,7 +850,6 @@ def test_build_observations_force(tmp_path):
     out_path = os.path.join(part_dir, "83006.parquet")
     mtime_before = os.path.getmtime(out_path)
 
-    import time
     time.sleep(0.05)
 
     written, skipped = build_observations(db_dir=db, cleaned_dir=cleaned, force=True)
