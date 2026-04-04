@@ -133,8 +133,8 @@ def _is_up_to_date(out_path: str, fetched_on: str | None) -> bool:
     """Return ``True`` if *out_path* exists and was generated from the same fetch.
 
     The comparison uses only the **date portion** (``YYYY-MM-DD``) of both
-    ``fetched_on`` (from the raw file) and ``generated_at`` (from the cleaned
-    file).  If they match, the raw source has not changed since the last run.
+    ``fetched_on`` (from the raw file) and ``fetched_on`` stored in the cleaned
+    file.  If they match, the raw source has not changed since the last run.
     """
     if not os.path.exists(out_path):
         return False
@@ -143,8 +143,8 @@ def _is_up_to_date(out_path: str, fetched_on: str | None) -> bool:
     try:
         with open(out_path, encoding="utf-8") as fh:
             cleaned = json.load(fh)
-        generated_at = str(cleaned.get("generated_at", ""))
-        return generated_at[:10] == str(fetched_on)[:10]
+        stored_fetched_on = str(cleaned.get("fetched_on", ""))
+        return stored_fetched_on[:10] == str(fetched_on)[:10]
     except Exception:
         return False
 
@@ -165,6 +165,7 @@ def _write_flyer_json(
     payload = {
         "flyer_id": flyer_id,
         "store_chain": store_chain,
+        "fetched_on": fetched_on,
         "generated_at": generated_at,
         "record_count": len(records),
         "records": [r.model_dump() for r in records],
