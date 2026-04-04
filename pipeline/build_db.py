@@ -92,7 +92,7 @@ def build_observations(
     cleaned_dir: str,
     store: str | None = None,
     force: bool = False,
-) -> None:
+) -> tuple[int, int]:
     """Ingest cleaned flyer envelopes into partitioned Parquet files.
 
     Parameters
@@ -108,6 +108,11 @@ def build_observations(
         When ``True``, overwrite existing Parquet files.  When ``False``
         (default) existing files are skipped.
 
+    Returns
+    -------
+    tuple[int, int]
+        A ``(written, skipped)`` tuple with the total counts across all brands.
+
     Side-effects
     ------------
     *   Creates ``<db_dir>/observations/…/<flyer_id>.parquet`` files.
@@ -116,6 +121,9 @@ def build_observations(
     """
     import pyarrow as pa
     import pyarrow.parquet as pq
+
+    total_written = 0
+    total_skipped = 0
 
     # Determine which store directories to walk
     if store:
@@ -194,6 +202,10 @@ def build_observations(
             written += 1
 
         print(f"{store_chain}: {written} written, {skipped} skipped")
+        total_written += written
+        total_skipped += skipped
+
+    return total_written, total_skipped
 
 
 # ── Dimension tables ──────────────────────────────────────────────────────────
@@ -377,17 +389,39 @@ def _build_parser():
         action="store_true",
         help="Overwrite existing Parquet files.",
     )
+    parser.add_argument(
+        "--data-dir",
+        metavar="PATH",
+        default="data",
+        help="Root directory for raw store/flyer metadata (default: data).",
+    )
+    parser.add_argument(
+        "--dimensions-only",
+        action="store_true",
+        help="Rebuild dimension tables only; skip observations entirely.",
+    )
     return parser
 
 
 def main(argv: list[str] | None = None) -> int:
     args = _build_parser().parse_args(argv)
-    build_observations(
-        db_dir=args.db_dir,
-        cleaned_dir=args.cleaned_dir,
-        store=args.store,
-        force=args.force,
-    )
+    try:
+        written = 0
+        skipped = 0
+        if args.dimensions_only:
+            build_dimensions(db_dir=args.db_dir, data_dir=args.data_dir)
+        else:
+            written, skipped = build_observations(
+                db_dir=args.db_dir,
+                cleaned_dir=args.cleaned_dir,
+                store=args.store,
+                force=args.force,
+            )
+            build_dimensions(db_dir=args.db_dir, data_dir=args.data_dir)
+        print(f"Done. {written} flyers written, {skipped} skipped. Dimensions rebuilt.")
+    except Exception as exc:  # noqa: BLE001
+        print(f"Error: {exc}", file=sys.stderr)
+        return 1
     return 0
 
 
