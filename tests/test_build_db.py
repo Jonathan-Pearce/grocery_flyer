@@ -838,7 +838,6 @@ def test_build_observations_idempotent(tmp_path):
 
 def test_build_observations_force(tmp_path):
     pytest.importorskip("pyarrow")
-    import pyarrow.parquet as pq
 
     cleaned = str(tmp_path / "cleaned")
     db = str(tmp_path / "db")
