@@ -670,7 +670,21 @@ class TestMain:
         main(["--db-dir", db, "--cleaned-dir", cleaned, "--data-dir", data])
         out = capsys.readouterr().out
         assert "Done." in out
+        assert "flyers written" in out
         assert "Dimensions rebuilt." in out
+
+    def test_dimensions_only_summary_line(self, tmp_path, capsys):
+        pytest.importorskip("pyarrow")
+        db = str(tmp_path / "db")
+        cleaned = str(tmp_path / "cleaned")
+        data = str(tmp_path / "data")
+
+        _write_stores_json(data, "loblaws", _FLIPP_STORES)
+        _write_store_flyers_json(data, "loblaws", _FLIPP_STORE_FLYERS)
+
+        main(["--db-dir", db, "--cleaned-dir", cleaned, "--data-dir", data, "--dimensions-only"])
+        out = capsys.readouterr().out
+        assert out.strip() == "Done. Dimensions rebuilt."
 
     def test_idempotent_second_run_zero_written(self, tmp_path, capsys):
         pytest.importorskip("pyarrow")
@@ -719,7 +733,7 @@ class TestMain:
         assert "loblaws" in out
         assert "food_basics" not in out
 
-    def test_returns_one_on_error(self, tmp_path, monkeypatch):
+    def test_returns_one_on_error(self, tmp_path, monkeypatch, capsys):
         pytest.importorskip("pyarrow")
         db = str(tmp_path / "db")
         cleaned = str(tmp_path / "cleaned")
@@ -732,6 +746,8 @@ class TestMain:
 
         rc = main(["--db-dir", db, "--cleaned-dir", cleaned, "--data-dir", data])
         assert rc == 1
+        err = capsys.readouterr().err
+        assert "RuntimeError" in err
 
     def test_help_exits_zero(self):
         import subprocess
