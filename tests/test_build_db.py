@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 import os
+import time
 
 import pytest
 
@@ -760,3 +761,165 @@ class TestMain:
         assert "--dimensions-only" in result.stdout
         assert "--data-dir" in result.stdout
         assert "--store" in result.stdout
+
+
+# ── Required named tests (issue acceptance criteria) ──────────────────────────
+
+_ADONIS_ENVELOPE = {
+    "flyer_id": "83006",
+    "store_chain": "adonis",
+    "generated_at": "2026-04-03T00:00:00+00:00",
+    "record_count": 1,
+    "records": [
+        {
+            "source_api": "metro",
+            "store_chain": "adonis",
+            "store_id": "21937",
+            "flyer_id": "83006",
+            "flyer_valid_from": "2026-04-02",
+            "flyer_valid_to": "2026-04-08",
+            "fetched_on": "2026-04-03",
+            "name_en": "test item",
+            "sale_price": 1.99,
+            "multi_product_variants": [],
+            "raw_categories": None,
+        }
+    ],
+}
+
+
+def test_partition_dir_basic():
+    result = _partition_dir("db", "loblaws", "2026-04-02")
+    assert result == os.path.join(
+        "db", "observations", "store_chain=loblaws", "year=2026", "week=14"
+    )
+
+
+def test_partition_dir_none_date():
+    result = _partition_dir("db", "loblaws", None)
+    assert "store_chain=loblaws" in result
+    assert "year=" in result
+    assert "week=" in result
+
+
+def test_build_observations_creates_files(tmp_path):
+    pytest.importorskip("pyarrow")
+    import pyarrow.parquet as pq
+
+    cleaned = str(tmp_path / "cleaned")
+    db = str(tmp_path / "db")
+    _write_json(os.path.join(cleaned, "adonis", "83006.json"), _ADONIS_ENVELOPE)
+
+    written, skipped = build_observations(db_dir=db, cleaned_dir=cleaned)
+    assert written == 1
+    assert skipped == 0
+
+    part_dir = _partition_dir(db, "adonis", "2026-04-02")
+    out_path = os.path.join(part_dir, "83006.parquet")
+    assert os.path.exists(out_path)
+    table = pq.ParquetFile(out_path).read()
+    assert table.num_rows == 1
+
+
+def test_build_observations_idempotent(tmp_path):
+    pytest.importorskip("pyarrow")
+
+    cleaned = str(tmp_path / "cleaned")
+    db = str(tmp_path / "db")
+    _write_json(os.path.join(cleaned, "adonis", "83006.json"), _ADONIS_ENVELOPE)
+
+    written1, _ = build_observations(db_dir=db, cleaned_dir=cleaned)
+    assert written1 == 1
+
+    written2, skipped2 = build_observations(db_dir=db, cleaned_dir=cleaned)
+    assert written2 == 0
+    assert skipped2 == 1
+
+
+def test_build_observations_force(tmp_path):
+    pytest.importorskip("pyarrow")
+
+    cleaned = str(tmp_path / "cleaned")
+    db = str(tmp_path / "db")
+    _write_json(os.path.join(cleaned, "adonis", "83006.json"), _ADONIS_ENVELOPE)
+
+    build_observations(db_dir=db, cleaned_dir=cleaned)
+
+    part_dir = _partition_dir(db, "adonis", "2026-04-02")
+    out_path = os.path.join(part_dir, "83006.parquet")
+    mtime_before = os.path.getmtime(out_path)
+
+    time.sleep(0.05)
+
+    written, skipped = build_observations(db_dir=db, cleaned_dir=cleaned, force=True)
+    assert written == 1
+    assert skipped == 0
+    assert os.path.getmtime(out_path) > mtime_before
+
+
+def test_build_observations_store_filter(tmp_path):
+    pytest.importorskip("pyarrow")
+
+    cleaned = str(tmp_path / "cleaned")
+    db = str(tmp_path / "db")
+
+    _write_json(os.path.join(cleaned, "adonis", "83006.json"), _ADONIS_ENVELOPE)
+    _write_json(
+        os.path.join(cleaned, "loblaws", "1001.json"),
+        _make_envelope("1001", "loblaws"),
+    )
+
+    written, skipped = build_observations(db_dir=db, cleaned_dir=cleaned, store="adonis")
+    assert written == 1
+
+    part_dir = _partition_dir(db, "adonis", "2026-04-02")
+    assert os.path.exists(os.path.join(part_dir, "83006.parquet"))
+    # loblaws should not have been processed
+    loblaws_part = _partition_dir(db, "loblaws", "2026-04-02")
+    assert not os.path.exists(os.path.join(loblaws_part, "1001.parquet"))
+
+
+def test_build_dimensions_stores(tmp_path):
+    pytest.importorskip("pyarrow")
+    import pyarrow.parquet as pq
+
+    data = str(tmp_path / "data")
+    db = str(tmp_path / "db")
+    _write_json(
+        os.path.join(data, "adonis", "stores.json"),
+        {"21937": {"store_name": "Adonis MTL", "city": "Montreal", "province": "QC"}},
+    )
+    _write_json(os.path.join(data, "adonis", "store_flyers.json"), {})
+
+    build_dimensions(db_dir=db, data_dir=data)
+
+    stores_path = os.path.join(db, "dimensions", "stores.parquet")
+    assert os.path.exists(stores_path)
+    table = pq.read_table(stores_path)
+    col_names = table.schema.names
+    assert "store_chain" in col_names
+    assert "store_id" in col_names
+    assert "store_name" in col_names
+
+
+def test_build_dimensions_flyers(tmp_path):
+    pytest.importorskip("pyarrow")
+    import pyarrow.parquet as pq
+
+    data = str(tmp_path / "data")
+    db = str(tmp_path / "db")
+    _write_json(os.path.join(data, "adonis", "stores.json"), {})
+    _write_json(
+        os.path.join(data, "adonis", "store_flyers.json"),
+        {"21937": [{"title": "83006", "startDate": "2026-04-02", "endDate": "2026-04-08"}]},
+    )
+
+    build_dimensions(db_dir=db, data_dir=data)
+
+    flyers_path = os.path.join(db, "dimensions", "flyers.parquet")
+    assert os.path.exists(flyers_path)
+    table = pq.read_table(flyers_path)
+    col_names = table.schema.names
+    assert "flyer_id" in col_names
+    assert "store_chain" in col_names
+    assert "store_id" in col_names
