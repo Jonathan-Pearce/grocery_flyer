@@ -182,6 +182,7 @@ def resolve_products(observations_dir: str, out_path: str) -> dict[str, str]:
     # ── Collect all observation rows ──────────────────────────────────────────
 
     all_records: list[dict] = []
+    skipped_files: int = 0
 
     for dirpath, _dirs, filenames in os.walk(observations_dir):
         for fname in sorted(filenames):
@@ -194,8 +195,13 @@ def resolve_products(observations_dir: str, out_path: str) -> dict[str, str]:
                 # name) with same-named columns already inside the file.
                 table = pq.ParquetFile(fpath).read()
                 all_records.extend(table.to_pylist())
-            except Exception:  # noqa: BLE001
+            except Exception as exc:  # noqa: BLE001
+                skipped_files += 1
+                print(f"Warning: skipping {fpath}: {type(exc).__name__}: {exc}")
                 continue
+
+    if skipped_files:
+        print(f"resolve_products: {skipped_files} file(s) skipped due to read errors.")
 
     # ── Assign canonical IDs ──────────────────────────────────────────────────
 
@@ -234,12 +240,14 @@ def resolve_products(observations_dir: str, out_path: str) -> dict[str, str]:
             return None
         return Counter(non_null).most_common(1)[0][0]
 
+    def _bool_field(values: list) -> bool:
+        """Return the most-common boolean among *values*, defaulting to ``False``."""
+        val = _most_common(values)
+        return bool(val) if val is not None else False
+
     rows: list[dict] = []
     for canonical_product_id, recs in groups.items():
         tier = group_tiers[canonical_product_id]
-
-        is_food = _most_common([r.get("is_food") for r in recs])
-        is_human_food = _most_common([r.get("is_human_food") for r in recs])
 
         rows.append(
             {
@@ -249,8 +257,8 @@ def resolve_products(observations_dir: str, out_path: str) -> dict[str, str]:
                 "category_l1": _most_common([r.get("category_l1") for r in recs]),
                 "category_l2": _most_common([r.get("category_l2") for r in recs]),
                 "category_l3": _most_common([r.get("category_l3") for r in recs]),
-                "is_food": bool(is_food) if is_food is not None else False,
-                "is_human_food": bool(is_human_food) if is_human_food is not None else False,
+                "is_food": _bool_field([r.get("is_food") for r in recs]),
+                "is_human_food": _bool_field([r.get("is_human_food") for r in recs]),
                 "weight_value": _most_common([r.get("weight_value") for r in recs]),
                 "weight_unit": _most_common([r.get("weight_unit") for r in recs]),
                 "match_tier": tier,
