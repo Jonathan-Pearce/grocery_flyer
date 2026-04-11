@@ -88,6 +88,23 @@ python -m pipeline.build_db
 Steps 2 and 3 are idempotent — safe to re-run. Step 3 skips any flyer
 already present in `db/` unless `--force` is passed.
 
+### Automated review + merge for weekly data PRs
+
+The repo includes `.github/workflows/auto_review_merge_weekly.yml` to
+auto-approve and enable auto-merge for the scheduled PR branch
+`automation/weekly-flyer-fetch`, but only when all changed files are inside
+`data/**` and `logs/**`.
+
+Required repository setup:
+
+1. Create a bot account (or GitHub App token) and add a repository secret
+   named `AUTOMATION_BOT_TOKEN`.
+2. Ensure that token has permission to submit PR reviews and enable auto-merge.
+3. In branch protection/rulesets for `main`, keep required CI checks enabled and
+   allow auto-merge.
+4. If review requirements are enabled, allow this bot identity to satisfy the
+   approval requirement for this automation path.
+
 ## Querying
 
 No server required. Query across all brands with [DuckDB](https://duckdb.org/):
