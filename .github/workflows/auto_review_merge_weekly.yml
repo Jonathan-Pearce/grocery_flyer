@@ -46,30 +46,18 @@ jobs:
               f => !(f.startsWith('data/') || f.startsWith('logs/'))
             );
 
-            const risky = changed.filter(
-              f =>
-                f.startsWith('.github/workflows/') ||
-                f.startsWith('scripts/') ||
-                f.startsWith('fetchers/') ||
-                f.startsWith('pipeline/') ||
-                f.startsWith('tests/')
-            );
+            if (disallowed.length > 0) {
+              const message = `Auto-merge blocked. Non data/logs changes: ${disallowed.join(', ')}`;
 
-            if (disallowed.length > 0 || risky.length > 0) {
               core.setOutput('eligible', 'false');
-              core.setOutput(
-                'reason',
-                `Blocked. Non data/logs changes: ${disallowed.join(', ') || 'none'}; risky paths: ${risky.join(', ') || 'none'}`
-              );
-              core.setFailed(
-                `Auto-merge blocked. Non data/logs changes: ${disallowed.join(', ') || 'none'}; risky paths: ${risky.join(', ') || 'none'}`
-              );
+              core.setOutput('reason', message);
+              core.setFailed(message);
               return;
             }
 
             if (changed.length === 0) {
               core.setOutput('eligible', 'false');
-              core.setOutput('reason', 'Blocked. No changed files found.');
+              core.setOutput('reason', 'Auto-merge blocked. No changed files found.');
               core.setFailed('Auto-merge blocked because no changed files were detected.');
               return;
             }
