@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
 
 jobs:
   test:
@@ -42,11 +43,15 @@ jobs:
       - name: Fetch all portfolio flyers
         run: python -m scripts.fetch_flyers
 
-      - name: Commit and push results
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/ logs/
-          git diff --cached --quiet \
-            || git commit -m "chore: weekly flyer fetch $(date -u +%Y-%m-%d)"
-          git push
+      - name: Create pull request with fetched results
+        uses: peter-evans/create-pull-request@v7
+        with:
+          add-paths: |
+            data/
+            logs/
+          commit-message: "chore: weekly flyer fetch"
+          branch: "automation/weekly-flyer-fetch"
+          delete-branch: true
+          title: "chore: weekly flyer fetch"
+          body: |
+            Automated weekly flyer data refresh.
