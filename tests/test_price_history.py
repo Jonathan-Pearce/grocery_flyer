@@ -703,7 +703,6 @@ class TestBuildPriceHistory:
 
     def test_rows_missing_flyer_valid_from_are_skipped(self, tmp_path):
         pytest.importorskip("pyarrow")
-        import pyarrow.dataset as ds
 
         row_with_date = _make_obs_row(flyer_valid_from="2026-03-30")
         row_no_date = {**_make_obs_row(), "flyer_valid_from": None, "sku": "B999"}
