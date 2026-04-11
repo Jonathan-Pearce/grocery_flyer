@@ -1,0 +1,15 @@
+=== Independent Grocer Flyer Fetch — 2026-04-11 ===
+Run started : 2026-04-11 21:48:13 UTC
+
+Stores loaded: 205
+New publication entries added to store_flyers.json: 172
+Unique new publications to download: 16
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 16
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-04-11 21:48:39 UTC
+Elapsed      : 0m 25s
+
