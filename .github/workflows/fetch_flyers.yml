@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: '0 13 * * 4'  # Every Thursday at 13:00 UTC (9 AM ET)
   workflow_dispatch:        # Allow manual runs from the Actions tab
+  pull_request:
+    branches: [main]
+    paths:
+      - 'data/**'
+      - 'logs/**'
 
 permissions:
   contents: write
@@ -25,7 +30,8 @@ jobs:
         run: pytest tests/ -v --tb=short
 
   fetch:
-    needs: test   # only runs if test passes
+    if: github.event_name != 'pull_request'
+    needs: test
     runs-on: ubuntu-latest
 
     steps:
@@ -44,6 +50,7 @@ jobs:
         run: python -m scripts.fetch_flyers
 
       - name: Create pull request with fetched results
+        id: cpr
         uses: peter-evans/create-pull-request@v7
         with:
           add-paths: |
@@ -53,5 +60,10 @@ jobs:
           branch: "automation/weekly-flyer-fetch"
           delete-branch: true
           title: "chore: weekly flyer fetch (run ${{ github.run_number }})"
-          body: |
-            Automated weekly flyer data refresh.
+          body: Automated weekly flyer data refresh.
+
+      - name: Enable auto-merge
+        if: steps.cpr.outputs.pull-request-operation == 'created' || steps.cpr.outputs.pull-request-operation == 'updated'
+        run: gh pr merge --auto --squash "${{ steps.cpr.outputs.pull-request-number }}"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
