@@ -17,9 +17,11 @@ jobs:
         with:
           python-version: '3.12'
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: |
+          pip install -r requirements.txt
+          pip install -r requirements-dev.txt
       - name: Run tests
-        run: python -m pytest  # or whatever your test command is
+        run: pytest tests/ -v --tb=short
 
   fetch:
     needs: test   # only runs if test passes
