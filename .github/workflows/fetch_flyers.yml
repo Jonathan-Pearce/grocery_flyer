@@ -49,9 +49,9 @@ jobs:
           add-paths: |
             data/
             logs/
-          commit-message: "chore: weekly flyer fetch"
+          commit-message: "chore: weekly flyer fetch (run ${{ github.run_number }})"
           branch: "automation/weekly-flyer-fetch"
           delete-branch: true
-          title: "chore: weekly flyer fetch"
+          title: "chore: weekly flyer fetch (run ${{ github.run_number }})"
           body: |
             Automated weekly flyer data refresh.
