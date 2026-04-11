@@ -1,0 +1,221 @@
+# config/scoring.yaml — Deal scoring engine configuration.
+#
+# All thresholds and point values for pipeline/deal_scorer.py are defined here.
+# No magic numbers belong in the code itself.
+
+# ── Component 1: Discount Depth (0–25 pts) ────────────────────────────────────
+discount_depth:
+  max_pts: 25
+  cold_start_pts: 8          # neutral value when no regular price is available
+
+  # pct_off breakpoints (percent saved = (regular - sale) / regular * 100)
+  # Points awarded for the bracket the deal falls in (highest matching wins)
+  pct_off_brackets:
+    - {min_pct: 40, pts: 25}
+    - {min_pct: 30, pts: 20}
+    - {min_pct: 20, pts: 14}
+    - {min_pct: 10, pts: 8}
+    - {min_pct: 5,  pts: 4}
+    - {min_pct: 0,  pts: 0}
+
+  # Additional pts stacked on top of pct bracket for dollar savings
+  dollar_saved_bonus:
+    - {min_saved: 10.0, bonus: 5}
+    - {min_saved: 5.0,  bonus: 3}
+    - {min_saved: 2.0,  bonus: 1}
+    - {min_saved: 0.0,  bonus: 0}
+
+# ── Component 2: Deal Rarity (0–20 pts) ──────────────────────────────────────
+deal_rarity:
+  max_pts: 20
+  cold_start_pts: 10         # neutral value when no sale frequency data
+
+  # Points based on how often this item goes on sale (lower freq = rarer deal)
+  # sale_freq_chain = fraction of observed weeks where item was on promo
+  freq_brackets:
+    - {max_freq: 0.10, pts: 20}
+    - {max_freq: 0.25, pts: 15}
+    - {max_freq: 0.40, pts: 10}
+    - {max_freq: 0.60, pts: 5}
+    - {max_freq: 1.01, pts: 2}
+
+  # Cross-chain exclusive bonus: no other active chain has this deal this week
+  cross_chain_exclusive_bonus: 3
+
+# ── Component 3: Item Essentiality (0–20 pts) ─────────────────────────────────
+essentiality:
+  max_pts: 20
+
+  # category_l1 → tier (1=highest essentiality)
+  category_tier_map:
+    "Produce":                 1
+    "Dairy & Eggs":            1
+    "Meat & Seafood":          1
+    "Bakery":                  2
+    "Pantry":                  2
+    "Frozen":                  2
+    "Beverages":               3
+    "Deli & Prepared Foods":   3
+    "Snacks & Confectionery":  3
+    "Health & Beauty":         4
+    "Household":               4
+    "Pet":                     4
+    "Baby & Infant":           3
+    "Apparel & General Merchandise": 5
+    "Other":                   5
+
+  # Points per tier
+  tier_pts:
+    1: 20
+    2: 14
+    3: 8
+    4: 4
+    5: 0
+
+  # Keywords in name_en/name_fr that override to tier 1 (staple items)
+  staple_keywords:
+    - milk
+    - bread
+    - egg
+    - eggs
+    - butter
+    - flour
+    - sugar
+    - rice
+    - pasta
+    - chicken
+    - beef
+    - pork
+    - apple
+    - banana
+    - onion
+    - potato
+    - tomato
+    - lait
+    - pain
+    - oeuf
+    - oeufs
+    - beurre
+    - farine
+    - sucre
+    - riz
+    - poulet
+    - boeuf
+    - pomme
+    - banane
+    - oignon
+    - patate
+
+# ── Component 4: Price Cycle Position (0–15 pts) ──────────────────────────────
+cycle_position:
+  max_pts: 15
+  cold_start_pts: 7          # neutral value when no 52-week cycle data
+
+  # price_percentile = (sale_price - cycle_low_52w) / (cycle_high_52w - cycle_low_52w)
+  # Lower percentile = price closer to yearly low = better deal
+  percentile_brackets:
+    - {max_percentile: 0.10, pts: 15}
+    - {max_percentile: 0.25, pts: 12}
+    - {max_percentile: 0.40, pts: 9}
+    - {max_percentile: 0.60, pts: 6}
+    - {max_percentile: 0.80, pts: 3}
+    - {max_percentile: 1.01, pts: 0}
+
+# ── Component 5: Deal Authenticity (0–15 pts) ─────────────────────────────────
+authenticity:
+  max_pts: 15
+
+  # Regular price inflation check (0–8 pts)
+  # inflation_ratio = regular_price_estimated / sale_price
+  inflation_brackets:
+    - {min_ratio: 1.20, pts: 8}   # 20 %+ inflation → fully credible
+    - {min_ratio: 1.10, pts: 6}
+    - {min_ratio: 1.05, pts: 4}
+    - {min_ratio: 1.01, pts: 2}
+    - {min_ratio: 0.00, pts: 0}   # regular ≤ sale → suspicious
+
+  # Promo type quality scores
+  promo_type_pts:
+    bogo: 5
+    percentage_off: 5
+    multi_buy: 3
+    dollar_off: 3
+    clearance: 4
+    rollback: 2
+    loyalty_points: 1
+    member_price: 1
+    no_promo: 0
+
+  # Purchase-limit penalty (purchase_limit == 1 means you can only buy one)
+  purchase_limit_1_penalty: -2
+
+  # Deal freshness (week of flyer run, counted from flyer_valid_from)
+  freshness_week1_bonus: 2        # week 1 of the flyer run
+  freshness_week2_pts: 0          # week 2 — neutral
+  freshness_week3plus_penalty: -2 # week 3+ — stale
+
+# ── Component 6: Loyalty & Stacking Bonus (0–5 pts) ──────────────────────────
+loyalty_bonus:
+  max_pts: 5
+
+  # Loyalty points CAD-value → pts (loyalty_points * cad_per_point)
+  loyalty_programs:
+    "PC Optimum":
+      cad_per_point: 0.0001   # 10 000 pts = $1
+    "Scene+":
+      cad_per_point: 0.001    # 1 000 pts = $1
+
+  loyalty_value_brackets:
+    - {min_cad: 2.00, pts: 3}
+    - {min_cad: 0.50, pts: 1}
+    - {min_cad: 0.00, pts: 0}
+
+  # Additional pts when member_price < sale_price (stacking benefit)
+  member_price_stack_bonus: 2
+
+# ── Confidence sub-signals ────────────────────────────────────────────────────
+confidence:
+  # Weights must sum to 1.0
+  weights:
+    history_depth_conf:      0.35
+    price_basis_conf:        0.30
+    match_tier_conf:         0.20
+    chain_coverage_conf:     0.10
+    category_coverage_conf:  0.05
+
+  # history_depth_conf breakpoints (weeks_observed)
+  history_depth_brackets:
+    - {min_weeks: 26, conf: 1.0}
+    - {min_weeks: 12, conf: 0.8}
+    - {min_weeks: 4,  conf: 0.5}
+    - {min_weeks: 1,  conf: 0.3}
+    - {min_weeks: 0,  conf: 0.0}
+
+  # match_tier → conf
+  match_tier_conf:
+    strict:   1.0
+    probable: 0.6
+    category: 0.2
+
+  # chain_coverage_conf (chain_count)
+  chain_coverage_brackets:
+    - {min_chains: 5, conf: 1.0}
+    - {min_chains: 3, conf: 0.8}
+    - {min_chains: 2, conf: 0.6}
+    - {min_chains: 1, conf: 0.4}
+    - {min_chains: 0, conf: 0.0}
+
+  # category_coverage_conf (category_sibling_count)
+  category_coverage_brackets:
+    - {min_siblings: 50, conf: 1.0}
+    - {min_siblings: 20, conf: 0.8}
+    - {min_siblings: 5,  conf: 0.5}
+    - {min_siblings: 1,  conf: 0.2}
+    - {min_siblings: 0,  conf: 0.0}
+
+  # Labels
+  label_high_threshold:   0.75
+  label_medium_threshold: 0.45
+  label_high:   "High"
+  label_medium: "Medium"
+  label_low:    "Low"
