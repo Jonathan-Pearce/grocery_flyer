@@ -41,6 +41,29 @@ def cfg():
     return _load_config(CONFIG_PATH)
 
 
+@pytest.fixture
+def make_cfg():
+    """Factory that builds a scoring config from a raw YAML string.
+
+    Useful for tests that need to override specific thresholds without
+    touching ``config/scoring.yaml``.
+
+    Usage::
+
+        def test_something(make_cfg):
+            cfg = make_cfg(\"\"\"
+            discount_depth:
+              max_pts: 10
+              ...
+            \"\"\")
+    """
+
+    def _make(yaml_str: str) -> dict:
+        return yaml.safe_load(yaml_str)
+
+    return _make
+
+
 # ── _parse_date ───────────────────────────────────────────────────────────────
 
 
@@ -147,6 +170,17 @@ class TestScoreDiscountDepth:
         score = _score_discount_depth(999.0, 1.0, None, None, cfg)
         assert score >= 0
 
+    def test_50pct_off_with_dollar_bonus_capped(self, cfg):
+        # 50% off a $12 item: pct bracket (>=40%) → 25 pts, $6 saved → 3 pts bonus
+        # 25 + 3 = 28, capped at max_pts (25)
+        score = _score_discount_depth(6.0, 12.0, None, None, cfg)
+        assert score == cfg["discount_depth"]["max_pts"]
+
+    def test_cold_start_exact_pts(self, cfg):
+        # No sale price or regular price → exact cold-start value from config
+        score = _score_discount_depth(None, None, None, None, cfg)
+        assert score == cfg["discount_depth"]["cold_start_pts"]
+
 
 # ── Component 2: Deal Rarity ──────────────────────────────────────────────────
 
@@ -178,6 +212,23 @@ class TestScoreDealRarity:
         score = _score_deal_rarity(0.01, True, cfg)
         assert score <= cfg["deal_rarity"]["max_pts"]
 
+    def test_freq_005_gives_exactly_20pts(self, cfg):
+        # 0.05 < 0.10 threshold → 20 pts (highest rarity bracket)
+        score = _score_deal_rarity(0.05, False, cfg)
+        assert score == 20
+
+    def test_freq_080_exact_pts(self, cfg):
+        # 0.80 falls in the last bracket (max_freq=1.01 → 2 pts)
+        score = _score_deal_rarity(0.80, False, cfg)
+        assert score == cfg["deal_rarity"]["freq_brackets"][-1]["pts"]
+
+    def test_exclusive_bonus_already_at_max_stays_capped(self, cfg):
+        # freq=0.05 already gives 20 pts; +3 exclusive bonus is capped at max_pts (20)
+        score_base = _score_deal_rarity(0.05, False, cfg)
+        score_excl = _score_deal_rarity(0.05, True, cfg)
+        assert score_base == cfg["deal_rarity"]["max_pts"]
+        assert score_excl == cfg["deal_rarity"]["max_pts"]
+
 
 # ── Component 3: Item Essentiality ────────────────────────────────────────────
 
@@ -208,6 +259,16 @@ class TestScoreEssentiality:
         score = _score_essentiality(None, None, None, cfg)
         assert score >= 0
 
+    def test_flour_keyword_gives_max(self, cfg):
+        # "flour" is a staple keyword → overrides to tier 1 regardless of category
+        score = _score_essentiality("Other", "All-Purpose Flour 2kg", None, cfg)
+        assert score == cfg["essentiality"]["max_pts"]
+
+    def test_produce_tier1_exact_pts(self, cfg):
+        # "Produce" is tier 1 → tier_pts[1]
+        score = _score_essentiality("Produce", None, None, cfg)
+        assert score == cfg["essentiality"]["tier_pts"][1]
+
 
 # ── Component 4: Price Cycle Position ─────────────────────────────────────────
 
@@ -236,6 +297,12 @@ class TestScoreCyclePosition:
         # price at midpoint → percentile = 0.5 → mid-range score
         score = _score_cycle_position(3.5, 2.0, 5.0, cfg)
         assert 0 <= score <= cfg["cycle_position"]["max_pts"]
+
+    def test_75th_percentile_gives_3pts(self, cfg):
+        # percentile = (8.0 - 2.0) / (10.0 - 2.0) = 6/8 = 0.75
+        # 0.75 < 0.80 threshold → 3 pts
+        score = _score_cycle_position(8.0, 2.0, 10.0, cfg)
+        assert score == 3
 
 
 # ── Component 5: Deal Authenticity ────────────────────────────────────────────
@@ -330,6 +397,30 @@ class TestScoreAuthenticity:
         )
         assert score <= cfg["authenticity"]["max_pts"]
 
+    def test_inflation_below_sale_gives_0_inflation_pts(self, cfg):
+        # estimated = 2.5, sale = 5.0 → ratio 0.5 → "regular ≤ sale" bracket → 0 inflation pts
+        # Also: no promo, no limit, no freshness date → total = 0
+        score = _score_authenticity(5.0, 2.5, "no_promo", None, None, self.TODAY, cfg)
+        assert score == 0
+
+    def test_bogo_promo_type_isolated_5pts(self, cfg):
+        # No regular price (→ 0 inflation pts), bogo promo, no limit, no freshness date
+        score = _score_authenticity(5.0, None, "bogo", None, None, self.TODAY, cfg)
+        assert score == cfg["authenticity"]["promo_type_pts"]["bogo"]
+
+    def test_no_promo_isolated_gives_0pts(self, cfg):
+        # No regular price, no_promo, no limit, no freshness date → total = 0
+        score = _score_authenticity(5.0, None, "no_promo", None, None, self.TODAY, cfg)
+        assert score == 0
+
+    def test_purchase_limit_1_exact_penalty(self, cfg):
+        # Without limit: inflation (8pts) + percentage_off (5pts) = 13 pts
+        # With limit=1: 13 + (-2) = 11 pts  →  difference must equal abs(penalty)
+        penalty = cfg["authenticity"]["purchase_limit_1_penalty"]
+        score_no_limit = _score_authenticity(3.0, 5.0, "percentage_off", None, None, self.TODAY, cfg)
+        score_with_limit = _score_authenticity(3.0, 5.0, "percentage_off", 1, None, self.TODAY, cfg)
+        assert score_no_limit - score_with_limit == abs(penalty)
+
 
 # ── Component 6: Loyalty & Stacking ──────────────────────────────────────────
 
@@ -352,6 +443,13 @@ class TestScoreLoyaltyBonus:
     def test_score_capped_at_max(self, cfg):
         score = _score_loyalty_bonus("PC Optimum", 100000, 5.0, 3.0, cfg)
         assert score <= cfg["loyalty_bonus"]["max_pts"]
+
+    def test_250_loyalty_value_plus_member_gives_max(self, cfg):
+        # PC Optimum 25 000 pts × $0.0001 = $2.50 → bracket min_cad=2.00 → 3 pts
+        # member_price (4.0) < sale_price (5.0) → stacking bonus 2 pts
+        # 3 + 2 = 5 = max_pts
+        score = _score_loyalty_bonus("PC Optimum", 25000, 5.0, 4.0, cfg)
+        assert score == cfg["loyalty_bonus"]["max_pts"]
 
 
 # ── Confidence ────────────────────────────────────────────────────────────────
@@ -382,6 +480,64 @@ class TestCalcConfidence:
     def test_confidence_label_low(self, cfg):
         label = _confidence_label(0.30, cfg)
         assert label == cfg["confidence"]["label_low"]
+
+
+# ── Confidence sub-signals in isolation ──────────────────────────────────────
+
+
+class TestConfidenceSubSignals:
+    """Isolate each confidence sub-signal returned by _calc_confidence."""
+
+    def test_history_depth_0_weeks_gives_0_0(self, cfg):
+        # 0 weeks observed → lowest bracket → history_depth_conf = 0.0
+        _, h_d, *_ = _calc_confidence(0, 0.0, "category", 0, 0, cfg)
+        assert h_d == 0.0
+
+    def test_history_depth_30_weeks_gives_1_0(self, cfg):
+        # 30 >= 26 → top bracket → history_depth_conf = 1.0
+        _, h_d, *_ = _calc_confidence(30, 0.0, "category", 0, 0, cfg)
+        assert h_d == 1.0
+
+    def test_match_tier_strict_gives_1_0(self, cfg):
+        _, _, _, mt, *_ = _calc_confidence(0, 0.0, "strict", 0, 0, cfg)
+        assert mt == cfg["confidence"]["match_tier_conf"]["strict"]
+        assert mt == 1.0
+
+    def test_match_tier_probable_gives_0_6(self, cfg):
+        _, _, _, mt, *_ = _calc_confidence(0, 0.0, "probable", 0, 0, cfg)
+        assert mt == cfg["confidence"]["match_tier_conf"]["probable"]
+        assert mt == 0.6
+
+    def test_match_tier_category_gives_0_2(self, cfg):
+        _, _, _, mt, *_ = _calc_confidence(0, 0.0, "category", 0, 0, cfg)
+        assert mt == cfg["confidence"]["match_tier_conf"]["category"]
+        assert mt == 0.2
+
+    def test_weighted_aggregation_formula(self, cfg):
+        """The returned confidence must equal the weighted sum of sub-signals."""
+        # Choose inputs that hit predictable brackets:
+        #   12 weeks → history_depth_conf = 0.8
+        #   price_basis_conf = 0.5 (passed through directly)
+        #   "probable" → match_tier_conf = 0.6
+        #   1 chain → chain_coverage_conf = 0.4
+        #   1 sibling → category_coverage_conf = 0.2
+        conf, h_d, p_b, mt, cc, cat = _calc_confidence(12, 0.5, "probable", 1, 1, cfg)
+
+        weights = cfg["confidence"]["weights"]
+        expected = (
+            weights["history_depth_conf"] * h_d
+            + weights["price_basis_conf"] * p_b
+            + weights["match_tier_conf"] * mt
+            + weights["chain_coverage_conf"] * cc
+            + weights["category_coverage_conf"] * cat
+        )
+        assert abs(conf - expected) < 1e-9
+
+    def test_confidence_bounds_always_0_to_1(self, cfg):
+        # Extreme inputs must still produce a value in [0.0, 1.0]
+        for weeks in (0, 1, 4, 12, 26, 52, 200):
+            conf, *_ = _calc_confidence(weeks, 1.0, "strict", 10, 200, cfg)
+            assert 0.0 <= conf <= 1.0
 
 
 # ── Integration: score_deals ──────────────────────────────────────────────────
@@ -608,3 +764,75 @@ class TestScoreDeals:
         assert row["score_cycle_position"] == 7
         # deal_rarity should be cold_start_pts (10), not 0
         assert row["score_deal_rarity"] == 10
+
+    def test_low_confidence_high_score(self, tmp_path):
+        """Brand-new product with a large discount → deal_score > 70, confidence_label == 'Low'.
+
+        Price-history row has weeks_observed=0 and price_basis_conf=0.0, so history
+        and price-basis sub-signals contribute 0.  The only positive sub-signal is
+        match_tier_conf (strict=1.0 weighted at 0.20), giving a final confidence of
+        0.20 which falls below the 'Low' threshold → confidence_label == 'Low'.
+
+        The large discount (80 % off) + Produce category + bogo + week-1 freshness
+        push deal_score to ~77, well above 70.
+        """
+        import pyarrow as pa
+        import pyarrow.parquet as pq
+        from pipeline.product_resolver import _canonical_id
+
+        obs_dir = str(tmp_path / "observations")
+        ph_path = str(tmp_path / "ph" / "price_history.parquet")
+
+        store_chain = "loblaws"
+        sku = "NEWSKU001"
+
+        obs = _make_obs(
+            store_chain=store_chain,
+            sku=sku,
+            sale_price=2.0,
+            regular_price=None,
+            category_l1="Produce",
+            promo_type="bogo",
+            flyer_valid_from=self.TODAY.isoformat(),
+            flyer_valid_to=(self.TODAY + datetime.timedelta(days=6)).isoformat(),
+        )
+        _write_obs_parquet(os.path.join(obs_dir, "obs.parquet"), [obs])
+
+        # Build a price-history row that gives a high estimated regular price
+        # but signals zero history depth (brand new → low confidence)
+        cid = _canonical_id("strict", store_chain, sku)
+        ph_row = {
+            "canonical_product_id": cid,
+            "store_chain": store_chain,
+            "regular_price_estimated": 10.0,
+            "regular_price_source": "observed",
+            "price_basis_conf": 0.0,
+            "weeks_observed": 0,
+            "sale_freq_chain": None,
+            "cycle_low_52w": None,
+            "cycle_high_52w": None,
+            "chain_count": 0,
+            "category_sibling_count": 0,
+            "week_start": "2026-04-07",
+        }
+        os.makedirs(os.path.dirname(os.path.abspath(ph_path)), exist_ok=True)
+        pq.write_table(pa.Table.from_pylist([ph_row]), ph_path)
+
+        out_dir = str(tmp_path / "scores")
+        score_deals(
+            observations_dir=obs_dir,
+            price_history_path=ph_path,
+            config_path=CONFIG_PATH,
+            out_dir=out_dir,
+            today=self.TODAY,
+        )
+
+        row = pq.read_table(os.path.join(out_dir, "active_scores.parquet")).to_pylist()[0]
+
+        assert row["deal_score"] > 70, f"Expected deal_score > 70, got {row['deal_score']}"
+        assert row["confidence_label"] == "Low", (
+            f"Expected confidence_label='Low', got {row['confidence_label']!r}"
+        )
+        # Bounds always hold
+        assert 0 <= row["deal_score"] <= 100
+        assert 0.0 <= row["confidence"] <= 1.0
