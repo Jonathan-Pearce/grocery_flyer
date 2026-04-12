@@ -3,6 +3,98 @@
 # All thresholds and point values for pipeline/deal_scorer.py are defined here.
 # No magic numbers belong in the code itself.
 
+# ── Score weights (must sum to 100) ──────────────────────────────────────────
+score_weights:
+  discount_depth:  25
+  deal_rarity:     20
+  essentiality:    20
+  cycle_position:  15
+  authenticity:    15
+  loyalty_bonus:    5
+
+# ── Discount depth: pct-off breakpoints → base pts ────────────────────────────
+# Highest matching threshold wins.
+discount_depth_thresholds:
+  - {min_pct: 50, pts: 18}
+  - {min_pct: 30, pts: 13}
+  - {min_pct: 20, pts:  8}
+  - {min_pct: 10, pts:  4}
+  - {min_pct:  0, pts:  1}
+
+# ── Absolute dollar-saved breakpoints → bonus pts (stacked on pct-off score) ──
+absolute_dollar_thresholds:
+  - {min_saved: 5.00, bonus: 7}
+  - {min_saved: 2.00, bonus: 4}
+  - {min_saved: 1.00, bonus: 2}
+  - {min_saved: 0.00, bonus: 0}
+
+# ── Essentiality tiers: category_l1 / category_l3 → pts (0–20) ───────────────
+essentiality_tiers:
+  # Tier pts (keyword-matched core staples award 20 pts via staple_keywords list)
+  "Produce":                   17
+  "Meat & Seafood":            17
+  "Pantry":                    14
+  "Dairy & Eggs":              12
+  "Frozen":                    10
+  "Beverages":                  8
+  "Bakery":                     7
+  "Deli & Prepared Foods":      7
+  "Household":                  5
+  "Health & Beauty":            5
+  "Snacks & Confectionery":     4
+  "Baby & Infant":              4
+  "Pet":                        3
+  "Apparel & General Merchandise": 1
+  "Other":                      1
+
+# ── Staple keywords — override category and award 20 pts ─────────────────────
+staple_keywords:
+  - flour
+  - eggs
+  - butter
+  - sugar
+  - rice
+  - milk
+  - oil
+  - pasta
+  - bread
+
+# ── Confidence sub-signal weights (must sum to 1.0) ───────────────────────────
+confidence_weights:
+  history_depth:     0.35
+  price_basis:       0.30
+  match_tier:        0.20
+  chain_coverage:    0.10
+  category_coverage: 0.05
+
+# ── Confidence thresholds: breakpoints per sub-signal ────────────────────────
+confidence_thresholds:
+  history_depth:
+    - {min_weeks: 26, value: 1.0}
+    - {min_weeks: 12, value: 0.7}
+    - {min_weeks:  4, value: 0.4}
+    - {min_weeks:  1, value: 0.2}
+    - {min_weeks:  0, value: 0.0}
+  chain_coverage:
+    - {min_chains: 4, value: 1.0}
+    - {min_chains: 2, value: 0.7}
+    - {min_chains: 1, value: 0.4}
+  category_coverage:
+    - {min_siblings: 100, value: 1.0}
+    - {min_siblings:  20, value: 0.7}
+    - {min_siblings:   5, value: 0.4}
+    - {min_siblings:   0, value: 0.1}
+  confidence_label:
+    high:   0.75
+    medium: 0.45
+
+# ── Cold-start neutrals: mid-range pts when a component cannot be computed ────
+cold_start_neutrals:
+  discount_depth:  8
+  deal_rarity:    10
+  cycle_position:  7
+
+
 # ── Component 1: Discount Depth (0–25 pts) ────────────────────────────────────
 discount_depth:
   max_pts: 25
