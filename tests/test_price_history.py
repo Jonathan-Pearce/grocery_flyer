@@ -778,6 +778,124 @@ class TestBuildPriceHistory:
                         "out-of-window data"
                     )
 
+    def test_sale_freq_chain_one_when_always_on_sale(self, tmp_path):
+        pytest.importorskip("pyarrow")
+        import pyarrow.dataset as ds
+
+        # Every observed week has a sale (promo_type != "no_promo")
+        obs_rows = [
+            _make_obs_row(promo_type="percentage_off", flyer_valid_from="2026-01-06"),
+            _make_obs_row(promo_type="percentage_off", flyer_valid_from="2026-01-13"),
+            _make_obs_row(promo_type="percentage_off", flyer_valid_from="2026-01-20"),
+        ]
+        obs_dir = str(
+            tmp_path / "observations" / "store_chain=loblaws" / "year=2026" / "week=14"
+        )
+        _write_parquet(os.path.join(obs_dir, "9999.parquet"), obs_rows)
+        out_path = str(tmp_path / "price_history.parquet")
+
+        build_price_history(
+            str(tmp_path / "observations"),
+            str(tmp_path / "products.parquet"),
+            out_path,
+        )
+
+        dataset = ds.dataset(out_path, format="parquet", partitioning="hive")
+        rows = dataset.to_table().to_pylist()
+        for row in rows:
+            freq = row["sale_freq_chain"]
+            assert 0.0 <= freq <= 1.0, f"sale_freq_chain={freq} out of [0, 1]"
+            assert freq == 1.0, f"expected 1.0 when every week is on sale, got {freq}"
+
+    def test_regular_price_category_median_via_build(self, tmp_path):
+        pytest.importorskip("pyarrow")
+        import pyarrow.dataset as ds
+        from pipeline.product_resolver import _resolve_record
+
+        # Product A: only promotional observations at loblaws — no own-chain
+        # no_promo records, no cross-chain data.
+        # Product B: no_promo observation at loblaws in the same category_l3.
+        # With both products mapped to category_l3="Dairy" in products.parquet,
+        # Product A's regular price should fall through to Priority 5 and use
+        # the category median derived from Product B's sale_price.
+        row_a = _make_obs_row(
+            sku="PROD_A_001",
+            name_en="Yogurt Strawberry",
+            promo_type="percentage_off",
+            sale_price=1.99,
+            flyer_valid_from="2026-03-30",
+        )
+        row_b = _make_obs_row(
+            sku="PROD_B_001",
+            name_en="Yogurt Plain",
+            promo_type="no_promo",
+            sale_price=3.49,
+            flyer_valid_from="2026-03-30",
+        )
+
+        cid_a, _, _ = _resolve_record(row_a)
+        cid_b, _, _ = _resolve_record(row_b)
+
+        obs_dir = str(
+            tmp_path / "observations" / "store_chain=loblaws" / "year=2026" / "week=14"
+        )
+        _write_parquet(os.path.join(obs_dir, "9999.parquet"), [row_a, row_b])
+
+        products_path = str(tmp_path / "products.parquet")
+        _write_products(
+            products_path,
+            [
+                {
+                    "canonical_product_id": cid_a,
+                    "canonical_name": "Yogurt Strawberry",
+                    "canonical_brand": None,
+                    "category_l1": "Food",
+                    "category_l2": "Dairy",
+                    "category_l3": "Dairy",
+                    "is_food": True,
+                    "is_human_food": True,
+                    "weight_value": None,
+                    "weight_unit": None,
+                    "match_tier": "strict",
+                    "observation_count": 1,
+                },
+                {
+                    "canonical_product_id": cid_b,
+                    "canonical_name": "Yogurt Plain",
+                    "canonical_brand": None,
+                    "category_l1": "Food",
+                    "category_l2": "Dairy",
+                    "category_l3": "Dairy",
+                    "is_food": True,
+                    "is_human_food": True,
+                    "weight_value": None,
+                    "weight_unit": None,
+                    "match_tier": "strict",
+                    "observation_count": 1,
+                },
+            ],
+        )
+
+        out_path = str(tmp_path / "price_history.parquet")
+        build_price_history(
+            str(tmp_path / "observations"),
+            products_path,
+            out_path,
+        )
+
+        dataset = ds.dataset(out_path, format="parquet", partitioning="hive")
+        rows = dataset.to_table().to_pylist()
+
+        # Find the row for product A
+        row_for_a = next(r for r in rows if r["canonical_product_id"] == cid_a)
+        assert row_for_a["regular_price_source"] == "category_median", (
+            f"expected 'category_median', got '{row_for_a['regular_price_source']}'"
+        )
+        assert row_for_a["price_basis_conf"] == 0.2
+        # The median of [1.99, 3.49] = 2.74 (product A's own sale_price is also
+        # accumulated as a sibling since it shares category_l3)
+        assert row_for_a["regular_price_estimated"] is not None
+
     def test_output_schema_columns(self, tmp_path):
         pytest.importorskip("pyarrow")
         import pyarrow.dataset as ds
