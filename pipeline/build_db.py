@@ -4,7 +4,7 @@ Observations ingestion — writes cleaned flyer envelopes to partitioned Parquet
 Usage::
 
     python -m pipeline.build_db [--db-dir <path>] [--cleaned-dir <path>]
-                                 [--store <name>] [--force]
+                                 [--store <name>] [--force] [--score]
 
 Options
 -------
@@ -16,6 +16,9 @@ Options
     Restrict processing to a single store folder (e.g. ``loblaws``).
 --force
     Overwrite existing Parquet files even if they already exist.
+--score
+    Run product resolution, price history, and deal scoring after
+    observations and dimensions have been built.
 
 Output layout
 -------------
@@ -356,6 +359,96 @@ def build_dimensions(db_dir: str, data_dir: str) -> None:
     pq.write_table(flyers_table, os.path.join(dim_dir, "flyers.parquet"))
 
 
+# ── Scoring pipeline steps ────────────────────────────────────────────────────
+
+
+def build_products(db_dir: str, observations_dir: str) -> None:
+    """Phase A — resolve canonical product IDs, write products.parquet.
+
+    Parameters
+    ----------
+    db_dir:
+        Root directory for the Parquet database output.
+    observations_dir:
+        Root of the observations Parquet tree,
+        e.g. ``"<db_dir>/observations"``.
+
+    Side-effects
+    ------------
+    *   Writes ``<db_dir>/dimensions/products.parquet`` — always overwritten.
+    """
+    from pipeline.product_resolver import resolve_products
+
+    out_path = os.path.join(db_dir, "dimensions", "products.parquet")
+    mapping = resolve_products(observations_dir=observations_dir, out_path=out_path)
+    print(f"Products resolved. {len(mapping)} observation keys mapped. Written to {out_path}")
+
+
+def build_price_history(db_dir: str) -> None:
+    """Phase B — compute price history features, write price_history.parquet.
+
+    Parameters
+    ----------
+    db_dir:
+        Root directory for the Parquet database output.
+
+    Side-effects
+    ------------
+    *   Writes (or overwrites) ``<db_dir>/features/price_history.parquet``.
+    """
+    from pipeline.price_history import build_price_history as _build_price_history
+
+    observations_dir = os.path.join(db_dir, "observations")
+    products_path = os.path.join(db_dir, "dimensions", "products.parquet")
+    out_path = os.path.join(db_dir, "features", "price_history.parquet")
+    n = _build_price_history(
+        observations_dir=observations_dir,
+        products_path=products_path,
+        out_path=out_path,
+    )
+    print(f"Price history built. {n} feature rows written to {out_path}")
+
+
+def build_scores(db_dir: str, today: str | None = None) -> None:
+    """Phase C — score active deals, write active/archived_scores.parquet.
+
+    Parameters
+    ----------
+    db_dir:
+        Root directory for the Parquet database output.
+    today:
+        Reference date as an ISO 8601 string (``"YYYY-MM-DD"``) for
+        "active" deal filtering.  Defaults to today's UTC date when
+        ``None``.
+
+    Side-effects
+    ------------
+    *   Writes ``<db_dir>/scores/active_scores.parquet`` — overwritten each run.
+    *   Appends to ``<db_dir>/scores/archived_scores.parquet``.
+    """
+    import datetime as _dt
+
+    from pipeline.deal_scorer import score_deals
+
+    observations_dir = os.path.join(db_dir, "observations")
+    price_history_path = os.path.join(db_dir, "features", "price_history.parquet")
+    config_path = os.path.join("config", "scoring.yaml")
+    out_dir = os.path.join(db_dir, "scores")
+
+    today_date: _dt.date | None = None
+    if today is not None:
+        today_date = _dt.date.fromisoformat(today)
+
+    n = score_deals(
+        observations_dir=observations_dir,
+        price_history_path=price_history_path,
+        config_path=config_path,
+        out_dir=out_dir,
+        today=today_date,
+    )
+    print(f"Scoring complete. {n} active deals scored. Output in {out_dir}")
+
+
 # ── CLI ───────────────────────────────────────────────────────────────────────
 
 
@@ -400,6 +493,14 @@ def _build_parser():
         action="store_true",
         help="Rebuild dimension tables only; skip observations entirely.",
     )
+    parser.add_argument(
+        "--score",
+        action="store_true",
+        help=(
+            "Run product resolution, price history, and deal scoring "
+            "after observations and dimensions have been built."
+        ),
+    )
     return parser
 
 
@@ -418,6 +519,11 @@ def main(argv: list[str] | None = None) -> int:
             )
             build_dimensions(db_dir=args.db_dir, data_dir=args.data_dir)
             print(f"Done. {written} flyers written, {skipped} skipped. Dimensions rebuilt.")
+            if args.score:
+                observations_dir = os.path.join(args.db_dir, "observations")
+                build_products(db_dir=args.db_dir, observations_dir=observations_dir)
+                build_price_history(db_dir=args.db_dir)
+                build_scores(db_dir=args.db_dir)
     except Exception as exc:  # noqa: BLE001
         print(f"Error: {type(exc).__name__}: {exc}", file=sys.stderr)
         return 1
