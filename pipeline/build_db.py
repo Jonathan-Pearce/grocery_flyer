@@ -380,8 +380,8 @@ def build_products(db_dir: str, observations_dir: str) -> None:
     from pipeline.product_resolver import resolve_products
 
     out_path = os.path.join(db_dir, "dimensions", "products.parquet")
-    mapping = resolve_products(observations_dir=observations_dir, out_path=out_path)
-    print(f"Products resolved. {len(mapping)} observation keys mapped. Written to {out_path}")
+    obs_to_product_mapping = resolve_products(observations_dir=observations_dir, out_path=out_path)
+    print(f"Products resolved. {len(obs_to_product_mapping)} observation keys mapped. Written to {out_path}")
 
 
 def build_price_history(db_dir: str) -> None:
