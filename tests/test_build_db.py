@@ -8,7 +8,7 @@ import time
 
 import pytest
 
-from pipeline.build_db import _partition_dir, build_dimensions, build_observations, main
+from pipeline.build_db import _partition_dir, build_dimensions, build_observations, build_products, build_price_history, build_scores, main
 
 
 # ── _partition_dir ────────────────────────────────────────────────────────────
@@ -761,6 +761,141 @@ class TestMain:
         assert "--dimensions-only" in result.stdout
         assert "--data-dir" in result.stdout
         assert "--store" in result.stdout
+        assert "--score" in result.stdout
+
+    def test_score_flag_runs_scoring_pipeline(self, tmp_path, monkeypatch):
+        """--score calls build_products, build_price_history, build_scores."""
+        pytest.importorskip("pyarrow")
+        db = str(tmp_path / "db")
+        cleaned = str(tmp_path / "cleaned")
+        data = str(tmp_path / "data")
+
+        calls = []
+
+        monkeypatch.setattr(
+            "pipeline.build_db.build_products",
+            lambda **kw: calls.append(("build_products", kw)),
+        )
+        monkeypatch.setattr(
+            "pipeline.build_db.build_price_history",
+            lambda **kw: calls.append(("build_price_history", kw)),
+        )
+        monkeypatch.setattr(
+            "pipeline.build_db.build_scores",
+            lambda **kw: calls.append(("build_scores", kw)),
+        )
+
+        _write_json(
+            os.path.join(cleaned, "loblaws", "1001.json"),
+            _make_envelope("1001", "loblaws"),
+        )
+        _write_stores_json(data, "loblaws", _FLIPP_STORES)
+        _write_store_flyers_json(data, "loblaws", _FLIPP_STORE_FLYERS)
+
+        rc = main(["--db-dir", db, "--cleaned-dir", cleaned, "--data-dir", data, "--score"])
+        assert rc == 0
+        step_names = [c[0] for c in calls]
+        assert step_names == ["build_products", "build_price_history", "build_scores"]
+
+    def test_no_score_flag_skips_scoring_pipeline(self, tmp_path, monkeypatch):
+        """Without --score, scoring functions are never called."""
+        pytest.importorskip("pyarrow")
+        db = str(tmp_path / "db")
+        cleaned = str(tmp_path / "cleaned")
+        data = str(tmp_path / "data")
+
+        calls = []
+
+        monkeypatch.setattr(
+            "pipeline.build_db.build_products",
+            lambda **kw: calls.append("build_products"),
+        )
+        monkeypatch.setattr(
+            "pipeline.build_db.build_price_history",
+            lambda **kw: calls.append("build_price_history"),
+        )
+        monkeypatch.setattr(
+            "pipeline.build_db.build_scores",
+            lambda **kw: calls.append("build_scores"),
+        )
+
+        _write_json(
+            os.path.join(cleaned, "loblaws", "1001.json"),
+            _make_envelope("1001", "loblaws"),
+        )
+        _write_stores_json(data, "loblaws", _FLIPP_STORES)
+        _write_store_flyers_json(data, "loblaws", _FLIPP_STORE_FLYERS)
+
+        rc = main(["--db-dir", db, "--cleaned-dir", cleaned, "--data-dir", data])
+        assert rc == 0
+        assert calls == []
+
+    def test_dimensions_only_unaffected_by_score(self, tmp_path, monkeypatch):
+        """--dimensions-only skips scoring even if --score is also passed."""
+        pytest.importorskip("pyarrow")
+        db = str(tmp_path / "db")
+        cleaned = str(tmp_path / "cleaned")
+        data = str(tmp_path / "data")
+
+        calls = []
+
+        monkeypatch.setattr(
+            "pipeline.build_db.build_products",
+            lambda **kw: calls.append("build_products"),
+        )
+
+        _write_stores_json(data, "loblaws", _FLIPP_STORES)
+        _write_store_flyers_json(data, "loblaws", _FLIPP_STORE_FLYERS)
+
+        rc = main([
+            "--db-dir", db,
+            "--cleaned-dir", cleaned,
+            "--data-dir", data,
+            "--dimensions-only",
+            "--score",
+        ])
+        assert rc == 0
+        assert calls == []
+
+    def test_score_with_store_flag(self, tmp_path, monkeypatch):
+        """--score can be combined with --store."""
+        pytest.importorskip("pyarrow")
+        db = str(tmp_path / "db")
+        cleaned = str(tmp_path / "cleaned")
+        data = str(tmp_path / "data")
+
+        calls = []
+
+        monkeypatch.setattr(
+            "pipeline.build_db.build_products",
+            lambda **kw: calls.append(("build_products", kw)),
+        )
+        monkeypatch.setattr(
+            "pipeline.build_db.build_price_history",
+            lambda **kw: calls.append(("build_price_history", kw)),
+        )
+        monkeypatch.setattr(
+            "pipeline.build_db.build_scores",
+            lambda **kw: calls.append(("build_scores", kw)),
+        )
+
+        _write_json(
+            os.path.join(cleaned, "loblaws", "1001.json"),
+            _make_envelope("1001", "loblaws"),
+        )
+        _write_stores_json(data, "loblaws", _FLIPP_STORES)
+        _write_store_flyers_json(data, "loblaws", _FLIPP_STORE_FLYERS)
+
+        rc = main([
+            "--db-dir", db,
+            "--cleaned-dir", cleaned,
+            "--data-dir", data,
+            "--store", "loblaws",
+            "--score",
+        ])
+        assert rc == 0
+        step_names = [c[0] for c in calls]
+        assert step_names == ["build_products", "build_price_history", "build_scores"]
 
 
 # ── Required named tests (issue acceptance criteria) ──────────────────────────
@@ -923,3 +1058,138 @@ def test_build_dimensions_flyers(tmp_path):
     assert "flyer_id" in col_names
     assert "store_chain" in col_names
     assert "store_id" in col_names
+
+
+# ── build_products / build_price_history / build_scores ───────────────────────
+
+
+def _write_obs_parquet(db_dir: str, store_chain: str, flyer_id: str, rows: list[dict]) -> None:
+    """Write a minimal observations Parquet file into the expected partition path."""
+    import pyarrow as pa
+    import pyarrow.parquet as pq
+
+    part_dir = _partition_dir(db_dir, store_chain, rows[0].get("flyer_valid_from"))
+    os.makedirs(part_dir, exist_ok=True)
+    table = pa.Table.from_pylist(rows)
+    pq.write_table(table, os.path.join(part_dir, f"{flyer_id}.parquet"))
+
+
+def test_build_products_writes_parquet(tmp_path, monkeypatch):
+    """build_products delegates to resolve_products and writes products.parquet."""
+    pytest.importorskip("pyarrow")
+
+    db = str(tmp_path / "db")
+    obs_dir = os.path.join(db, "observations")
+    mapping = {"obs_key_1": "cpid_abc"}
+
+    calls = []
+
+    def _fake_resolve(observations_dir, out_path):
+        calls.append((observations_dir, out_path))
+        # Create the output file so callers can verify it exists
+        os.makedirs(os.path.dirname(os.path.abspath(out_path)), exist_ok=True)
+        import pyarrow as pa
+        import pyarrow.parquet as pq
+        pq.write_table(pa.table({"canonical_product_id": ["cpid_abc"]}), out_path)
+        return mapping
+
+    monkeypatch.setattr("pipeline.product_resolver.resolve_products", _fake_resolve)
+
+    build_products(db_dir=db, observations_dir=obs_dir)
+
+    assert calls[0] == (obs_dir, os.path.join(db, "dimensions", "products.parquet"))
+    assert os.path.exists(os.path.join(db, "dimensions", "products.parquet"))
+
+
+def test_build_products_delegates_to_resolve_products(tmp_path, monkeypatch):
+    """build_products passes correct paths to resolve_products."""
+    pytest.importorskip("pyarrow")
+    import pyarrow as pa
+    import pyarrow.parquet as pq
+
+    db = str(tmp_path / "db")
+    obs_dir = os.path.join(db, "observations")
+
+    captured = {}
+
+    def _fake_resolve(observations_dir, out_path):
+        captured["observations_dir"] = observations_dir
+        captured["out_path"] = out_path
+        os.makedirs(os.path.dirname(os.path.abspath(out_path)), exist_ok=True)
+        pq.write_table(pa.table({"canonical_product_id": pa.array([], type=pa.string())}), out_path)
+        return {}
+
+    monkeypatch.setattr("pipeline.product_resolver.resolve_products", _fake_resolve)
+
+    build_products(db_dir=db, observations_dir=obs_dir)
+
+    assert captured["observations_dir"] == obs_dir
+    assert captured["out_path"] == os.path.join(db, "dimensions", "products.parquet")
+
+
+def test_build_price_history_delegates(tmp_path, monkeypatch):
+    """build_price_history passes correct paths to the underlying function."""
+    pytest.importorskip("pyarrow")
+
+    db = str(tmp_path / "db")
+    captured = {}
+
+    def _fake_bph(observations_dir, products_path, out_path):
+        captured["observations_dir"] = observations_dir
+        captured["products_path"] = products_path
+        captured["out_path"] = out_path
+        return 0
+
+    monkeypatch.setattr("pipeline.price_history.build_price_history", _fake_bph)
+
+    build_price_history(db_dir=db)
+
+    assert captured["observations_dir"] == os.path.join(db, "observations")
+    assert captured["products_path"] == os.path.join(db, "dimensions", "products.parquet")
+    assert captured["out_path"] == os.path.join(db, "features", "price_history.parquet")
+
+
+def test_build_scores_delegates(tmp_path, monkeypatch):
+    """build_scores passes correct paths to score_deals."""
+    pytest.importorskip("pyarrow")
+
+    db = str(tmp_path / "db")
+    captured = {}
+
+    def _fake_score(observations_dir, price_history_path, config_path, out_dir, today):
+        captured["observations_dir"] = observations_dir
+        captured["price_history_path"] = price_history_path
+        captured["config_path"] = config_path
+        captured["out_dir"] = out_dir
+        captured["today"] = today
+        return 0
+
+    monkeypatch.setattr("pipeline.deal_scorer.score_deals", _fake_score)
+
+    build_scores(db_dir=db)
+
+    assert captured["observations_dir"] == os.path.join(db, "observations")
+    assert captured["price_history_path"] == os.path.join(db, "features", "price_history.parquet")
+    assert captured["config_path"] == os.path.join("config", "scoring.yaml")
+    assert captured["out_dir"] == os.path.join(db, "scores")
+    assert captured["today"] is None
+
+
+def test_build_scores_passes_today(tmp_path, monkeypatch):
+    """build_scores converts a today string to a date object."""
+    import datetime
+
+    pytest.importorskip("pyarrow")
+
+    db = str(tmp_path / "db")
+    captured = {}
+
+    def _fake_score(observations_dir, price_history_path, config_path, out_dir, today):
+        captured["today"] = today
+        return 0
+
+    monkeypatch.setattr("pipeline.deal_scorer.score_deals", _fake_score)
+
+    build_scores(db_dir=db, today="2026-04-11")
+
+    assert captured["today"] == datetime.date(2026, 4, 11)
