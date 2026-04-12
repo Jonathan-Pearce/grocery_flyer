@@ -81,6 +81,18 @@ class TestNameFingerprint:
         name = "Cheddar Cheese 400g"
         assert _name_fingerprint(name) == _name_fingerprint(name)
 
+    def test_collision_guard_distinct_names_differ(self):
+        # Two genuinely different products produce different fingerprints
+        fp1 = _name_fingerprint("Cheddar Cheese")
+        fp2 = _name_fingerprint("Cheddar Slice")
+        assert fp1 != fp2
+
+    def test_collision_guard_deterministic(self):
+        # Near-identical names always map to the same fingerprint (no randomness)
+        name = "Cheddar Cheese"
+        fps = [_name_fingerprint(name) for _ in range(5)]
+        assert len(set(fps)) == 1
+
 
 # ── _canonical_id ─────────────────────────────────────────────────────────────
 
@@ -236,6 +248,29 @@ class TestResolveRecord:
         cid1, _, _ = _resolve_record(r1)
         cid2, _, _ = _resolve_record(r2)
         assert cid1 != cid2
+
+    def test_fingerprint_collision_guard(self):
+        # Two genuinely different products with near-identical names (same brand/unit)
+        # receive different canonical IDs because the fingerprint differs.
+        r1 = {
+            "name_en": "Cheddar Cheese",
+            "brand": "Armstrong",
+            "weight_unit": "g",
+            "category_l3": "Cheese",
+        }
+        r2 = {
+            "name_en": "Cheddar Slice",
+            "brand": "Armstrong",
+            "weight_unit": "g",
+            "category_l3": "Cheese",
+        }
+        cid1, tier1, _ = _resolve_record(r1)
+        cid2, tier2, _ = _resolve_record(r2)
+        assert cid1 != cid2
+        assert tier1 == tier2 == "probable"
+        # Determinism: repeated calls yield the same IDs
+        assert _resolve_record(r1)[0] == cid1
+        assert _resolve_record(r2)[0] == cid2
 
     # ── Tier 3: category fallback ─────────────────────────────────────────────
 
