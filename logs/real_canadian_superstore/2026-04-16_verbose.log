@@ -1,0 +1,231 @@
+=== Real Canadian Superstore Flyer Fetch — 2026-04-16 ===
+Run started : 2026-04-16 13:43:54 UTC
+
+Loaded 124 stores from data/real_canadian_superstore/stores.json
+
+Stores loaded: 124
+Loaded existing store_flyers.json (720 publication entries)
+
+Phase 1: fetching publications per store…
+
+  [1] Vancouver-Marine → no new flyers
+  [24] Testing Store → no new flyers
+  [512] Wasaga Beach Superstore → ['7881006']
+  [551] St Thomas Superstore → ['7881006']
+  [562] Chatham Superstore → ['7881006']
+  [566] Leamington Superstore → ['7881006']
+  [567] Walker Road Superstore → ['7881006']
+  [569] Midland Superstore → ['7881006']
+  [577] St. Catherine's Superstore → ['7881006']
+  [1009] Westboro Superstore → ['7881021']
+  [1012] Ajax Superstore → ['7881032']
+  [1017] Brockville Superstore → ['7881030']
+  [1018] NEWMARKET → ['7881006']
+  [1024] OAKVILLE → ['7881024']
+  [1030] AURORA → ['7881006']
+  [1033] TORONTO → ['7881021']
+  [1043] Oshawa Superstore → ['7881031']
+  [1058] Whitby Superstore → ['7881031']
+  [1071] South Orleans Superstore → ['7881021']
+  [1077] TORONTO → ['7881021']
+  [1080] MISSISSAUGA → ['7881025']
+  [1091] Oxford & Gammage Superstore → ['7881006']
+  [1502] EDMONTON → ['7880817']
+  [1503] RCSS Click & Collect → ['7880821']
+  [1504] RCSS Click & Collect → ['7880821']
+  [1505] WINNIPEG → ['7880860']
+  [1506] WINNIPEG → ['7880822']
+  [1508] WINNIPEG → ['7880821']
+  [1509] WINNIPEG → ['7880848']
+  [1510] WINKLER → ['7880821']
+  [1511] WINNIPEG → ['7880861']
+  [1512] WINNIPEG → ['7880821']
+  [1514] WINNIPEG → ['7880822']
+  [1515] BRANDON → ['7880821']
+  [1516] WINNIPEG → ['7880821']
+  [1517] VANCOUVER → ['7880843']
+  [1518] BURNABY → ['7880843']
+  [1519] COQUITLAM → ['7880817']
+  [1520] VANCOUVER → ['7880851']
+  [1521] NORTH SURREY/NORTH DELTA → ['7880842']
+  [1522] KAMLOOPS → ['7880817']
+  [1523] CHILLIWACK → ['7880817']
+  [1524] CAMPBELL RIVER → ['7880817']
+  [1525] NANAIMO → ['7880817']
+  [1526] COQUITLAM → ['7880819']
+  [1527] VICTORIA → ['7880817']
+  [1528] RCSS Click & Collect → ['7880817']
+  [1530] RCSS Click & Collect → ['7880817']
+  [1531] RCSS Click & Collect → ['7880817']
+  [1532] RCSS Click & Collect → ['7880817']
+  [1533] Regina-Albert → ['7880821']
+  [1535] SASKATOON → ['7880835']
+  [1536] SASKATOON → ['7880830']
+  [1537] Edmonton Heritage Superstore → ['7880843']
+  [1538] EDMONTON → ['7880817']
+  [1539] CALGARY → ['7880817']
+  [1540] RCSS Click & Collect → ['7880817']
+  [1541] RCSS Click & Collect → ['7880817']
+  [1542] RCSS Click & Collect → ['7880843']
+  [1543] RCSS Click & Collect → ['7880843']
+  [1544] RCSS Click & Collect → ['7880819']
+  [1545] CALGARY → ['7880819']
+  [1546] CALGARY → ['7880820']
+  [1547] RCSS Click & Collect → ['7880817']
+  [1548] FORT MCMURRAY → ['7880818']
+  [1549] EDMONTON → ['7880818']
+  [1550] RCSS Click & Collect → ['7880817']
+  [1551] White Rock → ['7880817']
+  [1552] RCSS Click & Collect → ['7880817']
+  [1553] RCSS Click & Collect → ['7880817']
+  [1554] RCSS Click & Collect → ['7880842']
+  [1555] RCSS Click & Collect → ['7880817']
+  [1556] RCSS Click & Collect → ['7880843']
+  [1557] RICHMOND → ['7880843']
+  [1558] RCSS Click & Collect → ['7880819']
+  [1559] RCSS Click & Collect → ['7880817']
+  [1560] RCSS Click & Collect → ['7880817']
+  [1561] LANGLEY → ['7880819']
+  [1562] PRINCE GEORGE → ['7880817']
+  [1563] RCSS Click & Collect → ['7880817']
+  [1564] KELOWNA → ['7880819']
+  [1565] RCSS Click & Collect → ['7880817']
+  [1566] EDMONTON → ['7880817']
+  [1567] RCSS Click & Collect → ['7880817']
+  [1568] RCSS Click & Collect → ['7880817']
+  [1569] EDMONTON → ['7880843']
+  [1570] EDMONTON → ['7880819']
+  [1571] RCSS Click & Collect → ['7880817']
+  [1572] EDMONTON → ['7880818']
+  [1573] EDMONTON → ['7880851']
+  [1574] CALGARY → ['7880819']
+  [1575] CALGARY → ['7880850']
+  [1576] CALGARY → ['7880843']
+  [1577] CALGARY → ['7880817']
+  [1578] CALGARY → ['7880851']
+  [1579] RCSS Click & Collect → ['7880820']
+  [1581] RCSS Click & Collect → ['7880821']
+  [1582] RCSS Click & Collect → ['7880829']
+  [1583] RCSS Click & Collect → ['7880829']
+  [1584] RCSS Click & Collect → ['7880829']
+  [1585] RCSS Click & Collect → ['7880829']
+  [1586] RCSS Seaton Way → ['7880818']
+  [1590] Calgary East Village → ['7880817']
+  [2555] Edmonton Superstore → ['7880843']
+  [2800] TORONTO → ['7881027']
+  [2801] BRAMPTON → no new flyers
+  [2803] Sudbury Superstore → ['7881006']
+  [2806] Grimsby Superstore → ['7881006']
+  [2809] TORONTO → ['7881032']
+  [2810] MILTON → ['7881026']
+  [2811] Georgetown Superstore → ['7881006']
+  [2812] Oakridge Mall Superstore → ['7881006']
+  [2813] South Kanata Superstore → ['7881021']
+  [2818] Simcoe Superstore → ['7881006']
+  [2822] Highland Hills Superstore → ['7881021']
+  [2823] Strathroy Superstore → ['7881006']
+  [2826] Sarnia Superstore → ['7881006']
+  [2827] Dougall Superstore → ['7881021']
+  [2831] Peterborough Superstore → ['7881006']
+  [2841] Mavis Superstore → ['7881025']
+  [2842] Oshawa Gibb Superstore → ['7881031']
+  [3730] Calgary → ['7880817']
+  [4401] Weston Rd. Learning Centre Superstore → no new flyers
+  [6885] MFC Dundas & Bloor → ['7881006']
+
+  120 new publication entries across 124 stores
+  25 unique new publication(s) to download
+  Saved → data/real_canadian_superstore/store_flyers.json  (1,136,729 bytes)
+New publication entries added to store_flyers.json: 120
+Unique new publications to download: 25
+
+Phase 2: fetching products for each new publication…
+
+  [7881006] Weekly Flyer  (2026-04-16T00:00:00-04:00 → 2026-04-22T23:59:59-04:00)
+    457 products
+  Saved → data/real_canadian_superstore/flyers/7881006.json  (1,019,860 bytes)
+  [7881021] Weekly Flyer  (2026-04-16T00:00:00-04:00 → 2026-04-22T23:59:59-04:00)
+    457 products
+  Saved → data/real_canadian_superstore/flyers/7881021.json  (1,019,861 bytes)
+  [7881032] Weekly Flyer  (2026-04-16T00:00:00-04:00 → 2026-04-22T23:59:59-04:00)
+    471 products
+  Saved → data/real_canadian_superstore/flyers/7881032.json  (1,049,978 bytes)
+  [7881030] Weekly Flyer  (2026-04-16T00:00:00-04:00 → 2026-04-22T23:59:59-04:00)
+    458 products
+  Saved → data/real_canadian_superstore/flyers/7881030.json  (1,022,795 bytes)
+  [7881024] Weekly Flyer  (2026-04-16T00:00:00-04:00 → 2026-04-22T23:59:59-04:00)
+    457 products
+  Saved → data/real_canadian_superstore/flyers/7881024.json  (1,019,733 bytes)
+  [7881031] Weekly Flyer  (2026-04-16T00:00:00-04:00 → 2026-04-22T23:59:59-04:00)
+    471 products
+  Saved → data/real_canadian_superstore/flyers/7881031.json  (1,049,978 bytes)
+  [7881025] Weekly Flyer  (2026-04-16T00:00:00-04:00 → 2026-04-22T23:59:59-04:00)
+    471 products
+  Saved → data/real_canadian_superstore/flyers/7881025.json  (1,049,850 bytes)
+  [7880817] Weekly Flyer  (2026-04-16T03:00:00-04:00 → 2026-04-22T23:59:59-04:00)
+    457 products
+  Saved → data/real_canadian_superstore/flyers/7880817.json  (1,019,887 bytes)
+  [7880821] Weekly Flyer  (2026-04-16T03:00:00-04:00 → 2026-04-22T23:59:59-04:00)
+    457 products
+  Saved → data/real_canadian_superstore/flyers/7880821.json  (1,019,510 bytes)
+  [7880860] Weekly Flyer  (2026-04-16T03:00:00-04:00 → 2026-04-22T23:59:59-04:00)
+    471 products
+  Saved → data/real_canadian_superstore/flyers/7880860.json  (1,050,666 bytes)
+  [7880822] Weekly Flyer  (2026-04-16T03:00:00-04:00 → 2026-04-22T23:59:59-04:00)
+    463 products
+  Saved → data/real_canadian_superstore/flyers/7880822.json  (1,032,305 bytes)
+  [7880848] Weekly Flyer  (2026-04-16T03:00:00-04:00 → 2026-04-22T23:59:59-04:00)
+    463 products
+  Saved → data/real_canadian_superstore/flyers/7880848.json  (1,032,304 bytes)
+  [7880861] Weekly Flyer  (2026-04-16T03:00:00-04:00 → 2026-04-22T23:59:59-04:00)
+    477 products
+  Saved → data/real_canadian_superstore/flyers/7880861.json  (1,063,462 bytes)
+  [7880843] Weekly Flyer  (2026-04-16T03:00:00-04:00 → 2026-04-22T23:59:59-04:00)
+    471 products
+  Saved → data/real_canadian_superstore/flyers/7880843.json  (1,051,043 bytes)
+  [7880851] Weekly Flyer  (2026-04-16T03:00:00-04:00 → 2026-04-22T23:59:59-04:00)
+    477 products
+  Saved → data/real_canadian_superstore/flyers/7880851.json  (1,063,839 bytes)
+  [7880842] Weekly Flyer  (2026-04-16T03:00:00-04:00 → 2026-04-22T23:59:59-04:00)
+    457 products
+  Saved → data/real_canadian_superstore/flyers/7880842.json  (1,019,886 bytes)
+  [7880819] Weekly Flyer  (2026-04-16T03:00:00-04:00 → 2026-04-22T23:59:59-04:00)
+    463 products
+  Saved → data/real_canadian_superstore/flyers/7880819.json  (1,032,682 bytes)
+  [7880835] Weekly Flyer  (2026-04-16T03:00:00-04:00 → 2026-04-22T23:59:59-04:00)
+    478 products
+  Saved → data/real_canadian_superstore/flyers/7880835.json  (1,067,687 bytes)
+  [7880830] Weekly Flyer  (2026-04-16T03:00:00-04:00 → 2026-04-22T23:59:59-04:00)
+    486 products
+  Saved → data/real_canadian_superstore/flyers/7880830.json  (1,086,050 bytes)
+  [7880820] Weekly Flyer  (2026-04-16T03:00:00-04:00 → 2026-04-22T23:59:59-04:00)
+    477 products
+  Saved → data/real_canadian_superstore/flyers/7880820.json  (1,063,840 bytes)
+  [7880818] Weekly Flyer  (2026-04-16T03:00:00-04:00 → 2026-04-22T23:59:59-04:00)
+    471 products
+  Saved → data/real_canadian_superstore/flyers/7880818.json  (1,051,045 bytes)
+  [7880850] Weekly Flyer  (2026-04-16T03:00:00-04:00 → 2026-04-22T23:59:59-04:00)
+    463 products
+  Saved → data/real_canadian_superstore/flyers/7880850.json  (1,032,681 bytes)
+  [7880829] Weekly Flyer  (2026-04-16T03:00:00-04:00 → 2026-04-22T23:59:59-04:00)
+    472 products
+  Saved → data/real_canadian_superstore/flyers/7880829.json  (1,054,892 bytes)
+  [7881027] Weekly Flyer  (2026-04-16T00:00:00-04:00 → 2026-04-22T23:59:59-04:00)
+    477 products
+  Saved → data/real_canadian_superstore/flyers/7881027.json  (1,062,770 bytes)
+  [7881026] Weekly Flyer  (2026-04-16T00:00:00-04:00 → 2026-04-22T23:59:59-04:00)
+    463 products
+  Saved → data/real_canadian_superstore/flyers/7881026.json  (1,032,653 bytes)
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 25
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-04-16 13:44:28 UTC
+Elapsed      : 0m 34s
+
+
+Done.  Verbose log → logs/real_canadian_superstore/2026-04-16_verbose.log
+       Summary log → logs/real_canadian_superstore/2026-04-16_summary.log
+
