@@ -1,0 +1,4679 @@
+{
+  "fetched_on": "2026-04-16",
+  "publication_id": "7881750",
+  "publication_meta": {
+    "id": 7881750,
+    "flyer_run_id": 1142690,
+    "valid_from": "2026-04-16T00:00:00-04:00",
+    "valid_to": "2026-04-22T23:59:59-04:00",
+    "available_from": "2026-04-15T00:00:00-04:00",
+    "available_to": "2026-04-22T23:59:59-04:00",
+    "locale": "en",
+    "pdf_url": "https://f.wishabi.net/flyers/16639032/1c5a264da7f65118.pdf",
+    "postal_code": "K6H3J8",
+    "merchant_name": "Farm Boy",
+    "merchant_logo_url": "https://images.wishabi.net/merchants/2711/1411563312/large",
+    "deep_link": null,
+    "flyer_type_id": 2718,
+    "sfml_url": "https://cdn-gateflipp.flippback.com/storefront-payload/1142690/7881750/a020053ee7b0deddd680a3ec6d6358014a527e3de69505774f2f930e95291250?merchant_id=2711",
+    "name": "Weekly",
+    "flyer_type": "flyerflipweekly",
+    "external_display_name": "",
+    "first_page_thumbnail_400h_url": "https://f.wishabi.net/flyers/7881750/stock_premium/1776194300.jpg",
+    "storefront_images": {
+      "carousel_organic": "https://f.wishabi.net/flyers/7881750/storefront_carousel_organic/1776194300.jpg"
+    },
+    "correction_notices": []
+  },
+  "products_url": "https://dam.flippenterprise.net/flyerkit/publication/7881750/products?display_type=all&locale=en&access_token=633f9e9fe2eae3e7b4a811dd9690ac4b",
+  "products": [
+    {
+      "id": 1006966803,
+      "name": "Sweet & Juicy Blackberries or Raspberries",
+      "sale_story": null,
+      "sku": null,
+      "description": "product of Mexico/USA, 170 g/pkg",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901647/1776195131/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "2.99",
+      "post_price_text": "/pkg",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 56.14,
+      "bottom": -945.91,
+      "right": 857.55,
+      "top": -264.71,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Fruits",
+          "google_category_id": 2776
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Berries",
+          "google_category_id": 2782
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_items/416901647/1776195131/extra_large.jpg"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966809,
+      "name": "Farm Boy\u2122 Organic Milk or Cream",
+      "sale_story": "Save $1-$1.50",
+      "sku": null,
+      "description": "all varieties, 946 mL, refundable deposit req'd",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901671/1776195136/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "3.99",
+      "post_price_text": "- $4.99 ea",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 461.4,
+      "bottom": -1621.72,
+      "right": 857.22,
+      "top": -1276.93,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Beverages",
+          "google_category_id": 320
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Milk",
+          "google_category_id": 333
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Farm Boy",
+      "images": [
+        "https://f.wishabi.net/page_items/416901671/1776195136/extra_large.jpg"
+      ],
+      "original_price": "5.49",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966815,
+      "name": "Natural One Pure Juice",
+      "sale_story": "Save $1.22",
+      "sku": null,
+      "description": "all varieties, 900 mL",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901694/1776195141/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "4.77",
+      "post_price_text": "ea",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 455.12,
+      "bottom": -2294.72,
+      "right": 860.1,
+      "top": -1949.57,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Beverages",
+          "google_category_id": 320
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Juice",
+          "google_category_id": 331
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Natural One",
+      "images": [
+        "https://f.wishabi.net/page_items/416901694/1776195141/extra_large.jpg"
+      ],
+      "original_price": "5.99",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966823,
+      "name": "Farm Boy\u2122 Cold Extracted Extra Virgin Olive Oil",
+      "sale_story": "Save $2",
+      "sku": null,
+      "description": "1 L",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901686/1776195135/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "12.99",
+      "post_price_text": "ea",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1670.26,
+      "bottom": -1087.63,
+      "right": 1962.35,
+      "top": -766.86,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Cooking & Baking Ingredients",
+          "google_category_id": 346
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Cooking Oils",
+          "google_category_id": 2722
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Farm Boy\u2122",
+      "images": [
+        "https://f.wishabi.net/page_items/416901686/1776195135/extra_large.jpg"
+      ],
+      "original_price": "14.99",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966841,
+      "name": "Sweet & Juicy Clementines",
+      "sale_story": null,
+      "sku": null,
+      "description": "product of Morocco",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901722/1776195148/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "3.99",
+      "post_price_text": "/bag",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 2259.99,
+      "bottom": -2486.79,
+      "right": 2568.52,
+      "top": -2141.61,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Fruits",
+          "google_category_id": 2776
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Citrus Fruits",
+          "google_category_id": 2786
+        },
+        "l6": {
+          "confidence": null,
+          "category_name": "Oranges",
+          "google_category_id": 2792
+        },
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_items/416901722/1776195148/extra_large.jpg"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966842,
+      "name": "Farm Boy\u2122 Butter Tarts",
+      "sale_story": "Save 50\u00a2",
+      "sku": null,
+      "description": "pkg of 6 regular, or pkg of 12 mini, not applicable to Gluten-Free",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901649/1776195132/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "7.49",
+      "post_price_text": "/pkg",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 2682.62,
+      "bottom": -765.15,
+      "right": 2976.81,
+      "top": -450.98,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Bakery",
+          "google_category_id": 343
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Pies & Tarts",
+          "google_category_id": 2678
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Farm Boy\u2122",
+      "images": [
+        "https://f.wishabi.net/page_items/416901649/1776195132/extra_large.jpg"
+      ],
+      "original_price": "7.99",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966843,
+      "name": "Fresh Baked Homestyle Cookies",
+      "sale_story": "Save 50\u00a2",
+      "sku": null,
+      "description": "of 12 regular, select varieties, 350-480 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901666/1776195133/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "5.49",
+      "post_price_text": "/pkg",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 2976.54,
+      "bottom": -768.08,
+      "right": 3272.28,
+      "top": -435.43,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Bakery",
+          "google_category_id": 343
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Cookies",
+          "google_category_id": 2671
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_items/416901666/1776195133/extra_large.jpg"
+      ],
+      "original_price": "5.99",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966856,
+      "name": "Brandt Smoked Honey Maple Ham",
+      "sale_story": null,
+      "sku": null,
+      "description": "sliced fresh at our Deli Counter",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901700/1776195144/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "2.79",
+      "post_price_text": "/100g",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 3274.34,
+      "bottom": -1810.19,
+      "right": 3572.32,
+      "top": -1500.98,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Meat, Seafood & Eggs",
+          "google_category_id": 353
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Meat",
+          "google_category_id": 2917
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Lunch & Deli Meats",
+          "google_category_id": 2920
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "BRANDT",
+      "images": [
+        "https://f.wishabi.net/page_items/416901700/1776195144/extra_large.jpg"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966861,
+      "name": "Farm Boy\u2122 Homestyle Chicken Gravy",
+      "sale_story": "Save $.50",
+      "sku": null,
+      "description": "\u2022 Prepared with chicken \u2022",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901710/1776195149/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "3.49",
+      "post_price_text": "ea",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 2677.54,
+      "bottom": -2477.7,
+      "right": 2979.66,
+      "top": -1815.23,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Condiments & Sauces",
+          "google_category_id": 345
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Gravy",
+          "google_category_id": 2689
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Farm Boy",
+      "images": [
+        "https://f.wishabi.net/page_items/416901710/1776195149/extra_large.jpg"
+      ],
+      "original_price": "3.99",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966804,
+      "name": "Fresh Whole Chicken",
+      "sale_story": "Save $1.50",
+      "sku": null,
+      "description": "product of Canada",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901650/1776195132/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "2.99",
+      "post_price_text": "/lb",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 852.9,
+      "bottom": -944.74,
+      "right": 1254.18,
+      "top": -265.49,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Meat, Seafood & Eggs",
+          "google_category_id": 353
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Meat",
+          "google_category_id": 2917
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Lunch & Deli Meats",
+          "google_category_id": 2920
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_items/416901650/1776195132/extra_large.jpg"
+      ],
+      "original_price": "4.49",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966810,
+      "name": "St-Albert Dairy Co-Op Marble or Mild Cheddar",
+      "sale_story": "Save $.40",
+      "sku": null,
+      "description": "cut or sliced, product of Canada",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901676/1776195137/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "2.99",
+      "post_price_text": "/100 g",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 855.78,
+      "bottom": -1616.14,
+      "right": 1253.36,
+      "top": -1277.31,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Dairy Products",
+          "google_category_id": 347
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Cheese",
+          "google_category_id": 2750
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "ST-ALBERT",
+      "images": [
+        "https://f.wishabi.net/page_items/416901676/1776195137/extra_large.jpg"
+      ],
+      "original_price": "3.39",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966818,
+      "name": "Farm Boy\u2122 Bone-In Smoked Ontario Ham",
+      "sale_story": "Save $1",
+      "sku": null,
+      "description": null,
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901670/1776195132/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "2.99",
+      "post_price_text": "/lb 6.59/kg",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1667.34,
+      "bottom": -433.17,
+      "right": 1961.02,
+      "top": -126.72,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Meat, Seafood & Eggs",
+          "google_category_id": 353
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Meat",
+          "google_category_id": 2917
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Farm Boy\u2122",
+      "images": [
+        "https://f.wishabi.net/page_items/416901670/1776195132/extra_large.jpg"
+      ],
+      "original_price": "3.99",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966827,
+      "name": "Farm Boy\u2122 Non-GMO Beans",
+      "sale_story": "Save $.50",
+      "sku": null,
+      "description": "all varieties, 398 mL",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901699/1776195138/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "2.49",
+      "post_price_text": "ea",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1965.29,
+      "bottom": -1431.28,
+      "right": 2264.35,
+      "top": -1089.18,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Canned & Prepared Beans",
+          "google_category_id": 2772
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Farm Boy\u2122",
+      "images": [
+        "https://f.wishabi.net/page_items/416901699/1776195138/extra_large.jpg"
+      ],
+      "original_price": "2.99",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966831,
+      "name": "Seedless Cucumbers",
+      "sale_story": null,
+      "sku": null,
+      "description": "Canada No. 1 Grade, product of Canada",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901708/1776195141/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "1.49",
+      "post_price_text": "ea",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1667.81,
+      "bottom": -1799.33,
+      "right": 1969.51,
+      "top": -1473.35,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Vegetables",
+          "google_category_id": 2833
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Cucumbers",
+          "google_category_id": 2850
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_items/416901708/1776195141/extra_large.jpg"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966832,
+      "name": "Heirloom Tomatoes",
+      "sale_story": null,
+      "sku": null,
+      "description": "Canada No. 1 Grade, product of Canada",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901709/1776195142/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "3.99",
+      "post_price_text": "/lb",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1962.65,
+      "bottom": -1801.31,
+      "right": 2265.33,
+      "top": -1465.34,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Vegetables",
+          "google_category_id": 2833
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Tomatoes",
+          "google_category_id": 2896
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_items/416901709/1776195142/extra_large.jpg"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966845,
+      "name": "Baxter's Mini Cheesecakes",
+      "sale_story": "Save $.50",
+      "sku": null,
+      "description": "all varieties, 140-170 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901672/1776195135/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "3.99",
+      "post_price_text": "ea",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 3572.53,
+      "bottom": -769.47,
+      "right": 3870.85,
+      "top": -463.66,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Bakery",
+          "google_category_id": 343
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Cakes & Dessert Bars",
+          "google_category_id": 2669
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Baxter's",
+      "images": [
+        "https://f.wishabi.net/page_items/416901672/1776195135/extra_large.jpg"
+      ],
+      "original_price": "4.49",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966859,
+      "name": "Califia Farms Plant-Based Beverages",
+      "sale_story": "Save $1",
+      "sku": null,
+      "description": "select varieties, 1.4 L",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901706/1776195147/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "5.99",
+      "post_price_text": "ea",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 3273.54,
+      "bottom": -2149.31,
+      "right": 3572.41,
+      "top": -1830.87,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Beverages",
+          "google_category_id": 320
+        },
+        "l3": null,
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Califia Farms\u00ae",
+      "images": [
+        "https://f.wishabi.net/page_items/416901706/1776195147/extra_large.jpg"
+      ],
+      "original_price": "6.99",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966864,
+      "name": "Hand-tied Gerbera",
+      "sale_story": "Save $1",
+      "sku": null,
+      "description": "Great selection of beautiful hues!",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901716/1776195152/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "16.00",
+      "post_price_text": "ea",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 3579.03,
+      "bottom": -2473.03,
+      "right": 3869.29,
+      "top": -2148.13,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Home & Garden",
+          "google_category_id": 745
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Plants",
+          "google_category_id": 947
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Flowers",
+          "google_category_id": 4440
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_items/416901716/1776195152/extra_large.jpg"
+      ],
+      "original_price": "17.00",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966866,
+      "name": "M\u00fcesli Overnight Oats",
+      "sale_story": null,
+      "sku": null,
+      "description": null,
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901664/1776195132/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 6563.31,
+      "bottom": -2534.78,
+      "right": 7852.01,
+      "top": -21.28,
+      "page": 6,
+      "item_categories": {
+        "l1": null,
+        "l2": null,
+        "l3": null,
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 5,
+      "average_rating": null,
+      "web_commission_url": "https://www.farmboy.ca/recipes/muesli-overnight-oats/",
+      "item_web_url": "https://www.farmboy.ca/recipes/muesli-overnight-oats/",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_items/416901664/1776195132/extra_large.jpg"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966869,
+      "name": "Mother's Day Brunch",
+      "sale_story": null,
+      "sku": null,
+      "description": null,
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901661/1776195133/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 10493.3,
+      "bottom": -2534.78,
+      "right": 11782.0,
+      "top": -21.28,
+      "page": 9,
+      "item_categories": {
+        "l1": null,
+        "l2": null,
+        "l3": null,
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 5,
+      "average_rating": null,
+      "web_commission_url": "https://www.farmboy.ca/shop/mothers-day-brunch-serves-4/",
+      "item_web_url": "https://www.farmboy.ca/shop/mothers-day-brunch-serves-4/",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_items/416901661/1776195133/extra_large.jpg"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966834,
+      "name": "Garlic",
+      "sale_story": null,
+      "sku": null,
+      "description": "product of China",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901713/1776195143/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "1.88",
+      "post_price_text": "/pkg",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1371.18,
+      "bottom": -2143.47,
+      "right": 1671.0,
+      "top": -1817.05,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Vegetables",
+          "google_category_id": 2833
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Garlic",
+          "google_category_id": 2856
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_items/416901713/1776195143/extra_large.jpg"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966837,
+      "name": "Green Onions",
+      "sale_story": null,
+      "sku": null,
+      "description": "product of Mexico/USA",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901718/1776195145/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "2/",
+      "price_text": "3.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 2262.04,
+      "bottom": -2137.7,
+      "right": 2563.63,
+      "top": -1816.63,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Vegetables",
+          "google_category_id": 2833
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Onions",
+          "google_category_id": 2880
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_items/416901718/1776195145/extra_large.jpg"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966863,
+      "name": "Burnbrae Farms Naturegg Simply Egg Whites",
+      "sale_story": "Save $1",
+      "sku": null,
+      "description": "1 kg",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901714/1776195151/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "8.99",
+      "post_price_text": "ea",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 3284.52,
+      "bottom": -2459.47,
+      "right": 3571.59,
+      "top": -2149.17,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Meat, Seafood & Eggs",
+          "google_category_id": 353
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Eggs",
+          "google_category_id": 2916
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Burnbrae Farms",
+      "images": [
+        "https://f.wishabi.net/page_items/416901714/1776195151/extra_large.jpg"
+      ],
+      "original_price": "9.99",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966868,
+      "name": "Fan Faves",
+      "sale_story": null,
+      "sku": null,
+      "description": null,
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901663/1776195133/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 9181.92,
+      "bottom": -2554.81,
+      "right": 10469.3,
+      "top": -18.6,
+      "page": 8,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Home & Garden",
+          "google_category_id": 745
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Household Appliances",
+          "google_category_id": 878
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Climate Control Appliances",
+          "google_category_id": 880
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fans",
+          "google_category_id": 3753
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 5,
+      "average_rating": null,
+      "web_commission_url": "http://farmboy.ca/fanfaves",
+      "item_web_url": "http://farmboy.ca/fanfaves",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_items/416901663/1776195133/extra_large.jpg"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966816,
+      "name": "Kind Protein+ or Mini Granola Bars",
+      "sale_story": "HOT DEAL!",
+      "sku": null,
+      "description": "select varieties, 10 x 20 g or 4 x 62 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901698/1776195142/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "6.99",
+      "post_price_text": "/pkg",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 852.2,
+      "bottom": -2284.48,
+      "right": 1253.48,
+      "top": -1970.24,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Snack Foods",
+          "google_category_id": 358
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Cereal & Granola Bars",
+          "google_category_id": 2931
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Kind",
+      "images": [
+        "https://f.wishabi.net/page_items/416901698/1776195142/extra_large.jpg"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966821,
+      "name": "Fresh, Wild Caught Pickerel Fillets",
+      "sale_story": "Save $3",
+      "sku": null,
+      "description": "\u2022 Succulent, flaky texture with a delicately mild flavour.\n\u2022 Responsibly sourced from family-run Ontario fisheries\nalong the shores of Lake Erie.\n\u2022 100% natural, with no chemicals or additives.",
+      "disclaimer_text": "Available at all stores except Blue Heron Mall.",
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901680/1776195134/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "13.99",
+      "post_price_text": "/lb",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1961.36,
+      "bottom": -768.06,
+      "right": 2561.59,
+      "top": -110.51,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Meat, Seafood & Eggs",
+          "google_category_id": 353
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Seafood",
+          "google_category_id": 2921
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_items/416901680/1776195134/extra_large.jpg"
+      ],
+      "original_price": "16.99",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966829,
+      "name": "Farm Boy\u2122 Flavoured Peanut Butter",
+      "sale_story": "Save $.52",
+      "sku": null,
+      "description": "all varieties, 375 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901703/1776195140/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "5.47",
+      "post_price_text": "ea",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1372.43,
+      "bottom": -1432.28,
+      "right": 1670.18,
+      "top": -1108.65,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Dips & Spreads",
+          "google_category_id": 348
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Nut Butters",
+          "google_category_id": 2763
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Farm Boy\u2122",
+      "images": [
+        "https://f.wishabi.net/page_items/416901703/1776195140/extra_large.jpg"
+      ],
+      "original_price": "5.99",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966849,
+      "name": "Half Loaf Wide Slice Bread",
+      "sale_story": "Save $.50",
+      "sku": null,
+      "description": "all varieties, 500 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901683/1776195138/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "3.49",
+      "post_price_text": "ea",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 3576.31,
+      "bottom": -1106.42,
+      "right": 3872.88,
+      "top": -796.69,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Bakery",
+          "google_category_id": 343
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Breads & Buns",
+          "google_category_id": 2668
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_items/416901683/1776195138/extra_large.jpg"
+      ],
+      "original_price": "3.99",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966822,
+      "name": "Farm Boy\u2122 Breakfast Bakes or Sandwich Thins",
+      "sale_story": "Save 52\u00a2",
+      "sku": null,
+      "description": "all varieties,\n380-560 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901682/1776195135/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "2.97",
+      "post_price_text": "/pkg",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1369.88,
+      "bottom": -1111.79,
+      "right": 1671.14,
+      "top": -763.46,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Prepared Foods",
+          "google_category_id": 356
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Farm Boy\u2122",
+      "images": [
+        "https://f.wishabi.net/page_items/416901682/1776195135/extra_large.jpg"
+      ],
+      "original_price": "3.49",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966862,
+      "name": "Simply Protein Bars",
+      "sale_story": "Save $.49",
+      "sku": null,
+      "description": "all varieties, 40 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901712/1776195150/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "2/",
+      "price_text": "5.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 2980.76,
+      "bottom": -2466.94,
+      "right": 3276.24,
+      "top": -2149.06,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Health & Beauty",
+          "google_category_id": 709
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Health Care",
+          "google_category_id": 710
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fitness & Nutrition",
+          "google_category_id": 717
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Nutrition Bars",
+          "google_category_id": 3375
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_items/416901712/1776195150/extra_large.jpg"
+      ],
+      "original_price": "5.49",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966858,
+      "name": "Barbara's Cereal Puffs",
+      "sale_story": "Save $1",
+      "sku": null,
+      "description": "283 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901704/1776195146/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "5.49",
+      "post_price_text": "ea",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 2979.79,
+      "bottom": -2148.81,
+      "right": 3272.82,
+      "top": -1817.5,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Grains, Rice & Cereal",
+          "google_category_id": 352
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Cereal & Granola",
+          "google_category_id": 2908
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Barbara's",
+      "images": [
+        "https://f.wishabi.net/page_items/416901704/1776195146/extra_large.jpg"
+      ],
+      "original_price": "6.49",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966850,
+      "name": "Farm Boy\u2122 Feta Cheese",
+      "sale_story": "Save $1",
+      "sku": null,
+      "description": "Barrel Aged, Organic, or Sheep's Milk, product of Greece, 200 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901684/1776195139/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "6.99",
+      "post_price_text": "ea",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 2680.94,
+      "bottom": -1485.03,
+      "right": 2976.75,
+      "top": -1182.02,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Dairy Products",
+          "google_category_id": 347
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Cheese",
+          "google_category_id": 2750
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Farm Boy\u2122",
+      "images": [
+        "https://f.wishabi.net/page_items/416901684/1776195139/extra_large.jpg"
+      ],
+      "original_price": "7.99",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966853,
+      "name": "Krinos Crumbled Feta",
+      "sale_story": null,
+      "sku": null,
+      "description": "170 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901692/1776195141/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "6.49",
+      "post_price_text": "ea",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 3576.34,
+      "bottom": -1491.56,
+      "right": 3872.36,
+      "top": -1140.51,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Dairy Products",
+          "google_category_id": 347
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Cheese",
+          "google_category_id": 2750
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Krinos",
+      "images": [
+        "https://f.wishabi.net/page_items/416901692/1776195141/extra_large.jpg"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966819,
+      "name": "Hayter's Farm Extra Lean Turkey Burgers",
+      "sale_story": null,
+      "sku": null,
+      "description": "all varieties, pkg of 4,\nproduct of Ontario, 450 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901674/1776195133/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "6.99",
+      "post_price_text": "/pkg",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1370.74,
+      "bottom": -765.19,
+      "right": 1667.92,
+      "top": -452.4,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Meat, Seafood & Eggs",
+          "google_category_id": 353
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Meat",
+          "google_category_id": 2917
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Hayter's Farm",
+      "images": [
+        "https://f.wishabi.net/page_items/416901674/1776195133/extra_large.jpg"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966825,
+      "name": "Farm Boy\u2122 Chilled Dressings",
+      "sale_story": "Save $1",
+      "sku": null,
+      "description": "select varieties, 350-430 mL",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901693/1776195137/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "4.99",
+      "post_price_text": "ea",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 2265.38,
+      "bottom": -1102.88,
+      "right": 2563.21,
+      "top": -781.07,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Condiments & Sauces",
+          "google_category_id": 345
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Salad Dressing",
+          "google_category_id": 2702
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Farm Boy",
+      "images": [
+        "https://f.wishabi.net/page_items/416901693/1776195137/extra_large.jpg"
+      ],
+      "original_price": "5.99",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966807,
+      "name": "Green Beans",
+      "sale_story": null,
+      "sku": null,
+      "description": "product of Mexico\n5.38/kg",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901667/1776195134/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "2.44",
+      "post_price_text": "/lb",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 850.21,
+      "bottom": -1273.4,
+      "right": 1252.07,
+      "top": -941.95,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Vegetables",
+          "google_category_id": 2833
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Beans",
+          "google_category_id": 2837
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_items/416901667/1776195134/extra_large.jpg"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966811,
+      "name": "Hardbite Speak Greek to Me Chips",
+      "sale_story": "HOT DEAL!",
+      "sku": null,
+      "description": "128 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901681/1776195138/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "3.49",
+      "post_price_text": "ea",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 58.48,
+      "bottom": -1959.12,
+      "right": 460.35,
+      "top": -1619.18,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Snack Foods",
+          "google_category_id": 358
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Chips",
+          "google_category_id": 2933
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "HARDBITE",
+      "images": [
+        "https://f.wishabi.net/page_items/416901681/1776195138/extra_large.jpg"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966812,
+      "name": "Farm Boy\u2122 Stone-Baked Pizza",
+      "sale_story": "Save $1",
+      "sku": null,
+      "description": "all varieties, frozen, 330-375 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901685/1776195138/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "4.99",
+      "post_price_text": "ea",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 458.67,
+      "bottom": -1961.06,
+      "right": 860.41,
+      "top": -1616.78,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Bakery",
+          "google_category_id": 343
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Farm Boy\u2122",
+      "images": [
+        "https://f.wishabi.net/page_items/416901685/1776195138/extra_large.jpg"
+      ],
+      "original_price": "5.99",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966813,
+      "name": "Farm Boy\u2122 Sparkling Beverages",
+      "sale_story": "Save $.52",
+      "sku": null,
+      "description": "all varieties,\n750 mL",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901688/1776195139/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "2.97",
+      "post_price_text": "ea",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 852.73,
+      "bottom": -1962.92,
+      "right": 1255.47,
+      "top": -1616.78,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Beverages",
+          "google_category_id": 320
+        },
+        "l3": null,
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Farm Boy\u2122",
+      "images": [
+        "https://f.wishabi.net/page_items/416901688/1776195139/extra_large.jpg"
+      ],
+      "original_price": "3.49",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966824,
+      "name": "Farm Boy\u2122 Oat Lattes",
+      "sale_story": "Save $.52 ea",
+      "sku": null,
+      "description": "all varieties, 207 mL",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901689/1776195136/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "2.77",
+      "post_price_text": "ea",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1966.85,
+      "bottom": -1095.1,
+      "right": 2264.52,
+      "top": -768.91,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Grains, Rice & Cereal",
+          "google_category_id": 352
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Oats, Grits & Hot Cereal",
+          "google_category_id": 2911
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Farm Boy",
+      "images": [
+        "https://f.wishabi.net/page_items/416901689/1776195136/extra_large.jpg"
+      ],
+      "original_price": "3.29",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966833,
+      "name": "Whole or Sliced Brown or White Mushrooms",
+      "sale_story": null,
+      "sku": null,
+      "description": "product of Canada, 227 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901711/1776195143/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "2/",
+      "price_text": "5.00",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 2261.05,
+      "bottom": -1803.47,
+      "right": 2565.67,
+      "top": -1462.02,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Vegetables",
+          "google_category_id": 2833
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Mushrooms",
+          "google_category_id": 2878
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_items/416901711/1776195143/extra_large.jpg"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966852,
+      "name": "Bella Casara Burratini",
+      "sale_story": "Save $1",
+      "sku": null,
+      "description": "product of Canada,125 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901690/1776195140/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "7.99",
+      "post_price_text": "ea",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 3278.59,
+      "bottom": -1473.54,
+      "right": 3571.1,
+      "top": -1158.0,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Beverages",
+          "google_category_id": 320
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Wine",
+          "google_category_id": 341
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "BELLA CASARA",
+      "images": [
+        "https://f.wishabi.net/page_items/416901690/1776195140/extra_large.jpg"
+      ],
+      "original_price": "8.99",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966805,
+      "name": "Marinated Shrimp Skewers",
+      "sale_story": "Save $.50",
+      "sku": null,
+      "description": "previously frozen, all varieties, 60 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901652/1776195133/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "1.99",
+      "post_price_text": "/skewer",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 55.95,
+      "bottom": -1278.43,
+      "right": 442.88,
+      "top": -933.19,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Meat, Seafood & Eggs",
+          "google_category_id": 353
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Seafood",
+          "google_category_id": 2921
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_items/416901652/1776195133/extra_large.jpg"
+      ],
+      "original_price": "2.49",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966806,
+      "name": "Fresh Pork Tenderloin",
+      "sale_story": "Save $3",
+      "sku": null,
+      "description": "product of Ontario",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901662/1776195134/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "4.99",
+      "post_price_text": "/lb",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 443.83,
+      "bottom": -1274.99,
+      "right": 850.13,
+      "top": -944.69,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Meat, Seafood & Eggs",
+          "google_category_id": 353
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Meat",
+          "google_category_id": 2917
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Lunch & Deli Meats",
+          "google_category_id": 2920
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_items/416901662/1776195134/extra_large.jpg"
+      ],
+      "original_price": "7.99",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966826,
+      "name": "Snack Factory Pretzel Chips",
+      "sale_story": "Save $1",
+      "sku": null,
+      "description": "select varieties, 200 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901696/1776195138/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "4.99",
+      "post_price_text": "ea",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1667.67,
+      "bottom": -1429.48,
+      "right": 1963.92,
+      "top": -1091.99,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Snack Foods",
+          "google_category_id": 358
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Chips",
+          "google_category_id": 2933
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Snack Factory",
+      "images": [
+        "https://f.wishabi.net/page_items/416901696/1776195138/extra_large.jpg"
+      ],
+      "original_price": "5.99",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966830,
+      "name": "Greenbelt Salad Greens",
+      "sale_story": null,
+      "sku": null,
+      "description": "select varieties, product of Canada, 113-142 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901705/1776195140/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "3.99",
+      "post_price_text": "ea",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1367.27,
+      "bottom": -1804.39,
+      "right": 1670.61,
+      "top": -1463.3,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Vegetables",
+          "google_category_id": 2833
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Greens",
+          "google_category_id": 2859
+        },
+        "l6": {
+          "confidence": null,
+          "category_name": "Salad Mixes",
+          "google_category_id": 2869
+        },
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "GREENBELT",
+      "images": [
+        "https://f.wishabi.net/page_items/416901705/1776195140/extra_large.jpg"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966838,
+      "name": "Jazz Apples",
+      "sale_story": null,
+      "sku": null,
+      "description": "Fancy Grade, product of USA",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901719/1776195146/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "2.95",
+      "post_price_text": "/bag",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1369.19,
+      "bottom": -2471.3,
+      "right": 1662.79,
+      "top": -2146.82,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Fruits",
+          "google_category_id": 2776
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Apples",
+          "google_category_id": 2777
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_items/416901719/1776195146/extra_large.jpg"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966839,
+      "name": "Asian Pears",
+      "sale_story": null,
+      "sku": null,
+      "description": "Extra Fancy Grade, product of China",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901720/1776195147/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "8.88",
+      "post_price_text": "/case",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1666.77,
+      "bottom": -2477.87,
+      "right": 1966.64,
+      "top": -2161.53,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Fruits",
+          "google_category_id": 2776
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Pears",
+          "google_category_id": 2812
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_items/416901720/1776195147/extra_large.jpg"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966844,
+      "name": "From the Bake Shop 8\" Apple Pie",
+      "sale_story": "Save $1",
+      "sku": null,
+      "description": "750 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901668/1776195134/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "6.99",
+      "post_price_text": "ea",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 3270.4,
+      "bottom": -770.01,
+      "right": 3572.84,
+      "top": -450.35,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Bakery",
+          "google_category_id": 343
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Pies & Tarts",
+          "google_category_id": 2678
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "From the Bake Shop",
+      "images": [
+        "https://f.wishabi.net/page_items/416901668/1776195134/extra_large.jpg"
+      ],
+      "original_price": "7.99",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966846,
+      "name": "Fresh & Flaky Croissants",
+      "sale_story": "Save $.50-$1.50",
+      "sku": null,
+      "description": "All varieties, pkg of 4-6 regular or 10-12 mini, 272-480 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901675/1776195135/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "4.49",
+      "post_price_text": "/pkg",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 2680.13,
+      "bottom": -1106.65,
+      "right": 2976.85,
+      "top": -765.66,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Bakery",
+          "google_category_id": 343
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_items/416901675/1776195135/extra_large.jpg"
+      ],
+      "original_price": "5.99",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966847,
+      "name": "From the Bake Shop Calabrese Breads",
+      "sale_story": "Save $.50",
+      "sku": null,
+      "description": "600 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901677/1776195136/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "4.49",
+      "post_price_text": "ea",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 2977.58,
+      "bottom": -1105.23,
+      "right": 3274.05,
+      "top": -762.65,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Bakery",
+          "google_category_id": 343
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Breads & Buns",
+          "google_category_id": 2668
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_items/416901677/1776195136/extra_large.jpg"
+      ],
+      "original_price": "4.99",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966851,
+      "name": "Mitica Drunken Goat",
+      "sale_story": "Save $.50",
+      "sku": null,
+      "description": null,
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901687/1776195139/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "6.49",
+      "post_price_text": "/100 g",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 2978.84,
+      "bottom": -1488.54,
+      "right": 3274.42,
+      "top": -1143.23,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Dairy Products",
+          "google_category_id": 347
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Cheese",
+          "google_category_id": 2750
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Mitica",
+      "images": [
+        "https://f.wishabi.net/page_items/416901687/1776195139/extra_large.jpg"
+      ],
+      "original_price": "6.99",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966865,
+      "name": "Canadian Beef Gateway",
+      "sale_story": null,
+      "sku": null,
+      "description": null,
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901651/1776195132/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 5247.41,
+      "bottom": -2541.28,
+      "right": 6539.35,
+      "top": 0.0,
+      "page": 5,
+      "item_categories": {
+        "l1": null,
+        "l2": null,
+        "l3": null,
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 5,
+      "average_rating": null,
+      "web_commission_url": "https://farmboy.cdnbeef.ca/",
+      "item_web_url": "https://farmboy.cdnbeef.ca/",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_items/416901651/1776195132/extra_large.jpg"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966867,
+      "name": "Farm Boy Collingwood",
+      "sale_story": null,
+      "sku": null,
+      "description": null,
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901665/1776195132/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 7873.31,
+      "bottom": -2545.43,
+      "right": 9156.69,
+      "top": -21.28,
+      "page": 7,
+      "item_categories": {
+        "l1": null,
+        "l2": null,
+        "l3": null,
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 5,
+      "average_rating": null,
+      "web_commission_url": "https://www.farmboy.ca/stores/collingwood/",
+      "item_web_url": "https://www.farmboy.ca/stores/collingwood/",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_items/416901665/1776195132/extra_large.jpg"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966870,
+      "name": "Fresh Twist",
+      "sale_story": null,
+      "sku": null,
+      "description": null,
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901673/1776195133/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 13118.6,
+      "bottom": -2540.1,
+      "right": 14386.0,
+      "top": -26.61,
+      "page": 11,
+      "item_categories": {
+        "l1": null,
+        "l2": null,
+        "l3": null,
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 5,
+      "average_rating": null,
+      "web_commission_url": "https://www.farmboy.ca/freshtwist/",
+      "item_web_url": "https://www.farmboy.ca/freshtwist/",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_items/416901673/1776195133/extra_large.jpg"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966808,
+      "name": "New York-Style Bagels",
+      "sale_story": "Save $1",
+      "sku": null,
+      "description": "From the Bake Shop\npkg of 6",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901669/1776195135/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "3.99",
+      "post_price_text": "/pkg",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 58.55,
+      "bottom": -1624.82,
+      "right": 458.76,
+      "top": -1278.36,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Bakery",
+          "google_category_id": 343
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Bagels",
+          "google_category_id": 2666
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_items/416901669/1776195135/extra_large.jpg"
+      ],
+      "original_price": "4.99",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966814,
+      "name": "Villaggio Bread or Buns",
+      "sale_story": "Save $1.50",
+      "sku": null,
+      "description": "all varieties, 550-675 g, pkg of 6 or 8",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901691/1776195140/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "3.29",
+      "post_price_text": "or /pkg",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 63.61,
+      "bottom": -2293.21,
+      "right": 453.33,
+      "top": -1966.46,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Bakery",
+          "google_category_id": 343
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Breads & Buns",
+          "google_category_id": 2668
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "VILLAGGIO",
+      "images": [
+        "https://f.wishabi.net/page_items/416901691/1776195140/extra_large.jpg"
+      ],
+      "original_price": "4.79",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966817,
+      "name": "Diamond Valley Grass Fed Lean Ground Beef",
+      "sale_story": null,
+      "sku": null,
+      "description": "product of New Zealand, 450g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901648/1776195131/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "6.99",
+      "post_price_text": "/pkg",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1370.29,
+      "bottom": -437.05,
+      "right": 1664.4,
+      "top": -128.88,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Meat, Seafood & Eggs",
+          "google_category_id": 353
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Meat",
+          "google_category_id": 2917
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Diamond Valley",
+      "images": [
+        "https://f.wishabi.net/page_items/416901648/1776195131/extra_large.jpg"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966820,
+      "name": "Cut from Canada AAA Beef Boneless Beef Blade Roast",
+      "sale_story": "Save $3",
+      "sku": null,
+      "description": "24.23/kg",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901678/1776195133/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "10.99",
+      "post_price_text": "/lb",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1665.87,
+      "bottom": -756.0,
+      "right": 1962.39,
+      "top": -445.08,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Meat, Seafood & Eggs",
+          "google_category_id": 353
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Meat",
+          "google_category_id": 2917
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_items/416901678/1776195133/extra_large.jpg"
+      ],
+      "original_price": "13.99",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966828,
+      "name": "Tre Stelle Cream Cheese",
+      "sale_story": "Save $1",
+      "sku": null,
+      "description": "all varieties,\n200 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901701/1776195139/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "4.79",
+      "post_price_text": "ea",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 2266.67,
+      "bottom": -1425.23,
+      "right": 2562.38,
+      "top": -1104.91,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Dips & Spreads",
+          "google_category_id": 348
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Cream Cheese",
+          "google_category_id": 2759
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Tre Stelle",
+      "images": [
+        "https://f.wishabi.net/page_items/416901701/1776195139/extra_large.jpg"
+      ],
+      "original_price": "5.79",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966835,
+      "name": "Fresh Basil",
+      "sale_story": null,
+      "sku": null,
+      "description": "product of Mexico, 42 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901715/1776195144/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "1.99",
+      "post_price_text": "/pkg",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1667.02,
+      "bottom": -2148.54,
+      "right": 1967.23,
+      "top": -1823.72,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Vegetables",
+          "google_category_id": 2833
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_items/416901715/1776195144/extra_large.jpg"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966836,
+      "name": "Sweet Snap Peppers",
+      "sale_story": null,
+      "sku": null,
+      "description": "product of Mexico, 340 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901717/1776195145/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "2.99",
+      "post_price_text": "/pkg",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1966.95,
+      "bottom": -2148.99,
+      "right": 2261.96,
+      "top": -1815.5,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Vegetables",
+          "google_category_id": 2833
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Peppers",
+          "google_category_id": 2884
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_items/416901717/1776195145/extra_large.jpg"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966840,
+      "name": "Caribbean Red Papaya",
+      "sale_story": null,
+      "sku": null,
+      "description": "product of Guatemala/Honduras\n2.76/kg",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901721/1776195147/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "1.25",
+      "post_price_text": "/lb",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1968.86,
+      "bottom": -2466.09,
+      "right": 2258.2,
+      "top": -2153.03,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Fruits",
+          "google_category_id": 2776
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Papayas",
+          "google_category_id": 2810
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_items/416901721/1776195147/extra_large.jpg"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966848,
+      "name": "From the Bake Shop Crusty Parisian Bread",
+      "sale_story": "Save $.80",
+      "sku": null,
+      "description": "475 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901679/1776195137/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "3.99",
+      "post_price_text": "ea",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 3276.39,
+      "bottom": -1093.56,
+      "right": 3572.88,
+      "top": -782.64,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Bakery",
+          "google_category_id": 343
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Breads & Buns",
+          "google_category_id": 2668
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "From the Bake Shop",
+      "images": [
+        "https://f.wishabi.net/page_items/416901679/1776195137/extra_large.jpg"
+      ],
+      "original_price": "4.79",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966854,
+      "name": "Farm Boy\u2122 Italian Deli Meat",
+      "sale_story": "Save 50\u00a2",
+      "sku": null,
+      "description": "select varieties, 100 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901695/1776195142/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "7.49",
+      "post_price_text": "/pkg",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 2681.36,
+      "bottom": -1811.15,
+      "right": 2975.44,
+      "top": -1507.82,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Meat, Seafood & Eggs",
+          "google_category_id": 353
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Meat",
+          "google_category_id": 2917
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Lunch & Deli Meats",
+          "google_category_id": 2920
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Farm Boy\u2122",
+      "images": [
+        "https://f.wishabi.net/page_items/416901695/1776195142/extra_large.jpg"
+      ],
+      "original_price": "7.99",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966855,
+      "name": "Brandt Dry Cured Salami",
+      "sale_story": "Save $.50",
+      "sku": null,
+      "description": "all varieties, sliced fresh at our Deli Counter",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901697/1776195143/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "3.49",
+      "post_price_text": "/100 g",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 2982.04,
+      "bottom": -1809.85,
+      "right": 3273.72,
+      "top": -1501.21,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Meat, Seafood & Eggs",
+          "google_category_id": 353
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Meat",
+          "google_category_id": 2917
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Lunch & Deli Meats",
+          "google_category_id": 2920
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "BRANDT",
+      "images": [
+        "https://f.wishabi.net/page_items/416901697/1776195143/extra_large.jpg"
+      ],
+      "original_price": "3.99",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966857,
+      "name": "Maple Lodge Chicken Breast Roast",
+      "sale_story": "Save $.50",
+      "sku": null,
+      "description": "all varieties, sliced fresh at our Deli Counter",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901702/1776195145/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "2.49",
+      "post_price_text": "/100 g",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 3580.18,
+      "bottom": -1812.8,
+      "right": 3872.19,
+      "top": -1504.75,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Meat, Seafood & Eggs",
+          "google_category_id": 353
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Meat",
+          "google_category_id": 2917
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Lunch & Deli Meats",
+          "google_category_id": 2920
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "MAPLE LODGE",
+      "images": [
+        "https://f.wishabi.net/page_items/416901702/1776195145/extra_large.jpg"
+      ],
+      "original_price": "2.99",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1006966860,
+      "name": "Farm Boy\u2122 Bounty Bouquet",
+      "sale_story": "Save $1",
+      "sku": null,
+      "description": null,
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-16T00:00:00-04:00",
+      "valid_to_timestamp": "2026-04-22T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/416901707/1776195148/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-16",
+      "valid_to": "2026-04-22",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "28.00",
+      "post_price_text": "ea",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 3576.23,
+      "bottom": -2143.09,
+      "right": 3874.77,
+      "top": -1828.44,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Home & Garden",
+          "google_category_id": 745
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Plants",
+          "google_category_id": 947
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Flowers",
+          "google_category_id": 4440
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7881750,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": null,
+      "item_web_url": null,
+      "brand": "Farm Boy\u2122",
+      "images": [
+        "https://f.wishabi.net/page_items/416901707/1776195148/extra_large.jpg"
+      ],
+      "original_price": "29.00",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+=== Fortinos Flyer Fetch — 2026-04-16 ===
+Run started : 2026-04-16 13:45:28 UTC
+
+Loaded 25 stores from data/fortinos/stores.json
+
+Stores loaded: 25
+Loaded existing store_flyers.json (48 publication entries)
+
+Phase 1: fetching publications per store…
+
+  [31] Test Store → no new flyers
+  [39] Fortinos Mountainash → ['7881703']
+  [46] Fortinos Hwy 20 & 53 → ['7881700']
+  [55] Fortinos Langstaff → ['7881704']
+  [65] Fortinos Upper James 2004 → ['7881700']
+  [67] Fortinos Main Street → ['7881701']
+  [78] Fortinos Plains Road → ['7881699']
+  [86] Fortinos Ancaster → ['7881700']
+  [96] Fortinos Highway #7 & Ansley → ['7881704']
+  [199] Fortinos Neyagawa → ['7881699']
+  [300] Fortinos Eastgate → ['7881702']
+  [526] Fortinos Upper Middle → ['7881699']
+  [1434] Fortinos Waterdown → ['7881699']
+  [1436] Fortinos Lawrence & Allen → ['7881704']
+  [1495] Fortinos Appleby → ['7881699']
+  [2265] Fortinos Dundurn → ['7881701']
+  [2268] Fortinos New Street → ['7881699']
+  [4014] Fortinos Mall Road → ['7881700']
+  [5547] Fortinos Major Mackenzie → ['7881704']
+  [5548] Bovaird & HWY 10 → ['7881703']
+  [7136] Fortinos (South Oakville) Ltd → ['7881699']
+  [7346] Fortinos Fiesta Mall → ['7881700']
+  [7513] BOLTON → ['7881704']
+  [7529] Fortinos Highway 7 & Brisdale → ['7881703']
+  [7920] Fortinos Queens Plate → ['7881705']
+
+  24 new publication entries across 25 stores
+  7 unique new publication(s) to download
+  Saved → data/fortinos/store_flyers.json  (88,687 bytes)
+New publication entries added to store_flyers.json: 24
+Unique new publications to download: 7
+
+Phase 2: fetching products for each new publication…
+
+  [7881703] Weekly Flyer  (2026-04-16T00:00:00-04:00 → 2026-04-22T23:59:59-04:00)
+    312 products
+  Saved → data/fortinos/flyers/7881703.json  (690,343 bytes)
+  [7881700] Weekly Flyer  (2026-04-16T00:00:00-04:00 → 2026-04-22T23:59:59-04:00)
+    291 products
+  Saved → data/fortinos/flyers/7881700.json  (643,856 bytes)
+  [7881704] Weekly Flyer  (2026-04-16T00:00:00-04:00 → 2026-04-22T23:59:59-04:00)
+    292 products
+  Saved → data/fortinos/flyers/7881704.json  (647,421 bytes)
+  [7881701] Weekly Flyer  (2026-04-16T00:00:00-04:00 → 2026-04-22T23:59:59-04:00)
+    311 products
+  Saved → data/fortinos/flyers/7881701.json  (687,603 bytes)
+  [7881699] Weekly Flyer  (2026-04-16T00:00:00-04:00 → 2026-04-22T23:59:59-04:00)
+    291 products
+  Saved → data/fortinos/flyers/7881699.json  (644,969 bytes)
+  [7881702] Weekly Flyer  (2026-04-16T00:00:00-04:00 → 2026-04-22T23:59:59-04:00)
+    331 products
+  Saved → data/fortinos/flyers/7881702.json  (731,486 bytes)
+  [7881705] Weekly Flyer  (2026-04-16T00:00:00-04:00 → 2026-04-22T23:59:59-04:00)
+    312 products
+  Saved → data/fortinos/flyers/7881705.json  (691,168 bytes)
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 7
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-04-16 13:45:36 UTC
+Elapsed      : 0m 8s
+
+
+Done.  Verbose log → logs/fortinos/2026-04-16_verbose.log
+       Summary log → logs/fortinos/2026-04-16_summary.log
+

@@ -1,0 +1,81 @@
+=== Longos Flyer Fetch — 2026-04-16 ===
+Run started : 2026-04-16 13:51:15 UTC
+
+Loaded 43 stores from data/longos/stores.json
+
+Stores loaded: 43
+Loaded existing store_flyers.json (119 publication entries)
+
+Phase 1: fetching publications per store…
+
+  [2] Oakville → ['7880406']
+  [3] Fairview → ['7880406']
+  [4] Markham → ['7880406']
+  [5] Bayview → ['7880406']
+  [6] Weston → ['7880406']
+  [7] Brampton → ['7880406']
+  [8] Glen Erin → ['7880406']
+  [9] Walkers (N. Burlington) → ['7880406']
+  [10] York Mills → ['7880406']
+  [11] Rutherford → ['7880406']
+  [12] Maple → ['7880406']
+  [13] Winston Churchill → ['7880406']
+  [14] Ponytrail → ['7880406']
+  [15] Brookfield → ['7880406']
+  [16] Burloak → ['7880406']
+  [17] Boxgrove → ['7880406']
+  [18] Elizabeth → ['7880406']
+  [19] Aurora → ['7880406']
+  [20] Bathurst → ['7880406']
+  [21] The Market by Longo's Hudson Bay Centre → ['7880406']
+  [22] Richmond Hill → ['7880406']
+  [23] The Market by Longo's First Canadian Place → ['7880406']
+  [24] Maple Leaf Square → ['7880406']
+  [25] Milton → ['7880406']
+  [26] Leaside → ['7880406']
+  [27] Southeast Oakville → ['7880406']
+  [28] Applewood Plaza → ['7880406']
+  [29] Imperial Plaza → ['7880406']
+  [30] Longo's Mount Pleasant → ['7880406']
+  [31] Ancaster → ['7880406']
+  [32] Longo's Guelph → ['7880406']
+  [33] Ajax → ['7880406']
+  [34] Stouffville → ['7880406']
+  [35] Yonge Sheppard → ['7880406']
+  [36] Green Lane → ['7880406']
+  [37] Liberty Village → ['7880406']
+  [38] Brooklin → ['7880406']
+  [40] Kitchener → ['7880406']
+  [41] Meadowvale → ['7880406']
+  [42] Kleinburg → ['7880406']
+  [43] Longo’s Queensway → ['7880406']
+  [44] Colossus → ['7880406']
+  [50] Garden Foods → ['7880441']
+
+  43 new publication entries across 43 stores
+  2 unique new publication(s) to download
+  Saved → data/longos/store_flyers.json  (183,008 bytes)
+New publication entries added to store_flyers.json: 43
+Unique new publications to download: 2
+
+Phase 2: fetching products for each new publication…
+
+  [7880406] Weekly Flyer  (2026-04-16T00:00:00-04:00 → 2026-04-22T23:59:59-04:00)
+    204 products
+  Saved → data/longos/flyers/7880406.json  (430,221 bytes)
+  [7880441] Weekly Flyer  (2026-04-16T00:00:00-04:00 → 2026-04-22T23:59:59-04:00)
+    184 products
+  Saved → data/longos/flyers/7880441.json  (389,159 bytes)
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 2
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-04-16 13:51:25 UTC
+Elapsed      : 0m 9s
+
+
+Done.  Verbose log → logs/longos/2026-04-16_verbose.log
+       Summary log → logs/longos/2026-04-16_summary.log
+
