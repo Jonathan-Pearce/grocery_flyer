@@ -1,0 +1,315 @@
+=== Foodland Flyer Fetch — 2026-04-23 ===
+Run started : 2026-04-23 13:47:03 UTC
+
+Loaded 241 stores from data/foodland/stores.json
+
+Stores loaded: 241
+Loaded existing store_flyers.json (617 publication entries)
+
+Phase 1: fetching publications per store…
+
+  [1906] Foodland Port Aux Choix → no new flyers
+  [3237] Havelock → ['7897264']
+  [3238] Elmvale → ['7897264']
+  [3239] Wiarton → ['7897265']
+  [3245] Walkerton → ['7897264']
+  [3247] Buckhorn → ['7897264']
+  [3248] Millbrook → ['7897264']
+  [3249] Foodland Markdale → ['7897265']
+  [3250] Foodland Komoka → ['7897264']
+  [3252] Vodden → no new flyers
+  [3255] Omemee → ['7897264']
+  [3257] Little Britain → no new flyers
+  [3260] Stayner → no new flyers
+  [3263] Wingham → no new flyers
+  [3270] Creemore → no new flyers
+  [3273] Hagersville → ['7897264']
+  [3279] Mount Albert → ['7887960']
+  [3284] Port Carling → ['7897264']
+  [3287] Victoria Harbour → ['7897264']
+  [3290] Picton → ['7897265']
+  [3294] Toronto &#8211; 107 Parkway Forest  Dr → no new flyers
+  [3297] St. Marys Stonetown → no new flyers
+  [3299] Capreol → ['7897264']
+  [3302] Coldwater → ['7897264']
+  [3303] Caledon East → ['7897264']
+  [3304] Craighurst → ['7887960']
+  [3307] Cobourg → ['7897265']
+  [3309] Lucan → ['7897264']
+  [3320] Callander → ['7897264']
+  [3322] Cookstown → no new flyers
+  [3324] Brights Grove → ['7887960']
+  [3326] Essex → ['7897264']
+  [3328] Elliot Lake → ['7897264']
+  [3329] Parkway Forest → no new flyers
+  [3332] Rockwood → ['7887960']
+  [3340] Tobermory → ['7897264']
+  [3342] Shelburne → no new flyers
+  [3343] Glencoe → ['7897264']
+  [3344] Ayr → ['7887960']
+  [3345] Exeter → ['7897264']
+  [3346] Colborne → no new flyers
+  [3347] Little Brittain → no new flyers
+  [3348] Bobcaygeon → ['7897264']
+  [3349] Madoc → ['7897264']
+  [3354] Niagara on the Lake Foodland → ['7887960']
+  [3356] Amherstview → ['7897265']
+  [3357] Osgoode → no new flyers
+  [3360] Cayuga → ['7897264']
+  [3361] Corunna → ['7897264']
+  [3362] Coboconk → ['7897264']
+  [3363] Hanover → no new flyers
+  [3366] Brussels → ['7897264']
+  [3367] St. Thomas → ['7897264']
+  [3368] Ingersoll → ['7897264']
+  [3369] Watford → ['7897264']
+  [3370] Arthur → no new flyers
+  [3384] Verona → ['7887960']
+  [3386] Palmerston → ['7897264']
+  [3387] Seaforth → ['7897264']
+  [3391] Vankleek Hill → ['7897283']
+  [3392] Thornbury → ['7897264']
+  [3393] Stirling → ['7897264']
+  [3395] Brechin → ['7897264']
+  [3396] Ennismore → ['7897264']
+  [3397] Iroquois → no new flyers
+  [3398] Parkhill → ['7897264']
+  [3407] Hanover → no new flyers
+  [3414] Mindemoya → ['7887960']
+  [3415] Wasaga Beach → ['7897264']
+  [3418] Iroquois → ['7897264']
+  [3420] Foodland Dutton → ['7887960']
+  [3421] Waterford → ['7897264']
+  [3427] Elmira → ['7897264']
+  [3428] Southampton → ['7897264']
+  [3431] Hanover → ['7897264']
+  [3432] Foodland Mount Forest → ['7897264']
+  [3433] Foodland Stroud → ['7897264']
+  [3435] Osgoode → ['7887961']
+  [3437] Belle River → ['7897264']
+  [3441] West Lorne → ['7887960']
+  [3442] Shelburne → ['7897264']
+  [3443] Beeton → ['7887960']
+  [3444] Greely → ['7887960']
+  [3445] Arthur → ['7897264']
+  [3446] Brampton → ['7897264']
+  [3448] Timmins → ['7897266']
+  [3449] Foodland Springdale → ['7886838']
+  [3450] Foodland Schomberg → ['7897264']
+  [3453] Foodland Charlottetown → ['7886837']
+  [3455] Foodland Kentville → ['7886837']
+  [3456] Foodland Chester → ['7886837']
+  [3457] Foodland Stewiacke → no new flyers
+  [3458] Grand Bay → ['7886837']
+  [3461] Foodland Botwood → ['7886838']
+  [3462] Co-Op Lewisporte → ['7886838']
+  [3463] Foodland Sydney Mines → ['7886837']
+  [3464] Foodland Westville → ['7886837']
+  [3465] Foodland Weymouth → ['7886837']
+  [3466] Foodland Bloomfield → ['7886839']
+  [3467] Foodland St. Peters → ['7886837']
+  [3663] Stayner → ['7897264']
+  [3665] Creemore → ['7887960']
+  [3667] Mattawa → ['7887960']
+  [3668] Dorchester → ['7887960']
+  [3672] Foodland Port Stanley → ['7887960']
+  [3673] Stonetown → ['7887960']
+  [3674] Woodstock → ['7887960']
+  [4040] Sobeys Three Sisters Liquor → no new flyers
+  [4352] Sobeys Edgemont Liquor → no new flyers
+  [4819] Sobeys Liquor Glenridding → no new flyers
+  [6266] Foxboro → ['7887960']
+  [6274] Coldwater → no new flyers
+  [6277] Wellington → ['7897264']
+  [6283] Thorold → ['7897264']
+  [6304] Sydenham &#8211; Trousdales → ['7897264']
+  [6340] Waterford → no new flyers
+  [6341] Wyoming → ['7887960']
+  [6363] Little Current → no new flyers
+  [6364] West Lorne → no new flyers
+  [6393] Iroquois Falls → ['7897266']
+  [6396] Midland → ['7897265']
+  [6413] Minden → ['7897264']
+  [6419] Forest → ['7897264']
+  [6421] Ridgetown → ['7897264']
+  [6422] Lakefield → ['7897264']
+  [6424] Toronto &#8211; 1500 Islington Ave → ['7887962']
+  [6425] Toronto &#8211; 2040 Queen St E. → ['7887962']
+  [6429] Eganville → ['7897265']
+  [6436] Shelburne → no new flyers
+  [6445] Stratford → ['7897264']
+  [6447] Haliburton → ['7897264']
+  [6448] Cannington → ['7887960']
+  [6731] Norwood → ['7897264']
+  [6740] Northbrook → ['7897264']
+  [6742] Bayfield → ['7897264']
+  [6756] Toronto &#8211; 623 Danforth Ave → ['7887962']
+  [6764] Hamilton → no new flyers
+  [6766] Smithville → ['7897264']
+  [6767] Tottenham → no new flyers
+  [6780] Mactier → ['7897264']
+  [6781] Frankford → no new flyers
+  [6782] Beeton → no new flyers
+  [6783] Bancroft → ['7897264']
+  [6785] Chippawa → ['7887960']
+  [6791] Harriston → ['7897264']
+  [6817] Penetang → ['7897283']
+  [6819] Sundridge → ['7897265']
+  [6827] Russell → ['7897264']
+  [6828] Winchester → ['7897264']
+  [6834] Owen Sound → ['7897264']
+  [6837] Newcastle → ['7897264']
+  [6838] Port Perry → ['7897264']
+  [6839] Kirkland Lake → ['7897266']
+  [6841] Orillia → ['7897264']
+  [6844] Durham → ['7897264']
+  [6846] Hillsburgh → ['7887960']
+  [6847] Stroud → no new flyers
+  [6856] Clinton → ['7897264']
+  [6863] Garson → ['7897264']
+  [6864] Vineland → no new flyers
+  [7025] Burford → ['7887960']
+  [7084] Norwich → ['7887960']
+  [7086] Bothwell → ['7887960']
+  [7099] Port Rowan → no new flyers
+  [7102] Lambeth → ['7887960']
+  [7119] Tilbury → ['7887960']
+  [7129] Dresden → ['7887960']
+  [7181] Ingleside → ['7887960']
+  [7193] Lions Head → ['7887960']
+  [7254] Dundalk → ['7897264']
+  [7256] Wilberforce → ['7897264']
+  [7284] Peterborough &#8211; 760 Sherbrooke St. W. → ['7897264']
+  [7285] Peterborough &#8211; 142 Hunter St. E. → ['7897264']
+  [9080] Foodland Carters Cove (Farr&#8217;s) → ['7886838']
+  [9083] Foodland Old Perlican → ['7886838']
+  [9085] Foodland Blackville → ['7886837']
+  [9089] Foodland Berwick → ['7886837']
+  [9090] Foodland Torbay → ['7886838']
+  [9099] Foodland Arnolds Cove → ['7886838']
+  [9147] Foodland Burgeo → ['7886838']
+  [9156] Foodland Joe Batts Arm → ['7886838']
+  [9159] Foodland Saulnierville → ['7886839']
+  [9187] Foodland Coldbrook → ['7886837']
+  [9214] Foodland Whitbourne → ['7886838']
+  [9215] Foodland Bonavista → ['7886838']
+  [9221] Foodland Pasadena → ['7886838']
+  [9223] Foodland Harbour Breton → ['7886838']
+  [9226] Foodland Minto -TEMPORARY LOCATION → ['7886837']
+  [9229] Foodland Jeddore → ['7886837']
+  [9232] Foodland Eskasoni → ['7886837']
+  [9253] Foodland Carbonear → ['7886838']
+  [9256] Foodland Twillingate → ['7886838']
+  [9257] Foodland Middleton → ['7886837']
+  [9258] Foodland Sackville → ['7886837']
+  [9261] Foodland Annapolis Royal . → ['7886837']
+  [9263] Foodland Grand Falls → ['7886839']
+  [9266] Foodland Gander → ['7886838']
+  [9270] Foodland Ferryland → ['7886838']
+  [9272] Foodland Grand Bank → ['7886840']
+  [9274] Foodland Bay Roberts → ['7886838']
+  [9275] Shean Co-operative Ltd. → ['7888321']
+  [9276] La Cooperative de Cheticamp → ['7888322']
+  [9277] La Coop Charles Forest → ['7888322']
+  [9278] Margaree Co-operative Soc. → ['7888322']
+  [9279] Whycocomagh Co-operative Ltd → ['7888321']
+  [9280] Port Hood Co-operative Ltd. → ['7888321']
+  [9281] Neils Harbour Co-operative → ['7888321']
+  [9282] Baie Verte D.C. Co-op Soc. → ['7888320']
+  [9283] Carleton Co-operative Ltd. → ['7888321']
+  [9284] Souris Co-operative Ltd. → ['7888321']
+  [9285] OLeary Farmers Co-op Assn. → ['7888321']
+  [9286] Tignish Co-operative Assn. → ['7888322']
+  [9287] Cross Roads Co-operative Ltd → ['7888321']
+  [9288] Pugwash Co-operative Ltd. → ['7888321']
+  [9289] Canso Co-operative Ltd. → ['7888321']
+  [9290] De La Tour Co-op Society Ltd → ['7888321']
+  [9291] Beaubear Co-operative Ltd. → ['7888321']
+  [9293] Victoria Farmers Co-op → ['7888321']
+  [9294] Wellington Co-operative Assn → ['7888322']
+  [9295] Morell Consumers Co-op → ['7888321']
+  [9299] Foodland Jeddore → no new flyers
+  [9315] Foodland Summerside → no new flyers
+  [9369] Foodland Bible Hill → ['7886837']
+  [9371] Co-Op Stephenville → no new flyers
+  [9372] Greely → no new flyers
+  [9373] Foodland Dalhousie → ['7886839']
+  [9374] Foodland Bay Bulls → ['7886838']
+  [9375] Foodland Quispamsis → ['7886837']
+  [9377] Foodland St. Anthony → ['7886838']
+  [9379] Petitcodiac Foodland → ['7886837']
+  [9381] Foodland Springhill → ['7886837']
+  [9382] Foodland Milford → ['7886837']
+  [9383] Foodland Glace Bay → ['7886837']
+  [9388] Foodland Lunenburg → ['7886837']
+  [9436] Foodland Placentia → ['7886838']
+  [9439] Foodland Sheet Harbour → ['7886837']
+  [9442] Foodland Port Aux Basques → ['7886838']
+  [9443] Foodland Deer Lake → ['7886838']
+  [9445] Foodland Glovertown → no new flyers
+  [9446] Foodland Tatamagouche → ['7886837']
+  [9449] Foodland Rexton → ['7886839']
+
+  202 new publication entries across 241 stores
+  14 unique new publication(s) to download
+  Saved → data/foodland/store_flyers.json  (1,060,801 bytes)
+New publication entries added to store_flyers.json: 202
+Unique new publications to download: 14
+
+Phase 2: fetching products for each new publication…
+
+  [7897264] Weekly Flyer  (2026-04-23T00:00:00-04:00 → 2026-04-29T23:59:59-04:00)
+    169 products
+  Saved → data/foodland/flyers/7897264.json  (360,388 bytes)
+  [7897265] Weekly Flyer  (2026-04-23T00:00:00-04:00 → 2026-04-29T23:59:59-04:00)
+    170 products
+  Saved → data/foodland/flyers/7897265.json  (362,237 bytes)
+  [7887960] Weekly Flyer  (2026-04-23T00:00:00-04:00 → 2026-04-29T23:59:59-04:00)
+    163 products
+  Saved → data/foodland/flyers/7887960.json  (348,206 bytes)
+  [7897283] Weekly Flyer  (2026-04-23T00:00:00-04:00 → 2026-04-29T23:59:59-04:00)
+    169 products
+  Saved → data/foodland/flyers/7897283.json  (362,637 bytes)
+  [7887961] Weekly Flyer  (2026-04-23T00:00:00-04:00 → 2026-04-29T23:59:59-04:00)
+    162 products
+  Saved → data/foodland/flyers/7887961.json  (348,606 bytes)
+  [7897266] Weekly Flyer  (2026-04-23T00:00:00-04:00 → 2026-04-29T23:59:59-04:00)
+    168 products
+  Saved → data/foodland/flyers/7897266.json  (360,788 bytes)
+  [7886838] ATL Weekly  (2026-04-23T00:00:00-04:00 → 2026-04-29T23:59:59-04:00)
+    161 products
+  Saved → data/foodland/flyers/7886838.json  (342,306 bytes)
+  [7886837] ATL Weekly  (2026-04-23T00:00:00-04:00 → 2026-04-29T23:59:59-04:00)
+    161 products
+  Saved → data/foodland/flyers/7886837.json  (342,308 bytes)
+  [7886839] ATL Weekly  (2026-04-23T00:00:00-04:00 → 2026-04-29T23:59:59-04:00)
+    161 products
+  Saved → data/foodland/flyers/7886839.json  (350,336 bytes)
+  [7887962] Weekly Flyer  (2026-04-23T00:00:00-04:00 → 2026-04-29T23:59:59-04:00)
+    101 products
+  Saved → data/foodland/flyers/7887962.json  (215,952 bytes)
+  [7886840] ATL Weekly  (2026-04-23T00:00:00-04:00 → 2026-04-29T23:59:59-04:00)
+    161 products
+  Saved → data/foodland/flyers/7886840.json  (349,790 bytes)
+  [7888321] Co-op Advantage - Weekly Flyer  (2026-04-23T00:00:00-04:00 → 2026-04-29T23:59:59-04:00)
+    161 products
+  Saved → data/foodland/flyers/7888321.json  (343,265 bytes)
+  [7888322] Co-op Advantage - Weekly Flyer  (2026-04-23T00:00:00-04:00 → 2026-04-29T23:59:59-04:00)
+    161 products
+  Saved → data/foodland/flyers/7888322.json  (350,790 bytes)
+  [7888320] Co-op Advantage - Weekly Flyer  (2026-04-23T00:00:00-04:00 → 2026-04-29T23:59:59-04:00)
+    161 products
+  Saved → data/foodland/flyers/7888320.json  (342,969 bytes)
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 14
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-04-23 13:47:35 UTC
+Elapsed      : 0m 31s
+
+
+Done.  Verbose log → logs/foodland/2026-04-23_verbose.log
+       Summary log → logs/foodland/2026-04-23_summary.log
+

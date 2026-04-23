@@ -1,0 +1,15 @@
+=== Loblaws Flyer Fetch — 2026-04-23 ===
+Run started : 2026-04-23 13:42:18 UTC
+
+Stores loaded: 50
+New publication entries added to store_flyers.json: 41
+Unique new publications to download: 19
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 19
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-04-23 13:42:28 UTC
+Elapsed      : 0m 10s
+

@@ -1,0 +1,139 @@
+=== Loblaws Flyer Fetch — 2026-04-23 ===
+Run started : 2026-04-23 13:42:18 UTC
+
+Loaded 50 stores from data/loblaws/stores.json
+
+Stores loaded: 50
+Loaded existing store_flyers.json (164 publication entries)
+
+Phase 1: fetching publications per store…
+
+  [99] Fake Store For Testing → no new flyers
+  [1000] Loblaws - Queen Street West → ['7889751']
+  [1001] Loblaws - Liverpool Rd. → ['7889742']
+  [1003] Loblaws - Mclaughlin Road → ['7889740']
+  [1004] Loblaws - Leslie Street → ['7889751']
+  [1005] Loblaws - Bayfield Street → no new flyers
+  [1007] Loblaws - Carlton Street → ['7889752']
+  [1010] Loblaws - Yonge Street → no new flyers
+  [1011] Loblaws - Glen Erin Drive → ['7889741']
+  [1014] Loblaws - McArthur Road → ['7889746']
+  [1016] Loblaws - Wonderland Road South → ['7889746']
+  [1019] Loblaws - Bayview Village → ['7889739']
+  [1020] Loblaws - Eglinton Ave. E → ['7889751']
+  [1021] Loblaws - Musgrave Street → ['7889743']
+  [1022] Loblaws - Kent Street West → ['7889745']
+  [1023] Loblaws - Robertson Road → ['7889745']
+  [1027] Loblaws - Richmond Street North → ['7889740']
+  [1028] Loblaws - High Tech Road → ['7889741']
+  [1029] Loblaws - Dupont Street → ['7889752']
+  [1032] Loblaws - Bullock Drive → ['7889740']
+  [1035] Loblaws - Greenbank Road → ['7889746']
+  [1040] Loblaws - Princess Street → ['7889748']
+  [1050] Loblaws - Baseline Road → ['7889747']
+  [1051] Loblaws - Ogilvie Road → ['7889746']
+  [1064] Loblaws - Highway #2 → ['7889745']
+  [1066] Loblaws - The East Mall → ['7889755']
+  [1079] Loblaws - Lower Jarvis Street → ['7889751']
+  [1082] Loblaws - 1460 Merivale Road → ['7889745']
+  [1083] Loblaws - Midland Ave → ['7889749']
+  [1090] Loblaws - Lakeshore Road West → ['7889738']
+  [1092] Loblaws - Redway Road → ['7889751']
+  [1095] Loblaws - Isabella Street → ['7889744']
+  [1099] Loblaws - Dundas Street West → ['7889751']
+  [1114] Loblaws - Earl Grey Drive → ['7889745']
+  [1127] Loblaws - Hurontario Street → ['7889745']
+  [1132] Loblaws - Carling Avenue → ['7889745']
+  [1142] Loblaws City Market- St. Clair Avenue East → ['7889750']
+  [1154] Loblaws - Dundas Street West → no new flyers
+  [1155] Loblaws - Moore Avenue → ['7889751']
+  [1170] Loblaws - Rideau Street → ['7889745']
+  [1174] Loblaws - 270 The Kingsway → ['7889754']
+  [1179] Loblaws - Broadview Ave → no new flyers
+  [1188] Loblaws - Bank Street → ['7889746']
+  [1194] Loblaws - Yonge Street → ['7889751']
+  [1212] Loblaws - St. Clair Ave West → ['7889753']
+  [1424] Loblaws- Lakeshore/Bathurst → ['7890116']
+  [1789] Squamish YIG (W) → no new flyers
+  [1790] Loblaws City Market → no new flyers
+  [1822] Loblaws City Market - Sage Hill → no new flyers
+  [1872] Lonsdale City Market → no new flyers
+
+  41 new publication entries across 50 stores
+  19 unique new publication(s) to download
+  Saved → data/loblaws/store_flyers.json  (269,293 bytes)
+New publication entries added to store_flyers.json: 41
+Unique new publications to download: 19
+
+Phase 2: fetching products for each new publication…
+
+  [7889751] Weekly Flyer  (2026-04-23T00:00:00-04:00 → 2026-04-29T23:59:59-04:00)
+    318 products
+  Saved → data/loblaws/flyers/7889751.json  (710,148 bytes)
+  [7889742] Weekly Flyer  (2026-04-23T00:00:00-04:00 → 2026-04-29T23:59:59-04:00)
+    328 products
+  Saved → data/loblaws/flyers/7889742.json  (731,303 bytes)
+  [7889740] Weekly Flyer  (2026-04-23T00:00:00-04:00 → 2026-04-29T23:59:59-04:00)
+    314 products
+  Saved → data/loblaws/flyers/7889740.json  (699,888 bytes)
+  [7889752] Weekly Flyer  (2026-04-23T00:00:00-04:00 → 2026-04-29T23:59:59-04:00)
+    339 products
+  Saved → data/loblaws/flyers/7889752.json  (755,986 bytes)
+  [7889741] Weekly Flyer  (2026-04-23T00:00:00-04:00 → 2026-04-29T23:59:59-04:00)
+    335 products
+  Saved → data/loblaws/flyers/7889741.json  (745,726 bytes)
+  [7889746] Weekly Flyer  (2026-04-23T00:00:00-04:00 → 2026-04-29T23:59:59-04:00)
+    310 products
+  Saved → data/loblaws/flyers/7889746.json  (691,195 bytes)
+  [7889739] Weekly Flyer  (2026-04-23T00:00:00-04:00 → 2026-04-29T23:59:59-04:00)
+    321 products
+  Saved → data/loblaws/flyers/7889739.json  (715,272 bytes)
+  [7889743] Weekly Flyer  (2026-04-23T00:00:00-04:00 → 2026-04-29T23:59:59-04:00)
+    349 products
+  Saved → data/loblaws/flyers/7889743.json  (777,141 bytes)
+  [7889745] Weekly Flyer  (2026-04-23T00:00:00-04:00 → 2026-04-29T23:59:59-04:00)
+    296 products
+  Saved → data/loblaws/flyers/7889745.json  (660,741 bytes)
+  [7889748] Weekly Flyer  (2026-04-23T00:00:00-04:00 → 2026-04-29T23:59:59-04:00)
+    324 products
+  Saved → data/loblaws/flyers/7889748.json  (722,610 bytes)
+  [7889747] Weekly Flyer  (2026-04-23T00:00:00-04:00 → 2026-04-29T23:59:59-04:00)
+    331 products
+  Saved → data/loblaws/flyers/7889747.json  (737,627 bytes)
+  [7889755] Weekly Flyer  (2026-04-23T00:00:00-04:00 → 2026-04-29T23:59:59-04:00)
+    332 products
+  Saved → data/loblaws/flyers/7889755.json  (740,602 bytes)
+  [7889749] Weekly Flyer  (2026-04-23T00:00:00-04:00 → 2026-04-29T23:59:59-04:00)
+    345 products
+  Saved → data/loblaws/flyers/7889749.json  (768,448 bytes)
+  [7889738] Weekly Flyer  (2026-04-23T00:00:00-04:00 → 2026-04-29T23:59:59-04:00)
+    300 products
+  Saved → data/loblaws/flyers/7889738.json  (669,434 bytes)
+  [7889744] Weekly Flyer  (2026-04-23T00:00:00-04:00 → 2026-04-29T23:59:59-04:00)
+    278 products
+  Saved → data/loblaws/flyers/7889744.json  (620,683 bytes)
+  [7889750] Weekly Flyer  (2026-04-23T00:00:00-04:00 → 2026-04-29T23:59:59-04:00)
+    300 products
+  Saved → data/loblaws/flyers/7889750.json  (670,090 bytes)
+  [7889754] Weekly Flyer  (2026-04-23T00:00:00-04:00 → 2026-04-29T23:59:59-04:00)
+    307 products
+  Saved → data/loblaws/flyers/7889754.json  (686,126 bytes)
+  [7889753] Weekly Flyer  (2026-04-23T00:00:00-04:00 → 2026-04-29T23:59:59-04:00)
+    339 products
+  Saved → data/loblaws/flyers/7889753.json  (756,580 bytes)
+  [7890116] Weekly Flyer  (2026-04-23T00:00:00-04:00 → 2026-04-29T23:59:59-04:00)
+    104 products
+  Saved → data/loblaws/flyers/7890116.json  (238,285 bytes)
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 19
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-04-23 13:42:28 UTC
+Elapsed      : 0m 10s
+
+
+Done.  Verbose log → logs/loblaws/2026-04-23_verbose.log
+       Summary log → logs/loblaws/2026-04-23_summary.log
+
