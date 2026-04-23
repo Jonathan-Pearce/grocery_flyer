@@ -1,0 +1,1502 @@
+{
+  "fetched_on": "2026-04-23",
+  "publication_id": "7889170",
+  "publication_meta": {
+    "id": 7889170,
+    "flyer_run_id": 1199707,
+    "valid_from": "2026-04-23T00:00:00-04:00",
+    "valid_to": "2026-05-06T23:59:59-04:00",
+    "available_from": "2026-04-22T00:00:00-04:00",
+    "available_to": "2026-05-06T23:59:59-04:00",
+    "locale": "en",
+    "pdf_url": "https://f.wishabi.net/flyers/16645530/09e70ceb218b2119.pdf",
+    "postal_code": "G6B2Z4",
+    "merchant_name": "Walmart Canada",
+    "merchant_logo_url": "https://images.wishabi.net/merchants/bce79949-0773-477d-9c1f-9bbb898c9e31/mini_magick20240912-1-3ou98h.png",
+    "deep_link": null,
+    "flyer_type_id": 102,
+    "sfml_url": "https://cdn-gateflipp.flippback.com/storefront-payload/1199707/7889170/b32456fe95c1baea4fff23342a7a0b9d98dbbc88631788595cfb9fe6c41dcea2?merchant_id=234",
+    "name": "Grocery Flyer",
+    "flyer_type": "groceryflyer",
+    "external_display_name": "Mango Season",
+    "first_page_thumbnail_400h_url": "https://f.wishabi.net/flyers/7889170/stock_premium/1776436510.jpg",
+    "storefront_images": {
+      "carousel_organic": "https://f.wishabi.net/flyers/7889170/storefront_carousel_organic/1776436510.jpg"
+    },
+    "correction_notices": []
+  },
+  "products_url": "https://dam.flippenterprise.net/flyerkit/publication/7889170/products?display_type=all&locale=en&access_token=92bcff5f7d07c3aaa4b33e2c048d7728",
+  "products": [
+    {
+      "id": 1007947038,
+      "name": "Gina mango nectar",
+      "sale_story": "Rollback",
+      "sku": "10304088",
+      "description": "Each. #30460551.",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-23T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-06T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23116675/5b178e62-3a6a-11f1-bb61-b21307dbb479/x_large",
+      "custom_id_field_1": "10304088",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-23",
+      "valid_to": "2026-05-06",
+      "categories": [
+        "Core Grocery"
+      ],
+      "pre_price_text": "",
+      "price_text": "1.28",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 50.5,
+      "bottom": -2436.77,
+      "right": 334.5,
+      "top": -2135.77,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Beverages",
+          "google_category_id": 320
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Juice",
+          "google_category_id": 331
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7889170,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/10304088?icid=digital_pages_grocery_mango_fest_182237_OGW23O7LAS",
+      "item_web_url": "https://www.walmart.ca/en/ip/10304088",
+      "brand": "Gina",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23116675/5b178e62-3a6a-11f1-bb61-b21307dbb479/x_large"
+      ],
+      "original_price": "1.57",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1007946983,
+      "name": "Banganapalli mangoes",
+      "sale_story": null,
+      "sku": "6000207872551",
+      "description": "Box. Product of India.\n#50552820",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-23T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-06T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/417452189/1776697827/extra_large.jpg",
+      "custom_id_field_1": "6000207872551",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-23",
+      "valid_to": "2026-05-06",
+      "categories": [
+        "Produce"
+      ],
+      "pre_price_text": "",
+      "price_text": "19.98",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 650.5,
+      "bottom": -1085.77,
+      "right": 950.5,
+      "top": -787.78,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Fruits",
+          "google_category_id": 2776
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Stone Fruits",
+          "google_category_id": 2824
+        },
+        "l6": {
+          "confidence": null,
+          "category_name": "Mangoes",
+          "google_category_id": 2827
+        },
+        "l7": null
+      },
+      "flyer_id": 7889170,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/6000207872551?icid=digital_pages_grocery_mango_fest_182237_OGW23O7LAS",
+      "item_web_url": "https://www.walmart.ca/en/ip/6000207872551",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_items/417452189/1776697827/extra_large.jpg"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1007947005,
+      "name": "Aroy-D mango sticky rice",
+      "sale_story": "Rollback",
+      "sku": "3FKMNTJ58QHS",
+      "description": "250 g\nEach. #50792226",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-23T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-06T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23116675/5fed5354-3a6a-11f1-bb61-b21307dbb479/x_large",
+      "custom_id_field_1": "3FKMNTJ58QHS",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-23",
+      "valid_to": "2026-05-06",
+      "categories": [
+        "Frozen"
+      ],
+      "pre_price_text": "",
+      "price_text": "4.28",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 500.5,
+      "bottom": -1331.77,
+      "right": 712.5,
+      "top": -1229.77,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Grains, Rice & Cereal",
+          "google_category_id": 352
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Rice",
+          "google_category_id": 2913
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7889170,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/3FKMNTJ58QHS?icid=digital_pages_grocery_mango_fest_182237_OGW23O7LAS",
+      "item_web_url": "https://www.walmart.ca/en/ip/3FKMNTJ58QHS",
+      "brand": "Aroy-D",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23116675/5fed5354-3a6a-11f1-bb61-b21307dbb479/x_large"
+      ],
+      "original_price": "4.97",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1007947037,
+      "name": "Frooti drink",
+      "sale_story": "Rollback",
+      "sku": "6000188763118",
+      "description": "Each.\n#30083607.",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-23T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-06T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23116675/5c8e08fc-3a6a-11f1-bb61-b21307dbb479/x_large",
+      "custom_id_field_1": "6000188763118",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-23",
+      "valid_to": "2026-05-06",
+      "categories": [
+        "Core Grocery"
+      ],
+      "pre_price_text": "",
+      "price_text": "1.98",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 642.5,
+      "bottom": -2125.77,
+      "right": 922.5,
+      "top": -1833.77,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Beverages",
+          "google_category_id": 320
+        },
+        "l3": null,
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7889170,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/6000188763118?icid=digital_pages_grocery_mango_fest_182237_OGW23O7LAS",
+      "item_web_url": "https://www.walmart.ca/en/ip/6000188763118",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23116675/5c8e08fc-3a6a-11f1-bb61-b21307dbb479/x_large"
+      ],
+      "original_price": "2.77",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1007947039,
+      "name": "Evergreen mango coconut milk drink",
+      "sale_story": "Rollback",
+      "sku": "4EOCDYDX0XT3",
+      "description": "Each. N\u00b0 50497314.",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-23T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-06T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23116675/5df40cbe-3a6a-11f1-bb61-b21307dbb479/x_large",
+      "custom_id_field_1": "4EOCDYDX0XT3",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-23",
+      "valid_to": "2026-05-06",
+      "categories": [
+        "Dairy"
+      ],
+      "pre_price_text": "",
+      "price_text": "1.98",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 334.5,
+      "bottom": -2436.77,
+      "right": 629.5,
+      "top": -2133.77,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Beverages",
+          "google_category_id": 320
+        },
+        "l3": null,
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7889170,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/4EOCDYDX0XT3?icid=digital_pages_grocery_mango_fest_182237_OGW23O7LAS",
+      "item_web_url": "https://www.walmart.ca/en/ip/4EOCDYDX0XT3",
+      "brand": "Evergreen",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23116675/5df40cbe-3a6a-11f1-bb61-b21307dbb479/x_large"
+      ],
+      "original_price": "2.47",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1007947036,
+      "name": "Cocon pudding",
+      "sale_story": "Rollback",
+      "sku": "6000197099151",
+      "description": "Each. N\u00b0 31595711",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-23T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-06T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23116675/5b111834-3a6a-11f1-bb61-b21307dbb479/x_large",
+      "custom_id_field_1": "6000197099151",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-23",
+      "valid_to": "2026-05-06",
+      "categories": [
+        "Core Grocery"
+      ],
+      "pre_price_text": "",
+      "price_text": "2.98",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 344.5,
+      "bottom": -2130.77,
+      "right": 642.5,
+      "top": -1833.77,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Snack Foods",
+          "google_category_id": 358
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Pudding & Gelatin Snacks",
+          "google_category_id": 2941
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7889170,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/6000197099151?icid=digital_pages_grocery_mango_fest_182237_OGW23O7LAS",
+      "item_web_url": "https://www.walmart.ca/en/ip/6000197099151",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23116675/5b111834-3a6a-11f1-bb61-b21307dbb479/x_large"
+      ],
+      "original_price": "3.67",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1007947030,
+      "name": "H&H thai honey dried mango",
+      "sale_story": "Rollback",
+      "sku": "6000197507157",
+      "description": "Each. #30053183",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-23T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-06T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23116675/5e9bcc42-3a6a-11f1-bb61-b21307dbb479/x_large",
+      "custom_id_field_1": "6000197507157",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-23",
+      "valid_to": "2026-05-06",
+      "categories": [
+        "Core Grocery"
+      ],
+      "pre_price_text": "",
+      "price_text": "7.88",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 626.5,
+      "bottom": -1829.77,
+      "right": 919.5,
+      "top": -1535.77,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Fruits",
+          "google_category_id": 2776
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Stone Fruits",
+          "google_category_id": 2824
+        },
+        "l6": {
+          "confidence": null,
+          "category_name": "Mangoes",
+          "google_category_id": 2827
+        },
+        "l7": null
+      },
+      "flyer_id": 7889170,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/6000197507157?icid=digital_pages_grocery_mango_fest_182237_OGW23O7LAS",
+      "item_web_url": "https://www.walmart.ca/en/ip/6000197507157",
+      "brand": "H&H",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23116675/5e9bcc42-3a6a-11f1-bb61-b21307dbb479/x_large"
+      ],
+      "original_price": "8.97",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1007946939,
+      "name": "Baby mangoes Product of Colombia.",
+      "sale_story": null,
+      "sku": "6000198590878",
+      "description": "#50059573. 13,18$/kg",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-23T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-06T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/417452141/1776697823/extra_large.jpg",
+      "custom_id_field_1": "6000198590878",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-23",
+      "valid_to": "2026-05-06",
+      "categories": [
+        "Produce"
+      ],
+      "pre_price_text": "",
+      "price_text": "5.98",
+      "post_price_text": "lb",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 475.5,
+      "bottom": -470.77,
+      "right": 939.5,
+      "top": -178.77,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Fruits",
+          "google_category_id": 2776
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Stone Fruits",
+          "google_category_id": 2824
+        },
+        "l6": {
+          "confidence": null,
+          "category_name": "Mangoes",
+          "google_category_id": 2827
+        },
+        "l7": null
+      },
+      "flyer_id": 7889170,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/6000198590878?icid=digital_pages_grocery_mango_fest_182237_OGW23O7LAS",
+      "item_web_url": "https://www.walmart.ca/en/ip/6000198590878",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_items/417452141/1776697823/extra_large.jpg"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1007946974,
+      "name": "Cool Runnings mango nectar",
+      "sale_story": null,
+      "sku": "5ZWAXL100BPG",
+      "description": "Each. \n#50414576",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-23T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-06T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/417452175/1776697825/extra_large.jpg",
+      "custom_id_field_1": "5ZWAXL100BPG",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-23",
+      "valid_to": "2026-05-06",
+      "categories": [
+        "Snacks & Beverage"
+      ],
+      "pre_price_text": "",
+      "price_text": "1.97",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 19.5,
+      "bottom": -1084.77,
+      "right": 333.5,
+      "top": -781.78,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Beverages",
+          "google_category_id": 320
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruit Flavored Drinks",
+          "google_category_id": 328
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7889170,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/5ZWAXL100BPG?icid=digital_pages_grocery_mango_fest_182237_OGW23O7LAS",
+      "item_web_url": "https://www.walmart.ca/en/ip/5ZWAXL100BPG",
+      "brand": "COOL RUNNINGS",
+      "images": [
+        "https://f.wishabi.net/page_items/417452175/1776697825/extra_large.jpg"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1007947000,
+      "name": "Verka Kesar mango pulp",
+      "sale_story": "Rollback",
+      "sku": "6000197477701",
+      "description": "Each.\n\n#31431105",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-23T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-06T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23116675/5c87139e-3a6a-11f1-bb61-b21307dbb479/x_large",
+      "custom_id_field_1": "6000197477701",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-23",
+      "valid_to": "2026-05-06",
+      "categories": [
+        "Core Grocery"
+      ],
+      "pre_price_text": "",
+      "price_text": "3.77",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 47.5,
+      "bottom": -1531.77,
+      "right": 482.5,
+      "top": -1231.77,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Canned & Jarred Fruits",
+          "google_category_id": 2770
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7889170,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/6000197477701?icid=digital_pages_grocery_mango_fest_182237_OGW23O7LAS",
+      "item_web_url": "https://www.walmart.ca/en/ip/6000197477701",
+      "brand": "Verka",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23116675/5c87139e-3a6a-11f1-bb61-b21307dbb479/x_large"
+      ],
+      "original_price": "4.47",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1007947033,
+      "name": "Allfit Konjac jelly pouch",
+      "sale_story": "Rollback",
+      "sku": "6BOF7UQH8RQA",
+      "description": "150 g.\nEach. #50887179",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-23T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-06T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23116675/5ea36cf4-3a6a-11f1-bb61-b21307dbb479/x_large",
+      "custom_id_field_1": "6BOF7UQH8RQA",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-23",
+      "valid_to": "2026-05-06",
+      "categories": [
+        "Snacks & Beverage"
+      ],
+      "pre_price_text": "",
+      "price_text": "1.38",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 46.5,
+      "bottom": -2130.77,
+      "right": 344.5,
+      "top": -1835.77,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Dips & Spreads",
+          "google_category_id": 348
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Jams & Jellies",
+          "google_category_id": 2762
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7889170,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/6BOF7UQH8RQA?icid=digital_pages_grocery_mango_fest_182237_OGW23O7LAS",
+      "item_web_url": "https://www.walmart.ca/en/ip/6BOF7UQH8RQA",
+      "brand": "Allfit",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23116675/5ea36cf4-3a6a-11f1-bb61-b21307dbb479/x_large"
+      ],
+      "original_price": "1.77",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1007947016,
+      "name": "Lotte ice cream mochi 9 x 30 mL",
+      "sale_story": "Rollback",
+      "sku": "6000203550670",
+      "description": "Each.\n\n\n#50094050.",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-23T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-06T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23116675/5ffb59a4-3a6a-11f1-bb61-b21307dbb479/x_large",
+      "custom_id_field_1": "6000203550670",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-23",
+      "valid_to": "2026-05-06",
+      "categories": [
+        "Frozen"
+      ],
+      "pre_price_text": "",
+      "price_text": "4.28",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 552.5,
+      "bottom": -1516.77,
+      "right": 757.5,
+      "top": -1334.77,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": null,
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7889170,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/6000203550670?icid=digital_pages_grocery_mango_fest_182237_OGW23O7LAS",
+      "item_web_url": "https://www.walmart.ca/en/ip/6000203550670",
+      "brand": "Lotte",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23116675/5ffb59a4-3a6a-11f1-bb61-b21307dbb479/x_large"
+      ],
+      "original_price": "4.97",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1007946980,
+      "name": "Kesar mangoes",
+      "sale_story": null,
+      "sku": "7D678LDSO27B",
+      "description": "Box. Product of India.",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-23T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-06T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/417452185/1776697826/extra_large.jpg",
+      "custom_id_field_1": "7D678LDSO27B",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-23",
+      "valid_to": "2026-05-06",
+      "categories": [
+        "Produce"
+      ],
+      "pre_price_text": "",
+      "price_text": "17.98",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 334.5,
+      "bottom": -1085.77,
+      "right": 650.5,
+      "top": -787.78,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Fruits",
+          "google_category_id": 2776
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Stone Fruits",
+          "google_category_id": 2824
+        },
+        "l6": {
+          "confidence": null,
+          "category_name": "Mangoes",
+          "google_category_id": 2827
+        },
+        "l7": null
+      },
+      "flyer_id": 7889170,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/7D678LDSO27B?icid=digital_pages_grocery_mango_fest_182237_OGW23O7LAS",
+      "item_web_url": "https://www.walmart.ca/en/ip/7D678LDSO27B",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_items/417452185/1776697826/extra_large.jpg"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1007947040,
+      "name": "Kazouza sparkling mango-flavoured drink",
+      "sale_story": "Rollback",
+      "sku": "3IROOXBYZ66P",
+      "description": "Pack. #50837534.",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-23T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-06T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23116675/609f62ec-3a6a-11f1-bb61-b21307dbb479/x_large",
+      "custom_id_field_1": "3IROOXBYZ66P",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-23",
+      "valid_to": "2026-05-06",
+      "categories": [
+        "Core Grocery"
+      ],
+      "pre_price_text": "",
+      "price_text": "4.97",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 629.5,
+      "bottom": -2447.77,
+      "right": 926.5,
+      "top": -2133.77,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Beverages",
+          "google_category_id": 320
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruit Flavored Drinks",
+          "google_category_id": 328
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7889170,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/3IROOXBYZ66P?icid=digital_pages_grocery_mango_fest_182237_OGW23O7LAS",
+      "item_web_url": "https://www.walmart.ca/en/ip/3IROOXBYZ66P",
+      "brand": "Kazouza",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23116675/609f62ec-3a6a-11f1-bb61-b21307dbb479/x_large"
+      ],
+      "original_price": "7.97",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1007946953,
+      "name": "Ataulfo mangoes",
+      "sale_story": null,
+      "sku": "6000196088114",
+      "description": "Product of Mexico.\n#9480210.",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-23T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-06T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23116675/5a606f16-3a6a-11f1-bb61-b21307dbb479/x_large",
+      "custom_id_field_1": "6000196088114",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-23",
+      "valid_to": "2026-05-06",
+      "categories": [
+        "Produce"
+      ],
+      "pre_price_text": "",
+      "price_text": "0.84",
+      "post_price_text": "Each",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 19.5,
+      "bottom": -774.78,
+      "right": 486.5,
+      "top": -475.77,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Fruits",
+          "google_category_id": 2776
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Stone Fruits",
+          "google_category_id": 2824
+        },
+        "l6": {
+          "confidence": null,
+          "category_name": "Mangoes",
+          "google_category_id": 2827
+        },
+        "l7": null
+      },
+      "flyer_id": 7889170,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/6000196088114?icid=digital_pages_grocery_mango_fest_182237_OGW23O7LAS",
+      "item_web_url": "https://www.walmart.ca/en/ip/6000196088114",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23116675/5a606f16-3a6a-11f1-bb61-b21307dbb479/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1007946963,
+      "name": "Jumbo papaya",
+      "sale_story": null,
+      "sku": "6000191271897",
+      "description": "Product of Mexico\nor Guatemala.\n#30295582.\n4,34 $/kg",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-23T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-06T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/417452169/1776697824/extra_large.jpg",
+      "custom_id_field_1": "6000191271897",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-23",
+      "valid_to": "2026-05-06",
+      "categories": [
+        "Produce"
+      ],
+      "pre_price_text": "",
+      "price_text": "1.97",
+      "post_price_text": "lb",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 486.5,
+      "bottom": -774.78,
+      "right": 945.5,
+      "top": -490.77,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Fruits",
+          "google_category_id": 2776
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Papayas",
+          "google_category_id": 2810
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7889170,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/6000191271897?icid=digital_pages_grocery_mango_fest_182237_OGW23O7LAS",
+      "item_web_url": "https://www.walmart.ca/en/ip/6000191271897",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_items/417452169/1776697824/extra_large.jpg"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1007947027,
+      "name": "M-C Dairy Alphonso 1.6% mango lassi",
+      "sale_story": "Rollback",
+      "sku": "6000196823417",
+      "description": "Each. #31737327.",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-23T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-06T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23116675/5e00005a-3a6a-11f1-bb61-b21307dbb479/x_large",
+      "custom_id_field_1": "6000196823417",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-23",
+      "valid_to": "2026-05-06",
+      "categories": [
+        "Dairy"
+      ],
+      "pre_price_text": "",
+      "price_text": "3.67",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 339.5,
+      "bottom": -1829.77,
+      "right": 626.5,
+      "top": -1535.77,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Fruits",
+          "google_category_id": 2776
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Stone Fruits",
+          "google_category_id": 2824
+        },
+        "l6": {
+          "confidence": null,
+          "category_name": "Mangoes",
+          "google_category_id": 2827
+        },
+        "l7": null
+      },
+      "flyer_id": 7889170,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/6000196823417?icid=digital_pages_grocery_mango_fest_182237_OGW23O7LAS",
+      "item_web_url": "https://www.walmart.ca/en/ip/6000196823417",
+      "brand": "MC Dairy",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23116675/5e00005a-3a6a-11f1-bb61-b21307dbb479/x_large"
+      ],
+      "original_price": "4.27",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1007946990,
+      "name": "Banner - Rollback",
+      "sale_story": null,
+      "sku": null,
+      "description": null,
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-23T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-06T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/417452194/1776697828/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-23",
+      "valid_to": "2026-05-06",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 36.5,
+      "bottom": -1213.77,
+      "right": 900.5,
+      "top": -1114.77,
+      "page": 1,
+      "item_categories": {
+        "l1": null,
+        "l2": null,
+        "l3": null,
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7889170,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 5,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/shop/rollbacks-and-more/6000205319047?icid=digital_pages_grocery_mango_fest_182237_OGW23O7LAS",
+      "item_web_url": "https://www.walmart.ca/en/shop/rollbacks-and-more/6000205319047",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_items/417452194/1776697828/extra_large.jpg"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1007946900,
+      "name": "Red mangoes",
+      "sale_story": null,
+      "sku": "6000191271889",
+      "description": "Each. Product of Mexico.\n#31401451.",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-23T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-06T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/417452088/1776697822/extra_large.jpg",
+      "custom_id_field_1": "6000191271889",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-23",
+      "valid_to": "2026-05-06",
+      "categories": [
+        "Produce"
+      ],
+      "pre_price_text": "",
+      "price_text": "1.44",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 39.5,
+      "bottom": -470.77,
+      "right": 474.5,
+      "top": -194.77,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Fruits",
+          "google_category_id": 2776
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Stone Fruits",
+          "google_category_id": 2824
+        },
+        "l6": {
+          "confidence": null,
+          "category_name": "Mangoes",
+          "google_category_id": 2827
+        },
+        "l7": null
+      },
+      "flyer_id": 7889170,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/6000191271889?icid=digital_pages_grocery_mango_fest_182237_OGW23O7LAS",
+      "item_web_url": "https://www.walmart.ca/en/ip/6000191271889",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_items/417452088/1776697822/extra_large.jpg"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1007947021,
+      "name": "Juhayna mango drink",
+      "sale_story": "ROLLBACK",
+      "sku": "6NIZP74IW0W5",
+      "description": "Each. 1 L.\n\n#50151180",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-23T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-06T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23116675/5d54147a-3a6a-11f1-bb61-b21307dbb479/x_large",
+      "custom_id_field_1": "6NIZP74IW0W5",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-23",
+      "valid_to": "2026-05-06",
+      "categories": [
+        "Snacks & Beverage"
+      ],
+      "pre_price_text": "",
+      "price_text": "1.97",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 55.5,
+      "bottom": -1829.77,
+      "right": 339.5,
+      "top": -1535.77,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Beverages",
+          "google_category_id": 320
+        },
+        "l3": null,
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7889170,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/6NIZP74IW0W5?icid=digital_pages_grocery_mango_fest_182237_OGW23O7LAS",
+      "item_web_url": "https://www.walmart.ca/en/ip/6NIZP74IW0W5",
+      "brand": "Juhayna",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23116675/5d54147a-3a6a-11f1-bb61-b21307dbb479/x_large"
+      ],
+      "original_price": "2.47",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1007947041,
+      "name": "Banner - Mango season",
+      "sale_story": null,
+      "sku": null,
+      "description": null,
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-23T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-06T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/417452245/1776697837/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-23",
+      "valid_to": "2026-05-06",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 33.24,
+      "bottom": -295.45,
+      "right": 956.53,
+      "top": -177.27,
+      "page": 1,
+      "item_categories": {
+        "l1": null,
+        "l2": null,
+        "l3": null,
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7889170,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 5,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/shop/summer-flavours/3059731116302?icid=digital_pages_grocery_mango_fest_182237_OGW23O7LAS",
+      "item_web_url": "https://www.walmart.ca/en/shop/summer-flavours/3059731116302",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_items/417452245/1776697837/extra_large.jpg"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    }
+  ]
+}
