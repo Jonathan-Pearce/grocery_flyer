@@ -1,0 +1,226 @@
+=== Metro Quebec Flyer Fetch — 2026-04-30 ===
+Run started : 2026-04-30 13:52:36 UTC
+
+Loaded 182 stores from data/metro_qc/stores.json
+
+Stores loaded: 182
+Loaded existing store_flyers.json (1274 flyer entries)
+
+Phase 1: fetching flyer listings per store…
+
+  [161] Metro Plus Thibeault Ste-Sophie → ['82979', '82979H', '82979B', '82979P']
+  [342] Metro Plus Ste-Foy, Québec → ['82979', '82979H', '82979B', '82979P']
+  [343] Metro Plus St-Nicolas, Lévis → ['82979', '82979H', '82979B', '82979P']
+  [346] Metro Plus St-David, Québec → ['82979', '82979H', '82979B', '82979P']
+  [349] Metro Plus Mail St-Roch, Québec → ['82979', '82979H', '82979B', '82979P']
+  [351] Metro Innovation, Québec → ['82979', '82979H', '82979B', '82979P']
+  [353] Marché Saint-Augustin L'Hêtrière Inc. → ['82979', '82979H', '82979B', '82979P']
+  [354] Alimentation Carl Auger Inc., Boul. Pie-Xi Nord → ['82979', '82979H', '82979B', '82979P']
+  [355] Metro Richelieu Inc. / St-Raymond → ['82979', '82979H', '82979B', '82979P']
+  [356] Metro Donnacona → ['82979', '82979H', '82979B', '82979P']
+  [358] Metro La Malbaie → ['82979', '82979H', '82979B', '82979P']
+  [360] Metro Black-Lake, Thetford Mines → ['82979', '82979H', '82979B', '82979P']
+  [361] Metro Plus Lévis → ['82979', '82979H', '82979B', '82979P']
+  [362] Metro Charny, Lévis → ['82979', '82979H', '82979B', '82979P']
+  [365] Metro Plus des Forges, Trois-Rivières → ['82979', '82979H', '82979B', '82979P']
+  [366] Metro Plus Jean XXIII, Trois-Rivières → ['82979', '82979H', '82979B', '82979P']
+  [369] Alimentation Sylvain Daigle Inc. → ['82979', '82979H', '82979B', '82979P']
+  [371] Alimentation Merouane Amour Inc., Montréal → ['82979', '82979H', '82979B', '82979P']
+  [372] Alimentation Fabrice Koné Inc. → ['82979', '82979H', '82979B', '82979P']
+  [373] Metro Plus Domaine, Montréal → ['82979', '82979H', '82979B', '82979P']
+  [374] Metro Pie IX, Rue Jean-Talon Est, Montréal → ['82979', '82979H', '82979B', '82979P']
+  [375] Metro Morgan, Rue Ste-Catherine Est, Montréal → ['82979', '82979H', '82979B', '82979P']
+  [376] Metro Ontario, Montréal → ['82979', '82979H', '82979B', '82979P']
+  [377] Metro Plus Fleury, Montréal → ['82979', '82979H', '82979B', '82979P']
+  [378] Metro Plus Dorion Ste-Catherine, Montréal → ['82979', '82979H', '82979B', '82979P']
+  [380] Metro Avenue du Parc, Montréal → ['82979', '82979H', '82979B', '82979P']
+  [381] Metro Plus Wilderton → ['82979', '82979H', '82979B', '82979P']
+  [382] Metro Côte-des-Neiges, Montréal → ['82979', '82979H', '82979B', '82979P']
+  [383] Metro Queen Mary, Montréal → ['82979', '82979H', '82979B', '82979P']
+  [384] Metro Westmount → ['82979', '82979H', '82979B', '82979P']
+  [386] 9477-0690 Québec Inc. → ['82979', '82979H', '82979B', '82979P']
+  [387] Metro Plus Concorde Duvernay, Laval → ['82979', '82979H', '82979B', '82979P']
+  [390] Metro Plus Dollard, Montréal → ['82979', '82979H', '82979B', '82979P']
+  [393] Metro Plus Kirkland → ['82979', '82979H', '82979B', '82979P']
+  [395] Metro Plus Pointe-Claire → ['82979', '82979H', '82979B', '82979P']
+  [396] Metro Plus Beaconsfield → ['82979', '82979H', '82979B', '82979P']
+  [401] Metro Plus de Drummondville, boul Lemire → ['82979', '82979H', '82979B', '82979P']
+  [402] Metro Plus Promenades Drummondville → ['82979', '82979H', '82979B', '82979P']
+  [404] Metro Plus Sorel-Tracy → ['82979', '82979H', '82979B', '82979P']
+  [405] Marché Pilon, Boul. De La Cité Des Jeunes, Gatineau → ['82979', '82979H', '82979B', '82979P']
+  [407] Metro Plus St-Constant → ['82979', '82979H', '82979B', '82979P']
+  [408] Metro Plus Bellemare, Brossard → ['82979', '82979H', '82979B', '82979P']
+  [409] Metro Candiac → ['82979', '82979H', '82979B', '82979P']
+  [410] Metro Plus Châteauguay → ['82979', '82979H', '82979B', '82979P']
+  [411] Metro Plus Valleyfield → ['82979', '82979H', '82979B', '82979P']
+  [412] Metro Plus Collin Chambly → ['82979', '82979H', '82979B', '82979P']
+  [413] Metro Plus Terrebonne → ['82979', '82979H', '82979B', '82979P']
+  [420] Metro Plus Buckingham, Gatineau → ['82979', '82979H', '82979B', '82979P']
+  [485] Metro Plus De la Montagne, Montréal → ['82979', '82979H', '82979B', '82979P']
+  [487] Metro Plus Victoriaville → ['82979', '82979H', '82979B', '82979P']
+  [532] Supermarché Claka Inc., Québec → ['82979', '82979H', '82979B', '82979P']
+  [533] Metro Plus De  La Rousselière, Montréal → ['82979', '82979H', '82979B', '82979P']
+  [534] Metro Ville Mont-Royal → ['82979', '82979H', '82979B', '82979P']
+  [535] Metro Ste-Anne-de-La Pérade → ['82979', '82979H', '82979B', '82979P']
+  [537] Metro Lebel Mont-Royal, Montréal → ['82979', '82979H', '82979B', '82979P']
+  [538] Metro Bigras, Montréal → ['82979', '82979H', '82979B', '82979P']
+  [540] Metro Plus Boucher St-Félix-de-Valois → ['82979', '82979H', '82979B', '82979P']
+  [541] Metro Boucher St-Jean-de-Matha → ['82979', '82979H', '82979B', '82979P']
+  [542] Metro Plus Fournier Cap-de-la-Madeleine, Trois-Rivières → ['82979', '82979H', '82979B', '82979P']
+  [543] Metro Masson, Trois-Rivières → ['82979', '82979H', '82979B', '82979P']
+  [545] Metro Saint-Tite, St-Tite-De-Champlain → ['82979', '82979H', '82979B', '82979P']
+  [546] Metro Plus Thibeault Blainville, Boul. Curé-Labelle → ['82979', '82979H', '82979B', '82979P']
+  [548] Metro Plus Thibeault St-Antoine, St-Jérôme → ['82979', '82979H', '82979B', '82979P']
+  [549] Metro Plus Thibeault St-Jérôme → ['82979', '82979H', '82979B', '82979P']
+  [551] Metro E. Bourdon & Fils, rue Jean Talon Est → ['82979', '82979H', '82979B', '82979P']
+  [552] Metro Plus Perrier & Martel, Boul. Arthur-Sauvé → ['82979', '82979H', '82979B', '82979P']
+  [553] Metro Oka → ['82979', '82979H', '82979B', '82979P']
+  [554] Metro Plus Beaulieu Ste-Julienne → ['82979', '82979H', '82979B', '82979P']
+  [555] Metro Plus Boucher Rawdon → ['82979', '82979H', '82979B', '82979P']
+  [556] Metro Plus Bélair Joliette, Rue Beaudry Nord → ['82979', '82979H', '82979B', '82979P']
+  [557] Metro St-Marc-des-Carrières → ['82979', '82979H', '82979B', '82979P']
+  [559] Metro Ferland Centre-Ville, Québec → ['82979', '82979H', '82979B', '82979P']
+  [560] Metro Beaubien, Montréal → ['82979', '82979H', '82979B', '82979P']
+  [563] Metro Val-David → ['82979', '82979H', '82979B', '82979P']
+  [564] Metro Marché Laval Veilleux, St-Georges Sud → ['82979', '82979H', '82979B', '82979P']
+  [565] Marché Alain Valiquette, Lac-Mégantic → ['82979', '82979H', '82979B', '82979P']
+  [566] Metro Plus Plouffe Magog → ['82979', '82979H', '82979B', '82979P']
+  [569] Metro Rouillard & Frères, Pierreville → ['82979', '82979H', '82979B', '82979P']
+  [570] Metro Plus Émery Louiseville → ['82979', '82979H', '82979B', '82979P']
+  [572] Metro Plus Ile-Perrot, Notre-Dame-De-L'ile-Perrot → ['82979', '82979H', '82979B', '82979P']
+  [575] Marché Daoust (1985) Valleyfield → ['82979', '82979H', '82979B', '82979P']
+  [579] Metro du Témis Dégelis → ['82979', '82979H', '82979B', '82979P']
+  [580] Metro St-André Avellin → ['82979', '82979H', '82979B', '82979P']
+  [581] Metro Plus Leblanc, boul. Maloney → ['82979', '82979H', '82979B', '82979P']
+  [584] Metro Plus Jonquière, Saguenay → ['82979', '82979H', '82979B', '82979P']
+  [585] Metro Sagamie Jonquière, Saguenay → ['82979', '82979H', '82979B', '82979P']
+  [586] Metro Boutin St-Félicien → ['82979', '82979H', '82979B', '82979P']
+  [587] Metro Gracefield → ['82979', '82979H', '82979B', '82979P']
+  [588] Metro Chénéville → ['82979', '82979H', '82979B', '82979P']
+  [589] Metro Thurso, Rue Victoria → ['82979', '82979H', '82979B', '82979P']
+  [591] Metro Lapointe Maniwaki → ['82979', '82979H', '82979B', '82979P']
+  [592] Metro Tanguay Papineauville → ['82979', '82979H', '82979B', '82979P']
+  [596] Metro Plouffe Bedford → ['82979', '82979H', '82979B', '82979P']
+  [597] Metro Plus Plouffe Farnham → ['82979', '82979H', '82979B', '82979P']
+  [599] Metro Plus St-Grégoire, Bécancour → ['82979', '82979H', '82979B', '82979P']
+  [601] Metro Iberville Repentigny → ['82979', '82979H', '82979B', '82979P']
+  [603] Metro Plus Marquis Repentigny → ['82979', '82979H', '82979B', '82979P']
+  [604] Metro Plus Fogarty Charlemagne → ['82979', '82979H', '82979B', '82979P']
+  [606] 9486-7041 Québec Inc. → ['82979', '82979H', '82979B', '82979P']
+  [608] Metro Plus Cardinal Ste-Catherine → ['82979', '82979H', '82979B', '82979P']
+  [609] Metro Plus Bellemare Lapinière, Brossard → ['82979', '82979H', '82979B', '82979P']
+  [611] Metro Plus Raymond Drouin, Longueuil → ['82979', '82979H', '82979B', '82979P']
+  [612] Supermarché Riendeau, Ste-Julie → ['82979', '82979H', '82979B', '82979P']
+  [613] Metro Richelieu Inc./Verchères → ['82979', '82979H', '82979B', '82979P']
+  [615] Metro Viens Carleton → ['82979', '82979H', '82979B', '82979P']
+  [617] Métro Plus Gaétan Riendeau, St-Hyacinthe → ['82979', '82979H', '82979B', '82979P']
+  [618] Metro Plus Riendeau Beloeil → ['82979', '82979H', '82979B', '82979P']
+  [620] Metro Plus Riendeau St-Hilaire → ['82979', '82979H', '82979B', '82979P']
+  [623] Metro Plus Riendeau St-Hubert, Longueuil → ['82979', '82979H', '82979B', '82979P']
+  [624] Metro Bellemare St-Hubert, Longueuil → ['82979', '82979H', '82979B', '82979P']
+  [626] Metro Laroche Laurier-Station → ['82979', '82979H', '82979B', '82979P']
+  [627] Metro Plus Laroche St-Etienne, Lévis → ['82979', '82979H', '82979B', '82979P']
+  [628] Metro Marquis Québec (Cartier) → ['82979', '82979H', '82979B', '82979P']
+  [629] Metro Plus Plouffe King Est, Sherbrooke → ['82979', '82979H', '82979B', '82979P']
+  [630] Metro Plus Plouffe Bourque, Sherbrooke → ['82979', '82979H', '82979B', '82979P']
+  [632] Metro Plus Coop D'Asbestos → ['82979', '82979H', '82979B', '82979P']
+  [634] Metro Blanchard St-Alphonse, Route 343 → ['82979', '82979H', '82979B', '82979P']
+  [636] Metro Beaulieu Laurier, Montréal → ['82979', '82979H', '82979B', '82979P']
+  [641] Metro Emery St-Damien → ['82979', '82979H', '82979B', '82979P']
+  [643] Metro Plus Depatie, Boul. De L'avenir, Laval → ['82979', '82979H', '82979B', '82979P']
+  [644] Metro Marieville → ['82979', '82979H', '82979B', '82979P']
+  [654] Metro Plus St-Gabriel → ['82979', '82979H', '82979B', '82979P']
+  [655] Metro Plus Plouffe Bromont → ['82979', '82979H', '82979B', '82979P']
+  [656] Metro Plouffe Granby → ['82979', '82979H', '82979B', '82979P']
+  [657] Metro Richelieu Inc., Waterloo → ['82979', '82979H', '82979B', '82979P']
+  [658] Metro Plus Marché Central C.J.C., Longueuil → ['82979', '82979H', '82979B', '82979P']
+  [659] Metro Plus André-Grasset, Montréal → ['82979', '82979H', '82979B', '82979P']
+  [660] Metro Messier Fort-St-Louis, Boucherville → ['82979', '82979H', '82979B', '82979P']
+  [661] Metro de la Concorde, Laval → ['82979', '82979H', '82979B', '82979P']
+  [662] Metro Plus Mascouche, Rue Montée Masson → ['82979', '82979H', '82979B', '82979P']
+  [664] Metro Rosemère, Chemin Grande-Côte → ['82979', '82979H', '82979B', '82979P']
+  [665] Metro Plus Messier Auteuil, Laval → ['82979', '82979H', '82979B', '82979P']
+  [666] Metro Plus St-Joseph, Montréal → ['82979', '82979H', '82979B', '82979P']
+  [667] Marché R. Dubé Ltée, Avenue Begin → ['82979', '82979H', '82979B', '82979P']
+  [669] Metro Plus Fordham, St-Zotique → ['82979', '82979H', '82979B', '82979P']
+  [671] Metro Corriveau et Fille, Napierville → ['82979', '82979H', '82979B', '82979P']
+  [672] Metro Dubuc Deschaillons → ['82979', '82979H', '82979B', '82979P']
+  [673] Metro Denigil Ste-Dorothée, Laval → ['82979', '82979H', '82979B', '82979P']
+  [674] Metro Sabrevois Boucherville → ['82979', '82979H', '82979B', '82979P']
+  [675] Metro Plus Lebel La Pocatière → ['82979', '82979H', '82979B', '82979P']
+  [677] Metro Bellemare Verdun, Montréal → ['82979', '82979H', '82979B', '82979P']
+  [679] Metro Plus Boucher Berthierville → ['82979', '82979H', '82979B', '82979P']
+  [680] Metro Plus  Kelly Aylmer Inc., Gatineau → ['82979', '82979H', '82979B', '82979P']
+  [681] Metro Doré Mont-Laurier → ['82979', '82979H', '82979B', '82979P']
+  [682] Metro Plus Lafrance Anjou, Montréal → ['82979', '82979H', '82979B', '82979P']
+  [683] Metro Marcanio, Montréal → ['82979', '82979H', '82979B', '82979P']
+  [684] Metro Plus Ancienne-Lorette → ['82979', '82979H', '82979B', '82979P']
+  [686] Metro Plus Charlesbourg, Québec → ['82979', '82979H', '82979B', '82979P']
+  [687] Metro Courville → ['82979', '82979H', '82979B', '82979P']
+  [688] Alimentation Bernard Sylvestre, Québec → ['82979', '82979H', '82979B', '82979P']
+  [689] Metro Plus GP Notre-Dame-des-Laurentides, Québec → ['82979', '82979H', '82979B', '82979P']
+  [690] Metro Plus St-Augustin, Rte 138 → ['82979', '82979H', '82979B', '82979P']
+  [691] Metro Plus GP St-Émile, De La Faune, Québec → ['82979', '82979H', '82979B', '82979P']
+  [693] Metro Lac Etchemin → ['82979', '82979H', '82979B', '82979P']
+  [694] Marché Dubé Délisle, Alma → ['82979', '82979H', '82979B', '82979P']
+  [696] Metro Plus Boutin Dolbeau-Mistassini → ['82979', '82979H', '82979B', '82979P']
+  [697] Metro Plus Côte Vertu, Montréal → ['82979', '82979H', '82979B', '82979P']
+  [698] 9477-0716 Québec Inc. → ['82979', '82979H', '82979B', '82979P']
+  [701] Metro Plus Rimouski → ['82979', '82979H', '82979B', '82979P']
+  [702] Metro Ste-Anne des Monts → ['82979', '82979H', '82979B', '82979P']
+  [703] Metro Trois-Pistoles → ['82979', '82979H', '82979B', '82979P']
+  [711] Metro Valcartier, Courcelette Shannon → ['82979', '82979H', '82979B', '82979P']
+  [712] Marché Chicoutimi Inc. (Talbot) → ['82979', '82979H', '82979B', '82979P']
+  [717] Marché Ste-Agathe Inc. → ['82979', '82979H', '82979B', '82979P']
+  [718] Metro Plus Ste-Adèle → ['82979', '82979H', '82979B', '82979P']
+  [723] Metro Plus St-Laurent (St-Eustache) → ['82979', '82979H', '82979B', '82979P']
+  [724] Metro Plus Ste-Marthe → ['82979', '82979H', '82979B', '82979P']
+  [725] Metro Plus Arthur-Sauvé → ['82979', '82979H', '82979B', '82979P']
+  [726] Metro Plus Ste-Rose, Boul. Curé-Labelle, Laval → ['82979', '82979H', '82979B', '82979P']
+  [734] Metro Mont-Tremblant → ['82979', '82979H', '82979B', '82979P']
+  [736] Metro Plus L'Épiphanie → ['82979', '82979H', '82979B', '82979P']
+  [741] Metro Mansfield → ['82979', '82979H', '82979B', '82979P']
+  [757] Alimentation Francine Roy, Vaudreuil-Dorion → ['82979', '82979H', '82979B', '82979P']
+  [766] Metro Marquis Plus, L'Assomption → ['82979', '82979H', '82979B', '82979P']
+  [775] Alimentation Régent Cossette - Montée Paiement → ['82979', '82979H', '82979B', '82979P']
+  [776] 9477-0674 Québec Inc. → ['82979', '82979H', '82979B', '82979P']
+  [853] Metro Plus Lachine → ['82979', '82979H', '82979B', '82979P']
+  [859] Metro Plus Prévost → ['82979', '82979H', '82979B', '82979P']
+  [861] Metro épicerie en ligne inc. → ['82979', '82979H', '82979B', '82979P']
+  [862] Marché Chicoutimi Inc. (Saguenay) → ['82979', '82979H', '82979B', '82979P']
+  [892] Metro Plus Thibeault Mirabel → ['82979', '82979H', '82979B', '82979P']
+  [936] Metro Beaulieu Mont-Royal Fabre → ['82979', '82979H', '82979B', '82979P']
+
+  728 new flyer entries across 182 stores
+  4 unique new job(s) to download
+  Saved → data/metro_qc/store_flyers.json  (6,226,690 bytes)
+New flyer entries added to store_flyers.json : 728
+Unique new jobs to download                  : 4
+
+Phase 2: fetching products for each new job…
+
+  [82979] store 161  (https://metrodigital-apim.azure-api.net/api/Pages/82979/161/en/search)
+    424 products
+  Saved → data/metro_qc/flyers/82979.json  (1,847,587 bytes)
+  [82979H] store 161  (https://metrodigital-apim.azure-api.net/api/Pages/82979H/161/en/search)
+    9 products
+  Saved → data/metro_qc/flyers/82979H.json  (34,374 bytes)
+  [82979B] store 161  (https://metrodigital-apim.azure-api.net/api/Pages/82979B/161/en/search)
+    41 products
+  Saved → data/metro_qc/flyers/82979B.json  (157,891 bytes)
+  [82979P] store 161  (https://metrodigital-apim.azure-api.net/api/Pages/82979P/161/en/search)
+    34 products
+  Saved → data/metro_qc/flyers/82979P.json  (130,084 bytes)
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 4
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-04-30 13:53:16 UTC
+Elapsed      : 0m 39s
+
+
+Done.  Verbose log → logs/metro_qc/2026-04-30_verbose.log
+       Summary log → logs/metro_qc/2026-04-30_summary.log
+

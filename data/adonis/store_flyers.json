@@ -347,6 +347,93 @@
       },
       "pagesJson": null,
       "disableClickRegions": false
+    },
+    {
+      "id": "69f220eaf30207cf782b18b3",
+      "flyerId": "69f220e9f30207cf782b18b2",
+      "abVersion": null,
+      "title": "83010",
+      "jobName": "2026-04-30_Weekly Flyer_83010",
+      "flyerTitle": "Circulaire hebdomadaire",
+      "zonedPublicationName": "QUE",
+      "flyerCategory": "Weekly Flyer",
+      "language": "bil",
+      "thumbnail": "https://metrocommonapi.blob.core.windows.net/83010/thumbnails/1_QUE.webp?version=ca429f87",
+      "pdf": "https://metrocommonapi.blob.core.windows.net/83010/pdfs/Adonis Weekly Flyer 0 Valid 30-04-26 - 06-05-26.pdf?version=ca429f87",
+      "blockedFlyer": true,
+      "startDate": "2026-04-30T00:00:00Z",
+      "endDate": "2026-05-06T23:59:00Z",
+      "previewDate": "2026-04-28T00:00:00Z",
+      "storeName": "Sauv\u00e9",
+      "province": "QC",
+      "pageCount": 9,
+      "adPageCount": 0,
+      "pageGridType": "MegaGrid",
+      "headerEn": "",
+      "headerFr": "",
+      "flyerType": "live",
+      "premiumThumbnails": [
+        "https://metrocommonapi.blob.core.windows.net/83010/PremiumThumbnails/ThumbnailA_QUE.jpg?version=ca429f87",
+        "https://metrocommonapi.blob.core.windows.net/83010/PremiumThumbnails/ThumbnailB_QUE_QUE_QUE.jpg?version=ca429f87"
+      ],
+      "config": {
+        "branding": {
+          "primaryColor": "#545454",
+          "secondaryColor": "#EE3124",
+          "tertiaryColor": "#00A651",
+          "accessKey": "?sv=2020-10-02&st=2022-01-01T19%3A19%3A00Z&se=2030-01-01T19%3A19%3A00Z&sr=s&sp=rl&sig=jSLmf5xZPH7Qmv4OTF7j7YMl0R5t91slBvvRm9DwfkM%3D",
+          "logo": {
+            "altText": "Adonis",
+            "size": {
+              "desktop": "",
+              "mobile": ""
+            }
+          },
+          "scrollArea": {
+            "scrollButton": {
+              "background": "#000000"
+            }
+          },
+          "helpScreenImage": "https://metrocommonapi.blob.core.windows.net/83010/",
+          "backgroundColor": null,
+          "font": null,
+          "disclaimerFont": null,
+          "landingPageMessage": null,
+          "walkthroughContent": "test walkthrough content FR",
+          "rewardsButtonTitle": ""
+        },
+        "features": {
+          "filters": {
+            "searchbar": {},
+            "discount": {
+              "values": []
+            },
+            "category": {}
+          },
+          "toggleView": {},
+          "fullScreen": {
+            "postMessage": "fs"
+          },
+          "pdfDownload": true,
+          "pdp": true,
+          "shoppingList": true,
+          "search": true,
+          "zoom": true,
+          "orientation": false,
+          "toast": false,
+          "dealEnding": false,
+          "landingPage": true,
+          "thumbnailsSize": false,
+          "helpScreen": true,
+          "walkthrough": true,
+          "pageNumberOnScroll": false,
+          "personalization": false,
+          "isLandingPageMessageVisible": false,
+          "emailSignup": false
+        }
+      },
+      "pagesJson": null,
+      "disableClickRegions": false
     }
   ],
   "21938": [
@@ -658,6 +745,93 @@
             }
           },
           "helpScreenImage": "https://metrocommonapi.blob.core.windows.net/83009/",
+          "backgroundColor": null,
+          "font": null,
+          "disclaimerFont": null,
+          "landingPageMessage": null,
+          "walkthroughContent": "test walkthrough content FR",
+          "rewardsButtonTitle": ""
+        },
+        "features": {
+          "filters": {
+            "searchbar": {},
+            "discount": {
+              "values": []
+            },
+            "category": {}
+          },
+          "toggleView": {},
+          "fullScreen": {
+            "postMessage": "fs"
+          },
+          "pdfDownload": true,
+          "pdp": true,
+          "shoppingList": true,
+          "search": true,
+          "zoom": true,
+          "orientation": false,
+          "toast": false,
+          "dealEnding": false,
+          "landingPage": true,
+          "thumbnailsSize": false,
+          "helpScreen": true,
+          "walkthrough": true,
+          "pageNumberOnScroll": false,
+          "personalization": false,
+          "isLandingPageMessageVisible": false,
+          "emailSignup": false
+        }
+      },
+      "pagesJson": null,
+      "disableClickRegions": false
+    },
+    {
+      "id": "69f220eaf30207cf782b18b3",
+      "flyerId": "69f220e9f30207cf782b18b2",
+      "abVersion": null,
+      "title": "83010",
+      "jobName": "2026-04-30_Weekly Flyer_83010",
+      "flyerTitle": "Circulaire hebdomadaire",
+      "zonedPublicationName": "QUE",
+      "flyerCategory": "Weekly Flyer",
+      "language": "bil",
+      "thumbnail": "https://metrocommonapi.blob.core.windows.net/83010/thumbnails/1_QUE.webp?version=ca429f87",
+      "pdf": "https://metrocommonapi.blob.core.windows.net/83010/pdfs/Adonis Weekly Flyer 0 Valid 30-04-26 - 06-05-26.pdf?version=ca429f87",
+      "blockedFlyer": true,
+      "startDate": "2026-04-30T00:00:00Z",
+      "endDate": "2026-05-06T23:59:00Z",
+      "previewDate": "2026-04-28T00:00:00Z",
+      "storeName": "Laval",
+      "province": "QC",
+      "pageCount": 9,
+      "adPageCount": 0,
+      "pageGridType": "MegaGrid",
+      "headerEn": "",
+      "headerFr": "",
+      "flyerType": "live",
+      "premiumThumbnails": [
+        "https://metrocommonapi.blob.core.windows.net/83010/PremiumThumbnails/ThumbnailA_QUE.jpg?version=ca429f87",
+        "https://metrocommonapi.blob.core.windows.net/83010/PremiumThumbnails/ThumbnailB_QUE_QUE_QUE.jpg?version=ca429f87"
+      ],
+      "config": {
+        "branding": {
+          "primaryColor": "#545454",
+          "secondaryColor": "#EE3124",
+          "tertiaryColor": "#00A651",
+          "accessKey": "?sv=2020-10-02&st=2022-01-01T19%3A19%3A00Z&se=2030-01-01T19%3A19%3A00Z&sr=s&sp=rl&sig=jSLmf5xZPH7Qmv4OTF7j7YMl0R5t91slBvvRm9DwfkM%3D",
+          "logo": {
+            "altText": "Adonis",
+            "size": {
+              "desktop": "",
+              "mobile": ""
+            }
+          },
+          "scrollArea": {
+            "scrollButton": {
+              "background": "#000000"
+            }
+          },
+          "helpScreenImage": "https://metrocommonapi.blob.core.windows.net/83010/",
           "backgroundColor": null,
           "font": null,
           "disclaimerFont": null,
@@ -1047,6 +1221,93 @@
       },
       "pagesJson": null,
       "disableClickRegions": false
+    },
+    {
+      "id": "69f220eaf30207cf782b18b3",
+      "flyerId": "69f220e9f30207cf782b18b2",
+      "abVersion": null,
+      "title": "83010",
+      "jobName": "2026-04-30_Weekly Flyer_83010",
+      "flyerTitle": "Circulaire hebdomadaire",
+      "zonedPublicationName": "QUE",
+      "flyerCategory": "Weekly Flyer",
+      "language": "bil",
+      "thumbnail": "https://metrocommonapi.blob.core.windows.net/83010/thumbnails/1_QUE.webp?version=ca429f87",
+      "pdf": "https://metrocommonapi.blob.core.windows.net/83010/pdfs/Adonis Weekly Flyer 0 Valid 30-04-26 - 06-05-26.pdf?version=ca429f87",
+      "blockedFlyer": true,
+      "startDate": "2026-04-30T00:00:00Z",
+      "endDate": "2026-05-06T23:59:00Z",
+      "previewDate": "2026-04-28T00:00:00Z",
+      "storeName": "Place-vertu",
+      "province": "QC",
+      "pageCount": 9,
+      "adPageCount": 0,
+      "pageGridType": "MegaGrid",
+      "headerEn": "",
+      "headerFr": "",
+      "flyerType": "live",
+      "premiumThumbnails": [
+        "https://metrocommonapi.blob.core.windows.net/83010/PremiumThumbnails/ThumbnailA_QUE.jpg?version=ca429f87",
+        "https://metrocommonapi.blob.core.windows.net/83010/PremiumThumbnails/ThumbnailB_QUE_QUE_QUE.jpg?version=ca429f87"
+      ],
+      "config": {
+        "branding": {
+          "primaryColor": "#545454",
+          "secondaryColor": "#EE3124",
+          "tertiaryColor": "#00A651",
+          "accessKey": "?sv=2020-10-02&st=2022-01-01T19%3A19%3A00Z&se=2030-01-01T19%3A19%3A00Z&sr=s&sp=rl&sig=jSLmf5xZPH7Qmv4OTF7j7YMl0R5t91slBvvRm9DwfkM%3D",
+          "logo": {
+            "altText": "Adonis",
+            "size": {
+              "desktop": "",
+              "mobile": ""
+            }
+          },
+          "scrollArea": {
+            "scrollButton": {
+              "background": "#000000"
+            }
+          },
+          "helpScreenImage": "https://metrocommonapi.blob.core.windows.net/83010/",
+          "backgroundColor": null,
+          "font": null,
+          "disclaimerFont": null,
+          "landingPageMessage": null,
+          "walkthroughContent": "test walkthrough content FR",
+          "rewardsButtonTitle": ""
+        },
+        "features": {
+          "filters": {
+            "searchbar": {},
+            "discount": {
+              "values": []
+            },
+            "category": {}
+          },
+          "toggleView": {},
+          "fullScreen": {
+            "postMessage": "fs"
+          },
+          "pdfDownload": true,
+          "pdp": true,
+          "shoppingList": true,
+          "search": true,
+          "zoom": true,
+          "orientation": false,
+          "toast": false,
+          "dealEnding": false,
+          "landingPage": true,
+          "thumbnailsSize": false,
+          "helpScreen": true,
+          "walkthrough": true,
+          "pageNumberOnScroll": false,
+          "personalization": false,
+          "isLandingPageMessageVisible": false,
+          "emailSignup": false
+        }
+      },
+      "pagesJson": null,
+      "disableClickRegions": false
     }
   ],
   "21941": [
@@ -1358,6 +1619,93 @@
             }
           },
           "helpScreenImage": "https://metrocommonapi.blob.core.windows.net/83009/",
+          "backgroundColor": null,
+          "font": null,
+          "disclaimerFont": null,
+          "landingPageMessage": null,
+          "walkthroughContent": "test walkthrough content FR",
+          "rewardsButtonTitle": ""
+        },
+        "features": {
+          "filters": {
+            "searchbar": {},
+            "discount": {
+              "values": []
+            },
+            "category": {}
+          },
+          "toggleView": {},
+          "fullScreen": {
+            "postMessage": "fs"
+          },
+          "pdfDownload": true,
+          "pdp": true,
+          "shoppingList": true,
+          "search": true,
+          "zoom": true,
+          "orientation": false,
+          "toast": false,
+          "dealEnding": false,
+          "landingPage": true,
+          "thumbnailsSize": false,
+          "helpScreen": true,
+          "walkthrough": true,
+          "pageNumberOnScroll": false,
+          "personalization": false,
+          "isLandingPageMessageVisible": false,
+          "emailSignup": false
+        }
+      },
+      "pagesJson": null,
+      "disableClickRegions": false
+    },
+    {
+      "id": "69f220eaf30207cf782b18b3",
+      "flyerId": "69f220e9f30207cf782b18b2",
+      "abVersion": null,
+      "title": "83010",
+      "jobName": "2026-04-30_Weekly Flyer_83010",
+      "flyerTitle": "Circulaire hebdomadaire",
+      "zonedPublicationName": "QUE",
+      "flyerCategory": "Weekly Flyer",
+      "language": "bil",
+      "thumbnail": "https://metrocommonapi.blob.core.windows.net/83010/thumbnails/1_QUE.webp?version=ca429f87",
+      "pdf": "https://metrocommonapi.blob.core.windows.net/83010/pdfs/Adonis Weekly Flyer 0 Valid 30-04-26 - 06-05-26.pdf?version=ca429f87",
+      "blockedFlyer": true,
+      "startDate": "2026-04-30T00:00:00Z",
+      "endDate": "2026-05-06T23:59:00Z",
+      "previewDate": "2026-04-28T00:00:00Z",
+      "storeName": "Brossard",
+      "province": "QC",
+      "pageCount": 9,
+      "adPageCount": 0,
+      "pageGridType": "MegaGrid",
+      "headerEn": "",
+      "headerFr": "",
+      "flyerType": "live",
+      "premiumThumbnails": [
+        "https://metrocommonapi.blob.core.windows.net/83010/PremiumThumbnails/ThumbnailA_QUE.jpg?version=ca429f87",
+        "https://metrocommonapi.blob.core.windows.net/83010/PremiumThumbnails/ThumbnailB_QUE_QUE_QUE.jpg?version=ca429f87"
+      ],
+      "config": {
+        "branding": {
+          "primaryColor": "#545454",
+          "secondaryColor": "#EE3124",
+          "tertiaryColor": "#00A651",
+          "accessKey": "?sv=2020-10-02&st=2022-01-01T19%3A19%3A00Z&se=2030-01-01T19%3A19%3A00Z&sr=s&sp=rl&sig=jSLmf5xZPH7Qmv4OTF7j7YMl0R5t91slBvvRm9DwfkM%3D",
+          "logo": {
+            "altText": "Adonis",
+            "size": {
+              "desktop": "",
+              "mobile": ""
+            }
+          },
+          "scrollArea": {
+            "scrollButton": {
+              "background": "#000000"
+            }
+          },
+          "helpScreenImage": "https://metrocommonapi.blob.core.windows.net/83010/",
           "backgroundColor": null,
           "font": null,
           "disclaimerFont": null,
@@ -1747,6 +2095,93 @@
       },
       "pagesJson": null,
       "disableClickRegions": false
+    },
+    {
+      "id": "69f220eaf30207cf782b18b3",
+      "flyerId": "69f220e9f30207cf782b18b2",
+      "abVersion": null,
+      "title": "83010",
+      "jobName": "2026-04-30_Weekly Flyer_83010",
+      "flyerTitle": "Circulaire hebdomadaire",
+      "zonedPublicationName": "QUE",
+      "flyerCategory": "Weekly Flyer",
+      "language": "bil",
+      "thumbnail": "https://metrocommonapi.blob.core.windows.net/83010/thumbnails/1_QUE.webp?version=ca429f87",
+      "pdf": "https://metrocommonapi.blob.core.windows.net/83010/pdfs/Adonis Weekly Flyer 0 Valid 30-04-26 - 06-05-26.pdf?version=ca429f87",
+      "blockedFlyer": true,
+      "startDate": "2026-04-30T00:00:00Z",
+      "endDate": "2026-05-06T23:59:00Z",
+      "previewDate": "2026-04-28T00:00:00Z",
+      "storeName": "Centre-Ville",
+      "province": "QC",
+      "pageCount": 9,
+      "adPageCount": 0,
+      "pageGridType": "MegaGrid",
+      "headerEn": "",
+      "headerFr": "",
+      "flyerType": "live",
+      "premiumThumbnails": [
+        "https://metrocommonapi.blob.core.windows.net/83010/PremiumThumbnails/ThumbnailA_QUE.jpg?version=ca429f87",
+        "https://metrocommonapi.blob.core.windows.net/83010/PremiumThumbnails/ThumbnailB_QUE_QUE_QUE.jpg?version=ca429f87"
+      ],
+      "config": {
+        "branding": {
+          "primaryColor": "#545454",
+          "secondaryColor": "#EE3124",
+          "tertiaryColor": "#00A651",
+          "accessKey": "?sv=2020-10-02&st=2022-01-01T19%3A19%3A00Z&se=2030-01-01T19%3A19%3A00Z&sr=s&sp=rl&sig=jSLmf5xZPH7Qmv4OTF7j7YMl0R5t91slBvvRm9DwfkM%3D",
+          "logo": {
+            "altText": "Adonis",
+            "size": {
+              "desktop": "",
+              "mobile": ""
+            }
+          },
+          "scrollArea": {
+            "scrollButton": {
+              "background": "#000000"
+            }
+          },
+          "helpScreenImage": "https://metrocommonapi.blob.core.windows.net/83010/",
+          "backgroundColor": null,
+          "font": null,
+          "disclaimerFont": null,
+          "landingPageMessage": null,
+          "walkthroughContent": "test walkthrough content FR",
+          "rewardsButtonTitle": ""
+        },
+        "features": {
+          "filters": {
+            "searchbar": {},
+            "discount": {
+              "values": []
+            },
+            "category": {}
+          },
+          "toggleView": {},
+          "fullScreen": {
+            "postMessage": "fs"
+          },
+          "pdfDownload": true,
+          "pdp": true,
+          "shoppingList": true,
+          "search": true,
+          "zoom": true,
+          "orientation": false,
+          "toast": false,
+          "dealEnding": false,
+          "landingPage": true,
+          "thumbnailsSize": false,
+          "helpScreen": true,
+          "walkthrough": true,
+          "pageNumberOnScroll": false,
+          "personalization": false,
+          "isLandingPageMessageVisible": false,
+          "emailSignup": false
+        }
+      },
+      "pagesJson": null,
+      "disableClickRegions": false
     }
   ],
   "21943": [
@@ -2058,6 +2493,93 @@
             }
           },
           "helpScreenImage": "https://metrocommonapi.blob.core.windows.net/83009/",
+          "backgroundColor": null,
+          "font": null,
+          "disclaimerFont": null,
+          "landingPageMessage": null,
+          "walkthroughContent": "test walkthrough content FR",
+          "rewardsButtonTitle": ""
+        },
+        "features": {
+          "filters": {
+            "searchbar": {},
+            "discount": {
+              "values": []
+            },
+            "category": {}
+          },
+          "toggleView": {},
+          "fullScreen": {
+            "postMessage": "fs"
+          },
+          "pdfDownload": true,
+          "pdp": true,
+          "shoppingList": true,
+          "search": true,
+          "zoom": true,
+          "orientation": false,
+          "toast": false,
+          "dealEnding": false,
+          "landingPage": true,
+          "thumbnailsSize": false,
+          "helpScreen": true,
+          "walkthrough": true,
+          "pageNumberOnScroll": false,
+          "personalization": false,
+          "isLandingPageMessageVisible": false,
+          "emailSignup": false
+        }
+      },
+      "pagesJson": null,
+      "disableClickRegions": false
+    },
+    {
+      "id": "69f220eaf30207cf782b18b3",
+      "flyerId": "69f220e9f30207cf782b18b2",
+      "abVersion": null,
+      "title": "83010",
+      "jobName": "2026-04-30_Weekly Flyer_83010",
+      "flyerTitle": "Circulaire hebdomadaire",
+      "zonedPublicationName": "QUE",
+      "flyerCategory": "Weekly Flyer",
+      "language": "bil",
+      "thumbnail": "https://metrocommonapi.blob.core.windows.net/83010/thumbnails/1_QUE.webp?version=ca429f87",
+      "pdf": "https://metrocommonapi.blob.core.windows.net/83010/pdfs/Adonis Weekly Flyer 0 Valid 30-04-26 - 06-05-26.pdf?version=ca429f87",
+      "blockedFlyer": true,
+      "startDate": "2026-04-30T00:00:00Z",
+      "endDate": "2026-05-06T23:59:00Z",
+      "previewDate": "2026-04-28T00:00:00Z",
+      "storeName": "Anjou",
+      "province": "QC",
+      "pageCount": 9,
+      "adPageCount": 0,
+      "pageGridType": "MegaGrid",
+      "headerEn": "",
+      "headerFr": "",
+      "flyerType": "live",
+      "premiumThumbnails": [
+        "https://metrocommonapi.blob.core.windows.net/83010/PremiumThumbnails/ThumbnailA_QUE.jpg?version=ca429f87",
+        "https://metrocommonapi.blob.core.windows.net/83010/PremiumThumbnails/ThumbnailB_QUE_QUE_QUE.jpg?version=ca429f87"
+      ],
+      "config": {
+        "branding": {
+          "primaryColor": "#545454",
+          "secondaryColor": "#EE3124",
+          "tertiaryColor": "#00A651",
+          "accessKey": "?sv=2020-10-02&st=2022-01-01T19%3A19%3A00Z&se=2030-01-01T19%3A19%3A00Z&sr=s&sp=rl&sig=jSLmf5xZPH7Qmv4OTF7j7YMl0R5t91slBvvRm9DwfkM%3D",
+          "logo": {
+            "altText": "Adonis",
+            "size": {
+              "desktop": "",
+              "mobile": ""
+            }
+          },
+          "scrollArea": {
+            "scrollButton": {
+              "background": "#000000"
+            }
+          },
+          "helpScreenImage": "https://metrocommonapi.blob.core.windows.net/83010/",
           "backgroundColor": null,
           "font": null,
           "disclaimerFont": null,
@@ -2447,6 +2969,93 @@
       },
       "pagesJson": null,
       "disableClickRegions": false
+    },
+    {
+      "id": "69f220eaf30207cf782b18b3",
+      "flyerId": "69f220e9f30207cf782b18b2",
+      "abVersion": null,
+      "title": "83010",
+      "jobName": "2026-04-30_Weekly Flyer_83010",
+      "flyerTitle": "Circulaire hebdomadaire",
+      "zonedPublicationName": "QUE",
+      "flyerCategory": "Weekly Flyer",
+      "language": "bil",
+      "thumbnail": "https://metrocommonapi.blob.core.windows.net/83010/thumbnails/1_QUE.webp?version=ca429f87",
+      "pdf": "https://metrocommonapi.blob.core.windows.net/83010/pdfs/Adonis Weekly Flyer 0 Valid 30-04-26 - 06-05-26.pdf?version=ca429f87",
+      "blockedFlyer": true,
+      "startDate": "2026-04-30T00:00:00Z",
+      "endDate": "2026-05-06T23:59:00Z",
+      "previewDate": "2026-04-28T00:00:00Z",
+      "storeName": "Laval-Est",
+      "province": "QC",
+      "pageCount": 9,
+      "adPageCount": 0,
+      "pageGridType": "MegaGrid",
+      "headerEn": "",
+      "headerFr": "",
+      "flyerType": "live",
+      "premiumThumbnails": [
+        "https://metrocommonapi.blob.core.windows.net/83010/PremiumThumbnails/ThumbnailA_QUE.jpg?version=ca429f87",
+        "https://metrocommonapi.blob.core.windows.net/83010/PremiumThumbnails/ThumbnailB_QUE_QUE_QUE.jpg?version=ca429f87"
+      ],
+      "config": {
+        "branding": {
+          "primaryColor": "#545454",
+          "secondaryColor": "#EE3124",
+          "tertiaryColor": "#00A651",
+          "accessKey": "?sv=2020-10-02&st=2022-01-01T19%3A19%3A00Z&se=2030-01-01T19%3A19%3A00Z&sr=s&sp=rl&sig=jSLmf5xZPH7Qmv4OTF7j7YMl0R5t91slBvvRm9DwfkM%3D",
+          "logo": {
+            "altText": "Adonis",
+            "size": {
+              "desktop": "",
+              "mobile": ""
+            }
+          },
+          "scrollArea": {
+            "scrollButton": {
+              "background": "#000000"
+            }
+          },
+          "helpScreenImage": "https://metrocommonapi.blob.core.windows.net/83010/",
+          "backgroundColor": null,
+          "font": null,
+          "disclaimerFont": null,
+          "landingPageMessage": null,
+          "walkthroughContent": "test walkthrough content FR",
+          "rewardsButtonTitle": ""
+        },
+        "features": {
+          "filters": {
+            "searchbar": {},
+            "discount": {
+              "values": []
+            },
+            "category": {}
+          },
+          "toggleView": {},
+          "fullScreen": {
+            "postMessage": "fs"
+          },
+          "pdfDownload": true,
+          "pdp": true,
+          "shoppingList": true,
+          "search": true,
+          "zoom": true,
+          "orientation": false,
+          "toast": false,
+          "dealEnding": false,
+          "landingPage": true,
+          "thumbnailsSize": false,
+          "helpScreen": true,
+          "walkthrough": true,
+          "pageNumberOnScroll": false,
+          "personalization": false,
+          "isLandingPageMessageVisible": false,
+          "emailSignup": false
+        }
+      },
+      "pagesJson": null,
+      "disableClickRegions": false
     }
   ],
   "21945": [
@@ -2758,6 +3367,93 @@
             }
           },
           "helpScreenImage": "https://metrocommonapi.blob.core.windows.net/83009/",
+          "backgroundColor": null,
+          "font": null,
+          "disclaimerFont": null,
+          "landingPageMessage": null,
+          "walkthroughContent": "test walkthrough content FR",
+          "rewardsButtonTitle": ""
+        },
+        "features": {
+          "filters": {
+            "searchbar": {},
+            "discount": {
+              "values": []
+            },
+            "category": {}
+          },
+          "toggleView": {},
+          "fullScreen": {
+            "postMessage": "fs"
+          },
+          "pdfDownload": true,
+          "pdp": true,
+          "shoppingList": true,
+          "search": true,
+          "zoom": true,
+          "orientation": false,
+          "toast": false,
+          "dealEnding": false,
+          "landingPage": true,
+          "thumbnailsSize": false,
+          "helpScreen": true,
+          "walkthrough": true,
+          "pageNumberOnScroll": false,
+          "personalization": false,
+          "isLandingPageMessageVisible": false,
+          "emailSignup": false
+        }
+      },
+      "pagesJson": null,
+      "disableClickRegions": false
+    },
+    {
+      "id": "69f220eaf30207cf782b18b3",
+      "flyerId": "69f220e9f30207cf782b18b2",
+      "abVersion": null,
+      "title": "83010",
+      "jobName": "2026-04-30_Weekly Flyer_83010",
+      "flyerTitle": "Circulaire hebdomadaire",
+      "zonedPublicationName": "QUE",
+      "flyerCategory": "Weekly Flyer",
+      "language": "bil",
+      "thumbnail": "https://metrocommonapi.blob.core.windows.net/83010/thumbnails/1_QUE.webp?version=ca429f87",
+      "pdf": "https://metrocommonapi.blob.core.windows.net/83010/pdfs/Adonis Weekly Flyer 0 Valid 30-04-26 - 06-05-26.pdf?version=ca429f87",
+      "blockedFlyer": true,
+      "startDate": "2026-04-30T00:00:00Z",
+      "endDate": "2026-05-06T23:59:00Z",
+      "previewDate": "2026-04-28T00:00:00Z",
+      "storeName": "Griffintown",
+      "province": "QC",
+      "pageCount": 9,
+      "adPageCount": 0,
+      "pageGridType": "MegaGrid",
+      "headerEn": "",
+      "headerFr": "",
+      "flyerType": "live",
+      "premiumThumbnails": [
+        "https://metrocommonapi.blob.core.windows.net/83010/PremiumThumbnails/ThumbnailA_QUE.jpg?version=ca429f87",
+        "https://metrocommonapi.blob.core.windows.net/83010/PremiumThumbnails/ThumbnailB_QUE_QUE_QUE.jpg?version=ca429f87"
+      ],
+      "config": {
+        "branding": {
+          "primaryColor": "#545454",
+          "secondaryColor": "#EE3124",
+          "tertiaryColor": "#00A651",
+          "accessKey": "?sv=2020-10-02&st=2022-01-01T19%3A19%3A00Z&se=2030-01-01T19%3A19%3A00Z&sr=s&sp=rl&sig=jSLmf5xZPH7Qmv4OTF7j7YMl0R5t91slBvvRm9DwfkM%3D",
+          "logo": {
+            "altText": "Adonis",
+            "size": {
+              "desktop": "",
+              "mobile": ""
+            }
+          },
+          "scrollArea": {
+            "scrollButton": {
+              "background": "#000000"
+            }
+          },
+          "helpScreenImage": "https://metrocommonapi.blob.core.windows.net/83010/",
           "backgroundColor": null,
           "font": null,
           "disclaimerFont": null,
@@ -3147,6 +3843,93 @@
       },
       "pagesJson": null,
       "disableClickRegions": false
+    },
+    {
+      "id": "69f220eaf30207cf782b18b3",
+      "flyerId": "69f220e9f30207cf782b18b2",
+      "abVersion": null,
+      "title": "83010",
+      "jobName": "2026-04-30_Weekly Flyer_83010",
+      "flyerTitle": "Circulaire hebdomadaire",
+      "zonedPublicationName": "QUE",
+      "flyerCategory": "Weekly Flyer",
+      "language": "bil",
+      "thumbnail": "https://metrocommonapi.blob.core.windows.net/83010/thumbnails/1_QUE.webp?version=ca429f87",
+      "pdf": "https://metrocommonapi.blob.core.windows.net/83010/pdfs/Adonis Weekly Flyer 0 Valid 30-04-26 - 06-05-26.pdf?version=ca429f87",
+      "blockedFlyer": true,
+      "startDate": "2026-04-30T00:00:00Z",
+      "endDate": "2026-05-06T23:59:00Z",
+      "previewDate": "2026-04-28T00:00:00Z",
+      "storeName": "Gatineau",
+      "province": "QC",
+      "pageCount": 9,
+      "adPageCount": 0,
+      "pageGridType": "MegaGrid",
+      "headerEn": "",
+      "headerFr": "",
+      "flyerType": "live",
+      "premiumThumbnails": [
+        "https://metrocommonapi.blob.core.windows.net/83010/PremiumThumbnails/ThumbnailA_QUE.jpg?version=ca429f87",
+        "https://metrocommonapi.blob.core.windows.net/83010/PremiumThumbnails/ThumbnailB_QUE_QUE_QUE.jpg?version=ca429f87"
+      ],
+      "config": {
+        "branding": {
+          "primaryColor": "#545454",
+          "secondaryColor": "#EE3124",
+          "tertiaryColor": "#00A651",
+          "accessKey": "?sv=2020-10-02&st=2022-01-01T19%3A19%3A00Z&se=2030-01-01T19%3A19%3A00Z&sr=s&sp=rl&sig=jSLmf5xZPH7Qmv4OTF7j7YMl0R5t91slBvvRm9DwfkM%3D",
+          "logo": {
+            "altText": "Adonis",
+            "size": {
+              "desktop": "",
+              "mobile": ""
+            }
+          },
+          "scrollArea": {
+            "scrollButton": {
+              "background": "#000000"
+            }
+          },
+          "helpScreenImage": "https://metrocommonapi.blob.core.windows.net/83010/",
+          "backgroundColor": null,
+          "font": null,
+          "disclaimerFont": null,
+          "landingPageMessage": null,
+          "walkthroughContent": "test walkthrough content FR",
+          "rewardsButtonTitle": ""
+        },
+        "features": {
+          "filters": {
+            "searchbar": {},
+            "discount": {
+              "values": []
+            },
+            "category": {}
+          },
+          "toggleView": {},
+          "fullScreen": {
+            "postMessage": "fs"
+          },
+          "pdfDownload": true,
+          "pdp": true,
+          "shoppingList": true,
+          "search": true,
+          "zoom": true,
+          "orientation": false,
+          "toast": false,
+          "dealEnding": false,
+          "landingPage": true,
+          "thumbnailsSize": false,
+          "helpScreen": true,
+          "walkthrough": true,
+          "pageNumberOnScroll": false,
+          "personalization": false,
+          "isLandingPageMessageVisible": false,
+          "emailSignup": false
+        }
+      },
+      "pagesJson": null,
+      "disableClickRegions": false
     }
   ],
   "21948": [
@@ -3458,6 +4241,93 @@
             }
           },
           "helpScreenImage": "https://metrocommonapi.blob.core.windows.net/83009/",
+          "backgroundColor": null,
+          "font": null,
+          "disclaimerFont": null,
+          "landingPageMessage": null,
+          "walkthroughContent": "test walkthrough content FR",
+          "rewardsButtonTitle": ""
+        },
+        "features": {
+          "filters": {
+            "searchbar": {},
+            "discount": {
+              "values": []
+            },
+            "category": {}
+          },
+          "toggleView": {},
+          "fullScreen": {
+            "postMessage": "fs"
+          },
+          "pdfDownload": true,
+          "pdp": true,
+          "shoppingList": true,
+          "search": true,
+          "zoom": true,
+          "orientation": false,
+          "toast": false,
+          "dealEnding": false,
+          "landingPage": true,
+          "thumbnailsSize": false,
+          "helpScreen": true,
+          "walkthrough": true,
+          "pageNumberOnScroll": false,
+          "personalization": false,
+          "isLandingPageMessageVisible": false,
+          "emailSignup": false
+        }
+      },
+      "pagesJson": null,
+      "disableClickRegions": false
+    },
+    {
+      "id": "69f220eaf30207cf782b18b3",
+      "flyerId": "69f220e9f30207cf782b18b2",
+      "abVersion": null,
+      "title": "83010",
+      "jobName": "2026-04-30_Weekly Flyer_83010",
+      "flyerTitle": "Circulaire hebdomadaire",
+      "zonedPublicationName": "QUE",
+      "flyerCategory": "Weekly Flyer",
+      "language": "bil",
+      "thumbnail": "https://metrocommonapi.blob.core.windows.net/83010/thumbnails/1_QUE.webp?version=ca429f87",
+      "pdf": "https://metrocommonapi.blob.core.windows.net/83010/pdfs/Adonis Weekly Flyer 0 Valid 30-04-26 - 06-05-26.pdf?version=ca429f87",
+      "blockedFlyer": true,
+      "startDate": "2026-04-30T00:00:00Z",
+      "endDate": "2026-05-06T23:59:00Z",
+      "previewDate": "2026-04-28T00:00:00Z",
+      "storeName": "Ville de Qu\u00e9bec",
+      "province": "QC",
+      "pageCount": 9,
+      "adPageCount": 0,
+      "pageGridType": "MegaGrid",
+      "headerEn": "",
+      "headerFr": "",
+      "flyerType": "live",
+      "premiumThumbnails": [
+        "https://metrocommonapi.blob.core.windows.net/83010/PremiumThumbnails/ThumbnailA_QUE.jpg?version=ca429f87",
+        "https://metrocommonapi.blob.core.windows.net/83010/PremiumThumbnails/ThumbnailB_QUE_QUE_QUE.jpg?version=ca429f87"
+      ],
+      "config": {
+        "branding": {
+          "primaryColor": "#545454",
+          "secondaryColor": "#EE3124",
+          "tertiaryColor": "#00A651",
+          "accessKey": "?sv=2020-10-02&st=2022-01-01T19%3A19%3A00Z&se=2030-01-01T19%3A19%3A00Z&sr=s&sp=rl&sig=jSLmf5xZPH7Qmv4OTF7j7YMl0R5t91slBvvRm9DwfkM%3D",
+          "logo": {
+            "altText": "Adonis",
+            "size": {
+              "desktop": "",
+              "mobile": ""
+            }
+          },
+          "scrollArea": {
+            "scrollButton": {
+              "background": "#000000"
+            }
+          },
+          "helpScreenImage": "https://metrocommonapi.blob.core.windows.net/83010/",
           "backgroundColor": null,
           "font": null,
           "disclaimerFont": null,
@@ -3847,6 +4717,93 @@
       },
       "pagesJson": null,
       "disableClickRegions": false
+    },
+    {
+      "id": "69f220eaf30207cf782b18b3",
+      "flyerId": "69f220e9f30207cf782b18b2",
+      "abVersion": null,
+      "title": "83010",
+      "jobName": "2026-04-30_Weekly Flyer_83010",
+      "flyerTitle": "Circulaire hebdomadaire",
+      "zonedPublicationName": "QUE",
+      "flyerCategory": "Weekly Flyer",
+      "language": "bil",
+      "thumbnail": "https://metrocommonapi.blob.core.windows.net/83010/thumbnails/1_QUE.webp?version=ca429f87",
+      "pdf": "https://metrocommonapi.blob.core.windows.net/83010/pdfs/Adonis Weekly Flyer 0 Valid 30-04-26 - 06-05-26.pdf?version=ca429f87",
+      "blockedFlyer": true,
+      "startDate": "2026-04-30T00:00:00Z",
+      "endDate": "2026-05-06T23:59:00Z",
+      "previewDate": "2026-04-28T00:00:00Z",
+      "storeName": "DDO",
+      "province": "QC",
+      "pageCount": 9,
+      "adPageCount": 0,
+      "pageGridType": "MegaGrid",
+      "headerEn": "",
+      "headerFr": "",
+      "flyerType": "live",
+      "premiumThumbnails": [
+        "https://metrocommonapi.blob.core.windows.net/83010/PremiumThumbnails/ThumbnailA_QUE.jpg?version=ca429f87",
+        "https://metrocommonapi.blob.core.windows.net/83010/PremiumThumbnails/ThumbnailB_QUE_QUE_QUE.jpg?version=ca429f87"
+      ],
+      "config": {
+        "branding": {
+          "primaryColor": "#545454",
+          "secondaryColor": "#EE3124",
+          "tertiaryColor": "#00A651",
+          "accessKey": "?sv=2020-10-02&st=2022-01-01T19%3A19%3A00Z&se=2030-01-01T19%3A19%3A00Z&sr=s&sp=rl&sig=jSLmf5xZPH7Qmv4OTF7j7YMl0R5t91slBvvRm9DwfkM%3D",
+          "logo": {
+            "altText": "Adonis",
+            "size": {
+              "desktop": "",
+              "mobile": ""
+            }
+          },
+          "scrollArea": {
+            "scrollButton": {
+              "background": "#000000"
+            }
+          },
+          "helpScreenImage": "https://metrocommonapi.blob.core.windows.net/83010/",
+          "backgroundColor": null,
+          "font": null,
+          "disclaimerFont": null,
+          "landingPageMessage": null,
+          "walkthroughContent": "test walkthrough content FR",
+          "rewardsButtonTitle": ""
+        },
+        "features": {
+          "filters": {
+            "searchbar": {},
+            "discount": {
+              "values": []
+            },
+            "category": {}
+          },
+          "toggleView": {},
+          "fullScreen": {
+            "postMessage": "fs"
+          },
+          "pdfDownload": true,
+          "pdp": true,
+          "shoppingList": true,
+          "search": true,
+          "zoom": true,
+          "orientation": false,
+          "toast": false,
+          "dealEnding": false,
+          "landingPage": true,
+          "thumbnailsSize": false,
+          "helpScreen": true,
+          "walkthrough": true,
+          "pageNumberOnScroll": false,
+          "personalization": false,
+          "isLandingPageMessageVisible": false,
+          "emailSignup": false
+        }
+      },
+      "pagesJson": null,
+      "disableClickRegions": false
     }
   ],
   "101200": [
@@ -4158,6 +5115,93 @@
             }
           },
           "helpScreenImage": "https://metrocommonapi.blob.core.windows.net/83009/",
+          "backgroundColor": null,
+          "font": null,
+          "disclaimerFont": null,
+          "landingPageMessage": null,
+          "walkthroughContent": "test walkthrough content FR",
+          "rewardsButtonTitle": ""
+        },
+        "features": {
+          "filters": {
+            "searchbar": {},
+            "discount": {
+              "values": []
+            },
+            "category": {}
+          },
+          "toggleView": {},
+          "fullScreen": {
+            "postMessage": "fs"
+          },
+          "pdfDownload": true,
+          "pdp": true,
+          "shoppingList": true,
+          "search": true,
+          "zoom": true,
+          "orientation": false,
+          "toast": false,
+          "dealEnding": false,
+          "landingPage": true,
+          "thumbnailsSize": false,
+          "helpScreen": true,
+          "walkthrough": true,
+          "pageNumberOnScroll": false,
+          "personalization": false,
+          "isLandingPageMessageVisible": false,
+          "emailSignup": false
+        }
+      },
+      "pagesJson": null,
+      "disableClickRegions": false
+    },
+    {
+      "id": "69f220eaf30207cf782b18c8",
+      "flyerId": "69f220e9f30207cf782b18b2",
+      "abVersion": null,
+      "title": "83010",
+      "jobName": "2026-04-30_Weekly Flyer_83010",
+      "flyerTitle": "Circulaire hebdomadaire",
+      "zonedPublicationName": "ONT",
+      "flyerCategory": "Weekly Flyer",
+      "language": "bil",
+      "thumbnail": "https://metrocommonapi.blob.core.windows.net/83010/thumbnails/1_ONT.webp?version=ca429f87",
+      "pdf": "https://metrocommonapi.blob.core.windows.net/83010/pdfs/Adonis Weekly Flyer 1 Valid 30-04-26 - 06-05-26.pdf?version=ca429f87",
+      "blockedFlyer": true,
+      "startDate": "2026-04-30T00:00:00Z",
+      "endDate": "2026-05-06T23:59:00Z",
+      "previewDate": "2026-04-28T00:00:00Z",
+      "storeName": "Mississauga",
+      "province": "ON",
+      "pageCount": 9,
+      "adPageCount": 0,
+      "pageGridType": "MegaGrid",
+      "headerEn": "",
+      "headerFr": "",
+      "flyerType": "live",
+      "premiumThumbnails": [
+        "https://metrocommonapi.blob.core.windows.net/83010/PremiumThumbnails/ThumbnailA_ONT.jpg?version=ca429f87",
+        "https://metrocommonapi.blob.core.windows.net/83010/PremiumThumbnails/ThumbnailB_ONT_ONT_ONT.jpg?version=ca429f87"
+      ],
+      "config": {
+        "branding": {
+          "primaryColor": "#545454",
+          "secondaryColor": "#EE3124",
+          "tertiaryColor": "#00A651",
+          "accessKey": "?sv=2020-10-02&st=2022-01-01T19%3A19%3A00Z&se=2030-01-01T19%3A19%3A00Z&sr=s&sp=rl&sig=jSLmf5xZPH7Qmv4OTF7j7YMl0R5t91slBvvRm9DwfkM%3D",
+          "logo": {
+            "altText": "Adonis",
+            "size": {
+              "desktop": "",
+              "mobile": ""
+            }
+          },
+          "scrollArea": {
+            "scrollButton": {
+              "background": "#000000"
+            }
+          },
+          "helpScreenImage": "https://metrocommonapi.blob.core.windows.net/83010/",
           "backgroundColor": null,
           "font": null,
           "disclaimerFont": null,
@@ -4547,6 +5591,93 @@
       },
       "pagesJson": null,
       "disableClickRegions": false
+    },
+    {
+      "id": "69f220eaf30207cf782b18c8",
+      "flyerId": "69f220e9f30207cf782b18b2",
+      "abVersion": null,
+      "title": "83010",
+      "jobName": "2026-04-30_Weekly Flyer_83010",
+      "flyerTitle": "Circulaire hebdomadaire",
+      "zonedPublicationName": "ONT",
+      "flyerCategory": "Weekly Flyer",
+      "language": "bil",
+      "thumbnail": "https://metrocommonapi.blob.core.windows.net/83010/thumbnails/1_ONT.webp?version=ca429f87",
+      "pdf": "https://metrocommonapi.blob.core.windows.net/83010/pdfs/Adonis Weekly Flyer 1 Valid 30-04-26 - 06-05-26.pdf?version=ca429f87",
+      "blockedFlyer": true,
+      "startDate": "2026-04-30T00:00:00Z",
+      "endDate": "2026-05-06T23:59:00Z",
+      "previewDate": "2026-04-28T00:00:00Z",
+      "storeName": "Scarborough",
+      "province": "ON",
+      "pageCount": 9,
+      "adPageCount": 0,
+      "pageGridType": "MegaGrid",
+      "headerEn": "",
+      "headerFr": "",
+      "flyerType": "live",
+      "premiumThumbnails": [
+        "https://metrocommonapi.blob.core.windows.net/83010/PremiumThumbnails/ThumbnailA_ONT.jpg?version=ca429f87",
+        "https://metrocommonapi.blob.core.windows.net/83010/PremiumThumbnails/ThumbnailB_ONT_ONT_ONT.jpg?version=ca429f87"
+      ],
+      "config": {
+        "branding": {
+          "primaryColor": "#545454",
+          "secondaryColor": "#EE3124",
+          "tertiaryColor": "#00A651",
+          "accessKey": "?sv=2020-10-02&st=2022-01-01T19%3A19%3A00Z&se=2030-01-01T19%3A19%3A00Z&sr=s&sp=rl&sig=jSLmf5xZPH7Qmv4OTF7j7YMl0R5t91slBvvRm9DwfkM%3D",
+          "logo": {
+            "altText": "Adonis",
+            "size": {
+              "desktop": "",
+              "mobile": ""
+            }
+          },
+          "scrollArea": {
+            "scrollButton": {
+              "background": "#000000"
+            }
+          },
+          "helpScreenImage": "https://metrocommonapi.blob.core.windows.net/83010/",
+          "backgroundColor": null,
+          "font": null,
+          "disclaimerFont": null,
+          "landingPageMessage": null,
+          "walkthroughContent": "test walkthrough content FR",
+          "rewardsButtonTitle": ""
+        },
+        "features": {
+          "filters": {
+            "searchbar": {},
+            "discount": {
+              "values": []
+            },
+            "category": {}
+          },
+          "toggleView": {},
+          "fullScreen": {
+            "postMessage": "fs"
+          },
+          "pdfDownload": true,
+          "pdp": true,
+          "shoppingList": true,
+          "search": true,
+          "zoom": true,
+          "orientation": false,
+          "toast": false,
+          "dealEnding": false,
+          "landingPage": true,
+          "thumbnailsSize": false,
+          "helpScreen": true,
+          "walkthrough": true,
+          "pageNumberOnScroll": false,
+          "personalization": false,
+          "isLandingPageMessageVisible": false,
+          "emailSignup": false
+        }
+      },
+      "pagesJson": null,
+      "disableClickRegions": false
     }
   ],
   "101202": [
@@ -4858,6 +5989,93 @@
             }
           },
           "helpScreenImage": "https://metrocommonapi.blob.core.windows.net/83009/",
+          "backgroundColor": null,
+          "font": null,
+          "disclaimerFont": null,
+          "landingPageMessage": null,
+          "walkthroughContent": "test walkthrough content FR",
+          "rewardsButtonTitle": ""
+        },
+        "features": {
+          "filters": {
+            "searchbar": {},
+            "discount": {
+              "values": []
+            },
+            "category": {}
+          },
+          "toggleView": {},
+          "fullScreen": {
+            "postMessage": "fs"
+          },
+          "pdfDownload": true,
+          "pdp": true,
+          "shoppingList": true,
+          "search": true,
+          "zoom": true,
+          "orientation": false,
+          "toast": false,
+          "dealEnding": false,
+          "landingPage": true,
+          "thumbnailsSize": false,
+          "helpScreen": true,
+          "walkthrough": true,
+          "pageNumberOnScroll": false,
+          "personalization": false,
+          "isLandingPageMessageVisible": false,
+          "emailSignup": false
+        }
+      },
+      "pagesJson": null,
+      "disableClickRegions": false
+    },
+    {
+      "id": "69f220eaf30207cf782b18c8",
+      "flyerId": "69f220e9f30207cf782b18b2",
+      "abVersion": null,
+      "title": "83010",
+      "jobName": "2026-04-30_Weekly Flyer_83010",
+      "flyerTitle": "Circulaire hebdomadaire",
+      "zonedPublicationName": "ONT",
+      "flyerCategory": "Weekly Flyer",
+      "language": "bil",
+      "thumbnail": "https://metrocommonapi.blob.core.windows.net/83010/thumbnails/1_ONT.webp?version=ca429f87",
+      "pdf": "https://metrocommonapi.blob.core.windows.net/83010/pdfs/Adonis Weekly Flyer 1 Valid 30-04-26 - 06-05-26.pdf?version=ca429f87",
+      "blockedFlyer": true,
+      "startDate": "2026-04-30T00:00:00Z",
+      "endDate": "2026-05-06T23:59:00Z",
+      "previewDate": "2026-04-28T00:00:00Z",
+      "storeName": "Dundas",
+      "province": "ON",
+      "pageCount": 9,
+      "adPageCount": 0,
+      "pageGridType": "MegaGrid",
+      "headerEn": "",
+      "headerFr": "",
+      "flyerType": "live",
+      "premiumThumbnails": [
+        "https://metrocommonapi.blob.core.windows.net/83010/PremiumThumbnails/ThumbnailA_ONT.jpg?version=ca429f87",
+        "https://metrocommonapi.blob.core.windows.net/83010/PremiumThumbnails/ThumbnailB_ONT_ONT_ONT.jpg?version=ca429f87"
+      ],
+      "config": {
+        "branding": {
+          "primaryColor": "#545454",
+          "secondaryColor": "#EE3124",
+          "tertiaryColor": "#00A651",
+          "accessKey": "?sv=2020-10-02&st=2022-01-01T19%3A19%3A00Z&se=2030-01-01T19%3A19%3A00Z&sr=s&sp=rl&sig=jSLmf5xZPH7Qmv4OTF7j7YMl0R5t91slBvvRm9DwfkM%3D",
+          "logo": {
+            "altText": "Adonis",
+            "size": {
+              "desktop": "",
+              "mobile": ""
+            }
+          },
+          "scrollArea": {
+            "scrollButton": {
+              "background": "#000000"
+            }
+          },
+          "helpScreenImage": "https://metrocommonapi.blob.core.windows.net/83010/",
           "backgroundColor": null,
           "font": null,
           "disclaimerFont": null,
@@ -5247,6 +6465,93 @@
       },
       "pagesJson": null,
       "disableClickRegions": false
+    },
+    {
+      "id": "69f220eaf30207cf782b18c8",
+      "flyerId": "69f220e9f30207cf782b18b2",
+      "abVersion": null,
+      "title": "83010",
+      "jobName": "2026-04-30_Weekly Flyer_83010",
+      "flyerTitle": "Circulaire hebdomadaire",
+      "zonedPublicationName": "ONT",
+      "flyerCategory": "Weekly Flyer",
+      "language": "bil",
+      "thumbnail": "https://metrocommonapi.blob.core.windows.net/83010/thumbnails/1_ONT.webp?version=ca429f87",
+      "pdf": "https://metrocommonapi.blob.core.windows.net/83010/pdfs/Adonis Weekly Flyer 1 Valid 30-04-26 - 06-05-26.pdf?version=ca429f87",
+      "blockedFlyer": true,
+      "startDate": "2026-04-30T00:00:00Z",
+      "endDate": "2026-05-06T23:59:00Z",
+      "previewDate": "2026-04-28T00:00:00Z",
+      "storeName": "Ottawa",
+      "province": "ON",
+      "pageCount": 9,
+      "adPageCount": 0,
+      "pageGridType": "MegaGrid",
+      "headerEn": "",
+      "headerFr": "",
+      "flyerType": "live",
+      "premiumThumbnails": [
+        "https://metrocommonapi.blob.core.windows.net/83010/PremiumThumbnails/ThumbnailA_ONT.jpg?version=ca429f87",
+        "https://metrocommonapi.blob.core.windows.net/83010/PremiumThumbnails/ThumbnailB_ONT_ONT_ONT.jpg?version=ca429f87"
+      ],
+      "config": {
+        "branding": {
+          "primaryColor": "#545454",
+          "secondaryColor": "#EE3124",
+          "tertiaryColor": "#00A651",
+          "accessKey": "?sv=2020-10-02&st=2022-01-01T19%3A19%3A00Z&se=2030-01-01T19%3A19%3A00Z&sr=s&sp=rl&sig=jSLmf5xZPH7Qmv4OTF7j7YMl0R5t91slBvvRm9DwfkM%3D",
+          "logo": {
+            "altText": "Adonis",
+            "size": {
+              "desktop": "",
+              "mobile": ""
+            }
+          },
+          "scrollArea": {
+            "scrollButton": {
+              "background": "#000000"
+            }
+          },
+          "helpScreenImage": "https://metrocommonapi.blob.core.windows.net/83010/",
+          "backgroundColor": null,
+          "font": null,
+          "disclaimerFont": null,
+          "landingPageMessage": null,
+          "walkthroughContent": "test walkthrough content FR",
+          "rewardsButtonTitle": ""
+        },
+        "features": {
+          "filters": {
+            "searchbar": {},
+            "discount": {
+              "values": []
+            },
+            "category": {}
+          },
+          "toggleView": {},
+          "fullScreen": {
+            "postMessage": "fs"
+          },
+          "pdfDownload": true,
+          "pdp": true,
+          "shoppingList": true,
+          "search": true,
+          "zoom": true,
+          "orientation": false,
+          "toast": false,
+          "dealEnding": false,
+          "landingPage": true,
+          "thumbnailsSize": false,
+          "helpScreen": true,
+          "walkthrough": true,
+          "pageNumberOnScroll": false,
+          "personalization": false,
+          "isLandingPageMessageVisible": false,
+          "emailSignup": false
+        }
+      },
+      "pagesJson": null,
+      "disableClickRegions": false
     }
   ],
   "101204": [
@@ -5558,6 +6863,93 @@
             }
           },
           "helpScreenImage": "https://metrocommonapi.blob.core.windows.net/83009/",
+          "backgroundColor": null,
+          "font": null,
+          "disclaimerFont": null,
+          "landingPageMessage": null,
+          "walkthroughContent": "test walkthrough content FR",
+          "rewardsButtonTitle": ""
+        },
+        "features": {
+          "filters": {
+            "searchbar": {},
+            "discount": {
+              "values": []
+            },
+            "category": {}
+          },
+          "toggleView": {},
+          "fullScreen": {
+            "postMessage": "fs"
+          },
+          "pdfDownload": true,
+          "pdp": true,
+          "shoppingList": true,
+          "search": true,
+          "zoom": true,
+          "orientation": false,
+          "toast": false,
+          "dealEnding": false,
+          "landingPage": true,
+          "thumbnailsSize": false,
+          "helpScreen": true,
+          "walkthrough": true,
+          "pageNumberOnScroll": false,
+          "personalization": false,
+          "isLandingPageMessageVisible": false,
+          "emailSignup": false
+        }
+      },
+      "pagesJson": null,
+      "disableClickRegions": false
+    },
+    {
+      "id": "69f220eaf30207cf782b18c8",
+      "flyerId": "69f220e9f30207cf782b18b2",
+      "abVersion": null,
+      "title": "83010",
+      "jobName": "2026-04-30_Weekly Flyer_83010",
+      "flyerTitle": "Circulaire hebdomadaire",
+      "zonedPublicationName": "ONT",
+      "flyerCategory": "Weekly Flyer",
+      "language": "bil",
+      "thumbnail": "https://metrocommonapi.blob.core.windows.net/83010/thumbnails/1_ONT.webp?version=ca429f87",
+      "pdf": "https://metrocommonapi.blob.core.windows.net/83010/pdfs/Adonis Weekly Flyer 1 Valid 30-04-26 - 06-05-26.pdf?version=ca429f87",
+      "blockedFlyer": true,
+      "startDate": "2026-04-30T00:00:00Z",
+      "endDate": "2026-05-06T23:59:00Z",
+      "previewDate": "2026-04-28T00:00:00Z",
+      "storeName": "London",
+      "province": "ON",
+      "pageCount": 9,
+      "adPageCount": 0,
+      "pageGridType": "MegaGrid",
+      "headerEn": "",
+      "headerFr": "",
+      "flyerType": "live",
+      "premiumThumbnails": [
+        "https://metrocommonapi.blob.core.windows.net/83010/PremiumThumbnails/ThumbnailA_ONT.jpg?version=ca429f87",
+        "https://metrocommonapi.blob.core.windows.net/83010/PremiumThumbnails/ThumbnailB_ONT_ONT_ONT.jpg?version=ca429f87"
+      ],
+      "config": {
+        "branding": {
+          "primaryColor": "#545454",
+          "secondaryColor": "#EE3124",
+          "tertiaryColor": "#00A651",
+          "accessKey": "?sv=2020-10-02&st=2022-01-01T19%3A19%3A00Z&se=2030-01-01T19%3A19%3A00Z&sr=s&sp=rl&sig=jSLmf5xZPH7Qmv4OTF7j7YMl0R5t91slBvvRm9DwfkM%3D",
+          "logo": {
+            "altText": "Adonis",
+            "size": {
+              "desktop": "",
+              "mobile": ""
+            }
+          },
+          "scrollArea": {
+            "scrollButton": {
+              "background": "#000000"
+            }
+          },
+          "helpScreenImage": "https://metrocommonapi.blob.core.windows.net/83010/",
           "backgroundColor": null,
           "font": null,
           "disclaimerFont": null,
