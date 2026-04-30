@@ -1,0 +1,43 @@
+=== Independent City Market Flyer Fetch — 2026-04-30 ===
+Run started : 2026-04-30 13:47:09 UTC
+
+Loaded 8 stores from data/independent_city_market/stores.json
+
+Stores loaded: 8
+Loaded existing store_flyers.json (12 publication entries)
+
+Phase 1: fetching publications per store…
+
+  [71] Test Store → no new flyers
+  [2643] Independent City Market @ 1022 King Street West → no new flyers
+  [2660] Independent City Market @ 111 Peter St → ['7905034']
+  [2663] Carmen's City Market College and Spadina → no new flyers
+  [2668] Independent City Market @ 3080 Yonge St. → no new flyers
+  [6799] George's Independent City Market → ['7905034']
+  [7155] Loblaw City Market - The Post → no new flyers
+  [7522] Maisie's Valu-Mart Toronto - Bloor St. → ['7905034']
+
+  3 new publication entries across 8 stores
+  1 unique new publication(s) to download
+  Saved → data/independent_city_market/store_flyers.json  (18,206 bytes)
+New publication entries added to store_flyers.json: 3
+Unique new publications to download: 1
+
+Phase 2: fetching products for each new publication…
+
+  [7905034] Weekly Flyer  (2026-04-30T00:00:00-04:00 → 2026-05-06T23:59:59-04:00)
+    93 products
+  Saved → data/independent_city_market/flyers/7905034.json  (217,541 bytes)
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 1
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-04-30 13:47:10 UTC
+Elapsed      : 0m 1s
+
+
+Done.  Verbose log → logs/independent_city_market/2026-04-30_verbose.log
+       Summary log → logs/independent_city_market/2026-04-30_summary.log
+

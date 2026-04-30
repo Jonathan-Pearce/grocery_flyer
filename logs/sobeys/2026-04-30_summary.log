@@ -1,0 +1,15 @@
+=== Sobeys Flyer Fetch — 2026-04-30 ===
+Run started : 2026-04-30 13:47:14 UTC
+
+Stores loaded: 267
+New publication entries added to store_flyers.json: 231
+Unique new publications to download: 21
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 21
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-04-30 13:47:50 UTC
+Elapsed      : 0m 36s
+

@@ -1,0 +1,1573 @@
+{
+  "fetched_on": "2026-04-30",
+  "publication_id": "7911189",
+  "publication_meta": {
+    "id": 7911189,
+    "flyer_run_id": 1201884,
+    "valid_from": "2026-04-30T00:00:00-04:00",
+    "valid_to": "2026-05-06T23:59:59-04:00",
+    "available_from": "2026-04-30T00:00:00-04:00",
+    "available_to": "2026-05-06T23:59:59-04:00",
+    "locale": "en",
+    "pdf_url": "https://f.wishabi.net/flyers/16688216/386806a43af78e3e.pdf",
+    "postal_code": "J8A1L2",
+    "merchant_name": "IGA Quebec",
+    "merchant_logo_url": "https://images.wishabi.net/merchants/4592/1519337908/large",
+    "deep_link": "https://www.iga.net/en/flyer?flyer_run_id=1201884&flyer_type_name=igabrochure&locale=en&postal_code=J8A1L2&store_code=288",
+    "flyer_type_id": 12075,
+    "sfml_url": "https://cdn-gateflipp.flippback.com/storefront-payload/1201884/7911189/518cd7d543ab160634838900b621bbc242c4b829d6ed51fcbd9300b0e4899bb8?merchant_id=4592",
+    "name": "Themed Brochure",
+    "flyer_type": "igabrochure",
+    "external_display_name": "Lobster - QC",
+    "first_page_thumbnail_400h_url": "https://f.wishabi.net/flyers/7911189/stock_premium/1777475484.jpg",
+    "storefront_images": {
+      "carousel_organic": "https://f.wishabi.net/flyers/7911189/storefront_carousel_organic/1777475484.jpg"
+    },
+    "correction_notices": []
+  },
+  "products_url": "https://dam.flippenterprise.net/flyerkit/publication/7911189/products?display_type=all&locale=en&access_token=692be3f8ba9e9247dc13d064cb89e7f9",
+  "products": [
+    {
+      "id": 1010217140,
+      "name": "KIM PHAT RICE PAPER",
+      "sale_story": null,
+      "sku": "00000_000000062879000113",
+      "description": "400 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-30T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-06T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23107463/e189d326-38fb-11f1-9678-860eec80b29c/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-30",
+      "valid_to": "2026-05-06",
+      "categories": [
+        "Frozen Grocery"
+      ],
+      "pre_price_text": "",
+      "price_text": "4.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 2830.27,
+      "bottom": -2104.82,
+      "right": 3079.89,
+      "top": -1716.44,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Grains, Rice & Cereal",
+          "google_category_id": 352
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Rice",
+          "google_category_id": 2913
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7911189,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://commerce.iga.net/en/product/00000_000000062879000113",
+      "item_web_url": "https://commerce.iga.net/en/product/00000_000000062879000113",
+      "brand": "KIM PHAT",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23107463/e189d326-38fb-11f1-9678-860eec80b29c/x_large"
+      ],
+      "original_price": "5.29",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1010217150,
+      "name": "NANTES CARROTS",
+      "sale_story": null,
+      "sku": "00000_000000003338345005",
+      "description": "Product of Mexico\n454 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-30T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-06T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23107463/df8365ba-38fb-11f1-9678-860eec80b29c/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-30",
+      "valid_to": "2026-05-06",
+      "categories": [
+        "Produce"
+      ],
+      "pre_price_text": "",
+      "price_text": "4.49",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 3079.89,
+      "bottom": -2514.9,
+      "right": 3376.02,
+      "top": -2143.58,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Vegetables",
+          "google_category_id": 2833
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Carrots",
+          "google_category_id": 2845
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7911189,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://commerce.iga.net/en/product/00000_000000003338345005",
+      "item_web_url": "https://commerce.iga.net/en/product/00000_000000003338345005",
+      "brand": "NANTES",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23107463/df8365ba-38fb-11f1-9678-860eec80b29c/x_large"
+      ],
+      "original_price": "4.99",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1010217176,
+      "name": "COMPLIMENTS (369 mL) TOMATO PASTE OR TOMATOES",
+      "sale_story": "25 Scene+ PTS",
+      "sku": "00000_000000005574256347",
+      "description": "Reg. $2.69 to $2.79",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-30T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-06T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23107465/e9afa206-38fb-11f1-8a83-c6b20238a081/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-30",
+      "valid_to": "2026-05-06",
+      "categories": [
+        "Frozen Grocery",
+        "Scene+"
+      ],
+      "pre_price_text": "",
+      "price_text": "1.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 6426.44,
+      "bottom": -2288.33,
+      "right": 6663.66,
+      "top": -1812.35,
+      "page": 4,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Cooking & Baking Ingredients",
+          "google_category_id": 346
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Tomato Paste",
+          "google_category_id": 2744
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7911189,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://commerce.iga.net/en/product/00000_000000005574256347",
+      "item_web_url": "https://commerce.iga.net/en/product/00000_000000005574256347",
+      "brand": "Compliments Farm",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23107465/e9afa206-38fb-11f1-8a83-c6b20238a081/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1010217177,
+      "name": "LACTANTIA 35% M.G. COOKING CREAM",
+      "sale_story": null,
+      "sku": "00000_000000006820020273",
+      "description": "237 mL",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-30T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-06T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23107465/ebc9e2cc-38fb-11f1-8a83-c6b20238a081/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-30",
+      "valid_to": "2026-05-06",
+      "categories": [
+        "Grocery"
+      ],
+      "pre_price_text": "",
+      "price_text": "3.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 6200.08,
+      "bottom": -2288.33,
+      "right": 6426.44,
+      "top": -1812.35,
+      "page": 4,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Dairy Products",
+          "google_category_id": 347
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Cream",
+          "google_category_id": 2753
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7911189,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://commerce.iga.net/en/product/00000_000000006820020273",
+      "item_web_url": "https://commerce.iga.net/en/product/00000_000000006820020273",
+      "brand": "Lactantia",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23107465/ebc9e2cc-38fb-11f1-8a83-c6b20238a081/x_large"
+      ],
+      "original_price": "5.19",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1010217167,
+      "name": "LOBSTER ROLL",
+      "sale_story": null,
+      "sku": "00000_000000025125300000",
+      "description": null,
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-30T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-06T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23107464/e0d2e7b0-38fb-11f1-b994-b2cd1d8dec4f/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-30",
+      "valid_to": "2026-05-06",
+      "categories": [
+        "Grocery"
+      ],
+      "pre_price_text": "",
+      "price_text": "10.99",
+      "post_price_text": "+tx",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 4569.05,
+      "bottom": -2434.18,
+      "right": 4824.87,
+      "top": -1956.65,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Meat, Seafood & Eggs",
+          "google_category_id": 353
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Seafood",
+          "google_category_id": 2921
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7911189,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://commerce.iga.net/en/product/00000_000000025125300000",
+      "item_web_url": "https://commerce.iga.net/en/product/00000_000000025125300000",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23107464/e0d2e7b0-38fb-11f1-b994-b2cd1d8dec4f/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1010217144,
+      "name": "SUSHI \u00c0 LA MAISON MARINADE, MAYONNAISE OR SAUCE",
+      "sale_story": null,
+      "sku": "00000_000000077264335503",
+      "description": "250 mL",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-30T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-06T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23107463/e290d76a-38fb-11f1-9678-860eec80b29c/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-30",
+      "valid_to": "2026-05-06",
+      "categories": [
+        "Frozen Grocery"
+      ],
+      "pre_price_text": "",
+      "price_text": "5.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 2830.27,
+      "bottom": -2514.9,
+      "right": 3079.89,
+      "top": -2104.82,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Condiments & Sauces",
+          "google_category_id": 345
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7911189,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://commerce.iga.net/en/product/00000_000000077264335503",
+      "item_web_url": "https://commerce.iga.net/en/product/00000_000000077264335503",
+      "brand": "SUSHI \u00c0 LA MAISON",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23107463/e290d76a-38fb-11f1-9678-860eec80b29c/x_large"
+      ],
+      "original_price": "6.49",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1010217159,
+      "name": "LACTANTIA BUTTER OR GARLIC BUTTER",
+      "sale_story": null,
+      "sku": "00000_000000006609612370",
+      "description": "125 g\nExcept ANTIQUE and MY COUNTRY\nR\u00e9g. 4,19$ \u00e0 4,49$",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-30T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-06T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23107464/e6912c02-38fb-11f1-b994-b2cd1d8dec4f/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-30",
+      "valid_to": "2026-05-06",
+      "categories": [
+        "Dairy"
+      ],
+      "pre_price_text": "",
+      "price_text": "2.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 4381.46,
+      "bottom": -1669.83,
+      "right": 4655.88,
+      "top": -1277.57,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Dairy Products",
+          "google_category_id": 347
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Butter & Margarine",
+          "google_category_id": 2749
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7911189,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://commerce.iga.net/en/product/00000_000000006609612370",
+      "item_web_url": "https://commerce.iga.net/en/product/00000_000000006609612370",
+      "brand": "Lactantia",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23107464/e6912c02-38fb-11f1-b994-b2cd1d8dec4f/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1010217147,
+      "name": "SEEDLESS CUCUMBER",
+      "sale_story": null,
+      "sku": "00000_000000000000004593",
+      "description": "Product of Quebec",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-30T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-06T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23107463/de7fea1c-38fb-11f1-9678-860eec80b29c/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-30",
+      "valid_to": "2026-05-06",
+      "categories": [
+        "Produce"
+      ],
+      "pre_price_text": "2/",
+      "price_text": "4.00",
+      "post_price_text": "or 2 ea.",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 3079.89,
+      "bottom": -2143.58,
+      "right": 3376.02,
+      "top": -1716.44,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Vegetables",
+          "google_category_id": 2833
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Cucumbers",
+          "google_category_id": 2850
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7911189,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://commerce.iga.net/en/product/00000_000000000000004593",
+      "item_web_url": "https://commerce.iga.net/en/product/00000_000000000000004593",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23107463/de7fea1c-38fb-11f1-9678-860eec80b29c/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1010217166,
+      "name": "LOBSTER POUTINE",
+      "sale_story": null,
+      "sku": "00000_000000024154600000",
+      "description": "Small size",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-30T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-06T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23107464/df1ec3d0-38fb-11f1-b994-b2cd1d8dec4f/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-30",
+      "valid_to": "2026-05-06",
+      "categories": [
+        "Seafood"
+      ],
+      "pre_price_text": "",
+      "price_text": "9.99",
+      "post_price_text": "+tx",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 4285.33,
+      "bottom": -2434.18,
+      "right": 4569.05,
+      "top": -1956.65,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Meat, Seafood & Eggs",
+          "google_category_id": 353
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Seafood",
+          "google_category_id": 2921
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7911189,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://commerce.iga.net/en/product/00000_000000024154600000",
+      "item_web_url": "https://commerce.iga.net/en/product/00000_000000024154600000",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23107464/df1ec3d0-38fb-11f1-b994-b2cd1d8dec4f/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1010217156,
+      "name": "Lobster Spring Rolls",
+      "sale_story": null,
+      "sku": null,
+      "description": null,
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-30T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-06T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/417445615/1776691974/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-30",
+      "valid_to": "2026-05-06",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1753.29,
+      "bottom": -2547.56,
+      "right": 2623.45,
+      "top": -1725.53,
+      "page": 2,
+      "item_categories": {
+        "l1": null,
+        "l2": null,
+        "l3": null,
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7911189,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 5,
+      "average_rating": null,
+      "web_commission_url": "https://www.iga.ca/recipes/lobster_spring_rolls?utm_source=flyer&utm_medium=referral&utm_campaign=fy26_iga_eflyer&utm_content=recette",
+      "item_web_url": "https://www.iga.ca/recipes/lobster_spring_rolls?utm_source=flyer&utm_medium=referral&utm_campaign=fy26_iga_eflyer&utm_content=recette",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_items/417445615/1776691974/extra_large.jpg"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1010217168,
+      "name": "LOBSTER CLUB SANDWICH",
+      "sale_story": null,
+      "sku": "00000_000000025121100000",
+      "description": null,
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-30T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-06T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23107464/dffac3b2-38fb-11f1-b994-b2cd1d8dec4f/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-30",
+      "valid_to": "2026-05-06",
+      "categories": [
+        "Grocery"
+      ],
+      "pre_price_text": "",
+      "price_text": "10.99",
+      "post_price_text": "+tx",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 4824.87,
+      "bottom": -2434.18,
+      "right": 5102.4,
+      "top": -1956.65,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Meat, Seafood & Eggs",
+          "google_category_id": 353
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Meat",
+          "google_category_id": 2917
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Lunch & Deli Meats",
+          "google_category_id": 2920
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7911189,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://commerce.iga.net/en/product/00000_000000025121100000",
+      "item_web_url": "https://commerce.iga.net/en/product/00000_000000025121100000",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23107464/dffac3b2-38fb-11f1-b994-b2cd1d8dec4f/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1010217165,
+      "name": "SEEDLESS LIMES",
+      "sale_story": null,
+      "sku": "00000_000000089824900249",
+      "description": "Product of Mexico, Colombia or Brazil\n454 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-30T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-06T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23107464/de3cf7f2-38fb-11f1-b994-b2cd1d8dec4f/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-30",
+      "valid_to": "2026-05-06",
+      "categories": [
+        "Produce"
+      ],
+      "pre_price_text": "",
+      "price_text": "3.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 4874.48,
+      "bottom": -1668.28,
+      "right": 5099.29,
+      "top": -1203.15,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Fruits",
+          "google_category_id": 2776
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Citrus Fruits",
+          "google_category_id": 2786
+        },
+        "l6": {
+          "confidence": null,
+          "category_name": "Limes",
+          "google_category_id": 2791
+        },
+        "l7": null
+      },
+      "flyer_id": 7911189,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://commerce.iga.net/en/product/00000_000000089824900249",
+      "item_web_url": "https://commerce.iga.net/en/product/00000_000000089824900249",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23107464/de3cf7f2-38fb-11f1-b994-b2cd1d8dec4f/x_large"
+      ],
+      "original_price": "4.49",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1010217171,
+      "name": "article lobster",
+      "sale_story": null,
+      "sku": null,
+      "description": null,
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-30T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-06T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/417445620/1776691993/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-30",
+      "valid_to": "2026-05-06",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 4600.75,
+      "bottom": -681.34,
+      "right": 5119.15,
+      "top": -288.84,
+      "page": 3,
+      "item_categories": {
+        "l1": null,
+        "l2": null,
+        "l3": null,
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7911189,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 5,
+      "average_rating": null,
+      "web_commission_url": "https://www.iga.ca/articles/lobster?utm_source=flyer&utm_medium=referral&utm_campaign=fy26_iga_eflyer&utm_content=article",
+      "item_web_url": "https://www.iga.ca/articles/lobster?utm_source=flyer&utm_medium=referral&utm_campaign=fy26_iga_eflyer&utm_content=article",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_items/417445620/1776691993/extra_large.jpg"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1010217154,
+      "name": "fishing seasons calendar",
+      "sale_story": null,
+      "sku": null,
+      "description": null,
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-30T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-06T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/417445614/1776691973/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-30",
+      "valid_to": "2026-05-06",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 2930.78,
+      "bottom": -1373.77,
+      "right": 3382.53,
+      "top": -1207.14,
+      "page": 2,
+      "item_categories": {
+        "l1": null,
+        "l2": null,
+        "l3": null,
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7911189,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 5,
+      "average_rating": null,
+      "web_commission_url": "https://www.iga.ca/articles/seafood_and_fish_arrival_calendar?utm_source=flyer&utm_medium=referral&utm_campaign=fy26_iga_eflyer&utm_content=fishing%20seasons%20calendar",
+      "item_web_url": "https://www.iga.ca/articles/seafood_and_fish_arrival_calendar?utm_source=flyer&utm_medium=referral&utm_campaign=fy26_iga_eflyer&utm_content=fishing%20seasons%20calendar",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_items/417445614/1776691973/extra_large.jpg"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1010217169,
+      "name": "ARCHIBALD BEER",
+      "sale_story": "OBTENEZ 5$ DE RABAIS SUR LE HOMARD \u00e0 l'achat d'une caisse de 12 canettes de bi\u00e8res Archibald",
+      "sku": "00000_000000087697600335",
+      "description": "12 x 355 mL Assorted selection",
+      "disclaimer_text": "APPR\u00c9CIEZ DE MANI\u00c8RE RESPONSABLE.\nVous devez avoir l'\u00e2ge l\u00e9gal de consommer de l'alcool. \u2020Offre valide du 23 avril au 3 juin, 2026 dans les IGA participants. Sujet \u00e0 la disponibilit\u00e9 des produits. Offre applicable \u00e0 l'achat d'une caisse de 12 canettes d'Archibald (355 mL). Cette offre ne peut \u00eatre combin\u00e9e \u00e0 aucune autre offre. \u2020\u2020 Prix sujet \u00e0 changement. Taxes et consigne en sus. L'article peut diff\u00e9rer de celui illustr\u00e9. Le prix de vente est du ressort exclusif du d\u00e9taillant qui doit respecter le prix minimum de la bi\u00e8re \u00e9tabli par la loi. MD/\u00ae Les marques de commerce sont la propri\u00e9t\u00e9 exclusive de leur propri\u00e9taire respectif.",
+      "valid_from_timestamp": "2026-04-30T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-06T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/417203425/1776691991/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-30",
+      "valid_to": "2026-05-06",
+      "categories": [
+        "Grocery"
+      ],
+      "pre_price_text": "",
+      "price_text": "21.99",
+      "post_price_text": "+tx",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 3460.51,
+      "bottom": -2522.55,
+      "right": 4237.27,
+      "top": -1714.79,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Beverages",
+          "google_category_id": 320
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Beer",
+          "google_category_id": 321
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7911189,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://commerce.iga.net/en/product/00000_000000087697600335",
+      "item_web_url": "https://commerce.iga.net/en/product/00000_000000087697600335",
+      "brand": "Archibald",
+      "images": [
+        "https://f.wishabi.net/page_items/417203425/1776691991/extra_large.jpg"
+      ],
+      "original_price": "22.99",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1010217172,
+      "name": "CELERY",
+      "sale_story": null,
+      "sku": "00000_000000000000004583",
+      "description": "Product of USA Ea.",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-30T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-06T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23107465/e7889afa-38fb-11f1-8a83-c6b20238a081/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-30",
+      "valid_to": "2026-05-06",
+      "categories": [
+        "Produce"
+      ],
+      "pre_price_text": "",
+      "price_text": "4.49",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 6116.36,
+      "bottom": -1813.91,
+      "right": 6400.09,
+      "top": -1412.35,
+      "page": 4,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Vegetables",
+          "google_category_id": 2833
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Celery",
+          "google_category_id": 2847
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7911189,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://commerce.iga.net/en/product/00000_000000000000004583",
+      "item_web_url": "https://commerce.iga.net/en/product/00000_000000000000004583",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23107465/e7889afa-38fb-11f1-8a83-c6b20238a081/x_large"
+      ],
+      "original_price": "4.99",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1010217162,
+      "name": "DION SPICES",
+      "sale_story": null,
+      "sku": "00000_000000062038301207",
+      "description": "12 to 62 g\nAssorted selection\nR\u00e9g. $5.29 to $7.49",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-30T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-06T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23107464/dd62908a-38fb-11f1-b994-b2cd1d8dec4f/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-30",
+      "valid_to": "2026-05-06",
+      "categories": [
+        "Grocery"
+      ],
+      "pre_price_text": "",
+      "price_text": "3.99",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 4655.88,
+      "bottom": -1668.28,
+      "right": 4874.48,
+      "top": -1277.57,
+      "page": 3,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Seasonings & Spices",
+          "google_category_id": 357
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7911189,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://commerce.iga.net/en/product/00000_000000062038301207",
+      "item_web_url": "https://commerce.iga.net/en/product/00000_000000062038301207",
+      "brand": "Diono",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23107464/dd62908a-38fb-11f1-b994-b2cd1d8dec4f/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1010217174,
+      "name": "COMPLIMENTS YELLOW ONIONS",
+      "sale_story": null,
+      "sku": "00000_000000005574256384",
+      "description": "Product of Quebec 2,27 kg",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-30T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-06T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23107465/e68eb9c2-38fb-11f1-8a83-c6b20238a081/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-30",
+      "valid_to": "2026-05-06",
+      "categories": [
+        "Produce"
+      ],
+      "pre_price_text": "",
+      "price_text": "4.49",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 6624.9,
+      "bottom": -1812.35,
+      "right": 6798.54,
+      "top": -1323.98,
+      "page": 4,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Vegetables",
+          "google_category_id": 2833
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Onions",
+          "google_category_id": 2880
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7911189,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://commerce.iga.net/en/product/00000_000000005574256384",
+      "item_web_url": "https://commerce.iga.net/en/product/00000_000000005574256384",
+      "brand": "Compliments Farm",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23107465/e68eb9c2-38fb-11f1-8a83-c6b20238a081/x_large"
+      ],
+      "original_price": "4.99",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1010217175,
+      "name": "MORGAN HILL WHITE WINE",
+      "sale_story": null,
+      "sku": "00000_000000005604913868",
+      "description": "750 mL",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-30T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-06T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23107465/eab65190-38fb-11f1-8a83-c6b20238a081/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-30",
+      "valid_to": "2026-05-06",
+      "categories": [
+        "Beverages"
+      ],
+      "pre_price_text": "",
+      "price_text": "17.99",
+      "post_price_text": "+tx",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 6663.66,
+      "bottom": -2288.33,
+      "right": 6798.54,
+      "top": -1812.35,
+      "page": 4,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Beverages",
+          "google_category_id": 320
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Wine",
+          "google_category_id": 341
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7911189,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://commerce.iga.net/en/product/00000_000000005604913868",
+      "item_web_url": "https://commerce.iga.net/en/product/00000_000000005604913868",
+      "brand": "MORGAN HILL",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23107465/eab65190-38fb-11f1-8a83-c6b20238a081/x_large"
+      ],
+      "original_price": "20.49",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1010217173,
+      "name": "NANTES CARROTS",
+      "sale_story": null,
+      "sku": "00000_000000003338345005",
+      "description": "Product of Mexico\n454 g",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-30T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-06T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23107465/e8a3e3a4-38fb-11f1-8a83-c6b20238a081/x_large",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-30",
+      "valid_to": "2026-05-06",
+      "categories": [
+        "Produce"
+      ],
+      "pre_price_text": "",
+      "price_text": "4.49",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 6400.09,
+      "bottom": -1813.91,
+      "right": 6624.9,
+      "top": -1412.35,
+      "page": 4,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Vegetables",
+          "google_category_id": 2833
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Carrots",
+          "google_category_id": 2845
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7911189,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://commerce.iga.net/en/product/00000_000000003338345005",
+      "item_web_url": "https://commerce.iga.net/en/product/00000_000000003338345005",
+      "brand": "NANTES",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23107465/e8a3e3a4-38fb-11f1-8a83-c6b20238a081/x_large"
+      ],
+      "original_price": "4.99",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1010217170,
+      "name": "Grilled Split Lobster with Chili Lime Butter",
+      "sale_story": null,
+      "sku": null,
+      "description": null,
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-30T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-06T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/417445619/1776691992/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-30",
+      "valid_to": "2026-05-06",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 3414.0,
+      "bottom": -1610.75,
+      "right": 4304.53,
+      "top": -37.05,
+      "page": 3,
+      "item_categories": {
+        "l1": null,
+        "l2": null,
+        "l3": null,
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7911189,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 5,
+      "average_rating": null,
+      "web_commission_url": "https://www.iga.ca/recipes/grilled_split_lobster_with_chili_lime_butter?utm_source=flyer&utm_medium=referral&utm_campaign=fy26_iga_eflyer&utm_content=recette",
+      "item_web_url": "https://www.iga.ca/recipes/grilled_split_lobster_with_chili_lime_butter?utm_source=flyer&utm_medium=referral&utm_campaign=fy26_iga_eflyer&utm_content=recette",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_items/417445619/1776691992/extra_large.jpg"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1010217178,
+      "name": "shell a cooked lobster",
+      "sale_story": null,
+      "sku": null,
+      "description": null,
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-30T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-06T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/417445623/1776692010/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-30",
+      "valid_to": "2026-05-06",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 5156.18,
+      "bottom": -1110.87,
+      "right": 6789.12,
+      "top": -37.05,
+      "page": 4,
+      "item_categories": {
+        "l1": null,
+        "l2": null,
+        "l3": null,
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7911189,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 5,
+      "average_rating": null,
+      "web_commission_url": "https://www.youtube.com/watch?v=LOrc5EnDb_w&t=3s",
+      "item_web_url": "https://www.youtube.com/watch?v=LOrc5EnDb_w&t=3s",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_items/417445623/1776692010/extra_large.jpg"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1010217179,
+      "name": "Lobster bisque",
+      "sale_story": null,
+      "sku": null,
+      "description": null,
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-04-30T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-06T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/417445624/1776692011/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-04-30",
+      "valid_to": "2026-05-06",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 5121.0,
+      "bottom": -2184.68,
+      "right": 6100.4,
+      "top": -1177.52,
+      "page": 4,
+      "item_categories": {
+        "l1": null,
+        "l2": null,
+        "l3": null,
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7911189,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 5,
+      "average_rating": null,
+      "web_commission_url": "https://www.iga.ca/recipes/lobster_bisque?utm_source=flyer&utm_medium=referral&utm_campaign=fy26_iga_eflyer&utm_content=recette",
+      "item_web_url": "https://www.iga.ca/recipes/lobster_bisque?utm_source=flyer&utm_medium=referral&utm_campaign=fy26_iga_eflyer&utm_content=recette",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_items/417445624/1776692011/extra_large.jpg"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    }
+  ]
+}

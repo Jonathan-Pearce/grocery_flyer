@@ -1,0 +1,15 @@
+=== IGA Flyer Fetch — 2026-04-30 ===
+Run started : 2026-04-30 13:48:14 UTC
+
+Stores loaded: 271
+New publication entries added to store_flyers.json: 803
+Unique new publications to download: 12
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 12
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-04-30 13:48:51 UTC
+Elapsed      : 0m 36s
+
