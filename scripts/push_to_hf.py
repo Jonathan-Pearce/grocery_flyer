@@ -33,11 +33,19 @@ Options
 
 Datasets pushed
 ---------------
-The script pushes four Parquet tables to ``<repo>/data/``:
+The script pushes five Parquet tables to ``<repo>/data/``:
+
+raw_archive.parquet
+    Slim historical archive — one row per product observation, keeping only
+    the columns needed for price-trend analysis.  Debug fields (``raw_name``,
+    ``raw_body``, ``raw_categories``, etc.) and rarely-populated internals are
+    excluded.  Appended each week; never overwritten.
+    Built from ``cleaned/all_flyers.parquet``.
 
 observations.parquet
-    One row per cleaned product observation (source: ``cleaned/all_flyers.parquet``).
-    This is the main analytical dataset — all chains, all weeks.
+    Full cleaned product observation table — all columns from the enrichment
+    pipeline (source: ``cleaned/all_flyers.parquet``).
+    This is the widest table, best for ML or feature experimentation.
 
 active_deals.parquet
     Scored active deals from the current week
@@ -61,8 +69,71 @@ import argparse
 import os
 import sys
 
+# ── Raw-archive column selection ──────────────────────────────────────────────
+#
+# Only these columns are kept in raw_archive.parquet.  The selection covers
+# everything needed for price-trend analysis and historical research while
+# dropping:
+#   • debug/audit fields  (raw_name, raw_description, raw_body,
+#                          pre_price_text, post_price_text, raw_categories)
+#   • rarely-populated fields  (alternate_price, alternate_unit, over_limit_price,
+#                               tax_indicator, purchase_limit, loyalty_trigger,
+#                               weight_is_range, weight_min, weight_max,
+#                               category_l3, category_l4, parent_record_id,
+#                               multi_product_variants)
+#   • pipeline-internal flags  (is_multi_product, price_is_floor)
+#   • redundant constants      (currency — always "CAD")
+#
+_RAW_ARCHIVE_COLS: list[str] = [
+    # ── Provenance ────────────────────────────────────────────────────────────
+    "source_api",
+    "store_chain",
+    "store_id",
+    "province",
+    "flyer_id",
+    "flyer_valid_from",
+    "flyer_valid_to",
+    "fetched_on",
+    # ── Product identity ──────────────────────────────────────────────────────
+    "sku",
+    "brand",
+    "name_en",
+    "name_fr",
+    "language",
+    # ── Pricing ───────────────────────────────────────────────────────────────
+    "sale_price",
+    "regular_price",
+    "price_unit",
+    "price_per_kg",
+    "price_per_lb",
+    "member_price",
+    "multi_buy_qty",
+    "multi_buy_total",
+    # ── Promotion ─────────────────────────────────────────────────────────────
+    "promo_type",
+    "loyalty_program",
+    "loyalty_points",
+    # ── Package size ──────────────────────────────────────────────────────────
+    "weight_value",
+    "weight_unit",
+    "pack_count",
+    "pack_unit_size",
+    "pack_unit",
+    # ── Category ──────────────────────────────────────────────────────────────
+    "category_l1",
+    "category_l2",
+    "is_food",
+    "is_human_food",
+    # ── Deduplication ─────────────────────────────────────────────────────────
+    "price_observation_key",
+]
+
+# Temp path for the slimmed archive built during each push run
+_RAW_ARCHIVE_TMP = "cleaned/raw_archive.parquet"
+
 # Files to push: (local_path, path_in_repo)
 _UPLOADS: list[tuple[str, str]] = [
+    (_RAW_ARCHIVE_TMP,                           "data/raw_archive.parquet"),
     ("cleaned/all_flyers.parquet",               "data/observations.parquet"),
     ("db/scores/active_scores.parquet",          "data/active_deals.parquet"),
     ("db/features/price_history.parquet",        "data/price_history.parquet"),
@@ -75,6 +146,40 @@ _PIPELINE_STEPS: list[str] = [
     "pipeline.clean",
     "pipeline.build_db --score",
 ]
+
+
+def _build_raw_archive(src_parquet: str, out_path: str) -> int:
+    """Project *src_parquet* down to :data:`_RAW_ARCHIVE_COLS` and write *out_path*.
+
+    Columns that are present in ``_RAW_ARCHIVE_COLS`` but absent from the
+    source file are silently skipped so that the function stays forward-
+    compatible as the schema evolves.
+
+    Parameters
+    ----------
+    src_parquet:
+        Path to the full cleaned observations file (``cleaned/all_flyers.parquet``).
+    out_path:
+        Destination path for the slim archive.
+
+    Returns
+    -------
+    int
+        Number of rows written, or 0 when *src_parquet* does not exist.
+    """
+    import pyarrow.parquet as pq
+
+    if not os.path.exists(src_parquet):
+        return 0
+
+    table = pq.read_table(src_parquet)
+    available = set(table.schema.names)
+    keep = [c for c in _RAW_ARCHIVE_COLS if c in available]
+    slim = table.select(keep)
+
+    os.makedirs(os.path.dirname(os.path.abspath(out_path)), exist_ok=True)
+    pq.write_table(slim, out_path, compression="snappy")
+    return slim.num_rows
 
 
 def _run_pipeline() -> None:
@@ -211,7 +316,19 @@ def main(argv: list[str] | None = None) -> int:
     else:
         print("Skipping pipeline (--skip-pipeline).")
 
-    # ── 2. Push files ─────────────────────────────────────────────────────────
+    # ── 2. Build slim raw archive ─────────────────────────────────────────────
+    print("Building raw archive (key columns only)…")
+    try:
+        n_rows = _build_raw_archive("cleaned/all_flyers.parquet", _RAW_ARCHIVE_TMP)
+        if n_rows:
+            size_mb = os.path.getsize(_RAW_ARCHIVE_TMP) / 1_048_576
+            print(f"  raw_archive.parquet: {n_rows:,} rows, {size_mb:.1f} MB")
+        else:
+            print("  [skip] cleaned/all_flyers.parquet not found — raw archive skipped")
+    except Exception as exc:  # noqa: BLE001
+        print(f"  Warning: could not build raw archive: {exc}", file=sys.stderr)
+
+    # ── 3. Push files ─────────────────────────────────────────────────────────
     if args.dry_run:
         print("Files that would be uploaded:")
     else:
