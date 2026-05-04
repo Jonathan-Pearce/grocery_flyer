@@ -172,14 +172,17 @@ def _build_raw_archive(src_parquet: str, out_path: str) -> int:
     if not os.path.exists(src_parquet):
         return 0
 
-    table = pq.read_table(src_parquet)
-    available = set(table.schema.names)
+    # Read schema only (no data) to determine which requested columns exist,
+    # then pass the column list to read_table so only those columns are
+    # deserialised — avoids loading the full wide table into memory.
+    schema = pq.read_schema(src_parquet)
+    available = set(schema.names)
     keep = [c for c in _RAW_ARCHIVE_COLS if c in available]
-    slim = table.select(keep)
+    table = pq.read_table(src_parquet, columns=keep)
 
     os.makedirs(os.path.dirname(os.path.abspath(out_path)), exist_ok=True)
-    pq.write_table(slim, out_path, compression="snappy")
-    return slim.num_rows
+    pq.write_table(table, out_path, compression="snappy")
+    return table.num_rows
 
 
 def _run_pipeline() -> None:
@@ -325,7 +328,7 @@ def main(argv: list[str] | None = None) -> int:
             print(f"  raw_archive.parquet: {n_rows:,} rows, {size_mb:.1f} MB")
         else:
             print("  [skip] cleaned/all_flyers.parquet not found — raw archive skipped")
-    except Exception as exc:  # noqa: BLE001
+    except (ImportError, OSError, ValueError) as exc:
         print(f"  Warning: could not build raw archive: {exc}", file=sys.stderr)
 
     # ── 3. Push files ─────────────────────────────────────────────────────────
