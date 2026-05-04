@@ -1,0 +1,34 @@
+name: Push Datasets to Hugging Face
+
+on:
+  workflow_run:
+    workflows: ["Fetch Grocery Flyers"]
+    types: [completed]
+    branches: [main]
+  workflow_dispatch:   # Allow manual triggers from the Actions tab
+
+jobs:
+  push:
+    # Only run on a successful fetch (or on manual trigger)
+    if: >
+      github.event_name == 'workflow_dispatch' ||
+      github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt huggingface_hub
+
+      - name: Run pipeline and push to Hugging Face
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          HF_REPO: jpearce610/canadian-grocery-flyers
+        run: python -m scripts.push_to_hf
