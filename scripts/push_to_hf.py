@@ -1,9 +1,15 @@
 """
 Push aggregated grocery flyer datasets to Hugging Face.
 
-Runs the full pipeline (clean → build_db → score) and uploads the resulting
-Parquet files to a Hugging Face dataset repository so that the data stays
-accessible without bloating the git history.
+Pipeline steps
+--------------
+When ``--skip-pipeline`` is not set, the script runs:
+
+1. ``python -m pipeline.clean``  — normalise and enrich raw flyer JSONs into
+   ``cleaned/all_flyers.parquet``.
+2. ``python -m pipeline.build_db --score`` — ingest cleaned data into Parquet
+   observations, rebuild dimension tables, and run product resolution,
+   price-history, and deal-scoring in one pass.
 
 Usage::
 
@@ -63,7 +69,8 @@ _UPLOADS: list[tuple[str, str]] = [
     ("db/dimensions/stores.parquet",             "data/stores.parquet"),
 ]
 
-# Pipeline steps, run in order when --skip-pipeline is not set
+# Pipeline steps, run in order when --skip-pipeline is not set.
+# Scoring is triggered via the --score flag on build_db rather than a separate step.
 _PIPELINE_STEPS: list[str] = [
     "pipeline.clean",
     "pipeline.build_db --score",
