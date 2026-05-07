@@ -1,0 +1,543 @@
+=== No Frills Flyer Fetch — 2026-05-07 ===
+Run started : 2026-05-07 13:46:40 UTC
+
+Loaded 373 stores from data/nofrills/stores.json
+
+Stores loaded: 373
+Loaded existing store_flyers.json (2031 publication entries)
+
+Phase 1: fetching publications per store…
+
+  [51] Test Store → no new flyers
+  [262] Agostino/Nancy nofrills - Bloor E. → no new flyers
+  [266] Masse's nofrills- London → ['7912971']
+  [291] David's nofrills - Division St. → ['7912964']
+  [293] Grant's nofrills - Kingston → no new flyers
+  [703] Jeff & Tanis' nofrills → ['7912967']
+  [704] Jason's NF Severn → ['7912967']
+  [705] Carlo's nofrills → no new flyers
+  [718] Rocky's nofrills #718 → ['7912985']
+  [723] Tony's  nofrills - Upper James Av → ['7912965']
+  [753] Jim's nofrills #753 → ['7912976']
+  [758] Marc's nofrills - Rathburn Rd → ['7912982']
+  [763] Mike's nofrills - Port Dover → no new flyers
+  [793] Domenic's nofrills - Harvard Rd → ['7912969']
+  [1302] Gary's nofrills- Baseline Rd East → ['7912965']
+  [1306] Jeff/Rose/Herb's nofrills Lakeshore → ['7912976']
+  [1312] Daniel's nofrills Principale St → ['7912964']
+  [1323] 1323 @Hanna → ['7912986']
+  [1326] Jesse/Kelly nofrills - Thompson Rd → ['7912970']
+  [1335] Ryan's nofrills, Aylmer → ['7912972']
+  [1341] Mackay's nofrills - New Hamburg → ['7912970']
+  [1346] Rod & Joe's nofrills - Kingston Rd. → ['7912976']
+  [1356] Daniel's nofrills - Eglinton Av W → ['7912979']
+  [1371] Mario & Selina's nofrills-Royal York → no new flyers
+  [1386] Jim & Lee-Anne's nofrills C Line → ['7912964']
+  [1394] Baldree's nofrills - King Street E → ['7912964']
+  [1399] Nick's nofrills Sheppard Ave. → ['7912985']
+  [1448] Cardston - Cardston, AB → ['7914022']
+  [1468] No Frills - Marcel & Narisha's → ['7912986']
+  [1469] Correy/Rita's nofrills - Tillsonburg → ['7912987']
+  [2702] Colbourne's nofrills - Sydney → no new flyers
+  [2706] Sam's nofrills - Bridgewater → ['7912989']
+  [2707] No Frills → ['7912991']
+  [2712] Gouthro's nofrills - Wyse Road → ['7912990']
+  [2713] No Frills → ['7912992']
+  [3041] Chris' nofrills - Fort Sk. → ['7914032']
+  [3049] No Frills John's - Newmarket → ['7912985']
+  [3112] Dykeman's nofrills - Kincardine → ['7912964']
+  [3117] Darryll & Tracy’s nofrills - Highbury Ave., London → ['7912965']
+  [3125] Alan's nofrills - Timmins → no new flyers
+  [3131] Derek's nofrills Vaughan → ['7912983']
+  [3132] Francois’ No Frills → no new flyers
+  [3133] Ron's nofrills Main St. → ['7912964']
+  [3134] Jim's nofrills #261 → no new flyers
+  [3135] Walkers's  nofrills - Brantford → ['7912971']
+  [3138] Eric's nofrills - Lincoln St. → ['7912973']
+  [3139] Leo's nofrills - Markham → ['7912982']
+  [3140] Vince's nofrills - York Gate Blvd → ['7912985']
+  [3142] Dieter/Darcy's nofrills - George St → ['7912964']
+  [3143] Rob's nofrills - Guelph Line → ['7912965']
+  [3145] Greg's nofrills → ['7912976']
+  [3150] Oleg's nofrills - Oakville → ['7912975']
+  [3151] Conroy's nofrills → ['7912964']
+  [3152] 3152 → no new flyers
+  [3153] Matt's No Frills → ['7914019']
+  [3155] Kevin's NF Calgary → ['7914019']
+  [3156] Rob's nofrills - Toronto → no new flyers
+  [3240] Terry's nofrills - Surrey → ['7914032']
+  [3348] Ashley's nofrills → ['7912980']
+  [3349] Scott & Laurie's No Frills → ['7914033']
+  [3350] Dylan's nofrills - Halifax → ['7912990']
+  [3351] Kyle's nofrills - Exmouth St → ['7912971']
+  [3352] Paul's Nofrills - Ponoka → ['7914019']
+  [3353] Dennis' nofrills → no new flyers
+  [3354] Arkee's NOFRILLS Vancouver → no new flyers
+  [3355] No Frills → ['7912991']
+  [3402] Dave's nofrills - Dawson Creek → ['7914032']
+  [3403] Joti's nofrills - Vancouver → ['7914032']
+  [3408] Blair's nofrills - Calgary → ['7914032']
+  [3410] Dean's nofrills - Vancouver → ['7914021']
+  [3413] Clifton's nofrills - Estevan, SK → ['7914029']
+  [3414] Steve's nofrills - Castlegar → ['7914022']
+  [3417] Tyler's nofrills - Port Alberni → ['7914022']
+  [3419] Deepu's nofrills - Surrey → ['7914021']
+  [3422] Matt & Ashley's nofrills - Edmonton → ['7914032']
+  [3430] Amanda's nofrills - Fort St. John → ['7914032']
+  [3433] Sewak's nofrills - Port Coquitlam → ['7914032']
+  [3437] Jason's nofrills - Jericho Mall → ['7914019']
+  [3438] Kyle's nofrills - Kitimat → ['7914019']
+  [3439] Glenn’s nofrills - Surrey → ['7914032']
+  [3441] Coverdale’s No Frills → ['7914022']
+  [3442] Hellard's nofrills - Main St. Winnipeg → ['7914032']
+  [3445] Terashita's nofrills - Brooks   Opened Feb. 28, 2016 → ['7914029']
+  [3448] Troy's nofrills - Lethbridge → ['7914032']
+  [3449] Ken's No Frills → ['7914028']
+  [3450] Shawn's nofrills - Thunder Bay → ['7914022']
+  [3451] Andrew & Emily's nofrills - Loyalist Pkwy → no new flyers
+  [3456] Steve's nofrills - Dalton Rd → ['7912964']
+  [3457] John's nofrills - Milton → ['7912976']
+  [3462] John's nofrills - Nobleton → no new flyers
+  [3463] Scott's nofrills - Woodstock → ['7912965']
+  [3465] Lyle's nofrills → no new flyers
+  [3467] Justin & Stacey's nofrills → ['7912964']
+  [3472] Fisher's nofrills - Canrobert St → ['7912964']
+  [3473] Jamie & Jaclyn's - Centre Street → ['7912966']
+  [3474] Rusty's nofrills - Brantford → ['7912964']
+  [3476] Palmieri's nofrills - Newcastle → ['7912964']
+  [3478] Craig & Jess' nofrills - Stratford, ON → ['7912964']
+  [3480] Emiliano & Ana's nofrills → ['7912982']
+  [3490] Mike's nofrills → ['7912976']
+  [3493] Jones' nofrills - Silvercrk Pk N → no new flyers
+  [3494] Leonetti's nofrills → ['7912985']
+  [3603] Jordan's's nofrills - Wetaskwin → ['7914019']
+  [3604] Shipley's NF Maple Ridge → ['7914032']
+  [3608] Terry's - Humboldt → ['7914032']
+  [3610] Aaron's no frills → ['7914028']
+  [3616] Steve & Peggy's nofrills Kingston Rd → ['7912982']
+  [3621] Steve & Adele's nofrills → ['7912985']
+  [3625] Brandon & Megan's NF Stittsville, ON → no new flyers
+  [3628] Steve's nofrills → ['7914022']
+  [3631] Richard's nofrills → ['7912982']
+  [3633] Kris's nofrills - Peace River → ['7914032']
+  [3636] Dickie's nofrills - Eglinton Av. E → ['7912982']
+  [3639] Brandon's nofrills → ['7912970']
+  [3640] Luciano's nofrills - Alberta Av → ['7912976']
+  [3641] Brandon & Joanny's NO FRILLS Vancouver → ['7914021']
+  [3642] Malloch's nofrills - Burnhamthorpe Rd → no new flyers
+  [3643] Luciano's nofrills - Front St → ['7912982']
+  [3646] XXXX nofrills   Markham Rd → ['7912982']
+  [3647] Tom's nofrills - Roblin Blvd Winnipeg → ['7914028']
+  [3648] Kurtis' nofrills - Trail → ['7914022']
+  [3649] Chris' nofrills - Edmonton → ['7914032']
+  [3650] Patryck's nofrills → ['7914030']
+  [3654] Mark's nofrills Winners Circ → ['7912964']
+  [3655] XXXX nofrills - Vegreville → ['7914026']
+  [3659] Rob's No Frills #3900 → ['7912976']
+  [3660] Durante's nofrills - Centre St → ['7912983']
+  [3661] Robert's nofrills - Blake St → ['7912964']
+  [3663] Ross' nofrills - Photography Drive → ['7912982']
+  [3664] Mark's nofrills - Fanshawe Park Road → ['7912965']
+  [3665] Gord & Kim's nofrills - Coverdale Dr → no new flyers
+  [3666] Frank's nofrills - Queenston Rd. Hamilton → ['7912974']
+  [3667] Steve & Liz's nofrills - Stouffville → ['7912981']
+  [3668] Franco's nofrills - Hamilton → ['7912965']
+  [3669] Cory & Megan's NOFRILLS High River → no new flyers
+  [3670] Pepin's nofrills - Hastings St → ['7912964']
+  [3671] Jason's nofrills - Jericho Mall → ['7914021']
+  [3672] Mark and Sarah's nofrills - Wallaceburg → ['7912964']
+  [3673] Farzin's nofrills - Main St → ['7912985']
+  [3676] Chris & Beth's nofrills - Simcoe St → no new flyers
+  [3677] Tony & Jill's nofrills → ['7912964']
+  [3678] Simon's nofrills - Lethbridge → no new flyers
+  [3679] Brent & Jennie's nofrills - Hamilton Road → ['7912965']
+  [3680] Vi's nofrills - King Street W. → ['7912976']
+  [3681] Tim and Heather's NF Shelburne → no new flyers
+  [3683] Carol’s No Frills → ['7914019']
+  [3684] Peter's Nofrills → ['7912967']
+  [3685] Prakash's NF Edmonton → ['7914021']
+  [3688] Steve & Amanda's nofrills - Bayly St W → ['7912982']
+  [3690] Guthro's nofrills - Acton → ['7912964']
+  [3691] Clements' NF Slave Lake → ['7914022']
+  [3695] Mike's  NF - Toronto, ON → ['7912985']
+  [3697] Mike & Lori 's nofrills - Elizabeth St → ['7912967']
+  [3698] Mike and Lori nofrills Port Union → ['7912979']
+  [3699] Tom's nofrills - Victoria Park Ave → no new flyers
+  [3714] Christine's nofrills - Okotoks → ['7914032']
+  [3715] Rob & Tina’s NF → ['7912969']
+  [3716] Dilip's No Frills → no new flyers
+  [3717] John & Danielle's NF North York, ON → ['7912984']
+  [3728] Rob & Rachael's nofrills → ['7912971']
+  [3732] Aureo's No Frills - Saskatoon → ['7914019']
+  [3733] Brody’s No Frills → ['7914025']
+  [3740] Mills' nofrills - Glencoe → ['7912964']
+  [3753] Ryan's nofrills - Welland Ave → no new flyers
+  [3770] Sam’s No Frills → ['7912975']
+  [3771] Jim's No Frills → ['7912976']
+  [3776] Ian's nofrills - Edmonton → no new flyers
+  [3779] Adrian's → no new flyers
+  [3786] Joe & Val's nofrills  - Yonge St → ['7912976']
+  [3787] Chris & Tanya’s No Frills → ['7912966']
+  [3789] Chris's nofrills → ['7912964']
+  [3801] Mike & Andreea’s - Stratford, PEI → ['7912990']
+  [3807] Alfie's nofrills - West 4th Ave. → ['7914021']
+  [3811] Brook’s No Frills → ['7914032']
+  [3814] Shaun & Felicia's - Shediac → ['7912990']
+  [3907] Tom & Michelle's nofrills - Creditview → ['7912985']
+  [3915] John's nofrills #3915 → ['7912964']
+  [3916] Nadim's nofrills - Oshawa → ['7912982']
+  [3922] Joe & Barb's - Oshawa → no new flyers
+  [3924] Dave's nofrills - Cedarbrae → ['7912979']
+  [3925] Carlo's nofrills - Yonge St. → ['7912984']
+  [3931] Rocca’s No Frills → ['7912975']
+  [3933] James & Jenn's nofrills - Cornwall → ['7912970']
+  [3942] Tina's nofrills - Strathmore → ['7914022']
+  [3946] Rob's nofrills - Airdrie → ['7914032']
+  [3947] Craig's nofrills - Leduc → ['7914032']
+  [3948] Lionel's nofrills - Lacombe → ['7914032']
+  [3968] Dennis' nofrills - Coquitlam → ['7914022']
+  [3969] Darcy's nofrills - Thunder Bay → ['7914022']
+  [3970] Kevin and Amanda's nofrills - Calgary → no new flyers
+  [3976] Joe's nofrills - Invermere → ['7914022']
+  [3978] Crawford's nofrills → ['7914019']
+  [3979] Brad's nofrills - Salmon Arm → ['7914022']
+  [3982] Mark's nofrills - Cochrane → ['7914032']
+  [3983] Sean's nofrills - Stettler → no new flyers
+  [3985] Michael's NOFRILLS Langley → ['7914032']
+  [3989] Chris & Tracey's nofrills - Morinville → ['7914022']
+  [3992] Kevin's nofrills - Olivier → ['7914019']
+  [3993] Jerry's → ['7914022']
+  [3995] Jeb's nofrills - Beaumont → ['7914022']
+  [4012] Phil's nofrills - Argyle Mall → ['7912965']
+  [4036] Allen's NF Midland Jones Rd → ['7912964']
+  [4112] No Frills Topsail → ['7912991']
+  [4164] Jordan & Corrina's → ['7914033']
+  [4224] Scott's nofrills - Balmoral Drive → no new flyers
+  [4404] Rounddhouse Centre → ['7912964']
+  [4436] Merv's nofrills - Calgary → ['7914021']
+  [4489] Mike & Rebecca’s nofrills - Whitecourt → ['7914022']
+  [4493] Spataro's nofrills - Chinguacousy Rd., Brampton → no new flyers
+  [5135] Joseph's nofrills → ['7912982']
+  [5139] Esplanade → ['7912986']
+  [5156] Andrew & Emily's nofrills - Loyalist Pkwy → ['7912970']
+  [5174] Karl & Kelly's - Saint John, NB → ['7912990']
+  [5238] Anthony & Nadege’s-Belleville → ['7912964']
+  [5456] Trevor's No Frills → ['7914022']
+  [5457] Ian's nofrills - Edmonton → ['7914021']
+  [5458] Sean's nofrills - Stettler → ['7914019']
+  [5459] Gord & Kim's nofrills - Coverdale Dr → ['7912964']
+  [5549] Romeo's No Frills → ['7914023']
+  [5794] Ashley's nofrills - McLaughlin → ['7912982']
+  [6791] Felice's nofrills - Shuter St. → ['7912986']
+  [6792] Hunterhorn No Frills → no new flyers
+  [6793] Pincher Creek - Pincher Creek, AB → no new flyers
+  [6797] Vi & Yu Ling's' - Scarborough, ON → ['7912982']
+  [6798] Joe's nofrills - Cambridge → ['7912965']
+  [6930] David & Mandie's No Frills → ['7914033']
+  [6933] MICHAEL'S NOFRILLS SCARBOROUGH → ['7912986']
+  [6936] Sudbury → ['7912987']
+  [6945] Jesse's - Toronto, ON → ['7912986']
+  [6961] AMY & BRENDAN’S → ['7914027']
+  [6962] Joe & Lily's NF Ottawa → ['7912971']
+  [6964] Jinky's → ['7914033']
+  [6966] No Frills - Travis & Sierra's → ['7914033']
+  [6969] Cynthia's No Frills - Calgary → ['7914033']
+  [6970] Megan's nofrills- Hyde Park → ['7912987']
+  [6971] Ray's nofrills → ['7914032']
+  [7012] Alfredo's NF Burlington Brant → ['7912965']
+  [7026] Nick's and Mira's nofrills-Vic Prk Lawrence → ['7912982']
+  [7031] Lorraine's nofrills - Cold Lake → ['7914029']
+  [7032] Nadim's nofrills - Whitby → ['7912976']
+  [7047] Cosimo's nofrills → ['7912976']
+  [7063] Dino's nofrills - Silver Creek Blvd. → no new flyers
+  [7074] EF Winnipeg St Anne's → ['7914029']
+  [7076] John's nofrills Warden Ave. → ['7912980']
+  [7087] Gino's nofrills → ['7912977']
+  [7134] Jace’s No Frills → ['7914025']
+  [7138] Rob's nofrills → ['7912985']
+  [7141] Topher's nofrills - Notre Dame Ave., Winnipeg → ['7914032']
+  [7146] John & Irish’s NF → ['7914021']
+  [7147] Real & Carolyn’s No Frills → ['7914032']
+  [7159] Marc's nofrills # 3901 → ['7912973']
+  [7166] Justin's nofrills - Whitby → ['7912982']
+  [7167] Harry's nofrills → ['7912964']
+  [7175] Tyler's nofrills - Geraldton → ['7914031']
+  [7177] Evan and Ila's NF Sydney → ['7912990']
+  [7181] Paul & Mallory's NO FRILLS → ['7912971']
+  [7182] Dylan's No Frills - Oshawa → ['7912985']
+  [7188] Bergen's nofrills → ['7912964']
+  [7189] Paul & Nancy's nofrills Hwy 17 → no new flyers
+  [7191] Mike & Lori's nofrills - Mckeown Av → ['7912964']
+  [7192] Joe's nofrills → ['7912967']
+  [7227] Chris' nofrills - Renforth Dr. → ['7912976']
+  [7228] Dean's nofrills King St. E → ['7912964']
+  [7229] Nick's nofrills - Paris → ['7912964']
+  [7235] John's No Frills → ['7914029']
+  [7236] Frank’s No Frills, Hamilton → ['7912971']
+  [7392] Dennis' nofrills - Tilbury → ['7912970']
+  [7395] Sheriff's nofrills → ['7912979']
+  [7397] Josh's nofrills - Essex → ['7912970']
+  [7411] Andrew & Shelley's NF Toronto → ['7912982']
+  [7415] Daniel's nofrills → ['7912979']
+  [7432] Dean & Barb nofrills - Queen St. → ['7912970']
+  [7444] Dino's - Vaughan, ON → ['7912981']
+  [7487] Paul's nofrills - Innisfail → ['7914022']
+  [7488] Simran's nofrills → ['7914027']
+  [7496] Blake's - St. Catharines, ON → ['7912964']
+  [7498] John's nofrills - Nobleton → ['7912975']
+  [7499] DYLAN & GALEN’S → ['7914027']
+  [7502] Dilip's No Frills → ['7912979']
+  [7503] Jones' nofrills - Silvercrk Pk N → ['7912969']
+  [7504] Spataro's nofrills - Chinguacousy Rd., Brampton → ['7912985']
+  [7505] DaCosta's nofrills - Markham Plaza/Hwy 7 → ['7912976']
+  [7507] Stephen’s No Frills → ['7914022']
+  [7508] Mario & Selina's nofrills-Royal York → ['7912976']
+  [7509] Carlo's nofrills → ['7912985']
+  [7512] Tom's nofrills - Victoria Park Ave → ['7912976']
+  [7514] Grant's nofrills - Kingston → ['7912967']
+  [7515] Simon's nofrills - Lethbridge → ['7914022']
+  [7518] BRAMPTON → ['7912978']
+  [7527] Malloch's nofrills - Burnhamthorpe Rd → ['7912979']
+  [7530] Walsh's No Frills → ['7914032']
+  [7531] Scott's nofrills - Balmoral Drive → ['7912985']
+  [7532] Joe & Barb's - Oshawa → ['7912979']
+  [7540] Tim and Heather's NF Shelburne → ['7912964']
+  [7542] Brian's Nofrills → ['7912969']
+  [7578] Dino's nofrills - Silver Creek Blvd. → ['7912976']
+  [7579] Evan & Ila's No Frills → ['7914021']
+  [7580] Alan's nofrills - Timmins → ['7912970']
+  [7648] Cliff's No Frills → ['7912990']
+  [7649] Tyler's nofrills-Dorchester Road → ['7912964']
+  [7651] Tejus & Raman's - Edmonton, AB → ['7914029']
+  [7655] Kevin and Amanda's nofrills - Calgary → ['7914029']
+  [7763] Connor & Kennedy’s → ['7912993']
+  [7909] Paul & Nancy's nofrills Hwy 17 → ['7912966']
+  [7911] Rob's nofrills - Toronto → ['7912975']
+  [7919] Tony & Sam's No Frills → ['7914032']
+  [7921] Tim & Sue's nofrills - Pacific Ave → ['7912976']
+  [7922] Tobi's - Quesnel, BC → ['7914027']
+  [7928] Lenora's - St Paul, AB → ['7914027']
+  [7930] Nicholas & Megan's - Drumheller, AB → ['7914028']
+  [7934] Sarangan's NOFRILLS Brampton → ['7912985']
+  [7935] Ted's nofrills - Kenora → ['7914028']
+  [7936] Dino's nofrills - Avenue Rd → ['7912975']
+  [7937] George's NF Toronto Broadview → ['7912975']
+  [7938] NF Gambo - Gambo, NFLD → ['7912993']
+  [7940] Brian & Ricki's - Midland, ON → ['7912964']
+  [7941] JORDAN'S → ['7912986']
+  [7942] Chris & Samia's - Nepean, ON → ['7912968']
+  [7944] Eric's nofrills - Chestermere → ['7914020']
+  [7947] Dani & Matt's → ['7912970']
+  [7949] Joe's nofrills - Korah Rd → ['7912964']
+  [7951] Alessandro's → ['7912987']
+  [7952] Bo's → ['7912986']
+  [7953] Ray's - Kelowna, BC → ['7914033']
+  [7954] Vito's nofrills - Keele St → ['7912985']
+  [7955] Mitch & Alana's - London, ON → ['7912987']
+  [7956] Ross & Lindsay's nofrills → ['7912973']
+  [7961] Raman's No Frills → ['7912979']
+  [7963] Roy's nofrills - Dartmouth → ['7912990']
+  [7965] Stephen's nofrills -Eglinton Ave. → ['7912985']
+  [7966] Darwin's nofrills - Wainwright → ['7914024']
+  [7967] Chris' nofrills - Goulet St. Winnipeg → ['7914021']
+  [7994] Ken's nofrills - Langley → ['7914032']
+  [7995] Aaron & Katrina's - Grand Prairie → ['7914032']
+  [7996] Ted’s No Frills Winnipeg → ['7914029']
+  [8000] Eric's nofrills - Waterdown → ['7912964']
+  [8008] Ivan & Karen's → ['7914032']
+  [8178] Taylor's NF → ['7912964']
+  [8192] Jim’s-St. Catherine’s → ['7912964']
+  [8998] Joe & Cassy’s → ['7912964']
+  [8999] Johnny’s-Ottawa → ['7912968']
+  [9474] Walsh's nofrills - Edmonton → ['7914021']
+  [9478] Cliff's No Frills → ['7912989']
+  [9479] Paolo's nofrills - Brampton → ['7912985']
+  [9482] Justin’s NF → ['7914021']
+  [9532] Gordon's nofrills - East Hastings → ['7914021']
+  [9535] Francesco's - Fredericton → ['7912990']
+  [9536] Ian's nofrills- McAllister Saint John → ['7912990']
+  [9537] Ken's No Frills - Summerside → ['7912990']
+  [9547] Peter’s NF Burlington Plains → ['7912986']
+  [9555] Mike & Grace's nofrills → ['7912965']
+  [9566] Tony & Kathy's → ['7912970']
+  [9572] Edwards No Frills Kelowna → ['7914033']
+  [9573] No Frills → ['7914033']
+  [9577] Chemalnus → ['7914033']
+  [9578] Andy's → ['7914033']
+  [9580] Bathurst - NB → ['7912993']
+  [9584] PJ's nofrills - College St W → ['7912986']
+  [9585] Chad & Maegan's → ['7912987']
+  [9586] Jordan's → ['7914033']
+  [9689] Michael's nofrills - Silver Star Bvd → ['7912979']
+  [9694] Muhammad's No Frills → ['7914033']
+  [9775] Paul & Adele's nofrills - Upper Paradise Rd. → ['7912964']
+  [9776] Summerhill nofrills - Ajax → ['7912985']
+  [9779] Dennis' No Frills → ['7914033']
+  [9781] NF Gambo - Gambo, NFLD → ['7912994']
+  [9782] Andy & Nick’s No Frills → ['7914025']
+  [9785] Chris and Karen nofrills - Yonge St → ['7912976']
+  [9786] Andrew and Jessica’s nofrills - High River → ['7914022']
+  [9796] Scott's No Frills → ['7912987']
+  [9797] Daniel & Alexandra’s nofrills → ['7912988']
+  [9799] Jeff & Holly's - Stittsville, ON → ['7912965']
+  [9999] Ross & Lindsay's NOFRILLS Cambridge → no new flyers
+
+  333 new publication entries across 373 stores
+  46 unique new publication(s) to download
+  Saved → data/nofrills/store_flyers.json  (3,126,544 bytes)
+New publication entries added to store_flyers.json: 333
+Unique new publications to download: 46
+
+Phase 2: fetching products for each new publication…
+
+  [7912971] Weekly Flyer  (2026-05-07T00:00:00-04:00 → 2026-05-13T23:59:59-04:00)
+    284 products
+  Saved → data/nofrills/flyers/7912971.json  (638,047 bytes)
+  [7912964] Weekly Flyer  (2026-05-07T00:00:00-04:00 → 2026-05-13T23:59:59-04:00)
+    249 products
+  Saved → data/nofrills/flyers/7912964.json  (561,951 bytes)
+  [7912967] Weekly Flyer  (2026-05-07T00:00:00-04:00 → 2026-05-13T23:59:59-04:00)
+    272 products
+  Saved → data/nofrills/flyers/7912967.json  (611,584 bytes)
+  [7912985] Weekly Flyer  (2026-05-07T00:00:00-04:00 → 2026-05-13T23:59:59-04:00)
+    287 products
+  Saved → data/nofrills/flyers/7912985.json  (646,163 bytes)
+  [7912965] Weekly Flyer  (2026-05-07T00:00:00-04:00 → 2026-05-13T23:59:59-04:00)
+    273 products
+  Saved → data/nofrills/flyers/7912965.json  (614,847 bytes)
+  [7912976] Weekly Flyer  (2026-05-07T00:00:00-04:00 → 2026-05-13T23:59:59-04:00)
+    273 products
+  Saved → data/nofrills/flyers/7912976.json  (614,799 bytes)
+  [7912982] Weekly Flyer  (2026-05-07T00:00:00-04:00 → 2026-05-13T23:59:59-04:00)
+    298 products
+  Saved → data/nofrills/flyers/7912982.json  (669,363 bytes)
+  [7912969] Weekly Flyer  (2026-05-07T00:00:00-04:00 → 2026-05-13T23:59:59-04:00)
+    298 products
+  Saved → data/nofrills/flyers/7912969.json  (669,411 bytes)
+  [7912986] Weekly Flyer  (2026-05-07T00:00:00-04:00 → 2026-05-13T23:59:59-04:00)
+    84 products
+  Saved → data/nofrills/flyers/7912986.json  (188,196 bytes)
+  [7912970] Weekly Flyer  (2026-05-07T00:00:00-04:00 → 2026-05-13T23:59:59-04:00)
+    260 products
+  Saved → data/nofrills/flyers/7912970.json  (585,152 bytes)
+  [7912972] Weekly Flyer  (2026-05-07T00:00:00-04:00 → 2026-05-13T23:59:59-04:00)
+    261 products
+  Saved → data/nofrills/flyers/7912972.json  (588,385 bytes)
+  [7912979] Weekly Flyer  (2026-05-07T00:00:00-04:00 → 2026-05-13T23:59:59-04:00)
+    310 products
+  Saved → data/nofrills/flyers/7912979.json  (695,797 bytes)
+  [7914022] Weekly Flyer  (2026-05-07T03:00:00-04:00 → 2026-05-13T23:59:59-04:00)
+    256 products
+  Saved → data/nofrills/flyers/7914022.json  (571,469 bytes)
+  [7912987] Weekly Flyer  (2026-05-07T00:00:00-04:00 → 2026-05-13T23:59:59-04:00)
+    84 products
+  Saved → data/nofrills/flyers/7912987.json  (188,242 bytes)
+  [7912989] Weekly Flyer  (2026-05-07T00:00:00-04:00 → 2026-05-13T23:59:59-04:00)
+    211 products
+  Saved → data/nofrills/flyers/7912989.json  (474,863 bytes)
+  [7912991] Weekly Flyer  (2026-05-07T00:00:00-04:00 → 2026-05-13T23:59:59-04:00)
+    210 products
+  Saved → data/nofrills/flyers/7912991.json  (472,168 bytes)
+  [7912990] Weekly Flyer  (2026-05-07T00:00:00-04:00 → 2026-05-13T23:59:59-04:00)
+    227 products
+  Saved → data/nofrills/flyers/7912990.json  (510,803 bytes)
+  [7912992] Weekly Flyer  (2026-05-07T00:00:00-04:00 → 2026-05-13T23:59:59-04:00)
+    226 products
+  Saved → data/nofrills/flyers/7912992.json  (508,108 bytes)
+  [7914032] Weekly Flyer  (2026-05-07T03:00:00-04:00 → 2026-05-13T23:59:59-04:00)
+    272 products
+  Saved → data/nofrills/flyers/7914032.json  (606,832 bytes)
+  [7912983] Weekly Flyer  (2026-05-07T00:00:00-04:00 → 2026-05-13T23:59:59-04:00)
+    290 products
+  Saved → data/nofrills/flyers/7912983.json  (652,759 bytes)
+  [7912973] Weekly Flyer  (2026-05-07T00:00:00-04:00 → 2026-05-13T23:59:59-04:00)
+    296 products
+  Saved → data/nofrills/flyers/7912973.json  (664,481 bytes)
+  [7912975] Weekly Flyer  (2026-05-07T00:00:00-04:00 → 2026-05-13T23:59:59-04:00)
+    249 products
+  Saved → data/nofrills/flyers/7912975.json  (561,904 bytes)
+  [7914019] Weekly Flyer  (2026-05-07T03:00:00-04:00 → 2026-05-13T23:59:59-04:00)
+    239 products
+  Saved → data/nofrills/flyers/7914019.json  (534,242 bytes)
+  [7912980] Weekly Flyer  (2026-05-07T00:00:00-04:00 → 2026-05-13T23:59:59-04:00)
+    296 products
+  Saved → data/nofrills/flyers/7912980.json  (664,433 bytes)
+  [7914033] Weekly Flyer  (2026-05-07T03:00:00-04:00 → 2026-05-13T23:59:59-04:00)
+    78 products
+  Saved → data/nofrills/flyers/7914033.json  (173,409 bytes)
+  [7914021] Weekly Flyer  (2026-05-07T03:00:00-04:00 → 2026-05-13T23:59:59-04:00)
+    255 products
+  Saved → data/nofrills/flyers/7914021.json  (569,605 bytes)
+  [7914029] Weekly Flyer  (2026-05-07T03:00:00-04:00 → 2026-05-13T23:59:59-04:00)
+    283 products
+  Saved → data/nofrills/flyers/7914029.json  (630,078 bytes)
+  [7914028] Weekly Flyer  (2026-05-07T03:00:00-04:00 → 2026-05-13T23:59:59-04:00)
+    267 products
+  Saved → data/nofrills/flyers/7914028.json  (594,715 bytes)
+  [7912966] Weekly Flyer  (2026-05-07T00:00:00-04:00 → 2026-05-13T23:59:59-04:00)
+    273 products
+  Saved → data/nofrills/flyers/7912966.json  (613,633 bytes)
+  [7914030] Weekly Flyer  (2026-05-07T03:00:00-04:00 → 2026-05-13T23:59:59-04:00)
+    284 products
+  Saved → data/nofrills/flyers/7914030.json  (632,126 bytes)
+  [7914026] Weekly Flyer  (2026-05-07T03:00:00-04:00 → 2026-05-13T23:59:59-04:00)
+    296 products
+  Saved → data/nofrills/flyers/7914026.json  (658,550 bytes)
+  [7912974] Weekly Flyer  (2026-05-07T00:00:00-04:00 → 2026-05-13T23:59:59-04:00)
+    287 products
+  Saved → data/nofrills/flyers/7912974.json  (646,212 bytes)
+  [7912981] Weekly Flyer  (2026-05-07T00:00:00-04:00 → 2026-05-13T23:59:59-04:00)
+    284 products
+  Saved → data/nofrills/flyers/7912981.json  (638,000 bytes)
+  [7912984] Weekly Flyer  (2026-05-07T00:00:00-04:00 → 2026-05-13T23:59:59-04:00)
+    304 products
+  Saved → data/nofrills/flyers/7912984.json  (684,123 bytes)
+  [7914025] Weekly Flyer  (2026-05-07T03:00:00-04:00 → 2026-05-13T23:59:59-04:00)
+    279 products
+  Saved → data/nofrills/flyers/7914025.json  (621,139 bytes)
+  [7914023] Weekly Flyer  (2026-05-07T03:00:00-04:00 → 2026-05-13T23:59:59-04:00)
+    268 products
+  Saved → data/nofrills/flyers/7914023.json  (597,893 bytes)
+  [7914027] Weekly Flyer  (2026-05-07T03:00:00-04:00 → 2026-05-13T23:59:59-04:00)
+    295 products
+  Saved → data/nofrills/flyers/7914027.json  (656,502 bytes)
+  [7912977] Weekly Flyer  (2026-05-07T00:00:00-04:00 → 2026-05-13T23:59:59-04:00)
+    263 products
+  Saved → data/nofrills/flyers/7912977.json  (593,268 bytes)
+  [7914031] Weekly Flyer  (2026-05-07T03:00:00-04:00 → 2026-05-13T23:59:59-04:00)
+    250 products
+  Saved → data/nofrills/flyers/7914031.json  (557,488 bytes)
+  [7912978] Weekly Flyer  (2026-05-07T00:00:00-04:00 → 2026-05-13T23:59:59-04:00)
+    311 products
+  Saved → data/nofrills/flyers/7912978.json  (697,845 bytes)
+  [7912993] Weekly Flyer  (2026-05-07T00:00:00-04:00 → 2026-05-13T23:59:59-04:00)
+    76 products
+  Saved → data/nofrills/flyers/7912993.json  (170,237 bytes)
+  [7912968] Weekly Flyer  (2026-05-07T00:00:00-04:00 → 2026-05-13T23:59:59-04:00)
+    285 products
+  Saved → data/nofrills/flyers/7912968.json  (641,281 bytes)
+  [7914020] Weekly Flyer  (2026-05-07T03:00:00-04:00 → 2026-05-13T23:59:59-04:00)
+    272 products
+  Saved → data/nofrills/flyers/7914020.json  (606,900 bytes)
+  [7914024] Weekly Flyer  (2026-05-07T03:00:00-04:00 → 2026-05-13T23:59:59-04:00)
+    280 products
+  Saved → data/nofrills/flyers/7914024.json  (623,187 bytes)
+  [7912994] Weekly Flyer  (2026-05-07T00:00:00-04:00 → 2026-05-13T23:59:59-04:00)
+    76 products
+  Saved → data/nofrills/flyers/7912994.json  (170,300 bytes)
+  [7912988] Weekly Flyer  (2026-05-07T00:00:00-04:00 → 2026-05-13T23:59:59-04:00)
+    61 products
+  Saved → data/nofrills/flyers/7912988.json  (136,824 bytes)
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 46
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-05-07 13:47:29 UTC
+Elapsed      : 0m 49s
+
+
+Done.  Verbose log → logs/nofrills/2026-05-07_verbose.log
+       Summary log → logs/nofrills/2026-05-07_summary.log
+
