@@ -1,0 +1,51 @@
+=== Adonis Flyer Fetch — 2026-05-07 ===
+Run started : 2026-05-07 13:53:38 UTC
+
+Loaded 16 stores from data/adonis/stores.json
+
+Stores loaded: 16
+Loaded existing store_flyers.json (80 flyer entries)
+
+Phase 1: fetching flyer listings per store…
+
+  [21937] Sauvé → ['83195']
+  [21938] Laval → ['83195']
+  [21940] Place-vertu → ['83195']
+  [21941] Brossard → ['83195']
+  [21942] Centre-Ville → ['83195']
+  [21943] Anjou → ['83195']
+  [21944] Laval-Est → ['83195']
+  [21945] Griffintown → ['83195']
+  [21947] Gatineau → ['83195']
+  [21948] Ville de Québec → ['83195']
+  [21950] DDO → ['83195']
+  [101200] Mississauga → ['83195']
+  [101201] Scarborough → ['83195']
+  [101202] Dundas → ['83195']
+  [101203] Ottawa → ['83195']
+  [101204] London → ['83195']
+
+  16 new flyer entries across 16 stores
+  1 unique new job(s) to download
+  Saved → data/adonis/store_flyers.json  (291,386 bytes)
+New flyer entries added to store_flyers.json : 16
+Unique new jobs to download                  : 1
+
+Phase 2: fetching products for each new job…
+
+  [83195] store 21937  (https://metrodigital-apim.azure-api.net/api/Pages/83195/21937/fr/search)
+    341 products
+  Saved → data/adonis/flyers/83195.json  (1,716,017 bytes)
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 1
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-05-07 13:53:41 UTC
+Elapsed      : 0m 3s
+
+
+Done.  Verbose log → logs/adonis/2026-05-07_verbose.log
+       Summary log → logs/adonis/2026-05-07_summary.log
+
