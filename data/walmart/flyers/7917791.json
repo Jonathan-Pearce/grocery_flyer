@@ -1,0 +1,3792 @@
+{
+  "fetched_on": "2026-05-07",
+  "publication_id": "7917791",
+  "publication_meta": {
+    "id": 7917791,
+    "flyer_run_id": 1206676,
+    "valid_from": "2026-05-07T00:00:00-04:00",
+    "valid_to": "2026-05-27T23:59:59-04:00",
+    "available_from": "2026-05-06T00:00:00-04:00",
+    "available_to": "2026-05-27T23:59:59-04:00",
+    "locale": "en",
+    "pdf_url": "https://f.wishabi.net/flyers/16701570/a8159502440c1694.pdf",
+    "postal_code": "L9T6R1",
+    "merchant_name": "Walmart Canada",
+    "merchant_logo_url": "https://images.wishabi.net/merchants/bce79949-0773-477d-9c1f-9bbb898c9e31/mini_magick20240912-1-3ou98h.png",
+    "deep_link": null,
+    "flyer_type_id": 102,
+    "sfml_url": "https://cdn-gateflipp.flippback.com/storefront-payload/1206676/7917791/a5ef47e38ecd5239e6728c26530dab3d09e7480f39ebce190676e9ad0bec979b?merchant_id=234",
+    "name": "Grocery Flyer",
+    "flyer_type": "groceryflyer",
+    "external_display_name": "Eid Mubarak",
+    "first_page_thumbnail_400h_url": "https://f.wishabi.net/flyers/7917791/stock_premium/1777994261.jpg",
+    "storefront_images": {
+      "carousel_organic": "https://f.wishabi.net/flyers/7917791/storefront_carousel_organic/1777994261.jpg"
+    },
+    "correction_notices": []
+  },
+  "products_url": "https://dam.flippenterprise.net/flyerkit/publication/7917791/products?display_type=all&locale=en&access_token=92bcff5f7d07c3aaa4b33e2c048d7728",
+  "products": [
+    {
+      "id": 1011295901,
+      "name": "Barakah Meadows lean ground beef",
+      "sale_story": null,
+      "sku": "2KQ38A0UI9KU",
+      "description": "Each. 454 g. #50987552.",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-05-07T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-27T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23257533/02dd4cf2-4887-11f1-8089-ee6b19dad096/x_large",
+      "custom_id_field_1": "2KQ38A0UI9KU",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-05-07",
+      "valid_to": "2026-05-27",
+      "categories": [
+        "Meat"
+      ],
+      "pre_price_text": "",
+      "price_text": "8.78",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 57.4,
+      "bottom": -842.69,
+      "right": 327.57,
+      "top": -581.68,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Meat, Seafood & Eggs",
+          "google_category_id": 353
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Meat",
+          "google_category_id": 2917
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Lunch & Deli Meats",
+          "google_category_id": 2920
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7917791,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/2KQ38A0UI9KU?icid=digital_pages_grocery_digital_flyer_184545_LMKN6ZM1MO",
+      "item_web_url": "https://www.walmart.ca/en/ip/2KQ38A0UI9KU",
+      "brand": "Barakah",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23257533/02dd4cf2-4887-11f1-8089-ee6b19dad096/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1011295903,
+      "name": "Your Fresh Market\u2122 Atlantic salmon portion",
+      "sale_story": null,
+      "sku": "6000203875297",
+      "description": "#31236718\n$38.98/kg.",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-05-07T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-27T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23257533/02f66372-4887-11f1-8089-ee6b19dad096/x_large",
+      "custom_id_field_1": "6000203875297",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-05-07",
+      "valid_to": "2026-05-27",
+      "categories": [
+        "Meat"
+      ],
+      "pre_price_text": "",
+      "price_text": "17.68",
+      "post_price_text": "lb.",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 651.08,
+      "bottom": -838.34,
+      "right": 923.25,
+      "top": -579.93,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Meat, Seafood & Eggs",
+          "google_category_id": 353
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Seafood",
+          "google_category_id": 2921
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7917791,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/6000203875297?icid=digital_pages_grocery_digital_flyer_184545_LMKN6ZM1MO",
+      "item_web_url": "https://www.walmart.ca/en/ip/6000203875297",
+      "brand": "Your Fresh Market\u2122",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23257533/02f66372-4887-11f1-8089-ee6b19dad096/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1011295920,
+      "name": "Al Dayaa extra virgin olive oil",
+      "sale_story": null,
+      "sku": "6000199418200",
+      "description": "Each. 3 L.\n#50151331",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-05-07T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-27T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/419377637/1777992585/extra_large.jpg",
+      "custom_id_field_1": "6000199418200",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-05-07",
+      "valid_to": "2026-05-27",
+      "categories": [
+        "Core Grocery"
+      ],
+      "pre_price_text": "",
+      "price_text": "32.12",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 650.34,
+      "bottom": -2432.43,
+      "right": 933.01,
+      "top": -2175.26,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Cooking & Baking Ingredients",
+          "google_category_id": 346
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Cooking Oils",
+          "google_category_id": 2722
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7917791,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/6000199418200?icid=digital_pages_grocery_digital_flyer_184545_LMKN6ZM1MO",
+      "item_web_url": "https://www.walmart.ca/en/ip/6000199418200",
+      "brand": "Al Dayaa",
+      "images": [
+        "https://f.wishabi.net/page_items/419377637/1777992585/extra_large.jpg"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1011295904,
+      "name": "Zabiha Halal breakfast chicken strips",
+      "sale_story": null,
+      "sku": "10212073",
+      "description": "Each. 375 g. #9710507",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-05-07T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-27T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/419377621/1777992572/extra_large.jpg",
+      "custom_id_field_1": "10212073",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-05-07",
+      "valid_to": "2026-05-27",
+      "categories": [
+        "Processed Meat"
+      ],
+      "pre_price_text": "",
+      "price_text": "6.97",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 502.17,
+      "bottom": -1102.91,
+      "right": 922.15,
+      "top": -852.34,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Meat, Seafood & Eggs",
+          "google_category_id": 353
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Meat",
+          "google_category_id": 2917
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Lunch & Deli Meats",
+          "google_category_id": 2920
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7917791,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/10212073?icid=digital_pages_grocery_digital_flyer_184545_LMKN6ZM1MO",
+      "item_web_url": "https://www.walmart.ca/en/ip/10212073",
+      "brand": "ZABIHA",
+      "images": [
+        "https://f.wishabi.net/page_items/419377621/1777992572/extra_large.jpg"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1011295918,
+      "name": "Zein semolina #2 medium",
+      "sale_story": "Rollback",
+      "sku": "66SHTX9SWNZC",
+      "description": "Each. 1.81kg.\n#50151200.",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-05-07T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-27T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23257533/0848aef2-4887-11f1-8089-ee6b19dad096/x_large",
+      "custom_id_field_1": "66SHTX9SWNZC",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-05-07",
+      "valid_to": "2026-05-27",
+      "categories": [
+        "Core Grocery"
+      ],
+      "pre_price_text": "",
+      "price_text": "5.17",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 647.34,
+      "bottom": -1898.09,
+      "right": 922.01,
+      "top": -1656.93,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": null,
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7917791,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/66SHTX9SWNZC?icid=digital_pages_grocery_digital_flyer_184545_LMKN6ZM1MO",
+      "item_web_url": "https://www.walmart.ca/en/ip/66SHTX9SWNZC",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23257533/0848aef2-4887-11f1-8089-ee6b19dad096/x_large"
+      ],
+      "original_price": "5.77",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1011295909,
+      "name": "Everest masala",
+      "sale_story": "Rollback",
+      "sku": "6000197032745",
+      "description": "Each. Selected varieties. 100 g.\n#30204582.",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-05-07T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-27T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23257533/0991f598-4887-11f1-8089-ee6b19dad096/x_large",
+      "custom_id_field_1": "6000197032745",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-05-07",
+      "valid_to": "2026-05-27",
+      "categories": [
+        "Frozen"
+      ],
+      "pre_price_text": "",
+      "price_text": "1.77",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 74.66,
+      "bottom": -2044.26,
+      "right": 190.98,
+      "top": -1904.09,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": null,
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7917791,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/Everest-Chicken-Masala-100g/6000197032745?icid=digital_pages_grocery_digital_flyer_184545_LMKN6ZM1MO",
+      "item_web_url": "https://www.walmart.ca/en/ip/Everest-Chicken-Masala-100g/6000197032745",
+      "brand": "Everest",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23257533/0991f598-4887-11f1-8089-ee6b19dad096/x_large"
+      ],
+      "original_price": "2.27",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1011290115,
+      "name": "Your Fresh Market\u2122 Arabic-style pita bread",
+      "sale_story": null,
+      "sku": "6000208073684",
+      "description": "5-pack. Selected varieties. 330 g.\n\n#50542469",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-05-07T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-27T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23257528/08293c34-4887-11f1-a8d3-ced22bc9356f/x_large",
+      "custom_id_field_1": "6000208073684",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-05-07",
+      "valid_to": "2026-05-27",
+      "categories": [
+        "Bakery"
+      ],
+      "pre_price_text": "",
+      "price_text": "2.47",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1169.0,
+      "bottom": -1090.49,
+      "right": 1287.0,
+      "top": -945.49,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Bakery",
+          "google_category_id": 343
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Breads & Buns",
+          "google_category_id": 2668
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7917791,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/6000208073684?icid=digital_pages_grocery_digital_flyer_184545_LMKN6ZM1MO",
+      "item_web_url": "https://www.walmart.ca/en/ip/6000208073684",
+      "brand": "Your Fresh Market\u2122",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23257528/08293c34-4887-11f1-a8d3-ced22bc9356f/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1011295917,
+      "name": "Long eggplant",
+      "sale_story": null,
+      "sku": "6000196795053",
+      "description": "Product of USA or\nMexico. #31162675.\n$434/kg.",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-05-07T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-27T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23257533/05c70322-4887-11f1-8089-ee6b19dad096/x_large",
+      "custom_id_field_1": "6000196795053",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-05-07",
+      "valid_to": "2026-05-27",
+      "categories": [
+        "Produce"
+      ],
+      "pre_price_text": "",
+      "price_text": "1.97",
+      "post_price_text": "lb",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 649.34,
+      "bottom": -1636.93,
+      "right": 923.01,
+      "top": -1391.76,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Vegetables",
+          "google_category_id": 2833
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Eggplants",
+          "google_category_id": 2851
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7917791,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/6000196795053?icid=digital_pages_grocery_digital_flyer_184545_LMKN6ZM1MO",
+      "item_web_url": "https://www.walmart.ca/en/ip/6000196795053",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23257533/05c70322-4887-11f1-8089-ee6b19dad096/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1011295907,
+      "name": "Garlic",
+      "sale_story": null,
+      "sku": "6000191273739",
+      "description": "Pack. Product of Mexico or China #31090154.",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-05-07T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-27T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/419377624/1777992574/extra_large.jpg",
+      "custom_id_field_1": "6000191273739",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-05-07",
+      "valid_to": "2026-05-27",
+      "categories": [
+        "Produce"
+      ],
+      "pre_price_text": "",
+      "price_text": "0.88",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 51.98,
+      "bottom": -1634.93,
+      "right": 328.66,
+      "top": -1384.76,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Vegetables",
+          "google_category_id": 2833
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Garlic",
+          "google_category_id": 2856
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7917791,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/6000191273739?icid=digital_pages_grocery_digital_flyer_184545_LMKN6ZM1MO",
+      "item_web_url": "https://www.walmart.ca/en/ip/6000191273739",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_items/419377624/1777992574/extra_large.jpg"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1011295923,
+      "name": "Everest masala",
+      "sale_story": "Rollback",
+      "sku": "6000197032748",
+      "description": "Each. Selected\nvarieties. 100 g.\n#30204582",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-05-07T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-27T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23257533/09c1d95c-4887-11f1-8089-ee6b19dad096/x_large",
+      "custom_id_field_1": "6000197032748",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-05-07",
+      "valid_to": "2026-05-27",
+      "categories": [
+        "Core Grocery"
+      ],
+      "pre_price_text": "",
+      "price_text": "1.77",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 194.98,
+      "bottom": -2048.26,
+      "right": 306.66,
+      "top": -1904.09,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": null,
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7917791,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/Everest-Tandoori-Chicken-Masala-100g/6000197032748?icid=digital_pages_grocery_digital_flyer_184545_LMKN6ZM1MO",
+      "item_web_url": "https://www.walmart.ca/en/ip/Everest-Tandoori-Chicken-Masala-100g/6000197032748",
+      "brand": "Everest",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23257533/09c1d95c-4887-11f1-8089-ee6b19dad096/x_large"
+      ],
+      "original_price": "2.27",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1011290219,
+      "name": "Verka paneer",
+      "sale_story": "Rollback",
+      "sku": "7IV2GU7SZ8YQ",
+      "description": "Each. 300 g.\n#50793814.",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-05-07T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-27T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23257528/02ca2f5a-4887-11f1-a8d3-ced22bc9356f/x_large",
+      "custom_id_field_1": "7IV2GU7SZ8YQ",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-05-07",
+      "valid_to": "2026-05-27",
+      "categories": [
+        "Dairy"
+      ],
+      "pre_price_text": "",
+      "price_text": "4.27",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1030.0,
+      "bottom": -934.97,
+      "right": 1303.0,
+      "top": -703.97,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": null,
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7917791,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/7IV2GU7SZ8YQ?icid=digital_pages_grocery_digital_flyer_184545_LMKN6ZM1MO",
+      "item_web_url": "https://www.walmart.ca/en/ip/7IV2GU7SZ8YQ",
+      "brand": "Verka",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23257528/02ca2f5a-4887-11f1-a8d3-ced22bc9356f/x_large"
+      ],
+      "original_price": "4.87",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1011295914,
+      "name": "Sher Durum Atta",
+      "sale_story": "Rollback",
+      "sku": "6000196076423",
+      "description": "Each. 9.07 kg\n#31020693",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-05-07T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-27T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23257533/070cd798-4887-11f1-8089-ee6b19dad096/x_large",
+      "custom_id_field_1": "6000196076423",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-05-07",
+      "valid_to": "2026-05-27",
+      "categories": [
+        "Core Grocery"
+      ],
+      "pre_price_text": "",
+      "price_text": "12.98",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 348.66,
+      "bottom": -2162.26,
+      "right": 626.34,
+      "top": -1914.09,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": null,
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7917791,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/6000196076423?icid=digital_pages_grocery_digital_flyer_184545_LMKN6ZM1MO",
+      "item_web_url": "https://www.walmart.ca/en/ip/6000196076423",
+      "brand": "Sher",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23257533/070cd798-4887-11f1-8089-ee6b19dad096/x_large"
+      ],
+      "original_price": "18.47",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1011295915,
+      "name": "Great Value cooking oil",
+      "sale_story": "Rollback",
+      "sku": "6000202595785",
+      "description": "Each. Selected\nvarieties. 2.84 L.\n#30631387.",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-05-07T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-27T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/419377632/1777992581/extra_large.jpg",
+      "custom_id_field_1": "6000202595785",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-05-07",
+      "valid_to": "2026-05-27",
+      "categories": [
+        "Core Grocery"
+      ],
+      "pre_price_text": "",
+      "price_text": "6.98",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 373.34,
+      "bottom": -2340.43,
+      "right": 480.66,
+      "top": -2172.26,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Cooking & Baking Ingredients",
+          "google_category_id": 346
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Cooking Oils",
+          "google_category_id": 2722
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7917791,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/6000202595785?icid=digital_pages_grocery_digital_flyer_184545_LMKN6ZM1MO",
+      "item_web_url": "https://www.walmart.ca/en/ip/6000202595785",
+      "brand": "Great Value",
+      "images": [
+        "https://f.wishabi.net/page_items/419377632/1777992581/extra_large.jpg"
+      ],
+      "original_price": "8.77",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1011295922,
+      "name": "Sitara lentils",
+      "sale_story": "Rollback",
+      "sku": "4PMI97JJ3X50",
+      "description": "Each. Selected varieties. 1.81 kg.\n#50506456.",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-05-07T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-27T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23257533/066e55b4-4887-11f1-8089-ee6b19dad096/x_large",
+      "custom_id_field_1": "4PMI97JJ3X50",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-05-07",
+      "valid_to": "2026-05-27",
+      "categories": [
+        "Snacks & Beverage"
+      ],
+      "pre_price_text": "",
+      "price_text": "4.48",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 524.66,
+      "bottom": -1757.09,
+      "right": 612.34,
+      "top": -1648.93,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": null,
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7917791,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/4PMI97JJ3X50?icid=digital_pages_grocery_digital_flyer_184545_LMKN6ZM1MO",
+      "item_web_url": "https://www.walmart.ca/en/ip/4PMI97JJ3X50",
+      "brand": "Sitara",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23257533/066e55b4-4887-11f1-8089-ee6b19dad096/x_large"
+      ],
+      "original_price": "4.98",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1011295916,
+      "name": "Mina chicken burgers 6-pack",
+      "sale_story": null,
+      "sku": "2D8T9JI0SMC6",
+      "description": "Frozen. Selected varieties.\n600 g. #50976431.",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-05-07T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-27T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/419377633/1777992582/extra_large.jpg",
+      "custom_id_field_1": "2D8T9JI0SMC6",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-05-07",
+      "valid_to": "2026-05-27",
+      "categories": [
+        "Frozen"
+      ],
+      "pre_price_text": "",
+      "price_text": "8.97",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 659.64,
+      "bottom": -1166.74,
+      "right": 835.26,
+      "top": -1112.15,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Meat, Seafood & Eggs",
+          "google_category_id": 353
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Meat",
+          "google_category_id": 2917
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Lunch & Deli Meats",
+          "google_category_id": 2920
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7917791,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/2D8T9JI0SMC6?icid=digital_pages_grocery_digital_flyer_184545_LMKN6ZM1MO",
+      "item_web_url": "https://www.walmart.ca/en/ip/2D8T9JI0SMC6",
+      "brand": "Mina\u00ae",
+      "images": [
+        "https://f.wishabi.net/page_items/419377633/1777992582/extra_large.jpg"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1011290226,
+      "name": "Golden Valley Medjoul dates",
+      "sale_story": "Rollback",
+      "sku": "3KEJP8HSSDVA",
+      "description": "Each. 400 g.\n#50839265.",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-05-07T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-27T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23257528/09197a78-4887-11f1-a8d3-ced22bc9356f/x_large",
+      "custom_id_field_1": "3KEJP8HSSDVA",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-05-07",
+      "valid_to": "2026-05-27",
+      "categories": [
+        "Core Grocery"
+      ],
+      "pre_price_text": "",
+      "price_text": "7.97",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1324.0,
+      "bottom": -1433.97,
+      "right": 1601.0,
+      "top": -1190.97,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Fruits",
+          "google_category_id": 2776
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Dates",
+          "google_category_id": 2795
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7917791,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/3KEJP8HSSDVA?icid=digital_pages_grocery_digital_flyer_184545_LMKN6ZM1MO",
+      "item_web_url": "https://www.walmart.ca/en/ip/3KEJP8HSSDVA",
+      "brand": "GOLDEN VALLEY",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23257528/09197a78-4887-11f1-a8d3-ced22bc9356f/x_large"
+      ],
+      "original_price": "8.97",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1011290246,
+      "name": "25cm (10\") Non-stick multi-pan",
+      "sale_story": null,
+      "sku": "10025808",
+      "description": "Each. #1491503.\n\nAlso available, Starbasix 4.98 L\nsauce pan with lid, #50802783.",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-05-07T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-27T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23257528/0ea8002c-4887-11f1-a8d3-ced22bc9356f/x_large",
+      "custom_id_field_1": "10025808",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-05-07",
+      "valid_to": "2026-05-27",
+      "categories": [
+        "Housewares"
+      ],
+      "pre_price_text": "",
+      "price_text": "17.97",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1029.0,
+      "bottom": -2176.97,
+      "right": 1450.0,
+      "top": -1945.97,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Home & Garden",
+          "google_category_id": 745
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Kitchen & Dining",
+          "google_category_id": 908
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Cookware & Bakeware",
+          "google_category_id": 910
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Cookware",
+          "google_category_id": 3920
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Skillets & Frying Pans",
+          "google_category_id": 3934
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7917791,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/10025808?icid=digital_pages_grocery_digital_flyer_184545_LMKN6ZM1MO",
+      "item_web_url": "https://www.walmart.ca/en/ip/10025808",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23257528/0ea8002c-4887-11f1-a8d3-ced22bc9356f/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1011289951,
+      "name": "Brar's Rasmalai",
+      "sale_story": null,
+      "sku": "6000196034792",
+      "description": "Each. Selected varieties.\n850g. \n#30392187.",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-05-07T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-27T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23257528/0757e31e-4887-11f1-a8d3-ced22bc9356f/x_large",
+      "custom_id_field_1": "6000196034792",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-05-07",
+      "valid_to": "2026-05-27",
+      "categories": [
+        "Frozen"
+      ],
+      "pre_price_text": "",
+      "price_text": "9.97",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1629.0,
+      "bottom": -1086.49,
+      "right": 1750.0,
+      "top": -950.49,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": null,
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7917791,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/6000196034792?icid=digital_pages_grocery_digital_flyer_184545_LMKN6ZM1MO",
+      "item_web_url": "https://www.walmart.ca/en/ip/6000196034792",
+      "brand": "Brar's",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23257528/0757e31e-4887-11f1-a8d3-ced22bc9356f/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1011290241,
+      "name": "Brooke Bond Taj Mahal black tea",
+      "sale_story": null,
+      "sku": "6000196744446",
+      "description": "Each. 900 g.\n#30317092.",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-05-07T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-27T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23257528/0bf2319a-4887-11f1-a8d3-ced22bc9356f/x_large",
+      "custom_id_field_1": "6000196744446",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-05-07",
+      "valid_to": "2026-05-27",
+      "categories": [
+        "Snacks & Beverage"
+      ],
+      "pre_price_text": "",
+      "price_text": "9.98",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1623.0,
+      "bottom": -1931.97,
+      "right": 1896.0,
+      "top": -1712.97,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Beverages",
+          "google_category_id": 320
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Tea & Infusions",
+          "google_category_id": 338
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7917791,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/6000196744446?icid=digital_pages_grocery_digital_flyer_184545_LMKN6ZM1MO",
+      "item_web_url": "https://www.walmart.ca/en/ip/6000196744446",
+      "brand": "Brooke Bond",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23257528/0bf2319a-4887-11f1-a8d3-ced22bc9356f/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1011290193,
+      "name": "M-C Dairy 3.25% M.F. Kefir",
+      "sale_story": null,
+      "sku": "6000196447660",
+      "description": "Each. 2 L. #31316543.",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-05-07T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-27T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23257528/066dee1c-4887-11f1-a8d3-ced22bc9356f/x_large",
+      "custom_id_field_1": "6000196447660",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-05-07",
+      "valid_to": "2026-05-27",
+      "categories": [
+        "Dairy"
+      ],
+      "pre_price_text": "",
+      "price_text": "8.14",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1621.0,
+      "bottom": -691.97,
+      "right": 1893.0,
+      "top": -442.97,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Dairy Products",
+          "google_category_id": 347
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7917791,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/6000196447660?icid=digital_pages_grocery_digital_flyer_184545_LMKN6ZM1MO",
+      "item_web_url": "https://www.walmart.ca/en/ip/6000196447660",
+      "brand": "MC Dairy",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23257528/066dee1c-4887-11f1-a8d3-ced22bc9356f/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1011290088,
+      "name": "Khaas Halal yogurt",
+      "sale_story": null,
+      "sku": "6000196823294",
+      "description": "Each. Selected varieties. 750 g. #30440278.",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-05-07T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-27T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23257528/0593ceda-4887-11f1-a8d3-ced22bc9356f/x_large",
+      "custom_id_field_1": "6000196823294",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-05-07",
+      "valid_to": "2026-05-27",
+      "categories": [
+        "Dairy"
+      ],
+      "pre_price_text": "",
+      "price_text": "2.47",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1166.0,
+      "bottom": -616.49,
+      "right": 1286.0,
+      "top": -448.49,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Dairy Products",
+          "google_category_id": 347
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Yogurt",
+          "google_category_id": 2756
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7917791,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/6000196823294?icid=digital_pages_grocery_digital_flyer_184545_LMKN6ZM1MO",
+      "item_web_url": "https://www.walmart.ca/en/ip/6000196823294",
+      "brand": "Khaas",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23257528/0593ceda-4887-11f1-a8d3-ced22bc9356f/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1011290223,
+      "name": "Al Safa paratha family pack",
+      "sale_story": null,
+      "sku": "6000196673250",
+      "description": "Each.\nFrozen.\n2.4 kg.\n#50688912.",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-05-07T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-27T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23257528/090535ea-4887-11f1-a8d3-ced22bc9356f/x_large",
+      "custom_id_field_1": "6000196673250",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-05-07",
+      "valid_to": "2026-05-27",
+      "categories": [
+        "Frozen"
+      ],
+      "pre_price_text": "",
+      "price_text": "7.97",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1326.0,
+      "bottom": -1188.97,
+      "right": 1601.0,
+      "top": -959.97,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Prepared Foods",
+          "google_category_id": 356
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7917791,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/6000196673250?icid=digital_pages_grocery_digital_flyer_184545_LMKN6ZM1MO",
+      "item_web_url": "https://www.walmart.ca/en/ip/6000196673250",
+      "brand": "AL SAFA",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23257528/090535ea-4887-11f1-a8d3-ced22bc9356f/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1011290229,
+      "name": "Byblos Bakery baklava",
+      "sale_story": null,
+      "sku": "6000203047960",
+      "description": "Each. 725 g. #31291031",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-05-07T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-27T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23257528/0a08f724-4887-11f1-a8d3-ced22bc9356f/x_large",
+      "custom_id_field_1": "6000203047960",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-05-07",
+      "valid_to": "2026-05-27",
+      "categories": [
+        "Bakery"
+      ],
+      "pre_price_text": "",
+      "price_text": "15.47",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1619.0,
+      "bottom": -1434.97,
+      "right": 1893.0,
+      "top": -1202.97,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Bakery",
+          "google_category_id": 343
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7917791,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/6000203047960?icid=digital_pages_grocery_digital_flyer_184545_LMKN6ZM1MO",
+      "item_web_url": "https://www.walmart.ca/en/ip/6000203047960",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23257528/0a08f724-4887-11f1-a8d3-ced22bc9356f/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1011290249,
+      "name": "Hawkins Classic 5 L induction cooker",
+      "sale_story": null,
+      "sku": "6000208046651",
+      "description": "Each #50712820",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-05-07T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-27T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23257528/0eabdbca-4887-11f1-a8d3-ced22bc9356f/x_large",
+      "custom_id_field_1": "6000208046651",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-05-07",
+      "valid_to": "2026-05-27",
+      "categories": [
+        "Housewares"
+      ],
+      "pre_price_text": "",
+      "price_text": "49.97",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1476.0,
+      "bottom": -2183.97,
+      "right": 1894.0,
+      "top": -1940.97,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Home & Garden",
+          "google_category_id": 745
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Kitchen & Dining",
+          "google_category_id": 908
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Kitchen Appliances",
+          "google_category_id": 915
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Food Cookers & Steamers",
+          "google_category_id": 4058
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7917791,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/6000208046651?icid=digital_pages_grocery_digital_flyer_184545_LMKN6ZM1MO",
+      "item_web_url": "https://www.walmart.ca/en/ip/6000208046651",
+      "brand": "Hawkins",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23257528/0eabdbca-4887-11f1-a8d3-ced22bc9356f/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1011295911,
+      "name": "Zabiha Halal frozen breaded chicken burgers",
+      "sale_story": null,
+      "sku": "6000200074905",
+      "description": "8-pack.800 g.\n#30930985.",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-05-07T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-27T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23257533/0459fbca-4887-11f1-8089-ee6b19dad096/x_large",
+      "custom_id_field_1": "6000200074905",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-05-07",
+      "valid_to": "2026-05-27",
+      "categories": [
+        "Meat"
+      ],
+      "pre_price_text": "",
+      "price_text": "8.97",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 345.66,
+      "bottom": -1369.76,
+      "right": 628.34,
+      "top": -1121.59,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Meat, Seafood & Eggs",
+          "google_category_id": 353
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Meat",
+          "google_category_id": 2917
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Lunch & Deli Meats",
+          "google_category_id": 2920
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7917791,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/Zabiha-Halal-Breaded-Chicken-Burger/6000200074905?classType=REGULAR&athbdg=L1102&from=/search&icid=digital_pages_grocery_digital_flyer_184545_LMKN6ZM1MO",
+      "item_web_url": "https://www.walmart.ca/en/ip/Zabiha-Halal-Breaded-Chicken-Burger/6000200074905?classType=REGULAR&athbdg=L1102&from=/search",
+      "brand": "Zabiha Halal",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23257533/0459fbca-4887-11f1-8089-ee6b19dad096/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1011295924,
+      "name": "Great Value cooking oil",
+      "sale_story": "Rollback",
+      "sku": "6000202595280",
+      "description": "Each. Selected varieties. 2.84 L.\n#30631387",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-05-07T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-27T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/419377641/1777992588/extra_large.jpg",
+      "custom_id_field_1": "6000202595280",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-05-07",
+      "valid_to": "2026-05-27",
+      "categories": [
+        "Core Grocery"
+      ],
+      "pre_price_text": "",
+      "price_text": "6.98",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 483.66,
+      "bottom": -2337.43,
+      "right": 620.34,
+      "top": -2167.26,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Cooking & Baking Ingredients",
+          "google_category_id": 346
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Cooking Oils",
+          "google_category_id": 2722
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7917791,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/6000202595280?icid=digital_pages_grocery_digital_flyer_184545_LMKN6ZM1MO",
+      "item_web_url": "https://www.walmart.ca/en/ip/6000202595280",
+      "brand": "Great Value",
+      "images": [
+        "https://f.wishabi.net/page_items/419377641/1777992588/extra_large.jpg"
+      ],
+      "original_price": "8.77",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1011290232,
+      "name": "Britannia cookies",
+      "sale_story": "Rollback",
+      "sku": "6000202733448",
+      "description": "Each. 600 g #31055467",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-05-07T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-27T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23257528/0bd21f5e-4887-11f1-a8d3-ced22bc9356f/x_large",
+      "custom_id_field_1": "6000202733448",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-05-07",
+      "valid_to": "2026-05-27",
+      "categories": [
+        "Snacks & Beverage"
+      ],
+      "pre_price_text": "",
+      "price_text": "3.24",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1029.0,
+      "bottom": -1679.97,
+      "right": 1301.0,
+      "top": -1441.97,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Bakery",
+          "google_category_id": 343
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Cookies",
+          "google_category_id": 2671
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7917791,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/6000202733448?icid=digital_pages_grocery_digital_flyer_184545_LMKN6ZM1MO",
+      "item_web_url": "https://www.walmart.ca/en/ip/6000202733448",
+      "brand": "Britannia",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23257528/0bd21f5e-4887-11f1-a8d3-ced22bc9356f/x_large"
+      ],
+      "original_price": "4.24",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1011290238,
+      "name": "Al Shifa honey",
+      "sale_story": "Rollback",
+      "sku": "6000197594624",
+      "description": "Each. 500 g.\n#31455006.",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-05-07T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-27T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23257528/0cd3a29c-4887-11f1-a8d3-ced22bc9356f/x_large",
+      "custom_id_field_1": "6000197594624",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-05-07",
+      "valid_to": "2026-05-27",
+      "categories": [
+        "Core Grocery"
+      ],
+      "pre_price_text": "",
+      "price_text": "6.77",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1326.0,
+      "bottom": -1930.97,
+      "right": 1602.0,
+      "top": -1705.97,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Condiments & Sauces",
+          "google_category_id": 345
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Honey",
+          "google_category_id": 2690
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7917791,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/6000197594624?icid=digital_pages_grocery_digital_flyer_184545_LMKN6ZM1MO",
+      "item_web_url": "https://www.walmart.ca/en/ip/6000197594624",
+      "brand": "Al Shifa",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23257528/0cd3a29c-4887-11f1-a8d3-ced22bc9356f/x_large"
+      ],
+      "original_price": "9.27",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1011290044,
+      "name": "Great Value 100' aluminum foil or 152 m plastic wrap",
+      "sale_story": null,
+      "sku": "6000195381854",
+      "description": "Each. #30167314",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-05-07T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-27T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23257528/03c71c92-4887-11f1-a8d3-ced22bc9356f/x_large",
+      "custom_id_field_1": "6000195381854",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-05-07",
+      "valid_to": "2026-05-27",
+      "categories": [
+        "Paper Goods"
+      ],
+      "pre_price_text": "",
+      "price_text": "4.93",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1065.0,
+      "bottom": -2352.49,
+      "right": 1424.0,
+      "top": -2263.49,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Home & Garden",
+          "google_category_id": 745
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Kitchen & Dining",
+          "google_category_id": 908
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Food Storage",
+          "google_category_id": 912
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Food Wraps",
+          "google_category_id": 3967
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Foil",
+          "google_category_id": 3968
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7917791,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/6000195381854?icid=digital_pages_grocery_digital_flyer_184545_LMKN6ZM1MO",
+      "item_web_url": "https://www.walmart.ca/en/ip/6000195381854",
+      "brand": "Great Value",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23257528/03c71c92-4887-11f1-a8d3-ced22bc9356f/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1011295921,
+      "name": "Mina chicken burgers",
+      "sale_story": null,
+      "sku": "2ZR4VKQ90T3A",
+      "description": "6-pack. Frozen.\nSelected varieties.\n600 g. #50976430.",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-05-07T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-27T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/419377638/1777992586/extra_large.jpg",
+      "custom_id_field_1": "2ZR4VKQ90T3A",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-05-07",
+      "valid_to": "2026-05-27",
+      "categories": [
+        "Frozen"
+      ],
+      "pre_price_text": "",
+      "price_text": "8.97",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 714.64,
+      "bottom": -1281.15,
+      "right": 855.26,
+      "top": -1170.74,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Meat, Seafood & Eggs",
+          "google_category_id": 353
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Meat",
+          "google_category_id": 2917
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Lunch & Deli Meats",
+          "google_category_id": 2920
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7917791,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/2ZR4VKQ90T3A?icid=digital_pages_grocery_digital_flyer_184545_LMKN6ZM1MO",
+      "item_web_url": "https://www.walmart.ca/en/ip/2ZR4VKQ90T3A",
+      "brand": "Mina",
+      "images": [
+        "https://f.wishabi.net/page_items/419377638/1777992586/extra_large.jpg"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1011290204,
+      "name": "Brar's gulab jamun",
+      "sale_story": null,
+      "sku": "6000196034801",
+      "description": "Each. Selected varieties. 850 g.\n\n\n#30392189.",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-05-07T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-27T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23257528/104ab014-4887-11f1-a8d3-ced22bc9356f/x_large",
+      "custom_id_field_1": "6000196034801",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-05-07",
+      "valid_to": "2026-05-27",
+      "categories": [
+        "Core Grocery"
+      ],
+      "pre_price_text": "",
+      "price_text": "7.47",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1621.0,
+      "bottom": -937.97,
+      "right": 1894.0,
+      "top": -703.97,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": null,
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7917791,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/6000196034801?icid=digital_pages_grocery_digital_flyer_184545_LMKN6ZM1MO",
+      "item_web_url": "https://www.walmart.ca/en/ip/6000196034801",
+      "brand": "Brar's",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23257528/104ab014-4887-11f1-a8d3-ced22bc9356f/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1011289873,
+      "name": "Puck labneh",
+      "sale_story": null,
+      "sku": "7197UVJLQD9C",
+      "description": "Each. Selected varieties. 400g.\n#50910296",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-05-07T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-27T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23257528/04b8d30c-4887-11f1-a8d3-ced22bc9356f/x_large",
+      "custom_id_field_1": "7197UVJLQD9C",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-05-07",
+      "valid_to": "2026-05-27",
+      "categories": [
+        "Dairy"
+      ],
+      "pre_price_text": "",
+      "price_text": "5.97",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1321.0,
+      "bottom": -616.49,
+      "right": 1513.0,
+      "top": -507.49,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": null,
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7917791,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/7197UVJLQD9C?icid=digital_pages_grocery_digital_flyer_184545_LMKN6ZM1MO",
+      "item_web_url": "https://www.walmart.ca/en/ip/7197UVJLQD9C",
+      "brand": "Puck",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23257528/04b8d30c-4887-11f1-a8d3-ced22bc9356f/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1011289902,
+      "name": "Khaas Halal yogurt",
+      "sale_story": null,
+      "sku": "6000196823273",
+      "description": "Each. Selected\nvarieties. 750 g.\n#30130340",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-05-07T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-27T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23257528/058fb840-4887-11f1-a8d3-ced22bc9356f/x_large",
+      "custom_id_field_1": "6000196823273",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-05-07",
+      "valid_to": "2026-05-27",
+      "categories": [
+        "Dairy"
+      ],
+      "pre_price_text": "",
+      "price_text": "2.47",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1039.0,
+      "bottom": -607.49,
+      "right": 1159.0,
+      "top": -446.49,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Dairy Products",
+          "google_category_id": 347
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Yogurt",
+          "google_category_id": 2756
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7917791,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/6000196823273?icid=digital_pages_grocery_digital_flyer_184545_LMKN6ZM1MO",
+      "item_web_url": "https://www.walmart.ca/en/ip/6000196823273",
+      "brand": "Khaas",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23257528/058fb840-4887-11f1-a8d3-ced22bc9356f/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1011290211,
+      "name": "A1 Dayaa tahina",
+      "sale_story": "Rollback",
+      "sku": "2U872ZDU5JZD",
+      "description": "Each. 800 g.\n#50539387.",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-05-07T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-27T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23257528/0674cd90-4887-11f1-a8d3-ced22bc9356f/x_large",
+      "custom_id_field_1": "2U872ZDU5JZD",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-05-07",
+      "valid_to": "2026-05-27",
+      "categories": [
+        "Core Grocery"
+      ],
+      "pre_price_text": "",
+      "price_text": "5.97",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1330.0,
+      "bottom": -939.97,
+      "right": 1599.0,
+      "top": -715.97,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": null,
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7917791,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/2U872ZDU5JZD?icid=digital_pages_grocery_digital_flyer_184545_LMKN6ZM1MO",
+      "item_web_url": "https://www.walmart.ca/en/ip/2U872ZDU5JZD",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23257528/0674cd90-4887-11f1-a8d3-ced22bc9356f/x_large"
+      ],
+      "original_price": "8.97",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1011290252,
+      "name": "Great Value eco compostable",
+      "sale_story": null,
+      "sku": "6000204620069",
+      "description": "8.75\" Pack. 40 plates.\n#50675780",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-05-07T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-27T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23257528/03ce8662-4887-11f1-a8d3-ced22bc9356f/x_large",
+      "custom_id_field_1": "6000204620069",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-05-07",
+      "valid_to": "2026-05-27",
+      "categories": [
+        "Paper Goods"
+      ],
+      "pre_price_text": "",
+      "price_text": "6.44",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1474.0,
+      "bottom": -2433.97,
+      "right": 1892.0,
+      "top": -2193.97,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Home & Garden",
+          "google_category_id": 745
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Lawn & Garden",
+          "google_category_id": 918
+        },
+        "l3": null,
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7917791,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/6000204620069?icid=digital_pages_grocery_digital_flyer_184545_LMKN6ZM1MO",
+      "item_web_url": "https://www.walmart.ca/en/ip/6000204620069",
+      "brand": "Great Value",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23257528/03ce8662-4887-11f1-a8d3-ced22bc9356f/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1011295908,
+      "name": "Redpath white sugar",
+      "sale_story": null,
+      "sku": "10053833",
+      "description": "Each. 2 kg.\n#30175168",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-05-07T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-27T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23257533/0860910c-4887-11f1-8089-ee6b19dad096/x_large",
+      "custom_id_field_1": "10053833",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-05-07",
+      "valid_to": "2026-05-27",
+      "categories": [
+        "Core Grocery"
+      ],
+      "pre_price_text": "",
+      "price_text": "2.97",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 46.98,
+      "bottom": -1896.09,
+      "right": 328.66,
+      "top": -1646.93,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Cooking & Baking Ingredients",
+          "google_category_id": 346
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Sugar & Sweeteners",
+          "google_category_id": 2742
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7917791,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/10053833?icid=digital_pages_grocery_digital_flyer_184545_LMKN6ZM1MO",
+      "item_web_url": "https://www.walmart.ca/en/ip/10053833",
+      "brand": "Redpath",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23257533/0860910c-4887-11f1-8089-ee6b19dad096/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1011290018,
+      "name": "Fruiti-O juice",
+      "sale_story": "Rollback",
+      "sku": "6000197323205",
+      "description": "Each. Selected flavours. 2.1L. #30182876.",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-05-07T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-27T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23257528/0ce8a3cc-4887-11f1-a8d3-ced22bc9356f/x_large",
+      "custom_id_field_1": "6000197323205",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-05-07",
+      "valid_to": "2026-05-27",
+      "categories": [
+        "Core Grocery"
+      ],
+      "pre_price_text": "",
+      "price_text": "4.98",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1027.0,
+      "bottom": -1887.49,
+      "right": 1084.0,
+      "top": -1686.49,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Beverages",
+          "google_category_id": 320
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Juice",
+          "google_category_id": 331
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7917791,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/6000197323205?icid=digital_pages_grocery_digital_flyer_184545_LMKN6ZM1MO",
+      "item_web_url": "https://www.walmart.ca/en/ip/6000197323205",
+      "brand": "FRUITI-O",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23257528/0ce8a3cc-4887-11f1-a8d3-ced22bc9356f/x_large"
+      ],
+      "original_price": "5.77",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1011290137,
+      "name": "Brar's Rasmalai",
+      "sale_story": null,
+      "sku": "6000196034795",
+      "description": "Each. Selected varieties.\n850 g.\n#30392188",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-05-07T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-27T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23257528/083e961a-4887-11f1-a8d3-ced22bc9356f/x_large",
+      "custom_id_field_1": "6000196034795",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-05-07",
+      "valid_to": "2026-05-27",
+      "categories": [
+        "Deli/HMR"
+      ],
+      "pre_price_text": "",
+      "price_text": "9.97",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1750.0,
+      "bottom": -1101.49,
+      "right": 1896.0,
+      "top": -978.49,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": null,
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7917791,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/6000196034795?icid=digital_pages_grocery_digital_flyer_184545_LMKN6ZM1MO",
+      "item_web_url": "https://www.walmart.ca/en/ip/6000196034795",
+      "brand": "Brar's",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23257528/083e961a-4887-11f1-a8d3-ced22bc9356f/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1011290181,
+      "name": "Great Value 100' aluminum foil plastic wrap",
+      "sale_story": null,
+      "sku": "10268147",
+      "description": "Each. #30167314",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-05-07T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-27T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23257528/02cb95de-4887-11f1-a8d3-ced22bc9356f/x_large",
+      "custom_id_field_1": "10268147",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-05-07",
+      "valid_to": "2026-05-27",
+      "categories": [
+        "Paper Goods"
+      ],
+      "pre_price_text": "",
+      "price_text": "4.93",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1047.0,
+      "bottom": -2263.49,
+      "right": 1424.0,
+      "top": -2192.49,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Home & Garden",
+          "google_category_id": 745
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Kitchen & Dining",
+          "google_category_id": 908
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Food Storage",
+          "google_category_id": 912
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Food Wraps",
+          "google_category_id": 3967
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Foil",
+          "google_category_id": 3968
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7917791,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/10268147?icid=digital_pages_grocery_digital_flyer_184545_LMKN6ZM1MO",
+      "item_web_url": "https://www.walmart.ca/en/ip/10268147",
+      "brand": "Great Value",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23257528/02cb95de-4887-11f1-a8d3-ced22bc9356f/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1011295905,
+      "name": "Zabiha Halal original chicken wieners",
+      "sale_story": null,
+      "sku": "10211078",
+      "description": "Each. 450 g. #9710535.",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-05-07T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-27T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/419377622/1777992573/extra_large.jpg",
+      "custom_id_field_1": "10211078",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-05-07",
+      "valid_to": "2026-05-27",
+      "categories": [
+        "Meat"
+      ],
+      "pre_price_text": "",
+      "price_text": "2.77",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 48.6,
+      "bottom": -1104.91,
+      "right": 478.17,
+      "top": -855.24,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Meat, Seafood & Eggs",
+          "google_category_id": 353
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Meat",
+          "google_category_id": 2917
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Lunch & Deli Meats",
+          "google_category_id": 2920
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7917791,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/10211078?icid=digital_pages_grocery_digital_flyer_184545_LMKN6ZM1MO",
+      "item_web_url": "https://www.walmart.ca/en/ip/10211078",
+      "brand": "Zabiha Halal",
+      "images": [
+        "https://f.wishabi.net/page_items/419377622/1777992573/extra_large.jpg"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1011289972,
+      "name": "Bikaji snacks",
+      "sale_story": null,
+      "sku": "6000196936856",
+      "description": "Each. Selected\nvarieties and sizes.\n#50805183",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-05-07T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-27T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23257528/0f92ac08-4887-11f1-a8d3-ced22bc9356f/x_large",
+      "custom_id_field_1": "6000196936856",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-05-07",
+      "valid_to": "2026-05-27",
+      "categories": [
+        "Produce"
+      ],
+      "pre_price_text": "",
+      "price_text": "0.97",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1039.0,
+      "bottom": -1353.49,
+      "right": 1156.0,
+      "top": -1188.49,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Snack Foods",
+          "google_category_id": 358
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7917791,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/6000196936856?icid=digital_pages_grocery_digital_flyer_184545_LMKN6ZM1MO",
+      "item_web_url": "https://www.walmart.ca/en/ip/6000196936856",
+      "brand": "Bikaji",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23257528/0f92ac08-4887-11f1-a8d3-ced22bc9356f/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1011295919,
+      "name": "Tilda basmati rice",
+      "sale_story": "Rollback",
+      "sku": "6000187784053",
+      "description": "Each. 4.54 kg. #30378528",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-05-07T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-27T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/419377636/1777992584/extra_large.jpg",
+      "custom_id_field_1": "6000187784053",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-05-07",
+      "valid_to": "2026-05-27",
+      "categories": [
+        "Core Grocery"
+      ],
+      "pre_price_text": "",
+      "price_text": "13.27",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 650.34,
+      "bottom": -2161.26,
+      "right": 920.01,
+      "top": -1922.09,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Grains, Rice & Cereal",
+          "google_category_id": 352
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Rice",
+          "google_category_id": 2913
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7917791,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/6000187784053?icid=digital_pages_grocery_digital_flyer_184545_LMKN6ZM1MO",
+      "item_web_url": "https://www.walmart.ca/en/ip/6000187784053",
+      "brand": "Tilda",
+      "images": [
+        "https://f.wishabi.net/page_items/419377636/1777992584/extra_large.jpg"
+      ],
+      "original_price": "18.97",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1011295925,
+      "name": "Banner - Eid Mubarak",
+      "sale_story": null,
+      "sku": null,
+      "description": null,
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-05-07T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-27T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/419377642/1777992589/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-05-07",
+      "valid_to": "2026-05-27",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 31.24,
+      "bottom": -542.02,
+      "right": 943.46,
+      "top": -180.09,
+      "page": 1,
+      "item_categories": {
+        "l1": null,
+        "l2": null,
+        "l3": null,
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7917791,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 5,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/cp/gifts-holidays/ramadan-eid/6000199800990?icid=digital_pages_grocery_digital_flyer_184545_LMKN6ZM1MO",
+      "item_web_url": "https://www.walmart.ca/en/cp/gifts-holidays/ramadan-eid/6000199800990",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_items/419377642/1777992589/extra_large.jpg"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1011289927,
+      "name": "Your Fresh Market Arabic-style pita bread",
+      "sale_story": null,
+      "sku": "6000208073127",
+      "description": "5-pack. Selected\nvarieties. 330 g. \n#50542468.",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-05-07T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-27T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23257528/0750aeaa-4887-11f1-a8d3-ced22bc9356f/x_large",
+      "custom_id_field_1": "6000208073127",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-05-07",
+      "valid_to": "2026-05-27",
+      "categories": [
+        "Bakery"
+      ],
+      "pre_price_text": "",
+      "price_text": "2.47",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1051.0,
+      "bottom": -1090.49,
+      "right": 1169.0,
+      "top": -938.49,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Bakery",
+          "google_category_id": 343
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Breads & Buns",
+          "google_category_id": 2668
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7917791,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/6000208073127?icid=digital_pages_grocery_digital_flyer_184545_LMKN6ZM1MO",
+      "item_web_url": "https://www.walmart.ca/en/ip/6000208073127",
+      "brand": "Your Fresh Market",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23257528/0750aeaa-4887-11f1-a8d3-ced22bc9356f/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1011289993,
+      "name": "barazek 250 g",
+      "sale_story": null,
+      "sku": "2CBUN27I2CQ0",
+      "description": "Each. #50969768.",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-05-07T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-27T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23257528/0aee196c-4887-11f1-a8d3-ced22bc9356f/x_large",
+      "custom_id_field_1": "2CBUN27I2CQ0",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-05-07",
+      "valid_to": "2026-05-27",
+      "categories": [
+        "Core Grocery"
+      ],
+      "pre_price_text": "",
+      "price_text": "6.97",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1636.0,
+      "bottom": -1581.49,
+      "right": 1746.0,
+      "top": -1446.49,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": null,
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7917791,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/2CBUN27I2CQ0?icid=digital_pages_grocery_digital_flyer_184545_LMKN6ZM1MO",
+      "item_web_url": "https://www.walmart.ca/en/ip/2CBUN27I2CQ0",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23257528/0aee196c-4887-11f1-a8d3-ced22bc9356f/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1011290068,
+      "name": "Puck labneh",
+      "sale_story": null,
+      "sku": "5V52YE52URB7",
+      "description": "Each. Selected varieties. 400 g. #50910296.",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-05-07T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-27T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23257528/04b293de-4887-11f1-a8d3-ced22bc9356f/x_large",
+      "custom_id_field_1": "5V52YE52URB7",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-05-07",
+      "valid_to": "2026-05-27",
+      "categories": [
+        "Dairy"
+      ],
+      "pre_price_text": "",
+      "price_text": "5.97",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1397.0,
+      "bottom": -507.49,
+      "right": 1591.0,
+      "top": -439.49,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": null,
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7917791,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/5V52YE52URB7?icid=digital_pages_grocery_digital_flyer_184545_LMKN6ZM1MO",
+      "item_web_url": "https://www.walmart.ca/en/ip/5V52YE52URB7",
+      "brand": "Puck",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23257528/04b293de-4887-11f1-a8d3-ced22bc9356f/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1011290153,
+      "name": "Bikaji snacks",
+      "sale_story": null,
+      "sku": "6TS30DVM8NC4",
+      "description": "Each. Selected varieties and sizes\n#50805182",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-05-07T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-27T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23257528/0f9a391e-4887-11f1-a8d3-ced22bc9356f/x_large",
+      "custom_id_field_1": "6TS30DVM8NC4",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-05-07",
+      "valid_to": "2026-05-27",
+      "categories": [
+        "Produce"
+      ],
+      "pre_price_text": "",
+      "price_text": "0.97",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1156.0,
+      "bottom": -1353.49,
+      "right": 1300.0,
+      "top": -1188.49,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Snack Foods",
+          "google_category_id": 358
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7917791,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/6TS30DVM8NC4?icid=digital_pages_grocery_digital_flyer_184545_LMKN6ZM1MO",
+      "item_web_url": "https://www.walmart.ca/en/ip/6TS30DVM8NC4",
+      "brand": "Bikaji",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23257528/0f9a391e-4887-11f1-a8d3-ced22bc9356f/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1011290166,
+      "name": "Mamoul 300 g",
+      "sale_story": null,
+      "sku": "4BZ34PJQ5A1H",
+      "description": "Each. #50969768.",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-05-07T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-27T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23257528/0b0fb7a2-4887-11f1-a8d3-ced22bc9356f/x_large",
+      "custom_id_field_1": "4BZ34PJQ5A1H",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-05-07",
+      "valid_to": "2026-05-27",
+      "categories": [
+        "Core Grocery"
+      ],
+      "pre_price_text": "",
+      "price_text": "6.97",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1747.0,
+      "bottom": -1617.49,
+      "right": 1890.0,
+      "top": -1481.49,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": null,
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7917791,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/4BZ34PJQ5A1H?icid=digital_pages_grocery_digital_flyer_184545_LMKN6ZM1MO",
+      "item_web_url": "https://www.walmart.ca/en/ip/4BZ34PJQ5A1H",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23257528/0b0fb7a2-4887-11f1-a8d3-ced22bc9356f/x_large"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1011290235,
+      "name": "Cortas pistachio halva",
+      "sale_story": "Rollback",
+      "sku": "1MT8ZMX70J7E",
+      "description": "Each. 454 g.\n#50837897.",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-05-07T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-27T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23257528/0a1da9d0-4887-11f1-a8d3-ced22bc9356f/x_large",
+      "custom_id_field_1": "1MT8ZMX70J7E",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-05-07",
+      "valid_to": "2026-05-27",
+      "categories": [
+        "Commercial Bread"
+      ],
+      "pre_price_text": "",
+      "price_text": "5.97",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1327.0,
+      "bottom": -1684.97,
+      "right": 1599.0,
+      "top": -1445.97,
+      "page": 2,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Prepared Foods",
+          "google_category_id": 356
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7917791,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/1MT8ZMX70J7E?icid=digital_pages_grocery_digital_flyer_184545_LMKN6ZM1MO",
+      "item_web_url": "https://www.walmart.ca/en/ip/1MT8ZMX70J7E",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23257528/0a1da9d0-4887-11f1-a8d3-ced22bc9356f/x_large"
+      ],
+      "original_price": "7.97",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1011295906,
+      "name": "Al Safa Halal chicken nuggets",
+      "sale_story": "Rollback",
+      "sku": "6000200200316",
+      "description": "Each. Frozen. 600 g.\n#31028878.",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-05-07T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-27T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23257533/022d8c22-4887-11f1-8089-ee6b19dad096/x_large",
+      "custom_id_field_1": "6000200200316",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-05-07",
+      "valid_to": "2026-05-27",
+      "categories": [
+        "Frozen"
+      ],
+      "pre_price_text": "",
+      "price_text": "6.27",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 57.98,
+      "bottom": -1371.76,
+      "right": 327.66,
+      "top": -1116.59,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Meat, Seafood & Eggs",
+          "google_category_id": 353
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Meat",
+          "google_category_id": 2917
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Lunch & Deli Meats",
+          "google_category_id": 2920
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7917791,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/6000200200316?icid=digital_pages_grocery_digital_flyer_184545_LMKN6ZM1MO",
+      "item_web_url": "https://www.walmart.ca/en/ip/6000200200316",
+      "brand": "Al Safa Halal",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23257533/022d8c22-4887-11f1-8089-ee6b19dad096/x_large"
+      ],
+      "original_price": "7.97",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1011295910,
+      "name": "Brar's mini samosas",
+      "sale_story": "Rollback",
+      "sku": "6000202152565",
+      "description": "Each. Selected\nvarieties. 624 g.\n#30965088.",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-05-07T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-27T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/419377627/1777992577/extra_large.jpg",
+      "custom_id_field_1": "6000202152565",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-05-07",
+      "valid_to": "2026-05-27",
+      "categories": [
+        "Core Grocery"
+      ],
+      "pre_price_text": "",
+      "price_text": "5.28",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 46.98,
+      "bottom": -2432.43,
+      "right": 341.66,
+      "top": -2168.26,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Snack Foods",
+          "google_category_id": 358
+        },
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7917791,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/6000202152565?icid=digital_pages_grocery_digital_flyer_184545_LMKN6ZM1MO",
+      "item_web_url": "https://www.walmart.ca/en/ip/6000202152565",
+      "brand": "Brar's",
+      "images": [
+        "https://f.wishabi.net/page_items/419377627/1777992577/extra_large.jpg"
+      ],
+      "original_price": "6.97",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1011295912,
+      "name": "Pomegranate",
+      "sale_story": null,
+      "sku": "6000188960732",
+      "description": "Each. Product of Peru or India.\n#30009574",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-05-07T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-27T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/419377629/1777992579/extra_large.jpg",
+      "custom_id_field_1": "6000188960732",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-05-07",
+      "valid_to": "2026-05-27",
+      "categories": [
+        "Produce"
+      ],
+      "pre_price_text": "",
+      "price_text": "2.97",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 356.66,
+      "bottom": -1636.93,
+      "right": 626.34,
+      "top": -1380.76,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Fruits & Vegetables",
+          "google_category_id": 351
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Fresh & Frozen Fruits",
+          "google_category_id": 2776
+        },
+        "l5": {
+          "confidence": null,
+          "category_name": "Pomegranates",
+          "google_category_id": 2817
+        },
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7917791,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/6000188960732?icid=digital_pages_grocery_digital_flyer_184545_LMKN6ZM1MO",
+      "item_web_url": "https://www.walmart.ca/en/ip/6000188960732",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_items/419377629/1777992579/extra_large.jpg"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1011295913,
+      "name": "Sitara lentils",
+      "sale_story": "Rollback",
+      "sku": "55449VCAFV48",
+      "description": "Each. Selected varieties. 1.81 kg. \n\n#50506454.",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-05-07T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-27T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_pdf_images/23257533/0678fb22-4887-11f1-8089-ee6b19dad096/x_large",
+      "custom_id_field_1": "55449VCAFV48",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-05-07",
+      "valid_to": "2026-05-27",
+      "categories": [
+        "Snacks & Beverage"
+      ],
+      "pre_price_text": "",
+      "price_text": "4.48",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 358.34,
+      "bottom": -1776.09,
+      "right": 520.66,
+      "top": -1695.93,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": null,
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7917791,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/55449VCAFV48?icid=digital_pages_grocery_digital_flyer_184545_LMKN6ZM1MO",
+      "item_web_url": "https://www.walmart.ca/en/ip/55449VCAFV48",
+      "brand": "Sitara",
+      "images": [
+        "https://f.wishabi.net/page_pdf_images/23257533/0678fb22-4887-11f1-8089-ee6b19dad096/x_large"
+      ],
+      "original_price": "4.98",
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1011295902,
+      "name": "Our Promise fresh lamb shoulder blade chops",
+      "sale_story": null,
+      "sku": "7KWTRPM7RY4G",
+      "description": "#50988033.\n$30.52/kg.",
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-05-07T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-27T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/419377619/1777992570/extra_large.jpg",
+      "custom_id_field_1": "7KWTRPM7RY4G",
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-05-07",
+      "valid_to": "2026-05-27",
+      "categories": [
+        "Meat"
+      ],
+      "pre_price_text": "",
+      "price_text": "13.84",
+      "post_price_text": "lb",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 353.57,
+      "bottom": -837.69,
+      "right": 622.08,
+      "top": -579.93,
+      "page": 1,
+      "item_categories": {
+        "l1": {
+          "confidence": null,
+          "category_name": "Food, Beverages & Tobacco",
+          "google_category_id": 319
+        },
+        "l2": {
+          "confidence": null,
+          "category_name": "Food Items",
+          "google_category_id": 342
+        },
+        "l3": {
+          "confidence": null,
+          "category_name": "Meat, Seafood & Eggs",
+          "google_category_id": 353
+        },
+        "l4": {
+          "confidence": null,
+          "category_name": "Meat",
+          "google_category_id": 2917
+        },
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7917791,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 1,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/ip/7KWTRPM7RY4G?icid=digital_pages_grocery_digital_flyer_184545_LMKN6ZM1MO",
+      "item_web_url": "https://www.walmart.ca/en/ip/7KWTRPM7RY4G",
+      "brand": "Our Promise",
+      "images": [
+        "https://f.wishabi.net/page_items/419377619/1777992570/extra_large.jpg"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    },
+    {
+      "id": 1011290256,
+      "name": "Banner - Eid Mubarak",
+      "sale_story": null,
+      "sku": null,
+      "description": null,
+      "disclaimer_text": null,
+      "valid_from_timestamp": "2026-05-07T00:00:00-04:00",
+      "valid_to_timestamp": "2026-05-27T23:59:59-04:00",
+      "image_url": "https://f.wishabi.net/page_items/419375509/1777992590/extra_large.jpg",
+      "custom_id_field_1": null,
+      "custom_id_field_2": null,
+      "custom_id_field_3": null,
+      "custom_id_field_4": null,
+      "custom_id_field_5": null,
+      "custom_id_field_6": null,
+      "valid_from": "2026-05-07",
+      "valid_to": "2026-05-27",
+      "categories": [],
+      "pre_price_text": "",
+      "price_text": "",
+      "post_price_text": "",
+      "hosted_coupon_image": null,
+      "hide_brand_in_pop": false,
+      "left": 1004.55,
+      "bottom": -409.94,
+      "right": 1916.76,
+      "top": -62.78,
+      "page": 2,
+      "item_categories": {
+        "l1": null,
+        "l2": null,
+        "l3": null,
+        "l4": null,
+        "l5": null,
+        "l6": null,
+        "l7": null
+      },
+      "flyer_id": 7917791,
+      "page_destination": null,
+      "in_store_only": false,
+      "item_type": 5,
+      "average_rating": null,
+      "web_commission_url": "https://www.walmart.ca/en/cp/gifts-holidays/ramadan-eid/6000199800990?icid=digital_pages_grocery_digital_flyer_184545_LMKN6ZM1MO",
+      "item_web_url": "https://www.walmart.ca/en/cp/gifts-holidays/ramadan-eid/6000199800990",
+      "brand": "",
+      "images": [
+        "https://f.wishabi.net/page_items/419375509/1777992590/extra_large.jpg"
+      ],
+      "original_price": null,
+      "hide_flyer_item_ttm_links_outside_validity": false,
+      "sub_items": []
+    }
+  ]
+}
