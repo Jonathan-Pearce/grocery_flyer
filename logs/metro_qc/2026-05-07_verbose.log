@@ -1,0 +1,226 @@
+=== Metro Quebec Flyer Fetch — 2026-05-07 ===
+Run started : 2026-05-07 13:54:04 UTC
+
+Loaded 182 stores from data/metro_qc/stores.json
+
+Stores loaded: 182
+Loaded existing store_flyers.json (2002 flyer entries)
+
+Phase 1: fetching flyer listings per store…
+
+  [161] Metro Plus Thibeault Ste-Sophie → ['83316', '83316H', '83316B', '83316P']
+  [342] Metro Plus Ste-Foy, Québec → ['83316', '83316H', '83316B', '83316P']
+  [343] Metro Plus St-Nicolas, Lévis → ['83316', '83316H', '83316B', '83316P']
+  [346] Metro Plus St-David, Québec → ['83316', '83316H', '83316B', '83316P']
+  [349] Metro Plus Mail St-Roch, Québec → ['83316', '83316H', '83316B', '83316P']
+  [351] Metro Innovation, Québec → ['83316', '83316H', '83316B', '83316P']
+  [353] Marché Saint-Augustin L'Hêtrière Inc. → ['83316', '83316H', '83316B', '83316P']
+  [354] Alimentation Carl Auger Inc., Boul. Pie-Xi Nord → ['83316', '83316H', '83316B', '83316P']
+  [355] Metro Richelieu Inc. / St-Raymond → ['83316', '83316H', '83316B', '83316P']
+  [356] Metro Donnacona → ['83316', '83316H', '83316B', '83316P']
+  [358] Metro La Malbaie → ['83316', '83316H', '83316B', '83316P']
+  [360] Metro Black-Lake, Thetford Mines → ['83316', '83316H', '83316B', '83316P']
+  [361] Metro Plus Lévis → ['83316', '83316H', '83316B', '83316P']
+  [362] Metro Charny, Lévis → ['83316', '83316H', '83316B', '83316P']
+  [365] Metro Plus des Forges, Trois-Rivières → ['83316', '83316H', '83316B', '83316P']
+  [366] Metro Plus Jean XXIII, Trois-Rivières → ['83316', '83316H', '83316B', '83316P']
+  [369] Alimentation Sylvain Daigle Inc. → ['83316', '83316H', '83316B', '83316P']
+  [371] Alimentation Merouane Amour Inc., Montréal → ['83316', '83316H', '83316B', '83316P']
+  [372] Alimentation Fabrice Koné Inc. → ['83316', '83316H', '83316B', '83316P']
+  [373] Metro Plus Domaine, Montréal → ['83316', '83316H', '83316B', '83316P']
+  [374] Metro Pie IX, Rue Jean-Talon Est, Montréal → ['83316', '83316H', '83316B', '83316P']
+  [375] Metro Morgan, Rue Ste-Catherine Est, Montréal → ['83316', '83316H', '83316B', '83316P']
+  [376] Metro Ontario, Montréal → ['83316', '83316H', '83316B', '83316P']
+  [377] Metro Plus Fleury, Montréal → ['83316', '83316H', '83316B', '83316P']
+  [378] Metro Plus Dorion Ste-Catherine, Montréal → ['83316', '83316H', '83316B', '83316P']
+  [380] Metro Avenue du Parc, Montréal → ['83316', '83316H', '83316B', '83316P']
+  [381] Metro Plus Wilderton → ['83316', '83316H', '83316B', '83316P']
+  [382] Metro Côte-des-Neiges, Montréal → ['83316', '83316H', '83316B', '83316P']
+  [383] Metro Queen Mary, Montréal → ['83316', '83316H', '83316B', '83316P']
+  [384] Metro Westmount → ['83316', '83316H', '83316B', '83316P']
+  [386] 9477-0690 Québec Inc. → ['83316', '83316H', '83316B', '83316P']
+  [387] Metro Plus Concorde Duvernay, Laval → ['83316', '83316H', '83316B', '83316P']
+  [390] Metro Plus Dollard, Montréal → ['83316', '83316H', '83316B', '83316P']
+  [393] Metro Plus Kirkland → ['83316', '83316H', '83316B', '83316P']
+  [395] Metro Plus Pointe-Claire → ['83316', '83316H', '83316B', '83316P']
+  [396] Metro Plus Beaconsfield → ['83316', '83316H', '83316B', '83316P']
+  [401] Metro Plus de Drummondville, boul Lemire → ['83316', '83316H', '83316B', '83316P']
+  [402] Metro Plus Promenades Drummondville → ['83316', '83316H', '83316B', '83316P']
+  [404] Metro Plus Sorel-Tracy → ['83316', '83316H', '83316B', '83316P']
+  [405] Marché Pilon, Boul. De La Cité Des Jeunes, Gatineau → ['83316', '83316H', '83316B', '83316P']
+  [407] Metro Plus St-Constant → ['83316', '83316H', '83316B', '83316P']
+  [408] Metro Plus Bellemare, Brossard → ['83316', '83316H', '83316B', '83316P']
+  [409] Metro Candiac → ['83316', '83316H', '83316B', '83316P']
+  [410] Metro Plus Châteauguay → ['83316', '83316H', '83316B', '83316P']
+  [411] Metro Plus Valleyfield → ['83316', '83316H', '83316B', '83316P']
+  [412] Metro Plus Collin Chambly → ['83316', '83316H', '83316B', '83316P']
+  [413] Metro Plus Terrebonne → ['83316', '83316H', '83316B', '83316P']
+  [420] Metro Plus Buckingham, Gatineau → ['83316', '83316H', '83316B', '83316P']
+  [485] Metro Plus De la Montagne, Montréal → ['83316', '83316H', '83316B', '83316P']
+  [487] Metro Plus Victoriaville → ['83316', '83316H', '83316B', '83316P']
+  [532] Supermarché Claka Inc., Québec → ['83316', '83316H', '83316B', '83316P']
+  [533] Metro Plus De  La Rousselière, Montréal → ['83316', '83316H', '83316B', '83316P']
+  [534] Metro Ville Mont-Royal → ['83316', '83316H', '83316B', '83316P']
+  [535] Metro Ste-Anne-de-La Pérade → ['83316', '83316H', '83316B', '83316P']
+  [537] Metro Lebel Mont-Royal, Montréal → ['83316', '83316H', '83316B', '83316P']
+  [538] Metro Bigras, Montréal → ['83316', '83316H', '83316B', '83316P']
+  [540] Metro Plus Boucher St-Félix-de-Valois → ['83316', '83316H', '83316B', '83316P']
+  [541] Metro Boucher St-Jean-de-Matha → ['83316', '83316H', '83316B', '83316P']
+  [542] Metro Plus Fournier Cap-de-la-Madeleine, Trois-Rivières → ['83316', '83316H', '83316B', '83316P']
+  [543] Metro Masson, Trois-Rivières → ['83316', '83316H', '83316B', '83316P']
+  [545] Metro Saint-Tite, St-Tite-De-Champlain → ['83316', '83316H', '83316B', '83316P']
+  [546] Metro Plus Thibeault Blainville, Boul. Curé-Labelle → ['83316', '83316H', '83316B', '83316P']
+  [548] Metro Plus Thibeault St-Antoine, St-Jérôme → ['83316', '83316H', '83316B', '83316P']
+  [549] Metro Plus Thibeault St-Jérôme → ['83316', '83316H', '83316B', '83316P']
+  [551] Metro E. Bourdon & Fils, rue Jean Talon Est → ['83316', '83316H', '83316B', '83316P']
+  [552] Metro Plus Perrier & Martel, Boul. Arthur-Sauvé → ['83316', '83316H', '83316B', '83316P']
+  [553] Metro Oka → ['83316', '83316H', '83316B', '83316P']
+  [554] Metro Plus Beaulieu Ste-Julienne → ['83316', '83316H', '83316B', '83316P']
+  [555] Metro Plus Boucher Rawdon → ['83316', '83316H', '83316B', '83316P']
+  [556] Metro Plus Bélair Joliette, Rue Beaudry Nord → ['83316', '83316H', '83316B', '83316P']
+  [557] Metro St-Marc-des-Carrières → ['83316', '83316H', '83316B', '83316P']
+  [559] Metro Ferland Centre-Ville, Québec → ['83316', '83316H', '83316B', '83316P']
+  [560] Metro Beaubien, Montréal → ['83316', '83316H', '83316B', '83316P']
+  [563] Metro Val-David → ['83316', '83316H', '83316B', '83316P']
+  [564] Metro Marché Laval Veilleux, St-Georges Sud → ['83316', '83316H', '83316B', '83316P']
+  [565] Marché Alain Valiquette, Lac-Mégantic → ['83316', '83316H', '83316B', '83316P']
+  [566] Metro Plus Plouffe Magog → ['83316', '83316H', '83316B', '83316P']
+  [569] Metro Rouillard & Frères, Pierreville → ['83316', '83316H', '83316B', '83316P']
+  [570] Metro Plus Émery Louiseville → ['83316', '83316H', '83316B', '83316P']
+  [572] Metro Plus Ile-Perrot, Notre-Dame-De-L'ile-Perrot → ['83316', '83316H', '83316B', '83316P']
+  [575] Marché Daoust (1985) Valleyfield → ['83316', '83316H', '83316B', '83316P']
+  [579] Metro du Témis Dégelis → ['83316', '83316H', '83316B', '83316P']
+  [580] Metro St-André Avellin → ['83316', '83316H', '83316B', '83316P']
+  [581] Metro Plus Leblanc, boul. Maloney → ['83316', '83316H', '83316B', '83316P']
+  [584] Metro Plus Jonquière, Saguenay → ['83316', '83316H', '83316B', '83316P']
+  [585] Metro Sagamie Jonquière, Saguenay → ['83316', '83316H', '83316B', '83316P']
+  [586] Metro Boutin St-Félicien → ['83316', '83316H', '83316B', '83316P']
+  [587] Metro Gracefield → ['83316', '83316H', '83316B', '83316P']
+  [588] Metro Chénéville → ['83316', '83316H', '83316B', '83316P']
+  [589] Metro Thurso, Rue Victoria → ['83316', '83316H', '83316B', '83316P']
+  [591] Metro Lapointe Maniwaki → ['83316', '83316H', '83316B', '83316P']
+  [592] Metro Tanguay Papineauville → ['83316', '83316H', '83316B', '83316P']
+  [596] Metro Plouffe Bedford → ['83316', '83316H', '83316B', '83316P']
+  [597] Metro Plus Plouffe Farnham → ['83316', '83316H', '83316B', '83316P']
+  [599] Metro Plus St-Grégoire, Bécancour → ['83316', '83316H', '83316B', '83316P']
+  [601] Metro Iberville Repentigny → ['83316', '83316H', '83316B', '83316P']
+  [603] Metro Plus Marquis Repentigny → ['83316', '83316H', '83316B', '83316P']
+  [604] Metro Plus Fogarty Charlemagne → ['83316', '83316H', '83316B', '83316P']
+  [606] 9486-7041 Québec Inc. → ['83316', '83316H', '83316B', '83316P']
+  [608] Metro Plus Cardinal Ste-Catherine → ['83316', '83316H', '83316B', '83316P']
+  [609] Metro Plus Bellemare Lapinière, Brossard → ['83316', '83316H', '83316B', '83316P']
+  [611] Metro Plus Raymond Drouin, Longueuil → ['83316', '83316H', '83316B', '83316P']
+  [612] Supermarché Riendeau, Ste-Julie → ['83316', '83316H', '83316B', '83316P']
+  [613] Metro Richelieu Inc./Verchères → ['83316', '83316H', '83316B', '83316P']
+  [615] Metro Viens Carleton → ['83316', '83316H', '83316B', '83316P']
+  [617] Métro Plus Gaétan Riendeau, St-Hyacinthe → ['83316', '83316H', '83316B', '83316P']
+  [618] Metro Plus Riendeau Beloeil → ['83316', '83316H', '83316B', '83316P']
+  [620] Metro Plus Riendeau St-Hilaire → ['83316', '83316H', '83316B', '83316P']
+  [623] Metro Plus Riendeau St-Hubert, Longueuil → ['83316', '83316H', '83316B', '83316P']
+  [624] Metro Bellemare St-Hubert, Longueuil → ['83316', '83316H', '83316B', '83316P']
+  [626] Metro Laroche Laurier-Station → ['83316', '83316H', '83316B', '83316P']
+  [627] Metro Plus Laroche St-Etienne, Lévis → ['83316', '83316H', '83316B', '83316P']
+  [628] Metro Marquis Québec (Cartier) → ['83316', '83316H', '83316B', '83316P']
+  [629] Metro Plus Plouffe King Est, Sherbrooke → ['83316', '83316H', '83316B', '83316P']
+  [630] Metro Plus Plouffe Bourque, Sherbrooke → ['83316', '83316H', '83316B', '83316P']
+  [632] Metro Plus Coop D'Asbestos → ['83316', '83316H', '83316B', '83316P']
+  [634] Metro Blanchard St-Alphonse, Route 343 → ['83316', '83316H', '83316B', '83316P']
+  [636] Metro Beaulieu Laurier, Montréal → ['83316', '83316H', '83316B', '83316P']
+  [641] Metro Emery St-Damien → ['83316', '83316H', '83316B', '83316P']
+  [643] Metro Plus Depatie, Boul. De L'avenir, Laval → ['83316', '83316H', '83316B', '83316P']
+  [644] Metro Marieville → ['83316', '83316H', '83316B', '83316P']
+  [654] Metro Plus St-Gabriel → ['83316', '83316H', '83316B', '83316P']
+  [655] Metro Plus Plouffe Bromont → ['83316', '83316H', '83316B', '83316P']
+  [656] Metro Plouffe Granby → ['83316', '83316H', '83316B', '83316P']
+  [657] Metro Richelieu Inc., Waterloo → ['83316', '83316H', '83316B', '83316P']
+  [658] Metro Plus Marché Central C.J.C., Longueuil → ['83316', '83316H', '83316B', '83316P']
+  [659] Metro Plus André-Grasset, Montréal → ['83316', '83316H', '83316B', '83316P']
+  [660] Metro Messier Fort-St-Louis, Boucherville → ['83316', '83316H', '83316B', '83316P']
+  [661] Metro de la Concorde, Laval → ['83316', '83316H', '83316B', '83316P']
+  [662] Metro Plus Mascouche, Rue Montée Masson → ['83316', '83316H', '83316B', '83316P']
+  [664] Metro Rosemère, Chemin Grande-Côte → ['83316', '83316H', '83316B', '83316P']
+  [665] Metro Plus Messier Auteuil, Laval → ['83316', '83316H', '83316B', '83316P']
+  [666] Metro Plus St-Joseph, Montréal → ['83316', '83316H', '83316B', '83316P']
+  [667] Marché R. Dubé Ltée, Avenue Begin → ['83316', '83316H', '83316B', '83316P']
+  [669] Metro Plus Fordham, St-Zotique → ['83316', '83316H', '83316B', '83316P']
+  [671] Metro Corriveau et Fille, Napierville → ['83316', '83316H', '83316B', '83316P']
+  [672] Metro Dubuc Deschaillons → ['83316', '83316H', '83316B', '83316P']
+  [673] Metro Denigil Ste-Dorothée, Laval → ['83316', '83316H', '83316B', '83316P']
+  [674] Metro Sabrevois Boucherville → ['83316', '83316H', '83316B', '83316P']
+  [675] Metro Plus Lebel La Pocatière → ['83316', '83316H', '83316B', '83316P']
+  [677] Metro Bellemare Verdun, Montréal → ['83316', '83316H', '83316B', '83316P']
+  [679] Metro Plus Boucher Berthierville → ['83316', '83316H', '83316B', '83316P']
+  [680] Metro Plus  Kelly Aylmer Inc., Gatineau → ['83316', '83316H', '83316B', '83316P']
+  [681] Metro Doré Mont-Laurier → ['83316', '83316H', '83316B', '83316P']
+  [682] Metro Plus Lafrance Anjou, Montréal → ['83316', '83316H', '83316B', '83316P']
+  [683] Metro Marcanio, Montréal → ['83316', '83316H', '83316B', '83316P']
+  [684] Metro Plus Ancienne-Lorette → ['83316', '83316H', '83316B', '83316P']
+  [686] Metro Plus Charlesbourg, Québec → ['83316', '83316H', '83316B', '83316P']
+  [687] Metro Courville → ['83316', '83316H', '83316B', '83316P']
+  [688] Alimentation Bernard Sylvestre, Québec → ['83316', '83316H', '83316B', '83316P']
+  [689] Metro Plus GP Notre-Dame-des-Laurentides, Québec → ['83316', '83316H', '83316B', '83316P']
+  [690] Metro Plus St-Augustin, Rte 138 → ['83316', '83316H', '83316B', '83316P']
+  [691] Metro Plus GP St-Émile, De La Faune, Québec → ['83316', '83316H', '83316B', '83316P']
+  [693] Metro Lac Etchemin → ['83316', '83316H', '83316B', '83316P']
+  [694] Marché Dubé Délisle, Alma → ['83316', '83316H', '83316B', '83316P']
+  [696] Metro Plus Boutin Dolbeau-Mistassini → ['83316', '83316H', '83316B', '83316P']
+  [697] Metro Plus Côte Vertu, Montréal → ['83316', '83316H', '83316B', '83316P']
+  [698] 9477-0716 Québec Inc. → ['83316', '83316H', '83316B', '83316P']
+  [701] Metro Plus Rimouski → ['83316', '83316H', '83316B', '83316P']
+  [702] Metro Ste-Anne des Monts → ['83316', '83316H', '83316B', '83316P']
+  [703] Metro Trois-Pistoles → ['83316', '83316H', '83316B', '83316P']
+  [711] Metro Valcartier, Courcelette Shannon → ['83316', '83316H', '83316B', '83316P']
+  [712] Marché Chicoutimi Inc. (Talbot) → ['83316', '83316H', '83316B', '83316P']
+  [717] Marché Ste-Agathe Inc. → ['83316', '83316H', '83316B', '83316P']
+  [718] Metro Plus Ste-Adèle → ['83316', '83316H', '83316B', '83316P']
+  [723] Metro Plus St-Laurent (St-Eustache) → ['83316', '83316H', '83316B', '83316P']
+  [724] Metro Plus Ste-Marthe → ['83316', '83316H', '83316B', '83316P']
+  [725] Metro Plus Arthur-Sauvé → ['83316', '83316H', '83316B', '83316P']
+  [726] Metro Plus Ste-Rose, Boul. Curé-Labelle, Laval → ['83316', '83316H', '83316B', '83316P']
+  [734] Metro Mont-Tremblant → ['83316', '83316H', '83316B', '83316P']
+  [736] Metro Plus L'Épiphanie → ['83316', '83316H', '83316B', '83316P']
+  [741] Metro Mansfield → ['83316', '83316H', '83316B', '83316P']
+  [757] Alimentation Francine Roy, Vaudreuil-Dorion → ['83316', '83316H', '83316B', '83316P']
+  [766] Metro Marquis Plus, L'Assomption → ['83316', '83316H', '83316B', '83316P']
+  [775] Alimentation Régent Cossette - Montée Paiement → ['83316', '83316H', '83316B', '83316P']
+  [776] 9477-0674 Québec Inc. → ['83316', '83316H', '83316B', '83316P']
+  [853] Metro Plus Lachine → ['83316', '83316H', '83316B', '83316P']
+  [859] Metro Plus Prévost → ['83316', '83316H', '83316B', '83316P']
+  [861] Metro épicerie en ligne inc. → ['83316', '83316H', '83316B', '83316P']
+  [862] Marché Chicoutimi Inc. (Saguenay) → ['83316', '83316H', '83316B', '83316P']
+  [892] Metro Plus Thibeault Mirabel → ['83316', '83316H', '83316B', '83316P']
+  [936] Metro Beaulieu Mont-Royal Fabre → ['83316', '83316H', '83316B', '83316P']
+
+  728 new flyer entries across 182 stores
+  4 unique new job(s) to download
+  Saved → data/metro_qc/store_flyers.json  (8,489,972 bytes)
+New flyer entries added to store_flyers.json : 728
+Unique new jobs to download                  : 4
+
+Phase 2: fetching products for each new job…
+
+  [83316] store 161  (https://metrodigital-apim.azure-api.net/api/Pages/83316/161/en/search)
+    429 products
+  Saved → data/metro_qc/flyers/83316.json  (1,872,916 bytes)
+  [83316H] store 161  (https://metrodigital-apim.azure-api.net/api/Pages/83316H/161/en/search)
+    11 products
+  Saved → data/metro_qc/flyers/83316H.json  (42,644 bytes)
+  [83316B] store 161  (https://metrodigital-apim.azure-api.net/api/Pages/83316B/161/en/search)
+    51 products
+  Saved → data/metro_qc/flyers/83316B.json  (192,793 bytes)
+  [83316P] store 161  (https://metrodigital-apim.azure-api.net/api/Pages/83316P/161/en/search)
+    34 products
+  Saved → data/metro_qc/flyers/83316P.json  (128,213 bytes)
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 4
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-05-07 13:54:41 UTC
+Elapsed      : 0m 36s
+
+
+Done.  Verbose log → logs/metro_qc/2026-05-07_verbose.log
+       Summary log → logs/metro_qc/2026-05-07_summary.log
+

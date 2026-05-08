@@ -1,0 +1,15 @@
+=== Safeway Flyer Fetch — 2026-05-07 ===
+Run started : 2026-05-07 13:49:47 UTC
+
+Stores loaded: 173
+New publication entries added to store_flyers.json: 131
+Unique new publications to download: 5
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 5
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-05-07 13:50:09 UTC
+Elapsed      : 0m 22s
+
