@@ -84,6 +84,60 @@ def _write_json(path: str, data: object) -> None:
         json.dump(data, fh)
 
 
+def _write_flyer_parquet(tmp_dir: str, chain: str, flyer_data: dict) -> None:
+    """Write a raw flyer dict to ``<tmp_dir>/<chain>/flyers.parquet`` (append)."""
+    import pyarrow as pa
+    import pyarrow.parquet as pq
+
+    parquet_path = os.path.join(tmp_dir, chain, "flyers.parquet")
+    os.makedirs(os.path.dirname(parquet_path), exist_ok=True)
+
+    if "publication_id" in flyer_data:
+        pub_meta = flyer_data.get("publication_meta") or {}
+        envelope: dict = {
+            "flyer_id": str(flyer_data["publication_id"]),
+            "source_api": "flipp",
+            "fetched_on": flyer_data.get("fetched_on"),
+            "pub_valid_from": pub_meta.get("valid_from"),
+            "pub_valid_to": pub_meta.get("valid_to"),
+            "pub_locale": pub_meta.get("locale"),
+            "products_url": flyer_data.get("products_url"),
+        }
+    elif "job" in flyer_data:
+        envelope = {
+            "flyer_id": str(flyer_data["job"]),
+            "source_api": "metro",
+            "fetched_on": flyer_data.get("fetched_on"),
+            "store_id": str(flyer_data.get("store_id", "")),
+            "products_url": flyer_data.get("products_url"),
+        }
+    else:
+        # Unknown source_api — write a row that will trigger the ValueError path.
+        envelope = {
+            "flyer_id": "unknown",
+            "source_api": "unknown",
+            "fetched_on": None,
+        }
+
+    rows = []
+    for product in flyer_data.get("products", [{}]):
+        row = dict(envelope)
+        for k, v in product.items():
+            row[k] = json.dumps(v) if isinstance(v, (list, dict)) else v
+        rows.append(row)
+
+    if not rows:
+        rows = [dict(envelope)]
+
+    new_table = pa.Table.from_pylist(rows)
+    if os.path.isfile(parquet_path):
+        existing = pq.read_table(parquet_path)
+        combined = pa.concat_tables([existing, new_table], promote_options="default")
+    else:
+        combined = new_table
+    pq.write_table(combined, parquet_path)
+
+
 # ── _store_province ───────────────────────────────────────────────────────────
 
 
@@ -144,20 +198,12 @@ class TestFlippStoreId:
 
 class TestIterRecords:
     def test_flipp_file_yields_flyer_items(self):
+        pytest.importorskip("pyarrow")
         with tempfile.TemporaryDirectory() as tmp:
             chain = "loblaws_test"
-            _write_json(
-                os.path.join(tmp, chain, "stores.json"),
-                _make_stores("1000", "ON"),
-            )
-            _write_json(
-                os.path.join(tmp, chain, "store_flyers.json"),
-                _make_store_flyers("1000", 1001),
-            )
-            _write_json(
-                os.path.join(tmp, chain, "flyers", "1001.json"),
-                _make_flipp_flyer("1001"),
-            )
+            _write_json(os.path.join(tmp, chain, "stores.json"), _make_stores("1000", "ON"))
+            _write_json(os.path.join(tmp, chain, "store_flyers.json"), _make_store_flyers("1000", 1001))
+            _write_flyer_parquet(tmp, chain, _make_flipp_flyer("1001"))
 
             items = list(iter_records(data_dir=tmp))
 
@@ -169,20 +215,12 @@ class TestIterRecords:
         assert item.flyer_id == "1001"
 
     def test_flipp_resolves_province_from_stores(self):
+        pytest.importorskip("pyarrow")
         with tempfile.TemporaryDirectory() as tmp:
             chain = "loblaws_test"
-            _write_json(
-                os.path.join(tmp, chain, "stores.json"),
-                _make_stores("1000", "ON"),
-            )
-            _write_json(
-                os.path.join(tmp, chain, "store_flyers.json"),
-                _make_store_flyers("1000", 1001),
-            )
-            _write_json(
-                os.path.join(tmp, chain, "flyers", "1001.json"),
-                _make_flipp_flyer("1001"),
-            )
+            _write_json(os.path.join(tmp, chain, "stores.json"), _make_stores("1000", "ON"))
+            _write_json(os.path.join(tmp, chain, "store_flyers.json"), _make_store_flyers("1000", 1001))
+            _write_flyer_parquet(tmp, chain, _make_flipp_flyer("1001"))
 
             items = list(iter_records(data_dir=tmp))
 
@@ -190,20 +228,12 @@ class TestIterRecords:
         assert items[0].store_id == "1000"
 
     def test_metro_file_yields_flyer_items(self):
+        pytest.importorskip("pyarrow")
         with tempfile.TemporaryDirectory() as tmp:
             chain = "food_basics_test"
-            _write_json(
-                os.path.join(tmp, chain, "stores.json"),
-                _make_stores("100", "ON"),
-            )
-            _write_json(
-                os.path.join(tmp, chain, "store_flyers.json"),
-                {},
-            )
-            _write_json(
-                os.path.join(tmp, chain, "flyers", "82000.json"),
-                _make_metro_flyer("82000", 100),
-            )
+            _write_json(os.path.join(tmp, chain, "stores.json"), _make_stores("100", "ON"))
+            _write_json(os.path.join(tmp, chain, "store_flyers.json"), {})
+            _write_flyer_parquet(tmp, chain, _make_metro_flyer("82000", 100))
 
             items = list(iter_records(data_dir=tmp))
 
@@ -215,51 +245,44 @@ class TestIterRecords:
         assert item.flyer_id == "82000"
 
     def test_metro_resolves_province_from_stores(self):
+        pytest.importorskip("pyarrow")
         with tempfile.TemporaryDirectory() as tmp:
             chain = "food_basics_test"
-            _write_json(
-                os.path.join(tmp, chain, "stores.json"),
-                _make_stores("100", "ON"),
-            )
+            _write_json(os.path.join(tmp, chain, "stores.json"), _make_stores("100", "ON"))
             _write_json(os.path.join(tmp, chain, "store_flyers.json"), {})
-            _write_json(
-                os.path.join(tmp, chain, "flyers", "82000.json"),
-                _make_metro_flyer("82000", 100),
-            )
+            _write_flyer_parquet(tmp, chain, _make_metro_flyer("82000", 100))
 
             items = list(iter_records(data_dir=tmp))
 
         assert items[0].province == "ON"
         assert items[0].store_id == "100"
 
-    def test_unknown_file_raises_value_error(self):
+    def test_unknown_source_api_raises_value_error(self):
+        pytest.importorskip("pyarrow")
+        import pyarrow as pa
+        import pyarrow.parquet as pq
+
         with tempfile.TemporaryDirectory() as tmp:
             chain = "unknown_test"
             _write_json(os.path.join(tmp, chain, "stores.json"), {})
             _write_json(os.path.join(tmp, chain, "store_flyers.json"), {})
-            _write_json(
-                os.path.join(tmp, chain, "flyers", "bad.json"),
-                {"some_other_key": "value"},
+            # Write a Parquet row with an unrecognised source_api.
+            bad_row = [{"flyer_id": "bad", "source_api": "unknown", "fetched_on": None}]
+            pq.write_table(
+                pa.Table.from_pylist(bad_row),
+                os.path.join(tmp, chain, "flyers.parquet"),
             )
 
             with pytest.raises(ValueError, match="Cannot determine API source"):
                 list(iter_records(data_dir=tmp))
 
     def test_store_filter_restricts_to_named_store(self):
+        pytest.importorskip("pyarrow")
         with tempfile.TemporaryDirectory() as tmp:
             for chain, pub_id in [("brand_a", "1001"), ("brand_b", "2001")]:
-                _write_json(
-                    os.path.join(tmp, chain, "stores.json"),
-                    _make_stores("1", "BC"),
-                )
-                _write_json(
-                    os.path.join(tmp, chain, "store_flyers.json"),
-                    _make_store_flyers("1", int(pub_id)),
-                )
-                _write_json(
-                    os.path.join(tmp, chain, "flyers", f"{pub_id}.json"),
-                    _make_flipp_flyer(pub_id),
-                )
+                _write_json(os.path.join(tmp, chain, "stores.json"), _make_stores("1", "BC"))
+                _write_json(os.path.join(tmp, chain, "store_flyers.json"), _make_store_flyers("1", int(pub_id)))
+                _write_flyer_parquet(tmp, chain, _make_flipp_flyer(pub_id))
 
             items = list(iter_records(data_dir=tmp, store="brand_a"))
 
@@ -267,6 +290,7 @@ class TestIterRecords:
         assert items[0].store_chain == "brand_a"
 
     def test_empty_data_dir_yields_nothing(self):
+        pytest.importorskip("pyarrow")
         with tempfile.TemporaryDirectory() as tmp:
             items = list(iter_records(data_dir=tmp))
         assert items == []
@@ -277,14 +301,12 @@ class TestIterRecords:
 
     def test_missing_stores_json_still_works(self):
         """Province and store_id fall back to None when stores.json is absent."""
+        pytest.importorskip("pyarrow")
         with tempfile.TemporaryDirectory() as tmp:
             chain = "no_stores_test"
             # No stores.json written
             _write_json(os.path.join(tmp, chain, "store_flyers.json"), {})
-            _write_json(
-                os.path.join(tmp, chain, "flyers", "82000.json"),
-                _make_metro_flyer("82000", 100),
-            )
+            _write_flyer_parquet(tmp, chain, _make_metro_flyer("82000", 100))
 
             items = list(iter_records(data_dir=tmp))
 
@@ -292,13 +314,12 @@ class TestIterRecords:
         assert items[0].province is None
 
     def test_processes_real_loblaws_file(self):
-        """Smoke-test against an actual file in data/loblaws/flyers/."""
-        data_dir = os.path.join(
-            os.path.dirname(__file__), "..", "data"
-        )
-        flyers_dir = os.path.join(data_dir, "loblaws", "flyers")
-        if not os.path.isdir(flyers_dir) or not os.listdir(flyers_dir):
-            pytest.skip("No loblaws flyer files present")
+        """Smoke-test against data/loblaws/flyers.parquet if present."""
+        pytest.importorskip("pyarrow")
+        data_dir = os.path.join(os.path.dirname(__file__), "..", "data")
+        parquet_path = os.path.join(data_dir, "loblaws", "flyers.parquet")
+        if not os.path.isfile(parquet_path):
+            pytest.skip("No loblaws flyers.parquet present")
 
         items = list(iter_records(data_dir=data_dir, store="loblaws"))
         assert len(items) > 0
@@ -307,13 +328,12 @@ class TestIterRecords:
             assert item.store_chain == "loblaws"
 
     def test_processes_real_food_basics_file(self):
-        """Smoke-test against an actual file in data/food_basics/flyers/."""
-        data_dir = os.path.join(
-            os.path.dirname(__file__), "..", "data"
-        )
-        flyers_dir = os.path.join(data_dir, "food_basics", "flyers")
-        if not os.path.isdir(flyers_dir) or not os.listdir(flyers_dir):
-            pytest.skip("No food_basics flyer files present")
+        """Smoke-test against data/food_basics/flyers.parquet if present."""
+        pytest.importorskip("pyarrow")
+        data_dir = os.path.join(os.path.dirname(__file__), "..", "data")
+        parquet_path = os.path.join(data_dir, "food_basics", "flyers.parquet")
+        if not os.path.isfile(parquet_path):
+            pytest.skip("No food_basics flyers.parquet present")
 
         items = list(iter_records(data_dir=data_dir, store="food_basics"))
         assert len(items) > 0

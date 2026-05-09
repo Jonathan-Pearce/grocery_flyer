@@ -1,10 +1,10 @@
 """
 Raw-file loader and pipeline router.
 
-Walks ``data/<store>/flyers/*.json`` for every store directory, detects which
-API each file came from (Flipp or Metro), resolves store metadata from
-``stores.json`` and ``store_flyers.json``, and yields a flat stream of unified
-:class:`~schema.FlyerItem` records.
+Reads ``data/<store>/flyers.parquet`` for every store directory, detects which
+API each flyer came from (Flipp or Metro) via the ``source_api`` column,
+resolves store metadata from ``stores.json`` and ``store_flyers.json``, and
+yields a flat stream of unified :class:`~schema.FlyerItem` records.
 
 Public API
 ----------
@@ -13,21 +13,45 @@ Public API
 
 Detection rules
 ---------------
-* ``"publication_id"`` present in the file → Flipp API
-* ``"job"`` present in the file → Metro API
-* Neither key → raises :class:`ValueError` with a descriptive message.
+* ``source_api == "flipp"`` → Flipp API (row group reconstructed into
+  ``publication_id`` / ``publication_meta`` envelope for the normaliser)
+* ``source_api == "metro"`` → Metro API (row group reconstructed into
+  ``job`` / ``store_id`` envelope for the normaliser)
+* Unrecognised ``source_api`` → raises :class:`ValueError`.
 """
 
 from __future__ import annotations
 
 import json
 import os
+from collections import defaultdict
 from collections.abc import Iterator
 from typing import Any
 
 from pipeline.normalize_flipp import normalize_flipp_file
 from pipeline.normalize_metro import normalize_metro_file
 from pipeline.schema import FlyerItem
+
+
+# ── Envelope column names ─────────────────────────────────────────────────────
+
+#: Columns written by the fetcher that carry per-flyer envelope metadata.
+#: Everything else in a row is a raw product field.
+_ALL_ENVELOPE_COLS: frozenset[str] = frozenset(
+    {
+        "flyer_id",
+        "source_api",
+        "fetched_on",
+        # Flipp-specific
+        "pub_valid_from",
+        "pub_valid_to",
+        "pub_locale",
+        # Metro-specific
+        "store_id",
+        # Shared
+        "products_url",
+    }
+)
 
 
 # ── Internal helpers ──────────────────────────────────────────────────────────
@@ -77,8 +101,73 @@ def _flipp_store_id(store_flyers: dict, publication_id: str) -> str | None:
     return None
 
 
-def _iter_flyer_files(data_dir: str, store: str | None) -> Iterator[tuple[str, str]]:
-    """Yield ``(store_folder_name, flyer_file_path)`` pairs.
+def _decode_product_row(row: dict) -> dict:
+    """Strip envelope columns and JSON-decode any string values that look like
+    JSON arrays or objects back into native Python types."""
+    product: dict = {}
+    for key, val in row.items():
+        if key in _ALL_ENVELOPE_COLS:
+            continue
+        if isinstance(val, str) and val and val[0] in ("[", "{"):
+            try:
+                val = json.loads(val)
+            except (json.JSONDecodeError, ValueError):
+                pass
+        product[key] = val
+    return product
+
+
+def _rows_to_flyer_data(flyer_id: str, rows: list[dict]) -> dict:
+    """Reconstruct a flyer envelope dict from a group of Parquet rows.
+
+    The returned dict has the same shape as the original per-flyer JSON file
+    so that the existing :func:`normalize_flipp_file` /
+    :func:`normalize_metro_file` functions can consume it without changes.
+
+    Raises
+    ------
+    ValueError
+        When ``source_api`` is absent or unrecognised.
+    """
+    first = rows[0]
+    source_api = first.get("source_api")
+    fetched_on = first.get("fetched_on")
+    products = [_decode_product_row(r) for r in rows]
+
+    if source_api == "flipp":
+        return {
+            "publication_id": flyer_id,
+            "fetched_on": fetched_on,
+            "publication_meta": {
+                "id": int(flyer_id) if flyer_id and flyer_id.isdigit() else flyer_id,
+                "valid_from": first.get("pub_valid_from"),
+                "valid_to": first.get("pub_valid_to"),
+                "locale": first.get("pub_locale"),
+            },
+            "products_url": first.get("products_url"),
+            "products": products,
+        }
+
+    if source_api == "metro":
+        return {
+            "job": flyer_id,
+            "store_id": first.get("store_id"),
+            "fetched_on": fetched_on,
+            "products_url": first.get("products_url"),
+            "products": products,
+        }
+
+    raise ValueError(
+        f"Cannot determine API source for flyer '{flyer_id}': "
+        f"unrecognised source_api value {source_api!r}. "
+        "Expected 'flipp' or 'metro'."
+    )
+
+
+def _iter_flyer_parquet(
+    data_dir: str, store: str | None
+) -> Iterator[tuple[str, dict]]:
+    """Yield ``(store_chain, flyer_data)`` pairs from per-brand Parquet files.
 
     Parameters
     ----------
@@ -87,21 +176,36 @@ def _iter_flyer_files(data_dir: str, store: str | None) -> Iterator[tuple[str, s
     store:
         When not ``None``, only the matching store folder is visited.
     """
+    import pyarrow.parquet as pq
+
     if not os.path.isdir(data_dir):
         return
 
     for entry in sorted(os.listdir(data_dir)):
         if store is not None and entry != store:
             continue
-        folder_path = os.path.join(data_dir, entry)
-        if not os.path.isdir(folder_path):
+        parquet_path = os.path.join(data_dir, entry, "flyers.parquet")
+        if not os.path.isfile(parquet_path):
             continue
-        flyers_dir = os.path.join(folder_path, "flyers")
-        if not os.path.isdir(flyers_dir):
+
+        try:
+            table = pq.read_table(parquet_path)
+        except Exception:
             continue
-        for fname in sorted(os.listdir(flyers_dir)):
-            if fname.endswith(".json"):
-                yield entry, os.path.join(flyers_dir, fname)
+
+        rows = table.to_pylist()
+
+        # Group rows by flyer_id preserving order of first occurrence
+        by_flyer: dict[str, list[dict]] = defaultdict(list)
+        flyer_order: list[str] = []
+        for row in rows:
+            fid = str(row.get("flyer_id", ""))
+            if fid not in by_flyer:
+                flyer_order.append(fid)
+            by_flyer[fid].append(row)
+
+        for flyer_id in flyer_order:
+            yield entry, _rows_to_flyer_data(flyer_id, by_flyer[flyer_id])
 
 
 # ── Public API ────────────────────────────────────────────────────────────────
@@ -113,10 +217,9 @@ def iter_flyers(
 ) -> Iterator[tuple[str, str | None, str | None, list[FlyerItem]]]:
     """Yield ``(store_chain, flyer_id, fetched_on, items)`` for each raw flyer file.
 
-    Unlike :func:`iter_records`, this generator groups all records from a
-    single flyer file together so that callers can write one output file per
-    flyer, check idempotency at the file level, and access the raw
-    ``fetched_on`` date without iterating all records first.
+    Unlike :func:`iter_records`, this generator groups all records that share
+    a ``flyer_id`` together so that callers can check idempotency at the flyer
+    level and access the raw ``fetched_on`` date without iterating all records.
 
     Parameters
     ----------
@@ -129,20 +232,17 @@ def iter_flyers(
     ------
     tuple[str, str | None, str | None, list[FlyerItem]]
         ``(store_chain, flyer_id, fetched_on, items)`` where *items* contains
-        all normalised :class:`~schema.FlyerItem` records from the file.
+        all normalised :class:`~schema.FlyerItem` records for the flyer.
 
     Raises
     ------
     ValueError
-        If a flyer file contains neither ``"publication_id"`` nor ``"job"``.
+        If a row group has an unrecognised ``source_api`` value.
     """
-    for store_chain, flyer_path in _iter_flyer_files(data_dir, store):
+    for store_chain, flyer_data in _iter_flyer_parquet(data_dir, store):
         store_dir = os.path.join(data_dir, store_chain)
         stores: dict = _load_json(os.path.join(store_dir, "stores.json"))
         store_flyers: dict = _load_json(os.path.join(store_dir, "store_flyers.json"))
-
-        with open(flyer_path, encoding="utf-8") as fh:
-            flyer_data: dict = json.load(fh)
 
         fetched_on: str | None = flyer_data.get("fetched_on") or None
 
@@ -172,9 +272,10 @@ def iter_flyers(
 
         else:
             raise ValueError(
-                f"Cannot determine API source for '{flyer_path}': "
-                "file contains neither 'publication_id' (Flipp) nor 'job' (Metro). "
-                "Expected one of these top-level keys to be present."
+                f"Cannot determine API source for flyer "
+                f"'{flyer_data.get('flyer_id', '?')}' in '{store_chain}': "
+                "unrecognised source_api value. "
+                "Expected 'flipp' or 'metro'."
             )
 
         yield store_chain, flyer_id, fetched_on, items
@@ -184,7 +285,7 @@ def iter_records(
     data_dir: str = "data",
     store: str | None = None,
 ) -> Iterator[FlyerItem]:
-    """Yield :class:`~schema.FlyerItem` records from every raw flyer file.
+    """Yield :class:`~schema.FlyerItem` records from every raw flyer Parquet.
 
     Parameters
     ----------
@@ -197,49 +298,7 @@ def iter_records(
     Raises
     ------
     ValueError
-        If a flyer file contains neither ``"publication_id"`` (Flipp) nor
-        ``"job"`` (Metro) — i.e. the source API cannot be determined.
+        If a row group has an unrecognised ``source_api`` value.
     """
-    for store_chain, flyer_path in _iter_flyer_files(data_dir, store):
-        store_dir = os.path.join(data_dir, store_chain)
-        stores: dict = _load_json(os.path.join(store_dir, "stores.json"))
-        store_flyers: dict = _load_json(os.path.join(store_dir, "store_flyers.json"))
-
-        with open(flyer_path, encoding="utf-8") as fh:
-            flyer_data: dict = json.load(fh)
-
-        # ── API source detection ──────────────────────────────────────────────
-        if "publication_id" in flyer_data:
-            # ── Flipp ─────────────────────────────────────────────────────────
-            publication_id = str(flyer_data["publication_id"])
-            store_id = _flipp_store_id(store_flyers, publication_id)
-            province = _store_province(stores, store_id)
-
-            items = normalize_flipp_file(
-                flyer_data,
-                store_chain=store_chain,
-                store_id=store_id,
-                province=province,
-            )
-            yield from items
-
-        elif "job" in flyer_data:
-            # ── Metro ─────────────────────────────────────────────────────────
-            file_store_id = flyer_data.get("store_id")
-            store_id = str(file_store_id) if file_store_id is not None else None
-            province = _store_province(stores, store_id)
-
-            items = normalize_metro_file(
-                flyer_data,
-                store_chain=store_chain,
-                store_id=store_id,
-                province=province,
-            )
-            yield from items
-
-        else:
-            raise ValueError(
-                f"Cannot determine API source for '{flyer_path}': "
-                "file contains neither 'publication_id' (Flipp) nor 'job' (Metro). "
-                "Expected one of these top-level keys to be present."
-            )
+    for _, flyer_id, fetched_on, items in iter_flyers(data_dir=data_dir, store=store):
+        yield from items

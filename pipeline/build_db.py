@@ -103,8 +103,8 @@ def build_observations(
     db_dir:
         Root directory for the Parquet database output.
     cleaned_dir:
-        Root directory of cleaned JSON envelopes produced by
-        ``pipeline.clean``.
+        Root directory of cleaned per-chain Parquet files produced by
+        ``pipeline.clean`` (e.g. ``cleaned/loblaws.parquet``).
     store:
         When given, only process the sub-directory matching this brand slug.
     force:
@@ -122,61 +122,58 @@ def build_observations(
     *   Prints a per-brand summary line to stdout, e.g.
         ``loblaws: 15 written, 3 skipped``.
     """
+    from collections import defaultdict
+
     import pyarrow as pa
     import pyarrow.parquet as pq
 
     total_written = 0
     total_skipped = 0
 
-    # Determine which store directories to walk
+    # Determine which per-chain Parquet files to read.
     if store:
-        store_dirs = [(store, os.path.join(cleaned_dir, store))]
+        chain_parquets = [(store, os.path.join(cleaned_dir, f"{store}.parquet"))]
     else:
         try:
             entries = os.listdir(cleaned_dir)
         except FileNotFoundError:
             entries = []
-        store_dirs = [
-            (entry, os.path.join(cleaned_dir, entry))
+        chain_parquets = [
+            (entry[:-8], os.path.join(cleaned_dir, entry))
             for entry in sorted(entries)
-            if os.path.isdir(os.path.join(cleaned_dir, entry))
+            if entry.endswith(".parquet")
         ]
 
-    for store_chain, store_path in store_dirs:
+    for store_chain, parquet_path in chain_parquets:
         written = 0
         skipped = 0
 
-        # Enumerate all cleaned JSON envelopes for this brand
+        if not os.path.isfile(parquet_path):
+            continue
+
         try:
-            json_files = sorted(
-                f for f in os.listdir(store_path) if f.endswith(".json")
-            )
-        except (FileNotFoundError, NotADirectoryError):
-            json_files = []
+            chain_table = pq.read_table(parquet_path)
+        except Exception:
+            continue
 
-        for fname in json_files:
-            flyer_id = fname[:-5]  # strip ".json"
-            envelope_path = os.path.join(store_path, fname)
+        # Group rows by flyer_id, preserving first-occurrence order.
+        by_flyer: dict[str, list[dict]] = defaultdict(list)
+        flyer_order: list[str] = []
+        for row in chain_table.to_pylist():
+            fid = str(row.get("flyer_id", ""))
+            if fid not in by_flyer:
+                flyer_order.append(fid)
+            by_flyer[fid].append(row)
 
-            try:
-                with open(envelope_path, encoding="utf-8") as fh:
-                    envelope = json.load(fh)
-            except Exception:
+        for flyer_id in flyer_order:
+            rows = by_flyer[flyer_id]
+            if not rows:
                 skipped += 1
                 continue
 
-            records = envelope.get("records") or []
-
-            # Derive partition date from the first record in the envelope
-            flyer_valid_from: str | None = None
-            fetched_on: str | None = None
-            if records:
-                first = records[0]
-                flyer_valid_from = first.get("flyer_valid_from")
-                fetched_on = first.get("fetched_on")
-
-            # Fall back to fetched_on when flyer_valid_from is absent;
-            # _partition_dir will use today's date if partition_date is also None.
+            first = rows[0]
+            flyer_valid_from: str | None = first.get("flyer_valid_from") or None
+            fetched_on: str | None = first.get("fetched_on") or None
             partition_date = flyer_valid_from or fetched_on  # may still be None
 
             part_dir = _partition_dir(db_dir, store_chain, partition_date)
@@ -186,22 +183,10 @@ def build_observations(
                 skipped += 1
                 continue
 
-            if not records:
-                skipped += 1
-                continue
-
-            # Serialise list fields to JSON strings for a flat Parquet schema
-            rows = []
-            for record in records:
-                row = dict(record)
-                for key, val in row.items():
-                    if isinstance(val, list):
-                        row[key] = json.dumps(val)
-                rows.append(row)
-
+            # Rows already have list fields as JSON strings (written by clean.py).
             os.makedirs(part_dir, exist_ok=True)
-            table = pa.Table.from_pylist(rows)
-            pq.write_table(table, out_path)
+            obs_table = pa.Table.from_pylist(rows)
+            pq.write_table(obs_table, out_path)
             written += 1
 
         print(f"{store_chain}: {written} written, {skipped} skipped")
