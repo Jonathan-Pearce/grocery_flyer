@@ -26,7 +26,6 @@ import json
 import os
 from collections import defaultdict
 from collections.abc import Iterator
-from typing import Any
 
 from pipeline.normalize_flipp import normalize_flipp_file
 from pipeline.normalize_metro import normalize_metro_file
