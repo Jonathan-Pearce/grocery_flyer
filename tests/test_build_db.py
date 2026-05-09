@@ -51,19 +51,22 @@ class TestPartitionDir:
 # ── build_observations ────────────────────────────────────────────────────────
 
 
+# NOTE: _write_json retained for non-stores/store_flyers use elsewhere in this file
 def _write_json(path: str, data: object) -> None:
     os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, "w", encoding="utf-8") as fh:
         json.dump(data, fh)
 
 
-def _make_envelope(
+def _make_record_rows(
     flyer_id: str = "1001",
     store_chain: str = "loblaws",
     flyer_valid_from: str | None = "2026-04-02",
     record_count: int = 2,
-) -> dict:
-    records = [
+) -> list[dict]:
+    """Return Parquet-ready rows (list fields JSON-encoded) for *record_count* records."""
+    import json as _json
+    return [
         {
             "source_api": "flipp",
             "store_chain": store_chain,
@@ -74,18 +77,31 @@ def _make_envelope(
             "fetched_on": "2026-04-02",
             "raw_name": f"Product {i}",
             "sale_price": 3.99,
-            "multi_product_variants": [],
-            "raw_categories": ["Grocery"],
+            "multi_product_variants": _json.dumps([]),
+            "raw_categories": _json.dumps(["Grocery"]),
         }
         for i in range(record_count)
     ]
-    return {
-        "flyer_id": flyer_id,
-        "store_chain": store_chain,
-        "generated_at": "2026-04-03T00:00:00+00:00",
-        "record_count": record_count,
-        "records": records,
-    }
+
+
+def _write_cleaned_parquet(
+    cleaned_dir: str,
+    chain: str,
+    rows: list[dict],
+) -> None:
+    """Append *rows* to ``<cleaned_dir>/<chain>.parquet``, creating it if absent."""
+    import pyarrow as pa
+    import pyarrow.parquet as pq
+
+    parquet_path = os.path.join(cleaned_dir, f"{chain}.parquet")
+    os.makedirs(cleaned_dir, exist_ok=True)
+    new_table = pa.Table.from_pylist(rows)
+    if os.path.isfile(parquet_path):
+        existing = pq.read_table(parquet_path)
+        combined = pa.concat_tables([existing, new_table], promote_options="default")
+    else:
+        combined = new_table
+    pq.write_table(combined, parquet_path)
 
 
 class TestBuildObservations:
@@ -94,10 +110,7 @@ class TestBuildObservations:
         cleaned = str(tmp_path / "cleaned")
         db = str(tmp_path / "db")
 
-        _write_json(
-            os.path.join(cleaned, "loblaws", "1001.json"),
-            _make_envelope("1001", "loblaws"),
-        )
+        _write_cleaned_parquet(cleaned, "loblaws", _make_record_rows("1001", "loblaws"))
 
         build_observations(db, cleaned)
 
@@ -111,10 +124,7 @@ class TestBuildObservations:
         cleaned = str(tmp_path / "cleaned")
         db = str(tmp_path / "db")
 
-        _write_json(
-            os.path.join(cleaned, "loblaws", "1001.json"),
-            _make_envelope("1001", "loblaws", record_count=3),
-        )
+        _write_cleaned_parquet(cleaned, "loblaws", _make_record_rows("1001", "loblaws", record_count=3))
 
         build_observations(db, cleaned)
 
@@ -128,10 +138,7 @@ class TestBuildObservations:
         cleaned = str(tmp_path / "cleaned")
         db = str(tmp_path / "db")
 
-        _write_json(
-            os.path.join(cleaned, "loblaws", "1001.json"),
-            _make_envelope("1001", "loblaws"),
-        )
+        _write_cleaned_parquet(cleaned, "loblaws", _make_record_rows("1001", "loblaws"))
 
         build_observations(db, cleaned)
         capsys.readouterr()  # discard first run output
@@ -147,10 +154,7 @@ class TestBuildObservations:
         cleaned = str(tmp_path / "cleaned")
         db = str(tmp_path / "db")
 
-        _write_json(
-            os.path.join(cleaned, "loblaws", "1001.json"),
-            _make_envelope("1001", "loblaws"),
-        )
+        _write_cleaned_parquet(cleaned, "loblaws", _make_record_rows("1001", "loblaws"))
 
         build_observations(db, cleaned)
         capsys.readouterr()
@@ -166,14 +170,8 @@ class TestBuildObservations:
         cleaned = str(tmp_path / "cleaned")
         db = str(tmp_path / "db")
 
-        _write_json(
-            os.path.join(cleaned, "loblaws", "1001.json"),
-            _make_envelope("1001", "loblaws"),
-        )
-        _write_json(
-            os.path.join(cleaned, "metro", "2001.json"),
-            _make_envelope("2001", "metro"),
-        )
+        _write_cleaned_parquet(cleaned, "loblaws", _make_record_rows("1001", "loblaws"))
+        _write_cleaned_parquet(cleaned, "metro", _make_record_rows("2001", "metro"))
 
         build_observations(db, cleaned, store="loblaws")
         out = capsys.readouterr().out
@@ -192,14 +190,8 @@ class TestBuildObservations:
         cleaned = str(tmp_path / "cleaned")
         db = str(tmp_path / "db")
 
-        _write_json(
-            os.path.join(cleaned, "loblaws", "1001.json"),
-            _make_envelope("1001", "loblaws"),
-        )
-        _write_json(
-            os.path.join(cleaned, "loblaws", "1002.json"),
-            _make_envelope("1002", "loblaws"),
-        )
+        _write_cleaned_parquet(cleaned, "loblaws", _make_record_rows("1001", "loblaws"))
+        _write_cleaned_parquet(cleaned, "loblaws", _make_record_rows("1002", "loblaws"))
 
         build_observations(db, cleaned)
         out = capsys.readouterr().out
@@ -212,18 +204,19 @@ class TestBuildObservations:
         cleaned = str(tmp_path / "cleaned")
         db = str(tmp_path / "db")
 
-        envelope = _make_envelope("1001", "loblaws", record_count=1)
-        envelope["records"][0]["multi_product_variants"] = ["A", "B"]
-        envelope["records"][0]["raw_categories"] = ["Grocery", "Dairy"]
-        _write_json(os.path.join(cleaned, "loblaws", "1001.json"), envelope)
+        # The cleaned Parquet already has list fields as JSON strings (written by clean.py)
+        row = _make_record_rows("1001", "loblaws", record_count=1)[0]
+        row["multi_product_variants"] = '["A", "B"]'
+        row["raw_categories"] = '["Grocery", "Dairy"]'
+        _write_cleaned_parquet(cleaned, "loblaws", [row])
 
         build_observations(db, cleaned)
 
         part = _partition_dir(db, "loblaws", "2026-04-02")
         table = pq.ParquetFile(os.path.join(part, "1001.parquet")).read()
-        row = table.to_pydict()
-        assert isinstance(row["multi_product_variants"][0], str)
-        assert row["multi_product_variants"][0] == '["A", "B"]'
+        row_out = table.to_pydict()
+        assert isinstance(row_out["multi_product_variants"][0], str)
+        assert row_out["multi_product_variants"][0] == '["A", "B"]'
 
     def test_none_flyer_valid_from_uses_fetched_on(self, tmp_path):
         pytest.importorskip("pyarrow")
@@ -231,9 +224,7 @@ class TestBuildObservations:
         cleaned = str(tmp_path / "cleaned")
         db = str(tmp_path / "db")
 
-        envelope = _make_envelope("1001", "loblaws", flyer_valid_from=None)
-        # fetched_on is set to "2026-04-02" in _make_envelope
-        _write_json(os.path.join(cleaned, "loblaws", "1001.json"), envelope)
+        _write_cleaned_parquet(cleaned, "loblaws", _make_record_rows("1001", "loblaws", flyer_valid_from=None))
 
         build_observations(db, cleaned)
 
@@ -257,10 +248,7 @@ class TestBuildObservations:
         db = str(tmp_path / "db")
 
         for chain, fid in [("loblaws", "1001"), ("food_basics", "2001")]:
-            _write_json(
-                os.path.join(cleaned, chain, f"{fid}.json"),
-                _make_envelope(fid, chain),
-            )
+            _write_cleaned_parquet(cleaned, chain, _make_record_rows(fid, chain))
 
         build_observations(db, cleaned)
         out = capsys.readouterr().out
@@ -271,15 +259,34 @@ class TestBuildObservations:
 # ── build_dimensions ──────────────────────────────────────────────────────────
 
 
-def _write_stores_json(data_dir: str, chain: str, stores: dict) -> None:
-    path = os.path.join(data_dir, chain, "stores.json")
-    _write_json(path, stores)
+def _write_stores_parquet(data_dir: str, chain: str, stores: dict) -> None:
+    import pyarrow as pa
+    import pyarrow.parquet as pq
+
+    path = os.path.join(data_dir, chain, "stores.parquet")
+    rows = [{"store_code": str(c), "province": v.get("province"), "store_name": v.get("store_name") or v.get("name"), "raw_json": json.dumps(v)} for c, v in stores.items()]
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    schema = pa.schema([("store_code", pa.string()), ("province", pa.string()), ("store_name", pa.string()), ("raw_json", pa.string())])
+    pq.write_table(pa.Table.from_pylist(rows, schema=schema) if rows else pa.table({"store_code": pa.array([], pa.string()), "province": pa.array([], pa.string()), "store_name": pa.array([], pa.string()), "raw_json": pa.array([], pa.string())}), path)
 
 
-def _write_store_flyers_json(data_dir: str, chain: str, store_flyers: dict) -> None:
-    path = os.path.join(data_dir, chain, "store_flyers.json")
-    _write_json(path, store_flyers)
+def _write_store_flyers_parquet(data_dir: str, chain: str, store_flyers: dict) -> None:
+    import pyarrow as pa
+    import pyarrow.parquet as pq
 
+    path = os.path.join(data_dir, chain, "store_flyers.parquet")
+    rows = []
+    for code, pubs in store_flyers.items():
+        for pub in (pubs or []):
+            rows.append({"store_code": str(code), "flyer_id": str(pub.get("title") or pub.get("id") or ""), "raw_json": json.dumps(pub)})
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    schema = pa.schema([("store_code", pa.string()), ("flyer_id", pa.string()), ("raw_json", pa.string())])
+    pq.write_table(pa.Table.from_pylist(rows, schema=schema) if rows else pa.table({"store_code": pa.array([], pa.string()), "flyer_id": pa.array([], pa.string()), "raw_json": pa.array([], pa.string())}), path)
+
+
+# Aliases kept so existing call sites don't need mass-renaming
+_write_stores_json = _write_stores_parquet
+_write_store_flyers_json = _write_store_flyers_parquet
 
 _METRO_STORES = {
     "21937": {"store_name": "Sauvé", "banner": "Adonis"},
@@ -596,10 +603,7 @@ class TestMain:
         cleaned = str(tmp_path / "cleaned")
         data = str(tmp_path / "data")
 
-        _write_json(
-            os.path.join(cleaned, "loblaws", "1001.json"),
-            _make_envelope("1001", "loblaws"),
-        )
+        _write_cleaned_parquet(cleaned, "loblaws", _make_record_rows("1001", "loblaws"))
         _write_stores_json(data, "loblaws", _FLIPP_STORES)
         _write_store_flyers_json(data, "loblaws", _FLIPP_STORE_FLYERS)
 
@@ -616,10 +620,7 @@ class TestMain:
         cleaned = str(tmp_path / "cleaned")
         data = str(tmp_path / "data")
 
-        _write_json(
-            os.path.join(cleaned, "loblaws", "1001.json"),
-            _make_envelope("1001", "loblaws"),
-        )
+        _write_cleaned_parquet(cleaned, "loblaws", _make_record_rows("1001", "loblaws"))
         _write_stores_json(data, "loblaws", _FLIPP_STORES)
         _write_store_flyers_json(data, "loblaws", _FLIPP_STORE_FLYERS)
 
@@ -636,10 +637,7 @@ class TestMain:
         cleaned = str(tmp_path / "cleaned")
         data = str(tmp_path / "data")
 
-        _write_json(
-            os.path.join(cleaned, "loblaws", "1001.json"),
-            _make_envelope("1001", "loblaws"),
-        )
+        _write_cleaned_parquet(cleaned, "loblaws", _make_record_rows("1001", "loblaws"))
         _write_stores_json(data, "loblaws", _FLIPP_STORES)
         _write_store_flyers_json(data, "loblaws", _FLIPP_STORE_FLYERS)
 
@@ -661,10 +659,7 @@ class TestMain:
         cleaned = str(tmp_path / "cleaned")
         data = str(tmp_path / "data")
 
-        _write_json(
-            os.path.join(cleaned, "loblaws", "1001.json"),
-            _make_envelope("1001", "loblaws"),
-        )
+        _write_cleaned_parquet(cleaned, "loblaws", _make_record_rows("1001", "loblaws"))
         _write_stores_json(data, "loblaws", _FLIPP_STORES)
         _write_store_flyers_json(data, "loblaws", _FLIPP_STORE_FLYERS)
 
@@ -693,10 +688,7 @@ class TestMain:
         cleaned = str(tmp_path / "cleaned")
         data = str(tmp_path / "data")
 
-        _write_json(
-            os.path.join(cleaned, "loblaws", "1001.json"),
-            _make_envelope("1001", "loblaws"),
-        )
+        _write_cleaned_parquet(cleaned, "loblaws", _make_record_rows("1001", "loblaws"))
         _write_stores_json(data, "loblaws", _FLIPP_STORES)
         _write_store_flyers_json(data, "loblaws", _FLIPP_STORE_FLYERS)
 
@@ -713,14 +705,8 @@ class TestMain:
         cleaned = str(tmp_path / "cleaned")
         data = str(tmp_path / "data")
 
-        _write_json(
-            os.path.join(cleaned, "loblaws", "1001.json"),
-            _make_envelope("1001", "loblaws"),
-        )
-        _write_json(
-            os.path.join(cleaned, "food_basics", "2001.json"),
-            _make_envelope("2001", "food_basics"),
-        )
+        _write_cleaned_parquet(cleaned, "loblaws", _make_record_rows("1001", "loblaws"))
+        _write_cleaned_parquet(cleaned, "food_basics", _make_record_rows("2001", "food_basics"))
         _write_stores_json(data, "loblaws", _FLIPP_STORES)
         _write_store_flyers_json(data, "loblaws", _FLIPP_STORE_FLYERS)
 
@@ -785,10 +771,7 @@ class TestMain:
             lambda **kw: calls.append(("build_scores", kw)),
         )
 
-        _write_json(
-            os.path.join(cleaned, "loblaws", "1001.json"),
-            _make_envelope("1001", "loblaws"),
-        )
+        _write_cleaned_parquet(cleaned, "loblaws", _make_record_rows("1001", "loblaws"))
         _write_stores_json(data, "loblaws", _FLIPP_STORES)
         _write_store_flyers_json(data, "loblaws", _FLIPP_STORE_FLYERS)
 
@@ -819,10 +802,7 @@ class TestMain:
             lambda **kw: calls.append("build_scores"),
         )
 
-        _write_json(
-            os.path.join(cleaned, "loblaws", "1001.json"),
-            _make_envelope("1001", "loblaws"),
-        )
+        _write_cleaned_parquet(cleaned, "loblaws", _make_record_rows("1001", "loblaws"))
         _write_stores_json(data, "loblaws", _FLIPP_STORES)
         _write_store_flyers_json(data, "loblaws", _FLIPP_STORE_FLYERS)
 
@@ -879,10 +859,7 @@ class TestMain:
             lambda **kw: calls.append(("build_scores", kw)),
         )
 
-        _write_json(
-            os.path.join(cleaned, "loblaws", "1001.json"),
-            _make_envelope("1001", "loblaws"),
-        )
+        _write_cleaned_parquet(cleaned, "loblaws", _make_record_rows("1001", "loblaws"))
         _write_stores_json(data, "loblaws", _FLIPP_STORES)
         _write_store_flyers_json(data, "loblaws", _FLIPP_STORE_FLYERS)
 
@@ -943,7 +920,7 @@ def test_build_observations_creates_files(tmp_path):
 
     cleaned = str(tmp_path / "cleaned")
     db = str(tmp_path / "db")
-    _write_json(os.path.join(cleaned, "adonis", "83006.json"), _ADONIS_ENVELOPE)
+    _write_cleaned_parquet(cleaned, "adonis", _make_record_rows("83006", "adonis", record_count=1))
 
     written, skipped = build_observations(db_dir=db, cleaned_dir=cleaned)
     assert written == 1
@@ -961,7 +938,7 @@ def test_build_observations_idempotent(tmp_path):
 
     cleaned = str(tmp_path / "cleaned")
     db = str(tmp_path / "db")
-    _write_json(os.path.join(cleaned, "adonis", "83006.json"), _ADONIS_ENVELOPE)
+    _write_cleaned_parquet(cleaned, "adonis", _make_record_rows("83006", "adonis", record_count=1))
 
     written1, _ = build_observations(db_dir=db, cleaned_dir=cleaned)
     assert written1 == 1
@@ -976,7 +953,7 @@ def test_build_observations_force(tmp_path):
 
     cleaned = str(tmp_path / "cleaned")
     db = str(tmp_path / "db")
-    _write_json(os.path.join(cleaned, "adonis", "83006.json"), _ADONIS_ENVELOPE)
+    _write_cleaned_parquet(cleaned, "adonis", _make_record_rows("83006", "adonis", record_count=1))
 
     build_observations(db_dir=db, cleaned_dir=cleaned)
 
@@ -998,11 +975,8 @@ def test_build_observations_store_filter(tmp_path):
     cleaned = str(tmp_path / "cleaned")
     db = str(tmp_path / "db")
 
-    _write_json(os.path.join(cleaned, "adonis", "83006.json"), _ADONIS_ENVELOPE)
-    _write_json(
-        os.path.join(cleaned, "loblaws", "1001.json"),
-        _make_envelope("1001", "loblaws"),
-    )
+    _write_cleaned_parquet(cleaned, "adonis", _make_record_rows("83006", "adonis", record_count=1))
+    _write_cleaned_parquet(cleaned, "loblaws", _make_record_rows("1001", "loblaws"))
 
     written, skipped = build_observations(db_dir=db, cleaned_dir=cleaned, store="adonis")
     assert written == 1
@@ -1020,11 +994,9 @@ def test_build_dimensions_stores(tmp_path):
 
     data = str(tmp_path / "data")
     db = str(tmp_path / "db")
-    _write_json(
-        os.path.join(data, "adonis", "stores.json"),
-        {"21937": {"store_name": "Adonis MTL", "city": "Montreal", "province": "QC"}},
-    )
-    _write_json(os.path.join(data, "adonis", "store_flyers.json"), {})
+    _write_stores_parquet(data, "adonis",
+        {"21937": {"store_name": "Adonis MTL", "city": "Montreal", "province": "QC"}})
+    _write_store_flyers_parquet(data, "adonis", {})
 
     build_dimensions(db_dir=db, data_dir=data)
 
@@ -1043,11 +1015,9 @@ def test_build_dimensions_flyers(tmp_path):
 
     data = str(tmp_path / "data")
     db = str(tmp_path / "db")
-    _write_json(os.path.join(data, "adonis", "stores.json"), {})
-    _write_json(
-        os.path.join(data, "adonis", "store_flyers.json"),
-        {"21937": [{"title": "83006", "startDate": "2026-04-02", "endDate": "2026-04-08"}]},
-    )
+    _write_stores_parquet(data, "adonis", {})
+    _write_store_flyers_parquet(data, "adonis",
+        {"21937": [{"title": "83006", "startDate": "2026-04-02", "endDate": "2026-04-08"}]})
 
     build_dimensions(db_dir=db, data_dir=data)
 
