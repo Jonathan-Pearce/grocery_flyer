@@ -1,0 +1,127 @@
+[
+  {
+    "id": "loblaws",
+    "name": "Loblaws",
+    "provinces": ["ON", "QC", "MB", "NB", "NS", "PE", "NL"]
+  },
+  {
+    "id": "nofrills",
+    "name": "No Frills",
+    "provinces": ["ON", "MB", "SK", "AB", "BC", "NB", "NS", "PE", "NL"]
+  },
+  {
+    "id": "provigo",
+    "name": "Provigo",
+    "provinces": ["QC"]
+  },
+  {
+    "id": "real_canadian_superstore",
+    "name": "Real Canadian Superstore",
+    "provinces": ["BC", "AB", "SK", "MB", "ON"]
+  },
+  {
+    "id": "maxi",
+    "name": "Maxi",
+    "provinces": ["QC"]
+  },
+  {
+    "id": "zehrs",
+    "name": "Zehrs",
+    "provinces": ["ON"]
+  },
+  {
+    "id": "fortinos",
+    "name": "Fortinos",
+    "provinces": ["ON"]
+  },
+  {
+    "id": "atlantic_superstore",
+    "name": "Atlantic Superstore",
+    "provinces": ["NB", "NS", "PE", "NL"]
+  },
+  {
+    "id": "dominion",
+    "name": "Dominion",
+    "provinces": ["NL"]
+  },
+  {
+    "id": "independent_grocer",
+    "name": "Independent Grocer",
+    "provinces": ["ON", "BC", "AB", "SK", "MB", "NB", "NS", "PE", "NL"]
+  },
+  {
+    "id": "independent_city_market",
+    "name": "Independent City Market",
+    "provinces": ["BC"]
+  },
+  {
+    "id": "freshmart",
+    "name": "Freshmart",
+    "provinces": ["ON", "NB", "NS", "PE", "NL"]
+  },
+  {
+    "id": "sobeys",
+    "name": "Sobeys",
+    "provinces": ["ON", "BC", "AB", "SK", "MB", "NB", "NS", "PE", "NL"]
+  },
+  {
+    "id": "safeway",
+    "name": "Safeway",
+    "provinces": ["BC", "AB", "SK", "MB"]
+  },
+  {
+    "id": "iga",
+    "name": "IGA",
+    "provinces": ["QC", "BC"]
+  },
+  {
+    "id": "freshco",
+    "name": "FreshCo",
+    "provinces": ["ON", "BC", "AB", "SK", "MB"]
+  },
+  {
+    "id": "foodland",
+    "name": "Foodland",
+    "provinces": ["ON", "NS"]
+  },
+  {
+    "id": "longos",
+    "name": "Longo's",
+    "provinces": ["ON"]
+  },
+  {
+    "id": "farm_boy",
+    "name": "Farm Boy",
+    "provinces": ["ON"]
+  },
+  {
+    "id": "walmart",
+    "name": "Walmart",
+    "provinces": ["BC", "AB", "SK", "MB", "ON", "QC", "NB", "NS", "PE", "NL"]
+  },
+  {
+    "id": "metro",
+    "name": "Metro",
+    "provinces": ["ON"]
+  },
+  {
+    "id": "metro_qc",
+    "name": "Metro (Québec)",
+    "provinces": ["QC"]
+  },
+  {
+    "id": "food_basics",
+    "name": "Food Basics",
+    "provinces": ["ON"]
+  },
+  {
+    "id": "super_c",
+    "name": "Super C",
+    "provinces": ["QC"]
+  },
+  {
+    "id": "adonis",
+    "name": "Adonis",
+    "provinces": ["ON", "QC"]
+  }
+]
