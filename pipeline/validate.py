@@ -44,11 +44,17 @@ _KG_LB_TOLERANCE: float = 0.02
 def _load_records(input_dir: str) -> tuple[list[FlyerItem], int]:
     """Walk *input_dir* and return all :class:`~schema.FlyerItem` records.
 
+    Reads per-chain Parquet files (``<input_dir>/<chain>.parquet``) written
+    by ``pipeline.clean``.  List-valued fields that were JSON-encoded as
+    strings are decoded back to Python lists before model validation.
+
     Returns
     -------
     tuple[list[FlyerItem], int]
-        Loaded records and the total number of JSON files read.
+        Loaded records and the total number of Parquet files read.
     """
+    import pyarrow.parquet as pq
+
     records: list[FlyerItem] = []
     file_count = 0
 
@@ -56,22 +62,30 @@ def _load_records(input_dir: str) -> tuple[list[FlyerItem], int]:
         return records, file_count
 
     for entry in sorted(os.scandir(input_dir), key=lambda e: e.name):
-        if not entry.is_dir():
+        if entry.is_dir():
             continue
-        for file_entry in sorted(os.scandir(entry.path), key=lambda e: e.name):
-            if not file_entry.name.endswith(".json"):
-                continue
-            file_count += 1
+        if not entry.name.endswith(".parquet"):
+            continue
+        file_count += 1
+        try:
+            table = pq.read_table(entry.path)
+        except Exception:
+            continue
+        for raw_row in table.to_pylist():
+            # JSON-decode any string fields that represent lists or objects.
+            decoded: dict = {}
+            for key, val in raw_row.items():
+                if isinstance(val, str) and val and val[0] in ("[", "{"):
+                    try:
+                        decoded[key] = json.loads(val)
+                    except (json.JSONDecodeError, ValueError):
+                        decoded[key] = val
+                else:
+                    decoded[key] = val
             try:
-                with open(file_entry.path, encoding="utf-8") as fh:
-                    payload = json.load(fh)
-            except (OSError, json.JSONDecodeError):
+                records.append(FlyerItem.model_validate(decoded))
+            except Exception:  # noqa: BLE001
                 continue
-            for raw_record in payload.get("records", []):
-                try:
-                    records.append(FlyerItem.model_validate(raw_record))
-                except Exception:  # noqa: BLE001
-                    continue
 
     return records, file_count
 

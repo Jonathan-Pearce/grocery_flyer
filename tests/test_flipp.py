@@ -1,6 +1,5 @@
 """Tests for flipp.py — HTTP helpers and portfolio config."""
 
-import json
 from unittest.mock import MagicMock, patch
 
 from fetchers.flipp import (
@@ -11,7 +10,6 @@ from fetchers.flipp import (
     fetch_publication_products,
     fetch_store,
     fetch_store_publications,
-    save_json,
 )
 
 
@@ -150,28 +148,6 @@ class TestFetchStore:
             result = fetch_store(_brand(), 1001)
         assert result is None
 
-
-# ── save_json ─────────────────────────────────────────────────────────────────
-
-class TestSaveJson:
-    def test_writes_json_file_with_correct_content(self, tmp_path):
-        path = str(tmp_path / "out.json")
-        save_json(path, {"key": "value"}, log_fn=lambda _: None)
-        with open(path) as f:
-            assert json.load(f) == {"key": "value"}
-
-    def test_creates_nested_parent_directories(self, tmp_path):
-        path = str(tmp_path / "a" / "b" / "out.json")
-        save_json(path, [1, 2, 3], log_fn=lambda _: None)
-        with open(path) as f:
-            assert json.load(f) == [1, 2, 3]
-
-    def test_overwrites_existing_file(self, tmp_path):
-        path = str(tmp_path / "out.json")
-        save_json(path, {"v": 1}, log_fn=lambda _: None)
-        save_json(path, {"v": 2}, log_fn=lambda _: None)
-        with open(path) as f:
-            assert json.load(f)["v"] == 2
 
 
 # ── Portfolio config sanity checks ────────────────────────────────────────────
