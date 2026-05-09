@@ -56,10 +56,27 @@ def _make_metro_flyer(job: str = "82000", store_id: int = 100) -> dict:
     }
 
 
-def _write_json(path: str, data: object) -> None:
+def _write_stores_parquet(path: str, stores: dict) -> None:
+    import pyarrow as pa
+    import pyarrow.parquet as pq
+
+    rows = [{"store_code": str(c), "province": None, "store_name": None, "raw_json": json.dumps(v)} for c, v in stores.items()]
     os.makedirs(os.path.dirname(path), exist_ok=True)
-    with open(path, "w", encoding="utf-8") as fh:
-        json.dump(data, fh)
+    schema = pa.schema([("store_code", pa.string()), ("province", pa.string()), ("store_name", pa.string()), ("raw_json", pa.string())])
+    pq.write_table(pa.Table.from_pylist(rows, schema=schema) if rows else pa.table({"store_code": pa.array([], pa.string()), "province": pa.array([], pa.string()), "store_name": pa.array([], pa.string()), "raw_json": pa.array([], pa.string())}), path)
+
+
+def _write_store_flyers_parquet(path: str, store_flyers: dict) -> None:
+    import pyarrow as pa
+    import pyarrow.parquet as pq
+
+    rows = []
+    for code, pubs in store_flyers.items():
+        for pub in (pubs or []):
+            rows.append({"store_code": str(code), "flyer_id": str(pub.get("id", "") if isinstance(pub, dict) else ""), "raw_json": json.dumps(pub)})
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    schema = pa.schema([("store_code", pa.string()), ("flyer_id", pa.string()), ("raw_json", pa.string())])
+    pq.write_table(pa.Table.from_pylist(rows, schema=schema) if rows else pa.table({"store_code": pa.array([], pa.string()), "flyer_id": pa.array([], pa.string()), "raw_json": pa.array([], pa.string())}), path)
 
 
 def _minimal_item(**kwargs) -> FlyerItem:
@@ -330,8 +347,8 @@ class TestMain:
         data_dir = str(tmp_path / "data")
         output_dir = str(tmp_path / "cleaned")
 
-        _write_json(os.path.join(data_dir, "loblaws", "stores.json"), {})
-        _write_json(os.path.join(data_dir, "loblaws", "store_flyers.json"), {})
+        _write_stores_parquet(os.path.join(data_dir, "loblaws", "stores.parquet"), {})
+        _write_store_flyers_parquet(os.path.join(data_dir, "loblaws", "store_flyers.parquet"), {})
         _write_flyer_parquet(data_dir, "loblaws", _make_flipp_flyer("1001"))
 
         rc = main([f"--output-dir={output_dir}", "--store=loblaws", f"--store=loblaws"])
@@ -344,8 +361,8 @@ class TestMain:
         data_dir = str(tmp_path / "data")
         output_dir = str(tmp_path / "cleaned")
 
-        _write_json(os.path.join(data_dir, "loblaws", "stores.json"), {})
-        _write_json(os.path.join(data_dir, "loblaws", "store_flyers.json"), {})
+        _write_stores_parquet(os.path.join(data_dir, "loblaws", "stores.parquet"), {})
+        _write_store_flyers_parquet(os.path.join(data_dir, "loblaws", "store_flyers.parquet"), {})
         _write_flyer_parquet(data_dir, "loblaws", _make_flipp_flyer("1001"))
 
         # main() uses iter_flyers(data_dir="data") by default, so skip this

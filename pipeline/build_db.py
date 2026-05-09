@@ -239,29 +239,30 @@ def build_dimensions(db_dir: str, data_dir: str) -> None:
     store_rows: list[dict] = []
 
     for chain in chain_dirs:
-        stores_path = os.path.join(data_dir, chain, "stores.json")
+        stores_path = os.path.join(data_dir, chain, "stores.parquet")
         if not os.path.isfile(stores_path):
             continue
         try:
-            with open(stores_path, encoding="utf-8") as fh:
-                stores: dict = json.load(fh)
+            import pyarrow.parquet as _pq
+            _tbl = _pq.read_table(stores_path)
+            stores_list = _tbl.to_pylist()
         except Exception:
             continue
-        for store_id, store_data in stores.items():
+        for row in stores_list:
+            raw = json.loads(row["raw_json"]) if "raw_json" in row else row
             store_rows.append(
                 {
                     "store_chain": chain,
-                    "store_id": str(store_id),
-                    # Metro uses "store_name"; Flipp uses "name"
+                    "store_id": str(row.get("store_code", "")),
                     "store_name": (
-                        store_data.get("store_name")
-                        if store_data.get("store_name") is not None
-                        else store_data.get("name")
+                        raw.get("store_name")
+                        if raw.get("store_name") is not None
+                        else raw.get("name")
                     ),
-                    "banner": store_data.get("banner"),
-                    "province": store_data.get("province"),
-                    "city": store_data.get("city"),
-                    "postal_code": store_data.get("postal_code"),
+                    "banner": raw.get("banner"),
+                    "province": raw.get("province"),
+                    "city": raw.get("city"),
+                    "postal_code": raw.get("postal_code"),
                 }
             )
 
@@ -285,49 +286,51 @@ def build_dimensions(db_dir: str, data_dir: str) -> None:
     seen_flyer_ids: set[str] = set()
 
     for chain in chain_dirs:
-        flyers_path = os.path.join(data_dir, chain, "store_flyers.json")
+        flyers_path = os.path.join(data_dir, chain, "store_flyers.parquet")
         if not os.path.isfile(flyers_path):
             continue
         try:
-            with open(flyers_path, encoding="utf-8") as fh:
-                store_flyers: dict = json.load(fh)
+            import pyarrow.parquet as _pq
+            _tbl = _pq.read_table(flyers_path)
+            sf_rows = _tbl.to_pylist()
         except Exception:
             continue
-        for store_id, flyers in store_flyers.items():
-            for flyer in flyers or []:
-                # Metro uses "title" (job number); Flipp uses "id"
-                raw_id = flyer.get("title") or flyer.get("id")
-                if raw_id is None:
-                    continue
-                flyer_id = str(raw_id)
-                if flyer_id in seen_flyer_ids:
-                    continue
-                seen_flyer_ids.add(flyer_id)
-                flyer_rows.append(
-                    {
-                        "flyer_id": flyer_id,
-                        "store_chain": chain,
-                        "store_id": str(store_id),
-                        # Metro uses "startDate"/"endDate"; Flipp uses "valid_from"/"valid_to"
-                        "valid_from": (
-                            flyer.get("startDate")
-                            if flyer.get("startDate") is not None
-                            else flyer.get("valid_from")
-                        ),
-                        "valid_to": (
-                            flyer.get("endDate")
-                            if flyer.get("endDate") is not None
-                            else flyer.get("valid_to")
-                        ),
-                        # Flipp uses "locale" instead of "language"
-                        "language": (
-                            flyer.get("language")
-                            if flyer.get("language") is not None
-                            else flyer.get("locale")
-                        ),
-                        "province": flyer.get("province"),
-                    }
-                )
+        for sf_row in sf_rows:
+            store_id = str(sf_row.get("store_code", ""))
+            flyer = json.loads(sf_row["raw_json"]) if "raw_json" in sf_row else {"id": sf_row.get("flyer_id")}
+            # Metro uses "title" (job number); Flipp uses "id"
+            raw_id = flyer.get("title") or flyer.get("id")
+            if raw_id is None:
+                continue
+            flyer_id = str(raw_id)
+            if flyer_id in seen_flyer_ids:
+                continue
+            seen_flyer_ids.add(flyer_id)
+            flyer_rows.append(
+                {
+                    "flyer_id": flyer_id,
+                    "store_chain": chain,
+                    "store_id": str(store_id),
+                    # Metro uses "startDate"/"endDate"; Flipp uses "valid_from"/"valid_to"
+                    "valid_from": (
+                        flyer.get("startDate")
+                        if flyer.get("startDate") is not None
+                        else flyer.get("valid_from")
+                    ),
+                    "valid_to": (
+                        flyer.get("endDate")
+                        if flyer.get("endDate") is not None
+                        else flyer.get("valid_to")
+                    ),
+                    # Flipp uses "locale" instead of "language"
+                    "language": (
+                        flyer.get("language")
+                        if flyer.get("language") is not None
+                        else flyer.get("locale")
+                    ),
+                    "province": flyer.get("province"),
+                }
+            )
 
     flyers_schema = pa.schema(
         [

@@ -19,6 +19,18 @@ Options
 
 What it does
 ------------
+**Stores layer** — for each ``data/<brand>/stores.json``:
+
+* Converts each store entry to a row with columns
+  ``store_code``, ``province``, ``store_name``, ``raw_json``.
+* Writes to ``data/<brand>/stores.parquet``.
+
+**Store-flyers layer** — for each ``data/<brand>/store_flyers.json``:
+
+* Converts each publication/job entry to a row with columns
+  ``store_code``, ``flyer_id``, ``raw_json``.
+* Writes to ``data/<brand>/store_flyers.parquet``.
+
 **Raw layer** — for each brand under ``data/<brand>/flyers/*.json``:
 
 * Reads each flyer JSON, detects Flipp (``publication_id``) vs Metro (``job``).
@@ -28,6 +40,13 @@ What it does
   and ``products_url``).
 * Nested / list product fields are JSON-encoded to strings.
 * Writes all rows for the brand to ``data/<brand>/flyers.parquet``.
+
+**Cleaned layer** — for each ``cleaned/<brand>/<id>.json`` envelope:
+
+* Reads the ``records[]`` array, JSON-encodes any list-valued fields.
+* Appends all records for the brand to ``cleaned/<brand>.parquet``.
+
+Both layers are idempotent when re-run without ``--delete-json``.
 
 **Cleaned layer** — for each ``cleaned/<brand>/<id>.json`` envelope:
 
@@ -110,6 +129,95 @@ def _write_parquet(path: str, rows: list[dict]) -> None:
         combined = new_table
     os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
     pq.write_table(combined, path)
+
+
+# ── Stores / store-flyers migration ──────────────────────────────────────────
+
+
+def migrate_stores(data_dir: str, store: str | None, delete_json: bool) -> None:
+    """Convert ``data/<brand>/stores.json`` → ``data/<brand>/stores.parquet``."""
+    try:
+        brand_dirs = sorted(os.listdir(data_dir))
+    except FileNotFoundError:
+        print(f"[stores] data dir not found: {data_dir}")
+        return
+
+    for brand in brand_dirs:
+        if store is not None and brand != store:
+            continue
+        src = os.path.join(data_dir, brand, "stores.json")
+        if not os.path.isfile(src):
+            continue
+
+        try:
+            with open(src, encoding="utf-8") as fh:
+                stores: dict = json.load(fh)
+        except Exception as exc:
+            print(f"  [!] {src}: skipped — {exc}")
+            continue
+
+        rows = []
+        for code, info in stores.items():
+            rows.append({
+                "store_code": str(code),
+                "province": info.get("province") if isinstance(info, dict) else None,
+                "store_name": (info.get("store_name") or info.get("name")) if isinstance(info, dict) else None,
+                "raw_json": json.dumps(info),
+            })
+
+        if not rows:
+            print(f"{brand}/stores.json: empty — skipped")
+            continue
+
+        out = os.path.join(data_dir, brand, "stores.parquet")
+        _write_parquet(out, rows)
+        print(f"{brand}: stores.json ({len(rows)} stores) → {out}")
+
+        if delete_json:
+            os.remove(src)
+            print(f"  deleted {src}")
+
+
+def migrate_store_flyers(data_dir: str, store: str | None, delete_json: bool) -> None:
+    """Convert ``data/<brand>/store_flyers.json`` → ``data/<brand>/store_flyers.parquet``."""
+    try:
+        brand_dirs = sorted(os.listdir(data_dir))
+    except FileNotFoundError:
+        print(f"[store_flyers] data dir not found: {data_dir}")
+        return
+
+    for brand in brand_dirs:
+        if store is not None and brand != store:
+            continue
+        src = os.path.join(data_dir, brand, "store_flyers.json")
+        if not os.path.isfile(src):
+            continue
+
+        try:
+            with open(src, encoding="utf-8") as fh:
+                store_flyers: dict = json.load(fh)
+        except Exception as exc:
+            print(f"  [!] {src}: skipped — {exc}")
+            continue
+
+        rows = []
+        for store_code, pubs in store_flyers.items():
+            for pub in (pubs or []):
+                # Metro uses "title" (job number); Flipp uses "id"
+                flyer_id = str(pub.get("title") or pub.get("id") or "")
+                rows.append({
+                    "store_code": str(store_code),
+                    "flyer_id": flyer_id,
+                    "raw_json": json.dumps(pub),
+                })
+
+        out = os.path.join(data_dir, brand, "store_flyers.parquet")
+        _write_parquet(out, rows)
+        print(f"{brand}: store_flyers.json ({len(rows)} entries) → {out}")
+
+        if delete_json:
+            os.remove(src)
+            print(f"  deleted {src}")
 
 
 # ── Raw layer migration ────────────────────────────────────────────────────────
@@ -259,6 +367,10 @@ def _build_parser() -> argparse.ArgumentParser:
 
 def main(argv: list[str] | None = None) -> int:
     args = _build_parser().parse_args(argv)
+    print("── Stores layer ─────────────────────────────────────────────────")
+    migrate_stores(args.data_dir, args.store, args.delete_json)
+    print("── Store-flyers layer ───────────────────────────────────────────")
+    migrate_store_flyers(args.data_dir, args.store, args.delete_json)
     print("── Raw layer ────────────────────────────────────────────────────")
     migrate_raw(args.data_dir, args.store, args.delete_json)
     print("── Cleaned layer ────────────────────────────────────────────────")

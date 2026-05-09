@@ -57,12 +57,38 @@ _ALL_ENVELOPE_COLS: frozenset[str] = frozenset(
 # ── Internal helpers ──────────────────────────────────────────────────────────
 
 
-def _load_json(path: str) -> Any:
-    """Load and return a JSON file, or return an empty dict on missing file."""
+def _load_stores_parquet(path: str) -> dict:
+    """Return ``{store_code: info_dict}`` from stores.parquet, or {} if absent."""
     if not os.path.exists(path):
         return {}
-    with open(path, encoding="utf-8") as fh:
-        return json.load(fh)
+    try:
+        import pyarrow.parquet as pq
+        table = pq.read_table(path)
+        result: dict = {}
+        for row in table.to_pylist():
+            code = str(row.get("store_code", ""))
+            if code:
+                result[code] = json.loads(row["raw_json"]) if "raw_json" in row else row
+        return result
+    except Exception:
+        return {}
+
+
+def _load_store_flyers_parquet(path: str) -> dict:
+    """Return ``{store_code: [pub_dict, ...]}`` from store_flyers.parquet, or {} if absent."""
+    if not os.path.exists(path):
+        return {}
+    try:
+        import pyarrow.parquet as pq
+        table = pq.read_table(path)
+        result: dict = {}
+        for row in table.to_pylist():
+            code = str(row.get("store_code", ""))
+            pub = json.loads(row["raw_json"]) if "raw_json" in row else {"id": row.get("flyer_id")}
+            result.setdefault(code, []).append(pub)
+        return result
+    except Exception:
+        return {}
 
 
 def _store_province(stores: dict, store_id: str | None) -> str | None:
@@ -241,8 +267,8 @@ def iter_flyers(
     """
     for store_chain, flyer_data in _iter_flyer_parquet(data_dir, store):
         store_dir = os.path.join(data_dir, store_chain)
-        stores: dict = _load_json(os.path.join(store_dir, "stores.json"))
-        store_flyers: dict = _load_json(os.path.join(store_dir, "store_flyers.json"))
+        stores: dict = _load_stores_parquet(os.path.join(store_dir, "stores.parquet"))
+        store_flyers: dict = _load_store_flyers_parquet(os.path.join(store_dir, "store_flyers.parquet"))
 
         fetched_on: str | None = flyer_data.get("fetched_on") or None
 
