@@ -51,6 +51,7 @@ class TestPartitionDir:
 # ── build_observations ────────────────────────────────────────────────────────
 
 
+# NOTE: _write_json retained for non-stores/store_flyers use elsewhere in this file
 def _write_json(path: str, data: object) -> None:
     os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, "w", encoding="utf-8") as fh:
@@ -258,15 +259,34 @@ class TestBuildObservations:
 # ── build_dimensions ──────────────────────────────────────────────────────────
 
 
-def _write_stores_json(data_dir: str, chain: str, stores: dict) -> None:
-    path = os.path.join(data_dir, chain, "stores.json")
-    _write_json(path, stores)
+def _write_stores_parquet(data_dir: str, chain: str, stores: dict) -> None:
+    import pyarrow as pa
+    import pyarrow.parquet as pq
+
+    path = os.path.join(data_dir, chain, "stores.parquet")
+    rows = [{"store_code": str(c), "province": v.get("province"), "store_name": v.get("store_name") or v.get("name"), "raw_json": json.dumps(v)} for c, v in stores.items()]
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    schema = pa.schema([("store_code", pa.string()), ("province", pa.string()), ("store_name", pa.string()), ("raw_json", pa.string())])
+    pq.write_table(pa.Table.from_pylist(rows, schema=schema) if rows else pa.table({"store_code": pa.array([], pa.string()), "province": pa.array([], pa.string()), "store_name": pa.array([], pa.string()), "raw_json": pa.array([], pa.string())}), path)
 
 
-def _write_store_flyers_json(data_dir: str, chain: str, store_flyers: dict) -> None:
-    path = os.path.join(data_dir, chain, "store_flyers.json")
-    _write_json(path, store_flyers)
+def _write_store_flyers_parquet(data_dir: str, chain: str, store_flyers: dict) -> None:
+    import pyarrow as pa
+    import pyarrow.parquet as pq
 
+    path = os.path.join(data_dir, chain, "store_flyers.parquet")
+    rows = []
+    for code, pubs in store_flyers.items():
+        for pub in (pubs or []):
+            rows.append({"store_code": str(code), "flyer_id": str(pub.get("title") or pub.get("id") or ""), "raw_json": json.dumps(pub)})
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    schema = pa.schema([("store_code", pa.string()), ("flyer_id", pa.string()), ("raw_json", pa.string())])
+    pq.write_table(pa.Table.from_pylist(rows, schema=schema) if rows else pa.table({"store_code": pa.array([], pa.string()), "flyer_id": pa.array([], pa.string()), "raw_json": pa.array([], pa.string())}), path)
+
+
+# Aliases kept so existing call sites don't need mass-renaming
+_write_stores_json = _write_stores_parquet
+_write_store_flyers_json = _write_store_flyers_parquet
 
 _METRO_STORES = {
     "21937": {"store_name": "Sauvé", "banner": "Adonis"},
@@ -974,11 +994,9 @@ def test_build_dimensions_stores(tmp_path):
 
     data = str(tmp_path / "data")
     db = str(tmp_path / "db")
-    _write_json(
-        os.path.join(data, "adonis", "stores.json"),
-        {"21937": {"store_name": "Adonis MTL", "city": "Montreal", "province": "QC"}},
-    )
-    _write_json(os.path.join(data, "adonis", "store_flyers.json"), {})
+    _write_stores_parquet(data, "adonis",
+        {"21937": {"store_name": "Adonis MTL", "city": "Montreal", "province": "QC"}})
+    _write_store_flyers_parquet(data, "adonis", {})
 
     build_dimensions(db_dir=db, data_dir=data)
 
@@ -997,11 +1015,9 @@ def test_build_dimensions_flyers(tmp_path):
 
     data = str(tmp_path / "data")
     db = str(tmp_path / "db")
-    _write_json(os.path.join(data, "adonis", "stores.json"), {})
-    _write_json(
-        os.path.join(data, "adonis", "store_flyers.json"),
-        {"21937": [{"title": "83006", "startDate": "2026-04-02", "endDate": "2026-04-08"}]},
-    )
+    _write_stores_parquet(data, "adonis", {})
+    _write_store_flyers_parquet(data, "adonis",
+        {"21937": [{"title": "83006", "startDate": "2026-04-02", "endDate": "2026-04-08"}]})
 
     build_dimensions(db_dir=db, data_dir=data)
 

@@ -5,7 +5,6 @@ Defines the Brand dataclass, portfolio configs, a FlippLogger, and all
 HTTP helper functions so fetch_stores.py and fetch_flyers.py stay thin.
 """
 
-import json
 import os
 from dataclasses import dataclass
 from datetime import datetime, timezone
@@ -108,13 +107,6 @@ def get(url: str, params: dict) -> list | dict | None:
         return resp.json()
     except ValueError:
         return None
-
-
-def save_json(path: str, data, log_fn=print) -> None:
-    os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
-    with open(path, "w") as f:
-        json.dump(data, f, indent=2)
-    log_fn(f"  Saved → {path}  ({os.path.getsize(path):,} bytes)")
 
 
 # ── Store-level fetchers ──────────────────────────────────────────────────────
