@@ -279,6 +279,16 @@ def main(argv: list[str] | None = None) -> int:
         if args.force or any_json_written or not os.path.exists(parquet_path):
             _write_parquet(parquet_path, all_records)
 
+    # Push cleaned data to Hugging Face (no-op when HF_TOKEN is unset)
+    if not args.dry_run:
+        try:
+            from pipeline.hf_sync import push_cleaned_brand
+            chains = ([args.store] if args.store else sorted(store_counts.keys()))
+            for chain in chains:
+                push_cleaned_brand(chain, cleaned_dir=output_dir)
+        except Exception as _hf_exc:  # noqa: BLE001
+            print(f"[hf_sync] Warning: cleaned sync failed: {_hf_exc}")
+
     print(f"{total} records processed")
     return 0
 

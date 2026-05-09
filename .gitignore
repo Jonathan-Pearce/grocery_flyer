@@ -2,3 +2,12 @@ __pycache__/
 *.py[cod]
 .pytest_cache/
 db/
+
+# Raw flyer data — stored on Hugging Face (jpearce610/grocery-flyers-raw)
+data/*/flyers/
+data/*/raw.parquet
+data/*/hf_raw_synced.json
+data/*/hf_cleaned_synced.json
+
+# Cleaned and processed data — stored on Hugging Face (jpearce610/grocery-flyers-processed)
+cleaned/

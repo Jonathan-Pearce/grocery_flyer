@@ -48,6 +48,7 @@ from fetchers.flipp import (
     now_utc,
     save_json,
 )
+from pipeline.hf_sync import push_raw_brand
 
 
 # ── Flipp brand flyer fetcher ─────────────────────────────────────────────────
@@ -313,6 +314,8 @@ def run_flipp_portfolio(brands: list[Brand], today: str) -> None:
             continue
 
         fetch_flipp_brand(brand, today)
+        # NOTE: raw JSON files are not synced here — run pipeline.clean first,
+        # then python -m pipeline.hf_sync --raw to convert and delete them.
 
 
 def run_metro_portfolio(brands: list[MetroBrand], today: str) -> None:
@@ -330,6 +333,8 @@ def run_metro_portfolio(brands: list[MetroBrand], today: str) -> None:
             continue
 
         fetch_metro_brand(brand, today)
+        # NOTE: raw JSON files are not synced here — run pipeline.clean first,
+        # then python -m pipeline.hf_sync --raw to convert and delete them.
 
 
 # ── CLI ───────────────────────────────────────────────────────────────────────

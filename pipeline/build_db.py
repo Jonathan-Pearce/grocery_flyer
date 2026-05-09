@@ -527,6 +527,14 @@ def main(argv: list[str] | None = None) -> int:
     except Exception as exc:  # noqa: BLE001
         print(f"Error: {type(exc).__name__}: {exc}", file=sys.stderr)
         return 1
+
+    # Push db/ parquet files to Hugging Face (no-op when HF_TOKEN is unset)
+    try:
+        from pipeline.hf_sync import push_db_files
+        push_db_files(db_dir=args.db_dir)
+    except Exception as _hf_exc:  # noqa: BLE001
+        print(f"[hf_sync] Warning: db sync failed: {_hf_exc}")
+
     return 0
 
 
