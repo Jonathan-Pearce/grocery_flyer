@@ -10,8 +10,8 @@ Portfolios:
 For each brand:
   Phase 1 — fetch active publications/flyers per store, merge into
              data/<folder>/store_flyers.json  (append-only, no duplicates)
-  Phase 2 — download products for each new publication/flyer into
-             data/<folder>/flyers/<id>.json   (skip if file already exists)
+  Phase 2 — download products for each new publication/flyer and append to
+             data/<folder>/flyers.parquet      (skip if flyer_id already present)
 
 Logs: logs/<folder>/<date>_verbose.log  /  logs/<folder>/<date>_summary.log
 
@@ -28,6 +28,7 @@ import json
 import os
 import time
 from datetime import date
+from typing import Any
 
 from fetchers.azure import (
     METRO_PORTFOLIO,
@@ -46,17 +47,152 @@ from fetchers.flipp import (
     fetch_publication_products,
     fetch_store_publications,
     now_utc,
-    save_json,
 )
+
+
+# ── Parquet helpers ───────────────────────────────────────────────────────────
+
+
+def _load_known_flyer_ids(parquet_path: str) -> set[str]:
+    """Return the set of ``flyer_id`` values already present in *parquet_path*.
+
+    Returns an empty set when the file does not exist or cannot be read.
+    """
+    if not os.path.exists(parquet_path):
+        return set()
+    try:
+        import pyarrow.parquet as pq
+        table = pq.read_table(parquet_path, columns=["flyer_id"])
+        return {str(v) for v in table.column("flyer_id").to_pylist() if v is not None}
+    except Exception:
+        return set()
+
+
+def _flatten_flipp_products(
+    pub_id: str,
+    fetched_on: str,
+    pub_meta: dict,
+    products_url: str,
+    products: list[dict],
+) -> list[dict]:
+    """Return one row per product for a Flipp publication."""
+    envelope: dict[str, Any] = {
+        "flyer_id": pub_id,
+        "source_api": "flipp",
+        "fetched_on": fetched_on,
+        "pub_valid_from": pub_meta.get("valid_from"),
+        "pub_valid_to": pub_meta.get("valid_to"),
+        "pub_locale": pub_meta.get("locale"),
+        "products_url": products_url,
+    }
+    rows: list[dict] = []
+    for product in products:
+        row = dict(envelope)
+        for key, val in product.items():
+            row[key] = json.dumps(val) if isinstance(val, (list, dict)) else val
+        rows.append(row)
+    return rows
+
+
+def _flatten_metro_products(
+    job: str,
+    store_id: int | None,
+    fetched_on: str,
+    products_url: str,
+    products: list[dict],
+) -> list[dict]:
+    """Return one row per product for a Metro job."""
+    envelope: dict[str, Any] = {
+        "flyer_id": job,
+        "source_api": "metro",
+        "fetched_on": fetched_on,
+        "store_id": str(store_id) if store_id is not None else None,
+        "products_url": products_url,
+    }
+    rows: list[dict] = []
+    for product in products:
+        row = dict(envelope)
+        for key, val in product.items():
+            row[key] = json.dumps(val) if isinstance(val, (list, dict)) else val
+        rows.append(row)
+    return rows
+
+
+def _load_stores_parquet(parquet_path: str) -> dict[str, dict]:
+    """Return ``{store_code: {province, store_name, ...}}`` from stores.parquet."""
+    if not os.path.exists(parquet_path):
+        return {}
+    try:
+        import pyarrow.parquet as pq
+        table = pq.read_table(parquet_path)
+        result: dict[str, dict] = {}
+        for row in table.to_pylist():
+            code = str(row.get("store_code", ""))
+            if code:
+                result[code] = json.loads(row["raw_json"]) if "raw_json" in row else row
+        return result
+    except Exception:
+        return {}
+
+
+def _load_store_flyers_parquet(parquet_path: str) -> dict[str, list]:
+    """Return ``{store_code: [pub_dict, ...]}`` from store_flyers.parquet."""
+    if not os.path.exists(parquet_path):
+        return {}
+    try:
+        import pyarrow.parquet as pq
+        table = pq.read_table(parquet_path)
+        result: dict[str, list] = {}
+        for row in table.to_pylist():
+            code = str(row.get("store_code", ""))
+            pub = json.loads(row["raw_json"]) if "raw_json" in row else {"id": row.get("flyer_id")}
+            result.setdefault(code, []).append(pub)
+        return result
+    except Exception:
+        return {}
+
+
+def _append_store_flyers_parquet(parquet_path: str, new_rows: list[dict]) -> None:
+    """Append new store-flyer rows to store_flyers.parquet."""
+    if not new_rows:
+        return
+    import pyarrow as pa
+    import pyarrow.parquet as pq
+
+    new_table = pa.Table.from_pylist(new_rows)
+    if os.path.exists(parquet_path):
+        existing = pq.read_table(parquet_path)
+        combined = pa.concat_tables([existing, new_table], promote_options="default")
+    else:
+        os.makedirs(os.path.dirname(parquet_path) or ".", exist_ok=True)
+        combined = new_table
+    pq.write_table(combined, parquet_path)
+
+
+def _append_raw_parquet(parquet_path: str, new_rows: list[dict]) -> None:
+    """Append *new_rows* to the brand Parquet file, creating it if absent."""
+    if not new_rows:
+        return
+    import pyarrow as pa
+    import pyarrow.parquet as pq
+
+    new_table = pa.Table.from_pylist(new_rows)
+    if os.path.exists(parquet_path):
+        existing = pq.read_table(parquet_path)
+        combined = pa.concat_tables([existing, new_table], promote_options="default")
+    else:
+        combined = new_table
+    os.makedirs(os.path.dirname(parquet_path) or ".", exist_ok=True)
+    pq.write_table(combined, parquet_path)
 
 
 # ── Flipp brand flyer fetcher ─────────────────────────────────────────────────
 
 def fetch_flipp_brand(brand: Brand, today: str) -> None:
-    stores_path       = f"data/{brand.folder}/stores.json"
-    store_flyers_path = f"data/{brand.folder}/store_flyers.json"
-    flyers_dir        = f"data/{brand.folder}/flyers"
-    log_dir           = f"logs/{brand.folder}"
+    stores_parquet_path       = f"data/{brand.folder}/stores.parquet"
+    store_flyers_parquet_path = f"data/{brand.folder}/store_flyers.parquet"
+    parquet_path              = f"data/{brand.folder}/flyers.parquet"
+    log_dir                   = f"logs/{brand.folder}"
 
     logger  = FlippLogger(log_dir, today)
     log     = logger.log
@@ -68,26 +204,22 @@ def fetch_flipp_brand(brand: Brand, today: str) -> None:
     summary()
 
     # ── Load stores ───────────────────────────────────────────────────────────
-    with open(stores_path) as f:
-        stores = json.load(f)
+    stores = _load_stores_parquet(stores_parquet_path)
 
-    log(f"Loaded {len(stores)} stores from {stores_path}\n")
+    log(f"Loaded {len(stores)} stores from {stores_parquet_path}\n")
     summary(f"Stores loaded: {len(stores)}")
 
     # ── Load existing store_flyers accumulator ────────────────────────────────
-    if os.path.exists(store_flyers_path):
-        with open(store_flyers_path) as f:
-            store_flyers: dict[str, list] = json.load(f)
-        log(f"Loaded existing store_flyers.json "
-            f"({sum(len(v) for v in store_flyers.values())} publication entries)\n")
-    else:
-        store_flyers = {}
+    store_flyers: dict[str, list] = _load_store_flyers_parquet(store_flyers_parquet_path)
+    log(f"Loaded store_flyers.parquet "
+        f"({sum(len(v) for v in store_flyers.values())} publication entries)\n")
 
     # ── Phase 1: store → publications ─────────────────────────────────────────
     log("Phase 1: fetching publications per store…\n")
 
     all_pubs: dict[str, dict] = {}
     new_entries = 0
+    new_store_flyer_rows: list[dict] = []
 
     for store_code, store_info in stores.items():
         name = store_info.get("name", store_code)
@@ -99,6 +231,12 @@ def fetch_flipp_brand(brand: Brand, today: str) -> None:
         if new_pubs:
             store_flyers.setdefault(store_code, []).extend(new_pubs)
             new_entries += len(new_pubs)
+            for pub in new_pubs:
+                new_store_flyer_rows.append({
+                    "store_code": store_code,
+                    "flyer_id": str(pub.get("id", "")),
+                    "raw_json": json.dumps(pub),
+                })
 
         for pub in new_pubs:
             pid = str(pub.get("id", ""))
@@ -111,25 +249,25 @@ def fetch_flipp_brand(brand: Brand, today: str) -> None:
 
     log(f"\n  {new_entries} new publication entries across {len(stores)} stores")
     log(f"  {len(all_pubs)} unique new publication(s) to download")
-    save_json(store_flyers_path, store_flyers, log)
+    _append_store_flyers_parquet(store_flyers_parquet_path, new_store_flyer_rows)
+    log(f"  Appended {len(new_store_flyer_rows)} rows to {store_flyers_parquet_path}")
 
-    summary(f"New publication entries added to store_flyers.json: {new_entries}")
+    summary(f"New publication entries added to store_flyers.parquet: {new_entries}")
     summary(f"Unique new publications to download: {len(all_pubs)}")
 
     # ── Phase 2: download new flyer products ──────────────────────────────────
     log("\nPhase 2: fetching products for each new publication…\n")
 
-    os.makedirs(flyers_dir, exist_ok=True)
+    known_ids = _load_known_flyer_ids(parquet_path)
     downloaded = skipped = errors = 0
+    new_rows: list[dict] = []
 
     if not all_pubs:
         log("  Nothing new to download.")
     else:
         for pub_id, pub_meta in all_pubs.items():
-            out_path = os.path.join(flyers_dir, f"{pub_id}.json")
-
-            if os.path.exists(out_path):
-                log(f"  [{pub_id}] already downloaded — skipping")
+            if pub_id in known_ids:
+                log(f"  [{pub_id}] already in Parquet — skipping")
                 skipped += 1
                 continue
 
@@ -150,26 +288,23 @@ def fetch_flipp_brand(brand: Brand, today: str) -> None:
                 continue
 
             log(f"    {len(products)} products")
-            save_json(out_path, {
-                "fetched_on":       today,
-                "publication_id":   pub_id,
-                "publication_meta": pub_meta,
-                "products_url":     products_url,
-                "products":         products,
-            }, log)
+            new_rows.extend(
+                _flatten_flipp_products(pub_id, today, pub_meta, products_url, products)
+            )
             downloaded += 1
             time.sleep(DELAY)
 
+    _append_raw_parquet(parquet_path, new_rows)
     _log_phase2_summary(summary, log, logger, run_start, downloaded, skipped, errors)
 
 
 # ── Metro brand flyer fetcher ─────────────────────────────────────────────────
 
 def fetch_metro_brand(brand: MetroBrand, today: str) -> None:
-    stores_path       = f"data/{brand.folder}/stores.json"
-    store_flyers_path = f"data/{brand.folder}/store_flyers.json"
-    flyers_dir        = f"data/{brand.folder}/flyers"
-    log_dir           = f"logs/{brand.folder}"
+    stores_parquet_path       = f"data/{brand.folder}/stores.parquet"
+    store_flyers_parquet_path = f"data/{brand.folder}/store_flyers.parquet"
+    parquet_path              = f"data/{brand.folder}/flyers.parquet"
+    log_dir                   = f"logs/{brand.folder}"
 
     logger  = FlippLogger(log_dir, today)
     log     = logger.log
@@ -181,20 +316,15 @@ def fetch_metro_brand(brand: MetroBrand, today: str) -> None:
     summary()
 
     # ── Load stores ───────────────────────────────────────────────────────────
-    with open(stores_path) as f:
-        stores = json.load(f)
+    stores = _load_stores_parquet(stores_parquet_path)
 
-    log(f"Loaded {len(stores)} stores from {stores_path}\n")
+    log(f"Loaded {len(stores)} stores from {stores_parquet_path}\n")
     summary(f"Stores loaded: {len(stores)}")
 
     # ── Load existing store_flyers accumulator ────────────────────────────────
-    if os.path.exists(store_flyers_path):
-        with open(store_flyers_path) as f:
-            store_flyers: dict[str, list] = json.load(f)
-        log(f"Loaded existing store_flyers.json "
-            f"({sum(len(v) for v in store_flyers.values())} flyer entries)\n")
-    else:
-        store_flyers = {}
+    store_flyers: dict[str, list] = _load_store_flyers_parquet(store_flyers_parquet_path)
+    log(f"Loaded store_flyers.parquet "
+        f"({sum(len(v) for v in store_flyers.values())} flyer entries)\n")
 
     # ── Phase 1: store → flyers ───────────────────────────────────────────────
     log("Phase 1: fetching flyer listings per store…\n")
@@ -202,6 +332,7 @@ def fetch_metro_brand(brand: MetroBrand, today: str) -> None:
     # new_jobs: job_number -> store_id (representative store used for download)
     new_jobs: dict[str, int] = {}
     new_entries = 0
+    new_store_flyer_rows: list[dict] = []
 
     for store_id_str, store_info in stores.items():
         store_id  = int(store_id_str)
@@ -214,6 +345,12 @@ def fetch_metro_brand(brand: MetroBrand, today: str) -> None:
         if new_flyers:
             store_flyers.setdefault(store_id_str, []).extend(new_flyers)
             new_entries += len(new_flyers)
+            for flyer in new_flyers:
+                new_store_flyer_rows.append({
+                    "store_code": store_id_str,
+                    "flyer_id": flyer.get("title", ""),
+                    "raw_json": json.dumps(flyer),
+                })
 
         for flyer in new_flyers:
             job = flyer.get("title", "")
@@ -226,25 +363,25 @@ def fetch_metro_brand(brand: MetroBrand, today: str) -> None:
 
     log(f"\n  {new_entries} new flyer entries across {len(stores)} stores")
     log(f"  {len(new_jobs)} unique new job(s) to download")
-    save_json(store_flyers_path, store_flyers, log)
+    _append_store_flyers_parquet(store_flyers_parquet_path, new_store_flyer_rows)
+    log(f"  Appended {len(new_store_flyer_rows)} rows to {store_flyers_parquet_path}")
 
-    summary(f"New flyer entries added to store_flyers.json : {new_entries}")
-    summary(f"Unique new jobs to download                  : {len(new_jobs)}")
+    summary(f"New flyer entries added to store_flyers.parquet : {new_entries}")
+    summary(f"Unique new jobs to download                     : {len(new_jobs)}")
 
     # ── Phase 2: download new flyer products ──────────────────────────────────
     log("\nPhase 2: fetching products for each new job…\n")
 
-    os.makedirs(flyers_dir, exist_ok=True)
+    known_ids = _load_known_flyer_ids(parquet_path)
     downloaded = skipped = errors = 0
+    new_rows: list[dict] = []
 
     if not new_jobs:
         log("  Nothing new to download.")
     else:
         for job, store_id in new_jobs.items():
-            out_path = os.path.join(flyers_dir, f"{job}.json")
-
-            if os.path.exists(out_path):
-                log(f"  [{job}] already downloaded — skipping")
+            if job in known_ids:
+                log(f"  [{job}] already in Parquet — skipping")
                 skipped += 1
                 continue
 
@@ -261,16 +398,13 @@ def fetch_metro_brand(brand: MetroBrand, today: str) -> None:
                 continue
 
             log(f"    {len(products)} products")
-            save_json(out_path, {
-                "fetched_on":   today,
-                "job":          job,
-                "store_id":     store_id,
-                "products_url": products_url,
-                "products":     products,
-            }, log)
+            new_rows.extend(
+                _flatten_metro_products(job, store_id, today, products_url, products)
+            )
             downloaded += 1
             time.sleep(DELAY)
 
+    _append_raw_parquet(parquet_path, new_rows)
     _log_phase2_summary(summary, log, logger, run_start, downloaded, skipped, errors)
 
 
@@ -307,7 +441,7 @@ def run_flipp_portfolio(brands: list[Brand], today: str) -> None:
             print(f"  [!] Slug not yet confirmed for {brand.name} — skipping.\n")
             continue
 
-        stores_path = f"data/{brand.folder}/stores.json"
+        stores_path = f"data/{brand.folder}/stores.parquet"
         if not os.path.exists(stores_path):
             print(f"  [!] {stores_path} not found — run fetch_stores.py first.\n")
             continue
@@ -324,7 +458,7 @@ def run_metro_portfolio(brands: list[MetroBrand], today: str) -> None:
             print(f"  [!] Could not load credentials for {brand.name} — skipping.\n")
             continue
 
-        stores_path = f"data/{brand.folder}/stores.json"
+        stores_path = f"data/{brand.folder}/stores.parquet"
         if not os.path.exists(stores_path):
             print(f"  [!] {stores_path} not found — run fetch_stores.py first.\n")
             continue
