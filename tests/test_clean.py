@@ -351,7 +351,7 @@ class TestMain:
         _write_store_flyers_parquet(os.path.join(data_dir, "loblaws", "store_flyers.parquet"), {})
         _write_flyer_parquet(data_dir, "loblaws", _make_flipp_flyer("1001"))
 
-        rc = main([f"--output-dir={output_dir}", "--store=loblaws", f"--store=loblaws"])
+        rc = main([f"--output-dir={output_dir}", "--store=loblaws", "--store=loblaws"])
         # main() patches data_dir via iter_flyers; bypass by checking the file exists
         # (the test passes if no exception is raised; file creation tested below)
         assert rc == 0
