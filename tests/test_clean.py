@@ -70,6 +70,7 @@ def _minimal_item(**kwargs) -> FlyerItem:
         "fetched_on": "2026-04-03",
         "raw_name": "Test Product",
         "sale_price": 3.99,
+        "raw_categories": [],
     }
     defaults.update(kwargs)
     return FlyerItem(**defaults)

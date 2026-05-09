@@ -583,10 +583,7 @@ class TestMain:
         cleaned = str(tmp_path / "cleaned")
         data = str(tmp_path / "data")
 
-        _write_json(
-            os.path.join(cleaned, "loblaws", "1001.json"),
-            _make_envelope("1001", "loblaws"),
-        )
+        _write_cleaned_parquet(cleaned, "loblaws", _make_record_rows("1001", "loblaws"))
         _write_stores_json(data, "loblaws", _FLIPP_STORES)
         _write_store_flyers_json(data, "loblaws", _FLIPP_STORE_FLYERS)
 
@@ -603,10 +600,7 @@ class TestMain:
         cleaned = str(tmp_path / "cleaned")
         data = str(tmp_path / "data")
 
-        _write_json(
-            os.path.join(cleaned, "loblaws", "1001.json"),
-            _make_envelope("1001", "loblaws"),
-        )
+        _write_cleaned_parquet(cleaned, "loblaws", _make_record_rows("1001", "loblaws"))
         _write_stores_json(data, "loblaws", _FLIPP_STORES)
         _write_store_flyers_json(data, "loblaws", _FLIPP_STORE_FLYERS)
 
@@ -623,10 +617,7 @@ class TestMain:
         cleaned = str(tmp_path / "cleaned")
         data = str(tmp_path / "data")
 
-        _write_json(
-            os.path.join(cleaned, "loblaws", "1001.json"),
-            _make_envelope("1001", "loblaws"),
-        )
+        _write_cleaned_parquet(cleaned, "loblaws", _make_record_rows("1001", "loblaws"))
         _write_stores_json(data, "loblaws", _FLIPP_STORES)
         _write_store_flyers_json(data, "loblaws", _FLIPP_STORE_FLYERS)
 
@@ -648,10 +639,7 @@ class TestMain:
         cleaned = str(tmp_path / "cleaned")
         data = str(tmp_path / "data")
 
-        _write_json(
-            os.path.join(cleaned, "loblaws", "1001.json"),
-            _make_envelope("1001", "loblaws"),
-        )
+        _write_cleaned_parquet(cleaned, "loblaws", _make_record_rows("1001", "loblaws"))
         _write_stores_json(data, "loblaws", _FLIPP_STORES)
         _write_store_flyers_json(data, "loblaws", _FLIPP_STORE_FLYERS)
 
@@ -680,10 +668,7 @@ class TestMain:
         cleaned = str(tmp_path / "cleaned")
         data = str(tmp_path / "data")
 
-        _write_json(
-            os.path.join(cleaned, "loblaws", "1001.json"),
-            _make_envelope("1001", "loblaws"),
-        )
+        _write_cleaned_parquet(cleaned, "loblaws", _make_record_rows("1001", "loblaws"))
         _write_stores_json(data, "loblaws", _FLIPP_STORES)
         _write_store_flyers_json(data, "loblaws", _FLIPP_STORE_FLYERS)
 
@@ -700,14 +685,8 @@ class TestMain:
         cleaned = str(tmp_path / "cleaned")
         data = str(tmp_path / "data")
 
-        _write_json(
-            os.path.join(cleaned, "loblaws", "1001.json"),
-            _make_envelope("1001", "loblaws"),
-        )
-        _write_json(
-            os.path.join(cleaned, "food_basics", "2001.json"),
-            _make_envelope("2001", "food_basics"),
-        )
+        _write_cleaned_parquet(cleaned, "loblaws", _make_record_rows("1001", "loblaws"))
+        _write_cleaned_parquet(cleaned, "food_basics", _make_record_rows("2001", "food_basics"))
         _write_stores_json(data, "loblaws", _FLIPP_STORES)
         _write_store_flyers_json(data, "loblaws", _FLIPP_STORE_FLYERS)
 
@@ -772,10 +751,7 @@ class TestMain:
             lambda **kw: calls.append(("build_scores", kw)),
         )
 
-        _write_json(
-            os.path.join(cleaned, "loblaws", "1001.json"),
-            _make_envelope("1001", "loblaws"),
-        )
+        _write_cleaned_parquet(cleaned, "loblaws", _make_record_rows("1001", "loblaws"))
         _write_stores_json(data, "loblaws", _FLIPP_STORES)
         _write_store_flyers_json(data, "loblaws", _FLIPP_STORE_FLYERS)
 
@@ -806,10 +782,7 @@ class TestMain:
             lambda **kw: calls.append("build_scores"),
         )
 
-        _write_json(
-            os.path.join(cleaned, "loblaws", "1001.json"),
-            _make_envelope("1001", "loblaws"),
-        )
+        _write_cleaned_parquet(cleaned, "loblaws", _make_record_rows("1001", "loblaws"))
         _write_stores_json(data, "loblaws", _FLIPP_STORES)
         _write_store_flyers_json(data, "loblaws", _FLIPP_STORE_FLYERS)
 
@@ -866,10 +839,7 @@ class TestMain:
             lambda **kw: calls.append(("build_scores", kw)),
         )
 
-        _write_json(
-            os.path.join(cleaned, "loblaws", "1001.json"),
-            _make_envelope("1001", "loblaws"),
-        )
+        _write_cleaned_parquet(cleaned, "loblaws", _make_record_rows("1001", "loblaws"))
         _write_stores_json(data, "loblaws", _FLIPP_STORES)
         _write_store_flyers_json(data, "loblaws", _FLIPP_STORE_FLYERS)
 
@@ -930,7 +900,7 @@ def test_build_observations_creates_files(tmp_path):
 
     cleaned = str(tmp_path / "cleaned")
     db = str(tmp_path / "db")
-    _write_json(os.path.join(cleaned, "adonis", "83006.json"), _ADONIS_ENVELOPE)
+    _write_cleaned_parquet(cleaned, "adonis", _make_record_rows("83006", "adonis", record_count=1))
 
     written, skipped = build_observations(db_dir=db, cleaned_dir=cleaned)
     assert written == 1
@@ -948,7 +918,7 @@ def test_build_observations_idempotent(tmp_path):
 
     cleaned = str(tmp_path / "cleaned")
     db = str(tmp_path / "db")
-    _write_json(os.path.join(cleaned, "adonis", "83006.json"), _ADONIS_ENVELOPE)
+    _write_cleaned_parquet(cleaned, "adonis", _make_record_rows("83006", "adonis", record_count=1))
 
     written1, _ = build_observations(db_dir=db, cleaned_dir=cleaned)
     assert written1 == 1
@@ -963,7 +933,7 @@ def test_build_observations_force(tmp_path):
 
     cleaned = str(tmp_path / "cleaned")
     db = str(tmp_path / "db")
-    _write_json(os.path.join(cleaned, "adonis", "83006.json"), _ADONIS_ENVELOPE)
+    _write_cleaned_parquet(cleaned, "adonis", _make_record_rows("83006", "adonis", record_count=1))
 
     build_observations(db_dir=db, cleaned_dir=cleaned)
 
@@ -985,11 +955,8 @@ def test_build_observations_store_filter(tmp_path):
     cleaned = str(tmp_path / "cleaned")
     db = str(tmp_path / "db")
 
-    _write_json(os.path.join(cleaned, "adonis", "83006.json"), _ADONIS_ENVELOPE)
-    _write_json(
-        os.path.join(cleaned, "loblaws", "1001.json"),
-        _make_envelope("1001", "loblaws"),
-    )
+    _write_cleaned_parquet(cleaned, "adonis", _make_record_rows("83006", "adonis", record_count=1))
+    _write_cleaned_parquet(cleaned, "loblaws", _make_record_rows("1001", "loblaws"))
 
     written, skipped = build_observations(db_dir=db, cleaned_dir=cleaned, store="adonis")
     assert written == 1
