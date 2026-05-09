@@ -4,6 +4,8 @@ from __future__ import annotations
 
 import json
 
+import pytest
+
 from pipeline.schema import FlyerItem
 from pipeline.validate import (
     _load_records,
@@ -40,17 +42,27 @@ def _make_item(**kwargs) -> FlyerItem:
     return FlyerItem(**defaults)
 
 
-def _write_flyer_json(tmp_path, store_chain: str, flyer_id: str, items: list[FlyerItem]) -> None:
-    store_dir = tmp_path / store_chain
-    store_dir.mkdir(parents=True, exist_ok=True)
-    payload = {
-        "flyer_id": flyer_id,
-        "store_chain": store_chain,
-        "generated_at": "2026-04-03T00:00:00+00:00",
-        "record_count": len(items),
-        "records": [item.model_dump() for item in items],
-    }
-    (store_dir / f"{flyer_id}.json").write_text(json.dumps(payload), encoding="utf-8")
+def _write_cleaned_parquet(tmp_path, store_chain: str, items: list[FlyerItem]) -> None:
+    """Append *items* to ``<tmp_path>/<store_chain>.parquet``."""
+    import pyarrow as pa
+    import pyarrow.parquet as pq
+
+    parquet_path = tmp_path / f"{store_chain}.parquet"
+    rows = []
+    for item in items:
+        row = item.model_dump()
+        for k, v in row.items():
+            if isinstance(v, list):
+                row[k] = json.dumps(v)
+        rows.append(row)
+
+    new_table = pa.Table.from_pylist(rows)
+    if parquet_path.exists():
+        existing = pq.read_table(str(parquet_path))
+        combined = pa.concat_tables([existing, new_table], promote_options="default")
+    else:
+        combined = new_table
+    pq.write_table(combined, str(parquet_path))
 
 
 # ── _load_records ─────────────────────────────────────────────────────────────
@@ -58,6 +70,7 @@ def _write_flyer_json(tmp_path, store_chain: str, flyer_id: str, items: list[Fly
 
 class TestLoadRecords:
     def test_empty_dir_returns_empty(self, tmp_path):
+        pytest.importorskip("pyarrow")
         records, count = _load_records(str(tmp_path))
         assert records == []
         assert count == 0
@@ -67,43 +80,39 @@ class TestLoadRecords:
         assert records == []
         assert count == 0
 
-    def test_loads_records_from_json(self, tmp_path):
+    def test_loads_records_from_parquet(self, tmp_path):
+        pytest.importorskip("pyarrow")
         item = _make_item()
-        _write_flyer_json(tmp_path, "loblaws", "1001", [item])
+        _write_cleaned_parquet(tmp_path, "loblaws", [item])
         records, count = _load_records(str(tmp_path))
         assert count == 1
         assert len(records) == 1
         assert isinstance(records[0], FlyerItem)
         assert records[0].store_chain == "loblaws"
 
-    def test_loads_multiple_stores_and_flyers(self, tmp_path):
-        _write_flyer_json(tmp_path, "loblaws", "1001", [_make_item(store_chain="loblaws")])
-        _write_flyer_json(tmp_path, "sobeys", "2001", [_make_item(store_chain="sobeys")] * 3)
+    def test_loads_multiple_chains(self, tmp_path):
+        pytest.importorskip("pyarrow")
+        _write_cleaned_parquet(tmp_path, "loblaws", [_make_item(store_chain="loblaws")])
+        _write_cleaned_parquet(tmp_path, "sobeys", [_make_item(store_chain="sobeys")] * 3)
         records, count = _load_records(str(tmp_path))
         assert count == 2
         assert len(records) == 4
 
-    def test_skips_validation_report_json(self, tmp_path):
-        """validation_report.json lives at the top level, not in a store subdir."""
+    def test_skips_non_parquet_files(self, tmp_path):
+        pytest.importorskip("pyarrow")
+        """Non-Parquet files at the top level are ignored."""
         (tmp_path / "validation_report.json").write_text("{}", encoding="utf-8")
-        _write_flyer_json(tmp_path, "loblaws", "1001", [_make_item()])
+        _write_cleaned_parquet(tmp_path, "loblaws", [_make_item()])
         records, count = _load_records(str(tmp_path))
-        # Only the store subdir JSON file is read (validation_report.json is at
-        # the top level, not inside a store subdirectory, so it is skipped).
         assert count == 1
         assert len(records) == 1
 
-    def test_tolerates_malformed_json(self, tmp_path):
-        store_dir = tmp_path / "loblaws"
-        store_dir.mkdir()
-        (store_dir / "bad.json").write_text("NOT JSON", encoding="utf-8")
-        (store_dir / "good.json").write_text(
-            json.dumps(
-                {"records": [_make_item().model_dump()]}
-            ),
-            encoding="utf-8",
-        )
+    def test_tolerates_corrupt_parquet(self, tmp_path):
+        pytest.importorskip("pyarrow")
+        (tmp_path / "bad.parquet").write_bytes(b"NOT PARQUET")
+        _write_cleaned_parquet(tmp_path, "loblaws", [_make_item()])
         records, count = _load_records(str(tmp_path))
+        # bad.parquet is counted (file_count=2) but contributes no records
         assert len(records) == 1
 
 
@@ -340,7 +349,8 @@ class TestSection5:
 
 class TestBuildReport:
     def test_returns_all_sections(self, tmp_path):
-        _write_flyer_json(tmp_path, "loblaws", "1001", [_make_item()])
+        pytest.importorskip("pyarrow")
+        _write_cleaned_parquet(tmp_path, "loblaws", [_make_item()])
         report = build_report(str(tmp_path))
         assert "section1_record_counts" in report
         assert "section2_price_quality" in report
@@ -349,11 +359,13 @@ class TestBuildReport:
         assert "section5_multi_product" in report
 
     def test_metadata_fields(self, tmp_path):
-        _write_flyer_json(tmp_path, "loblaws", "1001", [_make_item()])
-        _write_flyer_json(tmp_path, "loblaws", "1002", [_make_item()])
+        pytest.importorskip("pyarrow")
+        # Two items with different flyer_ids, all in one chain Parquet file.
+        _write_cleaned_parquet(tmp_path, "loblaws", [_make_item(flyer_id="1001"), _make_item(flyer_id="1002")])
         report = build_report(str(tmp_path))
         assert report["input_dir"] == str(tmp_path)
-        assert report["total_files_read"] == 2
+        # One Parquet file for loblaws.
+        assert report["total_files_read"] == 1
 
     def test_empty_dir(self, tmp_path):
         report = build_report(str(tmp_path))
@@ -374,12 +386,14 @@ class TestMain:
         assert rc == 0
 
     def test_with_records_exits_zero(self, tmp_path):
-        _write_flyer_json(tmp_path, "loblaws", "1001", [_make_item()])
+        pytest.importorskip("pyarrow")
+        _write_cleaned_parquet(tmp_path, "loblaws", [_make_item()])
         rc = main(["--input-dir", str(tmp_path)])
         assert rc == 0
 
     def test_json_flag_writes_report(self, tmp_path):
-        _write_flyer_json(tmp_path, "loblaws", "1001", [_make_item()])
+        pytest.importorskip("pyarrow")
+        _write_cleaned_parquet(tmp_path, "loblaws", [_make_item()])
         rc = main(["--input-dir", str(tmp_path), "--json"])
         assert rc == 0
         report_path = tmp_path / "validation_report.json"
@@ -390,7 +404,8 @@ class TestMain:
         assert "section2_price_quality" in written
 
     def test_output_contains_section_headers(self, tmp_path, capsys):
-        _write_flyer_json(tmp_path, "loblaws", "1001", [_make_item()])
+        pytest.importorskip("pyarrow")
+        _write_cleaned_parquet(tmp_path, "loblaws", [_make_item()])
         main(["--input-dir", str(tmp_path)])
         captured = capsys.readouterr()
         assert "1. Record Counts" in captured.out

@@ -2,3 +2,9 @@ __pycache__/
 *.py[cod]
 .pytest_cache/
 db/
+# Raw per-flyer JSON files (replaced by data/*/flyers.parquet)
+data/*/flyers/*.json
+# Cleaned per-flyer JSON files (replaced by cleaned/*.parquet)
+cleaned/*/*.json
+# Legacy combined Parquet
+cleaned/all_flyers.parquet

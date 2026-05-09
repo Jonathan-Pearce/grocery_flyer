@@ -18,23 +18,28 @@ Options
 --force
     Regenerate all output files even if they are already up-to-date.
 
+Output
+------
+One Parquet file per grocery chain: ``<output-dir>/<chain>.parquet``.
+Each row is a single :class:`~schema.FlyerItem` record with list-valued
+fields (e.g. ``multi_product_variants``, ``raw_categories``) JSON-encoded
+as strings for a flat, uniform schema.
+
+Idempotency
+-----------
+The ``flyer_id`` column in the existing per-chain Parquet is read at the
+start of each run.  Any flyer whose ID is already present is skipped.
+Pass ``--force`` to override and regenerate everything from raw data.
+
 Pipeline
 --------
 load_raw → normalize → parse_price → classify_promo → clean_name →
 extract_weight → split_multi_product → map_category → write_output
-
-Idempotency
------------
-Per-flyer JSON files are skipped when the cleaned file already exists and its
-``generated_at`` date matches the raw file's ``fetched_on`` date, indicating
-that the raw data has not changed since the last run.  Pass ``--force`` to
-override and regenerate all files regardless.
 """
 
 from __future__ import annotations
 
 import argparse
-import datetime
 import json
 import os
 import sys
@@ -129,76 +134,76 @@ def _apply_pipeline(item: FlyerItem) -> list[FlyerItem]:
 # ── Idempotency ───────────────────────────────────────────────────────────────
 
 
-def _is_up_to_date(out_path: str, fetched_on: str | None) -> bool:
-    """Return ``True`` if *out_path* exists and was generated from the same fetch.
+def _load_processed_ids(output_dir: str, store_chain: str) -> set[str]:
+    """Return the set of ``flyer_id`` values already in *cleaned/<chain>.parquet*.
 
-    The comparison uses only the **date portion** (``YYYY-MM-DD``) of both
-    ``fetched_on`` (from the raw file) and ``fetched_on`` stored in the cleaned
-    file.  If they match, the raw source has not changed since the last run.
+    Returns an empty set when the file does not exist or cannot be read.
     """
-    if not os.path.exists(out_path):
-        return False
-    if not fetched_on:
-        return False
+    import pyarrow.parquet as pq
+
+    path = os.path.join(output_dir, f"{store_chain}.parquet")
+    if not os.path.exists(path):
+        return set()
     try:
-        with open(out_path, encoding="utf-8") as fh:
-            cleaned = json.load(fh)
-        stored_fetched_on = str(cleaned.get("fetched_on", ""))
-        return stored_fetched_on[:10] == str(fetched_on)[:10]
+        table = pq.read_table(path, columns=["flyer_id"])
+        return {str(v) for v in table.column("flyer_id").to_pylist() if v is not None}
     except Exception:
-        return False
+        return set()
 
 
 # ── Output writers ────────────────────────────────────────────────────────────
 
 
-def _write_flyer_json(
-    out_path: str,
-    flyer_id: str | None,
-    store_chain: str,
-    fetched_on: str | None,
-    records: list[FlyerItem],
-) -> None:
-    """Write the per-flyer JSON output file at *out_path*."""
-    os.makedirs(os.path.dirname(out_path), exist_ok=True)
-    generated_at = datetime.datetime.now(datetime.timezone.utc).isoformat()
-    payload = {
-        "flyer_id": flyer_id,
-        "store_chain": store_chain,
-        "fetched_on": fetched_on,
-        "generated_at": generated_at,
-        "record_count": len(records),
-        "records": [r.model_dump() for r in records],
-    }
-    with open(out_path, "w", encoding="utf-8") as fh:
-        json.dump(payload, fh, indent=2)
-
-
-def _write_parquet(out_path: str, all_records: list[FlyerItem]) -> None:
-    """Write *all_records* to a combined Parquet file at *out_path*.
-
-    List-valued fields (e.g. ``multi_product_variants``, ``raw_categories``)
-    are JSON-serialised to strings so that the resulting Parquet schema is
-    flat and compatible with standard analytics tools.
-    """
-    import pyarrow as pa
-    import pyarrow.parquet as pq
-
-    if not all_records:
-        return
-
+def _records_to_rows(records: list[FlyerItem]) -> list[dict]:
+    """Serialise *records* to plain dicts with list fields JSON-encoded."""
     rows = []
-    for record in all_records:
+    for record in records:
         row = record.model_dump()
-        # Flatten list fields to JSON strings for a uniform Parquet schema
         for key, val in row.items():
             if isinstance(val, list):
                 row[key] = json.dumps(val)
         rows.append(row)
+    return rows
 
-    os.makedirs(os.path.dirname(out_path) or ".", exist_ok=True)
-    table = pa.Table.from_pylist(rows)
+
+def _write_parquet(out_path: str, records: list[FlyerItem]) -> None:
+    """Write *records* to *out_path*, creating or overwriting the file.
+
+    List-valued fields (e.g. ``multi_product_variants``, ``raw_categories``)
+    are JSON-serialised to strings for a flat, uniform Parquet schema.
+    """
+    import pyarrow as pa
+    import pyarrow.parquet as pq
+
+    if not records:
+        return
+
+    os.makedirs(os.path.dirname(os.path.abspath(out_path)), exist_ok=True)
+    table = pa.Table.from_pylist(_records_to_rows(records))
     pq.write_table(table, out_path)
+
+
+def _append_to_parquet(out_path: str, new_records: list[FlyerItem]) -> None:
+    """Append *new_records* to the per-chain Parquet file, creating it if absent.
+
+    Reads the existing file (when present), concatenates the new rows, and
+    writes the result back atomically.
+    """
+    import pyarrow as pa
+    import pyarrow.parquet as pq
+
+    if not new_records:
+        return
+
+    new_table = pa.Table.from_pylist(_records_to_rows(new_records))
+    if os.path.exists(out_path):
+        existing = pq.read_table(out_path)
+        combined = pa.concat_tables([existing, new_table], promote_options="default")
+    else:
+        combined = new_table
+
+    os.makedirs(os.path.dirname(os.path.abspath(out_path)), exist_ok=True)
+    pq.write_table(combined, out_path)
 
 
 # ── CLI ───────────────────────────────────────────────────────────────────────
@@ -238,32 +243,37 @@ def main(argv: list[str] | None = None) -> int:
     args = _build_parser().parse_args(argv)
     output_dir: str = args.output_dir
 
+    # Cache of already-processed flyer_ids per chain (loaded on first encounter).
+    # When --force, all caches are initialised empty so every flyer is reprocessed.
+    processed_cache: dict[str, set[str]] = {}
+    # New enriched records accumulated per chain during this run.
+    new_by_chain: dict[str, list[FlyerItem]] = {}
     store_counts: dict[str, int] = {}
-    all_records: list[FlyerItem] = []
-    any_json_written = False
 
-    for store_chain, flyer_id, fetched_on, raw_items in iter_flyers(store=args.store):
-        # Apply the full enrichment pipeline to every record in this flyer
+    for store_chain, flyer_id, _fetched_on, raw_items in iter_flyers(store=args.store):
+        # Lazily load the set of already-processed IDs for this chain.
+        if store_chain not in processed_cache:
+            processed_cache[store_chain] = (
+                set()  # --force treats every flyer as new
+                if args.force
+                else _load_processed_ids(output_dir, store_chain)
+            )
+
+        # Idempotency: skip flyers already present in the cleaned Parquet.
+        if flyer_id is not None and flyer_id in processed_cache[store_chain]:
+            continue
+
+        # Apply the full enrichment pipeline to every record in this flyer.
         processed: list[FlyerItem] = []
         for item in raw_items:
             processed.extend(_apply_pipeline(item))
 
-        # Accumulate counts for --dry-run breakdown
         store_counts[store_chain] = store_counts.get(store_chain, 0) + len(processed)
 
         if args.dry_run:
             continue
 
-        # Collect for combined Parquet output
-        all_records.extend(processed)
-
-        # Idempotency: skip writing this flyer's JSON if already up-to-date
-        out_path = os.path.join(output_dir, store_chain, f"{flyer_id}.json")
-        if not args.force and _is_up_to_date(out_path, fetched_on):
-            continue
-
-        _write_flyer_json(out_path, flyer_id, store_chain, fetched_on, processed)
-        any_json_written = True
+        new_by_chain.setdefault(store_chain, []).extend(processed)
 
     total = sum(store_counts.values())
 
@@ -273,11 +283,16 @@ def main(argv: list[str] | None = None) -> int:
             print(f"  {store}: {count}")
         return 0
 
-    # Write combined Parquet when there is something to write
-    if all_records:
-        parquet_path = os.path.join(output_dir, "all_flyers.parquet")
-        if args.force or any_json_written or not os.path.exists(parquet_path):
-            _write_parquet(parquet_path, all_records)
+    # Write per-chain Parquet files.
+    os.makedirs(output_dir, exist_ok=True)
+    for store_chain, new_records in new_by_chain.items():
+        out_path = os.path.join(output_dir, f"{store_chain}.parquet")
+        if args.force:
+            # Overwrite: only records produced in this run.
+            _write_parquet(out_path, new_records)
+        else:
+            # Append: merge with whatever was already on disk.
+            _append_to_parquet(out_path, new_records)
 
     print(f"{total} records processed")
     return 0

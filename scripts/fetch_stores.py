@@ -22,20 +22,56 @@ import time
 from datetime import date
 
 from fetchers.azure import METRO_PORTFOLIO, MetroBrand, metro_fetch_store, metro_load_credentials
-from fetchers.flipp import DELAY, LOBLAWS_PORTFOLIO, SOBEYS_PORTFOLIO, WALMART_PORTFOLIO, Brand, fetch_store, save_json
+from fetchers.flipp import DELAY, LOBLAWS_PORTFOLIO, SOBEYS_PORTFOLIO, WALMART_PORTFOLIO, Brand, fetch_store
+
+
+def _append_stores_parquet(parquet_path: str, stores: dict) -> None:
+    """Write *stores* dict to stores.parquet, replacing existing file.
+
+    Each entry in *stores* becomes one row with columns:
+    ``store_code``, ``province``, ``store_name``, ``raw_json``.
+    """
+    if not stores:
+        return
+    import pyarrow as pa
+    import pyarrow.parquet as pq
+
+    rows = []
+    for code, info in stores.items():
+        rows.append({
+            "store_code": str(code),
+            "province": info.get("province") or info.get("banner") or None,
+            "store_name": info.get("name") or info.get("store_name") or None,
+            "raw_json": json.dumps(info),
+        })
+    os.makedirs(os.path.dirname(parquet_path) or ".", exist_ok=True)
+    pq.write_table(pa.Table.from_pylist(rows), parquet_path)
+
+
+def _load_stores_parquet(parquet_path: str) -> dict:
+    """Return ``{store_code: info_dict}`` from stores.parquet, or {} if absent."""
+    if not os.path.exists(parquet_path):
+        return {}
+    try:
+        import pyarrow.parquet as pq
+        table = pq.read_table(parquet_path)
+        result = {}
+        for row in table.to_pylist():
+            code = str(row.get("store_code", ""))
+            if code:
+                result[code] = json.loads(row["raw_json"]) if "raw_json" in row else row
+        return result
+    except Exception:
+        return {}
 
 
 # ── Flipp store scanner ───────────────────────────────────────────────────────
 
 def scan_flipp_brand(brand: Brand, code_range: range) -> None:
-    output_path = f"data/{brand.folder}/stores.json"
+    output_path = f"data/{brand.folder}/stores.parquet"
 
-    if os.path.exists(output_path):
-        with open(output_path) as f:
-            stores = json.load(f)
-        print(f"  Loaded {len(stores)} existing stores from {output_path}")
-    else:
-        stores = {}
+    stores = _load_stores_parquet(output_path)
+    print(f"  Loaded {len(stores)} existing stores from {output_path}")
 
     total = len(code_range)
     found = 0
@@ -58,22 +94,17 @@ def scan_flipp_brand(brand: Brand, code_range: range) -> None:
         time.sleep(DELAY)
 
     print(f"\n  Scan complete: {found} new stores found out of {total} codes checked.")
-    os.makedirs(os.path.dirname(output_path) or ".", exist_ok=True)
-    save_json(output_path, stores)
+    _append_stores_parquet(output_path, stores)
     print()
 
 
 # ── Metro store scanner ───────────────────────────────────────────────────────
 
 def scan_metro_brand(brand: MetroBrand, id_range: range, today: str) -> None:
-    output_path = f"data/{brand.folder}/stores.json"
+    output_path = f"data/{brand.folder}/stores.parquet"
 
-    if os.path.exists(output_path):
-        with open(output_path) as f:
-            stores = json.load(f)
-        print(f"  Loaded {len(stores)} existing stores from {output_path}")
-    else:
-        stores = {}
+    stores = _load_stores_parquet(output_path)
+    print(f"  Loaded {len(stores)} existing stores from {output_path}")
 
     total = len(id_range)
     found = 0
@@ -95,8 +126,7 @@ def scan_metro_brand(brand: MetroBrand, id_range: range, today: str) -> None:
         time.sleep(DELAY)
 
     print(f"\n  Scan complete: {found} stores found out of {total} IDs checked.")
-    os.makedirs(os.path.dirname(output_path) or ".", exist_ok=True)
-    save_json(output_path, stores)
+    _append_stores_parquet(output_path, stores)
     print()
 
 
