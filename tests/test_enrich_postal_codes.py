@@ -55,7 +55,7 @@ class TestCanadianPostalCodeRegex:
 
 # ── _geocode_postal_code ──────────────────────────────────────────────────────
 
-def _nominatim_resp(postcode: str | None):
+def _mock_resp(postcode: str | None):
     mock = MagicMock()
     mock.status_code = 200
     if postcode:
@@ -68,13 +68,13 @@ def _nominatim_resp(postcode: str | None):
 class TestGeocodePostalCode:
     def test_returns_normalised_postal_code_on_success(self):
         with patch("scripts.enrich_postal_codes.requests.get",
-                   return_value=_nominatim_resp("M5V 2B7")):
+                   return_value=_mock_resp("M5V 2B7")):
             result = _geocode_postal_code("Metro Yonge", "ON")
         assert result == "M5V2B7"
 
     def test_returns_none_when_no_results(self):
         with patch("scripts.enrich_postal_codes.requests.get",
-                   return_value=_nominatim_resp(None)):
+                   return_value=_mock_resp(None)):
             result = _geocode_postal_code("Unknown Store", "ON")
         assert result is None
 
@@ -94,12 +94,12 @@ class TestGeocodePostalCode:
 
     def test_handles_province_none(self):
         with patch("scripts.enrich_postal_codes.requests.get",
-                   return_value=_nominatim_resp("L1V 1V9")):
+                   return_value=_mock_resp("L1V 1V9")):
             result = _geocode_postal_code("Some Store", None)
         assert result == "L1V1V9"
 
     def test_normalises_postcode_to_uppercase_no_space(self):
         with patch("scripts.enrich_postal_codes.requests.get",
-                   return_value=_nominatim_resp("k1a 0a6")):
+                   return_value=_mock_resp("k1a 0a6")):
             result = _geocode_postal_code("Parliament", "ON")
         assert result == "K1A0A6"

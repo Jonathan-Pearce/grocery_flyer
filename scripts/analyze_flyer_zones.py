@@ -99,8 +99,8 @@ _SECTION_CODES: set[str] = {
     "PUP",   # Pick-up / online section
     "NEO",   # Neo / new products section
     "SKP",   # Skip-the-dishes / delivery section
-    "SOA",   # ?
-    "MSF",   # ?
+    "SOA",   # Special order / availability section
+    "MSF",   # Multi-store format section
     "PHA",   # Pharmacy section
     "EON",   # Eastern Ontario bilingual section
     "NOR",   # Northern Ontario section

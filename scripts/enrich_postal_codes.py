@@ -151,8 +151,7 @@ def enrich_flipp_brand(folder: str, dry_run: bool = False) -> list[dict]:
     rows_out = []
     for code, info in stores.items():
         pc = info.get("postal_code") or None
-        if pc and not info.get("postal_code"):
-            info["postal_code"] = pc
+        if pc:
             enriched += 1
         rows_out.append({
             "folder": folder,
