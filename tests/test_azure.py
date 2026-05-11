@@ -89,11 +89,31 @@ class TestMetroFetchStore:
     def test_returns_store_info_on_success(self):
         payload = {
             "banner": "Metro Ontario",
+            "flyers": [{"storeName": "Metro Yonge", "title": "82846", "province": "ON"}],
+        }
+        with patch("fetchers.azure.requests.get", return_value=_mock_resp(200, payload)):
+            result = metro_fetch_store(_brand(), 85, "2026-04-03")
+        assert result == {"store_name": "Metro Yonge", "banner": "Metro Ontario", "province": "ON"}
+
+    def test_returns_province_from_flyer_entry(self):
+        payload = {
+            "banner": "Food Basics",
+            "flyers": [{"storeName": "Food Basics Brampton", "title": "99", "province": "ON"}],
+        }
+        with patch("fetchers.azure.requests.get", return_value=_mock_resp(200, payload)):
+            result = metro_fetch_store(_brand(), 10, "2026-04-03")
+        assert result is not None
+        assert result["province"] == "ON"
+
+    def test_province_is_none_when_absent_from_response(self):
+        payload = {
+            "banner": "Metro Ontario",
             "flyers": [{"storeName": "Metro Yonge", "title": "82846"}],
         }
         with patch("fetchers.azure.requests.get", return_value=_mock_resp(200, payload)):
             result = metro_fetch_store(_brand(), 85, "2026-04-03")
-        assert result == {"store_name": "Metro Yonge", "banner": "Metro Ontario"}
+        assert result is not None
+        assert result["province"] is None
 
     def test_returns_none_on_non_200(self):
         with patch("fetchers.azure.requests.get", return_value=_mock_resp(404)):

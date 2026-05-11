@@ -29,7 +29,7 @@ def _append_stores_parquet(parquet_path: str, stores: dict) -> None:
     """Write *stores* dict to stores.parquet, replacing existing file.
 
     Each entry in *stores* becomes one row with columns:
-    ``store_code``, ``province``, ``store_name``, ``raw_json``.
+    ``store_code``, ``postal_code``, ``province``, ``store_name``, ``raw_json``.
     """
     if not stores:
         return
@@ -40,6 +40,7 @@ def _append_stores_parquet(parquet_path: str, stores: dict) -> None:
     for code, info in stores.items():
         rows.append({
             "store_code": str(code),
+            "postal_code": info.get("postal_code") or None,
             "province": info.get("province") or info.get("banner") or None,
             "store_name": info.get("name") or info.get("store_name") or None,
             "raw_json": json.dumps(info),
@@ -117,7 +118,7 @@ def scan_metro_brand(brand: MetroBrand, id_range: range, today: str) -> None:
             found += 1
             print(
                 f"    [{store_id}] {data.get('store_name', '?')}"
-                f"  ({data.get('banner', '?')})"
+                f"  ({data.get('banner', '?')}, {data.get('province', '?')})"
             )
 
         if i % 100 == 0:

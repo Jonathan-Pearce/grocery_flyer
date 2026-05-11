@@ -139,6 +139,7 @@ def metro_fetch_store(brand: MetroBrand, store_id: int, date: str) -> dict | Non
     return {
         "store_name": flyers[0].get("storeName", ""),
         "banner":     api_banner,
+        "province":   flyers[0].get("province") or data.get("province") or None,
     }
 
 

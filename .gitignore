@@ -8,3 +8,8 @@ data/*/flyers/*.json
 cleaned/*/*.json
 # Legacy combined Parquet
 cleaned/all_flyers.parquet
+# Generated analysis outputs (recreated by scripts/analyze_flyer_zones.py and scripts/enrich_postal_codes.py)
+data/flyer_clusters.parquet
+data/flyer_clusters.json
+data/postal_codes_summary.parquet
+data/postal_codes_summary.csv
