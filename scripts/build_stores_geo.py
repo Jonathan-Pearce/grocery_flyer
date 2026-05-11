@@ -25,12 +25,15 @@ from __future__ import annotations
 
 import argparse
 import html
+import io
 import json
 import os
 import re
 import sys
 import time
 import unicodedata
+import zipfile
+from collections import defaultdict
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -43,6 +46,10 @@ import requests
 DATA_DIR = Path("data")
 OUT_PATH  = DATA_DIR / "stores_geo.parquet"
 DELAY     = 0.3   # seconds between HTTP requests
+
+GEONAMES_URL   = "https://download.geonames.org/export/zip/CA.zip"
+GEONAMES_CACHE = DATA_DIR / "geonames_ca_cache.tsv"
+OVERRIDES_PATH = DATA_DIR / "manual_geo_overrides.csv"
 
 WEB_HEADERS = {
     "User-Agent": (
@@ -80,7 +87,7 @@ GEO_SCHEMA = pa.schema([
     pa.field("lat",         pa.float64()),
     pa.field("lon",         pa.float64()),
     pa.field("source_api",  pa.string()),   # "flipp" | "metro"
-    pa.field("geo_source",  pa.string()),   # "raw_json" | "web_direct" | "web_name_match" | "none"
+    pa.field("geo_source",  pa.string()),   # "raw_json" | "web_direct" | "web_name_match" | "fsa_centroid" | "none"
 ])
 
 
@@ -390,6 +397,89 @@ def extract_metro_geo(verbose: bool = True) -> list[dict]:
     return rows_out
 
 
+# ── Manual overrides ────────────────────────────────────────────────────────
+
+def _load_manual_overrides() -> dict[tuple[str, str], dict]:
+    """Load data/manual_geo_overrides.csv → {(chain, store_code): {postal_code, lat, lon}}.
+
+    Only rows where postal_code is non-empty are returned.
+    lat/lon columns are optional — leave blank to rely on FSA centroid fallback.
+    """
+    if not OVERRIDES_PATH.exists():
+        return {}
+
+    import csv
+    overrides: dict[tuple[str, str], dict] = {}
+    with open(OVERRIDES_PATH, newline="", encoding="utf-8") as f:
+        for row in csv.DictReader(f):
+            postal = row.get("postal_code", "").strip().replace(" ", "").upper()
+            if not postal:
+                continue
+            lat_s = row.get("lat", "").strip()
+            lon_s = row.get("lon", "").strip()
+            try:
+                lat = float(lat_s) if lat_s else None
+                lon = float(lon_s) if lon_s else None
+            except ValueError:
+                lat = lon = None
+            overrides[(row["chain"].strip(), row["store_code"].strip())] = {
+                "postal_code": postal,
+                "lat": lat,
+                "lon": lon,
+                "address": row.get("found_address", "").strip(),
+            }
+    return overrides
+
+
+# ── FSA centroid lookup ──────────────────────────────────────────────────────
+
+def _load_fsa_centroids() -> dict[str, tuple[float, float]]:
+    """Return {FSA: (mean_lat, mean_lon)} from GeoNames Canada postal codes.
+
+    Downloads once and caches to data/geonames_ca_cache.tsv.
+    """
+    if GEONAMES_CACHE.exists():
+        tsv_bytes = GEONAMES_CACHE.read_bytes()
+    else:
+        print(f"  Downloading GeoNames Canada postal codes from {GEONAMES_URL} …")
+        try:
+            r = requests.get(GEONAMES_URL, timeout=60)
+            r.raise_for_status()
+        except requests.RequestException as e:
+            print(f"  [!] Could not download GeoNames data: {e}", file=sys.stderr)
+            return {}
+        with zipfile.ZipFile(io.BytesIO(r.content)) as zf:
+            tsv_bytes = zf.read("CA.txt")
+        GEONAMES_CACHE.parent.mkdir(parents=True, exist_ok=True)
+        GEONAMES_CACHE.write_bytes(tsv_bytes)
+        print(f"  Cached → {GEONAMES_CACHE}")
+
+    # Columns: country, postal_code, place_name, ..., latitude(9), longitude(10), ...
+    # Postal codes look like "A1A 1A1"; FSA = first 3 chars after stripping the space.
+    fsa_lats: dict[str, list[float]] = defaultdict(list)
+    fsa_lons: dict[str, list[float]] = defaultdict(list)
+
+    for line in tsv_bytes.decode("utf-8").splitlines():
+        parts = line.split("\t")
+        if len(parts) < 11:
+            continue
+        fsa = parts[1].replace(" ", "")[:3].upper()
+        if not fsa:
+            continue
+        try:
+            lat = float(parts[9])
+            lon = float(parts[10])
+        except ValueError:
+            continue
+        fsa_lats[fsa].append(lat)
+        fsa_lons[fsa].append(lon)
+
+    return {
+        fsa: (sum(lats) / len(lats), sum(fsa_lons[fsa]) / len(fsa_lons[fsa]))
+        for fsa, lats in fsa_lats.items()
+    }
+
+
 # ── Write output ──────────────────────────────────────────────────────────────
 
 def build_stores_geo(flipp: bool = True, metro: bool = True) -> None:
@@ -407,6 +497,42 @@ def build_stores_geo(flipp: bool = True, metro: bool = True) -> None:
     if not rows:
         print("No rows produced — nothing to write.", file=sys.stderr)
         return
+
+    # Apply manual overrides first
+    print("── Manual geo overrides ───────────────────────────────")
+    overrides = _load_manual_overrides()
+    if overrides:
+        applied = 0
+        for row in rows:
+            key = (row["chain"], row["store_code"])
+            if key in overrides:
+                ov = overrides[key]
+                row["postal_code"] = ov["postal_code"]
+                if ov.get("address"):
+                    row["address"] = ov["address"]
+                if ov["lat"] is not None:
+                    row["lat"] = ov["lat"]
+                    row["lon"] = ov["lon"]
+                    row["geo_source"] = "manual"
+                else:
+                    row["geo_source"] = "manual"  # lat/lon will come from FSA centroid
+                applied += 1
+        print(f"  Applied {applied} override(s) from {OVERRIDES_PATH}")
+    else:
+        print(f"  {OVERRIDES_PATH} not found or empty — skipping")
+
+    # Backfill lat/lon using FSA centroids for stores that have a postal code
+    print("── FSA centroid enrichment ────────────────────────────")
+    centroids = _load_fsa_centroids()
+    enriched = 0
+    for row in rows:
+        if row.get("lat") is None and row.get("postal_code"):
+            fsa = row["postal_code"][:3].upper()
+            if fsa in centroids:
+                row["lat"], row["lon"] = centroids[fsa]
+                row["geo_source"] = "fsa_centroid"
+                enriched += 1
+    print(f"  Enriched {enriched:,} stores ({len(centroids)} FSAs loaded)")
 
     # Build PyArrow table
     def _col(key: str) -> list:
@@ -437,9 +563,12 @@ def build_stores_geo(flipp: bool = True, metro: bool = True) -> None:
     has_postal = sum(1 for r in rows if r.get("postal_code"))
     has_geo    = sum(1 for r in rows if r.get("lat") is not None)
     geo_none   = sum(1 for r in rows if r.get("geo_source") == "none")
+    geo_manual = sum(1 for r in rows if r.get("geo_source") == "manual")
     print(f"\n✓ Wrote {total:,} stores → {OUT_PATH}")
     print(f"  postal_code coverage : {has_postal:,} / {total:,} ({100*has_postal//total}%)")
     print(f"  lat/lon coverage     : {has_geo:,} / {total:,} ({100*has_geo//total}%)")
+    if geo_manual:
+        print(f"  manual overrides     : {geo_manual:,} stores")
     print(f"  no geo match         : {geo_none:,} stores")
 
 
