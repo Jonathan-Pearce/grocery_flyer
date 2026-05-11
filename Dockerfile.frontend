@@ -1,0 +1,11 @@
+FROM node:20-alpine
+
+WORKDIR /app
+
+# Install dependencies first (cached layer)
+COPY frontend/package.json ./
+RUN npm install
+
+# Source code is volume-mounted at runtime for live editing
+# --host exposes the dev server outside the container
+CMD ["npx", "vite", "--host", "0.0.0.0"]
