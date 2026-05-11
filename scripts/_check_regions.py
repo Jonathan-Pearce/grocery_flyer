@@ -1,12 +1,16 @@
 """Deep-dive into flyer_run_id groupings (Flipp) and zonedPublicationName (Metro)."""
-import pyarrow.parquet as pq, json, os
+import json
+import os
 from collections import defaultdict
+
+import pyarrow.parquet as pq
 
 # ── Flipp: check flyer_run_id groupings ───────────────────────────────────────
 print("=== Flipp: flyer_run_id groupings ===")
 for folder in ["loblaws", "nofrills", "walmart", "sobeys"]:
     path = f"/app/data/{folder}/store_flyers.parquet"
-    if not os.path.exists(path): continue
+    if not os.path.exists(path):
+        continue
     t = pq.read_table(path)
     rows = t.to_pydict()
     codes = rows["store_code"]
@@ -40,7 +44,8 @@ for folder in ["loblaws", "nofrills", "walmart", "sobeys"]:
 print("\n=== Metro: zonedPublicationName and title groupings ===")
 for folder in ["metro", "food_basics", "super_c"]:
     path = f"/app/data/{folder}/store_flyers.parquet"
-    if not os.path.exists(path): continue
+    if not os.path.exists(path):
+        continue
     t = pq.read_table(path)
     rows = t.to_pydict()
     codes = rows["store_code"]

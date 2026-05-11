@@ -1,5 +1,7 @@
 """Check Flipp store raw_json fields."""
-import pyarrow.parquet as pq, json
+import json
+
+import pyarrow.parquet as pq
 t = pq.read_table("/app/data/loblaws/stores.parquet")
 rows = t.to_pydict()
 print("columns:", t.column_names)
