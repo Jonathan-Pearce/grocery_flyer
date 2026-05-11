@@ -12,6 +12,7 @@ const user = useUserStore()
 const postalCode = ref(user.postalCode || '')
 const confirmedPostal = ref(user.postalCode || '')
 const step = ref(user.postalCode ? 2 : 1)
+const radiusKm = ref(25)
 
 function onPostalConfirmed(code) {
   user.setPostalCode(code)
@@ -23,12 +24,9 @@ function onReady() {
   router.push('/deals')
 }
 
-// If user navigates back from deals with chains already selected
-watch(() => user.selectedChains.size, (size) => {
-  if (size === 0 && step.value === 2) {
-    // keep step 2, just deselected
-  }
-})
+function onRadiusChange(km) {
+  radiusKm.value = km
+}
 </script>
 
 <template>
@@ -62,8 +60,8 @@ watch(() => user.selectedChains.size, (size) => {
           <section v-if="step >= 2" class="step">
             <div class="step-num">02</div>
             <StoreSelector
-              :province="user.province"
               @ready="onReady"
+              @radius-change="onRadiusChange"
             />
           </section>
         </Transition>
@@ -72,7 +70,7 @@ watch(() => user.selectedChains.size, (size) => {
 
     <!-- Right panel: map -->
     <div class="right-panel">
-      <MapView :postal-code="confirmedPostal" />
+      <MapView :postal-code="confirmedPostal" :radius-km="radiusKm" />
       <div class="map-overlay-label" v-if="!confirmedPostal">
         <span>Enter your postal code to see your area</span>
       </div>

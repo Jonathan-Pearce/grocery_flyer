@@ -1,64 +1,229 @@
 <script setup>
-import { ref, computed, onMounted } from 'vue'
+import { ref, computed, onMounted, watch } from 'vue'
 import { useUserStore } from '@/stores/user.js'
+import { useStores } from '@/composables/useStores.js'
 
-const props = defineProps({
-  province: { type: String, default: '' }
-})
-const emit = defineEmits(['ready'])
+const emit = defineEmits(['ready', 'radius-change'])
 
 const user = useUserStore()
-const chains = ref([])
+const { nearbyStores } = useStores()
 
-onMounted(async () => {
-  const res = await fetch('/data/chain_regions.json')
-  chains.value = await res.json()
-})
+// ── State ─────────────────────────────────────────────────────────────────────
+const activeTab = ref('radius')   // 'radius' | 'pick'
+const radiusKm  = ref(25)
+const allNearby = ref([])         // stores within 75 km, sorted by distance
+const loading   = ref(false)
+const showAll   = ref(false)      // expand "Show more" in Pick tab
 
-const availableChains = computed(() =>
-  props.province
-    ? chains.value.filter(c => c.provinces.includes(props.province))
-    : chains.value
-)
+const DISPLAY_LIMIT = 15
+const MAX_RADIUS    = 75
 
-function toggle(chainId) {
-  user.toggleChain(chainId)
+// ── Chain display names ────────────────────────────────────────────────────────
+const CHAIN_LABELS = {
+  adonis:                  'Adonis',
+  atlantic_superstore:     'Atlantic Superstore',
+  dominion:                'Dominion',
+  farm_boy:                'Farm Boy',
+  food_basics:             'Food Basics',
+  foodland:                'Foodland',
+  fortinos:                'Fortinos',
+  freshco:                 'FreshCo',
+  freshmart:               'Freshmart',
+  iga:                     'IGA',
+  independent_city_market: 'Independent City Market',
+  independent_grocer:      'Independent Grocer',
+  loblaws:                 'Loblaws',
+  longos:                  "Longo's",
+  maxi:                    'Maxi',
+  metro:                   'Metro',
+  metro_qc:                'Metro QC',
+  nofrills:                'No Frills',
+  provigo:                 'Provigo',
+  real_canadian_superstore:'Real Canadian Superstore',
+  safeway:                 'Safeway',
+  sobeys:                  'Sobeys',
+  super_c:                 'Super C',
+  walmart:                 'Walmart',
+  zehrs:                   'Zehrs',
 }
 
-function isSelected(chainId) {
-  return user.selectedChains.has(chainId)
+// ── Computed ──────────────────────────────────────────────────────────────────
+const withinRadius = computed(() =>
+  allNearby.value.filter(s => s.distanceKm <= radiusKm.value)
+)
+
+const pickListFull = computed(() => allNearby.value)
+const pickListVisible = computed(() =>
+  showAll.value ? pickListFull.value : pickListFull.value.slice(0, DISPLAY_LIMIT)
+)
+const hiddenCount = computed(() => Math.max(0, pickListFull.value.length - DISPLAY_LIMIT))
+
+const selectedCount = computed(() => user.selectedStoreCodes.size)
+
+function storeKey(s) { return `${s.chain}:${s.store_code}` }
+function isSelected(s) { return user.selectedStoreCodes.has(storeKey(s)) }
+
+// ── Load stores ───────────────────────────────────────────────────────────────
+async function load() {
+  if (!user.latlng) return
+  loading.value = true
+  try {
+    allNearby.value = await nearbyStores(user.latlng.lat, user.latlng.lng, MAX_RADIUS)
+  } finally {
+    loading.value = false
+  }
+}
+
+onMounted(load)
+watch(() => user.latlng, load)
+
+// ── Radius tab actions ─────────────────────────────────────────────────────────
+watch(radiusKm, km => emit('radius-change', km))
+
+function selectRadius() {
+  user.setStoreCodesFromRadius(withinRadius.value)
+}
+
+// ── Pick tab actions ───────────────────────────────────────────────────────────
+function toggleStore(s) {
+  user.toggleStoreCode(s.chain, s.store_code)
+}
+
+function selectAll() {
+  user.setStoreCodesFromRadius(allNearby.value)
+}
+
+/** Count stores per chain from an array of store objects */
+function chainCounts(stores) {
+  const counts = {}
+  for (const s of stores) counts[s.chain] = (counts[s.chain] ?? 0) + 1
+  return counts
 }
 </script>
 
 <template>
   <div class="store-selector">
+    <!-- Header -->
     <div class="ss-header">
       <h3 class="ss-title">Select Your Stores</h3>
-      <p class="ss-sub" v-if="province">Chains operating in {{ province }}</p>
-      <p class="ss-sub" v-else>Enter a postal code to filter by region</p>
+      <p class="ss-sub" v-if="!user.latlng">Enter a postal code first</p>
+      <p class="ss-sub" v-else>{{ allNearby.length }} stores within {{ MAX_RADIUS }} km</p>
     </div>
 
-    <div class="ss-grid">
+    <!-- Tabs -->
+    <div class="ss-tabs" role="tablist">
       <button
-        v-for="chain in availableChains"
-        :key="chain.id"
-        class="chain-btn"
-        :class="{ selected: isSelected(chain.id) }"
-        @click="toggle(chain.id)"
-        :aria-pressed="isSelected(chain.id)"
+        class="ss-tab"
+        :class="{ active: activeTab === 'radius' }"
+        role="tab"
+        :aria-selected="activeTab === 'radius'"
+        @click="activeTab = 'radius'"
+      >By Radius</button>
+      <button
+        class="ss-tab"
+        :class="{ active: activeTab === 'pick' }"
+        role="tab"
+        :aria-selected="activeTab === 'pick'"
+        @click="activeTab = 'pick'"
+      >Pick Stores</button>
+    </div>
+
+    <!-- Loading -->
+    <div v-if="loading" class="ss-loading">
+      <span class="mini-spinner" />
+      <span>Finding nearby stores…</span>
+    </div>
+
+    <!-- ── Tab A: By Radius ──────────────────────────────────────────────── -->
+    <div v-else-if="activeTab === 'radius'" class="tab-panel" role="tabpanel">
+      <div class="radius-row">
+        <span class="radius-label">Radius</span>
+        <input
+          type="range"
+          class="radius-slider"
+          :min="5"
+          :max="MAX_RADIUS"
+          :step="5"
+          v-model.number="radiusKm"
+          aria-label="Search radius in km"
+        />
+        <span class="radius-value">{{ radiusKm }} km</span>
+      </div>
+
+      <p class="radius-count">
+        <strong>{{ withinRadius.length }}</strong>
+        store{{ withinRadius.length !== 1 ? 's' : '' }} within {{ radiusKm }} km
+      </p>
+
+      <!-- Chain summary chips -->
+      <div v-if="withinRadius.length" class="chain-summary">
+        <span
+          v-for="(count, chain) in chainCounts(withinRadius)"
+          :key="chain"
+          class="chain-chip"
+          :data-chain="chain"
+        >{{ CHAIN_LABELS[chain] ?? chain }} ({{ count }})</span>
+      </div>
+      <p v-else class="ss-empty">No stores found — try a larger radius.</p>
+
+      <button
+        class="radius-select-btn"
+        :disabled="withinRadius.length === 0"
+        @click="selectRadius"
       >
-        <span class="chain-check">{{ isSelected(chain.id) ? '✓' : '' }}</span>
-        <span class="chain-name">{{ chain.name }}</span>
+        Select {{ withinRadius.length }} store{{ withinRadius.length !== 1 ? 's' : '' }}
       </button>
     </div>
 
+    <!-- ── Tab B: Pick Stores ────────────────────────────────────────────── -->
+    <div v-else class="tab-panel" role="tabpanel">
+      <div v-if="allNearby.length === 0" class="ss-empty">No stores within {{ MAX_RADIUS }} km.</div>
+      <template v-else>
+        <div class="pick-toolbar">
+          <button class="pick-util-btn" @click="selectAll">Select all</button>
+          <button class="pick-util-btn" @click="user.clearStoreCodes()">Clear</button>
+        </div>
+
+        <ul class="store-list">
+          <li
+            v-for="s in pickListVisible"
+            :key="storeKey(s)"
+            class="store-row"
+            :class="{ selected: isSelected(s) }"
+            @click="toggleStore(s)"
+          >
+            <span class="store-check" :aria-hidden="true">
+              <svg v-if="isSelected(s)" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                <path d="M2 6l3 3 5-5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+            <span class="store-chain-badge" :data-chain="s.chain">
+              {{ CHAIN_LABELS[s.chain] ?? s.chain }}
+            </span>
+            <span class="store-name">{{ s.store_name }}</span>
+            <span class="store-city" v-if="s.city">{{ s.city }}</span>
+            <span class="store-dist">{{ s.distanceKm }} km</span>
+          </li>
+        </ul>
+
+        <button
+          v-if="hiddenCount > 0 && !showAll"
+          class="show-more-btn"
+          @click="showAll = true"
+        >
+          Show {{ hiddenCount }} more store{{ hiddenCount !== 1 ? 's' : '' }}
+        </button>
+      </template>
+    </div>
+
+    <!-- Footer CTA -->
     <div class="ss-footer">
       <span class="ss-count">
-        {{ user.selectedChains.size }} store{{ user.selectedChains.size !== 1 ? 's' : '' }} selected
+        {{ selectedCount }} store{{ selectedCount !== 1 ? 's' : '' }} selected
       </span>
       <button
         class="ss-cta"
-        :disabled="!user.hasChains"
+        :disabled="selectedCount === 0"
         @click="emit('ready')"
       >
         Show Deals →
@@ -78,12 +243,8 @@ function isSelected(chainId) {
   padding: var(--space-lg);
 }
 
-.ss-header {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-
+/* Header */
+.ss-header { display: flex; flex-direction: column; gap: 4px; }
 .ss-title {
   font-family: var(--font-display);
   font-size: 1.3rem;
@@ -91,7 +252,6 @@ function isSelected(chainId) {
   color: var(--c-ivory);
   margin: 0;
 }
-
 .ss-sub {
   font-family: var(--font-body);
   font-size: 0.75rem;
@@ -101,45 +261,251 @@ function isSelected(chainId) {
   text-transform: uppercase;
 }
 
-.ss-grid {
+/* Tabs */
+.ss-tabs {
   display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
+  border-bottom: 1px solid var(--c-border);
+  gap: 0;
+}
+.ss-tab {
+  flex: 1;
+  background: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  color: var(--c-muted);
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  letter-spacing: 0.05em;
+  padding: 8px 0;
+  cursor: pointer;
+  transition: color 0.15s, border-color 0.15s;
+  text-transform: uppercase;
+}
+.ss-tab:hover { color: var(--c-ivory); }
+.ss-tab.active {
+  color: var(--c-amber);
+  border-bottom-color: var(--c-amber);
 }
 
-.chain-btn {
+/* Loading */
+.ss-loading {
   display: flex;
   align-items: center;
-  gap: 6px;
-  background: var(--c-bg);
-  border: 1px solid var(--c-border);
-  color: var(--c-ivory);
+  gap: 8px;
+  color: var(--c-muted);
+  font-family: var(--font-body);
+  font-size: 0.82rem;
+  padding: var(--space-md) 0;
+}
+.mini-spinner {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border: 2px solid var(--c-border);
+  border-top-color: var(--c-amber);
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+  flex-shrink: 0;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* Tab panel */
+.tab-panel { display: flex; flex-direction: column; gap: var(--space-sm); }
+
+/* Radius tab */
+.radius-row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
+.radius-label {
   font-family: var(--font-body);
   font-size: 0.78rem;
-  letter-spacing: 0.04em;
-  padding: 6px 12px;
+  color: var(--c-muted);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  width: 44px;
+  flex-shrink: 0;
+}
+.radius-slider {
+  flex: 1;
+  accent-color: var(--c-amber);
   cursor: pointer;
+}
+.radius-value {
+  font-family: var(--font-display);
+  font-size: 0.9rem;
+  color: var(--c-amber);
+  width: 44px;
+  text-align: right;
+  flex-shrink: 0;
+}
+.radius-count {
+  font-family: var(--font-body);
+  font-size: 0.82rem;
+  color: var(--c-muted);
+  margin: 0;
+}
+.radius-count strong { color: var(--c-ivory); }
+
+.chain-summary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.chain-chip {
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  padding: 3px 8px;
   border-radius: 2px;
-  transition: border-color 0.15s, background 0.15s, color 0.15s;
+  background: var(--c-bg);
+  border: 1px solid var(--c-border);
+  color: var(--c-muted);
 }
 
-.chain-btn:hover {
-  border-color: var(--c-amber);
+.radius-select-btn {
+  align-self: flex-start;
+  background: var(--c-amber);
+  border: none;
+  border-radius: 2px;
+  color: var(--c-bg);
+  cursor: pointer;
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  padding: 7px 16px;
+  transition: opacity 0.15s;
+}
+.radius-select-btn:disabled { opacity: 0.4; cursor: default; }
+.radius-select-btn:not(:disabled):hover { opacity: 0.85; }
+
+/* Pick tab */
+.pick-toolbar {
+  display: flex;
+  gap: 8px;
+}
+.pick-util-btn {
+  background: none;
+  border: 1px solid var(--c-border);
+  border-radius: 2px;
+  color: var(--c-muted);
+  cursor: pointer;
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+  padding: 4px 10px;
+  transition: border-color 0.15s, color 0.15s;
+}
+.pick-util-btn:hover { border-color: var(--c-amber); color: var(--c-ivory); }
+
+.store-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  max-height: 320px;
+  overflow-y: auto;
+}
+.store-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 8px;
+  border-radius: 2px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: background 0.1s, border-color 0.1s;
+}
+.store-row:hover { background: var(--c-bg); }
+.store-row.selected {
+  background: color-mix(in srgb, var(--c-amber) 10%, transparent);
+  border-color: color-mix(in srgb, var(--c-amber) 30%, transparent);
 }
 
-.chain-btn.selected {
+.store-check {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  border: 1px solid var(--c-border);
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--c-amber);
+  background: var(--c-bg);
+}
+.store-row.selected .store-check {
   background: var(--c-amber);
   border-color: var(--c-amber);
   color: var(--c-bg);
-  font-weight: 500;
 }
 
-.chain-check {
-  font-size: 0.7rem;
-  width: 10px;
-  display: inline-block;
+.store-chain-badge {
+  font-family: var(--font-body);
+  font-size: 0.65rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 2px 5px;
+  border-radius: 2px;
+  background: var(--c-bg);
+  border: 1px solid var(--c-border);
+  color: var(--c-muted);
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.store-name {
+  font-family: var(--font-body);
+  font-size: 0.82rem;
+  color: var(--c-ivory);
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.store-city {
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  color: var(--c-muted);
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.store-dist {
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  color: var(--c-muted);
+  flex-shrink: 0;
+  white-space: nowrap;
+  min-width: 42px;
+  text-align: right;
 }
 
+.show-more-btn {
+  background: none;
+  border: 1px solid var(--c-border);
+  border-radius: 2px;
+  color: var(--c-muted);
+  cursor: pointer;
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  padding: 5px 10px;
+  align-self: flex-start;
+  transition: border-color 0.15s, color 0.15s;
+}
+.show-more-btn:hover { border-color: var(--c-amber); color: var(--c-ivory); }
+
+.ss-empty {
+  font-family: var(--font-body);
+  font-size: 0.82rem;
+  color: var(--c-muted);
+  margin: 0;
+  padding: var(--space-sm) 0;
+}
+
+/* Footer */
 .ss-footer {
   display: flex;
   align-items: center;
@@ -148,34 +514,24 @@ function isSelected(chainId) {
   padding-top: var(--space-md);
   gap: var(--space-md);
 }
-
 .ss-count {
   font-family: var(--font-body);
-  font-size: 0.75rem;
+  font-size: 0.78rem;
   color: var(--c-muted);
-  font-style: italic;
 }
-
 .ss-cta {
   background: var(--c-amber);
   border: none;
-  color: var(--c-bg);
-  font-family: var(--font-display);
-  font-size: 0.9rem;
-  font-weight: 700;
-  letter-spacing: 0.06em;
-  padding: 10px 24px;
-  cursor: pointer;
   border-radius: 2px;
-  transition: background 0.2s, opacity 0.2s;
+  color: var(--c-bg);
+  cursor: pointer;
+  font-family: var(--font-body);
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  padding: 8px 20px;
+  transition: opacity 0.15s;
 }
-
-.ss-cta:disabled {
-  opacity: 0.35;
-  cursor: not-allowed;
-}
-
-.ss-cta:not(:disabled):hover {
-  background: #d4900a;
-}
+.ss-cta:disabled { opacity: 0.35; cursor: default; }
+.ss-cta:not(:disabled):hover { opacity: 0.85; }
 </style>

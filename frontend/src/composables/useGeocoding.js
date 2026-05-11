@@ -1,6 +1,18 @@
 import { ref } from 'vue'
 
-const NOMINATIM = 'https://nominatim.openstreetmap.org/search'
+// Module-level cache — loaded once, shared across all composable instances
+let centroidsCache = null
+let centroidsPromise = null
+
+async function loadCentroids() {
+  if (centroidsCache) return centroidsCache
+  if (centroidsPromise) return centroidsPromise
+  centroidsPromise = fetch(import.meta.env.BASE_URL + 'data/postal_centroids.json')
+    .then(r => r.json())
+    .then(data => { centroidsCache = data; return data })
+    .catch(() => { centroidsCache = {}; return {} })
+  return centroidsPromise
+}
 
 export function useGeocoding() {
   const coords = ref(null)
@@ -11,23 +23,14 @@ export function useGeocoding() {
     geocoding.value = true
     geocodeError.value = null
     try {
-      const params = new URLSearchParams({
-        postalcode: postalCode.replace(/\s/g, ''),
-        country: 'Canada',
-        format: 'json',
-        limit: '1'
-      })
-      const res = await fetch(`${NOMINATIM}?${params}`, {
-        headers: { 'User-Agent': 'FlyerDeals/0.1 (grocery-flyer-app)' }
-      })
-      if (!res.ok) throw new Error('Geocoding request failed')
-      const data = await res.json()
-      if (!data.length) throw new Error('Postal code not found')
-      coords.value = { lat: parseFloat(data[0].lat), lng: parseFloat(data[0].lon) }
+      const fsa = postalCode.trim().toUpperCase().replace(/\s/g, '').slice(0, 3)
+      const centroids = await loadCentroids()
+      const entry = centroids[fsa]
+      if (!entry) throw new Error(`Postal code area "${fsa}" not found`)
+      coords.value = { lat: entry[0], lng: entry[1] }
     } catch (err) {
       geocodeError.value = err.message
-      // Fallback to approximate centre of Canada — won't happen in practice
-      coords.value = { lat: 56.1304, lng: -106.3468 }
+      coords.value = null
     } finally {
       geocoding.value = false
     }

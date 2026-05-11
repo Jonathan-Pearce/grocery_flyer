@@ -4,6 +4,7 @@ import { useUserStore } from './user.js'
 
 export const useDealsStore = defineStore('deals', () => {
   const rawDeals = ref([])
+  const flyerRegions = ref([])
   const isLoading = ref(false)
   const error = ref(null)
   const activeCategory = ref(null)
@@ -13,9 +14,13 @@ export const useDealsStore = defineStore('deals', () => {
     isLoading.value = true
     error.value = null
     try {
-      const res = await fetch('/data/active_scores.json')
-      if (!res.ok) throw new Error('Failed to load deal data')
-      rawDeals.value = await res.json()
+      const [dealsRes, regionsRes] = await Promise.all([
+        fetch('/data/active_scores.json'),
+        fetch('/data/flyer_regions.json'),
+      ])
+      if (!dealsRes.ok) throw new Error('Failed to load deal data')
+      rawDeals.value = await dealsRes.json()
+      if (regionsRes.ok) flyerRegions.value = await regionsRes.json()
     } catch (err) {
       error.value = err.message
     } finally {
@@ -23,22 +28,73 @@ export const useDealsStore = defineStore('deals', () => {
     }
   }
 
+  /**
+   * Build the set of flyer_ids that are relevant to the user's selected stores.
+   *
+   * Each region in flyer_regions.json has { chain, region_id, store_codes[] }.
+   * A region matches if the user has selected at least one store from that chain
+   * whose store_code appears in the region's store_codes list.
+   *
+   * region_id == flyer_id in active_scores.json.
+   */
+  const matchedFlyerIds = computed(() => {
+    const user = useUserStore()
+    if (user.selectedStoreCodes.size === 0) return null
+
+    // Build a quick lookup: chain → Set<store_code>
+    const byChain = {}
+    for (const key of user.selectedStoreCodes) {
+      const [chain, code] = key.split(':')
+      if (!byChain[chain]) byChain[chain] = new Set()
+      byChain[chain].add(code)
+    }
+
+    const ids = new Set()
+    for (const region of flyerRegions.value) {
+      const selected = byChain[region.chain]
+      if (!selected) continue
+      for (const code of region.store_codes) {
+        if (selected.has(code)) {
+          ids.add(region.region_id)
+          break
+        }
+      }
+    }
+    return ids
+  })
+
   const filteredDeals = computed(() => {
     const user = useUserStore()
-    const chains = user.selectedChains
+    const ids = matchedFlyerIds.value
 
     return rawDeals.value
-      .filter(d => chains.size === 0 || chains.has(d.store_chain))
+      .filter(d => {
+        if (!ids) return false
+        // If we have matched flyer IDs, use them; otherwise fall back to chain filter
+        if (ids.size > 0) return ids.has(d.flyer_id)
+        // Fallback: filter by chain (when flyer_regions has no match but chains are known)
+        const selectedChains = new Set(
+          [...user.selectedStoreCodes].map(k => k.split(':')[0])
+        )
+        return selectedChains.has(d.store_chain)
+      })
       .filter(d => !activeCategory.value || d.category_l1 === activeCategory.value)
       .sort((a, b) => (b.deal_score ?? 0) - (a.deal_score ?? 0))
   })
 
   const categories = computed(() => {
     const user = useUserStore()
-    const chains = user.selectedChains
+    const ids = matchedFlyerIds.value
     const seen = new Set()
     rawDeals.value
-      .filter(d => chains.size === 0 || chains.has(d.store_chain))
+      .filter(d => {
+        if (!ids) return false
+        if (ids.size > 0) return ids.has(d.flyer_id)
+        const selectedChains = new Set(
+          [...user.selectedStoreCodes].map(k => k.split(':')[0])
+        )
+        return selectedChains.has(d.store_chain)
+      })
       .forEach(d => d.category_l1 && seen.add(d.category_l1))
     return [...seen].sort()
   })
@@ -48,7 +104,7 @@ export const useDealsStore = defineStore('deals', () => {
   }
 
   return {
-    rawDeals, isLoading, error, activeCategory,
-    loadDeals, filteredDeals, categories, setCategory
+    rawDeals, flyerRegions, isLoading, error, activeCategory,
+    loadDeals, filteredDeals, categories, setCategory,
   }
 })
