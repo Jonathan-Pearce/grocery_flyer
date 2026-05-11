@@ -11,7 +11,7 @@ const user = useUserStore()
 const deals = useDealsStore()
 
 onMounted(() => {
-  if (!user.hasChains) {
+  if (!user.hasStores) {
     router.push('/')
     return
   }
