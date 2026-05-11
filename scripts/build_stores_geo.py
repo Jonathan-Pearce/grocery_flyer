@@ -27,14 +27,12 @@ import argparse
 import html
 import io
 import json
-import os
 import re
 import sys
 import time
 import unicodedata
 import zipfile
 from collections import defaultdict
-from dataclasses import dataclass
 from pathlib import Path
 
 import pyarrow as pa

@@ -35,58 +35,6 @@ KEEP_FIELDS = [
 ]
 
 
-def main():
-    try:
-        import pandas as pd
-    except ImportError:
-        print("ERROR: pandas is required. Run: pip install pandas pyarrow", file=sys.stderr)
-        sys.exit(1)
-
-    if not SCORES_PATH.exists():
-        print(
-            f"ERROR: {SCORES_PATH} not found.\n"
-            "Run the full pipeline first to generate scored deals.",
-            file=sys.stderr,
-        )
-        sys.exit(1)
-
-    print(f"Reading {SCORES_PATH}…")
-    df = pd.read_parquet(SCORES_PATH)
-
-    # Select only the columns the frontend needs
-    available = [c for c in KEEP_FIELDS if c in df.columns]
-    missing = [c for c in KEEP_FIELDS if c not in df.columns]
-    if missing:
-        print(f"Note: fields not in parquet (will be omitted): {missing}")
-
-    df = df[available].copy()
-
-    # Drop rows with no deal_score
-    if "deal_score" in df.columns:
-        df = df.dropna(subset=["deal_score"])
-        df["deal_score"] = df["deal_score"].astype(int)
-
-    # Sort best deals first
-    if "deal_score" in df.columns:
-        df = df.sort_values("deal_score", ascending=False)
-
-    # Convert date columns to ISO strings
-    for col in ["flyer_valid_from", "flyer_valid_to"]:
-        if col in df.columns:
-            df[col] = pd.to_datetime(df[col], errors="coerce").dt.strftime("%Y-%m-%d")
-
-    # Fill NaN with None (→ JSON null)
-    df = df.where(pd.notnull(df), None)
-
-    records = df.to_dict(orient="records")
-
-    OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
-    with open(OUT_PATH, "w", encoding="utf-8") as f:
-        json.dump(records, f, ensure_ascii=False, indent=2)
-
-    print(f"✓ Exported {len(records):,} deals → {OUT_PATH}")
-
-
 # ── Geo exports ───────────────────────────────────────────────────────────────
 
 def export_stores_geo() -> None:

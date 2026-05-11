@@ -1,10 +1,14 @@
 """Check store_flyers.parquet structure across chains."""
-import pyarrow.parquet as pq, json, os
+import json
+import os
+
+import pyarrow.parquet as pq
 
 for folder in ["loblaws", "nofrills", "metro", "food_basics", "super_c", "walmart"]:
     path = f"/app/data/{folder}/store_flyers.parquet"
     if not os.path.exists(path):
-        print(f"{folder}: NO FILE"); continue
+        print(f"{folder}: NO FILE")
+        continue
     t = pq.read_table(path)
     rows = t.to_pydict()
     print(f"\n{folder}: {t.num_rows} rows, columns={t.column_names}")

@@ -1,5 +1,7 @@
 """Check why Flipp stores don't have lat/lon."""
-import pyarrow.parquet as pq, json
+import json
+
+import pyarrow.parquet as pq
 
 for folder in ["loblaws", "nofrills", "walmart", "sobeys"]:
     t = pq.read_table(f"/app/data/{folder}/stores.parquet")
