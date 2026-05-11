@@ -1,0 +1,35 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: grocery-flyer-backend
+    container_name: grocery-flyer-backend
+    stdin_open: true   # keep container alive for docker exec / interactive use
+    tty: true
+    volumes:
+      # Mount source code for live editing
+      - .:/app
+      # Persist data and logs on the host
+      - ./data:/app/data
+      - ./logs:/app/logs
+    environment:
+      - PYTHONPATH=/app
+      - PYTHONUNBUFFERED=1
+    working_dir: /app
+
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    image: grocery-flyer-frontend
+    container_name: grocery-flyer-frontend
+    ports:
+      - "5173:5173"
+    volumes:
+      # Mount frontend source (node_modules stays inside the container image)
+      - ./frontend/src:/app/src
+      - ./frontend/public:/app/public
+      - ./frontend/index.html:/app/index.html
+      - ./frontend/vite.config.js:/app/vite.config.js
+    working_dir: /app

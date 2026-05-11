@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Node
+frontend/node_modules/
+frontend/.vite/
+
+# Data & logs (large, not needed in image — volume-mounted at runtime)
+data/
+logs/
+cleaned/
+
+# Git
+.git/
+.gitignore
+
+# Docker
+Dockerfile*
+docker-compose*.yml
+.dockerignore
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
