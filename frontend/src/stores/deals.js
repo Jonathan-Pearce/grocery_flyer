@@ -8,15 +8,17 @@ export const useDealsStore = defineStore('deals', () => {
   const isLoading = ref(false)
   const error = ref(null)
   const activeCategory = ref(null)
+  const activeTier = ref(null) // null | 'good' | 'hot'
 
   async function loadDeals() {
     if (rawDeals.value.length > 0) return
     isLoading.value = true
     error.value = null
+    const base = import.meta.env.BASE_URL
     try {
       const [dealsRes, regionsRes] = await Promise.all([
-        fetch('/data/active_scores.json'),
-        fetch('/data/flyer_regions.json'),
+        fetch(`${base}data/active_scores.json`),
+        fetch(`${base}data/flyer_regions.json`),
       ])
       if (!dealsRes.ok) throw new Error('Failed to load deal data')
       rawDeals.value = await dealsRes.json()
@@ -79,6 +81,13 @@ export const useDealsStore = defineStore('deals', () => {
         return selectedChains.has(d.store_chain)
       })
       .filter(d => !activeCategory.value || d.category_l1 === activeCategory.value)
+      .filter(d => {
+        if (!activeTier.value) return true
+        const s = d.deal_score ?? 0
+        if (activeTier.value === 'hot')  return s >= 80
+        if (activeTier.value === 'good') return s >= 65
+        return true
+      })
       .sort((a, b) => (b.deal_score ?? 0) - (a.deal_score ?? 0))
   })
 
@@ -103,8 +112,12 @@ export const useDealsStore = defineStore('deals', () => {
     activeCategory.value = cat === activeCategory.value ? null : cat
   }
 
+  function setTier(tier) {
+    activeTier.value = activeTier.value === tier ? null : tier
+  }
+
   return {
-    rawDeals, flyerRegions, isLoading, error, activeCategory,
-    loadDeals, filteredDeals, categories, setCategory,
+    rawDeals, flyerRegions, isLoading, error, activeCategory, activeTier,
+    loadDeals, filteredDeals, categories, setCategory, setTier,
   }
 })
