@@ -48,7 +48,6 @@ function onRadiusChange(km) {
 
         <!-- Step 1: Postal code -->
         <section class="step" :class="{ done: step >= 2 }">
-          <div class="step-num">01</div>
           <PostalInput
             v-model="postalCode"
             @confirmed="onPostalConfirmed"
@@ -58,7 +57,6 @@ function onRadiusChange(km) {
         <!-- Step 2: Store selector -->
         <Transition name="slide-up">
           <section v-if="step >= 2" class="step">
-            <div class="step-num">02</div>
             <StoreSelector
               @ready="onReady"
               @radius-change="onRadiusChange"
@@ -81,9 +79,9 @@ function onRadiusChange(km) {
 <style scoped>
 .home-view {
   flex: 1;
+  min-height: 0;
   display: grid;
   grid-template-columns: 480px 1fr;
-  min-height: calc(100vh - 60px);
 }
 
 .left-panel {
@@ -94,8 +92,8 @@ function onRadiusChange(km) {
 .panel-inner {
   display: flex;
   flex-direction: column;
-  gap: var(--space-xl);
-  padding: var(--space-xl) var(--space-xl);
+  gap: var(--space-lg);
+  padding: var(--space-lg) var(--space-xl);
 }
 
 .hero-heading {
@@ -127,24 +125,9 @@ function onRadiusChange(km) {
   align-items: flex-start;
 }
 
-.step-num {
-  font-family: var(--font-display);
-  font-size: 2.5rem;
-  font-weight: 700;
-  color: var(--c-border);
-  line-height: 1;
-  flex-shrink: 0;
-  width: 44px;
-  transition: color 0.3s;
-  padding-top: 4px;
-}
-
-.step.done .step-num {
-  color: var(--c-amber);
-}
-
 .step > :not(.step-num) {
   flex: 1;
+  min-width: 0;
 }
 
 /* Right panel */
