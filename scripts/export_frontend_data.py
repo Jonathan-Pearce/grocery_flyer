@@ -6,7 +6,7 @@ Usage:
     python scripts/export_frontend_data.py [--geo-only] [--scores-only] [--rankings-only]
 
 Outputs:
-    frontend/public/data/active_scores.json     — scored deals
+    frontend/public/data/active_scores.json.gz  — scored deals (gzip-compressed JSON)
     frontend/public/data/stores_geo.json        — store locations
     frontend/public/data/flyer_regions.json     — regional flyer groupings
     frontend/public/data/postal_centroids.json  — FSA → [lat, lon] for offline geocoding
@@ -15,12 +15,13 @@ Outputs:
 """
 import argparse
 import csv
+import gzip
 import sys
 import json
 from pathlib import Path
 
 SCORES_PATH = Path("db/scores/active_scores.parquet")
-OUT_PATH = Path("frontend/public/data/active_scores.json")
+OUT_PATH = Path("frontend/public/data/active_scores.json.gz")
 
 GEO_PATH         = Path("data/stores_geo.parquet")
 GEO_OUT_PATH     = Path("frontend/public/data/stores_geo.json")
@@ -292,7 +293,7 @@ def main():
 
 
 def _export_scores() -> None:
-    """Export db/scores/active_scores.parquet → frontend/public/data/active_scores.json."""
+    """Export db/scores/active_scores.parquet → frontend/public/data/active_scores.json.gz."""
     try:
         import pyarrow.parquet as pq
     except ImportError:
@@ -343,10 +344,11 @@ def _export_scores() -> None:
     out.sort(key=lambda r: r.get("deal_score") or 0, reverse=True)
 
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
-    with open(OUT_PATH, "w", encoding="utf-8") as f:
-        json.dump(out, f, ensure_ascii=False, indent=2)
+    with gzip.open(OUT_PATH, "wt", encoding="utf-8") as f:
+        json.dump(out, f, ensure_ascii=False, separators=(",", ":"))
 
-    print(f"✓ Exported {len(out):,} deals → {OUT_PATH}")
+    size_mb = OUT_PATH.stat().st_size / 1_048_576
+    print(f"✓ Exported {len(out):,} deals → {OUT_PATH} ({size_mb:.1f} MB gzipped)")
 
 
 if __name__ == "__main__":

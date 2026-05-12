@@ -17,11 +17,14 @@ export const useDealsStore = defineStore('deals', () => {
     const base = import.meta.env.BASE_URL
     try {
       const [dealsRes, regionsRes] = await Promise.all([
-        fetch(`${base}data/active_scores.json`),
+        fetch(`${base}data/active_scores.json.gz`),
         fetch(`${base}data/flyer_regions.json`),
       ])
       if (!dealsRes.ok) throw new Error('Failed to load deal data')
-      rawDeals.value = await dealsRes.json()
+      // Decompress gzip using the native DecompressionStream API
+      const ds = new DecompressionStream('gzip')
+      const stream = dealsRes.body.pipeThrough(ds)
+      rawDeals.value = await new Response(stream).json()
       if (regionsRes.ok) flyerRegions.value = await regionsRes.json()
     } catch (err) {
       error.value = err.message
