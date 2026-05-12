@@ -10,7 +10,7 @@ export const CHAIN_LOGO_URLS = {
   independent_city_market:  'images/chains/LCM.png',
   // Sobeys group
   sobeys:                   'images/chains/Sobeys_Corporate_Logo_2024.svg.png',
-  freshco:                  'images/chains/FRESHCO-1.png.webp',
+  freshco:                  'images/chains/freshco.png',
   farm_boy:                 'images/chains/Farm_Boy_logo.svg.png',
   longos:                   'images/chains/longos.png',
   // Walmart
