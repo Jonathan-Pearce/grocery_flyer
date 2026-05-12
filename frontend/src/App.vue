@@ -16,7 +16,7 @@ import AppHeader from './components/AppHeader.vue'
 
 <style scoped>
 .app-shell {
-  min-height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
 }

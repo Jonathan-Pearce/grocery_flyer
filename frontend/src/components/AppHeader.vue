@@ -53,9 +53,7 @@ function goHome() {
 }
 
 .header-inner {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 var(--space-lg);
+  padding: 0 var(--space-xl);
   height: 60px;
   display: flex;
   align-items: center;
