@@ -12,7 +12,7 @@ const user = useUserStore()
 const postalCode = ref(user.postalCode || '')
 const confirmedPostal = ref(user.postalCode || '')
 const step = ref(user.postalCode ? 2 : 1)
-const radiusKm = ref(25)
+const radiusKm = ref(5)
 
 function onPostalConfirmed(code) {
   user.setPostalCode(code)

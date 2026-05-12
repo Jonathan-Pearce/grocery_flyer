@@ -10,13 +10,13 @@ const { nearbyStores } = useStores()
 
 // ── State ─────────────────────────────────────────────────────────────────────
 const activeTab = ref('radius')   // 'radius' | 'pick'
-const radiusKm  = ref(25)
+const radiusKm  = ref(5)
 const allNearby = ref([])         // stores within 75 km, sorted by distance
 const loading   = ref(false)
 const showAll   = ref(false)      // expand "Show more" in Pick tab
 
 const DISPLAY_LIMIT = 15
-const MAX_RADIUS    = 75
+const MAX_RADIUS    = 25
 
 // ── Chain display names ────────────────────────────────────────────────────────
 const CHAIN_LABELS = {
@@ -30,7 +30,7 @@ const CHAIN_LABELS = {
   freshco:                 'FreshCo',
   freshmart:               'Freshmart',
   iga:                     'IGA',
-  independent_city_market: 'Independent City Market',
+  independent_city_market: 'City Market',
   independent_grocer:      'Independent Grocer',
   loblaws:                 'Loblaws',
   longos:                  "Longo's",
@@ -39,7 +39,7 @@ const CHAIN_LABELS = {
   metro_qc:                'Metro QC',
   nofrills:                'No Frills',
   provigo:                 'Provigo',
-  real_canadian_superstore:'Real Canadian Superstore',
+  real_canadian_superstore:'Real Canadian',
   safeway:                 'Safeway',
   sobeys:                  'Sobeys',
   super_c:                 'Super C',
@@ -68,7 +68,8 @@ async function load() {
   if (!user.latlng) return
   loading.value = true
   try {
-    allNearby.value = await nearbyStores(user.latlng.lat, user.latlng.lng, MAX_RADIUS)
+    allNearby.value = (await nearbyStores(user.latlng.lat, user.latlng.lng, MAX_RADIUS))
+      .filter(s => !(s.chain === 'walmart' && /penguin\s*pick\s*up/i.test(s.store_name)))
   } finally {
     loading.value = false
   }
@@ -98,6 +99,82 @@ function chainCounts(stores) {
   const counts = {}
   for (const s of stores) counts[s.chain] = (counts[s.chain] ?? 0) + 1
   return counts
+}
+
+/** Title-case a string, handling hyphens (e.g. ST-LIN → St-Lin) */
+function toTitleCase(str) {
+  return str.toLowerCase().replace(/(^|[\s-])([a-z])/g, (_, sep, c) => sep + c.toUpperCase())
+}
+
+/** Return a cleaned display name for a store, stripping redundant chain prefixes/suffixes */
+function formatStoreName(chain, raw) {
+  let s = (raw || '').trim()
+
+  // Global: replace " @" used as "at" (e.g. "1323 @Hanna" → "1323 Hanna")
+  s = s.replace(/\s*@\s*/g, ' ').trim()
+
+  switch (chain) {
+    case 'loblaws':
+      s = s.replace(/^Loblaws\s*[-–]\s*/i, '').replace(/^Loblaws\s+/i, '')
+      break
+    case 'dominion':
+      s = s.replace(/\s+Dominion$/i, '')
+      break
+    case 'atlantic_superstore':
+    case 'real_canadian_superstore':
+      s = s.replace(/\s+Superstore$/i, '')
+      break
+    case 'foodland':
+      s = s.replace(/^Foodland\s+/i, '')
+      break
+    case 'freshmart':
+      s = s.replace(/\s+Freshmart$/i, '')
+      break
+    case 'fortinos':
+      s = s.replace(/^Fortinos\s+/i, '')
+      break
+    case 'iga':
+      s = s.replace(/^IGA\s*[-–]?\s*/i, '')
+      break
+    case 'sobeys':
+      s = s.replace(/^Sobeys\s+/i, '')
+      break
+    case 'zehrs':
+      s = s.replace(/^Zehrs\s+/i, '')
+      break
+    case 'provigo':
+      s = s.replace(/^Provigo\s+/i, '')
+      break
+    case 'metro_qc':
+      s = s.replace(/^Metro\s+Plus\s+/i, '').replace(/^Metro\s+/i, '')
+      break
+    case 'metro':
+      s = s.replace(/^#/, '')
+      break
+    case 'independent_city_market':
+      s = s
+        .replace(/^Independent\s+City\s+Market\s*@?\s*/i, '')
+        .replace(/\s+Independent\s+City\s+Market$/i, '')
+        .replace(/^Loblaw\s+City\s+Market\s*[-–]\s*/i, '')
+      break
+    case 'independent_grocer':
+      s = s.replace(/\bYIG\b\s*/i, '')
+      break
+    case 'nofrills':
+      // "Owner nofrills - Location" → "Owner · Location"
+      s = s
+        .replace(/\s+nofrills\s*[-–]\s*/i, ' · ')
+        .replace(/\s+NF\s+/i, ' · ')
+        .replace(/\s+nofrills\b/i, '')
+        .replace(/\s+NF\s*$/i, '')
+      break
+    case 'food_basics':
+    case 'super_c':
+      s = toTitleCase(s)
+      break
+  }
+
+  return s.replace(/\s{2,}/g, ' ').trim()
 }
 </script>
 
@@ -141,9 +218,9 @@ function chainCounts(stores) {
         <input
           type="range"
           class="radius-slider"
-          :min="1"
+          :min="0.5"
           :max="MAX_RADIUS"
-          :step="1"
+          :step="0.5"
           v-model.number="radiusKm"
           aria-label="Search radius in km"
         />
@@ -200,9 +277,13 @@ function chainCounts(stores) {
             <span class="store-chain-badge" :data-chain="s.chain">
               {{ CHAIN_LABELS[s.chain] ?? s.chain }}
             </span>
-            <span class="store-name">{{ s.store_name }}</span>
-            <span class="store-city" v-if="s.city">{{ s.city }}</span>
-            <span class="store-dist">{{ s.distanceKm }} km</span>
+            <span class="store-body">
+              <span class="store-name">{{ formatStoreName(s.chain, s.store_name) }}</span>
+              <span class="store-meta">
+                <span v-if="s.city" class="store-city">{{ s.city }}</span>
+                <span class="store-dist">{{ s.distanceKm }} km</span>
+              </span>
+            </span>
           </li>
         </ul>
 
@@ -411,9 +492,9 @@ function chainCounts(stores) {
 }
 .store-row {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 8px;
-  padding: 6px 8px;
+  padding: 7px 8px;
   border-radius: 2px;
   cursor: pointer;
   border: 1px solid transparent;
@@ -455,32 +536,36 @@ function chainCounts(stores) {
   color: var(--c-muted);
   flex-shrink: 0;
   white-space: nowrap;
+  margin-top: 1px;
+}
+.store-body {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
 }
 .store-name {
   font-family: var(--font-body);
   font-size: 0.82rem;
   color: var(--c-ivory);
-  flex: 1;
-  min-width: 0;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  line-height: 1.3;
+}
+.store-meta {
+  display: flex;
+  gap: 8px;
+  align-items: baseline;
 }
 .store-city {
   font-family: var(--font-body);
   font-size: 0.72rem;
   color: var(--c-muted);
-  flex-shrink: 0;
-  white-space: nowrap;
 }
 .store-dist {
   font-family: var(--font-body);
   font-size: 0.72rem;
   color: var(--c-muted);
-  flex-shrink: 0;
-  white-space: nowrap;
-  min-width: 42px;
-  text-align: right;
+  margin-left: auto;
 }
 
 .show-more-btn {
