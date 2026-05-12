@@ -44,7 +44,10 @@ KEEP_FIELDS = [
     "sale_price", "regular_price", "price_unit",
     "promo_type",
     "flyer_valid_from", "flyer_valid_to",
-    "deal_score", "confidence", "confidence_label",
+    "deal_score",
+    "score_discount_depth", "score_deal_rarity", "score_essentiality",
+    "score_cycle_position", "score_authenticity", "score_loyalty_bonus",
+    "confidence", "confidence_label",
     "category_l1", "category_l2",
     "image_url",
 ]
