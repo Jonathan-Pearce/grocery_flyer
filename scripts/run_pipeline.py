@@ -32,7 +32,15 @@ from __future__ import annotations
 import argparse
 import datetime
 import os
+from pathlib import Path
 import sys
+
+
+# Allow direct execution via "python scripts/run_pipeline.py" by adding
+# the repository root (parent of scripts/) to the import path.
+REPO_ROOT = Path(__file__).resolve().parents[1]
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
 
 
 # ── Helpers ───────────────────────────────────────────────────────────────────

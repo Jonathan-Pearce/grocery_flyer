@@ -23,7 +23,8 @@ from pathlib import Path
 
 SCORES_PATH = Path("db/scores/active_scores.parquet")
 OUT_JSON_PATH = Path("frontend/public/data/active_scores.json")
-OUT_GZ_PATH = Path("frontend/public/data/active_scores.json.gz")
+OUT_PATH = Path("frontend/public/data/active_scores.json.gz")
+OUT_GZ_PATH = OUT_PATH
 
 GEO_PATH         = Path("data/stores_geo.parquet")
 GEO_OUT_PATH     = Path("frontend/public/data/stores_geo.json")
@@ -348,17 +349,24 @@ def _export_scores() -> None:
     # Sort best deals first
     out.sort(key=lambda r: r.get("deal_score") or 0, reverse=True)
 
-    OUT_GZ_PATH.parent.mkdir(parents=True, exist_ok=True)
-    with open(OUT_JSON_PATH, "w", encoding="utf-8") as f:
+    out_gz_path = OUT_PATH
+    out_json_path = OUT_JSON_PATH
+    # Backward compatibility: when callers monkeypatch OUT_PATH (legacy name),
+    # keep the plain JSON beside the gzip output.
+    if out_gz_path != OUT_GZ_PATH:
+        out_json_path = Path(str(out_gz_path).removesuffix(".gz"))
+
+    out_gz_path.parent.mkdir(parents=True, exist_ok=True)
+    with open(out_json_path, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, separators=(",", ":"))
-    with gzip.open(OUT_GZ_PATH, "wt", encoding="utf-8") as f:
+    with gzip.open(out_gz_path, "wt", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, separators=(",", ":"))
 
-    size_json_mb = OUT_JSON_PATH.stat().st_size / 1_048_576
-    size_gz_mb = OUT_GZ_PATH.stat().st_size / 1_048_576
+    size_json_mb = out_json_path.stat().st_size / 1_048_576
+    size_gz_mb = out_gz_path.stat().st_size / 1_048_576
     print(
-        f"✓ Exported {len(out):,} deals → {OUT_JSON_PATH} ({size_json_mb:.1f} MB), "
-        f"{OUT_GZ_PATH} ({size_gz_mb:.1f} MB gzipped)"
+        f"✓ Exported {len(out):,} deals → {out_json_path} ({size_json_mb:.1f} MB), "
+        f"{out_gz_path} ({size_gz_mb:.1f} MB gzipped)"
     )
 
 
