@@ -1,5 +1,5 @@
 <script setup>
-import { onMounted } from 'vue'
+import { computed, onMounted } from 'vue'
 import { useRouter } from 'vue-router'
 import { useUserStore } from '@/stores/user.js'
 import { useDealsStore } from '@/stores/deals.js'
@@ -16,6 +16,27 @@ onMounted(() => {
     return
   }
   deals.loadDeals()
+})
+
+const TIERS = [
+  { key: 'hot',  label: '🔥 Hot Deals',  min: 80 },
+  { key: 'good', label: '★ Good Deals',  min: 65 },
+  { key: 'fair', label: 'More Deals',    min: 0  },
+]
+
+const dealGroups = computed(() => {
+  const all = deals.filteredDeals
+  return TIERS
+    .map(tier => ({
+      ...tier,
+      deals: all.filter(d => {
+        const s = d.deal_score ?? 0
+        if (tier.key === 'hot')  return s >= 80
+        if (tier.key === 'good') return s >= 65 && s < 80
+        return s < 65
+      }),
+    }))
+    .filter(g => g.deals.length > 0)
 })
 </script>
 
@@ -79,14 +100,24 @@ onMounted(() => {
       </div>
 
       <!-- Deal cards -->
-      <div v-else class="deals-grid">
-        <DealCard
-          v-for="(deal, i) in deals.filteredDeals"
-          :key="`${deal.store_chain}-${deal.sku}-${i}`"
-          :deal="deal"
-          :index="i"
-        />
-      </div>
+      <template v-else>
+        <div
+          v-for="group in dealGroups"
+          :key="group.key"
+          class="tier-group"
+          :class="`tier-group-${group.key}`"
+        >
+          <div class="tier-label">{{ group.label }}</div>
+          <div class="deals-grid">
+            <DealCard
+              v-for="(deal, i) in group.deals"
+              :key="`${deal.store_chain}-${deal.sku}-${i}`"
+              :deal="deal"
+              :index="i"
+            />
+          </div>
+        </div>
+      </template>
     </div>
   </main>
 </template>
@@ -176,6 +207,25 @@ onMounted(() => {
   border-color: var(--c-amber);
   background: rgba(240, 165, 0, 0.1);
 }
+
+.tier-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.tier-label {
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--c-muted);
+  padding-bottom: 4px;
+  border-bottom: 1px solid var(--c-border);
+}
+
+.tier-group-hot  .tier-label { color: #e74c3c; border-color: rgba(231, 76, 60, 0.3); }
+.tier-group-good .tier-label { color: var(--c-amber); border-color: rgba(240, 165, 0, 0.3); }
 
 .deals-grid {
   display: grid;
