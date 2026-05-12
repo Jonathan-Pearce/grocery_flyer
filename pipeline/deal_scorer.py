@@ -560,6 +560,14 @@ def _score_row(
         "regular_price_estimated": regular_price_estimated,
         "regular_price_source": regular_price_source,
         "scored_on": today.isoformat(),
+        # Passthrough observation fields
+        "category_l1": obs.get("category_l1"),
+        "category_l2": obs.get("category_l2"),
+        "brand": obs.get("brand"),
+        "regular_price": obs.get("regular_price"),
+        "price_unit": obs.get("price_unit"),
+        "promo_type": obs.get("promo_type"),
+        "image_url": obs.get("image_url"),
     }
 
 
@@ -611,6 +619,13 @@ def _output_schema():
             ("regular_price_estimated", pa.float64()),
             ("regular_price_source", pa.string()),
             ("scored_on", pa.string()),
+            ("category_l1", pa.string()),
+            ("category_l2", pa.string()),
+            ("brand", pa.string()),
+            ("regular_price", pa.float64()),
+            ("price_unit", pa.string()),
+            ("promo_type", pa.string()),
+            ("image_url", pa.string()),
         ]
     )
 
