@@ -4,6 +4,7 @@ import { useRouter } from 'vue-router'
 import { useUserStore } from '@/stores/user.js'
 import { useDealsStore } from '@/stores/deals.js'
 import DealCard from '@/components/DealCard.vue'
+import ScoreTile from '@/components/ScoreTile.vue'
 import CategoryFilter from '@/components/CategoryFilter.vue'
 
 const router = useRouter()
@@ -53,6 +54,15 @@ const dealGroups = computed(() => {
             </span>
           </h2>
           <div class="sort-label">Sorted by Deal Score ↓</div>
+          <div class="search-wrap">
+            <input
+              class="search-input"
+              type="search"
+              placeholder="Search items…"
+              :value="deals.searchQuery"
+              @input="deals.setSearch($event.target.value)"
+            />
+          </div>
           <div class="tier-filter">
             <button
               class="tier-btn"
@@ -101,21 +111,40 @@ const dealGroups = computed(() => {
 
       <!-- Deal cards -->
       <template v-else>
-        <div
-          v-for="group in dealGroups"
-          :key="group.key"
-          class="tier-group"
-          :class="`tier-group-${group.key}`"
-        >
-          <div class="tier-label">{{ group.label }}</div>
-          <div class="deals-grid">
-            <DealCard
+        <div class="score-table">
+          <!-- Sticky column-header row -->
+          <div class="score-header">
+            <div class="score-col-card"></div>
+            <div class="score-col-label">Discount</div>
+            <div class="score-col-label">Rarity</div>
+            <div class="score-col-label">Essence</div>
+            <div class="score-col-label">Cycle</div>
+            <div class="score-col-label">Auth</div>
+            <div class="score-col-label">Loyalty</div>
+            <div class="score-col-label">Conf.</div>
+          </div>
+
+          <!-- Tier groups as inline dividers + deal rows -->
+          <template v-for="group in dealGroups" :key="group.key">
+            <div class="tier-label" :class="`tier-label-${group.key}`">{{ group.label }}</div>
+            <div
               v-for="(deal, i) in group.deals"
               :key="`${deal.store_chain}-${deal.sku}-${i}`"
-              :deal="deal"
-              :index="i"
-            />
-          </div>
+              class="deal-row"
+            >
+              <DealCard :deal="deal" :index="i" />
+              <ScoreTile :value="deal.score_discount_depth != null ? deal.score_discount_depth / 25 * 100 : null" />
+              <ScoreTile :value="deal.score_deal_rarity    != null ? deal.score_deal_rarity    / 20 * 100 : null" />
+              <ScoreTile :value="deal.score_essentiality   != null ? deal.score_essentiality   / 20 * 100 : null" />
+              <ScoreTile :value="deal.score_cycle_position != null ? deal.score_cycle_position / 15 * 100 : null" />
+              <ScoreTile :value="deal.score_authenticity   != null ? deal.score_authenticity   / 15 * 100 : null" />
+              <ScoreTile :value="deal.score_loyalty_bonus  != null ? deal.score_loyalty_bonus  /  5 * 100 : null" />
+              <div
+                class="confidence-cell"
+                :class="`conf-${(deal.confidence_label || 'low').toLowerCase()}`"
+              >{{ deal.confidence_label || '—' }}</div>
+            </div>
+          </template>
         </div>
       </template>
     </div>
@@ -129,7 +158,7 @@ const dealGroups = computed(() => {
 }
 
 .deals-inner {
-  max-width: 900px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: var(--space-xl) var(--space-lg);
   display: flex;
@@ -177,6 +206,41 @@ const dealGroups = computed(() => {
   white-space: nowrap;
 }
 
+.search-wrap {
+  flex: 1;
+  min-width: 140px;
+  max-width: 260px;
+}
+
+.search-input {
+  width: 100%;
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  color: var(--c-ivory);
+  background: rgba(244, 239, 224, 0.05);
+  border: 1px solid var(--c-border);
+  border-radius: 2px;
+  padding: 5px 10px;
+  outline: none;
+  transition: border-color 0.15s, background 0.15s;
+  box-sizing: border-box;
+}
+
+.search-input::placeholder {
+  color: rgba(244, 239, 224, 0.3);
+}
+
+.search-input:focus {
+  border-color: rgba(244, 239, 224, 0.35);
+  background: rgba(244, 239, 224, 0.08);
+}
+
+/* Chrome/Safari removes the native ✕ button styling — keep it subtle */
+.search-input::-webkit-search-cancel-button {
+  opacity: 0.4;
+  cursor: pointer;
+}
+
 .tier-filter {
   display: flex;
   gap: 6px;
@@ -208,35 +272,88 @@ const dealGroups = computed(() => {
   background: rgba(240, 165, 0, 0.1);
 }
 
-.tier-group {
+/* ── Score table layout ─────────────────────────────────── */
+.score-table {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 6px;
 }
 
+.score-header,
+.deal-row {
+  display: grid;
+  grid-template-columns: 1fr repeat(7, 60px);
+  gap: 8px;
+  align-items: center;
+}
+
+.score-header {
+  position: sticky;
+  top: 60px;
+  z-index: 10;
+  background: var(--c-bg);
+  padding: 6px 0 8px;
+  border-bottom: 1px solid var(--c-border);
+}
+
+.score-col-label {
+  font-family: var(--font-body);
+  font-size: 0.6rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--c-muted);
+  text-align: center;
+  line-height: 1.4;
+}
+
+/* Tier dividers within the table */
 .tier-label {
   font-family: var(--font-body);
   font-size: 0.72rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--c-muted);
-  padding-bottom: 4px;
+  padding: 12px 0 4px;
   border-bottom: 1px solid var(--c-border);
 }
 
-.tier-group-hot  .tier-label { color: #e74c3c; border-color: rgba(231, 76, 60, 0.3); }
-.tier-group-good .tier-label { color: var(--c-amber); border-color: rgba(240, 165, 0, 0.3); }
+.tier-label-hot  { color: #e74c3c; border-color: rgba(231, 76, 60, 0.3); }
+.tier-label-good { color: var(--c-amber); border-color: rgba(240, 165, 0, 0.3); }
 
-.deals-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
+/* Deal row hover — brighten score tiles */
+.deal-row:hover :deep(.score-tile) {
+  opacity: 1;
 }
 
-@media (max-width: 640px) {
-  .deals-grid {
+.deal-row:hover .confidence-cell {
+  opacity: 1;
+}
+
+/* Confidence cell */
+.confidence-cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-display);
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-align: center;
+  opacity: 0.3;
+  transition: opacity 0.2s;
+}
+
+.conf-high   { color: #4caf7d; }
+.conf-medium { color: var(--c-amber); }
+.conf-low    { color: rgba(231, 76, 60, 0.8); }
+
+@media (max-width: 720px) {
+  .score-header { display: none; }
+  .deal-row {
     grid-template-columns: 1fr;
   }
+  .deal-row > :not(:first-child) { display: none; }
 }
 
 /* State blocks */

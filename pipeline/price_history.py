@@ -9,15 +9,18 @@ Regular price estimation priority cascade
 -----------------------------------------
 1. ``regular_price`` directly observed in a ``no_promo`` row
    → source ``"observed"``, conf ``1.0``
-2. Max ``sale_price`` where ``promo_type == "no_promo"``, ≥ 4 rows
+2. Median ``regular_price`` stated by the API on promo rows (e.g. Metro
+   ``regularPrice`` field), where ``regular_price > sale_price``
+   → source ``"api_stated"``, conf ``0.85``
+3. Max ``sale_price`` where ``promo_type == "no_promo"``, ≥ 4 rows
    → source ``"own_history"``, conf ``0.8``
-3. Same, 1–3 rows
+4. Same, 1–3 rows
    → source ``"own_history_sparse"``, conf ``0.5``
-4. Cross-chain price for same ``canonical_product_id``
+5. Cross-chain price for same ``canonical_product_id``
    → source ``"cross_chain"``, conf ``0.4``
-5. Median ``sale_price`` of sibling products in ``category_l3``
+6. Median ``sale_price`` of sibling products in ``category_l3``
    → source ``"category_median"``, conf ``0.2``
-6. No estimate possible
+7. No estimate possible
    → source ``"none"``, conf ``0.0``
 
 Computed feature columns
@@ -151,8 +154,9 @@ def _compute_regular_price(
     chain_no_promo_sale: list[float],
     cross_chain_no_promo: list[float],
     category_sale_prices: list[float],
+    promo_item_regular: list[float] | None = None,
 ) -> tuple[float | None, str, float]:
-    """Apply the six-tier regular price cascade.
+    """Apply the seven-tier regular price cascade.
 
     Parameters
     ----------
@@ -166,6 +170,10 @@ def _compute_regular_price(
     category_sale_prices:
         All ``sale_price`` values for sibling products in the same
         ``category_l3``.
+    promo_item_regular:
+        ``regular_price`` values from *promo* rows where
+        ``regular_price > sale_price`` (API-stated strikethrough prices,
+        e.g. Metro ``regularPrice`` field).  ``None`` is treated as ``[]``.
 
     Returns
     -------
@@ -176,22 +184,29 @@ def _compute_regular_price(
     if chain_no_promo_regular:
         return max(chain_no_promo_regular), "observed", 1.0
 
-    # Priority 2 & 3 — max sale_price where promo_type == "no_promo"
+    # Priority 2 — API-stated strikethrough price on promo rows
+    _promo_reg = promo_item_regular or []
+    if _promo_reg:
+        med = _median(_promo_reg)
+        if med is not None:
+            return med, "api_stated", 0.85
+
+    # Priority 3 & 4 — max sale_price where promo_type == "no_promo"
     if chain_no_promo_sale:
         if len(chain_no_promo_sale) >= 4:
             return max(chain_no_promo_sale), "own_history", 0.8
         return max(chain_no_promo_sale), "own_history_sparse", 0.5
 
-    # Priority 4 — cross-chain price for same canonical_product_id
+    # Priority 5 — cross-chain price for same canonical_product_id
     if cross_chain_no_promo:
         return max(cross_chain_no_promo), "cross_chain", 0.4
 
-    # Priority 5 — median sale_price of sibling products in category_l3
+    # Priority 6 — median sale_price of sibling products in category_l3
     med = _median(category_sale_prices)
     if med is not None:
         return med, "category_median", 0.2
 
-    # Priority 6 — no estimate possible
+    # Priority 7 — no estimate possible
     return None, "none", 0.0
 
 
@@ -310,6 +325,16 @@ def build_price_history(
             if r["sale_price"] is not None
         ]
 
+        # API-stated strikethrough prices: promo rows where regular_price > sale_price
+        promo_item_regular = [
+            r["regular_price"]
+            for r in this_chain_recs
+            if r["promo_type"] != "no_promo"
+            and r["regular_price"] is not None
+            and r["sale_price"] is not None
+            and r["regular_price"] > r["sale_price"]
+        ]
+
         # Cross-chain: other chains for the same canonical_product_id
         cross_chain_no_promo: list[float] = []
         for other_chain, other_recs in chain_data[canonical_product_id].items():
@@ -334,6 +359,7 @@ def build_price_history(
             chain_no_promo_sale,
             cross_chain_no_promo,
             cat_siblings,
+            promo_item_regular,
         )
 
         # --- Trailing 52-week window -----------------------------------------

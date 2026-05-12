@@ -215,10 +215,30 @@ def _score_deal_rarity(
     sale_freq_chain: float | None,
     is_cross_chain_exclusive: bool,
     cfg: dict,
+    weeks_observed: int | None = None,
+    match_tier: str | None = None,
 ) -> int:
     """Component 2 — Deal Rarity (0–20 pts).
 
     Cold-start neutral when no sale frequency data is available.
+
+    Thin-history dampening
+    ----------------------
+    When ``weeks_observed`` is below ``min_obs_for_full_rarity`` (default 8),
+    the bracket score is blended toward ``cold_start_pts`` proportionally:
+
+        factor = min(1.0, weeks_observed / min_obs_for_full_rarity)
+        score  = round(raw_pts * factor + cold * (1 - factor))
+
+    This prevents chains with only 1–2 weeks of history (e.g. Metro shortly
+    after onboarding) from receiving maximum rarity simply due to low sample.
+
+    Exclusivity gate
+    ----------------
+    The cross-chain exclusive bonus is only awarded when ``match_tier`` is
+    ``'strict'`` or ``'probable'``.  At the ``'category'`` fallback tier the
+    product resolver cannot verify that no other chain carries this deal, so
+    awarding the bonus would be misleading.
     """
     dc = cfg["deal_rarity"]
     max_pts: int = dc["max_pts"]
@@ -228,8 +248,17 @@ def _score_deal_rarity(
         return cold
 
     pts = _bracket_pts_max(sale_freq_chain, dc["freq_brackets"], "max_freq", "pts")
-    if is_cross_chain_exclusive:
+
+    # Thin-history dampening
+    min_obs: int = dc.get("min_obs_for_full_rarity", 8)
+    if weeks_observed is not None and weeks_observed < min_obs:
+        factor = weeks_observed / min_obs
+        pts = round(pts * factor + cold * (1 - factor))
+
+    # Cross-chain exclusivity bonus — only when match quality is sufficient
+    if is_cross_chain_exclusive and match_tier in ("strict", "probable"):
         pts += dc["cross_chain_exclusive_bonus"]
+
     return min(max_pts, pts)
 
 
@@ -477,6 +506,8 @@ def _score_row(
         sale_freq_chain=features.get("sale_freq_chain"),
         is_cross_chain_exclusive=is_cross_chain_exclusive,
         cfg=cfg,
+        weeks_observed=features.get("weeks_observed"),
+        match_tier=match_tier,
     )
     c3 = _score_essentiality(
         category_l1=obs.get("category_l1"),
@@ -560,6 +591,14 @@ def _score_row(
         "regular_price_estimated": regular_price_estimated,
         "regular_price_source": regular_price_source,
         "scored_on": today.isoformat(),
+        # Passthrough observation fields
+        "category_l1": obs.get("category_l1"),
+        "category_l2": obs.get("category_l2"),
+        "brand": obs.get("brand"),
+        "regular_price": obs.get("regular_price"),
+        "price_unit": obs.get("price_unit"),
+        "promo_type": obs.get("promo_type"),
+        "image_url": obs.get("image_url"),
     }
 
 
@@ -611,6 +650,13 @@ def _output_schema():
             ("regular_price_estimated", pa.float64()),
             ("regular_price_source", pa.string()),
             ("scored_on", pa.string()),
+            ("category_l1", pa.string()),
+            ("category_l2", pa.string()),
+            ("brand", pa.string()),
+            ("regular_price", pa.float64()),
+            ("price_unit", pa.string()),
+            ("promo_type", pa.string()),
+            ("image_url", pa.string()),
         ]
     )
 

@@ -187,13 +187,13 @@ class TestScoreDiscountDepth:
 
 class TestScoreDealRarity:
     def test_rare_deal_high_score(self, cfg):
-        # 5% frequency → rare
-        score = _score_deal_rarity(0.05, False, cfg)
+        # 5% frequency → rare; mature history → full weight
+        score = _score_deal_rarity(0.05, False, cfg, weeks_observed=10)
         assert score >= 15
 
     def test_common_deal_low_score(self, cfg):
         # 80% frequency → common
-        score = _score_deal_rarity(0.80, False, cfg)
+        score = _score_deal_rarity(0.80, False, cfg, weeks_observed=10)
         assert score <= 5
 
     def test_cold_start(self, cfg):
@@ -201,33 +201,85 @@ class TestScoreDealRarity:
         assert score == cfg["deal_rarity"]["cold_start_pts"]
 
     def test_cross_chain_bonus_applied(self, cfg):
-        score_no_excl = _score_deal_rarity(0.05, False, cfg)
-        score_excl = _score_deal_rarity(0.05, True, cfg)
+        score_no_excl = _score_deal_rarity(0.05, False, cfg, weeks_observed=10, match_tier="strict")
+        score_excl = _score_deal_rarity(0.05, True, cfg, weeks_observed=10, match_tier="strict")
         assert score_excl == min(
             cfg["deal_rarity"]["max_pts"],
             score_no_excl + cfg["deal_rarity"]["cross_chain_exclusive_bonus"],
         )
 
     def test_score_capped_at_max(self, cfg):
-        score = _score_deal_rarity(0.01, True, cfg)
+        score = _score_deal_rarity(0.01, True, cfg, weeks_observed=10, match_tier="strict")
         assert score <= cfg["deal_rarity"]["max_pts"]
 
     def test_freq_005_gives_exactly_20pts(self, cfg):
-        # 0.05 < 0.10 threshold → 20 pts (highest rarity bracket)
-        score = _score_deal_rarity(0.05, False, cfg)
+        # 0.05 < 0.10 threshold → 20 pts (highest rarity bracket); mature history
+        score = _score_deal_rarity(0.05, False, cfg, weeks_observed=10)
         assert score == 20
 
     def test_freq_080_exact_pts(self, cfg):
         # 0.80 falls in the last bracket (max_freq=1.01 → 2 pts)
-        score = _score_deal_rarity(0.80, False, cfg)
+        score = _score_deal_rarity(0.80, False, cfg, weeks_observed=10)
         assert score == cfg["deal_rarity"]["freq_brackets"][-1]["pts"]
 
     def test_exclusive_bonus_already_at_max_stays_capped(self, cfg):
         # freq=0.05 already gives 20 pts; +3 exclusive bonus is capped at max_pts (20)
-        score_base = _score_deal_rarity(0.05, False, cfg)
-        score_excl = _score_deal_rarity(0.05, True, cfg)
+        score_base = _score_deal_rarity(0.05, False, cfg, weeks_observed=10, match_tier="strict")
+        score_excl = _score_deal_rarity(0.05, True, cfg, weeks_observed=10, match_tier="strict")
         assert score_base == cfg["deal_rarity"]["max_pts"]
         assert score_excl == cfg["deal_rarity"]["max_pts"]
+
+    # ── New: thin-history dampening ──────────────────────────────────────────
+
+    def test_rarity_dampened_thin_history(self, cfg):
+        # 1 week observed, freq<0.10 → raw=20, but blended toward cold=10
+        # factor = 1/8 = 0.125 → round(20*0.125 + 10*0.875) = round(2.5+8.75) = round(11.25) = 11
+        score = _score_deal_rarity(0.05, False, cfg, weeks_observed=1)
+        cold = cfg["deal_rarity"]["cold_start_pts"]
+        max_pts = cfg["deal_rarity"]["max_pts"]
+        assert cold < score < max_pts, f"Expected {cold} < {score} < {max_pts}"
+
+    def test_rarity_full_weight_mature_history(self, cfg):
+        # 8+ weeks observed → no dampening, full bracket score
+        score_mature = _score_deal_rarity(0.05, False, cfg, weeks_observed=8)
+        score_more   = _score_deal_rarity(0.05, False, cfg, weeks_observed=20)
+        assert score_mature == 20
+        assert score_more == 20
+
+    def test_rarity_no_weeks_observed_uses_full_weight(self, cfg):
+        # weeks_observed=None means we have a freq but no obs count → no dampening
+        score = _score_deal_rarity(0.05, False, cfg, weeks_observed=None)
+        assert score == 20
+
+    # ── New: exclusivity match-tier gate ─────────────────────────────────────
+
+    def test_exclusivity_bonus_blocked_for_category_match(self, cfg):
+        # match_tier='category' → exclusivity cannot be verified, bonus blocked
+        score_no_bonus = _score_deal_rarity(0.05, False, cfg, weeks_observed=10, match_tier="strict")
+        score_category = _score_deal_rarity(0.05, True, cfg, weeks_observed=10, match_tier="category")
+        assert score_category == score_no_bonus  # same as non-exclusive
+
+    def test_exclusivity_bonus_awarded_for_strict_match(self, cfg):
+        base = _score_deal_rarity(0.25, False, cfg, weeks_observed=10, match_tier="strict")
+        excl = _score_deal_rarity(0.25, True, cfg, weeks_observed=10, match_tier="strict")
+        assert excl == min(
+            cfg["deal_rarity"]["max_pts"],
+            base + cfg["deal_rarity"]["cross_chain_exclusive_bonus"],
+        )
+
+    def test_exclusivity_bonus_awarded_for_probable_match(self, cfg):
+        base = _score_deal_rarity(0.25, False, cfg, weeks_observed=10, match_tier="probable")
+        excl = _score_deal_rarity(0.25, True, cfg, weeks_observed=10, match_tier="probable")
+        assert excl == min(
+            cfg["deal_rarity"]["max_pts"],
+            base + cfg["deal_rarity"]["cross_chain_exclusive_bonus"],
+        )
+
+    def test_exclusivity_bonus_blocked_for_none_match_tier(self, cfg):
+        # match_tier=None (unknown) → bonus blocked
+        base = _score_deal_rarity(0.25, False, cfg, weeks_observed=10, match_tier=None)
+        excl = _score_deal_rarity(0.25, True, cfg, weeks_observed=10, match_tier=None)
+        assert excl == base
 
 
 # ── Component 3: Item Essentiality ────────────────────────────────────────────

@@ -3,16 +3,21 @@
  * Used in DealCard and CategoryFilter.
  */
 export const CATEGORY_ICONS = {
-  'Produce':         '🥦',
-  'Meat':            '🥩',
-  'Seafood':         '🐟',
-  'Dairy & Eggs':    '🥛',
-  'Bakery & Bread':  '🍞',
-  'Pantry':          '🫙',
-  'Beverages':       '☕',
-  'Snacks':          '🍿',
-  'Frozen':          '❄️',
-  'Deli & Prepared': '🥪',
+  'Produce':                      '🥦',
+  'Meat & Seafood':               '🥩',
+  'Dairy & Eggs':                 '🥛',
+  'Bakery':                       '🍞',
+  'Pantry':                       '🫙',
+  'Beverages':                    '☕',
+  'Snacks & Confectionery':       '🍿',
+  'Frozen':                       '❄️',
+  'Deli & Prepared Foods':        '🥪',
+  'Health & Beauty':              '💊',
+  'Household':                    '🏠',
+  'Pet':                          '🐾',
+  'Baby & Infant':                '👶',
+  'Apparel & General Merchandise':'👕',
+  'Other':                        '📦',
 }
 
 export function categoryIcon(name) {

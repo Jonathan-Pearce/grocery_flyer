@@ -9,6 +9,7 @@ export const useDealsStore = defineStore('deals', () => {
   const error = ref(null)
   const activeCategory = ref(null)
   const activeTier = ref(null) // null | 'good' | 'hot'
+  const searchQuery = ref('')
 
   async function loadDeals() {
     if (rawDeals.value.length > 0) return
@@ -17,11 +18,20 @@ export const useDealsStore = defineStore('deals', () => {
     const base = import.meta.env.BASE_URL
     try {
       const [dealsRes, regionsRes] = await Promise.all([
-        fetch(`${base}data/active_scores.json`),
+        fetch(`${base}data/active_scores.json.gz`),
         fetch(`${base}data/flyer_regions.json`),
       ])
       if (!dealsRes.ok) throw new Error('Failed to load deal data')
-      rawDeals.value = await dealsRes.json()
+      // Vite dev server auto-decompresses .gz and sets Content-Encoding: gzip,
+      // so the body is already plain JSON. In production (GitHub Pages / nginx
+      // without gzip_static), raw bytes are delivered and we decompress manually.
+      const enc = dealsRes.headers.get('content-encoding') || ''
+      if (enc.includes('gzip')) {
+        rawDeals.value = await dealsRes.json()
+      } else {
+        const ds = new DecompressionStream('gzip')
+        rawDeals.value = await new Response(dealsRes.body.pipeThrough(ds)).json()
+      }
       if (regionsRes.ok) flyerRegions.value = await regionsRes.json()
     } catch (err) {
       error.value = err.message
@@ -88,7 +98,15 @@ export const useDealsStore = defineStore('deals', () => {
         if (activeTier.value === 'good') return s >= 65
         return true
       })
+      .filter(d => {
+        const q = searchQuery.value.trim().toLowerCase()
+        if (!q) return true
+        return (d.name_en ?? '').toLowerCase().includes(q) ||
+               (d.name_fr ?? '').toLowerCase().includes(q) ||
+               (d.brand  ?? '').toLowerCase().includes(q)
+      })
       .sort((a, b) => (b.deal_score ?? 0) - (a.deal_score ?? 0))
+      .slice(0, searchQuery.value.trim() ? Infinity : 50)
   })
 
   const categories = computed(() => {
@@ -116,8 +134,12 @@ export const useDealsStore = defineStore('deals', () => {
     activeTier.value = activeTier.value === tier ? null : tier
   }
 
+  function setSearch(q) {
+    searchQuery.value = q
+  }
+
   return {
-    rawDeals, flyerRegions, isLoading, error, activeCategory, activeTier,
-    loadDeals, filteredDeals, categories, setCategory, setTier,
+    rawDeals, flyerRegions, isLoading, error, activeCategory, activeTier, searchQuery,
+    loadDeals, filteredDeals, categories, setCategory, setTier, setSearch,
   }
 })
