@@ -6,11 +6,13 @@ Usage:
     python scripts/export_frontend_data.py [--geo-only] [--scores-only]
 
 Outputs:
-    frontend/public/data/active_scores.json   — scored deals (requires pandas)
-    frontend/public/data/stores_geo.json      — store locations
-    frontend/public/data/flyer_regions.json   — regional flyer groupings
+    frontend/public/data/active_scores.json     — scored deals (requires pandas)
+    frontend/public/data/stores_geo.json        — store locations
+    frontend/public/data/flyer_regions.json     — regional flyer groupings
+    frontend/public/data/postal_centroids.json  — FSA → [lat, lon] for offline geocoding
 """
 import argparse
+import csv
 import sys
 import json
 from pathlib import Path
@@ -22,6 +24,9 @@ GEO_PATH         = Path("data/stores_geo.parquet")
 GEO_OUT_PATH     = Path("frontend/public/data/stores_geo.json")
 REGIONS_PATH     = Path("data/flyer_regions.parquet")
 REGIONS_OUT_PATH = Path("frontend/public/data/flyer_regions.json")
+
+GEONAMES_PATH         = Path("data/geonames_ca_cache.tsv")
+CENTROIDS_OUT_PATH    = Path("frontend/public/data/postal_centroids.json")
 
 KEEP_FIELDS = [
     "flyer_id", "sku", "store_chain", "store_id",
@@ -127,6 +132,63 @@ def export_flyer_regions() -> None:
     print(f"  regions with multi-flyer stores: {multi_count:,}")
 
 
+def export_postal_centroids() -> None:
+    """Build FSA → [lat, lon] map from geonames_ca_cache.tsv for offline geocoding.
+
+    The GeoNames Canada file has one row per full postal code (A1A 1A1 format),
+    with tab-separated columns:
+        0: country_code
+        1: postal_code   (e.g. "T0A" for FSA-only rows, or full postal)
+        2: place_name
+        3: state_name
+        4: state_code    (province abbrev)
+        9: latitude
+        10: longitude
+
+    We average all rows sharing the same 3-char FSA prefix and emit:
+        {"M5V": [43.649, -79.394], ...}
+    """
+    if not GEONAMES_PATH.exists():
+        print(f"WARNING: {GEONAMES_PATH} not found — skipping postal_centroids export", file=sys.stderr)
+        return
+
+    print(f"Reading {GEONAMES_PATH}…")
+    fsa_lats: dict[str, list[float]] = {}
+    fsa_lons: dict[str, list[float]] = {}
+
+    with open(GEONAMES_PATH, encoding="utf-8", newline="") as f:
+        reader = csv.reader(f, delimiter="\t")
+        for row in reader:
+            if len(row) < 11:
+                continue
+            postal = row[1].strip().upper().replace(" ", "")
+            fsa = postal[:3]
+            if len(fsa) != 3:
+                continue
+            try:
+                lat = float(row[9])
+                lon = float(row[10])
+            except ValueError:
+                continue
+            fsa_lats.setdefault(fsa, []).append(lat)
+            fsa_lons.setdefault(fsa, []).append(lon)
+
+    centroids: dict[str, list[float]] = {}
+    for fsa in fsa_lats:
+        lats = fsa_lats[fsa]
+        lons = fsa_lons[fsa]
+        centroids[fsa] = [
+            round(sum(lats) / len(lats), 5),
+            round(sum(lons) / len(lons), 5),
+        ]
+
+    CENTROIDS_OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
+    with open(CENTROIDS_OUT_PATH, "w", encoding="utf-8") as f:
+        json.dump(centroids, f, ensure_ascii=False, separators=(",", ":"))
+
+    print(f"✓ Exported {len(centroids):,} FSA centroids → {CENTROIDS_OUT_PATH}")
+
+
 # ── CLI ───────────────────────────────────────────────────────────────────────
 
 def main():
@@ -144,6 +206,7 @@ def main():
     if run_geo:
         export_stores_geo()
         export_flyer_regions()
+        export_postal_centroids()
 
 
 def _export_scores() -> None:

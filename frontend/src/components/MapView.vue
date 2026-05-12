@@ -5,7 +5,8 @@ import { useGeocoding } from '@/composables/useGeocoding.js'
 import { useStores } from '@/composables/useStores.js'
 
 const props = defineProps({
-  postalCode: { type: String, default: '' }
+  postalCode: { type: String, default: '' },
+  radiusKm:   { type: Number, default: 25 },
 })
 
 const user = useUserStore()
@@ -16,9 +17,9 @@ const mapEl = ref(null)
 let map = null
 let marker = null
 let storeLayerGroup = null
+let radiusCircle = null
 
 async function initMap(coords) {
-  // Lazy-import Leaflet so it only loads when map mounts
   const L = (await import('leaflet')).default
 
   if (!map) {
@@ -48,14 +49,27 @@ async function initMap(coords) {
   if (marker) marker.remove()
   marker = L.marker([coords.lat, coords.lng], { icon }).addTo(map)
 
+  drawRadiusCircle(L, coords, props.radiusKm)
   await addStoreMarkers(L, coords)
+}
+
+function drawRadiusCircle(L, coords, km) {
+  if (radiusCircle) radiusCircle.remove()
+  radiusCircle = L.circle([coords.lat, coords.lng], {
+    radius: km * 1000,
+    color: '#f0a500',
+    weight: 2,
+    opacity: 0.85,
+    fillColor: '#f0a500',
+    fillOpacity: 0.08,
+  }).addTo(map)
 }
 
 async function addStoreMarkers(L, coords) {
   if (!storeLayerGroup) return
   storeLayerGroup.clearLayers()
 
-  const stores = await nearbyStores(coords.lat, coords.lng, 50)
+  const stores = await nearbyStores(coords.lat, coords.lng, 75)
 
   const storeIcon = L.divIcon({
     html: `<div class="store-dot"></div>`,
@@ -91,6 +105,14 @@ onMounted(async () => {
 
 watch(() => props.postalCode, (code) => {
   if (code) handlePostalCode(code)
+})
+
+// Update the radius circle when the slider moves
+watch(() => props.radiusKm, (km) => {
+  if (!map || !user.latlng) return
+  if (radiusCircle) {
+    radiusCircle.setRadius(km * 1000)
+  }
 })
 
 onUnmounted(() => {
