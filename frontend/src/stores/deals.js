@@ -11,26 +11,51 @@ export const useDealsStore = defineStore('deals', () => {
   const activeTier = ref(null) // null | 'good' | 'hot'
   const searchQuery = ref('')
 
+  async function parseDealsResponse(response) {
+    const enc = response.headers.get('content-encoding') || ''
+    if (enc.includes('gzip')) {
+      return response.json()
+    }
+
+    // In static hosting, .gz files are often served as raw bytes.
+    if (typeof DecompressionStream !== 'undefined' && response.body) {
+      try {
+        const ds = new DecompressionStream('gzip')
+        return await new Response(response.body.pipeThrough(ds)).json()
+      } catch {
+        // Fall through to plain JSON parsing for already-decoded responses.
+      }
+    }
+
+    return response.json()
+  }
+
   async function loadDeals() {
     if (rawDeals.value.length > 0) return
     isLoading.value = true
     error.value = null
     const base = import.meta.env.BASE_URL
     try {
-      const [dealsRes, regionsRes] = await Promise.all([
-        fetch(`${base}data/active_scores.json.gz`),
+      const dealsGzPath = `${base}data/active_scores.json.gz`
+      const dealsJsonPath = `${base}data/active_scores.json`
+      const [initialDealsRes, regionsRes] = await Promise.all([
+        fetch(dealsGzPath),
         fetch(`${base}data/flyer_regions.json`),
       ])
+
+      let dealsRes = initialDealsRes
+      if (!dealsRes.ok) {
+        dealsRes = await fetch(dealsJsonPath)
+      }
       if (!dealsRes.ok) throw new Error('Failed to load deal data')
-      // Vite dev server auto-decompresses .gz and sets Content-Encoding: gzip,
-      // so the body is already plain JSON. In production (GitHub Pages / nginx
-      // without gzip_static), raw bytes are delivered and we decompress manually.
-      const enc = dealsRes.headers.get('content-encoding') || ''
-      if (enc.includes('gzip')) {
-        rawDeals.value = await dealsRes.json()
-      } else {
-        const ds = new DecompressionStream('gzip')
-        rawDeals.value = await new Response(dealsRes.body.pipeThrough(ds)).json()
+
+      try {
+        rawDeals.value = await parseDealsResponse(dealsRes)
+      } catch {
+        // Browser may not support DecompressionStream for raw .gz payloads.
+        const fallbackRes = await fetch(dealsJsonPath)
+        if (!fallbackRes.ok) throw new Error('Failed to load deal data')
+        rawDeals.value = await fallbackRes.json()
       }
       if (regionsRes.ok) flyerRegions.value = await regionsRes.json()
     } catch (err) {
