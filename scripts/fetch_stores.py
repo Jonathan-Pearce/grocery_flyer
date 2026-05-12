@@ -1,6 +1,6 @@
 """
 Scan store codes/IDs for all portfolio brands and merge results into
-data/<folder>/stores.json.
+data/<folder>/stores.parquet.
 
 Portfolios:
   loblaws   — Flipp API store-code sweep

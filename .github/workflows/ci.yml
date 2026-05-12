@@ -31,10 +31,19 @@ jobs:
           pip install -r requirements-dev.txt
 
       - name: Syntax check
-        run: python -m py_compile fetchers/flipp.py fetchers/azure.py scripts/fetch_flyers.py scripts/fetch_stores.py
+        run: |
+          python -m py_compile \
+            fetchers/*.py \
+            pipeline/*.py \
+            parsers/*.py \
+            scripts/*.py
 
       - name: Lint with ruff
         run: ruff check --ignore E501 .
 
+      - name: Type check with mypy (non-blocking baseline)
+        continue-on-error: true
+        run: mypy --config-file mypy.ini fetchers pipeline parsers scripts
+
       - name: Run tests
-        run: pytest tests/ -v --tb=short
+        run: pytest tests/ -v --tb=short --cov=fetchers --cov=pipeline --cov=parsers --cov=scripts --cov-report=term-missing

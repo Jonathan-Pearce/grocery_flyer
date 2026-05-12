@@ -26,7 +26,7 @@ Usage::
 
 from __future__ import annotations
 
-from typing import Any
+from typing import Any, Literal
 
 from pipeline.schema import FlyerItem
 
@@ -111,7 +111,7 @@ def normalize_metro_product(
 
     # ── Language detection ────────────────────────────────────────────────────
     if product_en and product_fr:
-        language: str | None = "bil"
+        language: Literal["en", "fr", "bil"] | None = "bil"
     elif product_fr and not product_en:
         language = "fr"
     else:
