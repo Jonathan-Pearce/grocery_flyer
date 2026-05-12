@@ -8,6 +8,7 @@ export const useDealsStore = defineStore('deals', () => {
   const isLoading = ref(false)
   const error = ref(null)
   const activeCategory = ref(null)
+  const activeTier = ref(null) // null | 'good' | 'hot'
 
   async function loadDeals() {
     if (rawDeals.value.length > 0) return
@@ -80,6 +81,13 @@ export const useDealsStore = defineStore('deals', () => {
         return selectedChains.has(d.store_chain)
       })
       .filter(d => !activeCategory.value || d.category_l1 === activeCategory.value)
+      .filter(d => {
+        if (!activeTier.value) return true
+        const s = d.deal_score ?? 0
+        if (activeTier.value === 'hot')  return s >= 80
+        if (activeTier.value === 'good') return s >= 65
+        return true
+      })
       .sort((a, b) => (b.deal_score ?? 0) - (a.deal_score ?? 0))
   })
 
@@ -104,8 +112,12 @@ export const useDealsStore = defineStore('deals', () => {
     activeCategory.value = cat === activeCategory.value ? null : cat
   }
 
+  function setTier(tier) {
+    activeTier.value = activeTier.value === tier ? null : tier
+  }
+
   return {
-    rawDeals, flyerRegions, isLoading, error, activeCategory,
-    loadDeals, filteredDeals, categories, setCategory,
+    rawDeals, flyerRegions, isLoading, error, activeCategory, activeTier,
+    loadDeals, filteredDeals, categories, setCategory, setTier,
   }
 })

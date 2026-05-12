@@ -1,6 +1,7 @@
 <script setup>
 import { computed } from 'vue'
 import { categoryIcon } from '@/utils/categoryIcons.js'
+import ChainTag from './ChainTag.vue'
 
 const props = defineProps({
   deal: { type: Object, required: true },
@@ -51,13 +52,7 @@ function promoLabel(type) {
   >
     <div class="card-body">
       <div class="card-meta">
-        <span class="chain-tag">{{ deal.store_chain?.replace(/_/g, ' ') }}</span>
-        <span class="meta-sep" aria-hidden="true">·</span>
-        <span v-if="deal.category_l1" class="cat-tag">
-          <span v-if="categoryIcon(deal.category_l1)" class="cat-icon" aria-hidden="true">{{ categoryIcon(deal.category_l1) }}</span>{{ deal.category_l1 }}
-        </span>
-        <span v-if="promoLabel(deal.promo_type)" class="meta-sep" aria-hidden="true">·</span>
-        <span v-if="promoLabel(deal.promo_type)" class="promo-tag">{{ promoLabel(deal.promo_type) }}</span>
+        <ChainTag :chain="deal.store_chain" />
       </div>
 
       <h3 class="product-name">{{ deal.name_en || deal.name_fr || 'Unknown Product' }}</h3>
@@ -67,9 +62,6 @@ function promoLabel(type) {
         <span v-if="deal.regular_price && deal.regular_price > deal.sale_price" class="reg-price">
           {{ formatPrice(deal.regular_price) }}
         </span>
-        <span v-if="discountPct(deal)" class="discount-badge">
-          −{{ discountPct(deal) }}%
-        </span>
         <span v-if="deal.price_unit && deal.price_unit !== 'ea'" class="price-unit">
           / {{ deal.price_unit }}
         </span>
@@ -78,9 +70,10 @@ function promoLabel(type) {
     </div>
 
     <div class="card-right">
-      <div v-if="deal.confidence_label" class="confidence-badge" :class="deal.confidence_label.toLowerCase()">
-        {{ deal.confidence_label }}
-      </div>
+      <span v-if="deal.category_l1" class="right-category">
+        <span v-if="categoryIcon(deal.category_l1)" class="cat-icon" aria-hidden="true">{{ categoryIcon(deal.category_l1) }}</span>{{ deal.category_l1 }}
+      </span>
+      <span v-if="discountPct(deal)" class="right-discount">−{{ discountPct(deal) }}%</span>
       <div v-if="deal.flyer_valid_to" class="validity">
         <span class="valid-label">Until</span>
         <span class="valid-date">{{ formatDate(deal.flyer_valid_to) }}</span>
@@ -99,7 +92,7 @@ function promoLabel(type) {
   border: 1px solid var(--c-border);
   border-left: 3px solid transparent;
   border-radius: 4px;
-  padding: 18px var(--space-lg);
+  padding: 14px 16px;
   animation: card-in 0.5s both ease-out;
   transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
   cursor: default;
@@ -153,38 +146,6 @@ function promoLabel(type) {
   opacity: 0.7;
 }
 
-.meta-sep {
-  color: var(--c-muted);
-  font-size: 0.75rem;
-  line-height: 1;
-  user-select: none;
-}
-
-.cat-tag {
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-  font-family: var(--font-body);
-  font-size: 0.72rem;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: rgba(244, 239, 224, 0.65);
-}
-
-.cat-icon {
-  font-style: normal;
-  font-size: 0.85em;
-  letter-spacing: 0;
-}
-
-.promo-tag {
-  font-family: var(--font-body);
-  font-size: 0.72rem;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: rgba(244, 239, 224, 0.65);
-}
-
 /* Product name ------------------------------------------------ */
 .product-name {
   font-family: var(--font-display);
@@ -223,18 +184,6 @@ function promoLabel(type) {
   text-decoration: line-through;
 }
 
-.discount-badge {
-  font-family: var(--font-body);
-  font-size: 0.78rem;
-  font-weight: 600;
-  color: #e05c4b;
-  background: rgba(224, 92, 75, 0.12);
-  border: 1px solid rgba(224, 92, 75, 0.35);
-  border-radius: 2px;
-  padding: 1px 7px;
-  letter-spacing: 0.03em;
-}
-
 .price-unit {
   font-family: var(--font-body);
   font-size: 0.78rem;
@@ -254,36 +203,27 @@ function promoLabel(type) {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  gap: 10px;
-  min-width: 72px;
+  gap: 6px;
+  min-width: 80px;
 }
 
-.confidence-badge {
+.right-category {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
   font-family: var(--font-body);
-  font-size: 0.67rem;
-  font-weight: 600;
-  letter-spacing: 0.1em;
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
-  border-radius: 2px;
-  padding: 3px 9px;
-  border: 1px solid;
+  color: rgba(244, 239, 224, 0.65);
 }
 
-.confidence-badge.high {
-  color: #3fc87a;
-  border-color: rgba(63, 200, 122, 0.45);
-  background: rgba(63, 200, 122, 0.09);
-}
-
-.confidence-badge.medium {
-  color: #f0a500;
-  border-color: rgba(240, 165, 0, 0.4);
-  background: rgba(240, 165, 0, 0.08);
-}
-
-.confidence-badge.low {
-  color: rgba(244, 239, 224, 0.4);
-  border-color: rgba(244, 239, 224, 0.15);
+.right-discount {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #e05c4b;
+  letter-spacing: 0.03em;
 }
 
 .validity {

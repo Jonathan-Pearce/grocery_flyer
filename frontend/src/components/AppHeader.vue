@@ -2,6 +2,7 @@
 import { useRouter, useRoute } from 'vue-router'
 import { useUserStore } from '@/stores/user.js'
 import { computed } from 'vue'
+import ChainTag from './ChainTag.vue'
 
 const router = useRouter()
 const route = useRoute()
@@ -9,10 +10,10 @@ const user = useUserStore()
 
 const onDealsPage = computed(() => route.name === 'deals')
 
-const selectedChainNames = computed(() => {
+const selectedChainSlugs = computed(() => {
   const chains = new Set()
   for (const key of user.selectedStoreCodes) {
-    chains.add(key.split(':')[0].replace(/_/g, ' '))
+    chains.add(key.split(':')[0])
   }
   return [...chains].sort()
 })
@@ -31,11 +32,11 @@ function goHome() {
       </button>
 
       <div v-if="onDealsPage && user.hasStores" class="header-chains">
-        <span
-          v-for="name in selectedChainNames"
-          :key="name"
-          class="chain-chip"
-        >{{ name }}</span>
+        <ChainTag
+          v-for="slug in selectedChainSlugs"
+          :key="slug"
+          :chain="slug"
+        />
         <button class="change-btn" @click="goHome">← Change Stores</button>
       </div>
     </div>
@@ -97,18 +98,6 @@ function goHome() {
   gap: 8px;
   flex-wrap: wrap;
   flex: 1;
-}
-
-.chain-chip {
-  font-family: var(--font-body);
-  font-size: 0.7rem;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--c-ivory);
-  border: 1px solid var(--c-border);
-  border-radius: 2px;
-  padding: 2px 8px;
-  opacity: 0.7;
 }
 
 .change-btn {
