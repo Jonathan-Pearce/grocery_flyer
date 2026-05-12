@@ -6,6 +6,7 @@ Usage:
     python scripts/export_frontend_data.py [--geo-only] [--scores-only] [--rankings-only]
 
 Outputs:
+    frontend/public/data/active_scores.json     — scored deals (plain JSON)
     frontend/public/data/active_scores.json.gz  — scored deals (gzip-compressed JSON)
     frontend/public/data/stores_geo.json        — store locations
     frontend/public/data/flyer_regions.json     — regional flyer groupings
@@ -21,7 +22,8 @@ import json
 from pathlib import Path
 
 SCORES_PATH = Path("db/scores/active_scores.parquet")
-OUT_PATH = Path("frontend/public/data/active_scores.json.gz")
+OUT_JSON_PATH = Path("frontend/public/data/active_scores.json")
+OUT_GZ_PATH = Path("frontend/public/data/active_scores.json.gz")
 
 GEO_PATH         = Path("data/stores_geo.parquet")
 GEO_OUT_PATH     = Path("frontend/public/data/stores_geo.json")
@@ -296,7 +298,7 @@ def main():
 
 
 def _export_scores() -> None:
-    """Export db/scores/active_scores.parquet → frontend/public/data/active_scores.json.gz."""
+    """Export db/scores/active_scores.parquet → frontend/public/data/active_scores.json(.gz)."""
     try:
         import pyarrow.parquet as pq
     except ImportError:
@@ -346,12 +348,18 @@ def _export_scores() -> None:
     # Sort best deals first
     out.sort(key=lambda r: r.get("deal_score") or 0, reverse=True)
 
-    OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
-    with gzip.open(OUT_PATH, "wt", encoding="utf-8") as f:
+    OUT_GZ_PATH.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUT_JSON_PATH, "w", encoding="utf-8") as f:
+        json.dump(out, f, ensure_ascii=False, separators=(",", ":"))
+    with gzip.open(OUT_GZ_PATH, "wt", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, separators=(",", ":"))
 
-    size_mb = OUT_PATH.stat().st_size / 1_048_576
-    print(f"✓ Exported {len(out):,} deals → {OUT_PATH} ({size_mb:.1f} MB gzipped)")
+    size_json_mb = OUT_JSON_PATH.stat().st_size / 1_048_576
+    size_gz_mb = OUT_GZ_PATH.stat().st_size / 1_048_576
+    print(
+        f"✓ Exported {len(out):,} deals → {OUT_JSON_PATH} ({size_json_mb:.1f} MB), "
+        f"{OUT_GZ_PATH} ({size_gz_mb:.1f} MB gzipped)"
+    )
 
 
 if __name__ == "__main__":
