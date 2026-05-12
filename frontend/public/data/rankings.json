@@ -1,0 +1,14 @@
+{
+  "chains": [
+    {"rank":1,"store_chain":"loblaws","flyer_count":1,"item_count":142,"hot_count":32,"hot_ratio":0.2254,"avg_flyer_grade":74.3,"letter_grade":"B","week_label":"2026-W20"},
+    {"rank":2,"store_chain":"nofrills","flyer_count":1,"item_count":98,"hot_count":22,"hot_ratio":0.2245,"avg_flyer_grade":71.8,"letter_grade":"B","week_label":"2026-W20"},
+    {"rank":3,"store_chain":"metro","flyer_count":2,"item_count":210,"hot_count":40,"hot_ratio":0.1905,"avg_flyer_grade":68.4,"letter_grade":"B","week_label":"2026-W20"},
+    {"rank":4,"store_chain":"food_basics","flyer_count":1,"item_count":87,"hot_count":14,"hot_ratio":0.1609,"avg_flyer_grade":61.2,"letter_grade":"B","week_label":"2026-W20"},
+    {"rank":5,"store_chain":"sobeys","flyer_count":1,"item_count":115,"hot_count":16,"hot_ratio":0.1391,"avg_flyer_grade":58.7,"letter_grade":"C","week_label":"2026-W20"},
+    {"rank":6,"store_chain":"walmart","flyer_count":1,"item_count":203,"hot_count":22,"hot_ratio":0.1084,"avg_flyer_grade":55.1,"letter_grade":"C","week_label":"2026-W20"},
+    {"rank":7,"store_chain":"freshco","flyer_count":1,"item_count":76,"hot_count":8,"hot_ratio":0.1053,"avg_flyer_grade":49.3,"letter_grade":"C","week_label":"2026-W20"}
+  ],
+  "flyers": [
+    {"flyer_id":"FL001","store_chain":"loblaws","flyer_valid_from":"2026-05-08","flyer_valid_to":"2026-05-14","item_count":142,"hot_count":32,"good_count":58,"avg_score":68.2,"top10_avg":89.4,"hot_ratio":0.2254,"flyer_grade":74.3,"letter_grade":"B","week_label":"2026-W20"}
+  ]
+}

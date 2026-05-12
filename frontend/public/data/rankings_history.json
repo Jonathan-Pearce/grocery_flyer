@@ -1,0 +1,22 @@
+[
+  {
+    "week_label":"2026-W20",
+    "chains":[
+      {"rank":1,"store_chain":"loblaws","flyer_count":1,"item_count":142,"hot_count":32,"hot_ratio":0.2254,"avg_flyer_grade":74.3,"letter_grade":"B","week_label":"2026-W20"},
+      {"rank":2,"store_chain":"nofrills","flyer_count":1,"item_count":98,"hot_count":22,"hot_ratio":0.2245,"avg_flyer_grade":71.8,"letter_grade":"B","week_label":"2026-W20"},
+      {"rank":3,"store_chain":"metro","flyer_count":2,"item_count":210,"hot_count":40,"hot_ratio":0.1905,"avg_flyer_grade":68.4,"letter_grade":"B","week_label":"2026-W20"},
+      {"rank":4,"store_chain":"food_basics","flyer_count":1,"item_count":87,"hot_count":14,"hot_ratio":0.1609,"avg_flyer_grade":61.2,"letter_grade":"B","week_label":"2026-W20"},
+      {"rank":5,"store_chain":"sobeys","flyer_count":1,"item_count":115,"hot_count":16,"hot_ratio":0.1391,"avg_flyer_grade":58.7,"letter_grade":"C","week_label":"2026-W20"}
+    ]
+  },
+  {
+    "week_label":"2026-W19",
+    "chains":[
+      {"rank":1,"store_chain":"nofrills","flyer_count":1,"item_count":95,"hot_count":28,"hot_ratio":0.2947,"avg_flyer_grade":79.1,"letter_grade":"A","week_label":"2026-W19"},
+      {"rank":2,"store_chain":"metro","flyer_count":2,"item_count":200,"hot_count":36,"hot_ratio":0.18,"avg_flyer_grade":70.5,"letter_grade":"B","week_label":"2026-W19"},
+      {"rank":3,"store_chain":"loblaws","flyer_count":1,"item_count":138,"hot_count":25,"hot_ratio":0.1812,"avg_flyer_grade":68.9,"letter_grade":"B","week_label":"2026-W19"},
+      {"rank":4,"store_chain":"sobeys","flyer_count":1,"item_count":108,"hot_count":18,"hot_ratio":0.1667,"avg_flyer_grade":63.4,"letter_grade":"B","week_label":"2026-W19"},
+      {"rank":5,"store_chain":"food_basics","flyer_count":1,"item_count":82,"hot_count":10,"hot_ratio":0.122,"avg_flyer_grade":54.8,"letter_grade":"C","week_label":"2026-W19"}
+    ]
+  }
+]
