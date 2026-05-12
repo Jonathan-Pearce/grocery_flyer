@@ -152,7 +152,7 @@ def _best_name_match(
         return None
 
     db_tokens = set(norm_db.split())
-    best_score = 0
+    best_score = 0.0
     best = None
 
     for ws in web_stores:
@@ -591,9 +591,15 @@ def _nominatim_geocode_batch(rows: list[dict], verbose: bool = True) -> int:
         # Live Nominatim request — exponential backoff on 429
         for attempt in range(5):
             try:
+                params: dict[str, str | int] = {
+                    "q": key,
+                    "format": "json",
+                    "limit": 1,
+                    "countrycodes": "ca",
+                }
                 resp = requests.get(
                     NOMINATIM_URL,
-                    params={"q": key, "format": "json", "limit": 1, "countrycodes": "ca"},
+                    params=params,
                     headers={"User-Agent": NOMINATIM_UA},
                     timeout=15,
                 )

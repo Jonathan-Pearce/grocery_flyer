@@ -9,7 +9,7 @@ Portfolios:
 
 For each brand:
   Phase 1 — fetch active publications/flyers per store, merge into
-             data/<folder>/store_flyers.json  (append-only, no duplicates)
+                         data/<folder>/store_flyers.parquet  (append-only, no duplicates)
   Phase 2 — download products for each new publication/flyer and append to
              data/<folder>/flyers.parquet      (skip if flyer_id already present)
 

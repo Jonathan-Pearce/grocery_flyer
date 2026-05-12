@@ -94,7 +94,7 @@ class FlippLogger:
 
 # ── HTTP helpers ──────────────────────────────────────────────────────────────
 
-def get(url: str, params: dict) -> list | dict | None:
+def get(url: str, params: dict[str, str | int | float | None]) -> list | dict | None:
     """GET request returning parsed JSON, or None on any error."""
     try:
         resp = requests.get(url, params=params, timeout=10)
@@ -114,9 +114,14 @@ def get(url: str, params: dict) -> list | dict | None:
 def fetch_store(brand: Brand, code: int) -> dict | None:
     """Return store JSON for a valid store code, or None if not found."""
     try:
+        params: dict[str, str | int] = {
+            "locale": "en",
+            "access_token": brand.access_token,
+            "store_code": code,
+        }
         resp = requests.get(
             f"{FLIPP_BASE}/store/{brand.slug}",
-            params={"locale": "en", "access_token": brand.access_token, "store_code": code},
+            params=params,
             timeout=10,
         )
     except requests.RequestException as exc:

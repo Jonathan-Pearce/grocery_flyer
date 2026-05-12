@@ -1,6 +1,6 @@
 # grocery_flyer
 
-Fetches and archives weekly grocery flyers from 25 Canadian supermarket chains, saving product data as structured JSON files.
+Fetches and archives weekly grocery flyers from 25 Canadian supermarket chains, saving product data as structured Parquet datasets.
 
 ## Stores
 
@@ -63,7 +63,7 @@ python -m scripts.fetch_flyers --portfolio metro --brand food_basics
 python -m scripts.fetch_flyers --portfolio loblaws --brand nofrills
 ```
 
-Run `scripts/fetch_stores.py` first for any new brand to populate `data/<folder>/stores.json` before fetching flyers.
+Run `scripts/fetch_stores.py` first for any new brand to populate `data/<folder>/stores.parquet` before fetching flyers.
 
 ```bash
 python -m scripts.fetch_stores                                         # all portfolios
@@ -71,6 +71,15 @@ python -m scripts.fetch_stores --portfolio loblaws                     # all Lob
 python -m scripts.fetch_stores --portfolio loblaws --brand nofrills
 python -m scripts.fetch_stores --portfolio metro --brand food_basics --start 1 --end 500
 ```
+
+## Project docs
+
+- `documentation/METRO_API.md` - Metro Digital API reference (endpoints, auth, response shapes)
+- `documentation/Stores.md` - Non-sensitive brand/source reference and secret-management guidance
+- `documentation/REPOSITORY_AUDIT.md` - Active audit tracker (scope, inventory, cleanup decisions, next steps)
+- `documentation/PIPELINE.md` - Stage-by-stage data pipeline contracts and failure modes
+- `documentation/OPERATIONS.md` - Weekly runbook and recovery procedures
+- `documentation/SCHEMA.md` - Stable data contracts for parquet and frontend exports
 
 ## Weekly workflow
 
@@ -131,13 +140,13 @@ Each brand folder under `data/` contains:
 
 ```
 data/<folder>/
-  stores.json          # All known stores for this brand (keyed by store code/ID)
-  store_flyers.json    # Accumulated flyer/publication listings per store
-  flyers/
-    <id>.json          # Full product list for a single publication or flyer job
+  stores.parquet         # Known stores (one row per store, includes raw_json)
+  store_flyers.parquet   # Accumulated flyer/publication listings per store
+  flyers.parquet         # Full product rows for every fetched flyer/publication
 ```
 
-Both `stores.json` and `store_flyers.json` are **append-only** — existing entries are never overwritten. Individual flyer files are also skipped if they already exist on disk, making every run safe to re-run.
+`stores.parquet` and `store_flyers.parquet` are append-only from an application perspective.
+`flyers.parquet` only appends rows for newly discovered flyer IDs, making runs safe to re-run.
 
 ```
 data/
@@ -165,7 +174,7 @@ Each run writes two log files under `logs/<folder>/`:
 | File | Description |
 |---|---|
 | `scripts/fetch_flyers.py` | Main entry point — fetches all stores and saves flyer products |
-| `scripts/fetch_stores.py` | Store scanner — sweeps store code/ID ranges to build `stores.json` |
+| `scripts/fetch_stores.py` | Store scanner — sweeps store code/ID ranges to build `stores.parquet` |
 | `fetchers/flipp.py` | Flipp API helpers: `Brand` dataclass, portfolio configs, HTTP utils, logger |
 | `fetchers/azure.py` | Metro Azure API helpers: `MetroBrand` dataclass, portfolio config, HTTP utils |
 | `pipeline/schema.py` | Unified `FlyerItem` output schema (Pydantic model) |
@@ -178,7 +187,7 @@ Each run writes two log files under `logs/<folder>/`:
 | `categories/` | Category harmonisation mapping (Google taxonomy + Metro) |
 | `requirements.txt` | Python dependencies (`requests`) |
 | `documentation/METRO_API.md` | Metro Digital API reference (endpoints, auth, response shapes) |
-| `documentation/Stores.md` | Raw API credential reference per brand |
+| `documentation/Stores.md` | Brand/source reference and secure credential handling notes |
 
 ## APIs
 
