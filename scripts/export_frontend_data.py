@@ -3,13 +3,15 @@
 Export pipeline data from Parquet → JSON for the frontend.
 
 Usage:
-    python scripts/export_frontend_data.py [--geo-only] [--scores-only]
+    python scripts/export_frontend_data.py [--geo-only] [--scores-only] [--rankings-only]
 
 Outputs:
     frontend/public/data/active_scores.json     — scored deals (requires pandas)
     frontend/public/data/stores_geo.json        — store locations
     frontend/public/data/flyer_regions.json     — regional flyer groupings
     frontend/public/data/postal_centroids.json  — FSA → [lat, lon] for offline geocoding
+    frontend/public/data/rankings.json          — current chain & flyer rankings
+    frontend/public/data/rankings_history.json  — historical weekly chain rankings
 """
 import argparse
 import csv
@@ -27,6 +29,13 @@ REGIONS_OUT_PATH = Path("frontend/public/data/flyer_regions.json")
 
 GEONAMES_PATH         = Path("data/geonames_ca_cache.tsv")
 CENTROIDS_OUT_PATH    = Path("frontend/public/data/postal_centroids.json")
+
+RANKINGS_DIR              = Path("db/rankings")
+CHAIN_RANKINGS_PATH       = RANKINGS_DIR / "current_chain_rankings.parquet"
+FLYER_RANKINGS_PATH       = RANKINGS_DIR / "current_flyer_rankings.parquet"
+HISTORY_PATH              = RANKINGS_DIR / "weekly_history.parquet"
+RANKINGS_OUT_PATH         = Path("frontend/public/data/rankings.json")
+RANKINGS_HISTORY_OUT_PATH = Path("frontend/public/data/rankings_history.json")
 
 KEEP_FIELDS = [
     "flyer_id", "sku", "store_chain", "store_id",
@@ -189,17 +198,88 @@ def export_postal_centroids() -> None:
     print(f"✓ Exported {len(centroids):,} FSA centroids → {CENTROIDS_OUT_PATH}")
 
 
+def export_rankings() -> None:
+    """Export current chain/flyer rankings and weekly history to JSON."""
+    try:
+        import pyarrow.parquet as pq
+    except ImportError:
+        print("ERROR: pyarrow is required.", file=sys.stderr)
+        sys.exit(1)
+
+    if not CHAIN_RANKINGS_PATH.exists() or not FLYER_RANKINGS_PATH.exists():
+        print(
+            f"ERROR: ranking files not found in {RANKINGS_DIR}.\n"
+            "Run: python -m pipeline.flyer_ranker  (or python scripts/run_rankings.py)",
+            file=sys.stderr,
+        )
+        return
+
+    # ── Current chain rankings ────────────────────────────────────────────────
+    print(f"Reading {CHAIN_RANKINGS_PATH}…")
+    chain_table = pq.read_table(str(CHAIN_RANKINGS_PATH))
+    chain_records = chain_table.to_pylist()
+
+    # ── Current flyer rankings ────────────────────────────────────────────────
+    print(f"Reading {FLYER_RANKINGS_PATH}…")
+    flyer_table = pq.read_table(str(FLYER_RANKINGS_PATH))
+    flyer_records = flyer_table.to_pylist()
+
+    # Combine into one JSON object
+    rankings_out = {
+        "chains": chain_records,
+        "flyers": flyer_records,
+    }
+
+    RANKINGS_OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
+    with open(RANKINGS_OUT_PATH, "w", encoding="utf-8") as f:
+        json.dump(rankings_out, f, ensure_ascii=False, separators=(",", ":"))
+
+    print(f"✓ Exported {len(chain_records)} chain rankings, "
+          f"{len(flyer_records)} flyer rankings → {RANKINGS_OUT_PATH}")
+
+    # ── Weekly history ────────────────────────────────────────────────────────
+    if not HISTORY_PATH.exists():
+        print(f"WARNING: {HISTORY_PATH} not found — skipping history export",
+              file=sys.stderr)
+        return
+
+    print(f"Reading {HISTORY_PATH}…")
+    hist_table = pq.read_table(str(HISTORY_PATH))
+    hist_records = hist_table.to_pylist()
+
+    # Group by week_label → sorted list of chain rows
+    weeks: dict[str, list[dict]] = {}
+    for row in hist_records:
+        wl = str(row.get("week_label") or "")
+        weeks.setdefault(wl, []).append(row)
+
+    # Sort weeks and chain rows within each week
+    history_out = []
+    for wl in sorted(weeks.keys(), reverse=True):
+        rows = sorted(weeks[wl], key=lambda r: r.get("rank", 999))
+        history_out.append({"week_label": wl, "chains": rows})
+
+    RANKINGS_HISTORY_OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
+    with open(RANKINGS_HISTORY_OUT_PATH, "w", encoding="utf-8") as f:
+        json.dump(history_out, f, ensure_ascii=False, separators=(",", ":"))
+
+    print(f"✓ Exported {len(hist_records)} history rows "
+          f"({len(history_out)} weeks) → {RANKINGS_HISTORY_OUT_PATH}")
+
+
 # ── CLI ───────────────────────────────────────────────────────────────────────
 
 def main():
     parser = argparse.ArgumentParser(description="Export pipeline data to frontend JSON")
     grp = parser.add_mutually_exclusive_group()
-    grp.add_argument("--geo-only",    action="store_true", help="Only export geo/region data")
-    grp.add_argument("--scores-only", action="store_true", help="Only export deal scores")
+    grp.add_argument("--geo-only",      action="store_true", help="Only export geo/region data")
+    grp.add_argument("--scores-only",   action="store_true", help="Only export deal scores")
+    grp.add_argument("--rankings-only", action="store_true", help="Only export rankings data")
     args = parser.parse_args()
 
-    run_scores = not args.geo_only
-    run_geo    = not args.scores_only
+    run_scores   = not args.geo_only and not args.rankings_only
+    run_geo      = not args.scores_only and not args.rankings_only
+    run_rankings = not args.geo_only and not args.scores_only
 
     if run_scores:
         _export_scores()
@@ -207,6 +287,8 @@ def main():
         export_stores_geo()
         export_flyer_regions()
         export_postal_centroids()
+    if run_rankings:
+        export_rankings()
 
 
 def _export_scores() -> None:

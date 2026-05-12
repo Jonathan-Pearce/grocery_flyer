@@ -9,6 +9,7 @@ const route = useRoute()
 const user = useUserStore()
 
 const onDealsPage = computed(() => route.name === 'deals')
+const onRankingsPage = computed(() => route.name === 'rankings')
 
 const selectedChainSlugs = computed(() => {
   const chains = new Set()
@@ -21,6 +22,10 @@ const selectedChainSlugs = computed(() => {
 function goHome() {
   router.push('/')
 }
+
+function goRankings() {
+  router.push('/rankings')
+}
 </script>
 
 <template>
@@ -30,6 +35,16 @@ function goHome() {
         <span class="logo-mark">◈</span>
         <span class="logo-text">Flyer<em>Deals</em></span>
       </button>
+
+      <nav class="header-nav">
+        <button
+          class="nav-btn"
+          :class="{ active: onRankingsPage }"
+          @click="goRankings"
+        >
+          Rankings
+        </button>
+      </nav>
 
       <div v-if="onDealsPage && user.hasStores" class="header-chains">
         <ChainTag
@@ -89,6 +104,35 @@ function goHome() {
 
 .logo-text em {
   font-style: italic;
+  color: var(--c-amber);
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.nav-btn {
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--c-muted);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 6px 10px;
+  border-radius: 2px;
+  transition: color 0.15s, background 0.15s;
+}
+
+.nav-btn:hover {
+  color: var(--c-ivory);
+  background: rgba(244, 239, 224, 0.06);
+}
+
+.nav-btn.active {
   color: var(--c-amber);
 }
 
