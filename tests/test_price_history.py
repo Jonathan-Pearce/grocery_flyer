@@ -75,6 +75,7 @@ class TestComputeRegularPrice:
             chain_no_promo_sale=[3.99],
             cross_chain_no_promo=[6.0],
             category_sale_prices=[2.0, 3.0],
+            promo_item_regular=[],
         )
         assert source == "observed"
         assert conf == 1.0
@@ -86,6 +87,7 @@ class TestComputeRegularPrice:
             chain_no_promo_sale=[3.99, 3.99, 4.29, 3.99],
             cross_chain_no_promo=[6.0],
             category_sale_prices=[2.0],
+            promo_item_regular=[],
         )
         assert source == "own_history"
         assert conf == 0.8
@@ -97,6 +99,7 @@ class TestComputeRegularPrice:
             chain_no_promo_sale=[3.99, 4.29],
             cross_chain_no_promo=[6.0],
             category_sale_prices=[2.0],
+            promo_item_regular=[],
         )
         assert source == "own_history_sparse"
         assert conf == 0.5
@@ -108,6 +111,7 @@ class TestComputeRegularPrice:
             chain_no_promo_sale=[4.99],
             cross_chain_no_promo=[],
             category_sale_prices=[],
+            promo_item_regular=[],
         )
         assert source == "own_history_sparse"
         assert conf == 0.5
@@ -118,6 +122,7 @@ class TestComputeRegularPrice:
             chain_no_promo_sale=[],
             cross_chain_no_promo=[5.0, 4.5],
             category_sale_prices=[2.0],
+            promo_item_regular=[],
         )
         assert source == "cross_chain"
         assert conf == 0.4
@@ -129,6 +134,7 @@ class TestComputeRegularPrice:
             chain_no_promo_sale=[],
             cross_chain_no_promo=[],
             category_sale_prices=[2.0, 4.0, 3.0],
+            promo_item_regular=[],
         )
         assert source == "category_median"
         assert conf == 0.2
@@ -140,6 +146,7 @@ class TestComputeRegularPrice:
             chain_no_promo_sale=[],
             cross_chain_no_promo=[],
             category_sale_prices=[],
+            promo_item_regular=[],
         )
         assert source == "none"
         assert conf == 0.0
@@ -152,20 +159,74 @@ class TestComputeRegularPrice:
             chain_no_promo_sale=[4.99, 4.99, 4.99, 4.99],
             cross_chain_no_promo=[6.0],
             category_sale_prices=[2.0, 3.0],
+            promo_item_regular=[5.99],
         )
         assert source == "observed"
 
     def test_own_history_threshold_exactly_four(self):
         # Exactly 4 rows → own_history (not sparse)
-        _, source, conf = _compute_regular_price([], [1.0, 2.0, 3.0, 4.0], [], [])
+        _, source, conf = _compute_regular_price([], [1.0, 2.0, 3.0, 4.0], [], [], [])
         assert source == "own_history"
         assert conf == 0.8
 
     def test_own_history_threshold_exactly_three(self):
         # Exactly 3 rows → own_history_sparse
-        _, source, conf = _compute_regular_price([], [1.0, 2.0, 3.0], [], [])
+        _, source, conf = _compute_regular_price([], [1.0, 2.0, 3.0], [], [], [])
         assert source == "own_history_sparse"
         assert conf == 0.5
+
+    # ── New: api_stated cascade step ───────────────────────────────────────────
+
+    def test_api_stated_regular_price(self):
+        # Promo row with regular_price > sale_price (e.g. Metro API) → api_stated
+        price, source, conf = _compute_regular_price(
+            chain_no_promo_regular=[],
+            chain_no_promo_sale=[],
+            cross_chain_no_promo=[],
+            category_sale_prices=[],
+            promo_item_regular=[5.99],
+        )
+        assert source == "api_stated"
+        assert conf == 0.85
+        assert price == 5.99
+
+    def test_api_stated_uses_median_of_multiple_values(self):
+        # Multiple API-stated regular prices → median (robust to outliers)
+        price, source, conf = _compute_regular_price(
+            chain_no_promo_regular=[],
+            chain_no_promo_sale=[],
+            cross_chain_no_promo=[],
+            category_sale_prices=[],
+            promo_item_regular=[5.99, 5.99, 9.99],  # outlier 9.99
+        )
+        assert source == "api_stated"
+        assert conf == 0.85
+        assert price == 5.99  # median, not max
+
+    def test_api_stated_loses_to_observed(self):
+        # When a no_promo row provides regular_price, priority 1 wins over api_stated
+        price, source, conf = _compute_regular_price(
+            chain_no_promo_regular=[4.49],
+            chain_no_promo_sale=[],
+            cross_chain_no_promo=[],
+            category_sale_prices=[],
+            promo_item_regular=[5.99],
+        )
+        assert source == "observed"
+        assert conf == 1.0
+        assert price == 4.49
+
+    def test_api_stated_beats_own_history(self):
+        # api_stated (conf 0.85) beats own_history (conf 0.8)
+        price, source, conf = _compute_regular_price(
+            chain_no_promo_regular=[],
+            chain_no_promo_sale=[3.99, 3.99, 4.29, 3.99],
+            cross_chain_no_promo=[],
+            category_sale_prices=[],
+            promo_item_regular=[5.99],
+        )
+        assert source == "api_stated"
+        assert conf == 0.85
 
 
 # ── build_price_history ───────────────────────────────────────────────────────

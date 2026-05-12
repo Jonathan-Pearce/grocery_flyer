@@ -29,6 +29,7 @@ discount_depth:
 deal_rarity:
   max_pts: 20
   cold_start_pts: 10         # neutral value when no sale frequency data
+  min_obs_for_full_rarity: 8 # weeks observed needed for full rarity weight; below this, blends toward cold_start_pts
 
   # Points based on how often this item goes on sale (lower freq = rarer deal)
   # sale_freq_chain = fraction of observed weeks where item was on promo
