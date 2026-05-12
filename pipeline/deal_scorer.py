@@ -675,7 +675,24 @@ def score_deals(
 
     # ── 3. Load price-history features ────────────────────────────────────────
 
-    ph_rows = _load_parquet_dir(price_history_path)
+    # price_history is written as a partitioned dataset (pq.write_to_dataset),
+    # so partition columns (store_chain, year, week) are encoded in the directory
+    # structure and absent from individual file data.  pq.read_table on the root
+    # directory reconstructs those columns automatically; _load_parquet_dir would
+    # lose them by reading individual files via ParquetFile.read().
+    ph_rows: list[dict]
+    if os.path.isdir(price_history_path):
+        try:
+            ph_rows = pq.read_table(price_history_path).to_pylist()
+        except Exception as exc:  # noqa: BLE001
+            print(
+                f"Warning: could not load price history from {price_history_path}: "
+                f"{type(exc).__name__}: {exc}",
+                file=sys.stderr,
+            )
+            ph_rows = []
+    else:
+        ph_rows = _load_parquet_dir(price_history_path)
 
     # Index price-history by (canonical_product_id, store_chain)
     # Use the most recent week_start entry for each key

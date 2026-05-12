@@ -6,7 +6,7 @@ Usage:
     python scripts/export_frontend_data.py [--geo-only] [--scores-only] [--rankings-only]
 
 Outputs:
-    frontend/public/data/active_scores.json     — scored deals (requires pandas)
+    frontend/public/data/active_scores.json     — scored deals
     frontend/public/data/stores_geo.json        — store locations
     frontend/public/data/flyer_regions.json     — regional flyer groupings
     frontend/public/data/postal_centroids.json  — FSA → [lat, lon] for offline geocoding
@@ -294,9 +294,9 @@ def main():
 def _export_scores() -> None:
     """Export db/scores/active_scores.parquet → frontend/public/data/active_scores.json."""
     try:
-        import pandas as pd
+        import pyarrow.parquet as pq
     except ImportError:
-        print("ERROR: pandas is required. Run: pip install pandas pyarrow", file=sys.stderr)
+        print("ERROR: pyarrow is required.", file=sys.stderr)
         sys.exit(1)
 
     if not SCORES_PATH.exists():
@@ -308,40 +308,45 @@ def _export_scores() -> None:
         return
 
     print(f"Reading {SCORES_PATH}…")
-    df = pd.read_parquet(SCORES_PATH)
+    table = pq.read_table(str(SCORES_PATH))
+    all_columns = set(table.schema.names)
 
-    # Select only the columns the frontend needs
-    available = [c for c in KEEP_FIELDS if c in df.columns]
-    missing = [c for c in KEEP_FIELDS if c not in df.columns]
+    available = [c for c in KEEP_FIELDS if c in all_columns]
+    missing = [c for c in KEEP_FIELDS if c not in all_columns]
     if missing:
         print(f"Note: fields not in parquet (will be omitted): {missing}")
 
-    df = df[available].copy()
+    table = table.select(available)
+    rows = table.to_pylist()
 
-    # Drop rows with no deal_score
-    if "deal_score" in df.columns:
-        df = df.dropna(subset=["deal_score"])
-        df["deal_score"] = df["deal_score"].astype(int)
+    # Drop rows with no deal_score, cast to int, normalise dates, strip NaN floats
+    import math
+
+    out: list[dict] = []
+    for row in rows:
+        score = row.get("deal_score")
+        if score is None:
+            continue
+        row["deal_score"] = int(score)
+        # Normalise date fields to "YYYY-MM-DD" strings
+        for col in ("flyer_valid_from", "flyer_valid_to"):
+            val = row.get(col)
+            if val is not None:
+                row[col] = str(val)[:10]
+        # Replace NaN floats with None (JSON null)
+        for k, v in row.items():
+            if isinstance(v, float) and math.isnan(v):
+                row[k] = None
+        out.append(row)
 
     # Sort best deals first
-    if "deal_score" in df.columns:
-        df = df.sort_values("deal_score", ascending=False)
-
-    # Convert date columns to ISO strings
-    for col in ["flyer_valid_from", "flyer_valid_to"]:
-        if col in df.columns:
-            df[col] = pd.to_datetime(df[col], errors="coerce").dt.strftime("%Y-%m-%d")
-
-    # Fill NaN with None (→ JSON null)
-    df = df.where(pd.notnull(df), None)
-
-    records = df.to_dict(orient="records")
+    out.sort(key=lambda r: r.get("deal_score") or 0, reverse=True)
 
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     with open(OUT_PATH, "w", encoding="utf-8") as f:
-        json.dump(records, f, ensure_ascii=False, indent=2)
+        json.dump(out, f, ensure_ascii=False, indent=2)
 
-    print(f"✓ Exported {len(records):,} deals → {OUT_PATH}")
+    print(f"✓ Exported {len(out):,} deals → {OUT_PATH}")
 
 
 if __name__ == "__main__":
