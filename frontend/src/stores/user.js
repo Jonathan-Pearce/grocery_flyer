@@ -27,17 +27,20 @@ export const useUserStore = defineStore('user', () => {
   const postalCode = ref(saved?.postalCode ?? '')
   const province = ref(saved?.province ?? '')
   const latlng = ref(saved?.latlng ?? null)
-  const selectedChains = ref(new Set(saved?.selectedChains ?? []))
+  // selectedStoreCodes: Set of "chain:store_code" strings (e.g. "loblaws:1024")
+  const selectedStoreCodes = ref(new Set(saved?.selectedStoreCodes ?? []))
 
   const hasLocation = computed(() => !!postalCode.value && !!province.value)
-  const hasChains = computed(() => selectedChains.value.size > 0)
+  const hasStores = computed(() => selectedStoreCodes.value.size > 0)
+  // backward-compat alias used by AppHeader
+  const hasChains = hasStores
 
   function persist() {
     localStorage.setItem(STORAGE_KEY, JSON.stringify({
       postalCode: postalCode.value,
       province: province.value,
       latlng: latlng.value,
-      selectedChains: [...selectedChains.value]
+      selectedStoreCodes: [...selectedStoreCodes.value],
     }))
   }
 
@@ -47,7 +50,7 @@ export const useUserStore = defineStore('user', () => {
     const prefix = clean[0]
     province.value = POSTAL_PREFIX_MAP[prefix] ?? ''
     latlng.value = null
-    selectedChains.value = new Set()
+    selectedStoreCodes.value = new Set()
     persist()
   }
 
@@ -56,17 +59,25 @@ export const useUserStore = defineStore('user', () => {
     persist()
   }
 
-  function toggleChain(chainId) {
-    if (selectedChains.value.has(chainId)) {
-      selectedChains.value.delete(chainId)
+  /** Toggle a single store in/out of the selection. */
+  function toggleStoreCode(chain, storeCode) {
+    const key = `${chain}:${storeCode}`
+    if (selectedStoreCodes.value.has(key)) {
+      selectedStoreCodes.value.delete(key)
     } else {
-      selectedChains.value.add(chainId)
+      selectedStoreCodes.value.add(key)
     }
     persist()
   }
 
-  function clearChains() {
-    selectedChains.value = new Set()
+  /** Replace the entire selection with the provided array of store objects (each has .chain + .store_code). */
+  function setStoreCodesFromRadius(stores) {
+    selectedStoreCodes.value = new Set(stores.map(s => `${s.chain}:${s.store_code}`))
+    persist()
+  }
+
+  function clearStoreCodes() {
+    selectedStoreCodes.value = new Set()
     persist()
   }
 
@@ -74,13 +85,15 @@ export const useUserStore = defineStore('user', () => {
     postalCode.value = ''
     province.value = ''
     latlng.value = null
-    selectedChains.value = new Set()
+    selectedStoreCodes.value = new Set()
     localStorage.removeItem(STORAGE_KEY)
   }
 
   return {
-    postalCode, province, latlng, selectedChains,
-    hasLocation, hasChains,
-    setPostalCode, setLatlng, toggleChain, clearChains, reset
+    postalCode, province, latlng, selectedStoreCodes,
+    hasLocation, hasStores, hasChains,
+    setPostalCode, setLatlng,
+    toggleStoreCode, setStoreCodesFromRadius, clearStoreCodes,
+    reset,
   }
 })

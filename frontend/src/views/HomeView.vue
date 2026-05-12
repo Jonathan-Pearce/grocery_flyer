@@ -12,6 +12,7 @@ const user = useUserStore()
 const postalCode = ref(user.postalCode || '')
 const confirmedPostal = ref(user.postalCode || '')
 const step = ref(user.postalCode ? 2 : 1)
+const radiusKm = ref(5)
 
 function onPostalConfirmed(code) {
   user.setPostalCode(code)
@@ -23,12 +24,9 @@ function onReady() {
   router.push('/deals')
 }
 
-// If user navigates back from deals with chains already selected
-watch(() => user.selectedChains.size, (size) => {
-  if (size === 0 && step.value === 2) {
-    // keep step 2, just deselected
-  }
-})
+function onRadiusChange(km) {
+  radiusKm.value = km
+}
 </script>
 
 <template>
@@ -50,7 +48,6 @@ watch(() => user.selectedChains.size, (size) => {
 
         <!-- Step 1: Postal code -->
         <section class="step" :class="{ done: step >= 2 }">
-          <div class="step-num">01</div>
           <PostalInput
             v-model="postalCode"
             @confirmed="onPostalConfirmed"
@@ -60,10 +57,9 @@ watch(() => user.selectedChains.size, (size) => {
         <!-- Step 2: Store selector -->
         <Transition name="slide-up">
           <section v-if="step >= 2" class="step">
-            <div class="step-num">02</div>
             <StoreSelector
-              :province="user.province"
               @ready="onReady"
+              @radius-change="onRadiusChange"
             />
           </section>
         </Transition>
@@ -72,7 +68,7 @@ watch(() => user.selectedChains.size, (size) => {
 
     <!-- Right panel: map -->
     <div class="right-panel">
-      <MapView :postal-code="confirmedPostal" />
+      <MapView :postal-code="confirmedPostal" :radius-km="radiusKm" />
       <div class="map-overlay-label" v-if="!confirmedPostal">
         <span>Enter your postal code to see your area</span>
       </div>
@@ -83,9 +79,9 @@ watch(() => user.selectedChains.size, (size) => {
 <style scoped>
 .home-view {
   flex: 1;
+  min-height: 0;
   display: grid;
   grid-template-columns: 480px 1fr;
-  min-height: calc(100vh - 60px);
 }
 
 .left-panel {
@@ -96,8 +92,8 @@ watch(() => user.selectedChains.size, (size) => {
 .panel-inner {
   display: flex;
   flex-direction: column;
-  gap: var(--space-xl);
-  padding: var(--space-xl) var(--space-xl);
+  gap: var(--space-lg);
+  padding: var(--space-lg) var(--space-xl);
 }
 
 .hero-heading {
@@ -129,24 +125,9 @@ watch(() => user.selectedChains.size, (size) => {
   align-items: flex-start;
 }
 
-.step-num {
-  font-family: var(--font-display);
-  font-size: 2.5rem;
-  font-weight: 700;
-  color: var(--c-border);
-  line-height: 1;
-  flex-shrink: 0;
-  width: 44px;
-  transition: color 0.3s;
-  padding-top: 4px;
-}
-
-.step.done .step-num {
-  color: var(--c-amber);
-}
-
 .step > :not(.step-num) {
   flex: 1;
+  min-width: 0;
 }
 
 /* Right panel */

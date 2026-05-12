@@ -9,6 +9,14 @@ const user = useUserStore()
 
 const onDealsPage = computed(() => route.name === 'deals')
 
+const selectedChainNames = computed(() => {
+  const chains = new Set()
+  for (const key of user.selectedStoreCodes) {
+    chains.add(key.split(':')[0].replace(/_/g, ' '))
+  }
+  return [...chains].sort()
+})
+
 function goHome() {
   router.push('/')
 }
@@ -22,12 +30,12 @@ function goHome() {
         <span class="logo-text">Flyer<em>Deals</em></span>
       </button>
 
-      <div v-if="onDealsPage && user.hasChains" class="header-chains">
+      <div v-if="onDealsPage && user.hasStores" class="header-chains">
         <span
-          v-for="chainId in [...user.selectedChains]"
-          :key="chainId"
+          v-for="name in selectedChainNames"
+          :key="name"
           class="chain-chip"
-        >{{ chainId.replace(/_/g, ' ') }}</span>
+        >{{ name }}</span>
         <button class="change-btn" @click="goHome">← Change Stores</button>
       </div>
     </div>
@@ -45,9 +53,7 @@ function goHome() {
 }
 
 .header-inner {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 var(--space-lg);
+  padding: 0 var(--space-xl);
   height: 60px;
   display: flex;
   align-items: center;
