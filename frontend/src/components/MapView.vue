@@ -58,10 +58,10 @@ function drawRadiusCircle(L, coords, km) {
   radiusCircle = L.circle([coords.lat, coords.lng], {
     radius: km * 1000,
     color: '#f0a500',
-    weight: 1.5,
-    opacity: 0.6,
+    weight: 2,
+    opacity: 0.85,
     fillColor: '#f0a500',
-    fillOpacity: 0.06,
+    fillOpacity: 0.08,
   }).addTo(map)
 }
 
@@ -107,11 +107,12 @@ watch(() => props.postalCode, (code) => {
   if (code) handlePostalCode(code)
 })
 
-// Redraw the radius circle when the slider moves
-watch(() => props.radiusKm, async (km) => {
+// Update the radius circle when the slider moves
+watch(() => props.radiusKm, (km) => {
   if (!map || !user.latlng) return
-  const L = (await import('leaflet')).default
-  drawRadiusCircle(L, user.latlng, km)
+  if (radiusCircle) {
+    radiusCircle.setRadius(km * 1000)
+  }
 })
 
 onUnmounted(() => {
