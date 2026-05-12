@@ -9,13 +9,12 @@ import pytest
 
 pyarrow = pytest.importorskip("pyarrow")
 
-from pipeline.flyer_ranker import (
+from pipeline.flyer_ranker import (  # noqa: E402
     letter_grade,
     flyer_grade,
     rank_flyers,
     _aggregate_flyer_rows,
     _aggregate_chain_rows,
-    _append_history,
     _read_parquet,
     _write_parquet,
 )
