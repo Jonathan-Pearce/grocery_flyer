@@ -35,8 +35,9 @@ rank_flyers(scores_path, out_dir, week_label) -> list[dict]
 
 Output files (written to ``out_dir``)
 --------------------------------------
-current_rankings.parquet  — overwritten each run; one row per flyer.
-weekly_history.parquet    — append-only; one row per (week_label, flyer_id).
+current_flyer_rankings.parquet  — overwritten each run; one row per flyer.
+current_chain_rankings.parquet  — overwritten each run; one row per chain.
+weekly_history.parquet          — append-only; one row per (week_label, store_chain).
 """
 
 from __future__ import annotations
