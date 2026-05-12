@@ -1,5 +1,6 @@
 <script setup>
 import { useDealsStore } from '@/stores/deals.js'
+import { categoryIcon } from '@/utils/categoryIcons.js'
 
 const deals = useDealsStore()
 </script>
@@ -20,7 +21,7 @@ const deals = useDealsStore()
       :class="{ active: deals.activeCategory === cat }"
       @click="deals.setCategory(cat)"
     >
-      {{ cat }}
+      <span v-if="categoryIcon(cat)" class="chip-icon" aria-hidden="true">{{ categoryIcon(cat) }}</span>{{ cat }}
     </button>
   </div>
 </template>
@@ -28,19 +29,18 @@ const deals = useDealsStore()
 <style scoped>
 .category-filter {
   display: flex;
+  flex-wrap: wrap;
   gap: 8px;
-  overflow-x: auto;
   padding: 4px 0 8px;
-  scrollbar-width: none;
-  -webkit-overflow-scrolling: touch;
 }
 
-.category-filter::-webkit-scrollbar {
-  display: none;
+.chip-icon {
+  font-style: normal;
+  margin-right: 5px;
+  font-size: 0.9em;
 }
 
 .cat-chip {
-  flex-shrink: 0;
   font-family: var(--font-body);
   font-size: 0.75rem;
   letter-spacing: 0.07em;
@@ -52,7 +52,6 @@ const deals = useDealsStore()
   padding: 5px 14px;
   cursor: pointer;
   transition: color 0.15s, border-color 0.15s, background 0.15s;
-  white-space: nowrap;
 }
 
 .cat-chip:hover {
