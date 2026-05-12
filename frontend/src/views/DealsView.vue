@@ -32,6 +32,18 @@ onMounted(() => {
             </span>
           </h2>
           <div class="sort-label">Sorted by Deal Score ↓</div>
+          <div class="tier-filter">
+            <button
+              class="tier-btn"
+              :class="{ active: deals.activeTier === 'hot' }"
+              @click="deals.setTier('hot')"
+            >🔥 Hot</button>
+            <button
+              class="tier-btn"
+              :class="{ active: deals.activeTier === 'good' }"
+              @click="deals.setTier('good')"
+            >★ Good+</button>
+          </div>
         </div>
         <CategoryFilter />
       </div>
@@ -60,7 +72,10 @@ onMounted(() => {
       <div v-else-if="deals.filteredDeals.length === 0" class="state-block">
         <span class="state-icon">◈</span>
         <p class="state-text">No deals found for the selected stores or category.</p>
-        <button class="reset-btn" @click="deals.setCategory(null)">Clear filter</button>
+        <div style="display:flex;gap:10px">
+          <button v-if="deals.activeTier" class="reset-btn" @click="deals.setTier(null)">Clear tier filter</button>
+          <button class="reset-btn" @click="deals.setCategory(null)">Clear category filter</button>
+        </div>
       </div>
 
       <!-- Deal cards -->
@@ -101,9 +116,10 @@ onMounted(() => {
 
 .deals-title-row {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   justify-content: space-between;
   gap: var(--space-md);
+  flex-wrap: wrap;
 }
 
 .deals-heading {
@@ -130,10 +146,47 @@ onMounted(() => {
   white-space: nowrap;
 }
 
-.deals-grid {
+.tier-filter {
   display: flex;
-  flex-direction: column;
+  gap: 6px;
+}
+
+.tier-btn {
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--c-muted);
+  background: none;
+  border: 1px solid var(--c-border);
+  border-radius: 2px;
+  padding: 4px 12px;
+  cursor: pointer;
+  transition: color 0.15s, border-color 0.15s, background 0.15s;
+  white-space: nowrap;
+}
+
+.tier-btn:hover {
+  color: var(--c-ivory);
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.tier-btn.active {
+  color: var(--c-ivory);
+  border-color: var(--c-amber);
+  background: rgba(240, 165, 0, 0.1);
+}
+
+.deals-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 10px;
+}
+
+@media (max-width: 640px) {
+  .deals-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* State blocks */
