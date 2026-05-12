@@ -141,9 +141,9 @@ function chainCounts(stores) {
         <input
           type="range"
           class="radius-slider"
-          :min="5"
+          :min="1"
           :max="MAX_RADIUS"
-          :step="5"
+          :step="1"
           v-model.number="radiusKm"
           aria-label="Search radius in km"
         />
