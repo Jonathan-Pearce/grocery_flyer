@@ -140,7 +140,7 @@ function hotPct(row) {
                       :style="{ background: gradeColor(row.letter_grade), color: '#1b2d1e' }"
                     >{{ row.letter_grade }}</span>
                   </td>
-                  <td class="col-score score-num">{{ row.avg_flyer_grade.toFixed(1) }}</td>
+                  <td class="col-score score-num">{{ row.avg_flyer_grade?.toFixed(1) ?? '—' }}</td>
                   <td class="col-hot">
                     <span class="hot-bar-wrap">
                       <span
@@ -193,7 +193,7 @@ function hotPct(row) {
                         :style="{ background: gradeColor(historyIndex[week.week_label][chain].letter_grade), color: '#1b2d1e' }"
                       >{{ historyIndex[week.week_label][chain].letter_grade }}</span>
                       <span class="history-score">
-                        {{ historyIndex[week.week_label][chain].avg_flyer_grade.toFixed(0) }}
+                        {{ historyIndex[week.week_label][chain].avg_flyer_grade?.toFixed(0) ?? '—' }}
                       </span>
                     </template>
                     <span v-else class="muted">—</span>
