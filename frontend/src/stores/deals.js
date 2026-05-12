@@ -13,10 +13,11 @@ export const useDealsStore = defineStore('deals', () => {
     if (rawDeals.value.length > 0) return
     isLoading.value = true
     error.value = null
+    const base = import.meta.env.BASE_URL
     try {
       const [dealsRes, regionsRes] = await Promise.all([
-        fetch('/data/active_scores.json'),
-        fetch('/data/flyer_regions.json'),
+        fetch(`${base}data/active_scores.json`),
+        fetch(`${base}data/flyer_regions.json`),
       ])
       if (!dealsRes.ok) throw new Error('Failed to load deal data')
       rawDeals.value = await dealsRes.json()
