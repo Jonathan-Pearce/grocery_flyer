@@ -41,18 +41,20 @@ DEALS = [
     {"name_en":"Watermelon","brand":"","sale_price":4.97,"regular_price":7.99,"price_unit":"ea","promo_type":"percentage_off","category_l1":"Produce","category_l2":"Fruit","deal_score":75,"chain":"maxi"},
     {"name_en":"Romaine Hearts 3-pack","brand":"","sale_price":2.99,"regular_price":4.99,"price_unit":"ea","promo_type":"percentage_off","category_l1":"Produce","category_l2":"Leafy Greens","deal_score":67,"chain":"super_c"},
 
-    # Meat & Seafood
-    {"name_en":"Chicken Breast Boneless Skinless","brand":"","sale_price":6.97,"regular_price":11.99,"price_unit":"kg","promo_type":"percentage_off","category_l1":"Meat & Seafood","category_l2":"Chicken","deal_score":92,"chain":"loblaws"},
-    {"name_en":"Atlantic Salmon Fillet","brand":"","sale_price":14.97,"regular_price":22.99,"price_unit":"kg","promo_type":"percentage_off","category_l1":"Meat & Seafood","category_l2":"Fish","deal_score":85,"chain":"sobeys"},
-    {"name_en":"Lean Ground Beef","brand":"","sale_price":7.77,"regular_price":12.49,"price_unit":"kg","promo_type":"percentage_off","category_l1":"Meat & Seafood","category_l2":"Beef","deal_score":87,"chain":"real_canadian_superstore"},
-    {"name_en":"Pork Back Ribs","brand":"","sale_price":8.97,"regular_price":14.99,"price_unit":"kg","promo_type":"percentage_off","category_l1":"Meat & Seafood","category_l2":"Pork","deal_score":80,"chain":"nofrills"},
-    {"name_en":"Whole Chicken","brand":"","sale_price":9.97,"regular_price":14.99,"price_unit":"ea","promo_type":"percentage_off","category_l1":"Meat & Seafood","category_l2":"Chicken","deal_score":75,"chain":"metro"},
-    {"name_en":"Extra-Lean Ground Turkey","brand":"Maple Lodge","sale_price":5.99,"regular_price":8.49,"price_unit":"ea","promo_type":"dollar_off","category_l1":"Meat & Seafood","category_l2":"Poultry","deal_score":74,"chain":"food_basics"},
-    {"name_en":"Striploin Grilling Steak","brand":"","sale_price":24.97,"regular_price":36.99,"price_unit":"kg","promo_type":"percentage_off","category_l1":"Meat & Seafood","category_l2":"Beef","deal_score":78,"chain":"safeway"},
-    {"name_en":"Jumbo Shrimp 31-40 ct","brand":"","sale_price":11.97,"regular_price":19.99,"price_unit":"ea","promo_type":"percentage_off","category_l1":"Meat & Seafood","category_l2":"Seafood","deal_score":81,"chain":"zehrs"},
-    {"name_en":"Chicken Thighs Bone-In","brand":"","sale_price":5.49,"regular_price":8.99,"price_unit":"kg","promo_type":"percentage_off","category_l1":"Meat & Seafood","category_l2":"Chicken","deal_score":76,"chain":"walmart"},
-    {"name_en":"Smoked Salmon 150g","brand":"Ocean's","sale_price":5.97,"regular_price":9.49,"price_unit":"ea","promo_type":"percentage_off","category_l1":"Meat & Seafood","category_l2":"Fish","deal_score":73,"chain":"farm_boy"},
-    {"name_en":"Baby Back Pork Ribs","brand":"","sale_price":10.97,"regular_price":16.99,"price_unit":"kg","promo_type":"percentage_off","category_l1":"Meat & Seafood","category_l2":"Pork","deal_score":82,"chain":"freshco"},
+    # Meat
+    {"name_en":"Chicken Breast Boneless Skinless","brand":"","sale_price":6.97,"regular_price":11.99,"price_unit":"kg","promo_type":"percentage_off","category_l1":"Meat","category_l2":"Chicken","deal_score":92,"chain":"loblaws"},
+    {"name_en":"Lean Ground Beef","brand":"","sale_price":7.77,"regular_price":12.49,"price_unit":"kg","promo_type":"percentage_off","category_l1":"Meat","category_l2":"Beef","deal_score":87,"chain":"real_canadian_superstore"},
+    {"name_en":"Pork Back Ribs","brand":"","sale_price":8.97,"regular_price":14.99,"price_unit":"kg","promo_type":"percentage_off","category_l1":"Meat","category_l2":"Pork","deal_score":80,"chain":"nofrills"},
+    {"name_en":"Whole Chicken","brand":"","sale_price":9.97,"regular_price":14.99,"price_unit":"ea","promo_type":"percentage_off","category_l1":"Meat","category_l2":"Chicken","deal_score":75,"chain":"metro"},
+    {"name_en":"Extra-Lean Ground Turkey","brand":"Maple Lodge","sale_price":5.99,"regular_price":8.49,"price_unit":"ea","promo_type":"dollar_off","category_l1":"Meat","category_l2":"Poultry","deal_score":74,"chain":"food_basics"},
+    {"name_en":"Striploin Grilling Steak","brand":"","sale_price":24.97,"regular_price":36.99,"price_unit":"kg","promo_type":"percentage_off","category_l1":"Meat","category_l2":"Beef","deal_score":78,"chain":"safeway"},
+    {"name_en":"Chicken Thighs Bone-In","brand":"","sale_price":5.49,"regular_price":8.99,"price_unit":"kg","promo_type":"percentage_off","category_l1":"Meat","category_l2":"Chicken","deal_score":76,"chain":"walmart"},
+    {"name_en":"Baby Back Pork Ribs","brand":"","sale_price":10.97,"regular_price":16.99,"price_unit":"kg","promo_type":"percentage_off","category_l1":"Meat","category_l2":"Pork","deal_score":82,"chain":"freshco"},
+
+    # Seafood
+    {"name_en":"Atlantic Salmon Fillet","brand":"","sale_price":14.97,"regular_price":22.99,"price_unit":"kg","promo_type":"percentage_off","category_l1":"Seafood","category_l2":"Fish","deal_score":85,"chain":"sobeys"},
+    {"name_en":"Jumbo Shrimp 31-40 ct","brand":"","sale_price":11.97,"regular_price":19.99,"price_unit":"ea","promo_type":"percentage_off","category_l1":"Seafood","category_l2":"Shellfish","deal_score":81,"chain":"zehrs"},
+    {"name_en":"Smoked Salmon 150g","brand":"Ocean's","sale_price":5.97,"regular_price":9.49,"price_unit":"ea","promo_type":"percentage_off","category_l1":"Seafood","category_l2":"Fish","deal_score":73,"chain":"farm_boy"},
 
     # Dairy & Eggs
     {"name_en":"Large Eggs 18-pack","brand":"Burnbrae","sale_price":5.49,"regular_price":8.49,"price_unit":"ea","promo_type":"dollar_off","category_l1":"Dairy & Eggs","category_l2":"Eggs","deal_score":84,"chain":"loblaws"},
