@@ -53,6 +53,7 @@ KEEP_FIELDS = [
     "confidence", "confidence_label",
     "category_l1", "category_l2",
     "image_url",
+    "is_multi_product",
 ]
 
 
@@ -345,6 +346,11 @@ def _export_scores() -> None:
             if isinstance(v, float) and math.isnan(v):
                 row[k] = None
         out.append(row)
+
+    # Drop multi-product parent records ("X OR Y" combined entries) — the
+    # individual child records carry the same price/score and are cleaner to
+    # display.  Children have is_multi_product=False so they are kept.
+    out = [r for r in out if not r.get("is_multi_product")]
 
     # Sort best deals first
     out.sort(key=lambda r: r.get("deal_score") or 0, reverse=True)
