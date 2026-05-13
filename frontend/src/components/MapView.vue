@@ -3,7 +3,8 @@ import { onMounted, onUnmounted, watch, ref } from 'vue'
 import { useUserStore } from '@/stores/user.js'
 import { useGeocoding } from '@/composables/useGeocoding.js'
 import { useStores } from '@/composables/useStores.js'
-import { chainLogoUrl } from '@/utils/chainLogos.js'
+import { chainLogoUrl, chainLabel, DARK_BG_LOGOS } from '@/utils/chainLogos.js'
+import { formatStoreName } from '@/utils/storeUtils.js'
 
 const BASE_URL = import.meta.env.BASE_URL
 
@@ -83,17 +84,34 @@ async function addStoreMarkers(L, coords) {
 
   for (const s of stores) {
     const logoPath = chainLogoUrl(s.chain)
+    const isDark = DARK_BG_LOGOS.has(s.chain)
+    const bg = isDark ? '#1b2d1e' : '#fff'
     const icon = logoPath
       ? L.divIcon({
-          html: `<div style="background:#fff;border-radius:2px;box-shadow:0 1px 3px rgba(0,0,0,0.5);padding:1px 2px;display:flex;align-items:center;justify-content:center;width:20px;height:14px;overflow:hidden;"><img src="${BASE_URL}${logoPath}" alt="" style="width:16px;height:10px;object-fit:contain;display:block;" /></div>`,
+          html: `<div style="background:${bg};border-radius:3px;box-shadow:0 1px 4px rgba(0,0,0,0.6);padding:2px 4px;display:flex;align-items:center;justify-content:center;width:40px;height:28px;overflow:hidden;"><img src="${BASE_URL}${logoPath}" alt="" style="width:36px;height:22px;object-fit:contain;display:block;" /></div>`,
           className: '',
-          iconSize: [20, 14],
-          iconAnchor: [10, 7]
+          iconSize: [40, 28],
+          iconAnchor: [20, 14]
         })
       : fallbackIcon
-    const label = `<b>${s.store_name}</b><br>${s.chain} &mdash; ${s.distanceKm} km`
+
+    const name = formatStoreName(s.chain, s.store_name)
+    const chain = chainLabel(s.chain)
+    const addressLine = s.address ? `<div class="mp-address">${s.address}</div>` : ''
+    const cityLine = (s.city || s.province)
+      ? `<div class="mp-address">${[s.city, s.province].filter(Boolean).join(', ')}</div>`
+      : ''
+    const popup = `
+      <div class="mp-popup">
+        <div class="mp-name">${name}</div>
+        <div class="mp-chain">${chain}</div>
+        ${addressLine}
+        ${cityLine}
+        <div class="mp-dist">${s.distanceKm} km away</div>
+      </div>`.trim()
+
     L.marker([s.lat, s.lon], { icon })
-      .bindPopup(label)
+      .bindPopup(popup, { maxWidth: 220 })
       .addTo(storeLayerGroup)
   }
 }
@@ -143,6 +161,70 @@ onUnmounted(() => {
 </template>
 
 <style>
+/* ── Leaflet popup dark theme ─────────────────────────────────────────────── */
+.leaflet-popup-content-wrapper {
+  background: #1e3322 !important;
+  color: #f0ede6 !important;
+  border: 1px solid rgba(255,255,255,0.1) !important;
+  border-radius: 6px !important;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.5) !important;
+  padding: 0 !important;
+}
+
+.leaflet-popup-content {
+  margin: 0 !important;
+  line-height: 1.4 !important;
+}
+
+.leaflet-popup-tip {
+  background: #1e3322 !important;
+}
+
+.leaflet-popup-close-button {
+  color: rgba(240,237,230,0.5) !important;
+  top: 6px !important;
+  right: 8px !important;
+}
+
+.leaflet-popup-close-button:hover {
+  color: #f0ede6 !important;
+}
+
+.mp-popup {
+  padding: 12px 14px;
+  min-width: 150px;
+}
+
+.mp-name {
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: #f0ede6;
+  margin-bottom: 2px;
+  line-height: 1.3;
+}
+
+.mp-chain {
+  font-size: 0.75rem;
+  color: #f0a500;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  margin-bottom: 6px;
+}
+
+.mp-address {
+  font-size: 0.75rem;
+  color: rgba(240,237,230,0.65);
+  margin-bottom: 1px;
+}
+
+.mp-dist {
+  font-size: 0.72rem;
+  color: rgba(240,237,230,0.45);
+  margin-top: 6px;
+  border-top: 1px solid rgba(255,255,255,0.08);
+  padding-top: 5px;
+}
+
 /* Global — Leaflet dot marker */
 .map-dot {
   width: 20px;
