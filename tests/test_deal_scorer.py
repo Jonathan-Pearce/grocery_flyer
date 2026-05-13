@@ -630,6 +630,7 @@ def _make_obs(
         "flyer_valid_from": flyer_valid_from,
         "flyer_valid_to": flyer_valid_to,
         "source_api": "flipp",
+        "is_food": True,
         "purchase_limit": None,
         "loyalty_program": None,
         "loyalty_points": None,
