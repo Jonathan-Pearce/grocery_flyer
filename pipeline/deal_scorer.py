@@ -717,7 +717,10 @@ def score_deals(
         valid_to = _parse_date(obs.get("flyer_valid_to"))
         if valid_from is not None and valid_to is not None:
             if valid_from <= today <= valid_to:
-                active_obs.append(obs)
+                # Only score food items so non-grocery products (e.g. Walmart
+                # general merchandise) don't inflate chain item counts/grades.
+                if obs.get("is_food"):
+                    active_obs.append(obs)
 
     # ── 3. Load price-history features ────────────────────────────────────────
 

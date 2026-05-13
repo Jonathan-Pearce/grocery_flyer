@@ -140,7 +140,7 @@ def main(argv: list[str] | None = None) -> int:
             print(
                 f"  #{row['rank']:2d}  {row['store_chain']:<25s}"
                 f"  grade={row['avg_flyer_grade']:5.1f}  ({row['letter_grade']})"
-                f"  hot={row['hot_count']}/{row['item_count']}"
+                f"  hot={row['hot_count']}  flyers={row['flyer_count']}  avg_items={row['avg_items_per_flyer']}"
             )
 
     # ── Step 4: export_frontend_data ──────────────────────────────────────────
