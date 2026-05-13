@@ -599,6 +599,7 @@ def _score_row(
         "price_unit": obs.get("price_unit"),
         "promo_type": obs.get("promo_type"),
         "image_url": obs.get("image_url"),
+        "is_multi_product": bool(obs.get("is_multi_product", False)),
     }
 
 
@@ -657,6 +658,7 @@ def _output_schema():
             ("price_unit", pa.string()),
             ("promo_type", pa.string()),
             ("image_url", pa.string()),
+            ("is_multi_product", pa.bool_()),
         ]
     )
 

@@ -131,6 +131,18 @@ export const useDealsStore = defineStore('deals', () => {
                (d.brand  ?? '').toLowerCase().includes(q)
       })
       .sort((a, b) => (b.deal_score ?? 0) - (a.deal_score ?? 0))
+      // Deduplicate: same chain + same product name + same price = same deal.
+      // Keeps the highest-scored row (first after sort) when multiple stores
+      // or flyer regions produce identical-looking entries.
+      .filter((() => {
+        const seen = new Set()
+        return d => {
+          const key = `${d.store_chain}\x00${d.name_en ?? d.name_fr ?? ''}\x00${d.sale_price ?? ''}`
+          if (seen.has(key)) return false
+          seen.add(key)
+          return true
+        }
+      })())
       .slice(0, searchQuery.value.trim() ? Infinity : 50)
   })
 
