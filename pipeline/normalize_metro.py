@@ -26,6 +26,7 @@ Usage::
 
 from __future__ import annotations
 
+import re
 from typing import Any, Literal
 
 from pipeline.schema import FlyerItem
@@ -37,15 +38,22 @@ from pipeline.schema import FlyerItem
 def _parse_price(value: Any) -> float | None:
     """Coerce a raw Metro price value to ``float``, returning ``None`` on failure.
 
-    Handles French comma-decimal notation (e.g. ``"14,99"`` → ``14.99``) as
-    well as leading ``$`` signs and plain numeric strings.
+    Handles:
+    * French comma-decimal notation: ``"14,99"`` → ``14.99``
+    * Leading or embedded ``$`` signs: ``"$4.50"``, ``"22,02$/kg"``
+    * Unit-suffixed strings: ``"$13.21/kg"``, ``"17,99/lb - 39,66/kg"``
+      — extracts only the leading numeric portion.
     """
     if value is None:
         return None
     try:
-        # Normalise French comma decimal separator before any other processing
-        cleaned = str(value).strip().lstrip("$").replace(",", ".")
-        return float(cleaned)
+        # Remove all $ signs, normalise French comma decimal separator
+        cleaned = str(value).strip().replace("$", "").replace(",", ".").strip()
+        # Extract leading numeric portion — handles unit suffixes like /kg, /lb
+        m = re.match(r"(\d+(?:\.\d+)?)", cleaned)
+        if not m:
+            return None
+        return float(m.group(1))
     except (ValueError, AttributeError):
         return None
 
@@ -131,6 +139,13 @@ def normalize_metro_product(
     # ── Promo details ─────────────────────────────────────────────────────────
     promo_raw = raw.get("waysToSave_EN") or raw.get("savingsEn") or None
 
+    # ── Savings amount ────────────────────────────────────────────────────────
+    # savingsEn/savingsFr carry the dollar-amount saved (e.g. "$10.99").
+    # savingsFr is used as a fallback for French-locale brands.
+    savings_amount = _parse_price(
+        raw.get("savingsEn") or raw.get("savingsFr")
+    )
+
     return FlyerItem(
         # ── Provenance ───────────────────────────────────────────────────────
         source_api="metro",
@@ -158,6 +173,7 @@ def normalize_metro_product(
         regular_price=_parse_price(raw.get("regularPrice")),
         alternate_price=_parse_price(raw.get("alternatePrice")),
         member_price=_parse_price(raw.get("memberPriceEn")),
+        savings_amount=savings_amount,
         # ── Promo unit / price unit ───────────────────────────────────────────
         price_unit=raw.get("promoUnitEn") or None,
         # ── Tax ──────────────────────────────────────────────────────────────

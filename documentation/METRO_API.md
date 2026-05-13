@@ -149,15 +149,62 @@ Content-Type: application/json
 |---|---|
 | `sku` | Product SKU |
 | `productEn` / `productFr` | Product name |
-| `salePrice` / `salePriceFr` | Sale price |
-| `regularPrice` | Regular price (null if not on sale) |
-| `promoUnitEn` | Unit label (e.g. `ea.`, `lb.`) |
-| `mainCategoryEn` | Category |
-| `bodyEn` | Additional description |
-| `waysToSave_EN` | Promo type (e.g. `"New lower price"`) |
-| `validFrom` / `validTo` | Deal validity window |
+| `salePrice` / `salePriceFr` | Sale price — always a plain numeric string (e.g. `"3.99"`) |
+| `regularPrice` / `regularPriceFr` | Regular/was price. **Varies by brand and locale** (see below) |
+| `savingsEn` / `savingsFr` | Dollar savings amount (e.g. `"$10.99"`). Only present when Metro explicitly advertises the discount amount. When populated, `save` mirrors the same value. |
+| `save` | Mirror of `savingsEn`; use `savingsEn` instead |
+| `savingsPrefix` | Display prefix, e.g. `"SAVE"` — not numeric, for display only |
+| `waysToSave_EN` / `waysToSave_FR` | Promo category string, e.g. `"New lower price"`, `"This Week Only"`, `"Weekly specials"`, `"Locked Down"` |
+| `promoUnitEn` / `promoUnitFr` | Unit label (e.g. `"ea."`, `"/lb"`) |
+| `alternatePrice` / `alternatePriceFr` | Secondary per-unit price (e.g. `"$13.21/kg"`, `"22,02$/kg"`) — includes unit suffix |
+| `memberPriceEn` / `memberPriceFr` | Loyalty/membership price — plain numeric string when present |
+| `mainCategoryEn` / `mainCategoryFr` | Top-level product category |
+| `subCategoryEn` / `subCategoryFr` | Sub-category |
+| `bodyEn` / `bodyFr` | Additional description / size info |
+| `validFrom` / `validTo` | Deal validity window (ISO 8601) |
 | `productImage` | Product image URL |
-| `save` / `savingsEn` | Savings amount (if applicable) |
+| `contents` | Full promotional body text |
+| `tx` | Tax flag exactly as shown (e.g. `"+TX"`) |
+| `limitQty` | Maximum units at promotional price |
+| `afterLimitPrice` | Price per unit for quantities above `limitQty` |
+| `priceQuantity` | Required quantity for multi-buy deals |
+| `pts` / `loyalty` | Loyalty points fields |
+| `brand` | Manufacturer/brand name |
+| `upc` | Product UPC/barcode |
+| `zone` | Store zone string (e.g. `"M[!SCA]"`) — not parsed |
+
+---
+
+## Pricing Field Formats by Brand
+
+**Critical**: `regularPrice` format differs significantly between brands and locales.
+
+| Brand | `regularPrice` example | Notes |
+|---|---|---|
+| Metro Ontario | `null` | Almost always null; "New lower price" doesn't expose the old price |
+| Metro QC | `"17,99/lb - 39,66/kg"` | French comma decimal + per-unit label + dual-unit range |
+| Metro QC (simple) | `"5,49"` | French comma decimal, parseable directly |
+| Food Basics | `null` | Not populated in observed data |
+| Super C | (unknown) | Not yet observed |
+
+**Parser note**: `regularPrice` must be treated as an optional text field. The leading numeric portion should be extracted by stripping unit suffixes (`/kg`, `/lb`, ` - ...`). French comma decimal notation (`17,99` → `17.99`) must be handled.
+
+Similarly, `alternatePrice` always includes a unit suffix (`"$13.21/kg"`, `"22,02$/kg"`) and requires the same leading-number extraction.
+
+`savingsEn` is a dollar-prefixed string (`"$10.99"`) and parses cleanly to a float after stripping `$`.
+
+---
+
+## `waysToSave_EN` Values Observed
+
+| Value | Brands | Meaning |
+|---|---|---|
+| `"New lower price"` | Metro ON | Permanent price reduction |
+| `"This Week Only"` | Food Basics | Weekly flyer deal |
+| `"Locked Down"` | Food Basics | Extended lock-in price |
+| `"Weekly specials"` | Metro QC | Weekly flyer deal |
+| `"Long term specials"` | Metro QC | Extended promotional price |
+| `null` / absent | All | Regular shelf pricing, no explicit promo type |
 
 ---
 

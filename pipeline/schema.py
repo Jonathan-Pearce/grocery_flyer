@@ -130,6 +130,9 @@ class FlyerItem(BaseModel):
     member_price: float | None = None
     """Loyalty / membership programme price, when distinct from ``sale_price``."""
 
+    savings_amount: float | None = None
+    """Dollar amount saved as reported by the API (Metro: ``savingsEn`` / ``savingsFr``)."""
+
     price_is_floor: bool = False
     """``True`` when the price is prefixed with "starting at" / "from"."""
 

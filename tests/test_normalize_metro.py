@@ -39,6 +39,7 @@ def make_raw_product(**overrides) -> dict:
         "tx": None,
         "waysToSave_EN": "This Week Only",
         "savingsEn": None,
+        "savingsFr": None,
         "validFrom": "2026-04-02T04:00:00Z",
         "validTo": "2026-04-08T04:00:00Z",
         "actionType": "Product",
@@ -94,6 +95,22 @@ class TestParsePrice:
 
     def test_dollar_with_french_comma(self):
         assert _parse_price("$14,99") == pytest.approx(14.99)
+
+    def test_unit_suffix_stripped_kg(self):
+        """Price with /kg suffix: '$13.21/kg' → 13.21."""
+        assert _parse_price("$13.21/kg") == pytest.approx(13.21)
+
+    def test_unit_suffix_stripped_lb(self):
+        """Price with /lb suffix and French format: '17,99/lb' → 17.99."""
+        assert _parse_price("17,99/lb") == pytest.approx(17.99)
+
+    def test_unit_suffix_complex_range(self):
+        """Metro QC regularPrice: '17,99/lb - 39,66/kg' → 17.99 (leading value)."""
+        assert _parse_price("17,99/lb - 39,66/kg") == pytest.approx(17.99)
+
+    def test_dollar_after_digits_stripped(self):
+        """French-style '$' after number: '22,02$/kg' → 22.02."""
+        assert _parse_price("22,02$/kg") == pytest.approx(22.02)
 
 
 # ── _iso_date ─────────────────────────────────────────────────────────────────
@@ -253,6 +270,39 @@ class TestNormalizeMetroProduct:
         raw = make_raw_product(waysToSave_EN=None, savingsEn="Save $1.00")
         item = normalize_metro_product(raw)
         assert item.promo_details == "Save $1.00"
+
+    def test_savings_amount_from_savings_en(self):
+        """savingsEn '$10.99' is parsed as numeric savings_amount."""
+        item = normalize_metro_product(make_raw_product(savingsEn="$10.99"))
+        assert item.savings_amount == pytest.approx(10.99)
+
+    def test_savings_amount_from_savings_fr_fallback(self):
+        """savingsFr used when savingsEn is absent."""
+        item = normalize_metro_product(make_raw_product(savingsEn=None, savingsFr="$3.50"))
+        assert item.savings_amount == pytest.approx(3.50)
+
+    def test_savings_amount_none_when_absent(self):
+        """No savings fields → savings_amount is None."""
+        item = normalize_metro_product(make_raw_product(savingsEn=None))
+        assert item.savings_amount is None
+
+    def test_savings_amount_independent_of_promo_details(self):
+        """When both waysToSave_EN and savingsEn are present, promo_details gets
+        waysToSave_EN and savings_amount still gets the numeric savings value."""
+        raw = make_raw_product(waysToSave_EN="New lower price", savingsEn="$10.99")
+        item = normalize_metro_product(raw)
+        assert item.promo_details == "New lower price"
+        assert item.savings_amount == pytest.approx(10.99)
+
+    def test_regular_price_from_complex_string(self):
+        """Metro QC regularPrice '17,99/lb - 39,66/kg' → regular_price = 17.99."""
+        item = normalize_metro_product(make_raw_product(regularPrice="17,99/lb - 39,66/kg"))
+        assert item.regular_price == pytest.approx(17.99)
+
+    def test_alternate_price_from_unit_suffixed_string(self):
+        """alternatePrice '$13.21/kg' → alternate_price = 13.21."""
+        item = normalize_metro_product(make_raw_product(alternatePrice="$13.21/kg"))
+        assert item.alternate_price == pytest.approx(13.21)
 
     def test_raw_body_from_contents(self):
         item = normalize_metro_product(make_raw_product(contents="Full promo text"))
