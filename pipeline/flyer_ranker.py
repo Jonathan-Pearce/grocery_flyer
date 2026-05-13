@@ -167,16 +167,17 @@ def _aggregate_chain_rows(flyer_rows: list[dict], week_label: str) -> list[dict]
         total_items = sum(f["item_count"] for f in flyers)
         total_hot = sum(f["hot_count"] for f in flyers)
         hot_ratio = round(total_hot / total_items, 4) if total_items else 0.0
+        avg_items_per_flyer = round(total_items / len(flyers)) if flyers else 0
 
         chain_rows.append({
-            "week_label":       week_label,
-            "store_chain":      chain,
-            "flyer_count":      len(flyers),
-            "item_count":       total_items,
-            "hot_count":        total_hot,
-            "hot_ratio":        hot_ratio,
-            "avg_flyer_grade":  chain_grade,
-            "letter_grade":     letter_grade(chain_grade),
+            "week_label":          week_label,
+            "store_chain":         chain,
+            "flyer_count":         len(flyers),
+            "avg_items_per_flyer": avg_items_per_flyer,
+            "hot_count":           total_hot,
+            "hot_ratio":           hot_ratio,
+            "avg_flyer_grade":     chain_grade,
+            "letter_grade":        letter_grade(chain_grade),
         })
 
     # Sort by grade descending

@@ -1,26 +1,19 @@
 <script setup>
 import { useRouter, useRoute } from 'vue-router'
-import { useUserStore } from '@/stores/user.js'
 import { computed } from 'vue'
-import ChainTag from './ChainTag.vue'
 
 const router = useRouter()
 const route = useRoute()
-const user = useUserStore()
 
-const onDealsPage = computed(() => route.name === 'deals')
+const onHomePage = computed(() => route.name === 'home')
 const onRankingsPage = computed(() => route.name === 'rankings')
-
-const selectedChainSlugs = computed(() => {
-  const chains = new Set()
-  for (const key of user.selectedStoreCodes) {
-    chains.add(key.split(':')[0])
-  }
-  return [...chains].sort()
-})
 
 function goHome() {
   router.push('/')
+}
+
+function goDeals() {
+  router.push('/deals')
 }
 
 function goRankings() {
@@ -39,6 +32,20 @@ function goRankings() {
       <nav class="header-nav">
         <button
           class="nav-btn"
+          :class="{ active: onHomePage }"
+          @click="goHome"
+        >
+          Find Stores
+        </button>
+        <button
+          class="nav-btn"
+          :class="{ active: route.name === 'deals' }"
+          @click="goDeals"
+        >
+          Deals
+        </button>
+        <button
+          class="nav-btn"
           :class="{ active: onRankingsPage }"
           @click="goRankings"
         >
@@ -46,14 +53,7 @@ function goRankings() {
         </button>
       </nav>
 
-      <div v-if="onDealsPage && user.hasStores" class="header-chains">
-        <ChainTag
-          v-for="slug in selectedChainSlugs"
-          :key="slug"
-          :chain="slug"
-        />
-        <button class="change-btn" @click="goHome">← Change Stores</button>
-      </div>
+
     </div>
   </header>
 </template>
@@ -134,31 +134,5 @@ function goRankings() {
 
 .nav-btn.active {
   color: var(--c-amber);
-}
-
-.header-chains {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  flex-wrap: wrap;
-  flex: 1;
-}
-
-.change-btn {
-  margin-left: auto;
-  background: none;
-  border: 1px solid var(--c-amber);
-  color: var(--c-amber);
-  font-family: var(--font-body);
-  font-size: 0.75rem;
-  letter-spacing: 0.06em;
-  padding: 4px 12px;
-  cursor: pointer;
-  border-radius: 2px;
-  transition: background 0.2s, color 0.2s;
-}
-.change-btn:hover {
-  background: var(--c-amber);
-  color: var(--c-bg);
 }
 </style>

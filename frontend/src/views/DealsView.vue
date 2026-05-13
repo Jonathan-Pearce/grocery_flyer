@@ -6,10 +6,23 @@ import { useDealsStore } from '@/stores/deals.js'
 import DealCard from '@/components/DealCard.vue'
 import ScoreTile from '@/components/ScoreTile.vue'
 import CategoryFilter from '@/components/CategoryFilter.vue'
+import ChainTag from '@/components/ChainTag.vue'
 
 const router = useRouter()
 const user = useUserStore()
 const deals = useDealsStore()
+
+const selectedChainSlugs = computed(() => {
+  const chains = new Set()
+  for (const key of user.selectedStoreCodes) {
+    chains.add(key.split(':')[0])
+  }
+  return [...chains].sort()
+})
+
+function goHome() {
+  router.push('/')
+}
 
 onMounted(() => {
   if (!user.hasStores) {
@@ -44,38 +57,56 @@ const dealGroups = computed(() => {
 <template>
   <main class="deals-view">
     <div class="deals-inner">
-      <!-- Sub-nav -->
+      <!-- ── Page header ────────────────────────────────────────── -->
       <div class="deals-header">
-        <div class="deals-title-row">
+
+        <!-- Row 1: chain logos + change stores -->
+        <div class="chains-bar">
+          <div class="chains-list">
+            <ChainTag
+              v-for="slug in selectedChainSlugs"
+              :key="slug"
+              :chain="slug"
+            />
+          </div>
+          <button class="change-stores-btn" @click="goHome">← Change Stores</button>
+        </div>
+
+        <!-- Row 2: title + toolbar -->
+        <div class="deals-toolbar">
           <h2 class="deals-heading">
             This Week's Best Deals
             <span v-if="deals.filteredDeals.length" class="deal-count">
               ({{ deals.filteredDeals.length }})
             </span>
           </h2>
-          <div class="sort-label">Sorted by Deal Score ↓</div>
-          <div class="search-wrap">
-            <input
-              class="search-input"
-              type="search"
-              placeholder="Search items…"
-              :value="deals.searchQuery"
-              @input="deals.setSearch($event.target.value)"
-            />
-          </div>
-          <div class="tier-filter">
-            <button
-              class="tier-btn"
-              :class="{ active: deals.activeTier === 'hot' }"
-              @click="deals.setTier('hot')"
-            >🔥 Hot</button>
-            <button
-              class="tier-btn"
-              :class="{ active: deals.activeTier === 'good' }"
-              @click="deals.setTier('good')"
-            >★ Good+</button>
+          <div class="toolbar-controls">
+            <span class="sort-label">Sorted by deal score ↓</span>
+            <div class="search-wrap">
+              <input
+                class="search-input"
+                type="search"
+                placeholder="Search items…"
+                :value="deals.searchQuery"
+                @input="deals.setSearch($event.target.value)"
+              />
+            </div>
+            <div class="tier-filter">
+              <button
+                class="tier-btn"
+                :class="{ active: deals.activeTier === 'hot' }"
+                @click="deals.setTier(deals.activeTier === 'hot' ? null : 'hot')"
+              >🔥 Hot</button>
+              <button
+                class="tier-btn"
+                :class="{ active: deals.activeTier === 'good' }"
+                @click="deals.setTier(deals.activeTier === 'good' ? null : 'good')"
+              >★ Good+</button>
+            </div>
           </div>
         </div>
+
+        <!-- Row 3: category filters -->
         <CategoryFilter />
       </div>
 
@@ -174,33 +205,78 @@ const dealGroups = computed(() => {
   padding-bottom: var(--space-md);
 }
 
-.deals-title-row {
+/* Row 1 — chain logos bar */
+.chains-bar {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: var(--space-md);
+  padding-bottom: var(--space-sm);
+  border-bottom: 1px solid var(--c-border);
+}
+
+.chains-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+}
+
+.change-stores-btn {
+  flex-shrink: 0;
+  background: none;
+  border: 1px solid var(--c-border);
+  color: var(--c-muted);
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+  padding: 4px 12px;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: border-color 0.15s, color 0.15s;
+  white-space: nowrap;
+}
+.change-stores-btn:hover {
+  border-color: var(--c-amber);
+  color: var(--c-amber);
+}
+
+/* Row 2 — title + toolbar */
+.deals-toolbar {
+  display: flex;
+  align-items: center;
   gap: var(--space-md);
   flex-wrap: wrap;
 }
 
 .deals-heading {
   font-family: var(--font-display);
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: 700;
   color: var(--c-ivory);
   margin: 0;
   letter-spacing: -0.01em;
+  flex-shrink: 0;
 }
 
 .deal-count {
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: var(--c-muted);
   font-weight: 400;
 }
 
+.toolbar-controls {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  flex: 1;
+  flex-wrap: wrap;
+}
+
 .sort-label {
   font-family: var(--font-body);
-  font-size: 0.75rem;
-  letter-spacing: 0.08em;
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
   color: var(--c-muted);
   text-transform: uppercase;
   white-space: nowrap;
@@ -209,7 +285,7 @@ const dealGroups = computed(() => {
 .search-wrap {
   flex: 1;
   min-width: 140px;
-  max-width: 260px;
+  max-width: 240px;
 }
 
 .search-input {

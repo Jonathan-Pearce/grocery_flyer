@@ -3,6 +3,9 @@ import { onMounted, onUnmounted, watch, ref } from 'vue'
 import { useUserStore } from '@/stores/user.js'
 import { useGeocoding } from '@/composables/useGeocoding.js'
 import { useStores } from '@/composables/useStores.js'
+import { chainLogoUrl } from '@/utils/chainLogos.js'
+
+const BASE_URL = import.meta.env.BASE_URL
 
 const props = defineProps({
   postalCode: { type: String, default: '' },
@@ -71,7 +74,7 @@ async function addStoreMarkers(L, coords) {
 
   const stores = await nearbyStores(coords.lat, coords.lng, 75)
 
-  const storeIcon = L.divIcon({
+  const fallbackIcon = L.divIcon({
     html: `<div class="store-dot"></div>`,
     className: '',
     iconSize: [12, 12],
@@ -79,8 +82,17 @@ async function addStoreMarkers(L, coords) {
   })
 
   for (const s of stores) {
+    const logoPath = chainLogoUrl(s.chain)
+    const icon = logoPath
+      ? L.divIcon({
+          html: `<div style="background:#fff;border-radius:2px;box-shadow:0 1px 3px rgba(0,0,0,0.5);padding:1px 2px;display:flex;align-items:center;justify-content:center;width:20px;height:14px;overflow:hidden;"><img src="${BASE_URL}${logoPath}" alt="" style="width:16px;height:10px;object-fit:contain;display:block;" /></div>`,
+          className: '',
+          iconSize: [20, 14],
+          iconAnchor: [10, 7]
+        })
+      : fallbackIcon
     const label = `<b>${s.store_name}</b><br>${s.chain} &mdash; ${s.distanceKm} km`
-    L.marker([s.lat, s.lon], { icon: storeIcon })
+    L.marker([s.lat, s.lon], { icon })
       .bindPopup(label)
       .addTo(storeLayerGroup)
   }

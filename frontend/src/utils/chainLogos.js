@@ -4,20 +4,34 @@
  */
 export const CHAIN_LOGO_URLS = {
   // Loblaws group
-  loblaws:                  'images/chains/Loblaws_Brand_Logo.svg.png',
-  nofrills:                 'images/chains/No_Frills_logo.svg.png',
-  real_canadian_superstore: 'images/chains/Real_Canadian_Superstore_logo.svg.png',
-  independent_city_market:  'images/chains/LCM.png',
+  loblaws:                  'images/chains/loblaws.png',
+  nofrills:                 'images/chains/nofrills.png',
+  provigo:                  'images/chains/provigo.png',
+  real_canadian_superstore: 'images/chains/real_canadian_superstore.png',
+  maxi:                     'images/chains/maxi.png',
+  zehrs:                    'images/chains/zehrs.png',
+  fortinos:                 'images/chains/fortinos.png',
+  atlantic_superstore:      'images/chains/atlantic_superstore.png',
+  dominion:                 'images/chains/dominion.webp',
+  independent_grocer:       'images/chains/independent_grocer.png',
+  independent_city_market:  'images/chains/independent_city_market.png',
+  freshmart:                'images/chains/freshmart.png',
   // Sobeys group
-  sobeys:                   'images/chains/Sobeys_Corporate_Logo_2024.svg.png',
+  sobeys:                   'images/chains/sobeys.png',
+  safeway:                  'images/chains/safeway.png',
+  iga:                      'images/chains/iga.jpg',
   freshco:                  'images/chains/freshco.png',
-  farm_boy:                 'images/chains/Farm_Boy_logo.svg.png',
+  foodland:                 'images/chains/foodland.png',
   longos:                   'images/chains/longos.png',
+  farm_boy:                 'images/chains/farm_boy.png',
   // Walmart
   walmart:                  'images/chains/walmart.png',
   // Metro group
-  metro:                    'images/chains/Metro_Inc._logo.svg.png',
-  food_basics:              'images/chains/food-basics.png',
+  metro:                    'images/chains/metro.png',
+  metro_qc:                 'images/chains/metro.png',
+  food_basics:              'images/chains/food_basics.png',
+  super_c:                  'images/chains/super_c.png',
+  adonis:                   'images/chains/adonis.png',
 }
 
 /**

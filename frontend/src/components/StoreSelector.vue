@@ -2,6 +2,9 @@
 import { ref, computed, onMounted, watch } from 'vue'
 import { useUserStore } from '@/stores/user.js'
 import { useStores } from '@/composables/useStores.js'
+import { chainLogoUrl, DARK_BG_LOGOS } from '@/utils/chainLogos.js'
+
+const BASE_URL = import.meta.env.BASE_URL
 
 const emit = defineEmits(['ready', 'radius-change'])
 
@@ -81,9 +84,10 @@ watch(() => user.latlng, load)
 // ── Radius tab actions ─────────────────────────────────────────────────────────
 watch(radiusKm, km => emit('radius-change', km))
 
-function selectRadius() {
-  user.setStoreCodesFromRadius(withinRadius.value)
-}
+// Auto-select all stores within the radius whenever it changes
+watch(withinRadius, (stores) => {
+  user.setStoreCodesFromRadius(stores)
+}, { immediate: true })
 
 // ── Pick tab actions ───────────────────────────────────────────────────────────
 function toggleStore(s) {
@@ -238,18 +242,19 @@ function formatStoreName(chain, raw) {
           v-for="(count, chain) in chainCounts(withinRadius)"
           :key="chain"
           class="chain-chip"
-          :data-chain="chain"
-        >{{ CHAIN_LABELS[chain] ?? chain }} ({{ count }})</span>
+          :class="{ 'has-logo': !!chainLogoUrl(chain), 'dark-bg': DARK_BG_LOGOS.has(chain) }"
+        >
+          <img
+            v-if="chainLogoUrl(chain)"
+            :src="`${BASE_URL}${chainLogoUrl(chain)}`"
+            :alt="CHAIN_LABELS[chain] ?? chain"
+            class="chip-logo"
+          />
+          <template v-else>{{ CHAIN_LABELS[chain] ?? chain }}</template>
+          <span class="chip-count">({{ count }})</span>
+        </span>
       </div>
       <p v-else class="ss-empty">No stores found — try a larger radius.</p>
-
-      <button
-        class="radius-select-btn"
-        :disabled="withinRadius.length === 0"
-        @click="selectRadius"
-      >
-        Select {{ withinRadius.length }} store{{ withinRadius.length !== 1 ? 's' : '' }}
-      </button>
     </div>
 
     <!-- ── Tab B: Pick Stores ────────────────────────────────────────────── -->
@@ -274,8 +279,17 @@ function formatStoreName(chain, raw) {
                 <path d="M2 6l3 3 5-5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>
             </span>
-            <span class="store-chain-badge" :data-chain="s.chain">
-              {{ CHAIN_LABELS[s.chain] ?? s.chain }}
+            <span
+              class="store-chain-badge"
+              :class="{ 'has-logo': !!chainLogoUrl(s.chain), 'dark-bg': DARK_BG_LOGOS.has(s.chain) }"
+            >
+              <img
+                v-if="chainLogoUrl(s.chain)"
+                :src="`${BASE_URL}${chainLogoUrl(s.chain)}`"
+                :alt="CHAIN_LABELS[s.chain] ?? s.chain"
+                class="badge-logo"
+              />
+              <template v-else>{{ CHAIN_LABELS[s.chain] ?? s.chain }}</template>
             </span>
             <span class="store-body">
               <span class="store-name">{{ formatStoreName(s.chain, s.store_name) }}</span>
@@ -435,6 +449,9 @@ function formatStoreName(chain, raw) {
   gap: 6px;
 }
 .chain-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
   font-family: var(--font-body);
   font-size: 0.72rem;
   padding: 3px 8px;
@@ -443,23 +460,27 @@ function formatStoreName(chain, raw) {
   border: 1px solid var(--c-border);
   color: var(--c-muted);
 }
-
-.radius-select-btn {
-  align-self: flex-start;
-  background: var(--c-amber);
-  border: none;
-  border-radius: 2px;
-  color: var(--c-bg);
-  cursor: pointer;
-  font-family: var(--font-body);
-  font-size: 0.8rem;
-  font-weight: 500;
-  letter-spacing: 0.04em;
-  padding: 7px 16px;
-  transition: opacity 0.15s;
+.chain-chip.has-logo {
+  background: #fff;
+  border-color: rgba(255,255,255,0.15);
+  padding: 3px 6px;
 }
-.radius-select-btn:disabled { opacity: 0.4; cursor: default; }
-.radius-select-btn:not(:disabled):hover { opacity: 0.85; }
+.chain-chip.has-logo.dark-bg {
+  background: #1b2d1e;
+}
+.chip-logo {
+  display: block;
+  height: 12px;
+  width: auto;
+  object-fit: contain;
+}
+.chip-count {
+  color: #111;
+  font-size: 0.7rem;
+}
+.chain-chip.dark-bg .chip-count {
+  color: #fff;
+}
 
 /* Pick tab */
 .pick-toolbar {
@@ -525,6 +546,8 @@ function formatStoreName(chain, raw) {
 }
 
 .store-chain-badge {
+  display: inline-flex;
+  align-items: center;
   font-family: var(--font-body);
   font-size: 0.65rem;
   letter-spacing: 0.06em;
@@ -537,6 +560,20 @@ function formatStoreName(chain, raw) {
   flex-shrink: 0;
   white-space: nowrap;
   margin-top: 1px;
+}
+.store-chain-badge.has-logo {
+  background: #fff;
+  border-color: rgba(255,255,255,0.15);
+  padding: 2px 4px;
+}
+.store-chain-badge.has-logo.dark-bg {
+  background: #1b2d1e;
+}
+.badge-logo {
+  display: block;
+  height: 12px;
+  width: auto;
+  object-fit: contain;
 }
 .store-body {
   flex: 1;

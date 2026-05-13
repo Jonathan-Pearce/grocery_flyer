@@ -46,8 +46,8 @@ function formatWeek(wl) {
 }
 
 function hotPct(row) {
-  if (!row || !row.item_count) return '—'
-  return `${Math.round((row.hot_ratio ?? 0) * 100)}%`
+  if (!row || row.hot_ratio == null) return '—'
+  return `${Math.round(row.hot_ratio * 100)}%`
 }
 </script>
 
@@ -107,7 +107,8 @@ function hotPct(row) {
                   <th class="col-grade">Grade</th>
                   <th class="col-score">Avg Score</th>
                   <th class="col-hot">🔥 Hot</th>
-                  <th class="col-items">Items</th>
+                  <th class="col-flyers">Flyers</th>
+                  <th class="col-items">Avg Items</th>
                 </tr>
               </thead>
               <tbody>
@@ -150,7 +151,8 @@ function hotPct(row) {
                       <span class="hot-pct">{{ hotPct(row) }}</span>
                     </span>
                   </td>
-                  <td class="col-items muted">{{ row.item_count.toLocaleString() }}</td>
+                  <td class="col-flyers muted">{{ row.flyer_count?.toLocaleString() ?? '—' }}</td>
+                  <td class="col-items muted">{{ row.avg_items_per_flyer?.toLocaleString() ?? '—' }}</td>
                 </tr>
               </tbody>
             </table>
@@ -322,7 +324,8 @@ function hotPct(row) {
 .col-grade { width: 70px; }
 .col-score { width: 90px; }
 .col-hot   { min-width: 110px; }
-.col-items { width: 70px; }
+.col-flyers { width: 65px; }
+.col-items { width: 80px; }
 
 .rank-num {
   font-family: var(--font-display);
@@ -535,6 +538,8 @@ function hotPct(row) {
 
 /* ── Responsive ──────────────────────────────────────── */
 @media (max-width: 600px) {
+  .chain-table th:is(.col-flyers),
+  .chain-table td:is(.col-flyers),
   .chain-table th:is(.col-items),
   .chain-table td:is(.col-items) { display: none; }
 
