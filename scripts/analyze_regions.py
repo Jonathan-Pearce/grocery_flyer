@@ -104,49 +104,50 @@ def _analyse_flipp(
         return []
     t = pq.read_table(str(path))
     d = t.to_pydict()
-    codes = d["store_code"]
-    raws  = d["raw_json"]
+    codes     = d["store_code"]
+    raws      = d["raw_json"]
+    flyer_ids = d["flyer_id"]   # publication_id — matches flyer_id in active_scores
 
-    # Group by (flyer_run_id, valid_from, valid_to)
-    # Key: (run_id, valid_from_date, valid_to_date) → set of store_codes
+    # Group by (publication_id, valid_from, valid_to)
+    # Using publication_id ensures region_id matches flyer_id in active_scores.
+    # Key: (pub_id, valid_from_date, valid_to_date) → set of store_codes
     run_stores: dict[tuple, set[str]] = defaultdict(set)
 
-    for code, raw in zip(codes, raws):
+    for code, pub_id, raw in zip(codes, flyer_ids, raws):
         obj = json.loads(raw) if raw else {}
-        run_id = obj.get("flyer_run_id")
         vf = _week_key(obj.get("valid_from", ""))
         vt = _week_key(obj.get("valid_to", ""))
-        if run_id and vf:
-            run_stores[(str(run_id), vf, vt)].add(str(code))
+        if pub_id and vf:
+            run_stores[(str(pub_id), vf, vt)].add(str(code))
 
-    # Detect multi-flyer stores: a store that appears in 2+ runs for the same week
-    # Build: store_code → set of run_ids active in same week
+    # Detect multi-flyer stores: a store that appears in 2+ publications for the same week
+    # Build: store_code → set of pub_ids active in same week
     store_runs_by_week: dict[tuple[str, str], set[str]] = defaultdict(set)
-    for (run_id, vf, vt), store_set in run_stores.items():
+    for (pub_id, vf, vt), store_set in run_stores.items():
         for code in store_set:
-            store_runs_by_week[(code, vf)].add(run_id)
+            store_runs_by_week[(code, vf)].add(pub_id)
 
     multi_stores_by_run: dict[tuple, set[str]] = defaultdict(set)
-    for (code, vf), run_set in store_runs_by_week.items():
-        if len(run_set) > 1:
-            for run_id in run_set:
-                # Find the matching (run_id, vf, *) key
+    for (code, vf), pub_set in store_runs_by_week.items():
+        if len(pub_set) > 1:
+            for pub_id in pub_set:
+                # Find the matching (pub_id, vf, *) key
                 for key in run_stores:
-                    if key[0] == run_id and key[1] == vf and code in run_stores[key]:
+                    if key[0] == pub_id and key[1] == vf and code in run_stores[key]:
                         multi_stores_by_run[key].add(code)
 
     rows = []
-    for (run_id, vf, vt), store_set in run_stores.items():
+    for (pub_id, vf, vt), store_set in run_stores.items():
         postal_codes = sorted({
             geo.get((folder, c), "")
             for c in store_set
             if geo.get((folder, c))
         })
         fsas = sorted({_fsa(p) for p in postal_codes if p})
-        multi = sorted(multi_stores_by_run.get((run_id, vf, vt), set()))
+        multi = sorted(multi_stores_by_run.get((pub_id, vf, vt), set()))
         rows.append({
             "chain":              folder,
-            "region_id":          run_id,
+            "region_id":          pub_id,
             "valid_from":         vf,
             "valid_to":           vt,
             "store_codes":        json.dumps(sorted(store_set)),

@@ -143,8 +143,14 @@ def main(argv: list[str] | None = None) -> int:
                 f"  hot={row['hot_count']}  flyers={row['flyer_count']}  avg_items={row['avg_items_per_flyer']}"
             )
 
-    # ── Step 4: export_frontend_data ──────────────────────────────────────────
-    _step(4, 4, "export_frontend_data  →  frontend/public/data/*.json")
+    # ── Step 4: analyze_regions ───────────────────────────────────────────────
+    _step(4, 5, "analyze_regions  →  data/flyer_regions.parquet")
+    from scripts.analyze_regions import analyze_regions  # noqa: PLC0415
+
+    analyze_regions()
+
+    # ── Step 5: export_frontend_data ──────────────────────────────────────────
+    _step(5, 5, "export_frontend_data  →  frontend/public/data/*.json")
     from scripts.export_frontend_data import (  # noqa: PLC0415
         _export_scores,
         export_flyer_regions,
