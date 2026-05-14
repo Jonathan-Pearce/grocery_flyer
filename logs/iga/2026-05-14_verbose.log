@@ -1,0 +1,341 @@
+=== IGA Flyer Fetch — 2026-05-14 ===
+Run started : 2026-05-14 13:46:34 UTC
+
+Loaded 271 stores from data/iga/stores.parquet
+
+Stores loaded: 271
+Loaded store_flyers.parquet (2956 publication entries)
+
+Phase 1: fetching publications per store…
+
+  [288] IGA Alimentation St-Onge inc. → ['7926558', '7921346', '7921464', '7911193']
+  [409] IGA Stoneham-et-Tewkesbury → ['7926562', '7921346', '7921464', '7911193']
+  [2422] IGA La Coop de Shediac (Depanneur) → ['7926627', '7921657', '7927101', '7911255']
+  [2430] IGA La Soc Coop de Lameque (Depanneur) → ['7926627', '7921657', '7927101', '7911255']
+  [2431] IGA La Coop cons. Dieppe (Depanneur) → ['7926627', '7921657', '7927101', '7911255']
+  [2524] IGA HENRI LAFLAMME INC. → ['7926558', '7921346', '7921464', '7911193']
+  [5238] IGA Les Fiduc. SQSP (Coteau-du-Lac) → ['7926558', '7921346', '7921464', '7911193']
+  [5476] IGA Famille Julien inc. → ['7926558', '7921346', '7921464', '7911193']
+  [5598] IGA - Quebec inc. → ['7926558', '7921346', '7921464', '7911193']
+  [5662] IGA Sobeys Capital inc. (EXP/Longueuil) → ['7926558', '7921346', '7921464', '7911193']
+  [5869] IGA - Quebec Inc. → ['7926558', '7921346', '7921464', '7911193']
+  [5910] 9378-3702 Quebec inc. → ['7926558', '7921346', '7921464', '7911193']
+  [5924] IGA Sobeys Capital inc. (Q. spectacles) → ['7926558', '7921346', '7921464', '7911193']
+  [5925] IGA - Quebec inc. → ['7926558', '7921346', '7921464', '7911193']
+  [5940] IGA - Quebec Inc. → ['7926558', '7921346', '7921464', '7911193']
+  [6016] IGA Les Investissements St-David inc. → ['7926558', '7921346', '7921464', '7911193']
+  [6018] IGA - Quebec inc. → ['7926558', '7921346', '7921464', '7911193']
+  [6027] IGA express Des Sources → ['7926558', '7921346', '7921464', '7911193']
+  [6029] IGA express Gagné et fils → ['7926558', '7921346', '7921464', '7911193']
+  [6032] IGA - Quebec inc → ['7926558', '7921346', '7921464', '7911193']
+  [6035] IGA Depanneur CDL inc. → ['7926558', '7921346', '7921464', '7911193']
+  [6042] IGA Express Famille Piché → ['7926558', '7921346', '7921464', '7911193']
+  [6139] IGA Marche Lambert et Freres inc. → ['7926558', '7921346', '7921464', '7911193']
+  [6141] IGA Publicite Punch () inc. → ['7926558', '7921346', '7921464', '7911193']
+  [6484] IGA - Quebec inc. → ['7926558', '7921346', '7921464', '7911193']
+  [6485] IGA - Quebec inc. → ['7926558', '7921346', '7921464', '7911193']
+  [6882] IGA - Quebec Inc. → ['7926558', '7921346', '7921464', '7911193']
+  [6932] IGA des Sources Galeries Charlebourg → ['7926562', '7921346', '7921464', '7911193']
+  [6945] IGA express Les filles et associés → ['7926558', '7921346', '7921464', '7911193']
+  [7878] IGA Marché Clément des Forges inc. → ['7926564', '7921346', '7921464', '7911193']
+  [7906] IGA extra Les Marchés Emily et Philip → ['7926560', '7921346', '7921464', '7911193']
+  [7920] IGA Ernest Joly & Fils inc. → ['7926558', '7921346', '7921464', '7911193']
+  [7924] Groupe Epiciers Couture inc. → ['7926558', '7921346', '7921464', '7911193']
+  [7925] RB Complexe Desjardins → ['7926560', '7921346', '7921464', '7911193']
+  [8003] IGA Ronald Boucher & Fils inc. → ['7926558', '7921346', '7921464', '7911193']
+  [8004] IGA Alimentation Jean Martin inc. → ['7926564', '7921346', '7921464', '7911193']
+  [8007] IGA Marché Demers → ['7926558', '7921346', '7921464', '7911193']
+  [8008] IGA Marché Aliguy inc. → ['7926558', '7921346', '7921464', '7911193']
+  [8012] IGA Extra Chaumont et Bilodeau → ['7926564', '7921346', '7921464', '7911193']
+  [8013] IGA Marché Girard Terrebonne inc. → ['7926562', '7921346', '7921464', '7911193']
+  [8016] IGA Extra Couture → ['7926564', '7921346', '7921464', '7911193']
+  [8018] IGA Supermarché Mellon inc. → ['7926558', '7921346', '7921464', '7911193']
+  [8019] IGA Chibougamau → ['7926558', '7921346', '7921464', '7911193']
+  [8020] IGA Marche Famille Mondor inc → ['7926560', '7921346', '7921464', '7911193']
+  [8021] IGA Marché Lambert et frères inc. → ['7926564', '7921346', '7921464', '7911193']
+  [8022] IGA Ormstown → ['7926558', '7921346', '7921464', '7911193']
+  [8023] IGA ALIMENTATION CHRISTIAN ET GINETTE S → ['7926564', '7921346', '7921464', '7911193']
+  [8028] IGA Groupe Epicier Angus → ['7926558', '7921346', '7921464', '7911193']
+  [8031] IGA Extra Quebec Marche Lambert et freres inc. → ['7926564', '7921346', '7921464', '7911193']
+  [8032] IGA extra Vallée Candiac → ['7926562', '7921346', '7921464', '7911193']
+  [8033] IGA Supermarchés Jacques Daigle inc. → ['7926564', '7921346', '7921464', '7911193']
+  [8034] IGA Alimentation Raymond Rousseau inc. → ['7926562', '7921346', '7921464', '7911193']
+  [8035] IGA Marché Raynald Giguère inc. → ['7926562', '7921346', '7921464', '7911193']
+  [8041] IGA Alimentation Frédérik Martin Inc. → ['7926558', '7921346', '7921464', '7911193']
+  [8042] IGA Marché DesRosiers inc. → ['7926558', '7921346', '7921464', '7911193']
+  [8043] IGA Extra Lamoureux Saint-Eustache → ['7926564', '7921346', '7921464', '7911193']
+  [8046] IGA Alimentation Coaticook () inc. → ['7926558', '7921346', '7921464', '7911193']
+  [8049] IGA Famille Guilbault → ['7926558', '7921346', '7921464', '7911193']
+  [8050] IGA Supermarché J.C. Bédard Ltée → ['7926562', '7921346', '7921464', '7911193']
+  [8052] IGA Alimentation Serge Vermette inc. → ['7926562', '7921346', '7921464', '7911193']
+  [8053] IGA Les Marchés Pepin inc. → ['7926564', '7921346', '7921464', '7911193']
+  [8054] IGA Roy → ['7926558', '7921346', '7921464', '7911193']
+  [8056] IGA Supermarché Pierre Patry Extra → ['7926558', '7921346', '7921464', '7911193']
+  [8057] IGA Beaumont → ['7926564', '7921346', '7921464', '7911193']
+  [8058] IGA Supermarché Crevier Notre-Dame → ['7926564', '7921346', '7921464', '7911193']
+  [8060] IGA Molson → ['7926562', '7921346', '7921464', '7911193']
+  [8064] IGA Famille Charles Cantley → ['7926562', '7921346', '7921464', '7911193']
+  [8065] IGA CookshireGestion Gilles Gene → ['7926558', '7921346', '7921464', '7911193']
+  [8070] IGA Extra marché Lambert → ['7926562', '7921346', '7921464', '7911193']
+  [8071] IGA Épicerie R. Cadieux et Fils inc. → ['7926562', '7921346', '7921464', '7911193']
+  [8073] IGA Marché IGA Lord de Lafontaine → ['7926562', '7921346', '7921464', '7911193']
+  [8077] IGA Marché Clément St-Charles Inc. → ['7926562', '7921346', '7921464', '7911193']
+  [8078] IGA Marché Emily Philip Desmarais inc. → ['7926564', '7921346', '7921464', '7911193']
+  [8081] IGA COOP Consommateurs de Lorette → ['7926562', '7921346', '7921464', '7911193']
+  [8092] IGA L.A. Daigneault et fils ltée → ['7926564', '7921346', '7921464', '7911193']
+  [8093] IGA Sobeys Capital inc. → ['7926562', '7921346', '7921464', '7911193']
+  [8096] IGA Marché Denis → ['7926562', '7921346', '7921464', '7911193']
+  [8111] IGA Alimentation Shnaidman Pagano → ['7926574', '7921346', '7921464', '7911193']
+  [8113] IGA Groupe Pro  Inc. → ['7926562', '7921346', '7921464', '7911193']
+  [8115] IGA Supermarché Clément Nicolet Inc. → ['7926558', '7921346', '7921464', '7911193']
+  [8123] IGA EXTRA Mascouche → ['7926564', '7921346', '7921464', '7911193']
+  [8137] IGA Les Marchés Pepin inc. → ['7926562', '7921346', '7921464', '7911193']
+  [8144] IGA Marché d'alimentation Crevier inc. → ['7926578', '7921346', '7921464', '7911193']
+  [8154] IGA La Seigneurie Blainville Inc. → ['7926562', '7921346', '7921464', '7911193']
+  [8162] IGA Supermarché Famille Rousseau S.B.D. → ['7926558', '7921346', '7921464', '7911193']
+  [8163] IGA Extra Gladu Douglas → ['7926562', '7921346', '7921464', '7911193']
+  [8164] IGA Gladu Saint-Luc → ['7926562', '7921346', '7921464', '7911193']
+  [8168] IGA extra Famille LacostePointe-aux-Trembles → ['7926574', '7921346', '7921464', '7911193']
+  [8175] IGA Extra Saint-Georges → ['7926558', '7921346', '7921464', '7911193']
+  [8176] IGA Saint-Joseph-de-Beauce → ['7926558', '7921346', '7921464', '7911193']
+  [8182] IGA Gestion Tremblay & Leboeuf inc. → ['7926558', '7921346', '7921464', '7911193']
+  [8183] IGA Marché M. Bouchard → ['7926562', '7921346', '7921464', '7911193']
+  [8186] Marché Famille Leblanc Forté et fils → ['7926562', '7921346', '7921464', '7911193']
+  [8187] IGA Marché du Faubourg Ste-Julie inc. → ['7926576', '7921346', '7921464', '7911193']
+  [8188] IGA Deschênes → ['7926562', '7921346', '7921464', '7911193']
+  [8189] RB Mont Saint Hilaire → ['7926560', '7921346', '7921464', '7911193']
+  [8190] IGA Marché Michel Lemieux inc. → ['7926562', '7921346', '7921464', '7911193']
+  [8191] IGA Supermarché Bergeron Inc → ['7926558', '7921346', '7921464', '7911193']
+  [8193] IGA Supermarché IGA extra Shawinigan → ['7926562', '7921346', '7921464', '7911193']
+  [8196] IGA Roger Rainville & Fils inc. → ['7926558', '7921346', '7921464', '7911193']
+  [8197] IGA Supermarché IGA Gagnon & Filles Inc → ['7926568', '7921346', '7921464', '7911193']
+  [8199] IGA Mercier Famille Reid-Boursier → ['7926564', '7921346', '7921464', '7911193']
+  [8200] IGA Supermarché Arcand () Inc. → ['7926558', '7921346', '7921464', '7911193']
+  [8202] IGA Sainte-Martine → ['7926558', '7921346', '7921464', '7911193']
+  [8203] IGA Supermarché Gilles Bariteau inc. → ['7926564', '7921346', '7921464', '7911193']
+  [8204] IGA Supermarché Pépin → ['7926564', '7921346', '7921464', '7911193']
+  [8207] IGA Marché d'alimentation Martin Lamarr → ['7926574', '7921346', '7921464', '7911193']
+  [8209] IGA Alimentation Yvon Haché → ['7926560', '7921346', '7921464', '7911193']
+  [8210] IGA Marché Louise Ménard inc. → ['7926562', '7921346', '7921464', '7911193']
+  [8212] IGA Marché Gazaille → ['7926564', '7921346', '7921464', '7911193']
+  [8213] IGA Marché de L’île-des Sœurs → ['7926562', '7921346', '7921464', '7911193']
+  [8214] IGA Marché Louise Ménard (Préville) Inc → ['7926564', '7921346', '7921464', '7911193']
+  [8217] IGA Marché Louise Ménard → ['7926564', '7921346', '7921464', '7911193']
+  [8219] IGA Marché Louise Ménard inc. (Place Du → ['7926562', '7921346', '7921464', '7911193']
+  [8222] IGA MARCHÉ MÉLANIE LE TRIANGLE → ['7926576', '7921346', '7921464', '7911193']
+  [8223] IGA Marché GouletGrenville → ['7926558', '7921346', '7921464', '7911193']
+  [8224] IGA Marché Au Chalet () inc. → ['7926562', '7921346', '7921464', '7911193']
+  [8225] IGA Marché Forgues → ['7926562', '7921346', '7921464', '7911193']
+  [8226] IGA Supermarché Picard inc. → ['7926576', '7921346', '7921464', '7911193']
+  [8228] IGA COOP IGA AMOS-OUEST → ['7926558', '7921346', '7921464', '7911193']
+  [8231] Abitibi-Témiscamingue → ['7926558', '7921346', '7921464', '7911193']
+  [8233] IGA Sobeys Capital inc. (Gr-Riviere) → ['7926558', '7921346', '7921464', '7911193']
+  [8234] IGA Poulin → ['7926562', '7921346', '7921464', '7911193']
+  [8236] IGA Coop de Ste-Foy (rue du Campanile) → ['7926562', '7921346', '7921464', '7911193']
+  [8238] IGA Marché Ouimette Fille et Fils Inc. → ['7926558', '7921346', '7921464', '7911193']
+  [8239] IGA Marché RaymondRivière Rouge → ['7926558', '7921346', '7921464', '7911193']
+  [8240] IGA Marche St-Canut inc. → ['7926564', '7921346', '7921464', '7911193']
+  [8247] IGA Marché Toppetta → ['7926562', '7921346', '7921464', '7911193']
+  [8248] IGA Marché Famille Viau inc. → ['7926564', '7921346', '7921464', '7911193']
+  [8250] IGA Marché Arbour-LeBlanc → ['7926558', '7921346', '7921464', '7911193']
+  [8253] IGA Atwater → ['7926562', '7921346', '7921464', '7911193']
+  [8254] IGA Supermarché IGA Raymond Martin inc. → ['7926564', '7921346', '7921464', '7911193']
+  [8255] IGA Coop C. Chandler → ['7926558', '7921346', '7921464', '7911193']
+  [8258] IGA Supermarché Clément Louiseville Inc → ['7926562', '7921346', '7921464', '7911193']
+  [8259] IGA Extra Magog Gazaille → ['7926564', '7921346', '7921464', '7911193']
+  [8262] IGA La Coopérative de Caraquet ltée → ['7926627', '7921657', '7927101', '7911255']
+  [8264] IGA S. Albert inc. → ['7926558', '7921346', '7921464', '7911193']
+  [8268] IGA - Quebec inc. → ['7926568', '7921346', '7921464', '7911193']
+  [8270] IGA Extra des-Rapides → ['7926568', '7921346', '7921464', '7911193']
+  [8273] IGA Famille Crégheur (La Pinière) inc. → ['7926564', '7921346', '7921464', '7911193']
+  [8274] IGA Beauceville → ['7926558', '7921346', '7921464', '7911193']
+  [8275] IGA Supermarché IGA St-Henri → ['7926558', '7921346', '7921464', '7911193']
+  [8278] IGA de Boischatel → ['7926564', '7921346', '7921464', '7911193']
+  [8283] IGA Marché du Faubourg Greenfield Park → ['7926576', '7921346', '7921464', '7911193']
+  [8284] IGA Magasin Coop IGA de Trois-Pistoles → ['7926558', '7921346', '7921464', '7911193']
+  [8288] IGA Cooperative des Cons. de Lorette → ['7926562', '7921346', '7921464', '7911193']
+  [8293] IGA Marché Famille Gadoua → ['7926564', '7921346', '7921464', '7911193']
+  [8295] IGA Marché Girard St-Augustin inc. → ['7926562', '7921346', '7921464', '7911193']
+  [8296] IGA Saint-Lin-Laurentides → ['7926562', '7921346', '7921464', '7911193']
+  [8299] IGA Quebec Magasin CO-OP St-Anselme → ['7926558', '7921346', '7921464', '7911193']
+  [8308] IGA des Sources Henri-Bourassa → ['7926562', '7921346', '7921464', '7911193']
+  [8311] IGA  Canada inc. → ['7926562', '7921346', '7921464', '7911193']
+  [8312] IGA Marché des Oiseaux inc. → ['7926568', '7921346', '7921464', '7911193']
+  [8313] IGA Extra → ['7926572', '7921346', '7921464', '7911193']
+  [8314] IGA AlimentationCoop Rimouski → ['7926560', '7921346', '7921464', '7911193']
+  [8315] IGA Marché Gagnon → ['7926558', '7921346', '7921464', '7911193']
+  [8316] IGA extra Vallée → ['7926564', '7921346', '7921464', '7911193']
+  [8317] IGA Extra Alimentation St-Onge → ['7926562', '7921346', '7921464', '7911193']
+  [8319] IGA Des Chenaux Famille Paquette → ['7926562', '7921346', '7921464', '7911193']
+  [8322] IGA Mont-Laurier → ['7926558', '7921346', '7921464', '7911193']
+  [8325] IGA Marché Veilleux inc. → ['7926562', '7921346', '7921464', '7911193']
+  [8327] IGA Alimentation Sogesco inc. → ['7926574', '7921346', '7921464', '7911193']
+  [8328] IGA - Quebec Inc. → ['7926578', '7921346', '7921464', '7911193']
+  [8330] IGA La Cooperative de Buctouche → ['7926627', '7921657', '7927101', '7911255']
+  [8331] IGA La Coop cons. de Dieppe ltee → ['7926627', '7921657', '7927101', '7911255']
+  [8332] IGA La Cooperative de Shediac Ltee → ['7926627', '7921657', '7927101', '7911255']
+  [8333] IGA Coop IGA Tracadie-Sheila → ['7926627', '7921657', '7927101', '7911255']
+  [8335] IGA Marche d'Alimentation Proulx inc. → ['7926562', '7921346', '7921464', '7911193']
+  [8340] IGA Marché IGA Shawinigan-Sud inc. → ['7926558', '7921346', '7921464', '7911193']
+  [8341] IGA Les Marchés Lambert et frères inc. → ['7926576', '7921346', '7921464', '7911193']
+  [8343] IGA Supermarche St-Hubert inc → ['7926558', '7921346', '7921464', '7911193']
+  [8344] IGA Marche Masson-Angers inc. → ['7926562', '7921346', '7921464', '7911193']
+  [8346] IGA Épicerie Quintal et Frères () inc. → ['7926566', '7921346', '7921464', '7911193']
+  [8348] IGA Marché d’alimentation Deziel inc. → ['7926562', '7921346', '7921464', '7911193']
+  [8349] IGA extra Marché Paquette → ['7926562', '7921346', '7921464', '7911193']
+  [8350] IGA Cooperative des Cons. de Sainte-Foy → ['7926574', '7921346', '7921464', '7911193']
+  [8352] IGA Famille Rick Déziel → ['7926562', '7921346', '7921464', '7911193']
+  [8353] IGA Famille Rick Déziel → ['7926564', '7921346', '7921464', '7911193']
+  [8357] IGA Farnham → ['7926562', '7921346', '7921464', '7911193']
+  [8358] IGA Boucherie des Sources Ste-Catherine → ['7926562', '7921346', '7921464', '7911193']
+  [8359] Sobeys Capital inc. (Campbellton) → ['7926558', '7921346', '7921464', '7911193']
+  [8360] IGA → ['7926562', '7921346', '7921464', '7911193']
+  [8363] IGA Alimentation Proulx Terrebonne Inc → ['7926562', '7921346', '7921464', '7911193']
+  [8364] IGA Hochelaga → ['7926562', '7921346', '7921464', '7911193']
+  [8365] IGA Mont-Joli → ['7926558', '7921346', '7921464', '7911193']
+  [8366] IGA Mche d'Alimentation Champagne inc. → ['7926562', '7921346', '7921464', '7911193']
+  [8367] IGA extra L'ile-Bizard Sevigny → ['7926562', '7921346', '7921464', '7911193']
+  [8368] IGA Extra Gladu → ['7926564', '7921346', '7921464', '7911193']
+  [8369] IGA Supermarché Jean XXIII → ['7926562', '7921346', '7921464', '7911193']
+  [8370] IGA Marché Lamontagne et fille → ['7926572', '7921346', '7921464', '7911193']
+  [8371] IGA Chelsea → ['7926562', '7921346', '7921464', '7911193']
+  [8373] IGA Marché Montée Gagnon inc. → ['7926562', '7921346', '7921464', '7911193']
+  [8374] IGA Marché St-Janvier → ['7926562', '7921346', '7921464', '7911193']
+  [8375] IGA Sobeys Capital inc. → ['7926558', '7921346', '7921464', '7911193']
+  [8376] IGA Alimentation  Patrice Tellier inc. → ['7926558', '7921346', '7921464', '7911193']
+  [8377] IGA extra Famille Déziel Vaudreuil-Dorion → ['7926564', '7921346', '7921464', '7911193']
+  [8378] IGA Marche Famille Vincent inc. → ['7926564', '7921346', '7921464', '7911193']
+  [8379] IGA Lac St-Charles → ['7926562', '7921346', '7921464', '7911193']
+  [8380] IGA extra Marché Gagné et Fille → ['7926564', '7921346', '7921464', '7911193']
+  [8383] IGA Alimentation Beaubien et fille inc. → ['7926562', '7921346', '7921464', '7911193']
+  [8388] IGA Ferme Neuve → ['7926558', '7921346', '7921464', '7911193']
+  [8389] IGA Extra Saint-Léonard → ['7926570', '7921346', '7921464', '7911193']
+  [8390] IGA Deux-Montagnes → ['7926562', '7921346', '7921464', '7911193']
+  [8393] IGA Val-d'Or Centre-Ville → ['7926558', '7921346', '7921464', '7911193']
+  [8395] IGA EXTRA POINTE-CLAIRE → ['7926576', '7921346', '7921464', '7911193']
+  [8396] IGA EXTRA Famille Patry Bromont → ['7926562', '7921346', '7921464', '7911193']
+  [8397] IGA Extra → ['7926564', '7921346', '7921464', '7911193']
+  [8464] IGA St-Lambert-de-Lauzon → ['7926564', '7921346', '7921464', '7911193']
+  [8468] IGA extra Rockland → ['7926564', '7921346', '7921464', '7911193']
+  [8476] IGA St-Joseph → ['7926562', '7921346', '7921464', '7911193']
+  [8481] IGA Alimentation Francis Gravel inc. → ['7926558', '7921346', '7921464', '7911193']
+  [8490] IGA Marche Landry -Tardif inc. → ['7926562', '7921346', '7921464', '7911193']
+  [8502] IGA Marché St-Pierre et Fils → ['7926562', '7921346', '7921464', '7911193']
+  [8503] IGA Magasin Co-Op de Plessisville (Prin → ['7926558', '7921346', '7921464', '7911193']
+  [8505] IGA Famille P. Crégheur → ['7926562', '7921346', '7921464', '7911193']
+  [8506] IGA Marché Vincent inc. → ['7926562', '7921346', '7921464', '7911193']
+  [8511] IGA Alimentation Coop Port-Cartier → ['7926558', '7921346', '7921464', '7911193']
+  [8520] IGA Extra des grives → ['7926578', '7921346', '7921464', '7911193']
+  [8522] IGA Van Horne → ['7926562', '7921346', '7921464', '7911193']
+  [8526] IGA extra Marché Gagné → ['7926558', '7921346', '7921464', '7911193']
+  [8527] IGA Supermarché Crevier inc. → ['7926562', '7921346', '7921464', '7911193']
+  [8528] IGA Supermarché Crevier (Lachenaie) inc → ['7926564', '7921346', '7921464', '7911193']
+  [8529] IGA Supermarché Crevier (Valmont) inc. → ['7926562', '7921346', '7921464', '7911193']
+  [8530] IGA Supermarché Crevier inc. → ['7926564', '7921346', '7921464', '7911193']
+  [8531] IGA - Quebec inc. → ['7926558', '7921346', '7921464', '7911193']
+  [8532] IGA Marche Lambert et Freres inc. → ['7926564', '7921346', '7921464', '7911193']
+  [8533] IGA Bourgault et Sanzone inc. → ['7926576', '7921346', '7921464', '7911193']
+  [8536] IGA H. Després Ltée → ['7926558', '7921346', '7921464', '7911193']
+  [8537] IGA Jodoin Douville → ['7926562', '7921346', '7921464', '7911193']
+  [8540] IGA Supermarché Crevier L'Assomption in → ['7926562', '7921346', '7921464', '7911193']
+  [8541] IGA Crevier → ['7926562', '7921346', '7921464', '7911193']
+  [8542] IGA Supermarche Crevier (Lavaltrie) inc → ['7926562', '7921346', '7921464', '7911193']
+  [8543] IGA Alimentation J.P.J Martin inc. → ['7926562', '7921346', '7921464', '7911193']
+  [8544] IGA Supermarché DJS Cousineau inc. → ['7926562', '7921346', '7921464', '7911193']
+  [8546] IGA Supermarché Crevier (Joliette) Inc. → ['7926564', '7921346', '7921464', '7911193']
+  [8547] IGA Marche Duchemin et Freres inc. → ['7926564', '7921346', '7921464', '7911193']
+  [8548] IGA Le Supermarché Le Faubourg → ['7926576', '7921346', '7921464', '7911193']
+  [8550] IGA EXTRA Gatineau → ['7926562', '7921346', '7921464', '7911193']
+  [8553] IGA Marché Bélanger inc. → ['7926560', '7921346', '7921464', '7911193']
+  [8558] IGA familles Rodrigue et Groleau → ['7926558', '7921346', '7921464', '7911193']
+  [8559] IGA Extra Boisbriand (Sobeys inc.) → ['7926574', '7921346', '7921464', '7911193']
+  [8561] IGA Alimentation Sylvain Boyer Inc. → ['7926558', '7921346', '7921464', '7911193']
+  [8568] IGA Extra Famille Pelletier → ['7926558', '7921346', '7921464', '7911193']
+  [8569] IGA extra Chapdelaine → ['7926564', '7921346', '7921464', '7911193']
+  [8572] IGA des Sources Cap-Rouge → ['7926564', '7921346', '7921464', '7911193']
+  [8573] IGA Marché Piché → ['7926562', '7921346', '7921464', '7911193']
+  [8576] IGA Boutin → ['7926558', '7921346', '7921464', '7911193']
+  [8577] IGA Veilleux et Filles inc. → ['7926564', '7921346', '7921464', '7911193']
+  [8578] IGA Coop IGA Amos → ['7926560', '7921346', '7921464', '7911193']
+  [8580] IGA Régnier → ['7926558', '7921346', '7921464', '7911193']
+  [8581] IGA Super Marché Primeau et fils inc. → ['7926564', '7921346', '7921464', '7911193']
+  [8582] IGA Extra Famille Plante → ['7926564', '7921346', '7921464', '7911193']
+  [8586] IGA Supermarché Donat Thériault Ltée → ['7926560', '7911193']
+  [8587] IGA Morin-Heights → ['7926562', '7921346', '7921464', '7911193']
+  [8589] IGA Alimentation C.C. Sévigny inc. → ['7926568', '7921346', '7921464', '7911193']
+  [8591] IGA Coteau-du-Lac → ['7926562', '7921346', '7921464', '7911193']
+  [8593] IGA Alimentation E.F.Y. Caron inc. → ['7926562', '7921346', '7921464', '7911193']
+  [8599] IGA Marché Gaouette inc. → ['7926562', '7921346', '7921464', '7911193']
+  [8612] IGA Alimentation C.Verreault → ['7926558', '7921346', '7921464', '7911193']
+  [8615] IGA Alimentation Famille Gaouette inc. → ['7926562', '7921346', '7921464', '7911193']
+  [8629] IGA Marche Famille Julien inc. → ['7926560', '7921346', '7921464', '7911193']
+  [8634] IGA Michaud et fils → ['7926574', '7921346', '7921464', '7911193']
+  [8639] IGA Super Marché Étop Inc. → ['7926562', '7921346', '7921464', '7911193']
+  [8643] IGA → ['7926558', '7921346', '7921464', '7911193']
+  [8644] IGA Supermarché Toppetta inc. → ['7926562', '7921346', '7921464', '7911193']
+  [8653] 9158-9325 Québec Inc. → ['7926558', '7921346', '7921464', '7911193']
+  [8661] IGA EXTRA Les Aliments Famille Dézielinc. → ['7926558']
+  [8739] IGA Alimentation Claude Sauro → ['7926562', '7921346', '7921464', '7911193']
+  [8792] IGA COOP #8792 → ['7921330']
+  [8793] IGA COOP #8793 → ['7921330']
+  [8794] IGA COOP #8794 → ['7921330']
+
+  1070 new publication entries across 271 stores
+  19 unique new publication(s) to download
+  Appended 1070 rows to data/iga/store_flyers.parquet
+New publication entries added to store_flyers.parquet: 1070
+Unique new publications to download: 19
+
+Phase 2: fetching products for each new publication…
+
+  [7926558] Quebec  (2026-05-14T00:00:00-04:00 → 2026-05-20T23:59:59-04:00)
+    406 products
+  [7921346] Themed Brochure  (2026-05-14T00:00:00-04:00 → 2026-05-20T23:59:59-04:00)
+    26 products
+  [7921464] Themed Brochure  (2026-05-14T00:00:00-04:00 → 2026-05-20T23:59:59-04:00)
+    43 products
+  [7911193] Themed Brochure  (2026-05-14T00:00:00-04:00 → 2026-05-20T23:59:59-04:00)
+    24 products
+  [7926562] Quebec  (2026-05-14T00:00:00-04:00 → 2026-05-20T23:59:59-04:00)
+    405 products
+  [7926627] New Brunswick  (2026-05-14T00:00:00-04:00 → 2026-05-20T23:59:59-04:00)
+    329 products
+  [7921657] Themed Brochure  (2026-05-14T00:00:00-04:00 → 2026-05-20T23:59:59-04:00)
+    25 products
+  [7927101] Themed Brochure  (2026-05-14T00:00:00-04:00 → 2026-05-20T23:59:59-04:00)
+    43 products
+  [7911255] Themed Brochure  (2026-05-14T00:00:00-04:00 → 2026-05-20T23:59:59-04:00)
+    21 products
+  [7926564] Quebec  (2026-05-14T00:00:00-04:00 → 2026-05-20T23:59:59-04:00)
+    417 products
+  [7926560] Quebec  (2026-05-14T00:00:00-04:00 → 2026-05-20T23:59:59-04:00)
+    417 products
+  [7926574] Quebec  (2026-05-14T00:00:00-04:00 → 2026-05-20T23:59:59-04:00)
+    421 products
+  [7926578] Quebec  (2026-05-14T00:00:00-04:00 → 2026-05-20T23:59:59-04:00)
+    436 products
+  [7926576] Quebec  (2026-05-14T00:00:00-04:00 → 2026-05-20T23:59:59-04:00)
+    433 products
+  [7926568] Quebec  (2026-05-14T00:00:00-04:00 → 2026-05-20T23:59:59-04:00)
+    420 products
+  [7926572] Quebec  (2026-05-14T00:00:00-04:00 → 2026-05-20T23:59:59-04:00)
+    421 products
+  [7926566] Quebec  (2026-05-14T00:00:00-04:00 → 2026-05-20T23:59:59-04:00)
+    408 products
+  [7926570] Quebec  (2026-05-14T00:00:00-04:00 → 2026-05-20T23:59:59-04:00)
+    433 products
+  [7921330] Iles-de-la-Madeleine  (2026-05-14T00:00:00-04:00 → 2026-05-20T23:59:59-04:00)
+    129 products
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 19
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-05-14 13:47:07 UTC
+Elapsed      : 0m 33s
+
+
+Done.  Verbose log → logs/iga/2026-05-14_verbose.log
+       Summary log → logs/iga/2026-05-14_summary.log
+
