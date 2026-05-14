@@ -1,0 +1,15 @@
+=== Independent City Market Flyer Fetch — 2026-05-14 ===
+Run started : 2026-05-14 13:45:37 UTC
+
+Stores loaded: 8
+New publication entries added to store_flyers.parquet: 6
+Unique new publications to download: 2
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 2
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-05-14 13:45:38 UTC
+Elapsed      : 0m 1s
+

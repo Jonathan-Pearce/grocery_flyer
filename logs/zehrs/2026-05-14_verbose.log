@@ -1,0 +1,94 @@
+=== Zehrs Flyer Fetch — 2026-05-14 ===
+Run started : 2026-05-14 13:44:48 UTC
+
+Loaded 44 stores from data/zehrs/stores.parquet
+
+Stores loaded: 44
+Loaded store_flyers.parquet (252 publication entries)
+
+Phase 1: fetching publications per store…
+
+  [26] TEST STORE → no new flyers
+  [500] Zehrs Clairfiled → ['7931838', '7924286']
+  [505] Zehrs Bradford → ['7931838', '7924286']
+  [507] Zehrs Essa Road → ['7931838', '7924290']
+  [509] Zehrs Alliston → ['7931838', '7924290']
+  [514] Zehrs Duckworth → ['7931838', '7924290']
+  [515] Zehrs Hiway Centre → ['7931838', '7924290']
+  [519] Zehrs Caledonia → ['7931838', '7924290']
+  [520] Zehrs Keswick → ['7931838', '7924290']
+  [521] Zehrs Malden Road → ['7931838', '7924298']
+  [522] Zehrs Pen Centre → ['7931838', '7924290']
+  [523] Zehrs Stanley Park → ['7931838', '7924296']
+  [524] Zehrs Beechwood → ['7931838', '7924288']
+  [525] Zehrs Glenridge → ['7931838', '7924286']
+  [528] Zehrs Conestoga → ['7931838', '7924290']
+  [529] Zehrs Parkway Mall → ['7931838', '7924288']
+  [530] Zehrs Pioneer Park → ['7931838', '7924286']
+  [531] Zehrs Hartsland → ['7931838', '7924290']
+  [532] Zehrs Goderich → ['7931838', '7924286']
+  [533] Zehrs Cambridge Cntr → ['7931838', '7924300']
+  [535] Zehrs Listowel → ['7931838', '7924290']
+  [536] Zehrs Geneva Street → ['7931838', '7924290']
+  [537] Zehrs Niagara → ['7931838', '7924288']
+  [538] Zehrs Eramosa → ['7931838', '7924290']
+  [539] Zehrs Fergus → ['7931838', '7924300']
+  [540] Zehrs Fairview → ['7931838', '7924286']
+  [543] Zehrs King George → ['7931838', '7924286']
+  [545] Zehrs Hespeler → ['7931838', '7924290']
+  [550] Zehrs Welland → ['7931838', '7924286']
+  [552] Zehrs Uxbridge → ['7931838', '7924300']
+  [554] Zehrs Orangeville → ['7931838', '7924290']
+  [557] Zehrs Stratford → ['7931838', '7924294']
+  [558] Zehrs Bolton → no new flyers
+  [559] Zehrs Imperial → ['7931838', '7924298']
+  [560] Zehrs Laurentian → ['7931838', '7924298']
+  [563] Zehrs Owen Sound → ['7931838', '7924296']
+  [565] Zehrs Big Bay Point → ['7931838', '7924300']
+  [570] Zehrs Tillsonburg → ['7931838', '7924296']
+  [572] Zehrs Kingsville → ['7931838', '7924290']
+  [573] Zehrs St Clair Beach → ['7931838', '7924286']
+  [576] Zehrs South Cambridge → ['7931838', '7924292']
+  [579] Zehrs Woodstock → ['7931838', '7924286']
+  [580] Zehrs Orillia → ['7931838', '7924286']
+  [6583] Zehrs Bayfield → ['7931838', '7924290']
+
+  84 new publication entries across 44 stores
+  9 unique new publication(s) to download
+  Appended 84 rows to data/zehrs/store_flyers.parquet
+New publication entries added to store_flyers.parquet: 84
+Unique new publications to download: 9
+
+Phase 2: fetching products for each new publication…
+
+  [7931838] General Merchandise  (2026-05-14T00:00:00-04:00 → 2026-07-08T23:59:59-04:00)
+    159 products
+  [7924286] Weekly Flyer  (2026-05-14T00:00:00-04:00 → 2026-05-20T23:59:59-04:00)
+    306 products
+  [7924290] Weekly Flyer  (2026-05-14T00:00:00-04:00 → 2026-05-20T23:59:59-04:00)
+    314 products
+  [7924298] Weekly Flyer  (2026-05-14T00:00:00-04:00 → 2026-05-20T23:59:59-04:00)
+    348 products
+  [7924296] Weekly Flyer  (2026-05-14T00:00:00-04:00 → 2026-05-20T23:59:59-04:00)
+    320 products
+  [7924288] Weekly Flyer  (2026-05-14T00:00:00-04:00 → 2026-05-20T23:59:59-04:00)
+    334 products
+  [7924300] Weekly Flyer  (2026-05-14T00:00:00-04:00 → 2026-05-20T23:59:59-04:00)
+    328 products
+  [7924294] Weekly Flyer  (2026-05-14T00:00:00-04:00 → 2026-05-20T23:59:59-04:00)
+    327 products
+  [7924292] Weekly Flyer  (2026-05-14T00:00:00-04:00 → 2026-05-20T23:59:59-04:00)
+    319 products
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 9
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-05-14 13:44:54 UTC
+Elapsed      : 0m 6s
+
+
+Done.  Verbose log → logs/zehrs/2026-05-14_verbose.log
+       Summary log → logs/zehrs/2026-05-14_summary.log
+

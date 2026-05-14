@@ -1,0 +1,77 @@
+=== Fortinos Flyer Fetch — 2026-05-14 ===
+Run started : 2026-05-14 13:44:54 UTC
+
+Loaded 25 stores from data/fortinos/stores.parquet
+
+Stores loaded: 25
+Loaded store_flyers.parquet (144 publication entries)
+
+Phase 1: fetching publications per store…
+
+  [31] Test Store → no new flyers
+  [39] Fortinos Mountainash → ['7931842', '7924435']
+  [46] Fortinos Hwy 20 & 53 → ['7931842', '7924431']
+  [55] Fortinos Langstaff → ['7931842', '7924436']
+  [65] Fortinos Upper James 2004 → ['7931842', '7924431']
+  [67] Fortinos Main Street → ['7931842', '7924432']
+  [78] Fortinos Plains Road → ['7931842', '7924430']
+  [86] Fortinos Ancaster → ['7931842', '7924431']
+  [96] Fortinos Highway #7 & Ansley → ['7931842', '7924436']
+  [199] Fortinos Neyagawa → ['7931842', '7924430']
+  [300] Fortinos Eastgate → ['7931842', '7924433']
+  [526] Fortinos Upper Middle → ['7931842', '7924430']
+  [1434] Fortinos Waterdown → ['7931842', '7924430']
+  [1436] Fortinos Lawrence & Allen → ['7931842', '7924437']
+  [1495] Fortinos Appleby → ['7931842', '7924430']
+  [2265] Fortinos Dundurn → ['7931842', '7924434']
+  [2268] Fortinos New Street → ['7931842', '7924430']
+  [4014] Fortinos Mall Road → ['7931842', '7924431']
+  [5547] Fortinos Major Mackenzie → ['7931842', '7924436']
+  [5548] Bovaird & HWY 10 → ['7931842', '7924435']
+  [7136] Fortinos (South Oakville) Ltd → ['7931842', '7924430']
+  [7346] Fortinos Fiesta Mall → ['7931842', '7924431']
+  [7513] BOLTON → ['7931842', '7924436']
+  [7529] Fortinos Highway 7 & Brisdale → ['7931842', '7924435']
+  [7920] Fortinos Queens Plate → ['7931842', '7924438']
+
+  48 new publication entries across 25 stores
+  10 unique new publication(s) to download
+  Appended 48 rows to data/fortinos/store_flyers.parquet
+New publication entries added to store_flyers.parquet: 48
+Unique new publications to download: 10
+
+Phase 2: fetching products for each new publication…
+
+  [7931842] Weekly Flyer  (2026-05-14T00:00:00-04:00 → 2026-07-08T23:59:59-04:00)
+    159 products
+  [7924435] Weekly Flyer  (2026-05-14T00:00:00-04:00 → 2026-05-20T23:59:59-04:00)
+    496 products
+  [7924431] Weekly Flyer  (2026-05-14T00:00:00-04:00 → 2026-05-20T23:59:59-04:00)
+    475 products
+  [7924436] Weekly Flyer  (2026-05-14T00:00:00-04:00 → 2026-05-20T23:59:59-04:00)
+    476 products
+  [7924432] Weekly Flyer  (2026-05-14T00:00:00-04:00 → 2026-05-20T23:59:59-04:00)
+    527 products
+  [7924430] Weekly Flyer  (2026-05-14T00:00:00-04:00 → 2026-05-20T23:59:59-04:00)
+    475 products
+  [7924433] Weekly Flyer  (2026-05-14T00:00:00-04:00 → 2026-05-20T23:59:59-04:00)
+    519 products
+  [7924437] Weekly Flyer  (2026-05-14T00:00:00-04:00 → 2026-05-20T23:59:59-04:00)
+    508 products
+  [7924434] Weekly Flyer  (2026-05-14T00:00:00-04:00 → 2026-05-20T23:59:59-04:00)
+    495 products
+  [7924438] Weekly Flyer  (2026-05-14T00:00:00-04:00 → 2026-05-20T23:59:59-04:00)
+    496 products
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 10
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-05-14 13:44:58 UTC
+Elapsed      : 0m 4s
+
+
+Done.  Verbose log → logs/fortinos/2026-05-14_verbose.log
+       Summary log → logs/fortinos/2026-05-14_summary.log
+
