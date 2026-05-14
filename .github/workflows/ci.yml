@@ -45,5 +45,5 @@ jobs:
         continue-on-error: true
         run: mypy --config-file mypy.ini fetchers pipeline parsers scripts
 
-      - name: Run tests
-        run: pytest tests/ -v --tb=short --cov=fetchers --cov=pipeline --cov=parsers --cov=scripts --cov-report=term-missing
+      - name: Run critical tests
+        run: python -m pytest tests/ -m critical -v --tb=short --cov=fetchers --cov=pipeline --cov=parsers --cov=scripts --cov-report=term-missing

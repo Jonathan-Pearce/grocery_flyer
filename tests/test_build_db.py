@@ -11,6 +11,9 @@ import pytest
 from pipeline.build_db import _partition_dir, build_dimensions, build_observations, build_products, build_price_history, build_scores, main
 
 
+pytestmark = pytest.mark.critical
+
+
 # ── _partition_dir ────────────────────────────────────────────────────────────
 
 

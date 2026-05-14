@@ -15,6 +15,9 @@ import pyarrow.parquet as pq  # noqa: E402
 from scripts import export_frontend_data as efd  # noqa: E402
 
 
+pytestmark = pytest.mark.critical
+
+
 def _write_parquet(path, rows: list[dict]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     pq.write_table(pa.Table.from_pylist(rows), str(path))

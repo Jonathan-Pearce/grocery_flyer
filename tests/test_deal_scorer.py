@@ -29,6 +29,9 @@ from pipeline.deal_scorer import (  # noqa: E402
 )
 
 
+pytestmark = pytest.mark.critical
+
+
 # ── Fixture: scoring config ───────────────────────────────────────────────────
 
 CONFIG_PATH = os.path.join(

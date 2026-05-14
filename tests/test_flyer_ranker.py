@@ -20,6 +20,9 @@ from pipeline.flyer_ranker import (  # noqa: E402
 )
 
 
+pytestmark = pytest.mark.critical
+
+
 # ── Fixtures ──────────────────────────────────────────────────────────────────
 
 def _make_scored_row(

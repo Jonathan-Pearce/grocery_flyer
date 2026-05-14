@@ -11,6 +11,9 @@ from pipeline.clean import _apply_pipeline, _load_processed_ids, _write_parquet,
 from pipeline.schema import FlyerItem
 
 
+pytestmark = pytest.mark.critical
+
+
 # ── Fixture helpers ───────────────────────────────────────────────────────────
 
 

@@ -5,6 +5,9 @@ import pytest
 from pipeline.schema import FlyerItem
 
 
+pytestmark = pytest.mark.critical
+
+
 # ── Instantiation ─────────────────────────────────────────────────────────────
 
 class TestFlyerItemInstantiation:

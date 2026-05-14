@@ -14,6 +14,9 @@ from pipeline.product_resolver import (
 )
 
 
+pytestmark = pytest.mark.critical
+
+
 # ── _name_fingerprint ─────────────────────────────────────────────────────────
 
 
