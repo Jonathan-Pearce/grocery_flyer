@@ -1,0 +1,46 @@
+# fly.toml — FlyerDeals API
+# https://fly.io/docs/reference/configuration/
+
+app = "flyerdeals-api"
+primary_region = "yyz"  # Toronto — closest to Canadian users
+
+[build]
+  dockerfile = "Dockerfile.api"
+
+[env]
+  PORT = "8000"
+
+# Scale to zero when idle — key cost guardrail (wakes on first request, ~1s cold start)
+[[services]]
+  internal_port = 8000
+  protocol = "tcp"
+  auto_stop_machines = true
+  auto_start_machines = true
+  min_machines_running = 0
+
+  [[services.ports]]
+    handlers = ["tls", "http"]
+    port = 443
+    tls_options = { alpn = ["h2", "http/1.1"] }
+
+  [[services.ports]]
+    handlers = ["http"]
+    port = 80
+    [services.ports.force_https]
+      enabled = true
+
+  [services.concurrency]
+    type = "connections"
+    hard_limit = 25
+    soft_limit = 20
+
+  [[services.http_checks]]
+    interval = "15s"
+    timeout = "5s"
+    grace_period = "10s"
+    method = "GET"
+    path = "/health"
+
+[[vm]]
+  size = "shared-cpu-1x"
+  memory = "256mb"

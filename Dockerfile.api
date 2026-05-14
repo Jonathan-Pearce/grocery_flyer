@@ -1,0 +1,23 @@
+FROM python:3.12-slim
+
+WORKDIR /app
+
+# Install only the API dependencies
+COPY requirements.txt ./
+RUN pip install --no-cache-dir \
+    fastapi \
+    "uvicorn[standard]" \
+    "sqlalchemy[asyncio]" \
+    asyncpg \
+    alembic \
+    psycopg2-binary \
+    python-dotenv \
+    pydantic
+
+# Copy the api package and shared project root (needed for alembic.ini path resolution)
+COPY api/ ./api/
+COPY alembic.ini ./
+
+EXPOSE 8000
+
+CMD ["uvicorn", "api.main:app", "--host", "0.0.0.0", "--port", "8000"]

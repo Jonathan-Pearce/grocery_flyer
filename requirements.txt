@@ -3,3 +3,11 @@ pydantic>=2.0
 pyarrow
 duckdb
 pyyaml
+# API
+fastapi
+uvicorn[standard]
+sqlalchemy[asyncio]
+asyncpg
+alembic
+psycopg2-binary
+python-dotenv
