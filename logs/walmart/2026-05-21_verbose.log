@@ -1,0 +1,521 @@
+=== Walmart Flyer Fetch — 2026-05-21 ===
+Run started : 2026-05-21 14:20:59 UTC
+
+Loaded 421 stores from data/walmart/stores.parquet
+
+Stores loaded: 421
+Loaded store_flyers.parquet (3526 publication entries)
+
+Phase 1: fetching publications per store…
+
+  [1000] Milton → ['7932692']
+  [1001] Bowmanville → ['7932692']
+  [1003] Bridgewater → ['7939208']
+  [1004] Toronto → ['7932692']
+  [1007] Kitchener West → ['7932692']
+  [1008] Drayton Valley → ['7939200']
+  [1009] Whitecourt → ['7929664']
+  [1011] Trail → ['7932699']
+  [1012] Keswick → ['7929656']
+  [1013] Grand Falls → ['7932694']
+  [1014] Antigonish → ['7932695']
+  [1015] Squamish → ['7929665']
+  [1016] Yarmouth → ['7939196']
+  [1017] Digby → ['7939196']
+  [1018] Port Alberni → ['7929665']
+  [1019] Lac-Mégantic → ['7939194']
+  [1020] Sainte-Agathe-des-Monts → ['7939194']
+  [1022] Winkler → ['7929662']
+  [1023] Parry Sound → ['7929656']
+  [1025] Matane → ['7929657']
+  [1026] Marystown → ['7939197']
+  [1027] Selkirk → ['7932696']
+  [1028] Drumheller → ['7929664']
+  [1029] Stouffville → ['7939205']
+  [1030] Slave Lake → ['7939200']
+  [1031] Ottawa Supercentre → ['7932692']
+  [1032] Laval Est → ['7932693']
+  [1033] Edmundston → ['7939195']
+  [1034] Stettler → ['7929664']
+  [1035] Labrador City → ['7939210']
+  [1036] Merritt → ['7939201']
+  [1038] Strathroy → ['7929656']
+  [1039] Collingwood → ['7929656']
+  [1040] Saint-Georges-de-Beauce → ['7929657']
+  [1041] Napanee → ['7929656']
+  [1042] Hamilton → ['7932692']
+  [1043] Woodstock → ['7939195']
+  [1045] Saint-Romuald → ['7939194']
+  [1046] Taber → ['7939200']
+  [1047] Kemptville → ['7929656']
+  [1048] Edson → ['7929664']
+  [1049] Strathmore → ['7929664']
+  [1050] Airdrie → ['7932698']
+  [1052] Sussex → ['7929658']
+  [1054] Bracebridge → ['7929656']
+  [1056] Oshawa → ['7939193']
+  [1057] Vaudreuil-Dorion → ['7932693']
+  [1059] Port Elgin → ['7929656']
+  [1060] Rockland → ['7929656']
+  [1061] SSC → ['7932692']
+  [1062] Wainwright (Supercentre) → ['7929664']
+  [1064] Wallaceburg → ['7929656']
+  [1065] Kindersley → ['7939199']
+  [1067] Fredericton → ['7929658']
+  [1068] Peace River → ['7939200']
+  [1069] Port Perry → ['7929656']
+  [1070] Pincher Creek → ['7929664']
+  [1071] Vegreville → ['7929664']
+  [1072] Amherstburg → ['7929656']
+  [1075] Carleton Place → ['7929656']
+  [1076] Magog → ['7929657']
+  [1077] Campbell River → ['7929665']
+  [1078] Lethbridge → ['7939200']
+  [1079] Brampton - West (Supercentre) → ['7932692']
+  [1080] Scarborough → ['7932692']
+  [1081] Woodbridge → ['7932692']
+  [1083] Alliston → ['7929656']
+  [1084] Olds → ['7929664']
+  [1085] Lachenaie → ['7929657']
+  [1086] Gatineau → ['7932693']
+  [1087] Wasaga Beach → ['7929656']
+  [1089] Calgary → ['7932698']
+  [1093] Westbank → ['7939201']
+  [1094] Edmonton SW → ['7932698']
+  [1095] Vaughan → ['7932692']
+  [1097] Calgary(Sage Hill) → ['7939211']
+  [1100] Salmon Arm → ['7929665']
+  [1101] Bradford → ['7932692']
+  [1102] Sylvan Lake → ['7929664']
+  [1104] West Broadway → ['7932699']
+  [1105] Sudbury South → ['7932692']
+  [1106] Williams Lake (Supercentre) → ['7929665']
+  [1107] Waterdown → ['7932692']
+  [1109] Markham → ['7939205']
+  [1110] Ottawa-SW (Supercentre) → ['7932692']
+  [1111] Kitchener (Waterloo) → ['7932692']
+  [1112] Port Coquitlam → ['7932699']
+  [1113] Abbotsford West → ['7932699']
+  [1115] Maple (Vaughan) → ['7932692']
+  [1116] Richmond Hill → ['7932692']
+  [1117] Scarborough → ['7932692']
+  [1118] Kanata → ['7932692']
+  [1119] LOUGHEED HWY. & WREN STRET → ['7929665']
+  [1120] Brampton Northeast → ['7932692']
+  [1121] Hamilton → ['7929656']
+  [1122] Edmonton → ['7939211']
+  [1123] Sherwood Park → ['7929664']
+  [1125] Stratford → ['7929656']
+  [1126] Penguin PickUp - Mississauga East → ['7932692']
+  [1127] Port Credit → ['7929656']
+  [1130] Fergus → ['7929656']
+  [1132] Chateauguay → ['7932693']
+  [1135] Cochrane → ['7929664']
+  [1136] Calgary (East Hills) → ['7939211']
+  [1138] Tamarack Southeast → ['7932698']
+  [1139] Toronto Downsview → ['7932692']
+  [1140] Montreal (Dorval) → ['7929657']
+  [1141] Steinbach → ['7929662']
+  [1143] Prince Rupert → ['7939201']
+  [1145] Edmonton (South Park) → ['7932698']
+  [1146] Edmonton (Northgate) → ['7939211']
+  [1149] Edmonton (Meadowlark) → ['7929664']
+  [1150] Toronto (Gerrard Square) → ['7929656']
+  [1151] Toronto (Sheridan) → ['7929656']
+  [1156] Waterloo (C) → ['7932692']
+  [1157] London (Northland) → ['7929656']
+  [1158] Ottawa (Gloucester) → ['7932692']
+  [1159] Hawkesbury → ['7929656']
+  [1160] Listowel → ['7929656']
+  [1161] Newmarket → ['7939193']
+  [1162] Peterborough (S) → ['7929656']
+  [1164] St Catharines (Centre) → ['7932692']
+  [1165] Thunder Bay (S) → ['7929656']
+  [1166] Thunder Bay (N) → ['7929656']
+  [1167] Longueuil (S) → ['7929657']
+  [1168] Montreal (Hochelaga) → ['7929657']
+  [1169] Pointe-aux-Trembles → ['7929657']
+  [1170] Montreal (Cote Des Neiges) → ['7932693']
+  [1172] Sherbrooke (E) (Fleurimont) → ['7929657']
+  [1173] La Pocatiere → ['7929657']
+  [1174] Sorel-Tracy → ['7929657']
+  [1175] Saint John (W) → ['7929658']
+  [1176] Dartmouth → ['7939196']
+  [1177] Greenwood → ['7939208']
+  [1178] North Sydney → ['7929659']
+  [1181] Tsawwassen → ['7929665']
+  [1182] Kingsway Mall Supercentre → ['7939211']
+  [1183] Place Viau → ['7932693']
+  [1185] Blainville → ['7929657']
+  [1186] Winnipeg (Grant Park) → ['7929662']
+  [1187] Edmonton (Ellerslie) → ['7932698']
+  [1188] Brampton South → ['7932692']
+  [1189] Ville Saint-Laurent → ['7932693']
+  [1190] Hull (Supercentre) → ['7929657']
+  [1192] New Westminster → ['7932699']
+  [1199] Guelph (South) → ['7932692']
+  [1200] Ottawa Central Supercentre → ['7932692']
+  [1201] Québec City → ['7929657']
+  [1202] Pointe Claire → ['7932693']
+  [1203] Candiac → ['7929657']
+  [1204] Southdale Centre → ['7929662']
+  [1205] Surrey → ['7939212']
+  [1206] Maple Ridge → ['7929665']
+  [1207] Delta → ['7939212']
+  [1208] Coquitlam → ['7932699']
+  [1211] Erin Mills Town Centre → ['7932692']
+  [1212] Laurier → ['7932693']
+  [1213] Metrotown, BC → ['7932699']
+  [1214] Victoria Hillside Mall → ['7932699']
+  [1400] TC Signing Warehouse → no new flyers
+  [3000] Agincourt → ['7932692']
+  [3001] Ajax → ['7939205']
+  [3002] Baie-Comeau → ['7929657']
+  [3003] Bathurst → ['7932694']
+  [3004] Brandon → ['7932696']
+  [3005] Brantford → ['7929656']
+  [3006] Brockville → ['7932692']
+  [3007] Brossard → ['7932693']
+  [3008] Burnaby (Lougheed Mall) → ['7932699']
+  [3009] Calgary → ['7932698']
+  [3010] Calgary → ['7929664']
+  [3011] Calgary → ['7939211']
+  [3012] Calgary → ['7939211']
+  [3013] Calgary → ['7939211']
+  [3014] Cap-de-la-Madeleine → ['7929657']
+  [3015] Carbonear → ['7929661']
+  [3016] Chatham → ['7929656']
+  [3017] Chicoutimi → ['7939194']
+  [3018] Clarenville → ['7939197']
+  [3019] Abbotsford → ['7932699']
+  [3020] Cornwall → ['7929656']
+  [3021] Dartmouth → ['7939208']
+  [3022] Dauphin → ['7929662']
+  [3023] Drummondville → ['7939194']
+  [3024] Dryden Highway → ['7929656']
+  [3025] Duncan → ['7929665']
+  [3026] Edmonton (Supercentre) → ['7932698']
+  [3027] Edmonton West → ['7939211']
+  [3028] Edmonton → ['7939211']
+  [3029] Edmonton (S.Common) → ['7932698']
+  [3030] Estevan Supercentre → ['7929663']
+  [3031] Etobicoke → ['7932692']
+  [3032] Fredericton → ['7932694']
+  [3033] Gander → ['7932697']
+  [3034] Georgetown → ['7929656']
+  [3035] Granby → ['7939194']
+  [3036] Grand Falls (Windsor) → ['7929661']
+  [3037] Hamilton → ['7932692']
+  [3038] Hinton → ['7939200']
+  [3039] Joliette (Supercentre) → ['7929657']
+  [3040] Kamloops → ['7939212']
+  [3041] Kapuskasing → ['7929656']
+  [3042] Kelowna → ['7932699']
+  [3043] Kingston → ['7932692']
+  [3044] Kirkland → ['7932693']
+  [3045] Kitchener → ['7932692']
+  [3046] LaSalle → ['7932693']
+  [3047] Laval → ['7932693']
+  [3048] Lethbridge South → ['7939211']
+  [3049] London → ['7929656']
+  [3050] London North → ['7932692']
+  [3051] Whiteoaks (London) → ['7932692']
+  [3052] Longueuil → ['7932693']
+  [3053] Markham → ['7939205']
+  [3054] Mississauga (Meadowvale) → ['7932692']
+  [3055] Mississauga (Square One) → ['7932692']
+  [3056] Dieppe → ['7932694']
+  [3057] North Vancouver → ['7932699']
+  [3058] North Battleford → ['7929663']
+  [3059] Nanaimo → ['7929665']
+  [3060] Nelson → ['7929665']
+  [3061] New Glasgow → ['7932695']
+  [3062] Newmarket → ['7939193']
+  [3063] North Bay → ['7929656']
+  [3064] Oakville → ['7932692']
+  [3065] Orleans → ['7932692']
+  [3066] Ottawa West (Supercentre) → ['7932692']
+  [3067] Owen Sound → ['7929656']
+  [3068] Port Hawkesbury → ['7929659']
+  [3069] Portage La Prairie → ['7929662']
+  [3070] Penticton → ['7939212']
+  [3071] Peterborough (Supercentre) → ['7932692']
+  [3072] Powell River → ['7939201']
+  [3073] Prince Albert → ['7932703']
+  [3074] Québec → ['7929657']
+  [3075] Red Deer → ['7929664']
+  [3076] Regina (North) → ['7932703']
+  [3077] Regina South → ['7932703']
+  [3078] Renfrew → ['7929656']
+  [3079] Repentigny → ['7929657']
+  [3080] Rosemère → ['7929657']
+  [3081] Bedford-Sackville → ['7939208']
+  [3082] Sarnia → ['7932692']
+  [3083] Saskatoon West → ['7932703']
+  [3084] Saskatoon North Supercentre → ['7932703']
+  [3085] Sept-Îles → ['7929657']
+  [3086] Sherbrooke → ['7929657']
+  [3087] St. Albert → ['7939211']
+  [3088] St. Catharines → ['7929656']
+  [3089] Saint-Eustache → ['7929657']
+  [3090] Saint-Jean-sur-Richelieu → ['7929657']
+  [3091] Saint John → ['7932694']
+  [3092] St. John's → ['7932697']
+  [3093] Mount Pearl → ['7932697']
+  [3094] Saint-Léonard → ['7932693']
+  [3095] Stephenville → ['7929661']
+  [3096] Stoney Creek → ['7932692']
+  [3097] Sudbury → ['7932692']
+  [3098] Surrey → ['7939212']
+  [3099] Swift Current → ['7929663']
+  [3100] Sydney → ['7932695']
+  [3101] Sydney → ['7932695']
+  [3102] Thompson → ['7932696']
+  [3103] Tillsonburg → ['7929656']
+  [3104] Timmins → ['7929656']
+  [3105] North York → ['7932692']
+  [3106] Toronto → ['7932692']
+  [3107] Winnipeg (Transcona) → ['7932696']
+  [3108] Trois-Rivières → ['7939194']
+  [3109] Victoria → ['7932699']
+  [3110] Welland → ['7932692']
+  [3111] Scarborough East → ['7932692']
+  [3112] Wetaskiwin → ['7939200']
+  [3113] Whitby → ['7939205']
+  [3114] Windsor → ['7932692']
+  [3115] Windsor East → ['7932692']
+  [3116] Winnipeg → ['7932696']
+  [3117] Winnipeg (W) → ['7929662']
+  [3118] Winnipeg → ['7932696']
+  [3119] Winnipeg → ['7932696']
+  [3120] Woodstock → ['7929656']
+  [3121] Yellowknife → no new flyers
+  [3122] Belleville Suprecentre → ['7932692']
+  [3123] Barrie → ['7932692']
+  [3124] Thunder Bay → ['7932692']
+  [3125] Gatineau → ['7932693']
+  [3126] Goderich R. R. → ['7929656']
+  [3127] Ancaster → ['7929656']
+  [3128] New Liskeard → ['7929656']
+  [3129] Hanover → ['7929656']
+  [3130] Brampton North → ['7932692']
+  [3131] Ottawa → ['7932692']
+  [3132] Lachute → ['7929657']
+  [3133] Cobourg → ['7932692']
+  [3134] Kanata → ['7932692']
+  [3135] Brampton East → ['7932692']
+  [3136] Rouyn-Noranda → ['7932693']
+  [3137] Saint-Hyacinthe → ['7929657']
+  [3138] Bayer's Lake → ['7939208']
+  [3139] Val-d'Or → ['7932693']
+  [3140] Saint-Bruno-de-Montarville → ['7929657']
+  [3141] Burlington → ['7932692']
+  [3142] Orangeville → ['7932692']
+  [3143] Hull → ['7932693']
+  [3144] Guelph → ['7932692']
+  [3146] Sainte-Foy → ['7929657']
+  [3147] Grande Prairie → ['7939211']
+  [3148] Lévis → ['7939194']
+  [3149] Mascouche → ['7939194']
+  [3150] Medicine Hat → ['7929664']
+  [3151] Shawnessy → ['7932698']
+  [3152] Cambridge → ['7932692']
+  [3153] Orillia → ['7929656']
+  [3154] Sherwood Park → ['7932698']
+  [3155] Sault Ste Marie → ['7932692']
+  [3156] Waterloo → ['7929656']
+  [3157] Fort McMurray → ['7932698']
+  [3158] Langley → ['7939212']
+  [3159] Cabbagetown → ['7932692']
+  [3160] Niagara Falls → ['7932692']
+  [3161] Oshawa → ['7939193']
+  [3162] Charlottetown → ['7932701']
+  [3163] Courtenay → ['7929665']
+  [3164] Leamington → ['7929656']
+  [3165] Mont Royal → ['7932693']
+  [3166] Barrie → ['7932692']
+  [3167] Chilliwack → ['7929665']
+  [3168] Lloydminster → ['7929664']
+  [3169] Vernon → ['7932699']
+  [3170] Burlington → ['7932692']
+  [3171] Pembroke → ['7929656']
+  [3172] St. Catharines → ['7932692']
+  [3173] Moose Jaw → ['7929663']
+  [3174] Vaughan → ['7932692']
+  [3176] Yorkton → ['7932703']
+  [3177] Winnipeg (SW) → ['7932696']
+  [3178] Trenton → ['7929656']
+  [3179] Regina East Supercentre → ['7932703']
+  [3180] Montreal Marche Central → ['7932693']
+  [3181] Camrose → ['7929664']
+  [3183] Cranbrook → ['7932699']
+  [3184] Truro → ['7932695']
+  [3185] Corner Brook → ['7939210']
+  [3186] Pickering → ['7939205']
+  [3188] Langford → ['7929665']
+  [3189] Laval Ste-Dorothée → ['7932693']
+  [3190] Saint-Jérôme → ['7929657']
+  [3191] Whitehorse → no new flyers
+  [3194] Red Deer → ['7932698']
+  [3195] Richmond Hill → ['7932692']
+  [3196] St. John's → ['7939210']
+  [3197] St. Thomas → ['7929656']
+  [3198] Rimouski → ['7929657']
+  [3199] Quesnel → ['7929665']
+  [3200] Oakville → ['7929656']
+  [3635] Scarborough → ['7932692']
+  [3636] Halifax → ['7939208']
+  [3637] Spruce Grove → ['7932698']
+  [3638] Barrhaven → ['7932692']
+  [3639] Salaberry-de-Valleyfield → ['7929657']
+  [3640] Cold Lake → ['7939200']
+  [3642] Saint-Constant → ['7929657']
+  [3644] Summerside → ['7939213']
+  [3645] Midland → ['7929656']
+  [3646] Beauport → ['7929657']
+  [3647] Shawinigan → ['7929657']
+  [3649] Fort Erie → ['7929656']
+  [3650] Calgary → ['7932698']
+  [3651] Prince George → ['7932699']
+  [3652] Richmond → ['7929665']
+  [3653] Uxbridge → ['7939193']
+  [3654] Mississauga → ['7932692']
+  [3655] Rivière-du-Loup → ['7929657']
+  [3656] Montréal-Nord → ['7932693']
+  [3657] Leduc → ['7929664']
+  [3658] Brooks → ['7939200']
+  [3659] Moncton → ['7932694']
+  [3660] Flin Flon → ['7929662']
+  [3661] Fort St John → ['7932699']
+  [3737] Atholville → ['7929658']
+  [3738] New Minas → ['7939208']
+  [3739] Victoriaville → ['7939194']
+  [3740] Rexdale → ['7932692']
+  [4002] Penguin PickUp - Eastern Ave → ['7929656']
+  [4006] Penguin PickUp - Cabbagetown → ['7929656']
+  [4007] Penguin PickUp - Queens Quay → ['7929656']
+  [4008] Penguin PickUp - Eglinton East → ['7929656']
+  [4011] Penguin PickUp - Queen West → ['7929656']
+  [4012] Penguin PickUp - Fashion District → ['7929656']
+  [4013] Penguin PickUp - Church & Wellesley → ['7929656']
+  [4014] Penguin PickUp - Peter St → ['7929656']
+  [4016] Penguin PickUp - Mont Royal → ['7929657']
+  [4017] Penguin PickUp - Peter St → no new flyers
+  [4018] Penguin PickUp - Queen St & University Ave → ['7929656']
+  [4022] Penguin PickUp - West Broadway → ['7929665']
+  [4107] Penguin PickUp - Crossroads → ['7929656']
+  [5708] Okotoks → ['7929664']
+  [5726] Calgary → ['7939211']
+  [5742] Bolton → ['7932692']
+  [5743] Huntsville → ['7929656']
+  [5752] Simcoe → ['7929656']
+  [5753] Fort Saskatchewan → ['7929664']
+  [5776] Dawson Creek → ['7929665']
+  [5777] New Westminster → ['7932699']
+  [5778] Aurora → ['7939205']
+  [5789] Amherst → ['7929659']
+  [5790] Weyburn → ['7929663']
+  [5795] Alma → ['7929657']
+  [5806] Fort Frances → ['7929656']
+  [5811] Smiths Falls → ['7929656']
+  [5831] Thornhill (Supercentre) → ['7929656']
+  [5832] Thetford Mines → ['7929657']
+  [5833] Miramichi → ['7939207']
+  [5834] Terrace → ['7929665']
+  [5838] Surrey → ['7932699']
+  [5839] Cowansville → ['7929657']
+  [5853] Surrey → ['7939212']
+  [5854] Kenora → ['7929656']
+  [5878] Saskatoon South → ['7932703']
+  [8123] Penguin PickUp - SSC → no new flyers
+  [9051] Wal-Mart Innovation Centre #9051 → no new flyers
+
+  415 new publication entries across 421 stores
+  34 unique new publication(s) to download
+  Appended 415 rows to data/walmart/store_flyers.parquet
+New publication entries added to store_flyers.parquet: 415
+Unique new publications to download: 34
+
+Phase 2: fetching products for each new publication…
+
+  [7932692] Grocery Flyer  (2026-05-21T00:00:00-04:00 → 2026-05-27T23:59:59-04:00)
+    501 products
+  [7939208] Grocery Flyer  (2026-05-21T00:00:00-04:00 → 2026-05-27T23:59:59-04:00)
+    496 products
+  [7939200] Grocery Flyer  (2026-05-21T02:00:00-04:00 → 2026-05-27T23:59:59-04:00)
+    444 products
+  [7929664] Grocery Flyer  (2026-05-21T02:00:00-04:00 → 2026-05-27T23:59:59-04:00)
+    444 products
+  [7932699] Grocery Flyer  (2026-05-21T03:00:00-04:00 → 2026-05-27T23:59:59-04:00)
+    501 products
+  [7929656] Grocery Flyer  (2026-05-21T00:00:00-04:00 → 2026-05-27T23:59:59-04:00)
+    445 products
+  [7932694] Grocery Flyer  (2026-05-21T00:00:00-04:00 → 2026-05-27T23:59:59-04:00)
+    496 products
+  [7932695] Grocery Flyer  (2026-05-21T00:00:00-04:00 → 2026-05-27T23:59:59-04:00)
+    496 products
+  [7929665] Grocery Flyer  (2026-05-21T03:00:00-04:00 → 2026-05-27T23:59:59-04:00)
+    445 products
+  [7939196] Grocery Flyer  (2026-05-21T00:00:00-04:00 → 2026-05-27T23:59:59-04:00)
+    440 products
+  [7939194] Grocery Flyer  (2026-05-21T00:00:00-04:00 → 2026-05-27T23:59:59-04:00)
+    386 products
+  [7929662] Grocery Flyer  (2026-05-21T01:00:00-04:00 → 2026-05-27T23:59:59-04:00)
+    444 products
+  [7929657] Grocery Flyer  (2026-05-21T00:00:00-04:00 → 2026-05-27T23:59:59-04:00)
+    386 products
+  [7939197] Grocery Flyer  (2026-05-21T00:00:00-04:00 → 2026-05-27T23:59:59-04:00)
+    439 products
+  [7932696] Grocery Flyer  (2026-05-21T01:00:00-04:00 → 2026-05-27T23:59:59-04:00)
+    500 products
+  [7939205] Grocery Flyer  (2026-05-21T00:00:00-04:00 → 2026-05-27T23:59:59-04:00)
+    501 products
+  [7932693] Grocery Flyer  (2026-05-21T00:00:00-04:00 → 2026-05-27T23:59:59-04:00)
+    442 products
+  [7939195] Grocery Flyer  (2026-05-21T00:00:00-04:00 → 2026-05-27T23:59:59-04:00)
+    440 products
+  [7939210] Grocery Flyer  (2026-05-21T00:00:00-04:00 → 2026-05-27T23:59:59-04:00)
+    495 products
+  [7939201] Grocery Flyer  (2026-05-21T03:00:00-04:00 → 2026-05-27T23:59:59-04:00)
+    445 products
+  [7932698] Grocery Flyer  (2026-05-21T02:00:00-04:00 → 2026-05-27T23:59:59-04:00)
+    500 products
+  [7929658] Grocery Flyer  (2026-05-21T00:00:00-04:00 → 2026-05-27T23:59:59-04:00)
+    440 products
+  [7939193] Grocery Flyer  (2026-05-21T00:00:00-04:00 → 2026-05-27T23:59:59-04:00)
+    445 products
+  [7939199] Grocery Flyer  (2026-05-21T02:00:00-04:00 → 2026-05-27T23:59:59-04:00)
+    442 products
+  [7939211] Grocery Flyer  (2026-05-21T02:00:00-04:00 → 2026-05-27T23:59:59-04:00)
+    500 products
+  [7929659] Grocery Flyer  (2026-05-21T00:00:00-04:00 → 2026-05-27T23:59:59-04:00)
+    440 products
+  [7939212] Grocery Flyer  (2026-05-21T03:00:00-04:00 → 2026-05-27T23:59:59-04:00)
+    501 products
+  [7929661] Grocery Flyer  (2026-05-21T00:00:00-04:00 → 2026-05-27T23:59:59-04:00)
+    439 products
+  [7929663] Grocery Flyer  (2026-05-21T02:00:00-04:00 → 2026-05-27T23:59:59-04:00)
+    442 products
+  [7932697] Grocery Flyer  (2026-05-21T00:00:00-04:00 → 2026-05-27T23:59:59-04:00)
+    495 products
+  [7932703] Grocery Flyer  (2026-05-21T02:00:00-04:00 → 2026-05-27T23:59:59-04:00)
+    498 products
+  [7932701] Grocery Flyer  (2026-05-21T00:00:00-04:00 → 2026-05-27T23:59:59-04:00)
+    496 products
+  [7939213] Grocery Flyer  (2026-05-21T00:00:00-04:00 → 2026-05-27T23:59:59-04:00)
+    496 products
+  [7939207] Grocery Flyer  (2026-05-21T00:00:00-04:00 → 2026-05-27T23:59:59-04:00)
+    496 products
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 34
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-05-21 14:22:36 UTC
+Elapsed      : 1m 36s
+
+
+Done.  Verbose log → logs/walmart/2026-05-21_verbose.log
+       Summary log → logs/walmart/2026-05-21_summary.log
+

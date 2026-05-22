@@ -1,0 +1,15 @@
+=== No Frills Flyer Fetch — 2026-05-21 ===
+Run started : 2026-05-21 14:11:55 UTC
+
+Stores loaded: 381
+New publication entries added to store_flyers.parquet: 341
+Unique new publications to download: 58
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 58
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-05-21 14:13:28 UTC
+Elapsed      : 1m 32s
+

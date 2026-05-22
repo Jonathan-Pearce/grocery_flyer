@@ -1,0 +1,15 @@
+=== Metro Ontario Flyer Fetch — 2026-05-21 ===
+Run started : 2026-05-21 14:22:36 UTC
+
+Stores loaded: 133
+New flyer entries added to store_flyers.parquet : 399
+Unique new jobs to download                     : 3
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 3
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-05-21 14:23:35 UTC
+Elapsed      : 0m 59s
+

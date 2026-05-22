@@ -1,0 +1,171 @@
+=== Metro Ontario Flyer Fetch — 2026-05-21 ===
+Run started : 2026-05-21 14:22:36 UTC
+
+Loaded 133 stores from data/metro/stores.parquet
+
+Stores loaded: 133
+Loaded store_flyers.parquet (1535 flyer entries)
+
+Phase 1: fetching flyer listings per store…
+
+  [2] #767 Metro Henderson → ['83407', '205352', '83407M']
+  [7] #314 Arnprior (Daniel) → ['83407', '205352', '83407M']
+  [8] #135 Barrie (Bayfield) → ['83407', '205352', '83407M']
+  [10] #453 Bowmanville (King) → ['83407', '205352', '83407M']
+  [13] #425 Brampton (Main S) → ['83407', '205352', '83407M']
+  [14] #360 Brampton (Heartlake Town Centre) → ['83407', '205352', '83407M']
+  [21] #905 Cobourg (Elgin) → ['83407', '205352', '83407M']
+  [25] #401 North York (Sheppard/Bathurst) → ['83407', '205352', '83407M']
+  [26] #102 Dundas (Dundas Valley) → ['83407', '205352', '83407M']
+  [28] #748 Etobicoke (Royal York) → ['83407', '205352', '83407M']
+  [31] #704 Etobicoke (Lloyd Manor) → ['83407', '205352', '83407M']
+  [32] #702 Etobicoke (Cloverdale) → ['83407', '205352', '83407M']
+  [34] #159 Gananoque (King) → ['83407', '205352', '83407M']
+  [41] #235 Hamilton (Centre Mall on Barton) → ['83407', '205352', '83407M']
+  [43] #229 Hamilton (King Rose Place) → ['83407', '205352', '83407M']
+  [49] #208 Hamilton (Fennell) → ['83407', '205352', '83407M']
+  [52] #193 Huntsville (King William) → ['83407', '205352', '83407M']
+  [55] #152 Kingston (Barrie) → ['83407', '205352', '83407M']
+  [57] #170 Kingston (Gardiners) → ['83407', '205352', '83407M']
+  [63] #199 London (Clarke Side Rd) → ['83407', '205352', '83407M']
+  [64] #247 Metro Cherryhill → ['83407', '205352', '83407M']
+  [69] #332 Milton (Louis St Laurent) → ['83407', '205352', '83407M']
+  [71] #461 Mississauga (Mississauga Valley/Hurontario) → ['83407', '205352', '83407M']
+  [74] #073 Mississauga (Lakeshore) → ['83407', '205352', '83407M']
+  [76] #728 Mississauga (Meadowvale Town Centre) → ['83407', '205352', '83407M']
+  [78] #161 Napanee (Alkenbrack) → ['83407', '205352', '83407M']
+  [80] #771 Newmarket (Yonge/Mulock) → ['83407', '205352', '83407M']
+  [82] #493 North York (Wilson/Keele) → ['83407', '205352', '83407M']
+  [84] #780 North York (York Mills Centre) → ['83407', '205352', '83407M']
+  [85] #052 North York (Bathurst) → ['83407', '205352', '83407M']
+  [87] #786 North York (Shops at Don Mills) → ['83407', '205352', '83407M']
+  [88] #334 Metro Rebecca Street → ['83407', '205352', '83407M']
+  [89] #214 Oakville (Oakville Town Centre) → ['83407', '205352', '83407M']
+  [91] #331 Orangeville (First) → ['83407', '205352', '83407M']
+  [95] #109 Oshawa (Taunton) → ['83407', '205352', '83407M']
+  [98] #245 Ottawa (Hunt Club Centre) → ['83407', '205352', '83407M']
+  [99] #179 Owen Sound (Second) → ['83407', '205352', '83407M']
+  [103] #204 Peterborough (Chemong Rd) → ['83407', '205352', '83407M']
+  [104] #853 Metro Amberlea → ['83407', '205352', '83407M']
+  [105] #153 Picton (Main) → ['83407', '205352', '83407M']
+  [109] #364 Sarnia (Exmouth) → ['83407', '205352', '83407M']
+  [110] #181 Sault Ste Marie (Market Mall) → ['83407', '205352', '83407M']
+  [111] #038 Scarborough (Port Union) → ['83407', '205352', '83407M']
+  [112] #804 Scarborough (Bridlewood Mall) → ['83407', '205352', '83407M']
+  [113] #800 Scarborough (Eglinton Square) → ['83407', '205352', '83407M']
+  [121] #197 St Catharines (Lakeshore) → ['83407', '205352', '83407M']
+  [123] #137 St Thomas (Wellington) → ['83407', '205352', '83407M']
+  [127] #424 Thunder Bay (Arthur/Hwy 61) → ['83407', '205352', '83407M']
+  [128] #422 Thunder Bay (Arthur/James) → ['83407', '205352', '83407M']
+  [129] #124 Tillsonburg (Broadway) → ['83407', '205352', '83407M']
+  [130] #201 Timmins (Algonquin) → ['83407', '205352', '83407M']
+  [134] #750 Metro Keele & Lawrence → ['83407', '205352', '83407M']
+  [135] #752 Toronto (Yonge Eglinton Centre) → ['83407', '205352', '83407M']
+  [137] #079 Toronto (Yonge/Lawrence) → ['83407', '205352', '83407M']
+  [138] #742 Toronto (Bloor/Spadina) → ['83407', '205352', '83407M']
+  [139] #063 Toronto (College Park) → ['83407', '205352', '83407M']
+  [140] #758 Toronto (Bayview/Eglinton) → ['83407', '205352', '83407M']
+  [141] #442 Toronto (College/Shaw) → ['83407', '205352', '83407M']
+  [144] #759 Toronto (Gould) → ['83407', '205352', '83407M']
+  [151] #141 Metro Central → ['83407', '205352', '83407M']
+  [152] #147 Metro Riverside → ['83407', '205352', '83407M']
+  [153] #720 Toronto (Liberty Village) → ['83407', '205352', '83407M']
+  [157] #490 Metro Upper Middle → ['83407', '205352', '83407M']
+  [159] #118 London (Adelaide Centre) → ['83407', '205352', '83407M']
+  [165] #404 Belleville (N Front) → ['83407', '205352', '83407M']
+  [167] #798 Metro Davis Drive → ['83407', '205352', '83407M']
+  [171] #139 Metro Banwell → ['83407', '205352', '83407M']
+  [179] #119 Metro Byron Village → ['83407', '205352', '83407M']
+  [183] #240 Sarnia (Sarnia Centre) → ['83407', '205352', '83407M']
+  [187] #475 Scarborough (Ellesmere/Victoria Park) → ['83407', '205352', '83407M']
+  [190] #395 Sault Ste Marie (Churchill Plaza) → ['83407', '205352', '83407M']
+  [193] #035 Scarborough (Kennedy Commons) → ['83407', '205352', '83407M']
+  [198] #712 North York (Church/Finch) → ['83407', '205352', '83407M']
+  [199] #083 Brampton (Trinity Commons) → ['83407', '205352', '83407M']
+  [201] #084 Burlington (Appleby) → ['83407', '205352', '83407M']
+  [206] #719 Toronto (Stockyards) → ['83407', '205352', '83407M']
+  [210] #717 Mississauga (Sheridan Mall) → ['83407', '205352', '83407M']
+  [214] #202 Sault Ste Marie (Northern) → ['83407', '205352', '83407M']
+  [215] #495 Brampton (Bramalea City Centre.) → ['83407', '205352', '83407M']
+  [229] #037 Toronto (Danforth) → ['83407', '205352', '83407M']
+  [234] #854 Mississauga (Derry/10th Line) → ['83407', '205352', '83407M']
+  [236] #808 Scarborough (Eglinton/Markham) → ['83407', '205352', '83407M']
+  [241] #325 Brantford (St Paul) → ['83407', '205352', '83407M']
+  [245] #399 North Bay (Lakeshore) → ['83407', '205352', '83407M']
+  [247] #150 London (Wellington) → ['83407', '205352', '83407M']
+  [249] #125 Whitby (Thickson/Taunton) → ['83407', '205352', '83407M']
+  [257] #055 Metro Stone Road → ['83407', '205352', '83407M']
+  [261] #132 Trenton (Quinte) → ['83407', '205352', '83407M']
+  [263] #026 Stouffville (Main) → ['83407', '205352', '83407M']
+  [265] #178 Collingwood (First) → ['83407', '205352', '83407M']
+  [267] #421 Thunder Bay (River) → ['83407', '205352', '83407M']
+  [273] #479 Orillia (Front St. Mall) → ['83407', '205352', '83407M']
+  [275] #106 Whitby (Thickson/Hwy 2) → ['83407', '205352', '83407M']
+  [281] #062 Metro Front Street → ['83407', '205352', '83407M']
+  [286] #046 Mississauga (Southdown) → ['83407', '205352', '83407M']
+  [327] #140 Georgetown (Mountainview) → ['83407', '205352', '83407M']
+  [340] #205 Whitby (Whitby Shores Plaza) → ['83407', '205352', '83407M']
+  [492] #249 Kanata (March Rd) → ['83407', '205352', '83407M']
+  [494] #251 Nepean (Greenbank Square) → ['83407', '205352', '83407M']
+  [495] #252 Metro Southgate → ['83407', '205352', '83407M']
+  [496] #253 Gloucester (Ogilvie Square) → ['83407', '205352', '83407M']
+  [497] #243 Ottawa (Lincoln Heights) → ['83407', '205352', '83407M']
+  [498] #255 Metro Island Park → ['83407', '205352', '83407M']
+  [499] #256 Metro Chapman Mills → ['83407', '205352', '83407M']
+  [501] #258 Sudbury (Lasalle Blvd) → ['83407', '205352', '83407M']
+  [502] #259 Sturgeon Falls (Front) → ['83407', '205352', '83407M']
+  [503] #260 Orleans (Convent Glen Market) → ['83407', '205352', '83407M']
+  [504] #261 Metro Beechwood → ['83407', '205352', '83407M']
+  [506] #263 Metro Elmvale → ['83407', '205352', '83407M']
+  [507] #264 Gloucester (Blackburn) → ['83407', '205352', '83407M']
+  [508] #265 Metro Cumberland → ['83407', '205352', '83407M']
+  [509] #266 Kingston (Bayridge) → ['83407', '205352', '83407M']
+  [510] #267 Nepean (Stafford) → ['83407', '205352', '83407M']
+  [511] #269 Brockville (King) → ['83407', '205352', '83407M']
+  [514] #272 Ottawa (Merivale/Viewmount) → ['83407', '205352', '83407M']
+  [515] #273 Casselman (Richer Circle) → ['83407', '205352', '83407M']
+  [516] #275 Metro Fallingbrook → ['83407', '205352', '83407M']
+  [517] GLEBE 428 → ['83407', '205352', '83407M']
+  [518] VAL CARON 430 → ['83407', '205352', '83407M']
+  [519] BARRY'S BAY → ['83407', '205352', '83407M']
+  [520] PERTH 990 → ['83407', '205352', '83407M']
+  [521] RENFREW MARKET 898 → ['83407', '205352', '83407M']
+  [529] #703 Ajax (Salem) → ['83407', '205352', '83407M']
+  [774] #065 Metro Humber Bay Park → ['83407', '205352', '83407M']
+  [806] PEMBROKE 426 → ['83407', '205352', '83407M']
+  [825] #772 Metro West Queen West → ['83407', '205352', '83407M']
+  [827] #136 Metro Devonshire Mall → ['83407', '205352', '83407M']
+  [835] #215 Winona (Winona Crossing) → ['83407', '205352', '83407M']
+  [848] #21 Bathurst & Steeles → ['83407', '205352', '83407M']
+  [851] #246 Kanata (Cope Dr.) → ['83407', '205352', '83407M']
+  [893] #32 Niagara Falls → ['83407', '205352', '83407M']
+  [903] #244 Rideau → ['83407', '205352', '83407M']
+  [913] #145 South Barrie → ['83407', '205352', '83407M']
+
+  399 new flyer entries across 133 stores
+  3 unique new job(s) to download
+  Appended 399 rows to data/metro/store_flyers.parquet
+New flyer entries added to store_flyers.parquet : 399
+Unique new jobs to download                     : 3
+
+Phase 2: fetching products for each new job…
+
+  [83407] store 2  (https://metrodigital-apim.azure-api.net/api/Pages/83407/2/en/search)
+    482 products
+  [205352] store 2  (https://metrodigital-apim.azure-api.net/api/Pages/205352/2/en/search)
+    150 products
+  [83407M] store 2  (https://metrodigital-apim.azure-api.net/api/Pages/83407M/2/en/search)
+    5 products
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 3
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-05-21 14:23:35 UTC
+Elapsed      : 0m 59s
+
+
+Done.  Verbose log → logs/metro/2026-05-21_verbose.log
+       Summary log → logs/metro/2026-05-21_summary.log
+
