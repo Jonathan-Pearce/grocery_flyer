@@ -1,0 +1,84 @@
+=== Zehrs Flyer Fetch — 2026-05-28 ===
+Run started : 2026-05-28 14:24:39 UTC
+
+Loaded 44 stores from data/zehrs/stores.parquet
+
+Stores loaded: 44
+Loaded store_flyers.parquet (378 publication entries)
+
+Phase 1: fetching publications per store…
+
+  [26] TEST STORE → no new flyers
+  [500] Zehrs Clairfiled → ['7946564']
+  [505] Zehrs Bradford → ['7946564']
+  [507] Zehrs Essa Road → ['7946565']
+  [509] Zehrs Alliston → ['7946564']
+  [514] Zehrs Duckworth → ['7946564']
+  [515] Zehrs Hiway Centre → ['7946564']
+  [519] Zehrs Caledonia → ['7946564']
+  [520] Zehrs Keswick → ['7946565']
+  [521] Zehrs Malden Road → ['7946568']
+  [522] Zehrs Pen Centre → ['7946564']
+  [523] Zehrs Stanley Park → ['7946568']
+  [524] Zehrs Beechwood → ['7946564']
+  [525] Zehrs Glenridge → ['7946564']
+  [528] Zehrs Conestoga → ['7946564']
+  [529] Zehrs Parkway Mall → ['7946564']
+  [530] Zehrs Pioneer Park → ['7946564']
+  [531] Zehrs Hartsland → ['7946564']
+  [532] Zehrs Goderich → ['7946564']
+  [533] Zehrs Cambridge Cntr → ['7946568']
+  [535] Zehrs Listowel → ['7946564']
+  [536] Zehrs Geneva Street → ['7946564']
+  [537] Zehrs Niagara → ['7946565']
+  [538] Zehrs Eramosa → ['7946564']
+  [539] Zehrs Fergus → ['7946568']
+  [540] Zehrs Fairview → ['7946564']
+  [543] Zehrs King George → ['7946564']
+  [545] Zehrs Hespeler → ['7946564']
+  [550] Zehrs Welland → ['7946564']
+  [552] Zehrs Uxbridge → ['7946568']
+  [554] Zehrs Orangeville → ['7946564']
+  [557] Zehrs Stratford → ['7946567']
+  [558] Zehrs Bolton → no new flyers
+  [559] Zehrs Imperial → ['7946568']
+  [560] Zehrs Laurentian → ['7946568']
+  [563] Zehrs Owen Sound → ['7946568']
+  [565] Zehrs Big Bay Point → ['7946568']
+  [570] Zehrs Tillsonburg → ['7946568']
+  [572] Zehrs Kingsville → ['7946564']
+  [573] Zehrs St Clair Beach → ['7946564']
+  [576] Zehrs South Cambridge → ['7946567']
+  [579] Zehrs Woodstock → ['7946564']
+  [580] Zehrs Orillia → ['7946564']
+  [6583] Zehrs Bayfield → ['7946564']
+
+  42 new publication entries across 44 stores
+  4 unique new publication(s) to download
+  Appended 42 rows to data/zehrs/store_flyers.parquet
+New publication entries added to store_flyers.parquet: 42
+Unique new publications to download: 4
+
+Phase 2: fetching products for each new publication…
+
+  [7946564] Weekly Flyer  (2026-05-28T00:00:00-04:00 → 2026-06-03T23:59:59-04:00)
+    270 products
+  [7946565] Weekly Flyer  (2026-05-28T00:00:00-04:00 → 2026-06-03T23:59:59-04:00)
+    284 products
+  [7946568] Weekly Flyer  (2026-05-28T00:00:00-04:00 → 2026-06-03T23:59:59-04:00)
+    286 products
+  [7946567] Weekly Flyer  (2026-05-28T00:00:00-04:00 → 2026-06-03T23:59:59-04:00)
+    300 products
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 4
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-05-28 14:24:45 UTC
+Elapsed      : 0m 6s
+
+
+Done.  Verbose log → logs/zehrs/2026-05-28_verbose.log
+       Summary log → logs/zehrs/2026-05-28_summary.log
+
