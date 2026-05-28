@@ -1,0 +1,15 @@
+=== Longos Flyer Fetch — 2026-05-28 ===
+Run started : 2026-05-28 14:28:56 UTC
+
+Stores loaded: 43
+New publication entries added to store_flyers.parquet: 38
+Unique new publications to download: 2
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 2
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-05-28 14:29:01 UTC
+Elapsed      : 0m 5s
+
