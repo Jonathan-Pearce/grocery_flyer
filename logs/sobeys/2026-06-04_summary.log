@@ -1,0 +1,15 @@
+=== Sobeys Flyer Fetch — 2026-06-04 ===
+Run started : 2026-06-04 14:13:33 UTC
+
+Stores loaded: 267
+New publication entries added to store_flyers.parquet: 227
+Unique new publications to download: 21
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 21
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-06-04 14:14:36 UTC
+Elapsed      : 1m 2s
+
