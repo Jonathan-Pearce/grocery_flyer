@@ -1,0 +1,61 @@
+=== Dominion Flyer Fetch — 2026-06-11 ===
+Run started : 2026-06-11 14:28:47 UTC
+
+Loaded 11 stores from data/dominion/stores.parquet
+
+Stores loaded: 11
+Loaded store_flyers.parquet (120 publication entries)
+
+Phase 1: fetching publications per store…
+
+  [906] Bay Roberts Dominion → ['7974287', '7980521']
+  [913] Carbonear Dominion → ['7974287', '7980521']
+  [922] Pearlgate Dominion → ['7974290', '7980524']
+  [923] Longpond Dominion → ['7974288', '7980522']
+  [924] Cabot Square Dominion → ['7974289', '7980523']
+  [925] Stephenville Dominion → ['7974287', '7980521']
+  [926] Corner Brook Dominion → ['7974287', '7980521']
+  [927] Gander Dominion → ['7974287', '7980521']
+  [928] Grand Falls Dominion → ['7974287', '7980521']
+  [934] Memorial Stadium Dominion → ['7974287', '7980521']
+  [935] Blackmarsh Road Dominion → ['7974291', '7980524']
+
+  22 new publication entries across 11 stores
+  9 unique new publication(s) to download
+  Appended 22 rows to data/dominion/store_flyers.parquet
+New publication entries added to store_flyers.parquet: 22
+Unique new publications to download: 9
+
+Phase 2: fetching products for each new publication…
+
+  [7974287] Weekly Flyer  (2026-06-11T00:00:00-04:00 → 2026-06-17T23:59:59-04:00)
+    382 products
+  [7980521] Weekly Flyer  (2026-06-11T00:00:00-04:00 → 2026-06-17T23:59:59-04:00)
+    65 products
+  [7974290] Weekly Flyer  (2026-06-11T00:00:00-04:00 → 2026-06-17T23:59:59-04:00)
+    415 products
+  [7980524] Weekly Flyer  (2026-06-11T00:00:00-04:00 → 2026-06-17T23:59:59-04:00)
+    98 products
+  [7974288] Weekly Flyer  (2026-06-11T00:00:00-04:00 → 2026-06-17T23:59:59-04:00)
+    385 products
+  [7980522] Weekly Flyer  (2026-06-11T00:00:00-04:00 → 2026-06-17T23:59:59-04:00)
+    68 products
+  [7974289] Weekly Flyer  (2026-06-11T00:00:00-04:00 → 2026-06-17T23:59:59-04:00)
+    421 products
+  [7980523] Weekly Flyer  (2026-06-11T00:00:00-04:00 → 2026-06-17T23:59:59-04:00)
+    82 products
+  [7974291] Weekly Flyer  (2026-06-11T00:00:00-04:00 → 2026-06-17T23:59:59-04:00)
+    431 products
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 9
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-06-11 14:28:52 UTC
+Elapsed      : 0m 4s
+
+
+Done.  Verbose log → logs/dominion/2026-06-11_verbose.log
+       Summary log → logs/dominion/2026-06-11_summary.log
+
