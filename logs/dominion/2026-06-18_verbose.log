@@ -1,0 +1,57 @@
+=== Dominion Flyer Fetch — 2026-06-18 ===
+Run started : 2026-06-18 14:13:32 UTC
+
+Loaded 11 stores from data/dominion/stores.parquet
+
+Stores loaded: 11
+Loaded store_flyers.parquet (142 publication entries)
+
+Phase 1: fetching publications per store…
+
+  [906] Bay Roberts Dominion → ['7987479', '7981550']
+  [913] Carbonear Dominion → ['7987479', '7981550']
+  [922] Pearlgate Dominion → ['7987481', '7981552']
+  [923] Longpond Dominion → ['7987479', '7981550']
+  [924] Cabot Square Dominion → ['7987480', '7981551']
+  [925] Stephenville Dominion → ['7987479', '7981550']
+  [926] Corner Brook Dominion → ['7987479', '7981550']
+  [927] Gander Dominion → ['7987479', '7981550']
+  [928] Grand Falls Dominion → ['7987479', '7981550']
+  [934] Memorial Stadium Dominion → no new flyers
+  [935] Blackmarsh Road Dominion → ['7987481', '7981553']
+
+  20 new publication entries across 11 stores
+  7 unique new publication(s) to download
+  Appended 20 rows to data/dominion/store_flyers.parquet
+New publication entries added to store_flyers.parquet: 20
+Unique new publications to download: 7
+
+Phase 2: fetching products for each new publication…
+
+  [7987479] Weekly Flyer  (2026-06-18T00:00:00-04:00 → 2026-06-24T23:59:59-04:00)
+    67 products
+  [7981550] Weekly Flyer  (2026-06-18T00:00:00-04:00 → 2026-06-24T23:59:59-04:00)
+    412 products
+  [7987481] Weekly Flyer  (2026-06-18T00:00:00-04:00 → 2026-06-24T23:59:59-04:00)
+    100 products
+  [7981552] Weekly Flyer  (2026-06-18T00:00:00-04:00 → 2026-06-24T23:59:59-04:00)
+    430 products
+  [7987480] Weekly Flyer  (2026-06-18T00:00:00-04:00 → 2026-06-24T23:59:59-04:00)
+    80 products
+  [7981551] Weekly Flyer  (2026-06-18T00:00:00-04:00 → 2026-06-24T23:59:59-04:00)
+    429 products
+  [7981553] Weekly Flyer  (2026-06-18T00:00:00-04:00 → 2026-06-24T23:59:59-04:00)
+    444 products
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 7
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-06-18 14:13:35 UTC
+Elapsed      : 0m 3s
+
+
+Done.  Verbose log → logs/dominion/2026-06-18_verbose.log
+       Summary log → logs/dominion/2026-06-18_summary.log
+
