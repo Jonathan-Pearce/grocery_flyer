@@ -1,0 +1,75 @@
+=== Fortinos Flyer Fetch — 2026-06-18 ===
+Run started : 2026-06-18 14:13:13 UTC
+
+Loaded 25 stores from data/fortinos/stores.parquet
+
+Stores loaded: 25
+Loaded store_flyers.parquet (284 publication entries)
+
+Phase 1: fetching publications per store…
+
+  [31] Test Store → no new flyers
+  [39] Fortinos Mountainash → no new flyers
+  [46] Fortinos Hwy 20 & 53 → ['7983276']
+  [55] Fortinos Langstaff → ['7983281']
+  [65] Fortinos Upper James 2004 → ['7983276']
+  [67] Fortinos Main Street → ['7983277']
+  [78] Fortinos Plains Road → ['7983275']
+  [86] Fortinos Ancaster → ['7983276']
+  [96] Fortinos Highway #7 & Ansley → ['7983281']
+  [199] Fortinos Neyagawa → ['7983275']
+  [300] Fortinos Eastgate → ['7983279']
+  [526] Fortinos Upper Middle → ['7983275']
+  [1434] Fortinos Waterdown → ['7983275']
+  [1436] Fortinos Lawrence & Allen → ['7983283']
+  [1495] Fortinos Appleby → ['7983275']
+  [2265] Fortinos Dundurn → ['7983278']
+  [2268] Fortinos New Street → ['7983275']
+  [4014] Fortinos Mall Road → ['7983276']
+  [5547] Fortinos Major Mackenzie → ['7983281']
+  [5548] Bovaird & HWY 10 → ['7983280']
+  [7136] Fortinos (South Oakville) Ltd → ['7983275']
+  [7346] Fortinos Fiesta Mall → ['7983276']
+  [7513] BOLTON → ['7983281']
+  [7529] Fortinos Highway 7 & Brisdale → ['7983280']
+  [7920] Fortinos Queens Plate → ['7983282']
+
+  23 new publication entries across 25 stores
+  9 unique new publication(s) to download
+  Appended 23 rows to data/fortinos/store_flyers.parquet
+New publication entries added to store_flyers.parquet: 23
+Unique new publications to download: 9
+
+Phase 2: fetching products for each new publication…
+
+  [7983276] Weekly Flyer  (2026-06-18T00:00:00-04:00 → 2026-06-24T23:59:59-04:00)
+    383 products
+  [7983281] Weekly Flyer  (2026-06-18T00:00:00-04:00 → 2026-06-24T23:59:59-04:00)
+    383 products
+  [7983277] Weekly Flyer  (2026-06-18T00:00:00-04:00 → 2026-06-24T23:59:59-04:00)
+    435 products
+  [7983275] Weekly Flyer  (2026-06-18T00:00:00-04:00 → 2026-06-24T23:59:59-04:00)
+    383 products
+  [7983279] Weekly Flyer  (2026-06-18T00:00:00-04:00 → 2026-06-24T23:59:59-04:00)
+    427 products
+  [7983283] Weekly Flyer  (2026-06-18T00:00:00-04:00 → 2026-06-24T23:59:59-04:00)
+    415 products
+  [7983278] Weekly Flyer  (2026-06-18T00:00:00-04:00 → 2026-06-24T23:59:59-04:00)
+    403 products
+  [7983280] Weekly Flyer  (2026-06-18T00:00:00-04:00 → 2026-06-24T23:59:59-04:00)
+    404 products
+  [7983282] Weekly Flyer  (2026-06-18T00:00:00-04:00 → 2026-06-24T23:59:59-04:00)
+    403 products
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 9
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-06-18 14:13:18 UTC
+Elapsed      : 0m 5s
+
+
+Done.  Verbose log → logs/fortinos/2026-06-18_verbose.log
+       Summary log → logs/fortinos/2026-06-18_summary.log
+

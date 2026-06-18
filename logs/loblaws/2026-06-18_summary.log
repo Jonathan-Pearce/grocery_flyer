@@ -1,0 +1,15 @@
+=== Loblaws Flyer Fetch — 2026-06-18 ===
+Run started : 2026-06-18 14:10:15 UTC
+
+Stores loaded: 50
+New publication entries added to store_flyers.parquet: 41
+Unique new publications to download: 17
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 17
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-06-18 14:10:27 UTC
+Elapsed      : 0m 12s
+

@@ -1,0 +1,15 @@
+=== Real Canadian Superstore Flyer Fetch — 2026-06-18 ===
+Run started : 2026-06-18 14:12:00 UTC
+
+Stores loaded: 124
+New publication entries added to store_flyers.parquet: 194
+Unique new publications to download: 41
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 41
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-06-18 14:12:28 UTC
+Elapsed      : 0m 28s
+
