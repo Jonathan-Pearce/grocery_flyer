@@ -1,0 +1,272 @@
+=== Maxi Flyer Fetch — 2026-07-23 ===
+Run started : 2026-07-23 13:45:44 UTC
+
+Loaded 208 stores from data/maxi/stores.parquet
+
+Stores loaded: 208
+Loaded store_flyers.parquet (3220 publication entries)
+
+Phase 1: fetching publications per store…
+
+  [21] TEST STORE → no new flyers
+  [3736] Caraquet St-Pierre → ['8036442']
+  [4540] Trois-Rivières → ['8036456']
+  [4541] SHERBROOKE → ['8036444']
+  [4544] L’Ormiere → ['8036444']
+  [4552] Laval Rene Laennec → ['8036447']
+  [4554] Vaudreuil → ['8036457']
+  [4558] Jean Talon → ['8036458']
+  [4559] Granby → ['8036450']
+  [4561] St.Hyacinthe → ['8036456']
+  [4564] Val D'Or → ['8036456']
+  [4565] Varennes → ['8036444']
+  [4669] Marieville 282 Rue Ouellette → ['8036444']
+  [5401] St-Raymond → ['8036444']
+  [5402] Charlesbourg → ['8036456']
+  [5403] Mistassini → ['8036444']
+  [5404] St-Lambert → ['8036444']
+  [5405] Baie Comeau → ['8036444']
+  [7079] George-Muir → ['8036444']
+  [7140] Beauharnois → ['8036444']
+  [7153] Port-Cariter → ['8036444']
+  [7157] Varennes → no new flyers
+  [7209] La Malbaie → ['8036444']
+  [7210] Evain → ['8036444']
+  [7211] Lorraine → ['8036444']
+  [7212] Gatineau Mont Bleu → ['8036447']
+  [7213] Chicoutimi → ['8036456']
+  [7214] Baie D’Urfé → ['8036444']
+  [7215] St-Michel-des-Saints → ['8036444']
+  [7216] Maloney Est → ['8036444']
+  [7218] Sainte-Anne-des-Plaines → ['8036444']
+  [7219] Beauport Seigneurial → ['8036444']
+  [7220] Gaspé → ['8036444']
+  [7221] St-Lin-Laurentides → ['8036456']
+  [7222] Ste-Foy → ['8036444']
+  [7223] Ste-Foy → ['8036444']
+  [7224] Coteau du Lac → ['8036444']
+  [7225] Lévis → ['8036444']
+  [7226] Riviere-du-Loup → ['8036444']
+  [7231] Blainville → ['8036444']
+  [7232] Valleyfield → ['8036450']
+  [7233] Maxi St-Pascal → ['8036444']
+  [7234] St-Urbain → ['8036444']
+  [7495] Cavendish → ['8036455']
+  [7538] Huntington → ['8036444']
+  [7547] Maxi Montreal → ['8036444']
+  [7548] LIEGE → ['8036445']
+  [7549] Maxi Beaubien E → ['8036444']
+  [7550] Laurendeau → ['8036444']
+  [7551] LEBEL SUR QUEVILLON → ['8036444']
+  [7552] SILLERY Rene-Levesque → ['8036444']
+  [7553] Quebec City → ['8036444']
+  [7554] Repentigny → ['8036444']
+  [7555] Granby Leclerc → ['8036444']
+  [7556] Levis → ['8036444']
+  [7557] LaSalle → ['8036451']
+  [7558] Pierrefonds → ['8036452']
+  [7559] Forestville → ['8036444']
+  [7560] Windsor → no new flyers
+  [7561] LENNOXVILLE → ['8036444']
+  [7562] St-Jacques-de-Montcalm → ['8036444']
+  [7563] Maxi Montréal Henri-Bourassa → ['8036444']
+  [7564] Québec City → ['8036444']
+  [7565] Sorel-Tracy → ['8036444']
+  [7566] Hull → ['8036450']
+  [7567] Sherbrooke → ['8036444']
+  [7568] Ville Marie → ['8036444']
+  [7569] Pointe-à-la-Croix → ['8036444']
+  [7570] Sherbrooke → ['8036444']
+  [7571] Maxi @ 1005 Bd Laure, Sept-Îles → ['8036444']
+  [7572] Maxi @ 22 Rue des Flandres → ['8036444']
+  [7573] MTL - Sherbrooke E (Versailles) → ['8036450']
+  [7574] Saguenay → ['8036444']
+  [7575] Sainte Julie → ['8036444']
+  [7577] Maxi Acton Vale → ['8036444']
+  [7657] Contrecoeur → ['8036444']
+  [7945] Windsor → ['8036444']
+  [7946] HOCHELAGA → ['8036444']
+  [7957] Maxi St-Nicolas → ['8036444']
+  [7958] Boisbriand → ['8036444']
+  [7959] MAXI LA POCATIERE → ['8036444']
+  [7960] 7960 STE ADELE → ['8036444']
+  [7969] 7969 → ['8036448']
+  [7972] HENRI-BOURASSA (CHARLESBOURG) → ['8036444']
+  [7976] Maxi Pintendre → ['8036444']
+  [8049] Maxi Les Saules → ['8036444']
+  [8384] Maxi @ 3500, Boul. St-Martin Ouest → ['8036453']
+  [8386] Maxi @ 7605, Maurice Duplessis → ['8036454']
+  [8388] Maxi @ 800, Boul. Maloney Ouest → ['8036450']
+  [8389] Maxi @ 130, Chemin Lepine → ['8036450']
+  [8493] Maxi Sainte-Julie → ['8036444']
+  [8602] Maxi @ 801, route principale, route 117 → ['8036444']
+  [8609] Maxi @ 14 875, boul. Pierrefonds → ['8036446']
+  [8612] Maxi @ 940, chemin Du Sault → ['8036450']
+  [8616] Maxi @ 33, boul. St-Benoit → ['8036444']
+  [8618] Maxi @ 2840, boul. Des Promenades → ['8036444']
+  [8619] Maxi @ 2100, rue Bagot → ['8036444']
+  [8621] Maxi @ 472, 4 ieme Rue Est → ['8036444']
+  [8622] Maxi @ 390, Montee des Pionniers → ['8036447']
+  [8624] Maxi @ 170, Principale sud → ['8036444']
+  [8625] Maxi @ 150, avenue Saint-Alphonse → ['8036444']
+  [8626] Maxi @ 500, Boul. Des Laurentides → ['8036444']
+  [8629] Maxi @ 44, rue Craig → ['8036444']
+  [8630] Maxi @ 3500, rue Laval → ['8036444']
+  [8632] Maxi @ 2535, rue Masson → ['8036447']
+  [8634] Maxi @ 8475, Rue Chartrand → ['8036447']
+  [8635] Maxi @ 355, rue Principale → ['8036449']
+  [8636] Maxi @ 50, Boul. Taschereau → ['8036444']
+  [8641] Maxi @ 124, route 132 ouest → ['8036444']
+  [8643] Maxi @ 114, Boul. St-Jean Baptiste → ['8036447']
+  [8645] Maxi @ 1877, rue Bilodeau → ['8036444']
+  [8648] Maxi @ 7201, rue Laurier → ['8036447']
+  [8649] Maxi @ 350, rue Bouvier → ['8036444']
+  [8652] Maxi @ 1055, Avenue du Pont-Sud → ['8036444']
+  [8653] Maxi @ 595, du Phare Est → ['8036444']
+  [8654] Maxi @ 1005, boul. Laure → ['8036444']
+  [8655] Maxi @ 681, Sainte-Geneviève → ['8036444']
+  [8660] Maxi @ 370, rue St-Jacques → ['8036444']
+  [8661] Maxi @ 6825, Côte-des-Neiges Rd → ['8036455']
+  [8662] Maxi @ 3000, rue Wellington → ['8036444']
+  [8663] Maxi @ 120, boul. Arthabaska Ouest → ['8036444']
+  [8664] Maxi @ 30, rue Racine → ['8036444']
+  [8666] Maxi @ 2650, Avenue de Grand-Mère → ['8036444']
+  [8667] Maxi @ 25, Rue De La Savane → ['8036447']
+  [8668] Maxi @ 199, 25e Avenue → ['8036444']
+  [8673] Maxi @ 6750, Jean-Talon Est → ['8036447']
+  [8675] Maxi @ 8305 rue Papineau → ['8036454']
+  [8676] Maxi @ 552, boul. Wilfrid-Hamel → ['8036444']
+  [8677] Maxi @ 175, Sir Wilfrid Laurier → ['8036444']
+  [8678] Maxi @ 200, Omer-Marcil → ['8036450']
+  [8679] Maxi @ 86 boul. Brien → ['8036454']
+  [8687] Maxi @ 909, Boul Firestone → ['8036444']
+  [8688] Maxi @ 419. boul. Jessop → ['8036444']
+  [8690] Maxi @ 215, boul. de l'Hôtel de Ville → ['8036444']
+  [8691] Maxi @ 150, des Grandes Fourches → ['8036444']
+  [8693] Maxi @ 1601, Boulevard de Périgny → ['8036444']
+  [8694] Maxi @ 1065, boul. Pie XI → ['8036444']
+  [8696] Maxi @ 1201, boul. Duplessis → ['8036450']
+  [8702] Maxi @ 300, Boul St Joseph → ['8036446']
+  [8703] Maxi @ 3025, Portland → ['8036450']
+  [8704] Maxi @ 10200, boul. Pie Ix → ['8036454']
+  [8705] Maxi @ 8200, boul. Lacroix → ['8036444']
+  [8706] Maxi @ 1100, Montée Masson → ['8036447']
+  [8711] Maxi @ 545 chemin Vanier → ['8036447']
+  [8772] Maxi @ 1870, boul. St-Joseph → ['8036450']
+  [8777] Maxi @ 1035 boul du Quartier → ['8036446']
+  [8795] Maxi @ 400, Route 132, suite 100 → ['8036444']
+  [8797] Maxi @ 2925, rue Sherbrooke Est → ['8036447']
+  [8834] Maxi @ 550, boul. St-Laurent Est → ['8036444']
+  [8853] Maxi @ 1083, Curé-Labelle → no new flyers
+  [8856] ST-HILAIRE → ['8036444']
+  [8891] Maxi @ 130, Route Racette → ['8036444']
+  [8900] Maxi @ 2101, rue Dollard, B15 → ['8036446']
+  [8901] Maxi @ 1699, Estimauville → ['8036444']
+  [8904] Maxi @ 101, Taché Ouest → ['8036444']
+  [8906] Maxi @ 1757, Boul Marcel-Laurin → ['8036453']
+  [8907] Maxi @ 92, Cardinal Leger → ['8036453']
+  [8910] Maxi @ 7455, rue Sherbrooke Est → ['8036447']
+  [8911] Maxi @ 3398, boul Taschereau → ['8036447']
+  [8913] Maxi @ 1345, boul. Moody → ['8036447']
+  [8914] Maxi @ 310, Avenue Dorval → ['8036446']
+  [8917] Maxi @ 3150, Remembrance → ['8036446']
+  [8922] Maxi @ 2655, chemin Chambly → ['8036454']
+  [8923] Maxi @ 699, rue Clémenceau → ['8036444']
+  [8924] Maxi @ 900, Boul Grignon → ['8036450']
+  [8926] Maxi @ 1030, boul. Vachon Nord → ['8036444']
+  [8929] Maxi @ 444, boul. Curé-Labelle → ['8036447']
+  [8934] Maxi @ 7900, boul. Cousineau → ['8036454']
+  [8935] Maxi @ 205, 1re Avenue → ['8036444']
+  [8937] Maxi @ 7200, boul. Taschereau → ['8036446']
+  [8939] Maxi @ 50, route Président-Kennedy, St 190 → ['8036444']
+  [8942] Maxi @ 2260, Chemin Gascon → ['8036447']
+  [8944] Maxi @ 255, 3 ieme Rue Est → ['8036444']
+  [8946] Maxi @ 1200, boul. Ducharme → ['8036444']
+  [8947] Maxi @ 2501, boul. du Millénaire → ['8036444']
+  [8950] Maxi @ 520, Fort St-Louis → ['8036444']
+  [8955] Maxi @ 482, route 138 → ['8036444']
+  [8956] Maxi @ 4325, Jean-Talon Est → ['8036454']
+  [8958] Maxi @ 339, Boul Labelle → ['8036454']
+  [8961] Maxi @ 885, 3 rue, Route 167 → ['8036444']
+  [8963] Maxi @ 180, boul. Barrette → ['8036444']
+  [8967] Maxi @ 3399, rue Queen → ['8036444']
+  [8968] Maxi @ 450, boul. Poliquin → ['8036444']
+  [8969] Maxi @ 390 route 117 → ['8036444']
+  [8971] Maxi @ 1000 Suite 6, boul. du Séminaire → ['8036444']
+  [8973] Maxi @ 3880, Boul. Harvey → ['8036450']
+  [8974] Maxi @ 805, boul. Frontenac Est → ['8036444']
+  [8975] Maxi @ 15 000, rue St-Louis → ['8036444']
+  [8976] Maxi @ 2090 Boulevard des Laurentides → ['8036454']
+  [8981] Maxi @ 1220 boul Louis-XIV → ['8036444']
+  [8983] Maxi @ 70, rue Dufferin → ['8036444']
+  [8984] Drummondville → ['8036444']
+  [8985] Maxi @ 570, boul. Laflèche → ['8036444']
+  [8987] Maxi @ 12 780, rue Sherbrooke Est → ['8036447']
+  [8988] Maxi @ 1643, boul. D'Youville → ['8036444']
+  [8989] Maxi @ 845, Avenue Du Pont-Nord → ['8036444']
+  [8993] Maxi @ 320, rue Barkoff → ['8036444']
+  [8994] Maxi @ 7081, Newman → no new flyers
+  [8995] Maxi @ 6381, Route Transcanadienne → ['8036453']
+  [8996] Maxi @ 5875, boul. Jean XXIII → ['8036444']
+  [9491] Maxi Bernard → ['8036444']
+  [9492] Bois-des-filions → ['8036447']
+  [9528] Sainte-Catherine → ['8036444']
+  [9569] Mont-Laurier → ['8036444']
+  [9596] RENE LEVESQUE ONLINE → ['8036447']
+  [9597] 9597 BOUCHERVILLE → ['8036444']
+  [9777] Maxi Bécancour → no new flyers
+  [9778] 1100-800 rue Ottawa (Robert Bourassa) → ['8036445']
+
+  202 new publication entries across 208 stores
+  16 unique new publication(s) to download
+  Appended 202 rows to data/maxi/store_flyers.parquet
+New publication entries added to store_flyers.parquet: 202
+Unique new publications to download: 16
+
+Phase 2: fetching products for each new publication…
+
+  [8036442] Weekly Flyer -Hybris  (2026-07-23T00:00:00-04:00 → 2026-07-29T23:59:59-04:00)
+    190 products
+  [8036456] Weekly Flyer -Hybris  (2026-07-23T00:00:00-04:00 → 2026-07-29T23:59:59-04:00)
+    270 products
+  [8036444] Weekly Flyer -Hybris  (2026-07-23T00:00:00-04:00 → 2026-07-29T23:59:59-04:00)
+    250 products
+  [8036447] Weekly Flyer -Hybris  (2026-07-23T00:00:00-04:00 → 2026-07-29T23:59:59-04:00)
+    266 products
+  [8036457] Weekly Flyer -Hybris  (2026-07-23T00:00:00-04:00 → 2026-07-29T23:59:59-04:00)
+    286 products
+  [8036458] Weekly Flyer -Hybris  (2026-07-23T00:00:00-04:00 → 2026-07-29T23:59:59-04:00)
+    302 products
+  [8036450] Weekly Flyer -Hybris  (2026-07-23T00:00:00-04:00 → 2026-07-29T23:59:59-04:00)
+    292 products
+  [8036455] Weekly Flyer -Hybris  (2026-07-23T00:00:00-04:00 → 2026-07-29T23:59:59-04:00)
+    338 products
+  [8036445] Weekly Flyer -Hybris  (2026-07-23T00:00:00-04:00 → 2026-07-29T23:59:59-04:00)
+    266 products
+  [8036451] Weekly Flyer -Hybris  (2026-07-23T00:00:00-04:00 → 2026-07-29T23:59:59-04:00)
+    308 products
+  [8036452] Weekly Flyer -Hybris  (2026-07-23T00:00:00-04:00 → 2026-07-29T23:59:59-04:00)
+    322 products
+  [8036448] Weekly Flyer -Hybris  (2026-07-23T00:00:00-04:00 → 2026-07-29T23:59:59-04:00)
+    264 products
+  [8036453] Weekly Flyer -Hybris  (2026-07-23T00:00:00-04:00 → 2026-07-29T23:59:59-04:00)
+    324 products
+  [8036454] Weekly Flyer -Hybris  (2026-07-23T00:00:00-04:00 → 2026-07-29T23:59:59-04:00)
+    308 products
+  [8036446] Weekly Flyer -Hybris  (2026-07-23T00:00:00-04:00 → 2026-07-29T23:59:59-04:00)
+    282 products
+  [8036449] Weekly Flyer -Hybris  (2026-07-23T00:00:00-04:00 → 2026-07-29T23:59:59-04:00)
+    251 products
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 16
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-07-23 13:46:14 UTC
+Elapsed      : 0m 30s
+
+
+Done.  Verbose log → logs/maxi/2026-07-23_verbose.log
+       Summary log → logs/maxi/2026-07-23_summary.log
+

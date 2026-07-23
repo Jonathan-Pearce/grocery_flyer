@@ -1,0 +1,120 @@
+=== Loblaws Flyer Fetch — 2026-07-23 ===
+Run started : 2026-07-23 13:44:03 UTC
+
+Loaded 50 stores from data/loblaws/stores.parquet
+
+Stores loaded: 50
+Loaded store_flyers.parquet (658 publication entries)
+
+Phase 1: fetching publications per store…
+
+  [99] Fake Store For Testing → no new flyers
+  [1000] Loblaws - Queen Street West → ['8036754']
+  [1001] Loblaws - Liverpool Rd. → ['8036731']
+  [1003] Loblaws - Mclaughlin Road → ['8036731']
+  [1004] Loblaws - Leslie Street → ['8036754']
+  [1005] Loblaws - Bayfield Street → no new flyers
+  [1007] Loblaws - Carlton Street → ['8036756']
+  [1010] Loblaws - Yonge Street → no new flyers
+  [1011] Loblaws - Glen Erin Drive → ['8036735']
+  [1014] Loblaws - McArthur Road → ['8036741']
+  [1016] Loblaws - Wonderland Road South → ['8036731']
+  [1019] Loblaws - Bayview Village → ['8036729']
+  [1020] Loblaws - Eglinton Ave. E → ['8036754']
+  [1021] Loblaws - Musgrave Street → ['8036735']
+  [1022] Loblaws - Kent Street West → ['8036739']
+  [1023] Loblaws - Robertson Road → ['8036739']
+  [1027] Loblaws - Richmond Street North → ['8036731']
+  [1028] Loblaws - High Tech Road → ['8036735']
+  [1029] Loblaws - Dupont Street → ['8036764']
+  [1032] Loblaws - Bullock Drive → ['8036731']
+  [1035] Loblaws - Greenbank Road → ['8036743']
+  [1040] Loblaws - Princess Street → ['8036749']
+  [1050] Loblaws - Baseline Road → ['8036741', '8025778']
+  [1051] Loblaws - Ogilvie Road → ['8036743']
+  [1064] Loblaws - Highway #2 → ['8036737']
+  [1066] Loblaws - The East Mall → ['8036766']
+  [1079] Loblaws - Lower Jarvis Street → ['8036762']
+  [1082] Loblaws - 1460 Merivale Road → ['8036737']
+  [1083] Loblaws - Midland Ave → ['8036751']
+  [1090] Loblaws - Lakeshore Road West → ['8036727']
+  [1092] Loblaws - Redway Road → ['8036762']
+  [1095] Loblaws - Isabella Street → ['8036737']
+  [1099] Loblaws - Dundas Street West → ['8036762']
+  [1114] Loblaws - Earl Grey Drive → ['8036741']
+  [1127] Loblaws - Hurontario Street → ['8036737']
+  [1132] Loblaws - Carling Avenue → ['8036737']
+  [1142] Loblaws City Market- St. Clair Avenue East → ['8036752']
+  [1154] Loblaws - Dundas Street West → no new flyers
+  [1155] Loblaws - Moore Avenue → ['8036754']
+  [1170] Loblaws - Rideau Street → ['8036737']
+  [1174] Loblaws - 270 The Kingsway → ['8036760']
+  [1179] Loblaws - Broadview Ave → no new flyers
+  [1188] Loblaws - Bank Street → ['8036741']
+  [1194] Loblaws - Yonge Street → ['8036754']
+  [1212] Loblaws - St. Clair Ave West → ['8036762', '8025778']
+  [1424] Loblaws- Lakeshore/Bathurst → ['8036773']
+  [1789] Squamish YIG (W) → no new flyers
+  [1790] Loblaws City Market → no new flyers
+  [1822] Loblaws City Market - Sage Hill → no new flyers
+  [1872] Lonsdale City Market → no new flyers
+
+  43 new publication entries across 50 stores
+  19 unique new publication(s) to download
+  Appended 43 rows to data/loblaws/store_flyers.parquet
+New publication entries added to store_flyers.parquet: 43
+Unique new publications to download: 19
+
+Phase 2: fetching products for each new publication…
+
+  [8036754] Weekly Flyer  (2026-07-23T00:00:00-04:00 → 2026-07-29T23:59:59-04:00)
+    240 products
+  [8036731] Weekly Flyer  (2026-07-23T00:00:00-04:00 → 2026-07-29T23:59:59-04:00)
+    264 products
+  [8036756] Weekly Flyer  (2026-07-23T00:00:00-04:00 → 2026-07-29T23:59:59-04:00)
+    260 products
+  [8036735] Weekly Flyer  (2026-07-23T00:00:00-04:00 → 2026-07-29T23:59:59-04:00)
+    284 products
+  [8036741] Weekly Flyer  (2026-07-23T00:00:00-04:00 → 2026-07-29T23:59:59-04:00)
+    264 products
+  [8036729] Weekly Flyer  (2026-07-23T00:00:00-04:00 → 2026-07-29T23:59:59-04:00)
+    260 products
+  [8036739] Weekly Flyer  (2026-07-23T00:00:00-04:00 → 2026-07-29T23:59:59-04:00)
+    240 products
+  [8036764] Weekly Flyer  (2026-07-23T00:00:00-04:00 → 2026-07-29T23:59:59-04:00)
+    272 products
+  [8036743] Weekly Flyer  (2026-07-23T00:00:00-04:00 → 2026-07-29T23:59:59-04:00)
+    264 products
+  [8036749] Weekly Flyer  (2026-07-23T00:00:00-04:00 → 2026-07-29T23:59:59-04:00)
+    278 products
+  [8025778] General Merchandise  (2026-07-16T00:00:00-04:00 → 2026-07-29T23:59:59-04:00)
+    44 products
+  [8036737] Weekly Flyer  (2026-07-23T00:00:00-04:00 → 2026-07-29T23:59:59-04:00)
+    228 products
+  [8036766] Weekly Flyer  (2026-07-23T00:00:00-04:00 → 2026-07-29T23:59:59-04:00)
+    276 products
+  [8036762] Weekly Flyer  (2026-07-23T00:00:00-04:00 → 2026-07-29T23:59:59-04:00)
+    252 products
+  [8036751] Weekly Flyer  (2026-07-23T00:00:00-04:00 → 2026-07-29T23:59:59-04:00)
+    298 products
+  [8036727] Weekly Flyer  (2026-07-23T00:00:00-04:00 → 2026-07-29T23:59:59-04:00)
+    228 products
+  [8036752] Weekly Flyer  (2026-07-23T00:00:00-04:00 → 2026-07-29T23:59:59-04:00)
+    222 products
+  [8036760] Weekly Flyer  (2026-07-23T00:00:00-04:00 → 2026-07-29T23:59:59-04:00)
+    226 products
+  [8036773] Weekly Flyer  (2026-07-23T00:00:00-04:00 → 2026-07-29T23:59:59-04:00)
+    124 products
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 19
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-07-23 13:44:14 UTC
+Elapsed      : 0m 11s
+
+
+Done.  Verbose log → logs/loblaws/2026-07-23_verbose.log
+       Summary log → logs/loblaws/2026-07-23_summary.log
+

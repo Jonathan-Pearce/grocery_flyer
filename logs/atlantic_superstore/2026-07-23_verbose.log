@@ -1,0 +1,119 @@
+=== Atlantic Superstore Flyer Fetch — 2026-07-23 ===
+Run started : 2026-07-23 13:46:26 UTC
+
+Loaded 67 stores from data/atlantic_superstore/stores.parquet
+
+Stores loaded: 67
+Loaded store_flyers.parquet (894 publication entries)
+
+Phase 1: fetching publications per store…
+
+  [38] Testing Store → no new flyers
+  [309] Antigonish Superstore → ['8036650']
+  [311] Millidgeville Superstore → ['8036648']
+  [312] Amherst Superstore → ['8036650']
+  [313] Tantallon Superstore → ['8036650']
+  [314] Summerside Superstore → ['8036644']
+  [315] Oromocto Superstore → ['8036648']
+  [316] Tracadie Superstore → ['8036650']
+  [317] Port Hawkesbury Superstore → ['8036648']
+  [318] Kingston Superstore → ['8036650']
+  [321] North Sydney Superstore → ['8036648']
+  [325] Edmundston Superstore → no new flyers
+  [326] Trinity  Superstore → ['8036646']
+  [329] Nashwaaksis Superstore → ['8036648']
+  [331] Liverpool Superstore → ['8036649']
+  [332] Miramichi Superstore → ['8036648']
+  [336] Truro Superstore → ['8036648']
+  [337] Bridgewater Superstore → ['8036650']
+  [339] Digby Superstore → ['8036648']
+  [341] Fredericton Superstore → ['8036650']
+  [344] New Minas Superstore → ['8036648']
+  [350] Moncton Superstore → ['8036650']
+  [351] Lower Sackville Superstore → ['8036650']
+  [352] Dartmouth Superstore → ['8036650']
+  [353] Saint John Superstore → ['8036650']
+  [354] HaliFax Superstore → ['8036648']
+  [357] Bathurst Superstore → ['8036650']
+  [358] Bayers Lake Superstore → ['8036650']
+  [359] Chatham Superstore → ['8036648']
+  [361] Riverview Superstore → ['8036651']
+  [362] Atholville Superstore → ['8036650']
+  [364] Kennebecasis Valley Market → ['8036650']
+  [366] St. Stephen Superstore → ['8036648']
+  [367] Porter's Lake Superstore → ['8036648']
+  [368] New Glasgow Superstore → ['8036651']
+  [369] Barrington St. Superstore → ['8036645']
+  [372] Yarmouth Superstore → ['8036651']
+  [373] Sydney River Superstore → ['8036648']
+  [374] Woodstock Superstore → ['8036650']
+  [375] Elmsdale Superstore → ['8036648']
+  [376] Charlottetown Superstore → ['8036643']
+  [377] Windsor Superstore → ['8036648']
+  [378] BedFord Superstore → ['8036650']
+  [379] Joseph Howe Superstore → ['8036647']
+  [380] Braemar Drive Superstore → ['8036648']
+  [383] Quinpool Superstore → ['8036645']
+  [384] Cole Harbour Superstore → ['8036648']
+  [385] Glace Bay Superstore → ['8036648']
+  [386] West Royalty Superstore → ['8036642']
+  [388] Montague Superstore → ['8036642']
+  [389] Sussex Superstore → ['8036650']
+  [396] Grand Falls Superstore → ['8036650']
+  [626] Daniel's YIG St George → no new flyers
+  [685] Francis' YIG Lunenburg → no new flyers
+  [906] Bay Roberts Dominion → no new flyers
+  [913] Carbonear Dominion → no new flyers
+  [922] Pearlgate Dominion → no new flyers
+  [923] Longpond Dominion → no new flyers
+  [924] Cabot Square Dominion → no new flyers
+  [925] Stephenville Dominion → no new flyers
+  [926] Corner Brook Dominion → no new flyers
+  [927] Gander Dominion → no new flyers
+  [928] Grand Falls Dominion → no new flyers
+  [934] Memorial Stadium Dominion → no new flyers
+  [935] Blackmarsh Road Dominion → no new flyers
+  [2552] Bedford West → ['8036645']
+  [7526] RASS DIEPPE → ['8036648']
+
+  52 new publication entries across 67 stores
+  10 unique new publication(s) to download
+  Appended 52 rows to data/atlantic_superstore/store_flyers.parquet
+New publication entries added to store_flyers.parquet: 52
+Unique new publications to download: 10
+
+Phase 2: fetching products for each new publication…
+
+  [8036650] Weekly Flyer  (2026-07-23T00:00:00-04:00 → 2026-07-29T23:59:59-04:00)
+    391 products
+  [8036648] Weekly Flyer  (2026-07-23T00:00:00-04:00 → 2026-07-29T23:59:59-04:00)
+    350 products
+  [8036644] Weekly Flyer  (2026-07-23T00:00:00-04:00 → 2026-07-29T23:59:59-04:00)
+    391 products
+  [8036646] Weekly Flyer  (2026-07-23T00:00:00-04:00 → 2026-07-29T23:59:59-04:00)
+    382 products
+  [8036649] Weekly Flyer  (2026-07-23T00:00:00-04:00 → 2026-07-29T23:59:59-04:00)
+    377 products
+  [8036651] Weekly Flyer  (2026-07-23T00:00:00-04:00 → 2026-07-29T23:59:59-04:00)
+    406 products
+  [8036645] Weekly Flyer  (2026-07-23T00:00:00-04:00 → 2026-07-29T23:59:59-04:00)
+    350 products
+  [8036643] Weekly Flyer  (2026-07-23T00:00:00-04:00 → 2026-07-29T23:59:59-04:00)
+    383 products
+  [8036647] Weekly Flyer  (2026-07-23T00:00:00-04:00 → 2026-07-29T23:59:59-04:00)
+    425 products
+  [8036642] Weekly Flyer  (2026-07-23T00:00:00-04:00 → 2026-07-29T23:59:59-04:00)
+    351 products
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 10
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-07-23 13:46:36 UTC
+Elapsed      : 0m 10s
+
+
+Done.  Verbose log → logs/atlantic_superstore/2026-07-23_verbose.log
+       Summary log → logs/atlantic_superstore/2026-07-23_summary.log
+
