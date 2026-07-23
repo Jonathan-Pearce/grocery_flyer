@@ -1,0 +1,154 @@
+=== Super C Flyer Fetch — 2026-07-23 ===
+Run started : 2026-07-23 13:52:10 UTC
+
+Loaded 120 stores from data/super_c/stores.parquet
+
+Stores loaded: 120
+Loaded store_flyers.parquet (1920 flyer entries)
+
+Phase 1: fetching flyer listings per store…
+
+  [304] VANIER → ['83474']
+  [312] ST-REMI → ['83474']
+  [423] BEAUPORT → ['83474']
+  [425] NEUFCHATEL → ['83474']
+  [426] STE-FOY → ['83474']
+  [427] RIMOUSKI → ['83474']
+  [428] THETFORD MINES → ['83474']
+  [429] VICTORIAVILLE → ['83474']
+  [430] LEVIS → ['83474']
+  [431] ST-JEAN-CHRYSOSTOME → ['83474']
+  [432] CHICOUTIMI → ['83474']
+  [433] JONQUIERE → ['83474']
+  [434] CAP-DE-LA-MADELEINE → ['83474']
+  [435] TROIS-RIVIERES → ['83474']
+  [436] TROIS-RIVIERES OUEST → ['83474']
+  [437] SHAWINIGAN → ['83474']
+  [438] POINTE-AUX-TREMBLES → ['83474']
+  [439] HENRI-BOURASSA → ['83474']
+  [440] ST-LEONARD → ['83474']
+  [441] MONTREAL PIE-IX - ONTARIO → ['83474']
+  [442] MONTREAL PIE-IX ET JARRY → ['83474']
+  [443] ATWATER → ['83474']
+  [444] N.D.G. - ST-JACQUES → ['83474']
+  [445] BELOEIL → ['83474']
+  [446] LAVAL CONDORDE → ['83474']
+  [447] LAVAL DES LAURENTIDES → ['83474']
+  [448] FABREVILLE LAVAL → ['83474']
+  [450] STE-DOROTHEE → ['83474']
+  [451] LASALLE BL NEWMAN → ['83474']
+  [452] PIERREFONDS → ['83474']
+  [454] FLEURIMONT → ['83474']
+  [455] SHERBROOKE BELVEDERE → ['83474']
+  [456] SHERBROOKE-PORTLAND → ['83474']
+  [457] DRUMMONDVILLE → ['83474']
+  [458] GRANBY → ['83474']
+  [459] COWANSVILLE → ['83474']
+  [460] SAINT-HYACINTHE → ['83474']
+  [461] SAINT-JEAN → ['83474']
+  [462] SOREL → ['83474']
+  [463] VARENNES → ['83474']
+  [464] BOUCHERVILLE → ['83474']
+  [465] STE-THERESE → ['83474']
+  [466] LONGUEUIL DESORMEAUX → ['83474']
+  [467] LONGUEUIL ROLAND-THERRIEN → ['83474']
+  [468] GREENFIELD PARK → ['83474']
+  [469] BROSSARD → ['83474']
+  [470] ST-CONSTANT → ['83474']
+  [471] REPENTIGNY → ['83474']
+  [472] JOLIETTE → ['83474']
+  [473] CHATEAUGUAY → ['83474']
+  [474] VALLEYFIELD → ['83474']
+  [475] TERREBONNE → ['83474']
+  [476] BLAINVILLE → ['83474']
+  [477] ST-EUSTACHE → ['83474']
+  [478] VAUDREUIL → ['83474']
+  [479] ST-JOVITE → ['83474']
+  [480] GATINEAU → ['83474']
+  [481] HULL → ['83474']
+  [482] HULL DU PLATEAU → ['83474']
+  [483] AYLMER → ['83474']
+  [484] CHAMPFLEURY → ['83474']
+  [488] ST-HUBERT COUSINEAU → ['83474']
+  [489] ST-CHARLES-DE-BORROMÉE → ['83474']
+  [525] ST-LIN → ['83474']
+  [526] STE-MARIE-DE-BEAUCE → ['83474']
+  [646] NICOLET → ['83474']
+  [647] SEPT-ILES → ['83474']
+  [648] CHARLESBOURG → ['83474']
+  [649] TERREBONNE OUEST → ['83474']
+  [695] RIVIÈRE-DES-PRAIRIES → ['83474']
+  [704] VAL D'OR → ['83474']
+  [705] LASALLE BL CHAMPLAIN → ['83474']
+  [706] BOISBRIAND → ['83474']
+  [713] ST-CÉSAIRE → ['83474']
+  [714] KIRKLAND → ['83474']
+  [715] STE-ANNE → ['83474']
+  [722] RIVIÈRE DU LOUP → ['83474']
+  [727] ORMSTOWN → ['83474']
+  [728] CHANDLER → ['83474']
+  [729] ST-LAURENT → ['83474']
+  [732] ST-JEAN SUR LE RICHELIEU → ['83474']
+  [737] STE-MARTHE → ['83474']
+  [747] GASPÉ → ['83474']
+  [755] LAPLAINE → ['83474']
+  [756] LACHUTE → ['83474']
+  [768] St-CANUT → ['83474']
+  [771] STE-CATHERINE-DE-LA-JACQUES-CARTIER → ['83474']
+  [772] LAPRAIRIE → ['83474']
+  [780] ROUYN-NORANDA → ['83474']
+  [786] ST-GEORGES-DE-BEAUCE → ['83474']
+  [787] STE-ANNE-DES-PRAIRIES → ['83474']
+  [810] LAVALTRIE → ['83474']
+  [812] MATANE → ['83474']
+  [813] ST-ROMUALD → ['83474']
+  [815] BAIE St-PAUL → ['83474']
+  [816] ST-SAUVEUR → ['83474']
+  [826] LAVAL - ST-ELZÉAR → ['83474']
+  [847] ST-JACQUES → ['83474']
+  [882] MONT-JOLI → ['83474']
+  [884] ST-JÉROME → ['83474']
+  [885] BEAUHARNOIS → ['83474']
+  [886] COATICOOK → ['83474']
+  [887] STE-CLAIRE → ['83474']
+  [888] PONT-ROUGE → ['83474']
+  [890] LIMBOUR → ['83474']
+  [895] ST-APOLLINAIRE → ['83474']
+  [896] BUCKINGHAM → ['83474']
+  [897] ST-NICOLAS → ['83474']
+  [900] ST-DONAT → ['83474']
+  [904] ST-HUBERT/BOUCHER → ['83474']
+  [905] MONTRÉAL (DE LORIMIER) → ['83474']
+  [906] RIMOUSKI-OUEST → ['83474']
+  [907] RIGAUD → ['83474']
+  [908] SHERBROOKE - ASCOT → ['83474']
+  [910] GREBER → ['83474']
+  [911] DUPLESSIS → ['83474']
+  [919] PINCOURT → ['83474']
+  [923] ROCK FOREST → ['83474']
+  [930] BERTHIERVILLE → ['83474']
+  [931] TÉMISCOUATA-SUR-LE-LAC → ['83474']
+
+  120 new flyer entries across 120 stores
+  1 unique new job(s) to download
+  Appended 120 rows to data/super_c/store_flyers.parquet
+New flyer entries added to store_flyers.parquet : 120
+Unique new jobs to download                     : 1
+
+Phase 2: fetching products for each new job…
+
+  [83474] store 304  (https://metrodigital-apim.azure-api.net/api/Pages/83474/304/fr/search)
+    328 products
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 1
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-07-23 13:52:33 UTC
+Elapsed      : 0m 23s
+
+
+Done.  Verbose log → logs/super_c/2026-07-23_verbose.log
+       Summary log → logs/super_c/2026-07-23_summary.log
+

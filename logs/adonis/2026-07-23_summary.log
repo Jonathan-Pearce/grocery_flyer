@@ -1,0 +1,15 @@
+=== Adonis Flyer Fetch — 2026-07-23 ===
+Run started : 2026-07-23 13:52:06 UTC
+
+Stores loaded: 16
+New flyer entries added to store_flyers.parquet : 32
+Unique new jobs to download                     : 3
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 3
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-07-23 13:52:10 UTC
+Elapsed      : 0m 4s
+

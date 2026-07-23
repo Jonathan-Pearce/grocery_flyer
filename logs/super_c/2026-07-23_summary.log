@@ -1,0 +1,15 @@
+=== Super C Flyer Fetch — 2026-07-23 ===
+Run started : 2026-07-23 13:52:10 UTC
+
+Stores loaded: 120
+New flyer entries added to store_flyers.parquet : 120
+Unique new jobs to download                     : 1
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 1
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-07-23 13:52:33 UTC
+Elapsed      : 0m 23s
+
