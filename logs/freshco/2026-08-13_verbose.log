@@ -1,0 +1,200 @@
+=== Freshco Flyer Fetch — 2026-08-13 ===
+Run started : 2026-08-13 14:33:32 UTC
+
+Loaded 164 stores from data/freshco/stores.parquet
+
+Stores loaded: 164
+Loaded store_flyers.parquet (2671 publication entries)
+
+Phase 1: fetching publications per store…
+
+  [2908] Carleton Place Lansdowne → ['8075629']
+  [2910] Hwy 2 &#038; Kendalwood → ['8075629']
+  [2912] Trafalgar & Highbury → no new flyers
+  [2916] Brant & Upper Middle → no new flyers
+  [2917] Queen & Gladstone → no new flyers
+  [3313] Bathurst & Rutherford → ['8075629']
+  [3315] Sherbourne & Isabella → ['8075629']
+  [3811] Kalar & Lundy&#8217;s Lane → ['8075629']
+  [3815] Rymal &#038; Upper Gage → ['8075629']
+  [3816] Airport & Countryside → no new flyers
+  [3817] Winchester & Simcoe → ['8075629']
+  [3820] Bathurst & Nassau → ['8075629']
+  [3821] Brock &#038; George → no new flyers
+  [3822] Broadway &#038; Dawson → ['8075629']
+  [3823] Jane & Denison GO → ['8075629']
+  [3834] Hwy 56 &#038; Maggie Johnson → ['8075629']
+  [3837] Cottrelle & Hwy 50 Chalo! FreshCo → no new flyers
+  [3838] Dundas & Runnymede → ['8075629']
+  [3839] Bank & Findlay Creek → ['8075629']
+  [3844] Guelph & Sinclair → ['8075629']
+  [3846] Major Mackenzie & Weston → ['8075629']
+  [3847] Speedvale &#038; Stevenson → ['8075629']
+  [3849] Don Mills & Helen Lu → no new flyers
+  [3850] Leslie & Lake Shore → ['8075629']
+  [3853] Market & Icomm → no new flyers
+  [3856] Dufferin & Dupont → ['8075629']
+  [3857] Bovaird & Conestoga → ['8075629']
+  [3859] Dixie & Dundas → ['8075629']
+  [3860] Chalo Mississauga & Financial Drive → no new flyers
+  [3861] Hwy 12 &#038; 7 → ['8075629']
+  [3865] Kingston Road &#038; Whites → ['8075629']
+  [3867] McArthur & Lafontaine → ['8075629']
+  [3875] McCowan & Bur Oak → ['8075629']
+  [3876] McCowan &#038; Ellesmere → ['8075629']
+  [3879] Sherbourne and Isabella → no new flyers
+  [3881] Barton & Strathearne → ['8075629']
+  [3883] Brock & Gilbert → ['8075629']
+  [3886] FreshCo Orleans → ['8075629']
+  [3887] Bramalea & Sandalwood Chalo! FreshCo → no new flyers
+  [3889] Queen & McLaughlin → no new flyers
+  [3892] Longworth & Scugog → ['8075629']
+  [3894] Milton → ['8075629']
+  [3902] St. David & Gordon Freshco → ['8075629']
+  [4013] FreshCo Huntsville Paisley → ['8075629']
+  [4014] Owen Sound → ['8075629']
+  [4015] Taunton → ['8075629']
+  [4354] FreshCo Evanston → ['8072748']
+  [4647] 9541-FreshCo Red Deer → ['8072748']
+  [4648] Ogden → no new flyers
+  [8926] 5275 48 Avenue → ['8072748']
+  [8929] FreshCo Heritage → ['8072748']
+  [8932] Broadmoor Fresh Co WEST → ['8072748']
+  [8933] Newton Chalo Fresh Co WEST → no new flyers
+  [8934] Lougheed Hwy WEST → ['8072748']
+  [8936] Kildonan Crossing → ['8072748']
+  [8937] Jefferson McPhilips WEST → ['8072748']
+  [8938] Aldergrove → ['8072748']
+  [8939] Yale Road → ['8072748']
+  [8940] 20201 Lougheed Hwy → ['8072748']
+  [8942] Tretheway & S Fraser Way Chalo FreshCo → no new flyers
+  [8943] Cariboo Hwy & 5 St. FreshCo → ['8072748']
+  [8945] Kamloops → ['8072748']
+  [8946] Kelowna → ['8072748']
+  [8947] Vernon → ['8072748']
+  [8948] Powell River → ['8072748']
+  [8949] Regina → ['8072748']
+  [8950] Confederation → ['8072748']
+  [8952] Freshco Market Mall → ['8072748']
+  [8954] Niakwa FreshCo → ['8072748']
+  [8955] Pembina FreshCo → ['8072748']
+  [8956] Henderson FreshCo → ['8072748']
+  [8958] Chalo Tamarack → no new flyers
+  [8962] Brentwood → ['8072748']
+  [8963] Millbourne - Edmonton → ['8072748']
+  [8964] Chalo Saddletowne → no new flyers
+  [8965] Thunder Bay Fresh Co WEST → ['8072748']
+  [8966] Chalo FreshCo Cornerstone → no new flyers
+  [8968] FRESHCO Coliseum → ['8072748']
+  [8971] Jasper Gates → ['8072748']
+  [8973] Edgemount → ['8072748']
+  [8974] Medicine Hat FreshCo → ['8072748']
+  [8975] Blundell & No 2 FreshCo WEST → ['8072748']
+  [9543] University & Bridge → ['8075629']
+  [9544] Eglinton & Gabian Way → ['8075629']
+  [9547] Weber & Franklin → ['8075629']
+  [9548] Barton & Gage → ['8075629']
+  [9550] Steeles & Bathurst → ['8075629']
+  [9553] Spence & Blvd Cartier → ['8075629']
+  [9554] FreshCo Manning Village → ['8072748']
+  [9557] Okotoks FreshCo → ['8072748']
+  [9559] FreshCo Chestermere → ['8072748']
+  [9560] Queensway & Glenwoods → no new flyers
+  [9561] Centre &#038; McCulloch → ['8075629']
+  [9562] Talbot & First → ['8075629']
+  [9563] Upper Middle & Walker&#8217;s Line → ['8075629']
+  [9564] Hespeler & Dundas → ['8075629']
+  [9571] Merivale & Meadowlands → ['8075629']
+  [9572] Dundas & Erindale Station → ['8075629']
+  [9575] Bramalea City Centre Mall → ['8075629']
+  [9576] King &#038; Townline → ['8075629']
+  [9577] Lansdowne &#038; The Parkway → ['8075629']
+  [9578] Young & Industrial Pkwy → ['8075629']
+  [9579] Queenston &#038; Nash → ['8075629']
+  [9581] FreshCo Cambridge → ['8075629']
+  [9582] FreshCo Sargent → ['8072748']
+  [9586] Gateway Village - St. Albert → ['8072748']
+  [9587] King & Wilson → ['8075629']
+  [9588] FreshCo Glenridding Wst → ['8072748']
+  [9590] Cobblestone - Grande Prairie → ['8072748']
+  [9594] Bayfield &#038; Livingstone → ['8075629']
+  [9611] Thomas & 10th Chalo Freshco → no new flyers
+  [9612] Chalo Chinguacousy test → no new flyers
+  [9615] Cann &#038; Chaffey → no new flyers
+  [9616] Williams Lake → ['8072748']
+  [9617] Parliament & Dundas → ['8075629']
+  [9619] Albert Street → ['8072748']
+  [9620] Robertson & Moodie → no new flyers
+  [9622] Strawberry Hill CHALO Fresh Co WEST → no new flyers
+  [9623] Frontier → ['8072748']
+  [9627] Mayfair → ['8072748']
+  [9628] FreshCo Waterdown → ['8075629']
+  [9632] Hurontario & Dundas → ['8075629']
+  [9633] Erie Street → ['8075629']
+  [9635] Pallisades - Edmonton → ['8072748']
+  [9636] 9636-FreshCo FT MACMURRAY → ['8072748']
+  [9637] Calgary Whitehorn → no new flyers
+  [9640] Wentworth & Cedar → ['8075629']
+  [9643] Don Mills & Helen Lu → ['8075629']
+  [9644] Queensway & Glenwoods → ['8075629']
+  [9645] FreshCo Mapleview Drive Barrie → no new flyers
+  [9653] FreshCo Homer Watson → ['8075629']
+  [9654] Tecumseh & McDougall → no new flyers
+  [9658] Bloor & Dundas → ['8075629']
+  [9662] Lawrence & Midland → no new flyers
+  [9665] Ninth & Marlborough → ['8075629']
+  [9674] Main & Jasperson → ['8075629']
+  [9677] North Front & Tracey → ['8075629']
+  [9679] Gerrard & Victoria Park → ['8075629']
+  [9689] Strandherd & Cresthaven → ['8075629']
+  [9690] Upper Gage &#038; Fennell → ['8075629']
+  [9693] Chalo Goreway & Derry → no new flyers
+  [9694] Lewis Estates → ['8072748']
+  [9698] Tecumseh & Rivard → ['8075629']
+  [9705] Glen Erin &#038; Britannia → ['8075629']
+  [9712] Third Line &#038; Dundas → no new flyers
+  [9718] Ontario &#038; Southworth → ['8075629']
+  [9731] Ontario & Carlton → ['8075629']
+  [9732] Malden &#038; Delmar → ['8075629']
+  [9736] Westmount & Ottawa → no new flyers
+  [9745] Bunting & Welland → ['8075629']
+  [9748] Major Mackenzie & Leslie → ['8075629']
+  [9755] Adelaide & Huron → ['8075629']
+  [9760] Wonderland &#038; Pine Valley → ['8075629']
+  [9762] Trout Lake & Connaught → ['8075629']
+  [9766] Ontario &#038; Dundas → ['8075629']
+  [9772] Princess & Andersen → ['8075629']
+  [9778] Jane & Finch → ['8075629']
+  [9822] Huron Church & Tecumseh → ['8075629']
+  [9862] Wyandotte & Frank → ['8075629']
+  [9863] Commissioners &#038; Wellington → ['8075629']
+  [9876] Dundas & Main → no new flyers
+  [9884] Bramalea City Centre → no new flyers
+  [9887] Mountain &#038; First → ['8075629']
+  [9888] Chinguacousy & Sandalwood → ['8075629']
+
+  131 new publication entries across 164 stores
+  2 unique new publication(s) to download
+  Appended 131 rows to data/freshco/store_flyers.parquet
+New publication entries added to store_flyers.parquet: 131
+Unique new publications to download: 2
+
+Phase 2: fetching products for each new publication…
+
+  [8075629] Flyer  (2026-08-13T00:00:00-04:00 → 2026-08-19T23:59:59-04:00)
+    146 products
+  [8072748] Weekly West  (2026-08-13T03:00:00-04:00 → 2026-08-19T23:59:59-04:00)
+    154 products
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 2
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-08-13 14:34:03 UTC
+Elapsed      : 0m 30s
+
+
+Done.  Verbose log → logs/freshco/2026-08-13_verbose.log
+       Summary log → logs/freshco/2026-08-13_summary.log
+
