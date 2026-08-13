@@ -1,0 +1,54 @@
+=== Adonis Flyer Fetch — 2026-08-13 ===
+Run started : 2026-08-13 14:36:35 UTC
+
+Loaded 16 stores from data/adonis/stores.parquet
+
+Stores loaded: 16
+Loaded store_flyers.parquet (320 flyer entries)
+
+Phase 1: fetching flyer listings per store…
+
+  [21937] Sauvé → ['83819q', '83819B']
+  [21938] Laval → ['83819q', '83819B']
+  [21940] Place-vertu → ['83819q', '83819B']
+  [21941] Brossard → ['83819q', '83819B']
+  [21942] Centre-Ville → ['83819q', '83819B']
+  [21943] Anjou → ['83819q', '83819B']
+  [21944] Laval-Est → ['83819q', '83819B']
+  [21945] Griffintown → ['83819q', '83819B']
+  [21947] Gatineau → ['83819q', '83819B']
+  [21948] Ville de Québec → ['83819q', '83819B']
+  [21950] DDO → ['83819q', '83819B']
+  [101200] Mississauga → ['83819o', '83819B']
+  [101201] Scarborough → ['83819o', '83819B']
+  [101202] Dundas → ['83819o', '83819B']
+  [101203] Ottawa → ['83819o', '83819B']
+  [101204] London → ['83819o', '83819B']
+
+  32 new flyer entries across 16 stores
+  3 unique new job(s) to download
+  Appended 32 rows to data/adonis/store_flyers.parquet
+New flyer entries added to store_flyers.parquet : 32
+Unique new jobs to download                     : 3
+
+Phase 2: fetching products for each new job…
+
+  [83819q] store 21937  (https://metrodigital-apim.azure-api.net/api/Pages/83819q/21937/fr/search)
+    296 products
+  [83819B] store 21937  (https://metrodigital-apim.azure-api.net/api/Pages/83819B/21937/fr/search)
+    46 products
+  [83819o] store 101200  (https://metrodigital-apim.azure-api.net/api/Pages/83819o/101200/fr/search)
+    291 products
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 3
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-08-13 14:36:39 UTC
+Elapsed      : 0m 4s
+
+
+Done.  Verbose log → logs/adonis/2026-08-13_verbose.log
+       Summary log → logs/adonis/2026-08-13_summary.log
+

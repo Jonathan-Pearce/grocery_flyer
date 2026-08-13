@@ -1,0 +1,204 @@
+=== Real Canadian Superstore Flyer Fetch — 2026-08-13 ===
+Run started : 2026-08-13 14:30:14 UTC
+
+Loaded 124 stores from data/real_canadian_superstore/stores.parquet
+
+Stores loaded: 124
+Loaded store_flyers.parquet (2714 publication entries)
+
+Phase 1: fetching publications per store…
+
+  [1] Vancouver-Marine → no new flyers
+  [24] Testing Store → no new flyers
+  [512] Wasaga Beach Superstore → ['8073986', '8065759']
+  [551] St Thomas Superstore → ['8073986', '8065759']
+  [562] Chatham Superstore → ['8073986', '8065759']
+  [566] Leamington Superstore → ['8073986', '8065759']
+  [567] Walker Road Superstore → ['8073986', '8065759']
+  [569] Midland Superstore → ['8073986', '8065759']
+  [577] St. Catherine's Superstore → ['8073986', '8065759']
+  [1009] Westboro Superstore → ['8073990', '8065759']
+  [1012] Ajax Superstore → ['8073993', '8065759']
+  [1017] Brockville Superstore → ['8073988', '8065759']
+  [1018] NEWMARKET → ['8073986', '8065759']
+  [1024] OAKVILLE → ['8073993', '8065759']
+  [1030] AURORA → ['8073986', '8065759']
+  [1033] TORONTO → ['8073987', '8065759']
+  [1043] Oshawa Superstore → ['8073992', '8065759']
+  [1058] Whitby Superstore → ['8073992', '8065759']
+  [1071] South Orleans Superstore → ['8073987', '8065759']
+  [1077] TORONTO → ['8073993', '8065759']
+  [1080] MISSISSAUGA → ['8073993', '8065759']
+  [1091] Oxford & Gammage Superstore → ['8073986', '8065759']
+  [1502] EDMONTON → ['8073894', '8065760']
+  [1503] RCSS Click & Collect → ['8073892', '8065760']
+  [1504] RCSS Click & Collect → ['8073892', '8065760']
+  [1505] WINNIPEG → ['8073900', '8065760']
+  [1506] WINNIPEG → ['8073894', '8065760']
+  [1508] WINNIPEG → ['8073892', '8065760']
+  [1509] WINNIPEG → ['8073903', '8065760']
+  [1510] WINKLER → ['8073892', '8065760']
+  [1511] WINNIPEG → ['8073903', '8065760']
+  [1512] WINNIPEG → ['8073894', '8065760']
+  [1514] WINNIPEG → ['8073894', '8065760']
+  [1515] BRANDON → ['8073892', '8065760']
+  [1516] WINNIPEG → ['8073892', '8065760']
+  [1517] VANCOUVER → ['8073903', '8065760']
+  [1518] BURNABY → ['8073901', '8065760']
+  [1519] COQUITLAM → ['8073897', '8065760']
+  [1520] VANCOUVER → ['8073903', '8065760']
+  [1521] NORTH SURREY/NORTH DELTA → ['8073901', '8065760']
+  [1522] KAMLOOPS → ['8073892', '8065760']
+  [1523] CHILLIWACK → ['8073896', '8065760']
+  [1524] CAMPBELL RIVER → ['8073892', '8065760']
+  [1525] NANAIMO → ['8073892', '8065760']
+  [1526] COQUITLAM → ['8073894', '8065760']
+  [1527] VICTORIA → ['8073896', '8065760']
+  [1528] RCSS Click & Collect → ['8073892', '8065760']
+  [1530] RCSS Click & Collect → ['8073892', '8065760']
+  [1531] RCSS Click & Collect → ['8073896', '8065760']
+  [1532] RCSS Click & Collect → ['8073892', '8065760']
+  [1533] Regina-Albert → ['8073892', '8065760']
+  [1535] SASKATOON → ['8073895', '8065760']
+  [1536] SASKATOON → ['8073892', '8065760']
+  [1537] Edmonton Heritage Superstore → ['8073900', '8065760']
+  [1538] EDMONTON → ['8073893', '8065760']
+  [1539] CALGARY → ['8073894', '8065760']
+  [1540] RCSS Click & Collect → ['8073892', '8065760']
+  [1541] RCSS Click & Collect → ['8073892', '8065760']
+  [1542] RCSS Click & Collect → ['8073901', '8065760']
+  [1543] RCSS Click & Collect → ['8073901', '8065760']
+  [1544] RCSS Click & Collect → ['8073894', '8065760']
+  [1545] CALGARY → ['8073891', '8065760']
+  [1546] CALGARY → ['8073895', '8065760']
+  [1547] RCSS Click & Collect → ['8073892', '8065760']
+  [1548] FORT MCMURRAY → ['8073893', '8065760']
+  [1549] EDMONTON → ['8073893', '8065760']
+  [1550] RCSS Click & Collect → ['8073892', '8065760']
+  [1551] White Rock → ['8073896', '8065760']
+  [1552] RCSS Click & Collect → ['8073896', '8065760']
+  [1553] RCSS Click & Collect → ['8073894', '8065760']
+  [1554] RCSS Click & Collect → ['8073901', '8065760']
+  [1555] RCSS Click & Collect → ['8073892', '8065760']
+  [1556] RCSS Click & Collect → ['8073901', '8065760']
+  [1557] RICHMOND → ['8073901', '8065760']
+  [1558] RCSS Click & Collect → ['8073895', '8065760']
+  [1559] RCSS Click & Collect → ['8073897', '8065760']
+  [1560] RCSS Click & Collect → ['8073892', '8065760']
+  [1561] LANGLEY → ['8073899', '8065760']
+  [1562] PRINCE GEORGE → ['8073892', '8065760']
+  [1563] RCSS Click & Collect → ['8073892', '8065760']
+  [1564] KELOWNA → ['8073898', '8065760']
+  [1565] RCSS Click & Collect → ['8073892', '8065760']
+  [1566] EDMONTON → ['8073893', '8065760']
+  [1567] RCSS Click & Collect → ['8073892', '8065760']
+  [1568] RCSS Click & Collect → ['8073892', '8065760']
+  [1569] EDMONTON → ['8065760']
+  [1570] EDMONTON → ['8073895', '8065760']
+  [1571] RCSS Click & Collect → ['8073892', '8065760']
+  [1572] EDMONTON → ['8073892', '8065760']
+  [1573] EDMONTON → ['8073902', '8065760']
+  [1574] CALGARY → ['8073894', '8065760']
+  [1575] CALGARY → ['8073903', '8065760']
+  [1576] CALGARY → ['8074017', '8065760']
+  [1577] CALGARY → ['8073894', '8065760']
+  [1578] CALGARY → ['8073903', '8065760']
+  [1579] RCSS Click & Collect → ['8073894', '8065760']
+  [1581] RCSS Click & Collect → ['8073892', '8065760']
+  [1582] RCSS Click & Collect → ['8073892', '8065760']
+  [1583] RCSS Click & Collect → ['8073892', '8065760']
+  [1584] RCSS Click & Collect → ['8073895', '8065760']
+  [1585] RCSS Click & Collect → ['8073892', '8065760']
+  [1586] RCSS Seaton Way → ['8073892', '8065760']
+  [1590] Calgary East Village → ['8073892', '8065760']
+  [2555] Edmonton Superstore → ['8073901', '8065760']
+  [2800] TORONTO → ['8073990', '8065759']
+  [2801] BRAMPTON → no new flyers
+  [2803] Sudbury Superstore → ['8073986', '8065759']
+  [2806] Grimsby Superstore → ['8073986', '8065759']
+  [2809] TORONTO → ['8073993', '8065759']
+  [2810] MILTON → ['8073991', '8065759']
+  [2811] Georgetown Superstore → ['8073989', '8065759']
+  [2812] Oakridge Mall Superstore → ['8073992', '8065759']
+  [2813] South Kanata Superstore → ['8073993', '8065759']
+  [2818] Simcoe Superstore → ['8073986', '8065759']
+  [2822] Highland Hills Superstore → ['8073993', '8065759']
+  [2823] Strathroy Superstore → ['8073986', '8065759']
+  [2826] Sarnia Superstore → ['8073989', '8065759']
+  [2827] Dougall Superstore → ['8073990', '8065759']
+  [2831] Peterborough Superstore → ['8073989', '8065759']
+  [2841] Mavis Superstore → ['8073991', '8065759']
+  [2842] Oshawa Gibb Superstore → ['8073989', '8065759']
+  [3730] Calgary → ['8073894', '8065760']
+  [4401] Weston Rd. Learning Centre Superstore → no new flyers
+  [6885] MFC Dundas & Bloor → ['8073986', '8065759']
+
+  239 new publication entries across 124 stores
+  24 unique new publication(s) to download
+  Appended 239 rows to data/real_canadian_superstore/store_flyers.parquet
+New publication entries added to store_flyers.parquet: 239
+Unique new publications to download: 24
+
+Phase 2: fetching products for each new publication…
+
+  [8073986] Weekly Flyer  (2026-08-13T00:00:00-04:00 → 2026-08-19T23:59:59-04:00)
+    480 products
+  [8065759] General Merchandise  (2026-08-06T00:00:00-04:00 → 2026-09-09T23:59:59-04:00)
+    164 products
+  [8073990] Weekly Flyer  (2026-08-13T00:00:00-04:00 → 2026-08-19T23:59:59-04:00)
+    486 products
+  [8073993] Weekly Flyer  (2026-08-13T00:00:00-04:00 → 2026-08-19T23:59:59-04:00)
+    495 products
+  [8073988] Weekly Flyer  (2026-08-13T00:00:00-04:00 → 2026-08-19T23:59:59-04:00)
+    480 products
+  [8073987] Weekly Flyer  (2026-08-13T00:00:00-04:00 → 2026-08-19T23:59:59-04:00)
+    480 products
+  [8073992] Weekly Flyer  (2026-08-13T00:00:00-04:00 → 2026-08-19T23:59:59-04:00)
+    495 products
+  [8073894] Weekly Flyer  (2026-08-13T03:00:00-04:00 → 2026-08-19T23:59:59-04:00)
+    475 products
+  [8065760] General Merchandise  (2026-08-06T00:00:00-04:00 → 2026-09-09T23:59:59-04:00)
+    164 products
+  [8073892] Weekly Flyer  (2026-08-13T03:00:00-04:00 → 2026-08-19T23:59:59-04:00)
+    469 products
+  [8073900] Weekly Flyer  (2026-08-13T03:00:00-04:00 → 2026-08-19T23:59:59-04:00)
+    469 products
+  [8073903] Weekly Flyer  (2026-08-13T03:00:00-04:00 → 2026-08-19T23:59:59-04:00)
+    490 products
+  [8073901] Weekly Flyer  (2026-08-13T03:00:00-04:00 → 2026-08-19T23:59:59-04:00)
+    484 products
+  [8073897] Weekly Flyer  (2026-08-13T03:00:00-04:00 → 2026-08-19T23:59:59-04:00)
+    486 products
+  [8073896] Weekly Flyer  (2026-08-13T03:00:00-04:00 → 2026-08-19T23:59:59-04:00)
+    471 products
+  [8073895] Weekly Flyer  (2026-08-13T03:00:00-04:00 → 2026-08-19T23:59:59-04:00)
+    490 products
+  [8073893] Weekly Flyer  (2026-08-13T03:00:00-04:00 → 2026-08-19T23:59:59-04:00)
+    484 products
+  [8073891] Weekly Flyer  (2026-08-13T03:00:00-04:00 → 2026-08-19T23:59:59-04:00)
+    482 products
+  [8073899] Weekly Flyer  (2026-08-13T03:00:00-04:00 → 2026-08-19T23:59:59-04:00)
+    492 products
+  [8073898] Weekly Flyer  (2026-08-13T03:00:00-04:00 → 2026-08-19T23:59:59-04:00)
+    477 products
+  [8073902] Weekly Flyer  (2026-08-13T03:00:00-04:00 → 2026-08-19T23:59:59-04:00)
+    475 products
+  [8074017] Weekly Flyer  (2026-08-13T03:00:00-04:00 → 2026-08-19T23:59:59-04:00)
+    491 products
+  [8073991] Weekly Flyer  (2026-08-13T00:00:00-04:00 → 2026-08-19T23:59:59-04:00)
+    501 products
+  [8073989] Weekly Flyer  (2026-08-13T00:00:00-04:00 → 2026-08-19T23:59:59-04:00)
+    486 products
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 24
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-08-13 14:30:33 UTC
+Elapsed      : 0m 18s
+
+
+Done.  Verbose log → logs/real_canadian_superstore/2026-08-13_verbose.log
+       Summary log → logs/real_canadian_superstore/2026-08-13_summary.log
+
