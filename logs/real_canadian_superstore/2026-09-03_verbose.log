@@ -1,0 +1,206 @@
+=== Real Canadian Superstore Flyer Fetch — 2026-09-03 ===
+Run started : 2026-09-03 17:07:03 UTC
+
+Loaded 124 stores from data/real_canadian_superstore/stores.parquet
+
+Stores loaded: 124
+Loaded store_flyers.parquet (3073 publication entries)
+
+Phase 1: fetching publications per store…
+
+  [1] Vancouver-Marine → no new flyers
+  [24] Testing Store → no new flyers
+  [512] Wasaga Beach Superstore → ['8115019']
+  [551] St Thomas Superstore → ['8115019']
+  [562] Chatham Superstore → ['8115019']
+  [566] Leamington Superstore → ['8115019']
+  [567] Walker Road Superstore → ['8115020']
+  [569] Midland Superstore → ['8115019']
+  [577] St. Catherine's Superstore → ['8115020']
+  [1009] Westboro Superstore → ['8115027']
+  [1012] Ajax Superstore → ['8115021']
+  [1017] Brockville Superstore → ['8115023']
+  [1018] NEWMARKET → ['8115028']
+  [1024] OAKVILLE → ['8115022']
+  [1030] AURORA → ['8115028']
+  [1033] TORONTO → ['8115030']
+  [1043] Oshawa Superstore → ['8115020']
+  [1058] Whitby Superstore → ['8115019']
+  [1071] South Orleans Superstore → ['8115021']
+  [1077] TORONTO → ['8115022']
+  [1080] MISSISSAUGA → ['8115021']
+  [1091] Oxford & Gammage Superstore → ['8115020']
+  [1502] EDMONTON → ['8115035']
+  [1503] RCSS Click & Collect → ['8115031']
+  [1504] RCSS Click & Collect → ['8115034']
+  [1505] WINNIPEG → ['8115040']
+  [1506] WINNIPEG → ['8115036']
+  [1508] WINNIPEG → ['8115034']
+  [1509] WINNIPEG → ['8115042']
+  [1510] WINKLER → ['8115031']
+  [1511] WINNIPEG → ['8115042']
+  [1512] WINNIPEG → ['8115036']
+  [1514] WINNIPEG → ['8115036']
+  [1515] BRANDON → ['8115034']
+  [1516] WINNIPEG → ['8115038']
+  [1517] VANCOUVER → ['8115043']
+  [1518] BURNABY → ['8115040']
+  [1519] COQUITLAM → ['8115034']
+  [1520] VANCOUVER → ['8115042']
+  [1521] NORTH SURREY/NORTH DELTA → ['8115040']
+  [1522] KAMLOOPS → ['8115034']
+  [1523] CHILLIWACK → ['8115031']
+  [1524] CAMPBELL RIVER → ['8115033']
+  [1525] NANAIMO → ['8115033']
+  [1526] COQUITLAM → ['8115035']
+  [1527] VICTORIA → ['8115032']
+  [1528] RCSS Click & Collect → ['8115033']
+  [1530] RCSS Click & Collect → ['8115031']
+  [1531] RCSS Click & Collect → ['8115031']
+  [1532] RCSS Click & Collect → ['8115031']
+  [1533] Regina-Albert → ['8115034']
+  [1535] SASKATOON → ['8115036']
+  [1536] SASKATOON → ['8115034']
+  [1537] Edmonton Heritage Superstore → ['8115039']
+  [1538] EDMONTON → ['8115031']
+  [1539] CALGARY → ['8115035']
+  [1540] RCSS Click & Collect → ['8115031']
+  [1541] RCSS Click & Collect → ['8115034']
+  [1542] RCSS Click & Collect → ['8115039']
+  [1543] RCSS Click & Collect → ['8115039']
+  [1544] RCSS Click & Collect → ['8115035']
+  [1545] CALGARY → ['8115035']
+  [1546] CALGARY → ['8115035']
+  [1547] RCSS Click & Collect → ['8115031']
+  [1548] FORT MCMURRAY → ['8115031']
+  [1549] EDMONTON → ['8115031']
+  [1550] RCSS Click & Collect → ['8115031']
+  [1551] White Rock → ['8115031']
+  [1552] RCSS Click & Collect → ['8115031']
+  [1553] RCSS Click & Collect → ['8115035']
+  [1554] RCSS Click & Collect → ['8115040']
+  [1555] RCSS Click & Collect → ['8115031']
+  [1556] RCSS Click & Collect → ['8115039']
+  [1557] RICHMOND → ['8115039']
+  [1558] RCSS Click & Collect → ['8115036']
+  [1559] RCSS Click & Collect → ['8115031']
+  [1560] RCSS Click & Collect → ['8115034']
+  [1561] LANGLEY → ['8115035']
+  [1562] PRINCE GEORGE → ['8115034']
+  [1563] RCSS Click & Collect → ['8115033']
+  [1564] KELOWNA → ['8115035']
+  [1565] RCSS Click & Collect → ['8115031']
+  [1566] EDMONTON → ['8115034']
+  [1567] RCSS Click & Collect → ['8115031']
+  [1568] RCSS Click & Collect → ['8115031']
+  [1569] EDMONTON → ['8115039']
+  [1570] EDMONTON → ['8115036']
+  [1571] RCSS Click & Collect → ['8115031']
+  [1572] EDMONTON → ['8115034']
+  [1573] EDMONTON → ['8115041']
+  [1574] CALGARY → ['8115037']
+  [1575] CALGARY → ['8115041']
+  [1576] CALGARY → ['8115039']
+  [1577] CALGARY → ['8115036']
+  [1578] CALGARY → ['8115041']
+  [1579] RCSS Click & Collect → ['8115035']
+  [1581] RCSS Click & Collect → ['8115031']
+  [1582] RCSS Click & Collect → ['8115031']
+  [1583] RCSS Click & Collect → ['8115034']
+  [1584] RCSS Click & Collect → ['8115036']
+  [1585] RCSS Click & Collect → ['8115034']
+  [1586] RCSS Seaton Way → ['8115031']
+  [1590] Calgary East Village → ['8115034']
+  [2555] Edmonton Superstore → ['8115039']
+  [2800] TORONTO → ['8115026']
+  [2801] BRAMPTON → no new flyers
+  [2803] Sudbury Superstore → ['8115020']
+  [2806] Grimsby Superstore → ['8115019']
+  [2809] TORONTO → ['8115022']
+  [2810] MILTON → ['8115026']
+  [2811] Georgetown Superstore → ['8115024']
+  [2812] Oakridge Mall Superstore → ['8115020']
+  [2813] South Kanata Superstore → ['8115021']
+  [2818] Simcoe Superstore → ['8115019']
+  [2822] Highland Hills Superstore → ['8115022']
+  [2823] Strathroy Superstore → ['8115019']
+  [2826] Sarnia Superstore → ['8115025']
+  [2827] Dougall Superstore → ['8115029']
+  [2831] Peterborough Superstore → ['8115025']
+  [2841] Mavis Superstore → ['8115027']
+  [2842] Oshawa Gibb Superstore → ['8115024']
+  [3730] Calgary → ['8115036']
+  [4401] Weston Rd. Learning Centre Superstore → no new flyers
+  [6885] MFC Dundas & Bloor → ['8115019']
+
+  120 new publication entries across 124 stores
+  25 unique new publication(s) to download
+  Appended 120 rows to data/real_canadian_superstore/store_flyers.parquet
+New publication entries added to store_flyers.parquet: 120
+Unique new publications to download: 25
+
+Phase 2: fetching products for each new publication…
+
+  [8115019] Weekly Flyer  (2026-09-03T00:00:00-04:00 → 2026-09-09T23:59:59-04:00)
+    569 products
+  [8115020] Weekly Flyer  (2026-09-03T00:00:00-04:00 → 2026-09-09T23:59:59-04:00)
+    569 products
+  [8115027] Weekly Flyer  (2026-09-03T00:00:00-04:00 → 2026-09-09T23:59:59-04:00)
+    575 products
+  [8115021] Weekly Flyer  (2026-09-03T00:00:00-04:00 → 2026-09-09T23:59:59-04:00)
+    569 products
+  [8115023] Weekly Flyer  (2026-09-03T00:00:00-04:00 → 2026-09-09T23:59:59-04:00)
+    570 products
+  [8115028] Weekly Flyer  (2026-09-03T00:00:00-04:00 → 2026-09-09T23:59:59-04:00)
+    596 products
+  [8115022] Weekly Flyer  (2026-09-03T00:00:00-04:00 → 2026-09-09T23:59:59-04:00)
+    569 products
+  [8115030] Weekly Flyer  (2026-09-03T00:00:00-04:00 → 2026-09-09T23:59:59-04:00)
+    594 products
+  [8115035] Weekly Flyer  (2026-09-03T03:00:00-04:00 → 2026-09-09T23:59:59-04:00)
+    538 products
+  [8115031] Weekly Flyer  (2026-09-03T03:00:00-04:00 → 2026-09-09T23:59:59-04:00)
+    532 products
+  [8115034] Weekly Flyer  (2026-09-03T03:00:00-04:00 → 2026-09-09T23:59:59-04:00)
+    546 products
+  [8115040] Weekly Flyer  (2026-09-03T03:00:00-04:00 → 2026-09-09T23:59:59-04:00)
+    546 products
+  [8115036] Weekly Flyer  (2026-09-03T03:00:00-04:00 → 2026-09-09T23:59:59-04:00)
+    552 products
+  [8115042] Weekly Flyer  (2026-09-03T03:00:00-04:00 → 2026-09-09T23:59:59-04:00)
+    552 products
+  [8115038] Weekly Flyer  (2026-09-03T03:00:00-04:00 → 2026-09-09T23:59:59-04:00)
+    573 products
+  [8115043] Weekly Flyer  (2026-09-03T03:00:00-04:00 → 2026-09-09T23:59:59-04:00)
+    579 products
+  [8115033] Weekly Flyer  (2026-09-03T03:00:00-04:00 → 2026-09-09T23:59:59-04:00)
+    538 products
+  [8115032] Weekly Flyer  (2026-09-03T03:00:00-04:00 → 2026-09-09T23:59:59-04:00)
+    552 products
+  [8115039] Weekly Flyer  (2026-09-03T03:00:00-04:00 → 2026-09-09T23:59:59-04:00)
+    532 products
+  [8115041] Weekly Flyer  (2026-09-03T03:00:00-04:00 → 2026-09-09T23:59:59-04:00)
+    538 products
+  [8115037] Weekly Flyer  (2026-09-03T03:00:00-04:00 → 2026-09-09T23:59:59-04:00)
+    565 products
+  [8115026] Weekly Flyer  (2026-09-03T00:00:00-04:00 → 2026-09-09T23:59:59-04:00)
+    575 products
+  [8115024] Weekly Flyer  (2026-09-03T00:00:00-04:00 → 2026-09-09T23:59:59-04:00)
+    575 products
+  [8115025] Weekly Flyer  (2026-09-03T00:00:00-04:00 → 2026-09-09T23:59:59-04:00)
+    575 products
+  [8115029] Weekly Flyer  (2026-09-03T00:00:00-04:00 → 2026-09-09T23:59:59-04:00)
+    602 products
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 25
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-09-03 17:07:21 UTC
+Elapsed      : 0m 18s
+
+
+Done.  Verbose log → logs/real_canadian_superstore/2026-09-03_verbose.log
+       Summary log → logs/real_canadian_superstore/2026-09-03_summary.log
+

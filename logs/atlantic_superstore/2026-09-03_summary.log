@@ -1,0 +1,15 @@
+=== Atlantic Superstore Flyer Fetch — 2026-09-03 ===
+Run started : 2026-09-03 17:07:58 UTC
+
+Stores loaded: 67
+New publication entries added to store_flyers.parquet: 52
+Unique new publications to download: 11
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 11
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-09-03 17:08:07 UTC
+Elapsed      : 0m 9s
+
