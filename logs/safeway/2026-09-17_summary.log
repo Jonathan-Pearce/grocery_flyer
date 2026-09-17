@@ -1,0 +1,15 @@
+=== Safeway Flyer Fetch — 2026-09-17 ===
+Run started : 2026-09-17 17:45:01 UTC
+
+Stores loaded: 173
+New publication entries added to store_flyers.parquet: 131
+Unique new publications to download: 5
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 5
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-09-17 17:45:21 UTC
+Elapsed      : 0m 19s
+
