@@ -1,0 +1,15 @@
+=== Fortinos Flyer Fetch — 2026-09-24 ===
+Run started : 2026-09-24 17:59:10 UTC
+
+Stores loaded: 25
+New publication entries added to store_flyers.parquet: 23
+Unique new publications to download: 10
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 10
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-09-24 17:59:16 UTC
+Elapsed      : 0m 6s
+

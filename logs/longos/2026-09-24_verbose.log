@@ -1,0 +1,81 @@
+=== Longos Flyer Fetch — 2026-09-24 ===
+Run started : 2026-09-24 18:03:36 UTC
+
+Loaded 43 stores from data/longos/stores.parquet
+
+Stores loaded: 43
+Loaded store_flyers.parquet (780 publication entries)
+
+Phase 1: fetching publications per store…
+
+  [2] Oakville → ['8147923']
+  [3] Fairview → ['8147923']
+  [4] Markham → ['8147923']
+  [5] Bayview → ['8147923']
+  [6] Weston → ['8147923']
+  [7] Brampton → ['8147923']
+  [8] Glen Erin → ['8147923']
+  [9] Walkers (N. Burlington) → ['8147923']
+  [10] York Mills → ['8147923']
+  [11] Rutherford → ['8147923']
+  [12] Maple → ['8147923']
+  [13] Winston Churchill → ['8147923']
+  [14] Ponytrail → ['8147923']
+  [15] Brookfield → no new flyers
+  [16] Burloak → ['8147926']
+  [17] Boxgrove → ['8147923']
+  [18] Elizabeth → no new flyers
+  [19] Aurora → ['8147923']
+  [20] Bathurst → ['8147923']
+  [21] The Market by Longo's Hudson Bay Centre → no new flyers
+  [22] Richmond Hill → ['8147923']
+  [23] The Market by Longo's First Canadian Place → no new flyers
+  [24] Maple Leaf Square → ['8147923']
+  [25] Milton → ['8147923']
+  [26] Leaside → ['8147923']
+  [27] Southeast Oakville → ['8147923']
+  [28] Applewood Plaza → ['8147923']
+  [29] Imperial Plaza → no new flyers
+  [30] Longo's Mount Pleasant → ['8147923']
+  [31] Ancaster → ['8147923']
+  [32] Longo's Guelph → ['8147923']
+  [33] Ajax → ['8147923']
+  [34] Stouffville → ['8147923']
+  [35] Yonge Sheppard → ['8147923']
+  [36] Green Lane → ['8147923']
+  [37] Liberty Village → ['8147923']
+  [38] Brooklin → ['8147923']
+  [40] Kitchener → ['8147923']
+  [41] Meadowvale → ['8147923']
+  [42] Kleinburg → ['8147923']
+  [43] Longo’s Queensway → ['8147923']
+  [44] Colossus → ['8147923']
+  [50] Garden Foods → ['8147924']
+
+  38 new publication entries across 43 stores
+  3 unique new publication(s) to download
+  Appended 38 rows to data/longos/store_flyers.parquet
+New publication entries added to store_flyers.parquet: 38
+Unique new publications to download: 3
+
+Phase 2: fetching products for each new publication…
+
+  [8147923] Weekly Flyer  (2026-09-24T00:00:00-04:00 → 2026-09-30T23:59:59-04:00)
+    241 products
+  [8147926] Weekly Flyer  (2026-09-24T00:00:00-04:00 → 2026-09-30T23:59:59-04:00)
+    242 products
+  [8147924] Weekly Flyer  (2026-09-24T00:00:00-04:00 → 2026-09-30T23:59:59-04:00)
+    225 products
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 3
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-09-24 18:03:44 UTC
+Elapsed      : 0m 8s
+
+
+Done.  Verbose log → logs/longos/2026-09-24_verbose.log
+       Summary log → logs/longos/2026-09-24_summary.log
+

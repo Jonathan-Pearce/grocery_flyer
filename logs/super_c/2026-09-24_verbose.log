@@ -1,0 +1,154 @@
+=== Super C Flyer Fetch — 2026-09-24 ===
+Run started : 2026-09-24 18:06:20 UTC
+
+Loaded 120 stores from data/super_c/stores.parquet
+
+Stores loaded: 120
+Loaded store_flyers.parquet (2875 flyer entries)
+
+Phase 1: fetching flyer listings per store…
+
+  [304] VANIER → ['83818']
+  [312] ST-REMI → ['83818']
+  [423] BEAUPORT → ['83818']
+  [425] NEUFCHATEL → ['83818']
+  [426] STE-FOY → ['83818']
+  [427] RIMOUSKI → ['83818']
+  [428] THETFORD MINES → ['83818']
+  [429] VICTORIAVILLE → ['83818']
+  [430] LEVIS → ['83818']
+  [431] ST-JEAN-CHRYSOSTOME → ['83818']
+  [432] CHICOUTIMI → ['83818']
+  [433] JONQUIERE → ['83818']
+  [434] CAP-DE-LA-MADELEINE → ['83818']
+  [435] TROIS-RIVIERES → ['83818']
+  [436] TROIS-RIVIERES OUEST → ['83818']
+  [437] SHAWINIGAN → ['83818']
+  [438] POINTE-AUX-TREMBLES → ['83818']
+  [439] HENRI-BOURASSA → ['83818']
+  [440] ST-LEONARD → ['83818']
+  [441] MONTREAL PIE-IX - ONTARIO → ['83818']
+  [442] MONTREAL PIE-IX ET JARRY → ['83818']
+  [443] ATWATER → ['83818']
+  [444] N.D.G. - ST-JACQUES → ['83818']
+  [445] BELOEIL → ['83818']
+  [446] LAVAL CONDORDE → ['83818']
+  [447] LAVAL DES LAURENTIDES → ['83818']
+  [448] FABREVILLE LAVAL → ['83818']
+  [450] STE-DOROTHEE → ['83818']
+  [451] LASALLE BL NEWMAN → ['83818']
+  [452] PIERREFONDS → ['83818']
+  [454] FLEURIMONT → ['83818']
+  [455] SHERBROOKE BELVEDERE → ['83818']
+  [456] SHERBROOKE-PORTLAND → ['83818']
+  [457] DRUMMONDVILLE → ['83818']
+  [458] GRANBY → ['83818']
+  [459] COWANSVILLE → ['83818']
+  [460] SAINT-HYACINTHE → ['83818']
+  [461] SAINT-JEAN → ['83818']
+  [462] SOREL → ['83818']
+  [463] VARENNES → ['83818']
+  [464] BOUCHERVILLE → ['83818']
+  [465] STE-THERESE → ['83818']
+  [466] LONGUEUIL DESORMEAUX → ['83818']
+  [467] LONGUEUIL ROLAND-THERRIEN → ['83818']
+  [468] GREENFIELD PARK → ['83818']
+  [469] BROSSARD → ['83818']
+  [470] ST-CONSTANT → ['83818']
+  [471] REPENTIGNY → ['83818']
+  [472] JOLIETTE → ['83818']
+  [473] CHATEAUGUAY → ['83818']
+  [474] VALLEYFIELD → ['83818']
+  [475] TERREBONNE → ['83818']
+  [476] BLAINVILLE → ['83818']
+  [477] ST-EUSTACHE → ['83818']
+  [478] VAUDREUIL → ['83818']
+  [479] ST-JOVITE → ['83818']
+  [480] GATINEAU → ['83818']
+  [481] HULL → ['83818']
+  [482] HULL DU PLATEAU → ['83818']
+  [483] AYLMER → ['83818']
+  [484] CHAMPFLEURY → ['83818']
+  [488] ST-HUBERT COUSINEAU → ['83818']
+  [489] ST-CHARLES-DE-BORROMÉE → ['83818']
+  [525] ST-LIN → ['83818']
+  [526] STE-MARIE-DE-BEAUCE → ['83818']
+  [646] NICOLET → ['83818']
+  [647] SEPT-ILES → ['83818']
+  [648] CHARLESBOURG → ['83818']
+  [649] TERREBONNE OUEST → ['83818']
+  [695] RIVIÈRE-DES-PRAIRIES → ['83818']
+  [704] VAL D'OR → ['83818']
+  [705] LASALLE BL CHAMPLAIN → ['83818']
+  [706] BOISBRIAND → ['83818']
+  [713] ST-CÉSAIRE → ['83818']
+  [714] KIRKLAND → ['83818']
+  [715] STE-ANNE → ['83818']
+  [722] RIVIÈRE DU LOUP → ['83818']
+  [727] ORMSTOWN → ['83818']
+  [728] CHANDLER → ['83818']
+  [729] ST-LAURENT → ['83818']
+  [732] ST-JEAN SUR LE RICHELIEU → ['83818']
+  [737] STE-MARTHE → ['83818']
+  [747] GASPÉ → ['83818']
+  [755] LAPLAINE → ['83818']
+  [756] LACHUTE → ['83818']
+  [768] St-CANUT → ['83818']
+  [771] STE-CATHERINE-DE-LA-JACQUES-CARTIER → ['83818']
+  [772] LAPRAIRIE → ['83818']
+  [780] ROUYN-NORANDA → ['83818']
+  [786] ST-GEORGES-DE-BEAUCE → ['83818']
+  [787] STE-ANNE-DES-PRAIRIES → ['83818']
+  [810] LAVALTRIE → no new flyers
+  [812] MATANE → ['83818']
+  [813] ST-ROMUALD → ['83818']
+  [815] BAIE St-PAUL → ['83818']
+  [816] ST-SAUVEUR → ['83818']
+  [826] LAVAL - ST-ELZÉAR → ['83818']
+  [847] ST-JACQUES → ['83818']
+  [882] MONT-JOLI → ['83818']
+  [884] ST-JÉROME → ['83818']
+  [885] BEAUHARNOIS → ['83818']
+  [886] COATICOOK → ['83818']
+  [887] STE-CLAIRE → ['83818']
+  [888] PONT-ROUGE → ['83818']
+  [890] LIMBOUR → ['83818']
+  [895] ST-APOLLINAIRE → ['83818']
+  [896] BUCKINGHAM → ['83818']
+  [897] ST-NICOLAS → ['83818']
+  [900] ST-DONAT → ['83818']
+  [904] ST-HUBERT/BOUCHER → ['83818']
+  [905] MONTRÉAL (DE LORIMIER) → ['83818']
+  [906] RIMOUSKI-OUEST → ['83818']
+  [907] RIGAUD → ['83818']
+  [908] SHERBROOKE - ASCOT → ['83818']
+  [910] GREBER → ['83818']
+  [911] DUPLESSIS → ['83818']
+  [919] PINCOURT → ['83818']
+  [923] ROCK FOREST → ['83818']
+  [930] BERTHIERVILLE → ['83818']
+  [931] TÉMISCOUATA-SUR-LE-LAC → ['83818']
+
+  119 new flyer entries across 120 stores
+  1 unique new job(s) to download
+  Appended 119 rows to data/super_c/store_flyers.parquet
+New flyer entries added to store_flyers.parquet : 119
+Unique new jobs to download                     : 1
+
+Phase 2: fetching products for each new job…
+
+  [83818] store 304  (https://metrodigital-apim.azure-api.net/api/Pages/83818/304/fr/search)
+    316 products
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 1
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-09-24 18:06:48 UTC
+Elapsed      : 0m 28s
+
+
+Done.  Verbose log → logs/super_c/2026-09-24_verbose.log
+       Summary log → logs/super_c/2026-09-24_summary.log
+
