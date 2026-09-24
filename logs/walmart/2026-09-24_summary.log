@@ -1,0 +1,15 @@
+=== Walmart Flyer Fetch — 2026-09-24 ===
+Run started : 2026-09-24 18:03:53 UTC
+
+Stores loaded: 421
+New publication entries added to store_flyers.parquet: 415
+Unique new publications to download: 10
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 10
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-09-24 18:05:06 UTC
+Elapsed      : 1m 13s
+
