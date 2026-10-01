@@ -1,0 +1,15 @@
+=== Food Basics Flyer Fetch — 2026-10-01 ===
+Run started : 2026-10-01 19:05:39 UTC
+
+Stores loaded: 153
+New flyer entries added to store_flyers.parquet : 153
+Unique new jobs to download                     : 1
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 1
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-10-01 19:06:40 UTC
+Elapsed      : 1m 0s
+
