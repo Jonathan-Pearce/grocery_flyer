@@ -1,0 +1,156 @@
+=== Super C Flyer Fetch — 2026-10-08 ===
+Run started : 2026-10-08 19:30:25 UTC
+
+Loaded 120 stores from data/super_c/stores.parquet
+
+Stores loaded: 120
+Loaded store_flyers.parquet (3113 flyer entries)
+
+Phase 1: fetching flyer listings per store…
+
+  [304] VANIER → ['83987', '83987m']
+  [312] ST-REMI → ['83987', '83987m']
+  [423] BEAUPORT → ['83987', '83987m']
+  [425] NEUFCHATEL → ['83987', '83987m']
+  [426] STE-FOY → ['83987', '83987m']
+  [427] RIMOUSKI → ['83987', '83987m']
+  [428] THETFORD MINES → ['83987', '83987m']
+  [429] VICTORIAVILLE → ['83987', '83987m']
+  [430] LEVIS → ['83987', '83987m']
+  [431] ST-JEAN-CHRYSOSTOME → ['83987', '83987m']
+  [432] CHICOUTIMI → ['83987', '83987m']
+  [433] JONQUIERE → ['83987', '83987m']
+  [434] CAP-DE-LA-MADELEINE → ['83987', '83987m']
+  [435] TROIS-RIVIERES → ['83987', '83987m']
+  [436] TROIS-RIVIERES OUEST → ['83987', '83987m']
+  [437] SHAWINIGAN → ['83987', '83987m']
+  [438] POINTE-AUX-TREMBLES → ['83987', '83987m']
+  [439] HENRI-BOURASSA → ['83987', '83987m']
+  [440] ST-LEONARD → ['83987', '83987m']
+  [441] MONTREAL PIE-IX - ONTARIO → ['83987', '83987m']
+  [442] MONTREAL PIE-IX ET JARRY → ['83987', '83987m']
+  [443] ATWATER → ['83987', '83987m']
+  [444] N.D.G. - ST-JACQUES → ['83987', '83987m']
+  [445] BELOEIL → ['83987', '83987m']
+  [446] LAVAL CONDORDE → ['83987', '83987m']
+  [447] LAVAL DES LAURENTIDES → ['83987', '83987m']
+  [448] FABREVILLE LAVAL → ['83987', '83987m']
+  [450] STE-DOROTHEE → ['83987', '83987m']
+  [451] LASALLE BL NEWMAN → ['83987', '83987m']
+  [452] PIERREFONDS → ['83987', '83987m']
+  [454] FLEURIMONT → ['83987', '83987m']
+  [455] SHERBROOKE BELVEDERE → ['83987', '83987m']
+  [456] SHERBROOKE-PORTLAND → ['83987', '83987m']
+  [457] DRUMMONDVILLE → ['83987', '83987m']
+  [458] GRANBY → ['83987', '83987m']
+  [459] COWANSVILLE → ['83987', '83987m']
+  [460] SAINT-HYACINTHE → ['83987', '83987m']
+  [461] SAINT-JEAN → ['83987', '83987m']
+  [462] SOREL → ['83987', '83987m']
+  [463] VARENNES → ['83987', '83987m']
+  [464] BOUCHERVILLE → ['83987', '83987m']
+  [465] STE-THERESE → ['83987', '83987m']
+  [466] LONGUEUIL DESORMEAUX → ['83987', '83987m']
+  [467] LONGUEUIL ROLAND-THERRIEN → ['83987', '83987m']
+  [468] GREENFIELD PARK → ['83987', '83987m']
+  [469] BROSSARD → ['83987', '83987m']
+  [470] ST-CONSTANT → ['83987', '83987m']
+  [471] REPENTIGNY → ['83987', '83987m']
+  [472] JOLIETTE → ['83987', '83987m']
+  [473] CHATEAUGUAY → ['83987', '83987m']
+  [474] VALLEYFIELD → ['83987', '83987m']
+  [475] TERREBONNE → ['83987', '83987m']
+  [476] BLAINVILLE → ['83987', '83987m']
+  [477] ST-EUSTACHE → ['83987', '83987m']
+  [478] VAUDREUIL → ['83987', '83987m']
+  [479] ST-JOVITE → ['83987', '83987m']
+  [480] GATINEAU → ['83987', '83987m']
+  [481] HULL → ['83987', '83987m']
+  [482] HULL DU PLATEAU → ['83987', '83987m']
+  [483] AYLMER → ['83987', '83987m']
+  [484] CHAMPFLEURY → ['83987', '83987m']
+  [488] ST-HUBERT COUSINEAU → ['83987', '83987m']
+  [489] ST-CHARLES-DE-BORROMÉE → ['83987', '83987m']
+  [525] ST-LIN → ['83987', '83987m']
+  [526] STE-MARIE-DE-BEAUCE → ['83987', '83987m']
+  [646] NICOLET → ['83987', '83987m']
+  [647] SEPT-ILES → ['83987', '83987m']
+  [648] CHARLESBOURG → ['83987', '83987m']
+  [649] TERREBONNE OUEST → ['83987', '83987m']
+  [695] RIVIÈRE-DES-PRAIRIES → ['83987', '83987m']
+  [704] VAL D'OR → ['83987', '83987m']
+  [705] LASALLE BL CHAMPLAIN → ['83987', '83987m']
+  [706] BOISBRIAND → ['83987', '83987m']
+  [713] ST-CÉSAIRE → ['83987', '83987m']
+  [714] KIRKLAND → ['83987', '83987m']
+  [715] STE-ANNE → ['83987', '83987m']
+  [722] RIVIÈRE DU LOUP → ['83987', '83987m']
+  [727] ORMSTOWN → ['83987', '83987m']
+  [728] CHANDLER → ['83987', '83987m']
+  [729] ST-LAURENT → ['83987', '83987m']
+  [732] ST-JEAN SUR LE RICHELIEU → ['83987', '83987m']
+  [737] STE-MARTHE → ['83987', '83987m']
+  [747] GASPÉ → ['83987', '83987m']
+  [755] LAPLAINE → ['83987', '83987m']
+  [756] LACHUTE → ['83987', '83987m']
+  [768] St-CANUT → ['83987', '83987m']
+  [771] STE-CATHERINE-DE-LA-JACQUES-CARTIER → ['83987', '83987m']
+  [772] LAPRAIRIE → ['83987', '83987m']
+  [780] ROUYN-NORANDA → ['83987', '83987m']
+  [786] ST-GEORGES-DE-BEAUCE → ['83987', '83987m']
+  [787] STE-ANNE-DES-PRAIRIES → ['83987', '83987m']
+  [810] LAVALTRIE → no new flyers
+  [812] MATANE → ['83987', '83987m']
+  [813] ST-ROMUALD → ['83987', '83987m']
+  [815] BAIE St-PAUL → ['83987', '83987m']
+  [816] ST-SAUVEUR → ['83987', '83987m']
+  [826] LAVAL - ST-ELZÉAR → ['83987', '83987m']
+  [847] ST-JACQUES → ['83987', '83987m']
+  [882] MONT-JOLI → ['83987', '83987m']
+  [884] ST-JÉROME → ['83987', '83987m']
+  [885] BEAUHARNOIS → ['83987', '83987m']
+  [886] COATICOOK → ['83987', '83987m']
+  [887] STE-CLAIRE → ['83987', '83987m']
+  [888] PONT-ROUGE → ['83987', '83987m']
+  [890] LIMBOUR → ['83987', '83987m']
+  [895] ST-APOLLINAIRE → ['83987', '83987m']
+  [896] BUCKINGHAM → ['83987', '83987m']
+  [897] ST-NICOLAS → ['83987', '83987m']
+  [900] ST-DONAT → ['83987', '83987m']
+  [904] ST-HUBERT/BOUCHER → ['83987', '83987m']
+  [905] MONTRÉAL (DE LORIMIER) → ['83987', '83987m']
+  [906] RIMOUSKI-OUEST → ['83987', '83987m']
+  [907] RIGAUD → ['83987', '83987m']
+  [908] SHERBROOKE - ASCOT → ['83987', '83987m']
+  [910] GREBER → ['83987', '83987m']
+  [911] DUPLESSIS → ['83987', '83987m']
+  [919] PINCOURT → ['83987', '83987m']
+  [923] ROCK FOREST → ['83987', '83987m']
+  [930] BERTHIERVILLE → ['83987', '83987m']
+  [931] TÉMISCOUATA-SUR-LE-LAC → ['83987', '83987m']
+
+  238 new flyer entries across 120 stores
+  2 unique new job(s) to download
+  Appended 238 rows to data/super_c/store_flyers.parquet
+New flyer entries added to store_flyers.parquet : 238
+Unique new jobs to download                     : 2
+
+Phase 2: fetching products for each new job…
+
+  [83987] store 304  (https://metrodigital-apim.azure-api.net/api/Pages/83987/304/fr/search)
+    335 products
+  [83987m] store 304  (https://metrodigital-apim.azure-api.net/api/Pages/83987m/304/fr/search)
+    16 products
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 2
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-10-08 19:30:48 UTC
+Elapsed      : 0m 23s
+
+
+Done.  Verbose log → logs/super_c/2026-10-08_verbose.log
+       Summary log → logs/super_c/2026-10-08_summary.log
+
