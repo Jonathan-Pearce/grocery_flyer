@@ -1,0 +1,167 @@
+=== Metro Ontario Flyer Fetch — 2026-10-15 ===
+Run started : 2026-10-15 18:02:47 UTC
+
+Loaded 133 stores from data/metro/stores.parquet
+
+Stores loaded: 133
+Loaded store_flyers.parquet (4401 flyer entries)
+
+Phase 1: fetching flyer listings per store…
+
+  [2] #767 Metro Henderson → ['84227']
+  [7] #314 Arnprior (Daniel) → ['84227']
+  [8] #135 Barrie (Bayfield) → ['84227']
+  [10] #453 Bowmanville (King) → ['84227']
+  [13] #425 Brampton (Main S) → ['84227']
+  [14] #360 Brampton (Heartlake Town Centre) → ['84227']
+  [21] #905 Cobourg (Elgin) → ['84227']
+  [25] #401 North York (Sheppard/Bathurst) → ['84227']
+  [26] #102 Dundas (Dundas Valley) → ['84227']
+  [28] #748 Etobicoke (Royal York) → ['84227']
+  [31] #704 Etobicoke (Lloyd Manor) → ['84227']
+  [32] #702 Etobicoke (Cloverdale) → ['84227']
+  [34] #159 Gananoque (King) → ['84227']
+  [41] #235 Hamilton (Centre Mall on Barton) → ['84227']
+  [43] #229 Hamilton (King Rose Place) → ['84227']
+  [49] #208 Hamilton (Fennell) → ['84227']
+  [52] #193 Huntsville (King William) → ['84227']
+  [55] #152 Kingston (Barrie) → ['84227']
+  [57] #170 Kingston (Gardiners) → ['84227']
+  [63] #199 London (Clarke Side Rd) → ['84227']
+  [64] #247 Metro Cherryhill → ['84227']
+  [69] #332 Milton (Louis St Laurent) → ['84227']
+  [71] #461 Mississauga (Mississauga Valley/Hurontario) → ['84227']
+  [74] #073 Mississauga (Lakeshore) → ['84227']
+  [76] #728 Mississauga (Meadowvale Town Centre) → ['84227']
+  [78] #161 Napanee (Alkenbrack) → ['84227']
+  [80] #771 Newmarket (Yonge/Mulock) → ['84227']
+  [82] #493 North York (Wilson/Keele) → ['84227']
+  [84] #780 North York (York Mills Centre) → ['84227']
+  [85] #052 North York (Bathurst) → ['84227']
+  [87] #786 North York (Shops at Don Mills) → ['84227']
+  [88] #334 Metro Rebecca Street → ['84227']
+  [89] #214 Oakville (Oakville Town Centre) → ['84227']
+  [91] #331 Orangeville (First) → ['84227']
+  [95] #109 Oshawa (Taunton) → ['84227']
+  [98] #245 Ottawa (Hunt Club Centre) → ['84227']
+  [99] #179 Owen Sound (Second) → ['84227']
+  [103] #204 Peterborough (Chemong Rd) → ['84227']
+  [104] #853 Metro Amberlea → ['84227']
+  [105] #153 Picton (Main) → ['84227']
+  [109] #364 Sarnia (Exmouth) → ['84227']
+  [110] #181 Sault Ste Marie (Market Mall) → ['84227']
+  [111] #038 Scarborough (Port Union) → ['84227']
+  [112] #804 Scarborough (Bridlewood Mall) → ['84227']
+  [113] #800 Scarborough (Eglinton Square) → ['84227']
+  [121] #197 St Catharines (Lakeshore) → ['84227']
+  [123] #137 St Thomas (Wellington) → ['84227']
+  [127] #424 Thunder Bay (Arthur/Hwy 61) → ['84227']
+  [128] #422 Thunder Bay (Arthur/James) → ['84227']
+  [129] #124 Tillsonburg (Broadway) → ['84227']
+  [130] #201 Timmins (Algonquin) → ['84227']
+  [134] #750 Metro Keele & Lawrence → ['84227']
+  [135] #752 Toronto (Yonge Eglinton Centre) → ['84227']
+  [137] #079 Toronto (Yonge/Lawrence) → ['84227']
+  [138] #742 Toronto (Bloor/Spadina) → ['84227']
+  [139] #063 Toronto (College Park) → ['84227']
+  [140] #758 Toronto (Bayview/Eglinton) → ['84227']
+  [141] #442 Toronto (College/Shaw) → ['84227']
+  [144] #759 Toronto (Gould) → ['84227']
+  [151] #141 Metro Central → ['84227']
+  [152] #147 Metro Riverside → ['84227']
+  [153] #720 Toronto (Liberty Village) → ['84227']
+  [157] #490 Metro Upper Middle → ['84227']
+  [159] #118 London (Adelaide Centre) → ['84227']
+  [165] #404 Belleville (N Front) → ['84227']
+  [167] #798 Metro Davis Drive → ['84227']
+  [171] #139 Metro Banwell → ['84227']
+  [179] #119 Metro Byron Village → ['84227']
+  [183] #240 Sarnia (Sarnia Centre) → ['84227']
+  [187] #475 Scarborough (Ellesmere/Victoria Park) → ['84227']
+  [190] #395 Sault Ste Marie (Churchill Plaza) → ['84227']
+  [193] #035 Scarborough (Kennedy Commons) → ['84227']
+  [198] #712 North York (Church/Finch) → no new flyers
+  [199] #083 Brampton (Trinity Commons) → ['84227']
+  [201] #084 Burlington (Appleby) → ['84227']
+  [206] #719 Toronto (Stockyards) → ['84227']
+  [210] #717 Mississauga (Sheridan Mall) → ['84227']
+  [214] #202 Sault Ste Marie (Northern) → ['84227']
+  [215] #495 Brampton (Bramalea City Centre.) → ['84227']
+  [229] #037 Toronto (Danforth) → ['84227']
+  [234] #854 Mississauga (Derry/10th Line) → ['84227']
+  [236] #808 Scarborough (Eglinton/Markham) → ['84227']
+  [241] #325 Brantford (St Paul) → ['84227']
+  [245] #399 North Bay (Lakeshore) → ['84227']
+  [247] #150 London (Wellington) → ['84227']
+  [249] #125 Whitby (Thickson/Taunton) → ['84227']
+  [257] #055 Metro Stone Road → ['84227']
+  [261] #132 Trenton (Quinte) → ['84227']
+  [263] #026 Stouffville (Main) → ['84227']
+  [265] #178 Collingwood (First) → ['84227']
+  [267] #421 Thunder Bay (River) → ['84227']
+  [273] #479 Orillia (Front St. Mall) → ['84227']
+  [275] #106 Whitby (Thickson/Hwy 2) → ['84227']
+  [281] #062 Metro Front Street → ['84227']
+  [286] #046 Mississauga (Southdown) → ['84227']
+  [327] #140 Georgetown (Mountainview) → ['84227']
+  [340] #205 Whitby (Whitby Shores Plaza) → ['84227']
+  [492] #249 Kanata (March Rd) → ['84227']
+  [494] #251 Nepean (Greenbank Square) → ['84227']
+  [495] #252 Metro Southgate → no new flyers
+  [496] #253 Gloucester (Ogilvie Square) → ['84227']
+  [497] #243 Ottawa (Lincoln Heights) → ['84227']
+  [498] #255 Metro Island Park → ['84227']
+  [499] #256 Metro Chapman Mills → ['84227']
+  [501] #258 Sudbury (Lasalle Blvd) → ['84227']
+  [502] #259 Sturgeon Falls (Front) → ['84227']
+  [503] #260 Orleans (Convent Glen Market) → ['84227']
+  [504] #261 Metro Beechwood → ['84227']
+  [506] #263 Metro Elmvale → ['84227']
+  [507] #264 Gloucester (Blackburn) → ['84227']
+  [508] #265 Metro Cumberland → ['84227']
+  [509] #266 Kingston (Bayridge) → ['84227']
+  [510] #267 Nepean (Stafford) → ['84227']
+  [511] #269 Brockville (King) → ['84227']
+  [514] #272 Ottawa (Merivale/Viewmount) → ['84227']
+  [515] #273 Casselman (Richer Circle) → ['84227']
+  [516] #275 Metro Fallingbrook → ['84227']
+  [517] GLEBE 428 → ['84227']
+  [518] VAL CARON 430 → ['84227']
+  [519] BARRY'S BAY → ['84227']
+  [520] PERTH 990 → ['84227']
+  [521] RENFREW MARKET 898 → ['84227']
+  [529] #703 Ajax (Salem) → ['84227']
+  [774] #065 Metro Humber Bay Park → ['84227']
+  [806] PEMBROKE 426 → ['84227']
+  [825] #772 Metro West Queen West → ['84227']
+  [827] #136 Metro Devonshire Mall → ['84227']
+  [835] #215 Winona (Winona Crossing) → ['84227']
+  [848] #21 Bathurst & Steeles → ['84227']
+  [851] #246 Kanata (Cope Dr.) → ['84227']
+  [893] #32 Niagara Falls → ['84227']
+  [903] #244 Rideau → ['84227']
+  [913] #145 South Barrie → ['84227']
+
+  131 new flyer entries across 133 stores
+  1 unique new job(s) to download
+  Appended 131 rows to data/metro/store_flyers.parquet
+New flyer entries added to store_flyers.parquet : 131
+Unique new jobs to download                     : 1
+
+Phase 2: fetching products for each new job…
+
+  [84227] store 2  (https://metrodigital-apim.azure-api.net/api/Pages/84227/2/en/search)
+    432 products
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 1
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-10-15 18:03:38 UTC
+Elapsed      : 0m 50s
+
+
+Done.  Verbose log → logs/metro/2026-10-15_verbose.log
+       Summary log → logs/metro/2026-10-15_summary.log
+
