@@ -1,0 +1,62 @@
+=== Freshmart Flyer Fetch — 2026-10-22 ===
+Run started : 2026-10-22 18:09:57 UTC
+
+Loaded 24 stores from data/freshmart/stores.parquet
+
+Stores loaded: 24
+Loaded store_flyers.parquet (440 publication entries)
+
+Phase 1: fetching publications per store…
+
+  [2401] Esterhazy Freshmart → ['8191840']
+  [3361] PoCo Freshmart → ['8191840']
+  [4028] Dildo Freshmart → ['8190176']
+  [4030] Warren's Store LTD → ['8190176']
+  [4032] Burton's Grocery Hardware → ['8190176']
+  [4043] Woodfors's LTD → ['8190176']
+  [4048] Yarmouth South Freshmart → ['8190176']
+  [4049] Cabot Trail Food Market R&W → ['8190176']
+  [4051] Cooper's Red & White → ['8190176']
+  [4055] Hartland Freshmart → ['8190176']
+  [4136] Neguac Freshmart → ['8190176']
+  [4148] Macpherson's Grocery R&W → ['8190176']
+  [4152] Comeauville Freshmart → ['8190176']
+  [4158] F J Shea & Sons Red &White → no new flyers
+  [4183] Grocery Cocagne Variety → no new flyers
+  [4192] Ingonish Freshmart → ['8190176']
+  [4216] Bala Freshmart → ['8190210']
+  [4227] Foster's Freshmart → ['8190210']
+  [4359] McClelland's Freshmart → no new flyers
+  [4383] North Central CO-OP → ['8190210']
+  [4693] Lansdowne Freshmart → ['8190210']
+  [4803] Bowers Freshmart → ['8190210']
+  [4804] Gordanier's Freshmart → ['8190210']
+  [4807] A & G Freshmart → no new flyers
+
+  20 new publication entries across 24 stores
+  3 unique new publication(s) to download
+  Appended 20 rows to data/freshmart/store_flyers.parquet
+New publication entries added to store_flyers.parquet: 20
+Unique new publications to download: 3
+
+Phase 2: fetching products for each new publication…
+
+  [8191840] Weekly Flyer  (2026-10-22T00:00:00-04:00 → 2026-10-28T23:59:59-04:00)
+    95 products
+  [8190176] Weekly Flyer  (2026-10-22T00:00:00-04:00 → 2026-10-28T23:59:59-04:00)
+    95 products
+  [8190210] Weekly Flyer  (2026-10-22T00:00:00-04:00 → 2026-10-28T23:59:59-04:00)
+    95 products
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 3
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-10-22 18:10:02 UTC
+Elapsed      : 0m 5s
+
+
+Done.  Verbose log → logs/freshmart/2026-10-22_verbose.log
+       Summary log → logs/freshmart/2026-10-22_summary.log
+
