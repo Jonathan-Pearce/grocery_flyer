@@ -1,0 +1,15 @@
+=== Foodland Flyer Fetch — 2026-10-22 ===
+Run started : 2026-10-22 18:13:11 UTC
+
+Stores loaded: 241
+New publication entries added to store_flyers.parquet: 182
+Unique new publications to download: 28
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 28
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-10-22 18:14:06 UTC
+Elapsed      : 0m 54s
+
