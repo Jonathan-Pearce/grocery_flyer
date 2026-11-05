@@ -1,0 +1,15 @@
+=== Metro Quebec Flyer Fetch — 2026-11-05 ===
+Run started : 2026-11-05 20:55:18 UTC
+
+Stores loaded: 182
+New flyer entries added to store_flyers.parquet : 364
+Unique new jobs to download                     : 2
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 2
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-11-05 20:56:21 UTC
+Elapsed      : 1m 2s
+
