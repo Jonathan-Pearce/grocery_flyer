@@ -1,0 +1,15 @@
+=== Maxi Flyer Fetch — 2026-11-05 ===
+Run started : 2026-11-05 20:45:39 UTC
+
+Stores loaded: 208
+New publication entries added to store_flyers.parquet: 404
+Unique new publications to download: 14
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 14
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-11-05 20:46:17 UTC
+Elapsed      : 0m 38s
+
