@@ -1,0 +1,55 @@
+=== Dominion Flyer Fetch — 2026-11-12 ===
+Run started : 2026-11-12 20:57:54 UTC
+
+Loaded 11 stores from data/dominion/stores.parquet
+
+Stores loaded: 11
+Loaded store_flyers.parquet (293 publication entries)
+
+Phase 1: fetching publications per store…
+
+  [906] Bay Roberts Dominion → ['8222765', '8224404']
+  [913] Carbonear Dominion → ['8222765', '8224404']
+  [922] Pearlgate Dominion → ['8222767', '8224400']
+  [923] Longpond Dominion → ['8222765', '8224404']
+  [924] Cabot Square Dominion → ['8222766', '8224402']
+  [925] Stephenville Dominion → ['8222765', '8224404']
+  [926] Corner Brook Dominion → ['8222765', '8224404']
+  [927] Gander Dominion → ['8222765', '8224404']
+  [928] Grand Falls Dominion → ['8222765', '8224404']
+  [934] Memorial Stadium Dominion → no new flyers
+  [935] Blackmarsh Road Dominion → ['8222767', '8224400']
+
+  20 new publication entries across 11 stores
+  6 unique new publication(s) to download
+  Appended 20 rows to data/dominion/store_flyers.parquet
+New publication entries added to store_flyers.parquet: 20
+Unique new publications to download: 6
+
+Phase 2: fetching products for each new publication…
+
+  [8222765] Weekly Flyer  (2026-11-12T00:00:00-05:00 → 2026-11-18T23:59:59-05:00)
+    359 products
+  [8224404] General Merchandise  (2026-11-12T00:00:00-05:00 → 2026-11-18T23:59:59-05:00)
+    88 products
+  [8222767] Weekly Flyer  (2026-11-12T00:00:00-05:00 → 2026-11-18T23:59:59-05:00)
+    365 products
+  [8224400] General Merchandise  (2026-11-12T00:00:00-05:00 → 2026-11-18T23:59:59-05:00)
+    112 products
+  [8222766] Weekly Flyer  (2026-11-12T00:00:00-05:00 → 2026-11-18T23:59:59-05:00)
+    363 products
+  [8224402] General Merchandise  (2026-11-12T00:00:00-05:00 → 2026-11-18T23:59:59-05:00)
+    88 products
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 6
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-11-12 20:57:57 UTC
+Elapsed      : 0m 3s
+
+
+Done.  Verbose log → logs/dominion/2026-11-12_verbose.log
+       Summary log → logs/dominion/2026-11-12_summary.log
+

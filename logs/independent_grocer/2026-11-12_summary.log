@@ -1,0 +1,15 @@
+=== Independent Grocer Flyer Fetch — 2026-11-12 ===
+Run started : 2026-11-12 20:57:57 UTC
+
+Stores loaded: 209
+New publication entries added to store_flyers.parquet: 166
+Unique new publications to download: 23
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 23
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-11-12 20:58:34 UTC
+Elapsed      : 0m 36s
+

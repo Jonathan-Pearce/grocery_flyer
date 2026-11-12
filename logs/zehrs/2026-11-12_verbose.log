@@ -1,0 +1,116 @@
+=== Zehrs Flyer Fetch — 2026-11-12 ===
+Run started : 2026-11-12 20:57:23 UTC
+
+Loaded 44 stores from data/zehrs/stores.parquet
+
+Stores loaded: 44
+Loaded store_flyers.parquet (1099 publication entries)
+
+Phase 1: fetching publications per store…
+
+  [26] TEST STORE → no new flyers
+  [500] Zehrs Clairfiled → ['8222286']
+  [505] Zehrs Bradford → ['8222286']
+  [507] Zehrs Essa Road → ['8222293']
+  [509] Zehrs Alliston → ['8222289']
+  [514] Zehrs Duckworth → ['8222289']
+  [515] Zehrs Hiway Centre → ['8222373']
+  [519] Zehrs Caledonia → ['8222289']
+  [520] Zehrs Keswick → ['8222289']
+  [521] Zehrs Malden Road → ['8222346']
+  [522] Zehrs Pen Centre → ['8222293']
+  [523] Zehrs Stanley Park → ['8222376']
+  [524] Zehrs Beechwood → ['8222393']
+  [525] Zehrs Glenridge → ['8222383']
+  [528] Zehrs Conestoga → ['8222385']
+  [529] Zehrs Parkway Mall → ['8222316']
+  [530] Zehrs Pioneer Park → ['8222367']
+  [531] Zehrs Hartsland → ['8222289']
+  [532] Zehrs Goderich → ['8222286']
+  [533] Zehrs Cambridge Cntr → ['8222397']
+  [535] Zehrs Listowel → ['8222289']
+  [536] Zehrs Geneva Street → ['8222289']
+  [537] Zehrs Niagara → ['8222302']
+  [538] Zehrs Eramosa → ['8222289']
+  [539] Zehrs Fergus → ['8222361']
+  [540] Zehrs Fairview → ['8222286']
+  [543] Zehrs King George → ['8222354']
+  [545] Zehrs Hespeler → ['8222385']
+  [550] Zehrs Welland → ['8222351']
+  [552] Zehrs Uxbridge → ['8222361']
+  [554] Zehrs Orangeville → ['8222289']
+  [557] Zehrs Stratford → ['8222293']
+  [558] Zehrs Bolton → no new flyers
+  [559] Zehrs Imperial → ['8222363']
+  [560] Zehrs Laurentian → ['8222378']
+  [563] Zehrs Owen Sound → ['8222354']
+  [565] Zehrs Big Bay Point → ['8222361']
+  [570] Zehrs Tillsonburg → ['8222354']
+  [572] Zehrs Kingsville → ['8222308']
+  [573] Zehrs St Clair Beach → ['8222286']
+  [576] Zehrs South Cambridge → ['8222395']
+  [579] Zehrs Woodstock → ['8222286']
+  [580] Zehrs Orillia → ['8222354']
+  [6583] Zehrs Bayfield → ['8222289']
+
+  42 new publication entries across 44 stores
+  20 unique new publication(s) to download
+  Appended 42 rows to data/zehrs/store_flyers.parquet
+New publication entries added to store_flyers.parquet: 42
+Unique new publications to download: 20
+
+Phase 2: fetching products for each new publication…
+
+  [8222286] Weekly Flyer  (2026-11-12T00:00:00-05:00 → 2026-11-18T23:59:59-05:00)
+    281 products
+  [8222293] Weekly Flyer  (2026-11-12T00:00:00-05:00 → 2026-11-18T23:59:59-05:00)
+    301 products
+  [8222289] Weekly Flyer  (2026-11-12T00:00:00-05:00 → 2026-11-18T23:59:59-05:00)
+    301 products
+  [8222373] Weekly Flyer  (2026-11-12T00:00:00-05:00 → 2026-11-18T23:59:59-05:00)
+    302 products
+  [8222346] Weekly Flyer  (2026-11-12T00:00:00-05:00 → 2026-11-18T23:59:59-05:00)
+    344 products
+  [8222376] Weekly Flyer  (2026-11-12T00:00:00-05:00 → 2026-11-18T23:59:59-05:00)
+    303 products
+  [8222393] Weekly Flyer  (2026-11-12T00:00:00-05:00 → 2026-11-18T23:59:59-05:00)
+    322 products
+  [8222383] Weekly Flyer  (2026-11-12T00:00:00-05:00 → 2026-11-18T23:59:59-05:00)
+    281 products
+  [8222385] Weekly Flyer  (2026-11-12T00:00:00-05:00 → 2026-11-18T23:59:59-05:00)
+    301 products
+  [8222316] Weekly Flyer  (2026-11-12T00:00:00-05:00 → 2026-11-18T23:59:59-05:00)
+    323 products
+  [8222367] Weekly Flyer  (2026-11-12T00:00:00-05:00 → 2026-11-18T23:59:59-05:00)
+    282 products
+  [8222397] Weekly Flyer  (2026-11-12T00:00:00-05:00 → 2026-11-18T23:59:59-05:00)
+    322 products
+  [8222302] Weekly Flyer  (2026-11-12T00:00:00-05:00 → 2026-11-18T23:59:59-05:00)
+    322 products
+  [8222361] Weekly Flyer  (2026-11-12T00:00:00-05:00 → 2026-11-18T23:59:59-05:00)
+    322 products
+  [8222354] Weekly Flyer  (2026-11-12T00:00:00-05:00 → 2026-11-18T23:59:59-05:00)
+    302 products
+  [8222351] Weekly Flyer  (2026-11-12T00:00:00-05:00 → 2026-11-18T23:59:59-05:00)
+    303 products
+  [8222363] Weekly Flyer  (2026-11-12T00:00:00-05:00 → 2026-11-18T23:59:59-05:00)
+    343 products
+  [8222378] Weekly Flyer  (2026-11-12T00:00:00-05:00 → 2026-11-18T23:59:59-05:00)
+    344 products
+  [8222308] Weekly Flyer  (2026-11-12T00:00:00-05:00 → 2026-11-18T23:59:59-05:00)
+    302 products
+  [8222395] Weekly Flyer  (2026-11-12T00:00:00-05:00 → 2026-11-18T23:59:59-05:00)
+    302 products
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 20
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-11-12 20:57:34 UTC
+Elapsed      : 0m 11s
+
+
+Done.  Verbose log → logs/zehrs/2026-11-12_verbose.log
+       Summary log → logs/zehrs/2026-11-12_summary.log
+
