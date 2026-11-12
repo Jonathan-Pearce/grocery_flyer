@@ -1,0 +1,15 @@
+=== Dominion Flyer Fetch — 2026-11-12 ===
+Run started : 2026-11-12 20:57:54 UTC
+
+Stores loaded: 11
+New publication entries added to store_flyers.parquet: 20
+Unique new publications to download: 6
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 6
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-11-12 20:57:57 UTC
+Elapsed      : 0m 3s
+
