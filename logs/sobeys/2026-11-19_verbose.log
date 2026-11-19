@@ -1,0 +1,337 @@
+=== Sobeys Flyer Fetch — 2026-11-19 ===
+Run started : 2026-11-19 21:30:05 UTC
+
+Loaded 267 stores from data/sobeys/stores.parquet
+
+Stores loaded: 267
+Loaded store_flyers.parquet (6747 publication entries)
+
+Phase 1: fetching publications per store…
+
+  [100] Sobeys Stellarton → ['8227612']
+  [175] Sobeys Wholesale Cash & Carry Saint John → no new flyers
+  [176] Sobeys Wholesale Cash & Carry Truro → no new flyers
+  [194] Sobeys Wholesale Cash & Carry Stellarton → no new flyers
+  [227] Sobeys Wholesale Cash & Carry Sydney → no new flyers
+  [232] Sobeys Pictou → ['8227612']
+  [233] Sobeys Lansdowne → ['8227613']
+  [235] Sobeys Wholesale Cash & Carry Corner Brook → no new flyers
+  [292] Sobeys Newcastle → ['8227613']
+  [320] Sobeys Torbay Road → ['8227617']
+  [321] Sobeys Spryfield → ['8227612']
+  [322] Sobeys Bridgewater → ['8227612']
+  [323] Sobeys Barrington Passage → ['8227612']
+  [328] Sobeys Glace Bay Reserve St → ['8227612']
+  [329] Sobeys Timberlea → ['8227612']
+  [340] Sobeys Topsail Road → ['8227617']
+  [348] Sobeys Mountain Road → ['8227616']
+  [349] Sobeys Brookside Mall → ['8227613']
+  [370] Sobeys Aberdeen Mall → ['8227612']
+  [375] Sobeys Uptown Centre → ['8227613']
+  [470] Sobeys New Waterford → ['8227612']
+  [495] Sobeys Rothesay → ['8227613']
+  [510] Sobeys North Sydney → ['8227612']
+  [515] Sobeys Dieppe Regis Street → ['8227616']
+  [520] Sobeys Shelburne → ['8227612']
+  [548] Sobeys East Point → ['8227613']
+  [551] Sobeys Paradise → ['8227617']
+  [552] Sobeys Clarenville → ['8227617']
+  [554] Sobeys Windsor Street → ['8227612']
+  [574] Sobeys Queen Street → ['8227612']
+  [580] Sobeys Bedford → ['8227612']
+  [586] Sobeys Cole Harbour → ['8227612']
+  [588] Sobeys Liverpool → ['8227612']
+  [590] Sobeys Long Pond → ['8227617']
+  [594] Sobeys Truro → ['8227612']
+  [596] Sobeys Antigonish → ['8227612']
+  [602] Sobeys Dieppe Paul Street → ['8227616']
+  [604] Sobeys Ropewalk Lane → ['8227617']
+  [612] Sobeys Yarmouth → ['8227612']
+  [621] Sobeys Stratford → ['8227614']
+  [622] Sobeys Panavista Drive → ['8227612']
+  [628] Sobeys Babineau Drive → ['8227614']
+  [630] Sobeys Sydney River → ['8227612']
+  [637] Sobeys Maple Grove → ['8230473']
+  [639] Sobeys Acton → ['8230472']
+  [640] Sobeys Woodstock → ['8227570']
+  [641] Sobeys Highland → ['8230470']
+  [642] Sobeys Grimsby → ['8230470']
+  [644] Sobeys Clayton Park → ['8227612']
+  [649] Sobeys Bridgeport → ['8230473']
+  [652] Sobeys West Side Plaza → ['8227612']
+  [657] Sobeys Ajax → no new flyers
+  [658] Sobeys Grand Falls → ['8227617']
+  [659] Sobeys Clark and Hilda → ['8228402']
+  [660] Sobeys Elmsdale → ['8227612']
+  [664] Sobeys Simcoe → ['8227574']
+  [667] Sobeys South Ajax → ['8230473']
+  [670] Sobeys Lower Sackville → ['8227612']
+  [672] Sobeys Windsor → ['8227612']
+  [678] Sobeys Cambridge → ['8230470']
+  [680] Sobeys Douglastown → ['8227613']
+  [681] Sobeys Kenmount Road → ['8227617']
+  [684] Sobeys Tantallon → ['8227612']
+  [685] Sobeys Ira Needles → ['8230473']
+  [694] Sobeys Extra Ancaster → ['8227570']
+  [695] Sobeys Urban Fresh Rosebury Square → ['8226414']
+  [704] Sobeys Port Hawkesbury → ['8227612']
+  [707] Sobeys North Park → ['8230473']
+  [709] Sobeys Shellard Lane → ['8230473']
+  [712] Sobeys Barrie → ['8230472']
+  [719] Sobeys Digby → ['8227615']
+  [721] Sobeys Montague → ['8227614']
+  [725] Sobeys Bedford South → ['8227612']
+  [728] Sobeys Prince Street Sydney → ['8227612']
+  [729] Sobeys Amherst → ['8227612']
+  [736] Sobeys Riverview → ['8227616']
+  [738] Sobeys Shediac → ['8227616']
+  [739] Sobeys Fall River → ['8227612']
+  [742] Sobeys Extra Burlington → ['8227574']
+  [743] Sobeys Extra Aurora → ['8227573']
+  [744] Sobeys St John’s Howley Estates → ['8227617']
+  [746] Sobeys Greenwood → ['8227612']
+  [747] Sobeys New Minas → ['8227612']
+  [752] Sobeys Sussex → ['8227613']
+  [754] Sobeys Campbellton → no new flyers
+  [756] Sobeys Vaughn Harvey → ['8227616']
+  [758] Sobeys Russell Lake → ['8227612']
+  [772] Sobeys Tacoma Drive → ['8227612']
+  [776] Sobeys Penhorn → ['8227612']
+  [777] Sobeys Glen Abbey → ['8230473']
+  [778] Sobeys Saint John West → ['8227613']
+  [783] Sobeys Elmwood Drive → ['8227616']
+  [788] Sobeys First Lake → ['8227612']
+  [792] Sobeys Marystown → ['8227617']
+  [794] Sobeys Vaughan → no new flyers
+  [806] Sobeys Wyse Road → ['8227612']
+  [819] Sobeys Urban Fresh High Park → ['8226414']
+  [832] Sobeys Brighton → ['8227574']
+  [846] Sobeys Woodstock → ['8227613']
+  [849] Sobeys Regent Street → ['8227613']
+  [851] Sobeys Whitby → ['8230470']
+  [852] Sobeys FischerHallman → ['8230473']
+  [855] Sobeys Mount Pearl → ['8227617']
+  [857] Sobeys St. John’s → ['8227617']
+  [859] Sobeys Beamsville → ['8227573']
+  [860] Sobeys Miramichi Road → ['8227613']
+  [861] Sobeys Cornerbrook → ['8227617']
+  [863] Sobeys North London → ['8227570']
+  [865] Sobeys Mayfield → ['8230473']
+  [868] Sobeys Granville Street → ['8227614']
+  [870] Sobeys University Avenue → ['8227614']
+  [871] Sobeys Truro Prince Street → ['8227612']
+  [873] Sobeys St. Clair Beach → ['8227573']
+  [878] Sobeys Columbia → ['8230473']
+  [881] Sobeys Mumford Road → ['8227612']
+  [892] Sobeys Bathurst → ['8227616']
+  [915] Sobeys Niagara Falls → ['8230473']
+  [916] Sobeys Scott and Niagara → ['8230472']
+  [925] Sobeys Oshawa → ['8230472']
+  [928] Sobeys Jefferson Square → ['8230472']
+  [930] Sobeys Urban Fresh – Bathurst & Bloor → no new flyers
+  [933] Sobeys Urban Fresh Yonge and Ballio → ['8226414']
+  [934] Sobeys Urban Fresh Spadina → ['8226414']
+  [938] Sobeys Danforth → ['8230470']
+  [939] Sobeys Dupont → no new flyers
+  [1066] Sobeys Thickwood → no new flyers
+  [1072] Sobeys Beaumaris → ['8227115']
+  [1130] Sobeys Okotoks → ['8227115']
+  [1135] Medicine Hat → no new flyers
+  [1141] Sobeys McKenzie Towne → ['8227115']
+  [1514] Sherwood Park → no new flyers
+  [3012] Sobeys Millwoods → ['8227115']
+  [3013] Sobeys Meadowbrook → ['8227115']
+  [3024] Sobeys College Plaza (Edm) → no new flyers
+  [3038] Sobeys Invermere → ['8227115']
+  [3081] Sobeys Upland → ['8227115']
+  [3095] Sobeys Thickwood → no new flyers
+  [3096] Sobeys Clearwater → no new flyers
+  [3112] Sobeys Cold Lake → ['8227115']
+  [3149] Sobeys Rocky Mtn House → ['8227115']
+  [3158] Sobeys Bonnyville → ['8227115']
+  [3189] Sobeys Newcastle → no new flyers
+  [3219] Sobeys Birds Hill → ['8227116']
+  [3221] Sobeys College Park → no new flyers
+  [3226] Sobeys St. Vital → ['8227116']
+  [3232] Sobeys Rivergrove → no new flyers
+  [3699] Fort McMurray → no new flyers
+  [3701] Sherwood Park → no new flyers
+  [4016] Sobeys March Road → ['8230473']
+  [4017] Sobeys Parry Sound → ['8227573']
+  [4018] Sobeys Amherstburg → ['8227573']
+  [4020] Sobeys Reenders → ['8227116']
+  [4021] Sobeys Kenaston → ['8227116']
+  [4025] Sobeys Silverado → ['8227115']
+  [4027] Sobeys Forest Lawn → ['8227115']
+  [4028] Sobeys Sylvan Lake → ['8227115']
+  [4029] Sobeys Portage La Prairie → ['8227116']
+  [4030] Sobeys Unicity → ['8227116']
+  [4031] Sobeys Lacombe → ['8227115']
+  [4032] Sobeys Airdrie → ['8227115']
+  [4033] Sobeys Namao → ['8227115']
+  [4045] Sobeys Cornerstone → ['8227115']
+  [4048] Sobeys St. Anne’s → ['8227116']
+  [4049] Sobeys Clearwater → ['8227115']
+  [4053] Sobeys Bridlewood → ['8227115']
+  [4054] Sobeys Grant Park → ['8227116']
+  [4055] Sobeys Spruce Grove → ['8227115']
+  [4056] Sobeys Gaetz South → ['8227115']
+  [4058] Sobeys University Park → ['8227117']
+  [4059] Sobeys Southbrook → ['8227115']
+  [4060] Sobeys Royal Oak → ['8227115']
+  [4061] Sobeys Stettler → ['8227115']
+  [4062] Sobeys Paris → ['8230473']
+  [4064] Sobeys Glendale and Merritt → ['8230472']
+  [4065] Sobeys Stonebridge → ['8227117']
+  [4066] Sobeys West District → ['8227115']
+  [4072] Sobeys Village Mall → no new flyers
+  [4105] Sobeys Gravenhurst → ['8227574']
+  [4110] Sobeys Stratford → no new flyers
+  [4116] Sobeys Chatham → ['8227574']
+  [4152] Trim & Innes → no new flyers
+  [4154] Sobeys Trim and Innes → ['8230471']
+  [4155] Sobeys Extra Oxford and Wonderland → ['8227573']
+  [4160] Sobeys Algonquin → ['8227573']
+  [4163] Sobeys Blenheim → ['8227570']
+  [4164] Sobeys Angus → ['8230473']
+  [4167] Sobeys Orleans → ['8230471']
+  [4174] Sobeys New Hamburg → ['8230470']
+  [4175] Sobeys Kincardine → ['8227573']
+  [4176] Sobeys Bradford → ['8230473']
+  [4179] Sobeys Fenelon Falls → ['8227573']
+  [4575] Fredericton → no new flyers
+  [4712] Sobeys Tillsonburg → ['8227573']
+  [4719] Sobeys Extra Milton → ['8227573']
+  [4723] Sobeys Urban Fresh Café → no new flyers
+  [4726] Sobeys Laird and Wicksteed → no new flyers
+  [4728] Sobeys Todmorden → ['8230470']
+  [4729] Sobeys Northfield → ['8230473']
+  [4735] Sobeys Port Colborne → ['8230470']
+  [4737] Sobeys – Stone Church → ['8230473']
+  [4739] Sobeys Grand Bend → ['8227570']
+  [4740] Sobeys Dunnville → ['8227570']
+  [4743] Sobeys Urban Fresh Bloor & Islington → ['8227571', '8226414']
+  [4747] Sobeys Fort Erie → ['8230472']
+  [4761] Sobeys Sutton → ['8230470']
+  [4875] Sobeys Sage Creek → ['8227116']
+  [4876] Sobeys Thickwood → ['8227115']
+  [4978] Sobeys Newcastle → ['8227115']
+  [4984] Sobeys Legacy → ['8227115']
+  [5006] Fort McMurray → no new flyers
+  [5037] Sobeys Pembina → ['8227116']
+  [5040] Sherwood Park → no new flyers
+  [5064] Sobeys Millrise → ['8227115']
+  [5068] Sobeys Morinville → ['8227115']
+  [5070] Sobeys Hollick Kenyon → ['8227115']
+  [5074] Sobeys Cranston → ['8227115']
+  [5076] Sobeys Beaumont → ['8227115']
+  [5077] Sobeys Lloydminster → ['8227115']
+  [5081] Sobeys Estevan → ['8227117']
+  [5085] Sobeys Tuscany → ['8227115']
+  [5088] Sobeys - Unicity → no new flyers
+  [5089] Sobeys Reenders → no new flyers
+  [5093] Sobeys Preston → ['8227117']
+  [5098] Sobeys Steinbach → ['8227116']
+  [5109] Sobeys West End → ['8227116']
+  [5167] Sobeys Northdale → ['8227116']
+  [5170] Sobeys Varsity Common → ['8227117']
+  [5176] Sobeys Gimli → ['8227116']
+  [5189] Sobeys High River → ['8227115']
+  [5190] Sobeys Walker → ['8227115']
+  [5191] Sobeys Nolan Hill → ['8227115']
+  [5199] Medicine Hat → no new flyers
+  [5382] Sobeys Kildonan → ['8227116']
+  [5386] Sobeys Mahogany → ['8227115']
+  [5387] Sobeys Riverbend → ['8227115']
+  [5395] Sobeys Humboldt → no new flyers
+  [5436] Sobeys Olds → ['8227115']
+  [5460] Kelowna → no new flyers
+  [5462] Sobeys Strathcona Square → ['8227115']
+  [5463] Sobeys Albert Street → no new flyers
+  [5469] Sobeys Brandon South → no new flyers
+  [5472] Sobeys Rochdale → ['8227117']
+  [5473] Sobeys St. Albert → ['8227115']
+  [5478] Sobeys Westlock → no new flyers
+  [5479] Sobeys Strathmore → ['8227115']
+  [5489] Sobeys Country Hills → ['8227115']
+  [5493] Sobeys Slave Lake → ['8227115']
+  [5495] Sobeys St. Paul → ['8227115']
+  [5499] Sobeys - Sage Creek → no new flyers
+  [5557] Sobeys Wholesale Cash & Carry Winnipeg → no new flyers
+  [6712] Sobeys Towerhill → ['8227573']
+  [6713] Sobeys Peterborough → ['8227574']
+  [6715] Sobeys Fonthill → ['8230470']
+  [6729] Sobeys South Pelham → ['8230470']
+  [7368] Sobeys Alcona Beach → ['8230472']
+  [7383] Sobeys Queensway → ['8230473']
+  [7466] Sobeys Orangeville → ['8230473']
+  [8812] Safeway Calgary → no new flyers
+  [8823] #20, 1818 Centre Street NE → no new flyers
+  [9503] Sobeys Gaetz South → no new flyers
+  [9506] Sobeys Lakeland Ridge → no new flyers
+  [9507] Sobeys Nottingham → no new flyers
+  [9510] Sobeys Belmont → no new flyers
+  [9517] Sobeys North Battleford → ['8227117']
+  [9518] Sobeys Brandon South → ['8227116']
+  [9522] Sobeys Edson → ['8227115']
+  [9529] Sobeys Belmont → ['8227115']
+
+  223 new publication entries across 267 stores
+  19 unique new publication(s) to download
+  Appended 223 rows to data/sobeys/store_flyers.parquet
+New publication entries added to store_flyers.parquet: 223
+Unique new publications to download: 19
+
+Phase 2: fetching products for each new publication…
+
+  [8227612] Weekly Flyer- Atlantic  (2026-11-19T00:00:00-05:00 → 2026-11-25T22:59:59-05:00)
+    327 products
+  [8227613] Weekly Flyer- Atlantic  (2026-11-19T00:00:00-05:00 → 2026-11-25T22:59:59-05:00)
+    337 products
+  [8227617] Weekly Flyer- Atlantic  (2026-11-19T00:00:00-05:00 → 2026-11-25T22:59:59-05:00)
+    326 products
+  [8227616] Weekly Flyer- Atlantic  (2026-11-19T00:00:00-05:00 → 2026-11-25T22:59:59-05:00)
+    337 products
+  [8227614] Weekly Flyer- Atlantic  (2026-11-19T00:00:00-05:00 → 2026-11-25T22:59:59-05:00)
+    327 products
+  [8230473] Weekly Flyer - Ontario  (2026-11-19T00:00:00-05:00 → 2026-11-25T23:59:59-05:00)
+    348 products
+  [8230472] Weekly Flyer - Ontario  (2026-11-19T00:00:00-05:00 → 2026-11-25T23:59:59-05:00)
+    349 products
+  [8227570] Weekly Flyer - Ontario  (2026-11-19T00:00:00-05:00 → 2026-11-25T23:59:59-05:00)
+    338 products
+  [8230470] Weekly Flyer - Ontario  (2026-11-19T00:00:00-05:00 → 2026-11-25T23:59:59-05:00)
+    339 products
+  [8228402] Weekly Flyer - Kosher  (2026-11-19T00:00:00-05:00 → 2026-11-25T23:59:59-05:00)
+    68 products
+  [8227574] Weekly Flyer - Ontario  (2026-11-19T00:00:00-05:00 → 2026-11-25T23:59:59-05:00)
+    347 products
+  [8226414] Weekly Flyer - Urban Fresh  (2026-11-19T00:00:00-05:00 → 2026-11-25T23:59:59-05:00)
+    43 products
+  [8227615] Weekly Flyer- Atlantic  (2026-11-19T00:00:00-05:00 → 2026-11-25T22:59:59-05:00)
+    327 products
+  [8227573] Weekly Flyer - Ontario  (2026-11-19T00:00:00-05:00 → 2026-11-25T23:59:59-05:00)
+    348 products
+  [8227115] Weekly Flyer - West  (2026-11-19T02:00:00-05:00 → 2026-11-25T23:59:59-05:00)
+    329 products
+  [8227116] Weekly Flyer - West  (2026-11-19T02:00:00-05:00 → 2026-11-25T23:59:59-05:00)
+    324 products
+  [8227117] Weekly Flyer - West  (2026-11-19T02:00:00-05:00 → 2026-11-25T23:59:59-05:00)
+    325 products
+  [8230471] Weekly Flyer - Ontario  (2026-11-19T00:00:00-05:00 → 2026-11-25T23:59:59-05:00)
+    339 products
+  [8227571] Weekly Flyer - Ontario  (2026-11-19T00:00:00-05:00 → 2026-11-25T23:59:59-05:00)
+    338 products
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 19
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-11-19 21:30:47 UTC
+Elapsed      : 0m 42s
+
+
+Done.  Verbose log → logs/sobeys/2026-11-19_verbose.log
+       Summary log → logs/sobeys/2026-11-19_summary.log
+

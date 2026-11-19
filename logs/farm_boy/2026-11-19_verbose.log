@@ -1,0 +1,86 @@
+=== Farm Boy Flyer Fetch — 2026-11-19 ===
+Run started : 2026-11-19 21:33:04 UTC
+
+Loaded 52 stores from data/farm_boy/stores.parquet
+
+Stores loaded: 52
+Loaded store_flyers.parquet (1300 publication entries)
+
+Phase 1: fetching publications per store…
+
+  [1] Cornwall → ['8229471']
+  [4] Nepean → ['8229471']
+  [5] Hillside → ['8229471']
+  [6] Terry Fox → ['8229471']
+  [7] Blossom Park → ['8229471']
+  [8] Orléans → ['8229471']
+  [9] Barrhaven → ['8229471']
+  [10] Blue Heron → ['8229471']
+  [11] Kanata Signature Centre → ['8229471']
+  [14] Britannia → ['8229471']
+  [16] Place d'Orléans → ['8229471']
+  [17] Kingston → ['8229471']
+  [18] Train Yards → ['8229471']
+  [19] London → ['8229471']
+  [20] London - Fanshawe → ['8229471']
+  [21] Beaverbrook → ['8229471']
+  [22] Whitby → ['8229471']
+  [23] Fairway Plaza → ['8229471']
+  [24] Brantford → ['8229471']
+  [25] Farm Boy McRae Avenue → ['8229471']
+  [26] Cambridge → ['8229471']
+  [27] Pickering → ['8229471']
+  [28] Etobicoke → ['8229471']
+  [29] Ottawa Rideau → ['8229471']
+  [30] Hamilton → ['8229471']
+  [31] Oakwoods Centre → ['8229471']
+  [32] Lakeshore Blvd E → ['8229471']
+  [33] Burlington → ['8229471']
+  [34] St.Catharines → ['8229471']
+  [35] Metcalfe - Ottawa → ['8229471']
+  [36] Newmarket → ['8229471']
+  [37] Toronto - Bay & College → ['8229471']
+  [38] Toronto – Yonge & Soudan → ['8229471']
+  [39] Waterloo → ['8229471']
+  [40] Toronto Front & Bathurst → ['8229471']
+  [41] Richmond Hill → ['8229471']
+  [42] Farm Boy Harbourfront → ['8229471']
+  [43] Greenbank → ['8229471']
+  [44] Oakville - Bronte → ['8229471']
+  [45] Farm Boy Aukland → ['8229471']
+  [46] Dupont & Christie → ['8229471']
+  [47] Stone Road Guelph → ['8229471']
+  [48] Barrie → ['8229471']
+  [49] St. Clair → ['8229471']
+  [50] Aurora → ['8229471']
+  [51] Toronto - Sugar Wharf → ['8229471']
+  [52] Oshawa → ['8229471']
+  [54] Port Credit → ['8229471']
+  [55] Burlington South → ['8229471']
+  [56] Laird Drive → ['8229471']
+  [57] Hazeldean → ['8229471']
+  [58] Collingwood → ['8229471']
+
+  52 new publication entries across 52 stores
+  1 unique new publication(s) to download
+  Appended 52 rows to data/farm_boy/store_flyers.parquet
+New publication entries added to store_flyers.parquet: 52
+Unique new publications to download: 1
+
+Phase 2: fetching products for each new publication…
+
+  [8229471] Weekly  (2026-11-19T00:00:00-05:00 → 2026-11-25T23:59:59-05:00)
+    91 products
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 1
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-11-19 21:33:12 UTC
+Elapsed      : 0m 7s
+
+
+Done.  Verbose log → logs/farm_boy/2026-11-19_verbose.log
+       Summary log → logs/farm_boy/2026-11-19_summary.log
+
