@@ -1,0 +1,59 @@
+=== Dominion Flyer Fetch — 2026-11-19 ===
+Run started : 2026-11-19 21:29:21 UTC
+
+Loaded 11 stores from data/dominion/stores.parquet
+
+Stores loaded: 11
+Loaded store_flyers.parquet (313 publication entries)
+
+Phase 1: fetching publications per store…
+
+  [906] Bay Roberts Dominion → ['8228577', '8228672']
+  [913] Carbonear Dominion → ['8228577', '8228672']
+  [922] Pearlgate Dominion → ['8228580', '8228686']
+  [923] Longpond Dominion → ['8228578', '8228672']
+  [924] Cabot Square Dominion → ['8228579', '8228683']
+  [925] Stephenville Dominion → ['8228578', '8228679']
+  [926] Corner Brook Dominion → ['8228578', '8228679']
+  [927] Gander Dominion → ['8228578', '8228672']
+  [928] Grand Falls Dominion → ['8228578', '8228672']
+  [934] Memorial Stadium Dominion → no new flyers
+  [935] Blackmarsh Road Dominion → ['8228580', '8228686']
+
+  20 new publication entries across 11 stores
+  8 unique new publication(s) to download
+  Appended 20 rows to data/dominion/store_flyers.parquet
+New publication entries added to store_flyers.parquet: 20
+Unique new publications to download: 8
+
+Phase 2: fetching products for each new publication…
+
+  [8228577] Weekly Flyer  (2026-11-19T00:00:00-05:00 → 2026-11-25T23:59:59-05:00)
+    317 products
+  [8228672] General Merchandise  (2026-11-19T00:00:00-05:00 → 2026-11-26T23:59:59-05:00)
+    99 products
+  [8228580] Weekly Flyer  (2026-11-19T00:00:00-05:00 → 2026-11-25T23:59:59-05:00)
+    337 products
+  [8228686] General Merchandise  (2026-11-19T00:00:00-05:00 → 2026-11-26T23:59:59-05:00)
+    151 products
+  [8228578] Weekly Flyer  (2026-11-19T00:00:00-05:00 → 2026-11-25T23:59:59-05:00)
+    333 products
+  [8228579] Weekly Flyer  (2026-11-19T00:00:00-05:00 → 2026-11-25T23:59:59-05:00)
+    334 products
+  [8228683] General Merchandise  (2026-11-19T00:00:00-05:00 → 2026-11-26T23:59:59-05:00)
+    129 products
+  [8228679] General Merchandise  (2026-11-19T00:00:00-05:00 → 2026-11-26T23:59:59-05:00)
+    103 products
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 8
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-11-19 21:29:24 UTC
+Elapsed      : 0m 3s
+
+
+Done.  Verbose log → logs/dominion/2026-11-19_verbose.log
+       Summary log → logs/dominion/2026-11-19_summary.log
+
