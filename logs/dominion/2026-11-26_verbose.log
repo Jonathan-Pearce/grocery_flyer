@@ -1,0 +1,59 @@
+=== Dominion Flyer Fetch — 2026-11-26 ===
+Run started : 2026-11-26 22:26:03 UTC
+
+Loaded 11 stores from data/dominion/stores.parquet
+
+Stores loaded: 11
+Loaded store_flyers.parquet (333 publication entries)
+
+Phase 1: fetching publications per store…
+
+  [906] Bay Roberts Dominion → ['8235605', '8236788', '8238882']
+  [913] Carbonear Dominion → ['8235605', '8236788', '8238882']
+  [922] Pearlgate Dominion → ['8235610', '8236790', '8238882']
+  [923] Longpond Dominion → ['8235605', '8236788', '8238882']
+  [924] Cabot Square Dominion → ['8235608', '8236794', '8238882']
+  [925] Stephenville Dominion → ['8235605', '8236792', '8238882']
+  [926] Corner Brook Dominion → ['8235605', '8236792', '8238882']
+  [927] Gander Dominion → ['8235605', '8236788', '8238882']
+  [928] Grand Falls Dominion → ['8235605', '8236788', '8238882']
+  [934] Memorial Stadium Dominion → ['8238882']
+  [935] Blackmarsh Road Dominion → ['8235610', '8236790', '8238882']
+
+  31 new publication entries across 11 stores
+  8 unique new publication(s) to download
+  Appended 31 rows to data/dominion/store_flyers.parquet
+New publication entries added to store_flyers.parquet: 31
+Unique new publications to download: 8
+
+Phase 2: fetching products for each new publication…
+
+  [8235605] Weekly Flyer  (2026-11-26T00:00:00-05:00 → 2026-12-02T23:59:59-05:00)
+    329 products
+  [8236788] General Merchandise  (2026-11-27T00:00:00-05:00 → 2026-12-02T23:59:59-05:00)
+    80 products
+  [8238882] General Merchandise  (2026-11-26T00:00:00-05:00 → 2027-06-30T23:59:59-04:00)
+    91 products
+  [8235610] Weekly Flyer  (2026-11-26T00:00:00-05:00 → 2026-12-02T23:59:59-05:00)
+    332 products
+  [8236790] General Merchandise  (2026-11-27T00:00:00-05:00 → 2026-12-02T23:59:59-05:00)
+    105 products
+  [8235608] Weekly Flyer  (2026-11-26T00:00:00-05:00 → 2026-12-02T23:59:59-05:00)
+    330 products
+  [8236794] General Merchandise  (2026-11-27T00:00:00-05:00 → 2026-12-02T23:59:59-05:00)
+    96 products
+  [8236792] General Merchandise  (2026-11-27T00:00:00-05:00 → 2026-12-02T23:59:59-05:00)
+    84 products
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 8
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-11-26 22:26:06 UTC
+Elapsed      : 0m 2s
+
+
+Done.  Verbose log → logs/dominion/2026-11-26_verbose.log
+       Summary log → logs/dominion/2026-11-26_summary.log
+

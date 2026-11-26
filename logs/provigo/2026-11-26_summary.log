@@ -1,0 +1,15 @@
+=== Provigo Flyer Fetch — 2026-11-26 ===
+Run started : 2026-11-26 22:24:26 UTC
+
+Stores loaded: 76
+New publication entries added to store_flyers.parquet: 91
+Unique new publications to download: 3
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 3
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-11-26 22:24:38 UTC
+Elapsed      : 0m 12s
+
