@@ -1,0 +1,123 @@
+=== Atlantic Superstore Flyer Fetch — 2026-11-26 ===
+Run started : 2026-11-26 22:25:51 UTC
+
+Loaded 67 stores from data/atlantic_superstore/stores.parquet
+
+Stores loaded: 67
+Loaded store_flyers.parquet (1683 publication entries)
+
+Phase 1: fetching publications per store…
+
+  [38] Testing Store → ['8239041']
+  [309] Antigonish Superstore → ['8235603', '8235691', '8239041']
+  [311] Millidgeville Superstore → ['8235601', '8235687', '8239041']
+  [312] Amherst Superstore → ['8235603', '8235691', '8239041']
+  [313] Tantallon Superstore → ['8235603', '8235691', '8239041']
+  [314] Summerside Superstore → ['8235603', '8235691', '8239041']
+  [315] Oromocto Superstore → ['8235601', '8235687', '8239041']
+  [316] Tracadie Superstore → ['8235603', '8235691', '8239041']
+  [317] Port Hawkesbury Superstore → ['8235601', '8235687', '8239041']
+  [318] Kingston Superstore → ['8235603', '8235691', '8239041']
+  [321] North Sydney Superstore → ['8235601', '8235687', '8239041']
+  [325] Edmundston Superstore → no new flyers
+  [326] Trinity  Superstore → ['8235602', '8235683', '8239041']
+  [329] Nashwaaksis Superstore → ['8235601', '8235687', '8239041']
+  [331] Liverpool Superstore → ['8235602', '8235689', '8239041']
+  [332] Miramichi Superstore → ['8235601', '8235687', '8239041']
+  [336] Truro Superstore → ['8235601', '8235687', '8239041']
+  [337] Bridgewater Superstore → ['8235603', '8235691', '8239041']
+  [339] Digby Superstore → ['8235601', '8235687', '8239041']
+  [341] Fredericton Superstore → ['8235603', '8235691', '8239041']
+  [344] New Minas Superstore → ['8235601', '8235687', '8239041']
+  [350] Moncton Superstore → ['8235603', '8235685', '8239041']
+  [351] Lower Sackville Superstore → ['8235603', '8235685', '8239041']
+  [352] Dartmouth Superstore → ['8235603', '8235691', '8239041']
+  [353] Saint John Superstore → ['8235603', '8235685', '8239041']
+  [354] HaliFax Superstore → ['8235601', '8235687', '8239041']
+  [357] Bathurst Superstore → ['8235599', '8235685', '8239041']
+  [358] Bayers Lake Superstore → ['8235603', '8235685', '8239041']
+  [359] Chatham Superstore → ['8235601', '8235681', '8239041']
+  [361] Riverview Superstore → ['8235603', '8235685', '8239041']
+  [362] Atholville Superstore → ['8235603', '8235685', '8239041']
+  [364] Kennebecasis Valley Market → ['8235603', '8235691', '8239041']
+  [366] St. Stephen Superstore → ['8235601', '8235687', '8239041']
+  [367] Porter's Lake Superstore → ['8235601', '8235687', '8239041']
+  [368] New Glasgow Superstore → ['8235603', '8235691', '8239041']
+  [369] Barrington St. Superstore → ['8235601', '8235687', '8239041']
+  [372] Yarmouth Superstore → ['8235603', '8235691', '8239041']
+  [373] Sydney River Superstore → ['8235601', '8235687', '8239041']
+  [374] Woodstock Superstore → ['8235603', '8235691', '8239041']
+  [375] Elmsdale Superstore → ['8235601', '8235687', '8239041']
+  [376] Charlottetown Superstore → ['8235602', '8235683', '8239041']
+  [377] Windsor Superstore → ['8235601', '8235681', '8239041']
+  [378] BedFord Superstore → ['8235603', '8235691', '8239041']
+  [379] Joseph Howe Superstore → ['8235600', '8235685', '8239041']
+  [380] Braemar Drive Superstore → ['8235601', '8235687', '8239041']
+  [383] Quinpool Superstore → ['8235601', '8235687', '8239041']
+  [384] Cole Harbour Superstore → ['8235601', '8235687', '8239041']
+  [385] Glace Bay Superstore → ['8235601', '8235687', '8239041']
+  [386] West Royalty Superstore → ['8235601', '8235681', '8239041']
+  [388] Montague Superstore → ['8235601', '8235681', '8239041']
+  [389] Sussex Superstore → ['8235603', '8235691', '8239041']
+  [396] Grand Falls Superstore → ['8235603', '8235691', '8239041']
+  [626] Daniel's YIG St George → ['8239041']
+  [685] Francis' YIG Lunenburg → ['8239041']
+  [906] Bay Roberts Dominion → ['8239041']
+  [913] Carbonear Dominion → ['8239041']
+  [922] Pearlgate Dominion → ['8239041']
+  [923] Longpond Dominion → ['8239041']
+  [924] Cabot Square Dominion → ['8239041']
+  [925] Stephenville Dominion → ['8239041']
+  [926] Corner Brook Dominion → ['8239041']
+  [927] Gander Dominion → ['8239041']
+  [928] Grand Falls Dominion → ['8239041']
+  [934] Memorial Stadium Dominion → ['8239041']
+  [935] Blackmarsh Road Dominion → ['8239041']
+  [2552] Bedford West → ['8235601', '8235687', '8239041']
+  [7526] RASS DIEPPE → ['8235601', '8235687', '8239041']
+
+  170 new publication entries across 67 stores
+  12 unique new publication(s) to download
+  Appended 170 rows to data/atlantic_superstore/store_flyers.parquet
+New publication entries added to store_flyers.parquet: 170
+Unique new publications to download: 12
+
+Phase 2: fetching products for each new publication…
+
+  [8239041] General Merchandise  (2026-11-26T00:00:00-05:00 → 2027-06-30T23:59:59-04:00)
+    94 products
+  [8235603] Weekly Flyer  (2026-11-26T00:00:00-05:00 → 2026-12-02T22:59:59-05:00)
+    335 products
+  [8235691] General Merchandise  (2026-11-27T00:00:00-05:00 → 2026-12-02T22:59:59-05:00)
+    109 products
+  [8235601] Weekly Flyer  (2026-11-26T00:00:00-05:00 → 2026-12-02T22:59:59-05:00)
+    332 products
+  [8235687] General Merchandise  (2026-11-27T00:00:00-05:00 → 2026-12-02T22:59:59-05:00)
+    83 products
+  [8235602] Weekly Flyer  (2026-11-26T00:00:00-05:00 → 2026-12-02T22:59:59-05:00)
+    333 products
+  [8235683] General Merchandise  (2026-11-27T00:00:00-05:00 → 2026-12-02T22:59:59-05:00)
+    99 products
+  [8235689] General Merchandise  (2026-11-27T00:00:00-05:00 → 2026-12-02T22:59:59-05:00)
+    95 products
+  [8235685] General Merchandise  (2026-11-27T00:00:00-05:00 → 2026-12-02T22:59:59-05:00)
+    113 products
+  [8235599] Weekly Flyer  (2026-11-26T00:00:00-05:00 → 2026-12-02T22:59:59-05:00)
+    334 products
+  [8235681] General Merchandise  (2026-11-27T00:00:00-05:00 → 2026-12-02T22:59:59-05:00)
+    87 products
+  [8235600] Weekly Flyer  (2026-11-26T00:00:00-05:00 → 2026-12-02T22:59:59-05:00)
+    348 products
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 12
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-11-26 22:26:03 UTC
+Elapsed      : 0m 12s
+
+
+Done.  Verbose log → logs/atlantic_superstore/2026-11-26_verbose.log
+       Summary log → logs/atlantic_superstore/2026-11-26_summary.log
+

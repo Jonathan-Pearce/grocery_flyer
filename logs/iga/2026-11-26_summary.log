@@ -1,0 +1,15 @@
+=== IGA Flyer Fetch — 2026-11-26 ===
+Run started : 2026-11-26 22:27:56 UTC
+
+Stores loaded: 271
+New publication entries added to store_flyers.parquet: 525
+Unique new publications to download: 16
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 16
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-11-26 22:28:40 UTC
+Elapsed      : 0m 44s
+

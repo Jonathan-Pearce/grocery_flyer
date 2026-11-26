@@ -1,0 +1,114 @@
+=== Provigo Flyer Fetch — 2026-11-26 ===
+Run started : 2026-11-26 22:24:26 UTC
+
+Loaded 76 stores from data/provigo/stores.parquet
+
+Stores loaded: 76
+Loaded store_flyers.parquet (479 publication entries)
+
+Phase 1: fetching publications per store…
+
+  [3741] Provigo St-Michel des Saints → ['8238910']
+  [3752] Provigo Mtl, Laurendeau → ['8238910']
+  [4772] Provigo Mtl, Cavendish → ['8235541', '8238910']
+  [5290] Décarie → ['8235541', '8238910']
+  [7039] Provigo Quebec, 1ière Avenue → ['8238910']
+  [7042] Provigo Mtl, St-Laurent Prieur → ['8238910']
+  [7043] Provigo Mtl, Beaubien → ['8238910']
+  [7073] Provigo Sillery → ['8238910']
+  [7115] Provigo Le Marché Boucherville → ['8235541', '8238910']
+  [7116] Provigo Marieville → ['8238910']
+  [7120] Provigo Gatineau Maloney → ['8238910']
+  [7149] Liège → ['8238910']
+  [7157] Provigo Varennes → ['8238910']
+  [7163] Provigo Mtl, Henri-Bourassa → ['8238910']
+  [7165] Gatineau St-Joseph → ['8238910']
+  [7195] Provigo Le Marché Ville Mont-Royal → ['8235541', '8238910']
+  [7196] Provigo le Marché Pierrefonds → ['8238910']
+  [7198] Provigo le Marché Longueuil → ['8235541', '8238910']
+  [7199] Provigo Hull → ['8238910']
+  [7287] Provigo Le Marché Charlesbourg → ['8238910']
+  [7288] Provigo Montreal Rachel → no new flyers
+  [7293] Provigo Le Marché St-Bruno → ['8235541', '8238910']
+  [7295] Provigo Le Marché Sherbrooke, Cité du Parc → ['8235541', '8238910']
+  [7297] PLM Lefebvre Montreal Canadien → ['8235541', '8238910']
+  [7454] Provigo Sherbrooke, Galt → ['8238910']
+  [7599] Provigo Le Marché Magog → ['8235544', '8238910']
+  [7606] Provigo Le Marché Kirkland → ['8235541', '8238910']
+  [7907] Provigo Mtl, Ave du Parc → ['8235541', '8238910']
+  [7908] Provigo Le Marché Aylmer → ['8235541', '8238910']
+  [7910] Provigo Le Marché St-Sauveur → ['8235541', '8238910']
+  [8013] Provigo Ville-Marie → ['8238910']
+  [8028] Provigo Ste-Anne des Plaines → ['8238910']
+  [8037] Provigo St-Jacques Montcalm → ['8238910']
+  [8038] Provigo Beauport Seigneurial → ['8238910']
+  [8040] Provigo Gaspé → ['8238910']
+  [8068] Provigo Ville Des Laurentides → ['8238910']
+  [8075] Provigo Laval, René Laennec → ['8238910']
+  [8123] Provigo St-Foy, St-Louis → ['8238910']
+  [8143] Provigo Ste-Foy, Quatre-bourgeois → ['8238910']
+  [8382] Provigo Lennoxville → ['8238910']
+  [8441] Provigo Baie D`Urfé → ['8238910']
+  [8445] Provigo Le Marché Chicoutimi → ['8238910']
+  [8452] Provigo le Marché Pierrefonds → ['8238910']
+  [8457] Provigo Ste-Foy, Myrand → ['8238910']
+  [8460] Provigo LaSalle → ['8238910']
+  [8463] Provigo Granby, Leclerc → ['8238910']
+  [8489] Provigo St-Raymond → ['8238910']
+  [8490] Provigo Windsor → ['8238910']
+  [8537] Provigo Baie Comeau, Lasalle → ['8238910']
+  [8543] Provigo La Malbaie → ['8238910']
+  [8549] Provigo Le Gardeur → ['8238910']
+  [8593] Provigo Côteau-du-Lac → ['8238910']
+  [8595] Provigo Lévis St-Georges → ['8238910']
+  [8596] Provigo Sorel Victoria → ['8238910']
+  [8623] Provigo Lebel sur Quévillon → ['8238910']
+  [8658] Provigo Lorraine → ['8238910']
+  [8670] Provigo Ste-Julie → ['8238910']
+  [8791] Provigo Gatineau → ['8238910']
+  [8792] Provigo Chicoutimi-Nord, Roussel → ['8238910']
+  [8793] Provigo Pointe-à-la-Croix → ['8238910']
+  [8799] Provigo Mistassini → ['8238910']
+  [8805] St-Pascal de Kamouraska → ['8238910']
+  [8807] Provigo Verdun Commerce → ['8235541', '8238910']
+  [8808] Provigo Montréal St-Jacques → ['8238910']
+  [8812] Provigo Val d'Or → ['8238910']
+  [8845] Provigo Sherbrooke, 13ième → ['8238910']
+  [8846] Provigo Cherstey → ['8235541', '8238910']
+  [8861] Provigo Sept-Iles, Laure → ['8238910']
+  [8878] Provigo Lévis Rive Sud → ['8238910']
+  [8882] Provigo St-Lambert → ['8238910']
+  [8887] Provigo Port Cartier → ['8238910']
+  [8893] Provigo Mtl, Mt-Royal, St-Urbain → ['8238910']
+  [8896] Provigo Versailles → ['8238910']
+  [8941] Provigo Rivière-du-Loup → ['8238910']
+  [8978] Provigo Mtl Monkland → ['8235541', '8238910']
+  [9045] PGO Boily Rouyn-Noranda Rideau → ['8238910']
+
+  91 new publication entries across 76 stores
+  3 unique new publication(s) to download
+  Appended 91 rows to data/provigo/store_flyers.parquet
+New publication entries added to store_flyers.parquet: 91
+Unique new publications to download: 3
+
+Phase 2: fetching products for each new publication…
+
+  [8238910] General Merchandise  (2026-11-26T00:00:00-05:00 → 2027-06-30T23:59:59-04:00)
+    94 products
+  [8235541] Weekly Flyer  (2026-11-26T00:00:00-05:00 → 2026-12-02T23:59:59-05:00)
+    192 products
+  [8235544] Weekly Flyer  (2026-11-26T00:00:00-05:00 → 2026-12-02T23:59:59-05:00)
+    197 products
+
+── Phase 2 results ──────────────────────────────────────────────────
+  Downloaded : 3
+  Skipped    : 0  (file already existed)
+  Errors     : 0
+
+Run completed: 2026-11-26 22:24:38 UTC
+Elapsed      : 0m 12s
+
+
+Done.  Verbose log → logs/provigo/2026-11-26_verbose.log
+       Summary log → logs/provigo/2026-11-26_summary.log
+
